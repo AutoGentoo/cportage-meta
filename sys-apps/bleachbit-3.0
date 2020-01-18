@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES=-
+BDEPEND=  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  sys-devel/gettext  
+RDEPEND=  dev-python/chardet[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygobject:3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/scandir[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://download.bleachbit.org/bleachbit-3.0.tar.bz2

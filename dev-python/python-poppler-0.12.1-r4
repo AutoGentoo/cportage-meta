@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile configure install test
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=app-text/poppler-0.15.0[cairo]  >=dev-python/pycairo-1.8.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=app-text/poppler-0.15.0[cairo]  >=dev-python/pycairo-1.8.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=examples 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://launchpad.net/poppler-python/trunk/development/+download/pypoppler-0.12.1.tar.gz

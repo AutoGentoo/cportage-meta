@@ -1,0 +1,9 @@
+978b017202685a97fa6550c8d54afa66
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=  app-crypt/gnupg  media-gfx/qrencode  >=app-text/tree-1.7.0  git? ( dev-vcs/git )  X? ( x11-misc/xclip )  elibc_Darwin? ( app-misc/getopt )  zsh-completion? ( app-shells/gentoo-zsh-completions )  fish-completion? ( app-shells/fish )  dmenu? ( x11-misc/dmenu x11-misc/xdotool )  emacs? ( >=app-editors/emacs-23.1:* )  
+EAPI=5
+IUSE=+git X zsh-completion fish-completion emacs dmenu importers elibc_Darwin 
+KEYWORDS=
+SLOT=0
+SRC_URI=

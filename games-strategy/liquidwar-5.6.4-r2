@@ -1,0 +1,9 @@
+a380b759abe35e14944d691954ad1212
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=media-libs/allegro-4.2:0[X] 
+RDEPEND=>=media-libs/allegro-4.2:0[X] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/liquidwar/liquidwar-5.6.4.tar.gz

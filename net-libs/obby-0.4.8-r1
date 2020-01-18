@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  net-libs/net6  dev-libs/libsigc++:2  zeroconf? ( net-dns/avahi[dbus] )   nls? ( sys-devel/gettext )  
+RDEPEND=  net-libs/net6  dev-libs/libsigc++:2  zeroconf? ( net-dns/avahi[dbus] )  
+EAPI=5
+IUSE=ipv6 nls static-libs zeroconf 
+KEYWORDS=amd64 ~arm ~ppc x86
+SLOT=0
+SRC_URI=http://releases.0x539.de/obby/obby-0.4.8.tar.gz

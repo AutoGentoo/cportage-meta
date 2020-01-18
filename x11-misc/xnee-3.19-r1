@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure install prepare test
+DEPEND=  x11-libs/libX11  x11-libs/libXau  x11-libs/libXdmcp  x11-libs/libXext  x11-libs/libXi  x11-libs/libXtst  x11-libs/libxcb  gnome? (   x11-libs/gtk+:2   >=gnome-base/libgnomeui-2   >=gnome-base/gconf-2  )   x11-base/xorg-proto  virtual/pkgconfig  sys-devel/gettext  gnome? ( virtual/imagemagick-tools[jpeg,png] )  
+RDEPEND=  x11-libs/libX11  x11-libs/libXau  x11-libs/libXdmcp  x11-libs/libXext  x11-libs/libXi  x11-libs/libXtst  x11-libs/libxcb  gnome? (   x11-libs/gtk+:2   >=gnome-base/libgnomeui-2   >=gnome-base/gconf-2  )  
+EAPI=5
+IUSE=gnome static-libs xosd 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnu/xnee/xnee-3.19.tar.gz

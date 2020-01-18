@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=!dev-scheme/scheme48 
+RDEPEND=!dev-scheme/scheme48 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=ftp://ftp.scsh.net/pub/scsh/0.6/scsh-0.6.7.tar.gz

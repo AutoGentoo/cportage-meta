@@ -1,0 +1,9 @@
+7a557793db3803a0dd4847ff12e9ca2c
+DEFINED_PHASES= configure install prepare setup
+RDEPEND=sys-apps/ed  dev-util/diffstat  graphviz? ( media-gfx/graphviz )  elibc_Darwin? ( app-misc/getopt )  elibc_SunOS? ( app-misc/getopt )  >=sys-apps/coreutils-8.5 
+PDEPEND=emacs? ( app-emacs/quilt-el ) 
+EAPI=6
+IUSE=emacs graphviz elibc_Darwin elibc_SunOS 
+KEYWORDS=amd64 arm ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-solaris
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/quilt/quilt-0.66.tar.gz

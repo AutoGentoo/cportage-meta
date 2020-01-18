@@ -1,0 +1,9 @@
+60344cb8d6811e34d616bb5393819b62
+DEFINED_PHASES= compile configure install postinst prepare pretend test
+DEPEND=    >=dev-libs/libuv-1.28.0:=  >=net-dns/c-ares-1.15.0  >=net-libs/http-parser-2.9.0:=  >=net-libs/nghttp2-1.39.2  sys-libs/zlib  icu? ( >=dev-libs/icu-64.2:= )  ssl? ( >=dev-libs/openssl-1.1.1:0= )   || ( >=dev-lang/python-2.7.5-r2:2.7[threads] )  systemtap? ( dev-util/systemtap )  test? ( net-misc/curl )  
+RDEPEND=  >=dev-libs/libuv-1.28.0:=  >=net-dns/c-ares-1.15.0  >=net-libs/http-parser-2.9.0:=  >=net-libs/nghttp2-1.39.2  sys-libs/zlib  icu? ( >=dev-libs/icu-64.2:= )  ssl? ( >=dev-libs/openssl-1.1.1:0= )  
+EAPI=7
+IUSE=cpu_flags_x86_sse2 debug doc icu inspector +npm +snapshot +ssl systemtap test 
+KEYWORDS=~amd64 ~arm arm64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x64-macos
+SLOT=0
+SRC_URI=https://nodejs.org/dist/v10.18.0/node-v10.18.0.tar.xz

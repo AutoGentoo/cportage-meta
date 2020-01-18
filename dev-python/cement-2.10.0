@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES=-
+DEPEND=  dev-python/pystache[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyyaml[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/configobj[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pylibmc[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/genshi[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/colorlog[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  doc? ( dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  test? (   dev-python/mock[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/nose[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/coverage[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ) 
+RDEPEND=  dev-python/pystache[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyyaml[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/configobj[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pylibmc[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/genshi[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/colorlog[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+EAPI=6
+IUSE=test doc examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/datafolklabs/cement/archive/2.10.0.tar.gz -> cement-2.10.0.tar.gz

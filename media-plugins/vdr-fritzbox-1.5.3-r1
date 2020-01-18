@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+DEPEND=  dev-libs/libgcrypt:0  dev-libs/boost[threads]  >=media-video/vdr-1.7.34  
+RDEPEND=  dev-libs/libgcrypt:0  dev-libs/boost[threads]  >=media-video/vdr-1.7.34  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/jowi24/vdr-fritz/releases/download/1.5.3/vdr-fritzbox-1.5.3.tgz

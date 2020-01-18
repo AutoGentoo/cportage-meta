@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-ros/costmap_2d-1.16  dev-ros/nav_core  dev-ros/pluginlib  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/tf2_ros  dev-ros/visualization_msgs[ros_messages_cxx(-)]   dev-cpp/eigen:3  x11-libs/fltk  media-libs/netpbm  dev-libs/boost:=[threads]  dev-libs/console_bridge:=   test? ( dev-cpp/gtest )  dev-ros/cmake_modules 
+RDEPEND=  >=dev-ros/costmap_2d-1.16  dev-ros/nav_core  dev-ros/pluginlib  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/tf2_ros  dev-ros/visualization_msgs[ros_messages_cxx(-)]   dev-cpp/eigen:3  x11-libs/fltk  media-libs/netpbm  dev-libs/boost:=[threads]  dev-libs/console_bridge:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

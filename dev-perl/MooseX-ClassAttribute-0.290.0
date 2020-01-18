@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Moose-2.0.0  >=virtual/perl-Scalar-List-Utils-1.450.0  >=dev-perl/namespace-autoclean-0.110.0  >=dev-perl/namespace-clean-0.200.0   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Fatal   >=dev-perl/Test-Requires-0.50.0   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  >=dev-perl/Moose-2.0.0  >=virtual/perl-Scalar-List-Utils-1.450.0  >=dev-perl/namespace-autoclean-0.110.0  >=dev-perl/namespace-clean-0.200.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DR/DROLSKY/MooseX-ClassAttribute-0.29.tar.gz

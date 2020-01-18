@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  ros-meta/robot  ros-meta/viz  dev-ros/angles  ros-meta/common_tutorials  ros-meta/geometry_tutorials  ros-meta/ros_tutorials  dev-ros/roslint  dev-ros/urdf_tutorial  ros-meta/visualization_tutorials  
+RDEPEND=  ros-meta/robot  ros-meta/viz  dev-ros/angles  ros-meta/common_tutorials  ros-meta/geometry_tutorials  ros-meta/ros_tutorials  dev-ros/roslint  dev-ros/urdf_tutorial  ros-meta/visualization_tutorials  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ros/metapackages/archive/1.4.0.tar.gz -> metapackages-1.4.0.tar.gz

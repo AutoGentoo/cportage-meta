@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES=-
+DEPEND=  virtual/libudev:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  >=dev-libs/glib-2.32:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  introspection? ( >=dev-libs/gobject-introspection-1.32:= )   test? (   || ( dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 )   dev-libs/libgudev:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  app-arch/xz-utils  >=dev-util/gtk-doc-am-1.14  virtual/pkgconfig[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  
+RDEPEND=  virtual/libudev:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  >=dev-libs/glib-2.32:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  introspection? ( >=dev-libs/gobject-introspection-1.32:= )  
+EAPI=6
+IUSE=+introspection static-libs test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/martinpitt/umockdev/releases/download/0.12.1/umockdev-0.12.1.tar.xz

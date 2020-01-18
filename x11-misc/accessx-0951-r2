@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/libX11  x11-libs/libXext  dev-lang/tk:0= 
+RDEPEND=x11-libs/libX11  x11-libs/libXext  dev-lang/tk:0= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ppc sparc x86
+SLOT=0
+SRC_URI=http://cmos-eng.rehab.uiuc.edu/accessx/software/accessx0951.tar.gz

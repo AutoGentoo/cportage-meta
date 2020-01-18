@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=dev-util/netsurf-buildsystem 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64
+SLOT=0/0.0.5
+SRC_URI=https://download.netsurf-browser.org/libs/releases/libnsutils-0.0.5-src.tar.gz

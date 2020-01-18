@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/libxml2  man? ( dev-python/docutils ) 
+RDEPEND=dev-libs/libxml2 
+EAPI=6
+IUSE=+man +vclient vsim 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/openv/vcontrold/archive/v0.98.5.tar.gz -> vcontrold-0.98.5.tar.gz

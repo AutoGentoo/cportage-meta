@@ -1,0 +1,8 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install nofetch prepare
+RDEPEND=  sys-devel/gcc[cxx]  virtual/opengl  !bundled-libs? (   media-libs/devil[png]   media-libs/freetype:2   media-libs/libsdl[X,sound,joystick,opengl,video]   sys-libs/zlib  ) 
+EAPI=5
+IUSE=bundled-libs 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=FTL.1.5.13.tar.gz

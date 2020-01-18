@@ -1,0 +1,9 @@
+d537283e2880c1eb1433e4568cf9628c
+DEFINED_PHASES= install nofetch unpack
+DEPEND=gog? ( app-arch/unzip ) 
+RDEPEND=games-fps/eduke32 
+EAPI=5
+IUSE=gog 
+KEYWORDS=~amd64 ~hppa ~x86
+SLOT=0
+SRC_URI=gog? ( gog_duke_nukem_3d_atomic_edition_2.0.0.9.sh )

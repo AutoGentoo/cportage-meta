@@ -1,0 +1,10 @@
+ce0d92b3286cb20b41fa3fee48a4a738
+DEFINED_PHASES= compile install prepare test
+BDEPEND=dev-lang/go 
+DEPEND=pam? ( sys-libs/pam ) 
+RDEPEND=pam? ( sys-libs/pam )  acct? (   acct-group/git   acct-user/git[gitea]  )  dev-vcs/git 
+EAPI=7
+IUSE=+acct pam sqlite 
+KEYWORDS=
+SLOT=0
+SRC_URI=

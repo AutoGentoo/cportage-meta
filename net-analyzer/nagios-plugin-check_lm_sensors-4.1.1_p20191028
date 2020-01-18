@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=dev-lang/perl 
+DEPEND=dev-perl/Module-Install 
+RDEPEND=  dev-perl/JSON-MaybeXS  dev-perl/Monitoring-Plugin  virtual/perl-Getopt-Long  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/matteocorti/check_lm_sensors/archive/80db8aa58be8f5d7800564d62305281be1ec8e6b.tar.gz -> nagios-plugin-check_lm_sensors-4.1.1_p20191028.tar.gz

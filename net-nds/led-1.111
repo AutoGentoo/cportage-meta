@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=>=dev-lang/perl-5.6.1  dev-perl/perl-ldap  dev-perl/URI  virtual/perl-Digest-MD5  dev-perl/Authen-SASL 
+RDEPEND=>=dev-lang/perl-5.6.1  dev-perl/perl-ldap  dev-perl/URI  virtual/perl-Digest-MD5  dev-perl/Authen-SASL 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/led/led-1.111.tar.gz

@@ -1,0 +1,9 @@
+55c49ae25443a1464d108c244b1a40e8
+DEFINED_PHASES= compile install postinst prepare setup test
+DEPEND=dev-java/eclipse-ecj:4.5  dev-java/tomcat-servlet-api:3.0  virtual/jdk:1.8  test? ( dev-java/ant-junit:0 ) 
+RDEPEND=dev-java/eclipse-ecj:4.5  dev-java/tomcat-servlet-api:3.0  virtual/jre 
+EAPI=6
+IUSE=extra-webapps websockets 
+KEYWORDS=amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=7
+SRC_URI=mirror://apache/tomcat/tomcat-7/v7.0.96/src/apache-tomcat-7.0.96-src.tar.gz

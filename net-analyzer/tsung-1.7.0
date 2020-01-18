@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=dev-lang/erlang 
+RDEPEND=  gnuplot? (   sci-visualization/gnuplot   dev-perl/Template-Toolkit  )  dev-lang/erlang  
+EAPI=6
+IUSE=gnuplot 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://tsung.erlang-projects.org/dist/tsung-1.7.0.tar.gz

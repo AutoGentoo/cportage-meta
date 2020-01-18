@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=sys-devel/bison 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 arm64 hppa ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://david.freetype.org/jam/ftjam-2.5.3rc2.tar.bz2

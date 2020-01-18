@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Authen-Simple-0.300.0  virtual/perl-IO   dev-perl/Module-Build  
+RDEPEND=  >=dev-perl/Authen-Simple-0.300.0  virtual/perl-IO  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHANSEN/Authen-Simple-Passwd-0.6.tar.gz

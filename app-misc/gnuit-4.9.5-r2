@@ -1,0 +1,7 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install postinst prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gnu/gnuit/gnuit-4.9.5.tar.gz

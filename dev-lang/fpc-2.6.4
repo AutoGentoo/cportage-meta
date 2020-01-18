@@ -1,0 +1,17 @@
+5c389266c618a4f75be2d425c09e73ba
+DEFINED_PHASES= compile install postinst prepare pretend unpack
+RDEPEND=ide? ( !dev-lang/fpc-ide ) 
+EAPI=5
+IUSE=doc ide source 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=mirror://sourceforge/freepascal/fpcbuild-2.6.4.tar.gz
+	mirror://sourceforge/freepascal/fpc-2.6.4.source.tar.gz
+	amd64? ( mirror://sourceforge/freepascal/fpc-2.6.4.x86_64-linux.tar )
+	arm? ( mirror://sourceforge/freepascal/fpc-2.6.4.arm-linux.tar )
+	ppc? ( mirror://sourceforge/freepascal/fpc-2.6.4.powerpc-linux.tar )
+	ppc64? ( mirror://sourceforge/freepascal/fpc-2.6.4.powerpc64-linux.tar )
+	sparc? ( mirror://sourceforge/freepascal/fpc-2.6.2.sparc-linux.tar )
+	x86? ( mirror://sourceforge/freepascal/fpc-2.6.4.i386-linux.tar )
+	doc? ( mirror://sourceforge/freepascal/Documentation/2.6.4/doc-html.tar.gz -> fpc-2.6.4-doc-html.tar.gz
+		https://dev.gentoo.org/~radhermit/distfiles/fpc-2.6.4-fpctoc.htx.bz2 )

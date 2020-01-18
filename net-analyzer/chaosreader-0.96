@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-lang/perl-5.8.0 
+RDEPEND=>=dev-lang/perl-5.8.0 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/brendangregg/chaosreader/archive/0.96.tar.gz -> chaosreader-0.96.tar.gz

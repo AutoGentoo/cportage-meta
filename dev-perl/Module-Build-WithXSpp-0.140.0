@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/ExtUtils-CppGuess-0.40.0  >=dev-perl/ExtUtils-XSpp-0.110.0  virtual/perl-Digest-MD5  virtual/perl-ExtUtils-CBuilder  >=virtual/perl-ExtUtils-ParseXS-2.220.500  >=dev-perl/Module-Build-0.260.0  test? ( virtual/perl-Test-Simple ) 
+RDEPEND=>=dev-perl/ExtUtils-CppGuess-0.40.0  >=dev-perl/ExtUtils-XSpp-0.110.0  virtual/perl-Digest-MD5  virtual/perl-ExtUtils-CBuilder  >=virtual/perl-ExtUtils-ParseXS-2.220.500  >=dev-perl/Module-Build-0.260.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SM/SMUELLER/Module-Build-WithXSpp-0.14.tar.gz

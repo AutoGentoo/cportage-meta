@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+RDEPEND=>=www-apache/mod_security-2.9.1 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/SpiderLabs/owasp-modsecurity-crs/archive/v3.1.0.tar.gz -> modsecurity-crs-3.1.0.tar.gz

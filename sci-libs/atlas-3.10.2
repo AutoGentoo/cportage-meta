@@ -1,0 +1,8 @@
+c88e4cc7e2648686ae64076dfdc3dd31
+DEFINED_PHASES= compile configure install setup test
+EAPI=6
+IUSE=doc fortran generic lapack static-libs threads 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/math-atlas/atlas3.10.2.tar.bz2
+	fortran? ( lapack? ( http://www.netlib.org/lapack/lapack-3.6.0.tgz ) )

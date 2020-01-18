@@ -1,0 +1,11 @@
+8ddbf119899b9669c6a58a443202ee1c
+DEFINED_PHASES= config configure install postinst prepare unpack
+DEPEND=acl? ( virtual/acl )  mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql )  selinux? ( sys-libs/libselinux )  tokyocabinet? ( dev-db/tokyocabinet )  qdbm? ( dev-db/qdbm )  libvirt? ( app-emulation/libvirt )  xml? ( dev-libs/libxml2:2  )  dev-libs/openssl  dev-libs/libpcre  net-libs/libnsl 
+RDEPEND=acl? ( virtual/acl )  mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql )  selinux? ( sys-libs/libselinux )  tokyocabinet? ( dev-db/tokyocabinet )  qdbm? ( dev-db/qdbm )  libvirt? ( app-emulation/libvirt )  xml? ( dev-libs/libxml2:2  )  dev-libs/openssl  dev-libs/libpcre  net-libs/libnsl 
+PDEPEND=vim-syntax? ( app-vim/cfengine-syntax ) 
+EAPI=5
+IUSE=acl examples libvirt mysql masterfiles postgres +qdbm selinux tokyocabinet vim-syntax xml 
+KEYWORDS=~amd64 ~x86
+SLOT=3
+SRC_URI=http://cfengine.package-repos.s3.amazonaws.com/tarballs/cfengine-3.6.2.tar.gz -> cfengine-3.6.2.tar.gz
+	masterfiles? ( http://cfengine.package-repos.s3.amazonaws.com/tarballs/masterfiles-3.6.2.tar.gz -> cfengine-masterfiles-3.6.2.tar.gz )

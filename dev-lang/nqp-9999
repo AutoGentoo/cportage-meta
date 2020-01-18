@@ -1,0 +1,10 @@
+1664f14f2d8c5151abd98d524fac6ccf
+DEFINED_PHASES= compile configure install prepare pretend test
+BDEPEND=java? (   dev-java/asm:4   dev-java/jline:0   dev-java/jna:4  )  moar? ( ~dev-lang/moarvm-9999[clang=] )  clang? ( sys-devel/clang )  java? ( >=virtual/jdk-1.8 )  dev-lang/perl 
+DEPEND=java? (   dev-java/asm:4   dev-java/jline:0   dev-java/jna:4  )  moar? ( ~dev-lang/moarvm-9999[clang=] ) 
+RDEPEND=java? (   dev-java/asm:4   dev-java/jline:0   dev-java/jna:4  )  moar? ( ~dev-lang/moarvm-9999[clang=] )  java? ( >=virtual/jre-1.8 ) 
+EAPI=7
+IUSE=doc clang java +moar test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=media-libs/libsdl[X,sound,video]  media-libs/sdl-mixer[wav] 
+RDEPEND=media-libs/libsdl[X,sound,video]  media-libs/sdl-mixer[wav] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://remar.se/andreas/retrobattle/files/retrobattle-src-1.0.0.tar.bz2

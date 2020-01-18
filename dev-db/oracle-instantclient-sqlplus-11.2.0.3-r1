@@ -1,0 +1,12 @@
+4550c655054aeefe42e5630a261d68da
+DEFINED_PHASES= install nofetch
+DEPEND=app-arch/unzip 
+RDEPEND=~dev-db/oracle-instantclient-basic-11.2.0.3 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	x86?   ( instantclient-sqlplus-linux-11.2.0.3.0.zip   )
+	amd64? ( instantclient-sqlplus-linux.x64-11.2.0.3.0.zip )
+

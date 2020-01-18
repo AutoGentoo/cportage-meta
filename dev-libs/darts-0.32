@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=zlib? ( sys-libs/zlib ) 
+RDEPEND=zlib? ( sys-libs/zlib ) 
+EAPI=7
+IUSE=zlib 
+KEYWORDS=amd64 ~arm64 ~ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://chasen.org/~taku/software/darts/src/darts-0.32.tar.gz

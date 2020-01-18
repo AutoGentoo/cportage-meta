@@ -1,0 +1,18 @@
+b601016c70df0985d8896c76b9d80d2c
+DEFINED_PHASES= compile config install postinst preinst prepare setup unpack
+DEPEND=  !mail-mta/qmail  acct-group/nofiles  acct-group/qmail  acct-user/alias  acct-user/qmaild  acct-user/qmaill  acct-user/qmailp  acct-user/qmailq  acct-user/qmailr  acct-user/qmails  net-mail/queue-repair  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  sys-apps/gentoo-functions  sys-apps/groff  
+RDEPEND=  !mail-mta/courier  !mail-mta/esmtp  !mail-mta/exim  !mail-mta/mini-qmail  !mail-mta/msmtp[mta]  !mail-mta/nullmailer  !mail-mta/postfix  !mail-mta/qmail-ldap  !mail-mta/sendmail  !<mail-mta/ssmtp-2.64-r2  !>=mail-mta/ssmtp-2.64-r2[mta]  >=sys-apps/ucspi-tcp-0.88-r17  ssl? ( >=sys-apps/ucspi-ssl-0.70-r1 )  virtual/daemontools  >=net-mail/dot-forward-0.71-r3  virtual/checkpassword  authcram? ( >=net-mail/cmd5checkpw-0.30 )    !mail-mta/qmail  acct-group/nofiles  acct-group/qmail  acct-user/alias  acct-user/qmaild  acct-user/qmaill  acct-user/qmailp  acct-user/qmailq  acct-user/qmailr  acct-user/qmails  net-mail/queue-repair  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  sys-apps/gentoo-functions  sys-apps/groff   
+EAPI=5
+IUSE=authcram gencertdaily highvolume libressl +pop3 qmail-spp ssl vanilla 
+KEYWORDS=alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86
+SLOT=0
+SRC_URI=mirror://qmail/netqmail-1.06.tar.gz
+	https://dev.gentoo.org/~hollow/distfiles/genqmail-20080406.tar.bz2
+	https://www.ckdhr.com/ckd/qmail-103.patch
+	http://inoa.net/qmail-tls/vu555316.patch
+	!vanilla? (
+		highvolume? ( mirror://qmail/big-todo.103.patch )
+		qmail-spp? ( mirror://sourceforge/qmail-spp/qmail-spp-0.42.tar.gz )
+		ssl? ( http://shupp.org/patches/netqmail-1.05-tls-smtpauth-20070417.patch )
+	)
+

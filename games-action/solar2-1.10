@@ -1,0 +1,8 @@
+16723f241193be51c0b51280fe28eddf
+DEFINED_PHASES= install nofetch postinst postrm preinst prepare
+RDEPEND=  virtual/opengl  amd64? (   >=media-libs/flac-1.2.1-r5[abi_x86_32(-)]   >=media-libs/libsdl-1.2.15-r4[X,sound,video,joystick,abi_x86_32(-)]   >=media-libs/libvorbis-1.3.3-r1[abi_x86_32(-)]   >=virtual/opengl-7.0-r1[abi_x86_32(-)]   !bundled-libs? (    >=media-libs/libmad-0.15.1b-r8[abi_x86_32(-)]    >=media-libs/openal-1.15.1[abi_x86_32(-)]    >=media-libs/sdl-mixer-1.2.12-r4[flac,mikmod,mad,mp3,vorbis,abi_x86_32(-)]    >=media-libs/libmikmod-3.2.0[abi_x86_32(-)]   )  )  x86? (   media-libs/flac   media-libs/libsdl[X,sound,video,joystick]   media-libs/libvorbis   !bundled-libs? (    dev-lang/mono    media-libs/libmad    media-libs/libmikmod    media-libs/openal    media-libs/sdl-mixer[flac,mikmod,mad,mp3,vorbis]   )  ) 
+EAPI=5
+IUSE=bundled-libs 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=solar2-linux-1.10.tar.gz https://dev.gentoo.org/~chewi/distfiles/solar2.png

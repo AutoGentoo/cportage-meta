@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=  flac? ( media-libs/flac )  mp3? ( media-libs/libmad )  vorbis? ( media-libs/libvorbis media-libs/libogg )  
+EAPI=6
+IUSE=flac mp3 +vorbis 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/cuecue-0.2.2.tar.gz

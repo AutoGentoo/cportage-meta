@@ -1,0 +1,7 @@
+4877fa575db3ccca1d181a62a3457de6
+DEFINED_PHASES= compile install prepare
+EAPI=7
+IUSE=abi_x86_32 abi_x86_64 custom-cflags 
+KEYWORDS=-* ~amd64 ~arm ~arm64 ~ia64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gnu-efi/gnu-efi-3.0.11.tar.bz2

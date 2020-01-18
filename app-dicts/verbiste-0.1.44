@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= configure install postinst postrm preinst
+DEPEND=  >=dev-libs/libxml2-2.4.0:2  gtk? ( >=x11-libs/gtk+-2.6:2 )   sys-devel/gettext  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/libxml2-2.4.0:2  gtk? ( >=x11-libs/gtk+-2.6:2 )  
+EAPI=5
+IUSE=gtk 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://sarrazip.com/dev/verbiste-0.1.44.tar.gz

@@ -1,0 +1,12 @@
+1659df4ab14be60dc7e660b9a0a13443
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-ada/gnatcoll-core[ada_target_gnat_2018(-)?,-ada_target_gnat_2016(-),-ada_target_gnat_2017(-),-ada_target_gnat_2019(-),shared]  sci-mathematics/alt-ergo  sci-mathematics/why3-for-spark  dev-ada/gprbuild[ada_target_gnat_2018(-)?,-ada_target_gnat_2016(-),-ada_target_gnat_2017(-),-ada_target_gnat_2019(-)] 
+RDEPEND=  dev-ada/gnatcoll-core[ada_target_gnat_2018(-)?,-ada_target_gnat_2016(-),-ada_target_gnat_2017(-),-ada_target_gnat_2019(-),shared]  sci-mathematics/alt-ergo  sci-mathematics/why3-for-spark 
+EAPI=7
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5b0819dec7a447df26c27a47
+	-> spark-gpl-2018-src.tar.gz
+	http://mirrors.cdn.adacore.com/art/5b0819dfc7a447df26c27aa5
+		-> gnat-gpl-2018-src.tar.gz

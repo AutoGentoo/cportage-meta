@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=dev-cpp/gtkmm-2.12:2.4  dev-cpp/atkmm  >=x11-libs/gtksourceview-2.10.0:2.0  !>=dev-cpp/libgtksourceviewmm-1   virtual/pkgconfig  doc? ( app-doc/doxygen )  
+RDEPEND=  >=dev-cpp/gtkmm-2.12:2.4  dev-cpp/atkmm  >=x11-libs/gtksourceview-2.10.0:2.0  !>=dev-cpp/libgtksourceviewmm-1  
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 ppc x86
+SLOT=2.0
+SRC_URI=mirror://gnome/sources/gtksourceviewmm/2.10/gtksourceviewmm-2.10.3.tar.xz

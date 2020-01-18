@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=|| ( app-arch/unrar app-arch/rar )  >=gnome-base/libgnomeui-2  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=|| ( app-arch/unrar app-arch/rar )  >=gnome-base/libgnomeui-2 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cbrpager/cbrpager-0.9.22.tar.gz

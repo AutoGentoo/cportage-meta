@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=app-admin/gkrellm:2[X] 
+RDEPEND=  app-admin/gkrellm:2[X]  virtual/imagemagick-tools 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ppc sparc x86
+SLOT=2
+SRC_URI=mirror://sourceforge/gkrellshoot/gkrellshoot-0.4.4.tar.gz

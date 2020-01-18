@@ -1,0 +1,9 @@
+8ee2f502ced3efa1937ee855ed61adef
+DEFINED_PHASES= compile configure install
+DEPEND=  >=dev-libs/glib-2.54:2  media-libs/fontconfig  >=x11-libs/gtk+-2:2  >=x11-libs/gtk+-3:3  x11-libs/pango  ~app-admin/packagekit-base-1.1.12[introspection]   virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.54:2  media-libs/fontconfig  >=x11-libs/gtk+-2:2  >=x11-libs/gtk+-3:3  x11-libs/pango  ~app-admin/packagekit-base-1.1.12[introspection]  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://www.freedesktop.org/software/PackageKit/releases/PackageKit-1.1.12.tar.xz

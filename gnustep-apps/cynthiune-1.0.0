@@ -1,0 +1,9 @@
+d0120131d37f6d4695eb5f7b97488843
+DEFINED_PHASES= compile install
+DEPEND=media-libs/audiofile  media-libs/taglib  alsa? ( media-libs/alsa-lib )  ao? ( media-libs/libao )  flac? ( media-libs/flac )  mad? ( media-libs/libid3tag   media-libs/libmad )  musepack? ( >=media-sound/musepack-tools-444 )  modplug? ( media-libs/libmodplug )  timidity? ( media-sound/timidity++ )  vorbis? ( >=media-libs/libogg-1.1.2   >=media-libs/libvorbis-1.0.1-r2 )  mad? ( virtual/pkgconfig ) 
+RDEPEND=media-libs/audiofile  media-libs/taglib  alsa? ( media-libs/alsa-lib )  ao? ( media-libs/libao )  flac? ( media-libs/flac )  mad? ( media-libs/libid3tag   media-libs/libmad )  musepack? ( >=media-sound/musepack-tools-444 )  modplug? ( media-libs/libmodplug )  timidity? ( media-sound/timidity++ )  vorbis? ( >=media-libs/libogg-1.1.2   >=media-libs/libvorbis-1.0.1-r2 ) 
+EAPI=5
+IUSE=alsa ao flac mad modplug musepack oss timidity vorbis 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/gap/Cynthiune-1.0.0.tar.gz

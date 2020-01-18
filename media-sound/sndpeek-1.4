@@ -1,0 +1,9 @@
+25702d4263a435ac90154726f77ffb84
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=media-libs/freeglut  virtual/opengl  virtual/glu  x11-libs/libXmu  x11-libs/libX11  x11-libs/libXext  media-libs/libsndfile  jack? ( media-sound/jack-audio-connection-kit )  alsa? ( media-libs/alsa-lib )  app-eselect/eselect-sndpeek 
+RDEPEND=media-libs/freeglut  virtual/opengl  virtual/glu  x11-libs/libXmu  x11-libs/libX11  x11-libs/libXext  media-libs/libsndfile  jack? ( media-sound/jack-audio-connection-kit )  alsa? ( media-libs/alsa-lib )  app-eselect/eselect-sndpeek 
+EAPI=5
+IUSE=+alsa jack oss 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://soundlab.cs.princeton.edu/software/sndpeek/files/sndpeek-1.4.tgz

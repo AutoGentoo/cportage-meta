@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-lang/go-1.10 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~marecki/dists/goptlib/goptlib-1.1.0.tar.xz

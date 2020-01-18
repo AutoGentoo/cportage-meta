@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst
+DEPEND=app-arch/unzip 
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/offo/offo-hyphenation_v2.0.zip

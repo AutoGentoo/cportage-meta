@@ -1,0 +1,9 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= compile install test
+DEPEND=  dev-lua/luafilesystem[luajit=]  !luajit? ( >=dev-lang/lua-5.1:= )  luajit? ( dev-lang/luajit:2 )  virtual/pkgconfig  doc? ( dev-python/sphinx )  test? ( dev-lua/busted ) 
+RDEPEND=  dev-lua/luafilesystem[luajit=]  !luajit? ( >=dev-lang/lua-5.1:= )  luajit? ( dev-lang/luajit:2 ) 
+EAPI=6
+IUSE=doc luajit test 
+KEYWORDS=amd64 arm ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/mpeterv/luacheck/archive/0.20.0.tar.gz -> luacheck-0.20.0.tar.gz

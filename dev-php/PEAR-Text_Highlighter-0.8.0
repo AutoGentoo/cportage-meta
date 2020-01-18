@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=>=dev-php/PEAR-PEAR-1.10.1  dev-php/PEAR-XML_Serializer 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/Text_Highlighter-0.8.0.tgz

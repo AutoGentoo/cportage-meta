@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  tools? ( media-libs/libao )  
+RDEPEND=  alac? (   media-sound/alac_decoder   net-libs/shairplay[tools]  )  tools? (   dev-libs/openssl:0=   net-dns/avahi[mdnsresponder-compat]  )  
+EAPI=6
+IUSE=alac static-libs tools 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/juhovh/shairplay/archive/498bc5bcdd305e04721f94a04b9f26a7da72673f.tar.gz -> shairplay-0_pre20170118.tar.gz

@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install prepare
+DEPEND=sys-libs/zlib  test? ( dev-libs/check ) 
+RDEPEND=sys-libs/zlib 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://code.kryo.se/iodine/iodine-0.7.0.tar.gz

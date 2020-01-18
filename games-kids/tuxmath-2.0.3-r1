@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=dev-games/t4k-common[svg?]  dev-libs/libxml2:2  media-libs/libsdl:0[video]  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer[mod]  media-libs/sdl-net  media-libs/sdl-pango  nls? ( virtual/libintl )  svg? (   gnome-base/librsvg:2   x11-libs/cairo  )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=dev-games/t4k-common[svg?]  dev-libs/libxml2:2  media-libs/libsdl:0[video]  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer[mod]  media-libs/sdl-net  media-libs/sdl-pango  nls? ( virtual/libintl )  svg? (   gnome-base/librsvg:2   x11-libs/cairo  ) 
+EAPI=6
+IUSE=nls svg 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/t/tuxmath/tuxmath_2.0.3.orig.tar.gz

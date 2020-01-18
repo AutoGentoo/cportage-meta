@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install test
+DEPEND=  test? (   dev-java/junit:4  )    dev-java/jansi:0  dev-java/jansi-native:0  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/jansi:0  dev-java/jansi-native:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~arm64 x86
+SLOT=2
+SRC_URI=https://github.com/jline/jline2/archive/jline-2.12.1.tar.gz

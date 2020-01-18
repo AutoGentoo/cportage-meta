@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=virtual/jdk-1.8 
+RDEPEND=  >=virtual/jre-1.8 
+EAPI=6
+IUSE=doc examples source 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/jgraph-5.12.0.4.jar

@@ -1,0 +1,9 @@
+989b18bf5959ba810be43ed8a6afce6c
+DEFINED_PHASES= compile install postinst prepare test
+DEPEND=care? ( app-arch/libarchive:0= )   sys-libs/talloc  care? ( dev-libs/uthash )  test? ( dev-util/valgrind ) 
+RDEPEND=care? ( app-arch/libarchive:0= )   sys-libs/talloc 
+EAPI=7
+IUSE=care static test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/proot-me/PRoot/archive/v5.1.0.tar.gz -> proot-5.1.0.tar.gz

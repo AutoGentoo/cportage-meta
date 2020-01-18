@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+EAPI=6
+IUSE=
+KEYWORDS=m68k ~ppc
+SLOT=0
+SRC_URI=http://users.telenet.be/geertu/Download/zorroutils-0.04.tar.gz

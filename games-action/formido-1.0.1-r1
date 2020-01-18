@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= install prepare unpack
+DEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image  media-libs/sdl-mixer 
+RDEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image  media-libs/sdl-mixer 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://noe.falzon.free.fr/prog/formido-1.0.1.tar.gz
+	http://koti.mbnet.fi/lsoft/formido/formido-music.tar.bz2

@@ -1,0 +1,10 @@
+0300facb1f54a83df3d65b7598c22558
+DEFINED_PHASES= configure install setup test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  client? (   dev-libs/nspr   dev-libs/nss   dev-libs/openssl:0  )  server? (   dev-libs/nspr   dev-libs/nss   dev-libs/openssl:0  )  virtual/pkgconfig 
+RDEPEND=  client? (   dev-libs/nspr   dev-libs/nss   dev-libs/openssl:0  )  server? (   dev-libs/nspr   dev-libs/nss   dev-libs/openssl:0  )  ncd? (   sys-apps/iproute2   >=virtual/udev-171  ) 
+EAPI=5
+IUSE=+client +ncd +server +tun2socks +udpgw debug 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/ambrop72/badvpn/archive/1.999.130.tar.gz -> badvpn-1.999.130.tar.gz

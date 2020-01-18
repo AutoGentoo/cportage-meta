@@ -1,0 +1,8 @@
+72d53ed110966f24041b115a414be733
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=sys-boot/dvhtool 
+EAPI=4
+IUSE=
+KEYWORDS=-* ~mips
+SLOT=0
+SRC_URI=https://www.linux-mips.org/pub/linux/mips/people/skylark/arcload-0.5.tar.bz2

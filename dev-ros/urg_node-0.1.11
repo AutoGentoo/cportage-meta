@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/urg_c  dev-ros/tf  dev-ros/dynamic_reconfigure[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/nodelet  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/diagnostic_updater  dev-ros/laser_proc  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_srvs[ros_messages_cxx(-)]  dev-libs/boost:=  
+RDEPEND=  dev-ros/urg_c  dev-ros/tf  dev-ros/dynamic_reconfigure[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/nodelet  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/diagnostic_updater  dev-ros/laser_proc  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_srvs[ros_messages_cxx(-)]  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros-drivers/urg_node/archive/0.1.11.tar.gz -> urg_node-0.1.11.tar.gz

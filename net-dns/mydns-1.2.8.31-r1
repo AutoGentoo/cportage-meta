@@ -1,0 +1,9 @@
+5e7433bd50eef174ef6d018bc8f3fa64
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=mysql? ( virtual/mysql )  nls? ( virtual/libintl )  postgres? ( dev-db/postgresql )  ssl? ( dev-libs/openssl )  virtual/libiconv  nls? ( >=sys-devel/gettext-0.12 )  sys-devel/bison 
+RDEPEND=mysql? ( virtual/mysql )  nls? ( virtual/libintl )  postgres? ( dev-db/postgresql )  ssl? ( dev-libs/openssl )  virtual/libiconv 
+EAPI=5
+IUSE=alias debug nls mysql postgres ssl static status 
+KEYWORDS=alpha amd64 ~hppa ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mydns-ng/mydns-1.2.8.31.tar.gz

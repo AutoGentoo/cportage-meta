@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= compile install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=doc? ( app-doc/doxygen[dot] ) 
+EAPI=7
+IUSE=debug debugger doc static-libs 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/antlr/antlr3/archive/3.5.2.tar.gz -> antlr-3.5.2.tar.gz

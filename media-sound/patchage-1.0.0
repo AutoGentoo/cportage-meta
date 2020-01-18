@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-cpp/glibmm-2.14:2  >=dev-cpp/gtkmm-2.11.12:2.4  >=dev-cpp/libglademm-2.6.0:2.4  dev-cpp/libgnomecanvasmm:2.6  >=media-libs/ganv-1.4.0  virtual/jack  alsa? ( media-libs/alsa-lib )  jack-dbus? ( dev-libs/dbus-glib   sys-apps/dbus )  || ( >=dev-lang/python-2.7.5-r2:2.7[threads(+)] )  dev-libs/boost  virtual/pkgconfig 
+RDEPEND=>=dev-cpp/glibmm-2.14:2  >=dev-cpp/gtkmm-2.11.12:2.4  >=dev-cpp/libglademm-2.6.0:2.4  dev-cpp/libgnomecanvasmm:2.6  >=media-libs/ganv-1.4.0  virtual/jack  alsa? ( media-libs/alsa-lib )  jack-dbus? ( dev-libs/dbus-glib   sys-apps/dbus ) 
+EAPI=5
+IUSE=alsa debug jack-dbus session 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.drobilla.net/patchage-1.0.0.tar.bz2

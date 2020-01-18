@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/CDDB-File-1.10.0  >=virtual/perl-File-Temp-0.50.0  virtual/perl-IO  dev-perl/Moo  >=virtual/perl-libnet-2.120.0   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Most  )  
+RDEPEND=  >=dev-perl/CDDB-File-1.10.0  >=virtual/perl-File-Temp-0.50.0  virtual/perl-IO  dev-perl/Moo  >=virtual/perl-libnet-2.120.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DS/DSHULTZ/Net-FreeDB-0.10.tar.gz

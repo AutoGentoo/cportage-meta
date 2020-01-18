@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES=-
+DEPEND=  media-libs/gd[jpeg?,png?,truetype?,xpm?]  media-libs/giflib  jpeg? ( virtual/jpeg:0 )  png? ( media-libs/libpng:0 )  truetype? ( media-libs/freetype:2 )  xpm? ( x11-libs/libXpm ) 
+RDEPEND=  media-libs/gd[jpeg?,png?,truetype?,xpm?]  media-libs/giflib  jpeg? ( virtual/jpeg:0 )  png? ( media-libs/libpng:0 )  truetype? ( media-libs/freetype:2 )  xpm? ( x11-libs/libXpm ) 
+EAPI=5
+IUSE=jpeg png truetype xpm 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://newcenturycomputers.net/projects/download.cgi/gdmodule-0.56.tar.gz

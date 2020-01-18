@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= install prepare
+DEPEND=>=dev-lang/tcl-8.6:0  sci-electronics/geda  dev-db/datadraw 
+RDEPEND=>=dev-lang/tcl-8.6:0  sci-electronics/geda 
+EAPI=4
+IUSE=doc examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/gnetman-0.0.1_pre20110124.tar.gz

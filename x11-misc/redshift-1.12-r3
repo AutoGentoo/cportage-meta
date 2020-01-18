@@ -1,0 +1,9 @@
+dd6fb33998378b385ce7289aa8ee2a1f
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=>=x11-libs/libX11-1.4  x11-libs/libXxf86vm  x11-libs/libxcb  x11-libs/libdrm  ayatana? ( dev-libs/libappindicator:3[introspection] )  geoclue? ( app-misc/geoclue:2.0 dev-libs/glib:2 )  gtk? ( python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  >=dev-util/intltool-0.50  nls? ( sys-devel/gettext )  
+RDEPEND=>=x11-libs/libX11-1.4  x11-libs/libXxf86vm  x11-libs/libxcb  x11-libs/libdrm  ayatana? ( dev-libs/libappindicator:3[introspection] )  geoclue? ( app-misc/geoclue:2.0 dev-libs/glib:2 )  gtk? ( python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  gtk? ( dev-python/pygobject[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]   x11-libs/gtk+:3[introspection]   dev-python/pyxdg[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] ) 
+EAPI=6
+IUSE=ayatana geoclue gtk nls 
+KEYWORDS=amd64 arm64 x86
+SLOT=0
+SRC_URI=https://github.com/jonls/redshift/archive/v1.12.tar.gz -> redshift-1.12.tar.gz

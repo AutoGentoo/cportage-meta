@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=|| ( sys-libs/gdbm sys-libs/db:* ) 
+RDEPEND=|| ( sys-libs/gdbm sys-libs/db:* )  !net-mail/safecat 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://github.com/jbj/magicrescue/archive/v1.1.10.tar.gz -> magicrescue-1.1.10.tar.gz

@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=media-libs/fontconfig  media-libs/freetype:2  gpm? ( sys-libs/gpm )  video_cards_vesa? ( dev-libs/libx86 )  >=sys-libs/ncurses-6.1  virtual/pkgconfig 
+RDEPEND=media-libs/fontconfig  media-libs/freetype:2  gpm? ( sys-libs/gpm )  video_cards_vesa? ( dev-libs/libx86 )  >=sys-libs/ncurses-6.1 
+EAPI=6
+IUSE=gpm video_cards_vesa 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/fbterm/fbterm-1.7.0.tar.gz

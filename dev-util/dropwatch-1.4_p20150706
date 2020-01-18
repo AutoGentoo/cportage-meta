@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst
+DEPEND=dev-libs/libnl:3  sys-libs/binutils-libs:=  sys-libs/readline:=  virtual/pkgconfig 
+RDEPEND=dev-libs/libnl:3  sys-libs/binutils-libs:=  sys-libs/readline:= 
+EAPI=6
+IUSE=kernel_linux 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~bircoph/distfiles/dropwatch-1.4_p20150706.tar.xz

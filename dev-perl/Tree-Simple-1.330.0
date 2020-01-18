@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=virtual/perl-Scalar-List-Utils-1.180.0   virtual/perl-ExtUtils-MakeMaker  test? (   !minimal? ( dev-perl/Test-Memory-Cycle )   >=dev-perl/Test-Exception-0.150.0   >=virtual/perl-Test-Simple-1.1.2  )  
+RDEPEND=  >=virtual/perl-Scalar-List-Utils-1.180.0  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RS/RSAVAGE/Tree-Simple-1.33.tgz

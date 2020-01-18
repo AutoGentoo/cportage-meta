@@ -1,0 +1,12 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install postinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/bzip2  dev-libs/tinyxml  media-libs/freetype:2  media-libs/portaudio  sys-libs/zlib  opengl? ( virtual/opengl )  x11-libs/gtk+:2  x11-libs/wxGTK:3.0[X]  gps? ( sci-geosciences/gpsd )  !sci-geosciences/opencpn-plugin-wmm   sys-devel/gettext 
+RDEPEND=  app-arch/bzip2  dev-libs/tinyxml  media-libs/freetype:2  media-libs/portaudio  sys-libs/zlib  opengl? ( virtual/opengl )  x11-libs/gtk+:2  x11-libs/wxGTK:3.0[X]  gps? ( sci-geosciences/gpsd )  !sci-geosciences/opencpn-plugin-wmm  
+EAPI=5
+IUSE=doc gps opengl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/OpenCPN/OpenCPN/archive/v4.8.0.tar.gz -> opencpn-4.8.0.tar.gz
+doc? ( https://launchpad.net/~opencpn/+archive/ubuntu/opencpn/+files/opencpn-doc_4.1.1329.1.orig.tar.xz )
+

@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile install
+BDEPEND=dev-tex/leaflet  dev-texlive/texlive-bibtexextra  dev-texlive/texlive-fontsrecommended  dev-texlive/texlive-latex  dev-texlive/texlive-latexextra  dev-texlive/texlive-latexrecommended  dev-texlive/texlive-mathscience  html? ( >=dev-tex/tex4ht-20090611_p1038-r5 ) 
+RDEPEND=!app-doc/pms-bin 
+EAPI=7
+IUSE=html twoside 
+KEYWORDS=
+SLOT=live
+SRC_URI=

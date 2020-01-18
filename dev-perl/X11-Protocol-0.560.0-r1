@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=x11-libs/libXrender  x11-libs/libXext 
+RDEPEND=x11-libs/libXrender  x11-libs/libXext 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sparc x86 ~amd64-linux ~x86-linux ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SM/SMCCAM/X11-Protocol-0.56.tar.gz

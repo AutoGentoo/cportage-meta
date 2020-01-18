@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-ExtUtils-MakeMaker  virtual/perl-File-Spec  virtual/perl-Getopt-Long  dev-perl/Module-Runtime  >=virtual/perl-Pod-Parser-1.210.0  virtual/perl-parent  >=virtual/perl-version-0.770.0   test? (   virtual/perl-Test-Simple   >=virtual/perl-Test-Harness-0.210.0  )  
+RDEPEND=  virtual/perl-ExtUtils-MakeMaker  virtual/perl-File-Spec  virtual/perl-Getopt-Long  dev-perl/Module-Runtime  >=virtual/perl-Pod-Parser-1.210.0  virtual/perl-parent  >=virtual/perl-version-0.770.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DB/DBOOK/Module-Starter-1.73.tar.gz

@@ -1,0 +1,9 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= configure prepare
+DEPEND=  >=dev-libs/glib-2.16:2  net-dns/libidn  ssl? (   !openssl? ( >=net-libs/gnutls-1.4.0:0= )   openssl? ( dev-libs/openssl:0= )  )  asyncns? ( >=net-libs/libasyncns-0.3 )   test? ( dev-libs/check )  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.16:2  net-dns/libidn  ssl? (   !openssl? ( >=net-libs/gnutls-1.4.0:0= )   openssl? ( dev-libs/openssl:0= )  )  asyncns? ( >=net-libs/libasyncns-0.3 )  
+EAPI=6
+IUSE=asyncns ssl openssl static-libs test 
+KEYWORDS=alpha amd64 ~arm ia64 ppc ppc64 sparc x86 ~ppc-macos
+SLOT=0
+SRC_URI=https://github.com/mcabber/loudmouth/archive/1.5.3.tar.gz -> loudmouth-1.5.3.tar.gz

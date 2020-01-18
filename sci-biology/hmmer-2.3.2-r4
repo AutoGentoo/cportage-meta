@@ -1,0 +1,8 @@
+52e60c1a1824aa1890cf68cfcbe5aa9d
+DEFINED_PHASES= configure install postinst
+DEPEND=test? ( dev-lang/perl ) 
+EAPI=6
+IUSE=altivec test threads 
+KEYWORDS=~amd64 ~x86
+SLOT=2
+SRC_URI=http://eddylab.org/software/hmmer/2.3.2/hmmer-2.3.2.tar.gz

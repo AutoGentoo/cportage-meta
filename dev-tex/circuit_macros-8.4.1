@@ -1,0 +1,8 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install postinst postrm
+RDEPEND=|| ( app-text/texlive[graphics] app-text/texlive[pstricks] )  media-gfx/dpic  sys-devel/m4  script? ( app-text/texlive[graphics]   dev-texlive/texlive-latexextra ) 
+EAPI=7
+IUSE=doc examples +script 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://ece.uwaterloo.ca/~aplevich/Circuit_macros/Circuit_macros.tar.gz -> circuit_macros-8.4.1.tar.gz

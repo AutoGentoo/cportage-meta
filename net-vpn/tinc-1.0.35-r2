@@ -1,0 +1,11 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  lzo? ( dev-libs/lzo:2 )  zlib? ( sys-libs/zlib ) 
+RDEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  lzo? ( dev-libs/lzo:2 )  zlib? ( sys-libs/zlib )  vde? ( net-misc/vde ) 
+EAPI=7
+IUSE=libressl +lzo uml vde +zlib 
+KEYWORDS=~amd64 ~arm ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.tinc-vpn.org/packages/tinc-1.0.35.tar.gz
+	https://dev.gentoo.org/~dlan/distfiles/tinc-1.0.35-upstream-patches-1.tar.xz

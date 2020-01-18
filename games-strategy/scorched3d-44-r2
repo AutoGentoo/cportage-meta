@@ -1,0 +1,9 @@
+5c646675cc161b86c201005c0e4c07ef
+DEFINED_PHASES= configure install prepare setup
+DEPEND=  dev-libs/expat  media-fonts/dejavu  media-libs/libpng:0=  media-libs/libsdl[video]  media-libs/sdl-net  sys-libs/zlib  virtual/jpeg:0  !dedicated? (   virtual/opengl   virtual/glu   media-libs/glew:0=   media-libs/libogg   media-libs/libvorbis   media-libs/openal   media-libs/freealut   x11-libs/wxGTK:3.0[X]   media-libs/freetype:2   sci-libs/fftw:3.0=  )  mysql? ( virtual/mysql )  !dedicated? ( virtual/pkgconfig ) 
+RDEPEND=  dev-libs/expat  media-fonts/dejavu  media-libs/libpng:0=  media-libs/libsdl[video]  media-libs/sdl-net  sys-libs/zlib  virtual/jpeg:0  !dedicated? (   virtual/opengl   virtual/glu   media-libs/glew:0=   media-libs/libogg   media-libs/libvorbis   media-libs/openal   media-libs/freealut   x11-libs/wxGTK:3.0[X]   media-libs/freetype:2   sci-libs/fftw:3.0=  )  mysql? ( virtual/mysql ) 
+EAPI=6
+IUSE=dedicated mysql 
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/scorched3d/Scorched3D-44-src.tar.gz

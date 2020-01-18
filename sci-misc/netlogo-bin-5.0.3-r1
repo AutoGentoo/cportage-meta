@@ -1,0 +1,10 @@
+573379496463f686a4eaa80afac0af09
+DEFINED_PHASES= install
+RDEPEND=>=virtual/jre-1.5 
+EAPI=5
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~jlec/distfiles/netlogo.gif.tar
+	http://ccl.northwestern.edu/netlogo/5.0.3/netlogo-5.0.3.tar.gz

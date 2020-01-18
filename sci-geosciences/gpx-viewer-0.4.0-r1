@@ -1,0 +1,9 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/gdl:3  dev-libs/glib:2  dev-libs/libxml2:2  >=media-libs/clutter-gtk-1.4.0:1.0  >=media-libs/libchamplain-0.12.3:0.12[gtk]  x11-libs/gtk+:3  || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.42 dev-lang/vala:0.40 dev-lang/vala:0.36 )  >=dev-util/intltool-0.21  virtual/pkgconfig 
+RDEPEND=  dev-libs/gdl:3  dev-libs/glib:2  dev-libs/libxml2:2  >=media-libs/clutter-gtk-1.4.0:1.0  >=media-libs/libchamplain-0.12.3:0.12[gtk]  x11-libs/gtk+:3 
+EAPI=5
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://edge.launchpad.net/gpx-viewer/trunk/0.4.0/+download/gpx-viewer-0.4.0.tar.gz

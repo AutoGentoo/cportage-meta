@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Moose-0.940.0  dev-perl/namespace-autoclean   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-File-Spec   dev-perl/Test-Fatal   dev-perl/Test-Needs   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  >=dev-perl/Moose-0.940.0  dev-perl/namespace-autoclean  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DR/DROLSKY/MooseX-StrictConstructor-0.21.tar.gz

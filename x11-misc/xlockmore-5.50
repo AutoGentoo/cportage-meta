@@ -1,0 +1,9 @@
+25862a09de0acf6ba71afbcb40ecd811
+DEFINED_PHASES= configure install prepare
+DEPEND=    gtk? ( x11-libs/gtk+:2 )  imagemagick? ( media-gfx/imagemagick:= )  motif? ( >=x11-libs/motif-2.3:0 )  nas? ( media-libs/nas )  opengl? (   virtual/opengl   virtual/glu   truetype? ( >=media-libs/ftgl-2.1.3_rc5 )  )  pam? ( sys-libs/pam )  truetype? ( media-libs/freetype:2 )  x11-libs/libX11  x11-libs/libXext  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libXt  xinerama? ( x11-libs/libXinerama )   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  gtk? ( x11-libs/gtk+:2 )  imagemagick? ( media-gfx/imagemagick:= )  motif? ( >=x11-libs/motif-2.3:0 )  nas? ( media-libs/nas )  opengl? (   virtual/opengl   virtual/glu   truetype? ( >=media-libs/ftgl-2.1.3_rc5 )  )  pam? ( sys-libs/pam )  truetype? ( media-libs/freetype:2 )  x11-libs/libX11  x11-libs/libXext  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libXt  xinerama? ( x11-libs/libXinerama )  
+EAPI=6
+IUSE=crypt debug gtk imagemagick motif nas opengl pam truetype xinerama xlockrc vtlock 
+KEYWORDS=alpha amd64 ~arm hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://www.sillycycle.com/xlock/xlockmore-5.50.tar.xz

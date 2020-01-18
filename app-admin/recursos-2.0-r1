@@ -1,0 +1,8 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install postinst
+RDEPEND=app-shells/bash  net-analyzer/rrdtool[graph]  virtual/imagemagick-tools 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/recursos-2.0.tbz2

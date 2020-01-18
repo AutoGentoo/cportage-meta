@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    >=media-libs/giblib-1.2.3  x11-libs/libX11  x11-libs/libXcursor  x11-libs/libXfixes  || (   media-libs/imlib2[gif]   media-libs/imlib2[jpeg]   media-libs/imlib2[png]   media-libs/imlib2[tiff]  )   x11-base/xorg-proto  
+RDEPEND=  >=media-libs/giblib-1.2.3  x11-libs/libX11  x11-libs/libXcursor  x11-libs/libXfixes  || (   media-libs/imlib2[gif]   media-libs/imlib2[jpeg]   media-libs/imlib2[png]   media-libs/imlib2[tiff]  )  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

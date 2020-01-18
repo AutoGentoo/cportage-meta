@@ -1,0 +1,9 @@
+d664ed95f48dc41382db88e3955a83ac
+DEFINED_PHASES= configure install postinst prepare setup
+DEPEND=>=sys-fs/lvm2-2.02.45  klibc? ( dev-libs/klibc )  dietlibc? ( dev-libs/dietlibc )  virtual/pkgconfig  static? ( sys-fs/lvm2[static-libs] ) 
+RDEPEND=>=sys-fs/lvm2-2.02.45  klibc? ( dev-libs/klibc )  dietlibc? ( dev-libs/dietlibc ) 
+EAPI=5
+IUSE=dietlibc intel_led klibc led mini static 
+KEYWORDS=alpha amd64 arm ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://people.redhat.com/~heinzm/sw/dmraid/src/dmraid-1.0.0.rc16-3.tar.bz2

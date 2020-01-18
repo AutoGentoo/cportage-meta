@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=virtual/pkgconfig 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/phhusson/QuasselC/archive/a0a1e6bd87d3eac68b5369972d1c2035cfe47e94.zip -> quasselc-0_p20170111.zip

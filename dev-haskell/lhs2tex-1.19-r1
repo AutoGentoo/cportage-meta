@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-tex/polytable-0.8.2  dev-texlive/texlive-mathscience   >=dev-haskell/cabal-1.10   dev-haskell/mtl   dev-haskell/regex-compat   >=dev-lang/ghc-6.12.1 
+RDEPEND=>=dev-tex/polytable-0.8.2  dev-texlive/texlive-mathscience 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/lhs2tex-1.19/lhs2tex-1.19.tar.gz

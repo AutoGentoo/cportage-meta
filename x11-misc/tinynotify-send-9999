@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=app-eselect/eselect-notify-send  x11-libs/libtinynotify:0=  ~x11-libs/libtinynotify-cli-9999  dev-util/gtk-doc  virtual/pkgconfig 
+RDEPEND=app-eselect/eselect-notify-send  x11-libs/libtinynotify:0=  ~x11-libs/libtinynotify-cli-9999 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

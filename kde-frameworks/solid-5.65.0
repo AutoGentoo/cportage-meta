@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+BDEPEND=  nls? ( >=dev-qt/linguist-tools-5.12.3:5 )  
+DEPEND=  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  sys-fs/udisks:2  virtual/libudev:=   test? ( >=dev-qt/qtconcurrent-5.12.3:5 )  
+RDEPEND=  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  sys-fs/udisks:2  virtual/libudev:=  
+EAPI=7
+IUSE=nls 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
+SLOT=5/5.65
+SRC_URI=mirror://kde/stable/frameworks/5.65/solid-5.65.0.tar.xz

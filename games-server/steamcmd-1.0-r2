@@ -1,0 +1,8 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= install postinst
+RDEPEND=  acct-group/steamcmd  acct-user/steamcmd  app-misc/screen  
+EAPI=7
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz -> steamcmd-1.0.tar.gz

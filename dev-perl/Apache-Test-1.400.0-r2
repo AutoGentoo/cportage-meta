@@ -1,0 +1,9 @@
+f32521a076e4f31392b596a77db54226
+DEFINED_PHASES= install postinst setup test
+DEPEND=virtual/perl-ExtUtils-MakeMaker =www-servers/apache-2* 
+RDEPEND=dev-lang/perl:= =www-servers/apache-2* 
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ~arm ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SH/SHAY/Apache-Test-1.40.tar.gz

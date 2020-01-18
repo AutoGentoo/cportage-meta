@@ -1,0 +1,10 @@
+e60f4ff3238b9ece92c5ce01c7f1ffe3
+DEFINED_PHASES= install prepare
+BDEPEND=app-arch/unzip 
+RDEPEND=|| ( games-fps/ut2004 >=games-server/ut2004-ded-3369.3-r2 )  games-fps/ut2004-bonuspack-cbp1  games-fps/ut2004-bonuspack-mega 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://ut2004.ut-files.com/BonusPacks/cbp2-volume1_zip.zip
+	https://ut2004.ut-files.com/BonusPacks/cbp2-volume2_zip.zip

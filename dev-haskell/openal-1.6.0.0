@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/opengl-2.9.0.0:=[profile?]  >=dev-lang/ghc-6.10.4:=  media-libs/openal   >=dev-haskell/cabal-1.6.0.3  
+RDEPEND=>=dev-haskell/opengl-2.9.0.0:=[profile?]  >=dev-lang/ghc-6.10.4:=  media-libs/openal  
+EAPI=5
+IUSE=
+KEYWORDS= ~amd64 ~x86
+SLOT=0/1.6.0.0
+SRC_URI=https://hackage.haskell.org/package/OpenAL-1.6.0.0/OpenAL-1.6.0.0.tar.gz

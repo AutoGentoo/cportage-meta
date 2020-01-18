@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=>=dev-lang/tk-8.3 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~jlec/distfiles/visualregexp-icon.png.tar
+	http://laurent.riesterer.free.fr/regexp/visual_regexp-3.0.tar.gz

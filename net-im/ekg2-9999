@@ -1,0 +1,11 @@
+176b5f1d86f2a28d9631017c6bcaf2d6
+DEFINED_PHASES= configure install prepare pretend
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=dev-libs/glib:2  gadu? ( <net-libs/libgadu-1.12:0= )  gpg? ( app-crypt/gpgme:1= )  gtk? ( x11-libs/gtk+:2 )  nls? ( virtual/libintl:0= )  openssl? ( dev-libs/openssl:0= )  perl? ( dev-lang/perl:0= )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  readline? ( sys-libs/readline:0= )  rss? ( dev-libs/expat:0= )  ssl? ( net-libs/gnutls:0= )  xmpp? ( dev-libs/expat:0= )  zlib? ( sys-libs/zlib:0= )   ncurses? ( sys-libs/ncurses:0=[unicode=]   gpm? ( sys-libs/gpm:0= )   spell? ( app-text/aspell:0= ) )  sqlite? ( dev-db/sqlite:3= )  sys-devel/gettext 
+RDEPEND=dev-libs/glib:2  gadu? ( <net-libs/libgadu-1.12:0= )  gpg? ( app-crypt/gpgme:1= )  gtk? ( x11-libs/gtk+:2 )  nls? ( virtual/libintl:0= )  openssl? ( dev-libs/openssl:0= )  perl? ( dev-lang/perl:0= )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  readline? ( sys-libs/readline:0= )  rss? ( dev-libs/expat:0= )  ssl? ( net-libs/gnutls:0= )  xmpp? ( dev-libs/expat:0= )  zlib? ( sys-libs/zlib:0= )   ncurses? ( sys-libs/ncurses:0=[unicode=]   gpm? ( sys-libs/gpm:0= )   spell? ( app-text/aspell:0= ) )  sqlite? ( dev-db/sqlite:3= ) 
+EAPI=7
+IUSE=gadu gpm gpg gtk minimal ncurses nls nntp openssl
+	perl python readline rss spell sqlite ssl xmpp unicode zlib 
+KEYWORDS=
+SLOT=0
+SRC_URI=

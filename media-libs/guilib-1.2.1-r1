@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=>=media-libs/libsdl-1.0.1 
+RDEPEND=>=media-libs/libsdl-1.0.1 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=amd64 ~hppa ppc x86
+SLOT=0
+SRC_URI=https://www.libsdl.org/projects/GUIlib/src/GUIlib-1.2.1.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=6
+IUSE=debug static-libs 
+KEYWORDS=amd64 x86
+SLOT=0/4
+SRC_URI=http://download.osgeo.org/libspatialindex/spatialindex-src-1.8.5.tar.bz2

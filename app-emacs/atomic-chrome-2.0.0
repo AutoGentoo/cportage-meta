@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=app-emacs/websocket 
+RDEPEND=app-emacs/websocket 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/alpha22jp/atomic-chrome/archive/v2.0.0.tar.gz -> atomic-chrome-2.0.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  media-libs/tiff:0=  virtual/jpeg:0  sys-libs/zlib:0= 
+RDEPEND=  media-libs/tiff:0=  virtual/jpeg:0  sys-libs/zlib:0= 
+EAPI=6
+IUSE=doc threads 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.astromatic.net/download/stiff/stiff-2.4.0.tar.gz

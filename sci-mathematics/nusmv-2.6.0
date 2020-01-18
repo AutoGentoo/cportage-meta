@@ -1,0 +1,11 @@
+29d238e20bcf91e651db8ba70984838a
+DEFINED_PHASES= compile configure install prepare unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=minisat? ( >=sci-mathematics/minisat-2.2.0_p20130925 )  doc? (   virtual/latex-base   dev-texlive/texlive-latexextra   app-doc/doxygen  )  app-arch/unzip  dev-libs/libxml2  || ( >=dev-lang/python-2.7.5-r2:2.7 ) 
+RDEPEND=minisat? ( >=sci-mathematics/minisat-2.2.0_p20130925 )  dev-libs/expat 
+EAPI=6
+IUSE=minisat doc zchaff 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://nusmv.fbk.eu/distrib/NuSMV-2.6.0.tar.gz
+		zchaff? ( http://www.princeton.edu/~chaff/zchaff/zchaff.64bit.2007.3.12.zip )

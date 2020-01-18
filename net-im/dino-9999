@@ -1,0 +1,10 @@
+81425ee33953e041c23de93beac9ac28
+DEFINED_PHASES= configure postinst postrm prepare test
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.42 dev-lang/vala:0.40 dev-lang/vala:0.36 )    dev-db/sqlite:3  dev-libs/glib:2  dev-libs/icu  dev-libs/libgee:0.8  net-libs/glib-networking  x11-libs/cairo  x11-libs/gdk-pixbuf:2  x11-libs/gtk+:3  x11-libs/pango  gpg? ( app-crypt/gpgme:1 )  http? ( net-libs/libsoup:2.4 )  omemo? (   dev-libs/libgcrypt:0   media-gfx/qrencode  )   sys-devel/gettext  
+RDEPEND=  dev-db/sqlite:3  dev-libs/glib:2  dev-libs/icu  dev-libs/libgee:0.8  net-libs/glib-networking  x11-libs/cairo  x11-libs/gdk-pixbuf:2  x11-libs/gtk+:3  x11-libs/pango  gpg? ( app-crypt/gpgme:1 )  http? ( net-libs/libsoup:2.4 )  omemo? (   dev-libs/libgcrypt:0   media-gfx/qrencode  )  
+EAPI=6
+IUSE=+gpg +http +omemo 
+KEYWORDS=
+SLOT=0
+SRC_URI=

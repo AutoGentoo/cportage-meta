@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup
+DEPEND=>=media-libs/libifp-1.0.0.2  dev-lang/swig 
+RDEPEND=>=media-libs/libifp-1.0.0.2 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ia64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ifp-gnome/pyifp-0.2.2.tar.gz

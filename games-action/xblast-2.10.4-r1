@@ -1,0 +1,14 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/libpng:0  x11-libs/libICE  x11-libs/libX11  x11-libs/libXt 
+RDEPEND=  media-libs/libpng:0  x11-libs/libICE  x11-libs/libX11 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xblast/xblast-2.10.4.tar.gz
+	mirror://sourceforge/xblast/images-2005-01-06.tar.gz
+	mirror://sourceforge/xblast/levels-2005-01-06.tar.gz
+	mirror://sourceforge/xblast/models-2005-01-06.tar.gz
+	mirror://sourceforge/xblast/musics-2005-01-06.tar.gz
+	mirror://sourceforge/xblast/sounds.tar.gz

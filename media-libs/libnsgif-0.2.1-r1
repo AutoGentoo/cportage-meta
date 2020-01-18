@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  >=dev-util/netsurf-buildsystem-1.7-r1  virtual/pkgconfig 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~x86 ~m68k-mint
+SLOT=0
+SRC_URI=https://download.netsurf-browser.org/libs/releases/libnsgif-0.2.1-src.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=  dev-qt/linguist-tools:5  >=dev-util/lxqt-build-tools-0.6.0  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

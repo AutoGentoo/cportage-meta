@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+DEPEND=libvirt? ( >=app-emulation/libvirt-1.2.2 )  xen? ( app-emulation/xen ) 
+RDEPEND=libvirt? ( >=app-emulation/libvirt-1.2.2 )  xen? ( app-emulation/xen ) 
+EAPI=6
+IUSE=libvirt xen 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/hyperhq/runv/archive/v0.7.0.tar.gz -> runv-0.7.0.tar.gz

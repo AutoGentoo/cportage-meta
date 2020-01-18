@@ -1,0 +1,10 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  dev-libs/glib:2  gnome-base/libglade:2.0  sci-chemistry/mpqc  >=sci-libs/libghemical-3.0.0:=  >=x11-libs/liboglappth-1.0.0:=  virtual/opengl  x11-libs/pango:0=  x11-libs/gtk+:2  x11-libs/gtkglext:0=  openbabel? ( sci-chemistry/openbabel )  virtual/pkgconfig 
+RDEPEND=  dev-libs/glib:2  gnome-base/libglade:2.0  sci-chemistry/mpqc  >=sci-libs/libghemical-3.0.0:=  >=x11-libs/liboglappth-1.0.0:=  virtual/opengl  x11-libs/pango:0=  x11-libs/gtk+:2  x11-libs/gtkglext:0=  openbabel? ( sci-chemistry/openbabel ) 
+EAPI=7
+IUSE=openbabel seamonkey threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://bioinformatics.org/ghemical/download/current/ghemical-3.0.0.tar.gz

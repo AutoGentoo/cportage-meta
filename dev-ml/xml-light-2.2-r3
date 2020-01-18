@@ -1,0 +1,9 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= compile install prepare test
+DEPEND=app-arch/unzip  dev-lang/ocaml:=[ocamlopt?] 
+RDEPEND=dev-lang/ocaml:=[ocamlopt?] 
+EAPI=5
+IUSE=doc +ocamlopt 
+KEYWORDS=amd64 ~arm ~arm64 ~ppc x86
+SLOT=0/2.2
+SRC_URI=http://tech.motion-twin.com/zip/xml-light-2.2.zip

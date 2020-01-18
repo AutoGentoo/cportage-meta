@@ -1,0 +1,9 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.8  app-arch/unzip    dev-java/commons-cli:1  dev-java/cortado:0  dev-java/miglayout:0  
+RDEPEND=>=virtual/jre-1.8    dev-java/commons-cli:1  dev-java/cortado:0  dev-java/miglayout:0  
+EAPI=7
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/freecol/freecol-0.11.6-src.zip

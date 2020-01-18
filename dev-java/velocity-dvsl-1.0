@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=    dev-java/ant-core:0  dev-java/dom4j:1  dev-java/velocity:0  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/ant-core:0  dev-java/dom4j:1  dev-java/velocity:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://apache/velocity/dvsl/1.0/velocity-dvsl-1.0-src.zip -> velocity-dvsl-1.0.zip

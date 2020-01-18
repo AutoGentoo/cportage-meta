@@ -1,0 +1,9 @@
+5ec75316c84426fdf65cba51cdf7443f
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=  dev-libs/lzo  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qttest:5  dev-qt/qtwidgets:5  media-libs/libpng:0=  sci-libs/gsl:=  opencl? ( virtual/opencl )  openexr? (   media-libs/ilmbase:=   media-libs/openexr:=  )  sndfile? ( media-libs/libsndfile )  tiff? ( media-libs/tiff:0 )   dev-qt/designer:5  virtual/pkgconfig  
+RDEPEND=  dev-libs/lzo  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qttest:5  dev-qt/qtwidgets:5  media-libs/libpng:0=  sci-libs/gsl:=  opencl? ( virtual/opencl )  openexr? (   media-libs/ilmbase:=   media-libs/openexr:=  )  sndfile? ( media-libs/libsndfile )  tiff? ( media-libs/tiff:0 )  
+EAPI=6
+IUSE=opencl openexr sndfile tiff 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mandelbulber/mandelbulber2-2.12-1.tar.gz

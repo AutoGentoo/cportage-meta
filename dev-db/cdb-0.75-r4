@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= configure install prepare
+DEPEND=>=sys-apps/sed-4   !dev-db/tinycdb 
+RDEPEND=>=sys-apps/sed-4   !dev-db/tinycdb 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://cr.yp.to/cdb/cdb-0.75.tar.gz

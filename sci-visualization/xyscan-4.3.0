@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+DEPEND=  app-text/poppler[qt5]  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  
+RDEPEND=  app-text/poppler[qt5]  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://rhig.physics.yale.edu/~ullrich/software/xyscan/Distributions/4.30/xyscan-4.30-src.tgz

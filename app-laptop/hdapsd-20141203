@@ -1,0 +1,9 @@
+d523d22b3cf74885df1f2bebaa5070b4
+DEFINED_PHASES= configure install postinst setup
+DEPEND=libconfig? ( dev-libs/libconfig ) 
+RDEPEND=libconfig? ( dev-libs/libconfig ) 
+EAPI=5
+IUSE=libconfig 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/evgeni/hdapsd/releases/download/20141203/hdapsd-20141203.tar.gz

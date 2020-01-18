@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install prepare
+DEPEND=  sys-libs/ncurses:0=  >=dev-libs/glib-2.6.0  !libressl? ( dev-libs/openssl:= )  libressl? ( dev-libs/libressl:= )  otr? (   >=dev-libs/libgcrypt-1.2.0:0=   >=net-libs/libotr-4.1.0  )  perl? ( dev-lang/perl:= )  socks5? ( >=net-proxy/dante-1.1.18 )  virtual/pkgconfig  dev-lang/perl  || (   www-client/lynx   www-client/elinks  ) 
+RDEPEND=  sys-libs/ncurses:0=  >=dev-libs/glib-2.6.0  !libressl? ( dev-libs/openssl:= )  libressl? ( dev-libs/libressl:= )  otr? (   >=dev-libs/libgcrypt-1.2.0:0=   >=net-libs/libotr-4.1.0  )  perl? ( dev-lang/perl:= )  socks5? ( >=net-proxy/dante-1.1.18 )  selinux? ( sec-policy/selinux-irc ) 
+EAPI=6
+IUSE=otr +perl selinux socks5 +proxy libressl 
+KEYWORDS=
+SLOT=0
+SRC_URI=

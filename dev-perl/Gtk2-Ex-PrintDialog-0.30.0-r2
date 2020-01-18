@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=cups? ( dev-perl/Net-CUPS )  dev-perl/Gtk2  >=dev-perl/Locale-gettext-1.04 
+RDEPEND=cups? ( dev-perl/Net-CUPS )  dev-perl/Gtk2  >=dev-perl/Locale-gettext-1.04 
+EAPI=6
+IUSE=cups 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GB/GBROWN/Gtk2-Ex-PrintDialog-0.03.tar.gz

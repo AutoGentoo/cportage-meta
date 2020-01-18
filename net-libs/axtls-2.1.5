@@ -1,0 +1,9 @@
+1e7da74ad860a07ad5a19d6bc5e2705a
+DEFINED_PHASES= prepare setup
+DEPEND=doc? ( app-doc/doxygen ) 
+RDEPEND=  httpd? (   cgi-lua? ( dev-lang/lua )   cgi-php? ( dev-lang/php[cgi] )  ) 
+EAPI=7
+IUSE=httpd cgi-lua cgi-php static static-libs doc 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86
+SLOT=0/1
+SRC_URI=mirror://sourceforge/axtls/axTLS-2.1.5.tar.gz

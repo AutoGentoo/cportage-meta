@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=x11-libs/wxGTK:3.0[X]  dev-libs/boost 
+RDEPEND=x11-libs/wxGTK:3.0[X] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.indii.org/files/tint/releases/tintii-2.10.0.tar.gz

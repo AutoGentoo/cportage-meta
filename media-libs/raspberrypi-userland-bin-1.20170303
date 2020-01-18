@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=!media-libs/raspberrypi-userland 
+EAPI=5
+IUSE=+hardfp examples 
+KEYWORDS=-* ~arm
+SLOT=0
+SRC_URI=https://github.com/raspberrypi/firmware/archive/1.20170303.tar.gz -> raspberrypi-firmware-1.20170303.tar.gz

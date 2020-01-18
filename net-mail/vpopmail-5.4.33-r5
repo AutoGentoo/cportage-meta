@@ -1,0 +1,10 @@
+09db357dde2d4e7b4636d5b6b42013c6
+DEFINED_PHASES= configure install postinst postrm prepare setup
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  acct-group/vpopmail  acct-user/vpopmail  virtual/qmail  maildrop? ( mail-filter/maildrop )  mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:=[server] )  spamassassin? ( mail-filter/spamassassin ) 
+RDEPEND=  acct-group/vpopmail  acct-user/vpopmail  virtual/qmail  maildrop? ( mail-filter/maildrop )  mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:=[server] )  spamassassin? ( mail-filter/spamassassin ) 
+EAPI=7
+IUSE=clearpasswd ipalias maildrop mysql postgres spamassassin 
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/vpopmail/vpopmail-5.4.33.tar.gz

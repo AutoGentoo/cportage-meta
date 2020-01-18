@@ -1,0 +1,10 @@
+ed8ded530b4c60ab075631ef129e263e
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/libpcre  dev-libs/libxml2  dev-libs/zziplib  sys-libs/zlib   virtual/pkgconfig  
+RDEPEND=dev-libs/libpcre  dev-libs/libxml2  dev-libs/zziplib  sys-libs/zlib  
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/KhronosGroup/OpenCOLLADA/archive/v1.6.63.tar.gz -> opencollada-1.6.63.tar.gz

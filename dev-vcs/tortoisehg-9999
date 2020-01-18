@@ -1,0 +1,9 @@
+e8b071e206dd6cecf16523e5ca660616
+DEFINED_PHASES= postinst
+DEPEND=dev-vcs/mercurial  dev-python/iniparse[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygments[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/PyQt5[network,svg,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/qscintilla-python-2.9.4:=[qt5(+),python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  doc? ( >=dev-python/sphinx-1.0.3 ) 
+RDEPEND=dev-vcs/mercurial  dev-python/iniparse[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygments[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/PyQt5[network,svg,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/qscintilla-python-2.9.4:=[qt5(+),python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

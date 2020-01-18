@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  net-dns/avahi[mdnsresponder-compat]  media-libs/libao  
+RDEPEND=    net-dns/avahi[mdnsresponder-compat]  media-libs/libao   
+EAPI=7
+IUSE=+playfair static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

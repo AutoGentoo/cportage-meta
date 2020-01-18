@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/uisp/uisp-20050207.tar.gz

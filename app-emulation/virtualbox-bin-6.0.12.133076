@@ -1,0 +1,11 @@
+56cf66451259597b31a83949b7d9a25a
+DEFINED_PHASES= compile configure install postinst postrm unpack
+DEPEND=app-arch/unzip  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=!!app-emulation/virtualbox  !app-emulation/virtualbox-additions  ~app-emulation/virtualbox-modules-6.0.12  !headless? (   dev-libs/glib   media-libs/fontconfig   media-libs/freetype   media-libs/libpng   media-libs/libsdl[X]   x11-libs/libXcursor   x11-libs/libXext   x11-libs/libXfixes   x11-libs/libXft   x11-libs/libXi   x11-libs/libXinerama   x11-libs/libXrandr   x11-libs/libXrender   chm? ( dev-libs/expat )  )  dev-libs/libxml2  sys-fs/lvm2  x11-libs/libXau  x11-libs/libX11  x11-libs/libXt  x11-libs/libXmu  x11-libs/libSM  x11-libs/libICE  x11-libs/libXdmcp  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=+additions +chm headless python vboxwebsrv rdesktop-vrdp sdk 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=amd64? ( https://download.virtualbox.org/virtualbox/6.0.12/VirtualBox-6.0.12-133076-Linux_amd64.run )
+	https://download.virtualbox.org/virtualbox/6.0.12/Oracle_VM_VirtualBox_Extension_Pack-6.0.12-133076.vbox-extpack -> Oracle_VM_VirtualBox_Extension_Pack-6.0.12-133076.tar.gz
+		sdk? ( https://download.virtualbox.org/virtualbox/6.0.12/VirtualBoxSDK-6.0.12-133076.zip )

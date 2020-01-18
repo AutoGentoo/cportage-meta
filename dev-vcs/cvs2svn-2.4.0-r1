@@ -1,0 +1,9 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= compile install postinst prepare setup
+DEPEND=>=dev-vcs/subversion-1.0.9 
+RDEPEND=>=dev-vcs/subversion-1.0.9  bazaar? ( >=dev-vcs/bzr-1.13 )  git? ( >=dev-vcs/git-1.5.4.4 )  dev-vcs/rcs 
+EAPI=6
+IUSE=bazaar git test 
+KEYWORDS=alpha amd64 ia64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://cvs2svn.tigris.org/files/documents/1462/49237/cvs2svn-2.4.0.tar.gz

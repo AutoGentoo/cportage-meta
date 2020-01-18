@@ -1,0 +1,10 @@
+09a1b3920abb7b0aa3a1245ce19ceb19
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  av? ( media-libs/libvpx:=   media-libs/opus )  daemon? ( dev-libs/libconfig )  >=dev-libs/libsodium-0.6.1:=[asm,urandom,-minimal]  virtual/pkgconfig 
+RDEPEND=  av? ( media-libs/libvpx:=   media-libs/opus )  daemon? ( dev-libs/libconfig )  >=dev-libs/libsodium-0.6.1:=[asm,urandom,-minimal] 
+EAPI=6
+IUSE=+av daemon ipv6 no-log log-trace log-debug log-info log-warn +log-error static-libs test 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/0.2
+SRC_URI=https://github.com/TokTok/c-toxcore/archive/v0.2.8.tar.gz -> c-toxcore-0.2.8.tar.gz

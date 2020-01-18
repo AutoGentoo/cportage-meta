@@ -1,0 +1,9 @@
+0f1a58a5aa1d7a0390303cba4406768d
+DEFINED_PHASES= config configure install postinst
+DEPEND=>=dev-libs/bglibs-2.04  >=net-libs/cvm-0.81 
+RDEPEND=>=dev-libs/bglibs-2.04  >=net-libs/cvm-0.81  virtual/qmail  net-libs/cvm 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://untroubled.org/mailfront/archive/mailfront-2.22.tar.gz

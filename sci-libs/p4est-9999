@@ -1,0 +1,9 @@
+37a36bdcc02e2d3f08736b1da7f12a43
+DEFINED_PHASES= configure install prepare pretend
+DEPEND=    ~sci-libs/libsc-9999[mpi=,openmp=,romio=,static-libs=,threads=]  dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio=] )  sys-devel/automake:1.11  virtual/pkgconfig 
+RDEPEND=  ~sci-libs/libsc-9999[mpi=,openmp=,romio=,static-libs=,threads=]  dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio=] ) 
+EAPI=6
+IUSE=debug doc examples mpi openmp romio static-libs threads +vtk-binary 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=net-im/pidgin-2.0.0[gtk]  >=dev-libs/dbus-glib-0.73  dev-libs/libpcre  >=sys-devel/gettext-0.17 
+RDEPEND=>=net-im/pidgin-2.0.0[gtk]  >=dev-libs/dbus-glib-0.73  dev-libs/libpcre  >=sys-devel/gettext-0.17 
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://pidgin-musictracker.googlecode.com/files/pidgin-musictracker-0.4.22.tar.bz2

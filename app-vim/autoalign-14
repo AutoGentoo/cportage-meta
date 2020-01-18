@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=app-arch/xz-utils 
+RDEPEND=  >=app-vim/align-30  >=app-vim/cecutil-4 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/autoalign-14.tar.xz
+		https://dev.gentoo.org/~chutzpah/vim/autoalign-14.tar.xz

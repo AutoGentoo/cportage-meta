@@ -1,0 +1,10 @@
+8f95e84971f9800b8c24d2b6ebd90f7b
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-db/sqlite-3.4:3  net-libs/neon[ssl]  iconv? ( virtual/libiconv )  samba? ( >=net-fs/samba-3.5 )  sftp? ( >=net-libs/libssh-0.5 )  !net-misc/ocsync  app-text/asciidoc  doc? ( app-doc/doxygen )  test? ( dev-util/cmocka ) 
+RDEPEND=>=dev-db/sqlite-3.4:3  net-libs/neon[ssl]  iconv? ( virtual/libiconv )  samba? ( >=net-fs/samba-3.5 )  sftp? ( >=net-libs/libssh-0.5 )  !net-misc/ocsync 
+EAPI=5
+IUSE=doc iconv samba +sftp test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://open.cryptomilk.org/attachments/download/27/csync-0.50.0.tar.xz

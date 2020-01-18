@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst postrm
+DEPEND=    >=dev-libs/chmlib-0.36  x11-libs/wxGTK:3.0-gtk3[X]  nls? ( virtual/libintl )   nls? ( sys-devel/gettext )  
+RDEPEND=  >=dev-libs/chmlib-0.36  x11-libs/wxGTK:3.0-gtk3[X]  nls? ( virtual/libintl )  
+EAPI=7
+IUSE=nls 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/rzvncj/xCHM/releases/download/1.31/xchm-1.31.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  >=dev-perl/Net-DNS-0.500.0  >=virtual/perl-Socket-1.750.0  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple ) 
+RDEPEND=  >=dev-perl/Net-DNS-0.500.0  >=virtual/perl-Socket-1.750.0 
+EAPI=6
+IUSE=test examples 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHLIGE/Net-Bonjour-0.96.tar.gz

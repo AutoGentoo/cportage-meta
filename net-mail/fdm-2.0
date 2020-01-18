@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install preinst
+DEPEND=!libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sys-libs/tdb  pcre? ( dev-libs/libpcre ) 
+RDEPEND=!libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sys-libs/tdb  pcre? ( dev-libs/libpcre ) 
+EAPI=7
+IUSE=examples libressl pcre 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/nicm/fdm/releases/download/2.0/fdm-2.0.tar.gz

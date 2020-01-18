@@ -1,0 +1,9 @@
+0b72b5ae8debcc2bed8c35c8f3619b65
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=sys-libs/ncurses:0  !dedicated? (   X? (    x11-libs/libX11   )   sound? (    media-libs/libsdl[sound]    media-libs/sdl-mixer[vorbis,smpeg,mp3]   )  )  virtual/pkgconfig  !dedicated? ( sound? ( app-arch/p7zip[wxwidgets] ) ) 
+RDEPEND=sys-libs/ncurses:0  !dedicated? (   X? (    x11-libs/libX11   )   sound? (    media-libs/libsdl[sound]    media-libs/sdl-mixer[vorbis,smpeg,mp3]   )  ) 
+EAPI=6
+IUSE=dedicated server +sound X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.tomenet.eu/downloads/tomenet-4.7.2.tar.bz2

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=media-video/vdr-2.4 
+RDEPEND=>=media-tv/gentoo-vdr-scripts-0.4.2  >=app-eselect/eselect-vdr-0.0.2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://vdr.schmirler.de/remoteosd/vdr-remoteosd-1.0.0.tgz

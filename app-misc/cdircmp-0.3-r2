@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=>=sys-libs/ncurses-5.4:0=  virtual/pkgconfig  
+RDEPEND=>=sys-libs/ncurses-5.4:0= 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://home.hccnet.nl/paul.schuurmans/linux/download/cdircmp-0.3.tar.gz

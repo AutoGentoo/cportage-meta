@@ -1,0 +1,10 @@
+e0ddde57b7cdd7f82930003b27c86c67
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=fuse? ( sys-fs/fuse:0= )  ncurses? ( sys-libs/ncurses:0= )  openssl? (   dev-libs/openssl:0=   cryptsetup? (    >=sys-fs/cryptsetup-2.0.3:=    dev-libs/json-c:=   )  )  pfm? ( app-misc/pfm )  snmp? ( net-analyzer/net-snmp )  zlib? ( sys-libs/zlib )  dev-util/indent  app-admin/genromfs 
+RDEPEND=fuse? ( sys-fs/fuse:0= )  ncurses? ( sys-libs/ncurses:0= )  openssl? (   dev-libs/openssl:0=   cryptsetup? (    >=sys-fs/cryptsetup-2.0.3:=    dev-libs/json-c:=   )  )  pfm? ( app-misc/pfm )  snmp? ( net-analyzer/net-snmp )  zlib? ( sys-libs/zlib ) 
+EAPI=7
+IUSE=cryptsetup fuse ncurses openssl pfm snmp zlib 
+KEYWORDS=-* s390
+SLOT=0
+SRC_URI=https://github.com/ibm-s390-tools/s390-tools/archive/v2.9.0.tar.gz -> s390-tools-2.9.0.tar.gz

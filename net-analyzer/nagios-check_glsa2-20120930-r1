@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare setup
+RDEPEND=app-portage/gentoolkit 
+EAPI=4
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~flameeyes/check_glsa2/check_glsa2-20120930.tar.xz

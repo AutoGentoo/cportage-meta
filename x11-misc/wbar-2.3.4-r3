@@ -1,0 +1,10 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    media-libs/imlib2[X]  x11-libs/libX11  gtk? (   dev-libs/glib   gnome-base/libglade   media-libs/freetype:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )   dev-util/intltool  sys-devel/gettext  virtual/pkgconfig  
+RDEPEND=  media-libs/imlib2[X]  x11-libs/libX11  gtk? (   dev-libs/glib   gnome-base/libglade   media-libs/freetype:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )  
+EAPI=7
+IUSE=gtk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://wbar.googlecode.com/files/wbar-2.3.4.tgz

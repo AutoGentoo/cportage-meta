@@ -1,0 +1,9 @@
+bb63286cee4aa0f5fdaac14a162e3c73
+DEFINED_PHASES= postinst
+DEPEND=  >=dev-python/click-2.0  >=dev-python/docutils-0.11  >=dev-python/flask-0.10.1  >=dev-python/flask-babel-0.7  >=dev-python/frozen-flask-0.7  >=dev-python/jinja-2.5.2  dev-python/pyyaml  dev-python/setuptools  dev-python/pygments  git? ( >=dev-python/pygit2-0.21.3 )  mercurial? ( >=dev-vcs/mercurial-1.6 )  doc? ( dev-python/sphinx )  test? ( dev-python/mock ) 
+RDEPEND=  >=dev-python/click-2.0  >=dev-python/docutils-0.11  >=dev-python/flask-0.10.1  >=dev-python/flask-babel-0.7  >=dev-python/frozen-flask-0.7  >=dev-python/jinja-2.5.2  dev-python/pyyaml  dev-python/setuptools  dev-python/pygments  git? ( >=dev-python/pygit2-0.21.3 )  mercurial? ( >=dev-vcs/mercurial-1.6 ) 
+EAPI=5
+IUSE=doc git +mercurial test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

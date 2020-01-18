@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=sys-devel/clang:9=  sys-devel/llvm:9=  
+RDEPEND=sys-devel/clang:9=  sys-devel/llvm:9=  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/rpav/c2ffi/archive/15fda06de0bad97bf91f5590f7f24623eab2f580.tar.gz -> c2ffi-9.0.0.20191017.tar.gz

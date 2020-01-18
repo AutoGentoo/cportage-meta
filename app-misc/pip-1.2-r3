@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+BDEPEND=virtual/perl-ExtUtils-MakeMaker 
+DEPEND=dev-lang/perl 
+RDEPEND=dev-lang/perl 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://membled.com/work/apps/pip/pip-1.2.tar.bz2

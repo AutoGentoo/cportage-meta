@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= prepare
+BDEPEND=  dev-lang/perl  virtual/pkgconfig  
+DEPEND=  >=dev-libs/wayland-1.6.0  ~dev-qt/qtcore-5.12.5  ~dev-qt/qtdeclarative-5.12.5  ~dev-qt/qtgui-5.12.5[egl,libinput=]  media-libs/mesa[egl]  >=x11-libs/libxkbcommon-0.2.0  xcomposite? (   x11-libs/libX11   x11-libs/libXcomposite  )  
+RDEPEND=  >=dev-libs/wayland-1.6.0  ~dev-qt/qtcore-5.12.5  ~dev-qt/qtdeclarative-5.12.5  ~dev-qt/qtgui-5.12.5[egl,libinput=]  media-libs/mesa[egl]  >=x11-libs/libxkbcommon-0.2.0  xcomposite? (   x11-libs/libX11   x11-libs/libXcomposite  )  
+EAPI=7
+IUSE=+libinput xcomposite 
+KEYWORDS=amd64 ~arm arm64 ~hppa ~ppc ppc64 ~x86
+SLOT=5/5.12
+SRC_URI=https://download.qt.io/official_releases/qt/5.12/5.12.5/submodules/qtwayland-everywhere-src-5.12.5.tar.xz

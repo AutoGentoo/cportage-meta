@@ -1,0 +1,15 @@
+51b081a01d16949aec0cb48bd505e8f0
+DEFINED_PHASES= compile install prepare test unpack
+DEPEND=dev-lang/perl  sys-devel/bc 
+RDEPEND=dev-lang/perl 
+EAPI=6
+IUSE=debug test custom-cflags 
+KEYWORDS=~alpha amd64 ~arm ia64 -mips ~ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=
+	https://www.kernel.org/pub/linux/libs/klibc/2.0/klibc-2.0.4.tar.xz
+	mirror://debian/pool/main/k/klibc/klibc_2.0.4-9.debian.tar.xz
+	
+	
+	https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.14.tar.xz
+	https://www.kernel.org/pub/linux/kernel/v4.x/testing/linux-4.14.tar.xz

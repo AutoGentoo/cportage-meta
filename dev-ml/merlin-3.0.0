@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  dev-lang/ocaml:=  dev-ml/yojson:=  
+RDEPEND=  dev-lang/ocaml:=  dev-ml/yojson:=   || ( app-editors/vim[python] app-editors/gvim[python] ) 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/3.0.0
+SRC_URI=https://github.com/ocaml/merlin/archive/v3.0.0.tar.gz -> merlin-3.0.0.tar.gz

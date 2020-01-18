@@ -1,0 +1,10 @@
+116654c3bae71cadbece2f49f93caefd
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=    sys-libs/readline:0=  dev-libs/libpcre[jit?]  jemalloc? ( dev-libs/jemalloc )  sys-libs/ncurses:0=  dev-python/docutils  dev-python/sphinx  virtual/pkgconfig 
+RDEPEND=  python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]    sys-libs/readline:0=  dev-libs/libpcre[jit?]  jemalloc? ( dev-libs/jemalloc )  sys-libs/ncurses:0=  acct-user/varnish  acct-group/varnish  sys-devel/gcc 
+EAPI=7
+IUSE=jemalloc jit static-libs 
+KEYWORDS=~amd64 ~mips ~ppc ~ppc64 ~x86
+SLOT=0/2
+SRC_URI=http://varnish-cache.org/_downloads/varnish-6.2.2.tgz

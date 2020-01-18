@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc ~ppc64 sparc x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=http://gregory.kokanosky.free.fr/v4/linux/nrg2iso-0.4.tar.gz
+	test? (
+		https://yegortimoshenko.s3.amazonaws.com/nrg2iso-test.iso
+		https://yegortimoshenko.s3.amazonaws.com/nrg2iso-test.nrg
+	)

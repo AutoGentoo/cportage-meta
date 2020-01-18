@@ -1,0 +1,10 @@
+0e24f3dc13c622d4167a7c7242fd722f
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtlockedfile[qt5(+)]  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  net-dns/libidn  sys-libs/zlib[minizip]  x11-libs/libXScrnSaver  adiummessagestyle? ( dev-qt/qtwebkit:5 )  filemessagearchive? ( dev-qt/qtsql:5[sqlite] )  messagearchiver? ( dev-qt/qtsql:5[sqlite] )  spell? (   aspell? ( app-text/aspell )   enchant? ( app-text/enchant )   hunspell? ( app-text/hunspell )  )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtlockedfile[qt5(+)]  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  net-dns/libidn  sys-libs/zlib[minizip]  x11-libs/libXScrnSaver  adiummessagestyle? ( dev-qt/qtwebkit:5 )  filemessagearchive? ( dev-qt/qtsql:5[sqlite] )  messagearchiver? ( dev-qt/qtsql:5[sqlite] )  spell? (   aspell? ( app-text/aspell )   enchant? ( app-text/enchant )   hunspell? ( app-text/hunspell )  )   !net-im/vacuum-spellchecker  
+EAPI=6
+IUSE=+adiummessagestyle +annotations +autostatus +avatars +birthdayreminder +bitsofbinary +bookmarks +captchaforms +chatstates +clientinfo +commands +compress +console +dataforms +datastreamsmanager +emoticons +filemessagearchive +filestreamsmanager +filetransfer +gateways +inbandstreams +iqauth +jabbersearch +messagearchiver +messagecarbons +multiuserchat +pepmanager +privacylists +privatestorage +recentcontacts +registration +remotecontrol +rosteritemexchange +rostersearch +servermessagearchive +servicediscovery +sessionnegotiation +shortcutmanager +socksstreams +urlprocessor +vcard +xmppuriqueries aspell +enchant hunspell +spell 
+KEYWORDS=~amd64 ~x86
+SLOT=0/37
+SRC_URI=https://github.com/Vacuum-IM/vacuum-im/archive/1.3.0.20180105-Alpha.tar.gz -> vacuum-im-1.3.0.20180105-Alpha.tar.gz

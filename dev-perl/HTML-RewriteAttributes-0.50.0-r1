@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-perl/URI  dev-perl/HTML-Tagset  dev-perl/HTML-Parser 
+RDEPEND=dev-perl/URI  dev-perl/HTML-Tagset  dev-perl/HTML-Parser 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TS/TSIBLEY/HTML-RewriteAttributes-0.05.tar.gz

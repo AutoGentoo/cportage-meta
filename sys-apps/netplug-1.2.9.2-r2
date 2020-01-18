@@ -1,0 +1,8 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= compile install prepare
+DEPEND=doc? ( app-text/ghostscript-gpl   media-gfx/graphviz ) 
+EAPI=6
+IUSE=debug doc 
+KEYWORDS=amd64 arm ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://www.red-bean.com/~bos/netplug/netplug-1.2.9.2.tar.bz2

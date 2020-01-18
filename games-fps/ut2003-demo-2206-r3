@@ -1,0 +1,11 @@
+9e88ca7b9be1e692cd9b7cee433f2d6f
+DEFINED_PHASES= install postinst unpack
+DEPEND=app-arch/unzip 
+RDEPEND=  sys-devel/bc  virtual/libstdc++:3.3  virtual/opengl[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=http://unreal.epicgames.com/linux/ut2003/ut2003demo-lnx-2206.sh.bin
+	http://download.factoryunreal.com/mirror/UT2003CrashFix.zip
+	https://dev.gentoo.org/~wolf31o2/sources/ut2003-demo/ut2003-demo-misc.tar.bz2

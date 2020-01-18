@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  dev-libs/openssl:0=  sys-apps/keyutils:=  app-text/asciidoc  app-text/docbook-xsl-stylesheets  dev-libs/libxslt 
+RDEPEND=  dev-libs/openssl:0=  sys-apps/keyutils:= 
+EAPI=6
+IUSE=debug 
+KEYWORDS=
+SLOT=0
+SRC_URI=

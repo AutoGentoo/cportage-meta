@@ -1,0 +1,9 @@
+8366c7fd4b8a5130d33d6fad1724675b
+DEFINED_PHASES= install postinst prepare
+DEPEND=>=virtual/jdk-1.7  app-arch/unzip  >=dev-java/javacup-0.11a_beta20060608:0 
+RDEPEND=>=virtual/jre-1.7  >=dev-java/javacup-0.11a_beta20060608:0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/weka/weka-3-8-0.zip

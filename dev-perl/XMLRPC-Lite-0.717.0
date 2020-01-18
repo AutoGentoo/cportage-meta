@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/SOAP-Lite  virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=dev-perl/SOAP-Lite 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PH/PHRED/XMLRPC-Lite-0.717.tar.gz

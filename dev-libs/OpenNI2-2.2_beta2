@@ -1,0 +1,9 @@
+3abc07be537753729b66ae0cb14e5b70
+DEFINED_PHASES= compile install prepare
+DEPEND=  virtual/libusb:1  virtual/libudev  virtual/jpeg:0  opengl? ( media-libs/freeglut )  java? ( >=virtual/jre-1.5:* )   doc? ( app-doc/doxygen )  java? ( >=virtual/jdk-1.5:* ) 
+RDEPEND=  virtual/libusb:1  virtual/libudev  virtual/jpeg:0  opengl? ( media-libs/freeglut )  java? ( >=virtual/jre-1.5:* )  
+EAPI=5
+IUSE=doc java neon opengl static-libs 
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/occipital/OpenNI2/archive/2.2-beta2.tar.gz -> OpenNI2-2.2_beta2.tar.gz

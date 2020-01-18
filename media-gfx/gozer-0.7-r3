@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=    media-libs/giblib  media-libs/imlib2  x11-libs/libXext 
+RDEPEND=  media-libs/giblib  media-libs/imlib2 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.linuxbrit.co.uk/downloads/gozer-0.7.tar.gz

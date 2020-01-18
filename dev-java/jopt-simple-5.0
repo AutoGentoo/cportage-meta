@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/pholser/jopt-simple/tarball/jopt-simple-5.0 -> jopt-simple-5.0.tar.gz

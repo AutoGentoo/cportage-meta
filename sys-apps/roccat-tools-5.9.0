@@ -1,0 +1,10 @@
+831d15ed06501a3195aabc71bfa6a98f
+DEFINED_PHASES= configure install postinst postrm preinst prepare setup
+BDEPEND=  virtual/pkgconfig  
+DEPEND=    dev-libs/dbus-glib  dev-libs/glib:2  >=dev-libs/libgaminggear-0.15.1  dev-libs/libgudev:=  sys-apps/dbus  x11-libs/cairo  x11-libs/gtk+:2  x11-libs/libX11  virtual/libusb:1  input_devices_roccat_ryosmk? ( || ( dev-lang/lua:5.1 dev-lang/lua:0 ) )  input_devices_roccat_ryosmkfx? ( || ( dev-lang/lua:5.1 dev-lang/lua:0 ) )  input_devices_roccat_ryostkl? ( || ( dev-lang/lua:5.1 dev-lang/lua:0 ) )   
+RDEPEND=  dev-libs/dbus-glib  dev-libs/glib:2  >=dev-libs/libgaminggear-0.15.1  dev-libs/libgudev:=  sys-apps/dbus  x11-libs/cairo  x11-libs/gtk+:2  x11-libs/libX11  virtual/libusb:1  input_devices_roccat_ryosmk? ( || ( dev-lang/lua:5.1 dev-lang/lua:0 ) )  input_devices_roccat_ryosmkfx? ( || ( dev-lang/lua:5.1 dev-lang/lua:0 ) )  input_devices_roccat_ryostkl? ( || ( dev-lang/lua:5.1 dev-lang/lua:0 ) )  
+EAPI=7
+IUSE=input_devices_roccat_arvo input_devices_roccat_isku input_devices_roccat_iskufx input_devices_roccat_kiro input_devices_roccat_kone input_devices_roccat_koneplus input_devices_roccat_konepure input_devices_roccat_konepuremilitary input_devices_roccat_konepureoptical input_devices_roccat_konextd input_devices_roccat_konextdoptical input_devices_roccat_kovaplus input_devices_roccat_kova2016 input_devices_roccat_lua input_devices_roccat_nyth input_devices_roccat_pyra input_devices_roccat_ryosmk input_devices_roccat_ryosmkfx input_devices_roccat_ryostkl input_devices_roccat_savu input_devices_roccat_skeltr input_devices_roccat_sova input_devices_roccat_suora input_devices_roccat_tyon 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/roccat/roccat-tools-5.9.0.tar.bz2

@@ -1,0 +1,9 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= configure install prepare
+DEPEND=  x11-libs/wxGTK:3.0[X]  dev-db/sqlite:3 
+RDEPEND=  x11-libs/wxGTK:3.0[X]  dev-db/sqlite:3 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wxcode/wxsqlite3-3.2.1.tar.gz

@@ -1,0 +1,10 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES=-
+BDEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.7 dev-lang/python:3.6 )  test? ( X? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) ) 
+DEPEND=  !media-libs/mesa[-libglvnd(-)]  !<media-libs/mesa-19.2.2  X? (   x11-libs/libX11[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   x11-libs/libXext[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  )  X? ( x11-base/xorg-proto ) 
+RDEPEND=  !media-libs/mesa[-libglvnd(-)]  !<media-libs/mesa-19.2.2  X? (   x11-libs/libX11[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   x11-libs/libXext[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  ) 
+EAPI=7
+IUSE=test X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

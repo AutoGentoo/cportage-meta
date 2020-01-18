@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Class-Method-Modifiers  dev-perl/List-MoreUtils  virtual/perl-Scalar-List-Utils  dev-perl/Module-Runtime  dev-perl/Role-Tiny  virtual/perl-parent  dev-perl/strictures   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Deep   dev-perl/Test-Fatal   dev-perl/Test-Output  )  
+RDEPEND=  dev-perl/Class-Method-Modifiers  dev-perl/List-MoreUtils  virtual/perl-Scalar-List-Utils  dev-perl/Module-Runtime  dev-perl/Role-Tiny  virtual/perl-parent  dev-perl/strictures  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ppc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MATTP/Data-Perl-0.002009.tar.gz

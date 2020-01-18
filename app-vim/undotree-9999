@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=>=dev-lang/go-1.10 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/Barzahlen/cronlocker/archive/c0ac605.tar.gz -> cronlocker-0.4.0_p20180710.tar.gz

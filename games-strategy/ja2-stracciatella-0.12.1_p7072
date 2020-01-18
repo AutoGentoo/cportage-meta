@@ -1,0 +1,10 @@
+ee55e336290734beeb7df939ffa8d97f
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=media-libs/libsdl[X,sound,video]  zlib? ( sys-libs/zlib ) 
+RDEPEND=media-libs/libsdl[X,sound,video]  zlib? ( sys-libs/zlib )  cdinstall? ( games-strategy/ja2-stracciatella-data ) 
+EAPI=5
+IUSE=cdinstall editor ru-gold zlib l10n_de +l10n_en l10n_fr l10n_it l10n_nl l10n_pl l10n_ru 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~hasufell/distfiles/ja2-stracciatella-0.12.1_p7072.tar.xz
+	http://tron.homeunix.org/ja2/editor.slf.gz

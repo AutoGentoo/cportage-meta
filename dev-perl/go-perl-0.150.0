@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=>=dev-perl/Data-Stag-0.11 
+RDEPEND=>=dev-perl/Data-Stag-0.11 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CM/CMUNGALL/go-perl-0.15.tar.gz
+	mirror://debian/pool/main/libg/libgo-perl/libgo-perl_0.15-7.debian.tar.xz
+

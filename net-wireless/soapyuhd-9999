@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=net-wireless/soapysdr:=   net-wireless/uhd:=   dev-libs/boost:= 
+RDEPEND=net-wireless/soapysdr:=   net-wireless/uhd:=   dev-libs/boost:= 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

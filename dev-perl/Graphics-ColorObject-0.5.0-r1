@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=    >=dev-perl/Graphics-ColorNames-0.32   
+RDEPEND=    >=dev-perl/Graphics-ColorNames-0.32   
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AI/AIZVORSKI/Graphics-ColorObject-0.5.0.tar.gz

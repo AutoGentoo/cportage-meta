@@ -1,0 +1,7 @@
+81378e4029061dd1a2cae785fefe0d22
+DEFINED_PHASES= install prerm
+EAPI=6
+IUSE=minimal 
+KEYWORDS=-* ~amd64
+SLOT=0
+SRC_URI=https://www.zhinst.com/system/files/downloads/files/LabOneLinux64-16.12.42529.tar.gz

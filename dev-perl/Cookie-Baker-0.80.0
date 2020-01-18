@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Exporter  dev-perl/URI  xs? ( >=dev-perl/Cookie-Baker-XS-0.80.0 )   >=dev-perl/Module-Build-Tiny-0.35.0  test? (   >=virtual/perl-Test-Simple-0.980.0   dev-perl/Test-Time  )  
+RDEPEND=  virtual/perl-Exporter  dev-perl/URI  xs? ( >=dev-perl/Cookie-Baker-XS-0.80.0 )  
+EAPI=6
+IUSE=test +xs 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KAZEBURO/Cookie-Baker-0.08.tar.gz

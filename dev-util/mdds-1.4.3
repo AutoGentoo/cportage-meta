@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure prepare test
+BDEPEND=  doc? (   app-doc/doxygen   dev-python/sphinx  )  valgrind? ( dev-util/valgrind )  
+DEPEND=dev-libs/boost:= 
+RDEPEND=dev-libs/boost:= 
+EAPI=7
+IUSE=doc valgrind 
+KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=1/1.4
+SRC_URI=https://kohei.us/files/mdds/src/mdds-1.4.3.tar.bz2

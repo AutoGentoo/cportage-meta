@@ -1,0 +1,10 @@
+d0d2b379bcc006734dac9c65c438fb2c
+DEFINED_PHASES= configure install prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  static? (   unwind? ( sys-libs/libunwind[static-libs(+)] )  elfutils? ( dev-libs/elfutils[static-libs(+)] )  )  aio? ( >=dev-libs/libaio-0.3.106 )  sys-kernel/linux-headers  
+RDEPEND=  !static? (   unwind? ( sys-libs/libunwind )  elfutils? ( dev-libs/elfutils )  )  perl? ( dev-lang/perl )  
+EAPI=7
+IUSE=aio perl static unwind elfutils 
+KEYWORDS=
+SLOT=0
+SRC_URI=

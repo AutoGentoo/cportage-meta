@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure postinst prepare
+DEPEND=media-libs/imlib2[X]  x11-libs/libX11  gtk? ( gnome-base/libglade   media-libs/freetype:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2 )  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=media-libs/imlib2[X]  x11-libs/libX11  gtk? ( gnome-base/libglade   media-libs/freetype:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2 ) 
+EAPI=5
+IUSE=gtk 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://wbar.googlecode.com/files/wbar-2.3.4.tgz

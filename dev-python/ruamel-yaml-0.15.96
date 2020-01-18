@@ -1,0 +1,9 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES=-
+DEPEND=    python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? (   dev-python/flake8[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/ruamel-std-pathlib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  
+RDEPEND=  python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/ruamel/yaml/get/0.15.96.tar.gz -> ruamel-yaml-0.15.96.tar.gz

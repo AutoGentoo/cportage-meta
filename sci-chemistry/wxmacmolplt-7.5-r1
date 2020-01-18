@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/glew:0=  media-libs/mesa[X(+)]  x11-libs/wxGTK:3.0[X,opengl]  virtual/pkgconfig 
+RDEPEND=  media-libs/glew:0=  media-libs/mesa[X(+)]  x11-libs/wxGTK:3.0[X,opengl] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://wxmacmolplt.googlecode.com/files/wxmacmolplt-7.5.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  dev-lang/perl  sys-libs/ncurses:0=  virtual/pkgconfig 
+RDEPEND=  dev-lang/perl  sys-libs/ncurses:0= 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

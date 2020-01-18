@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-libs/glib-2.36:2  >=sys-auth/polkit-0.102  x11-libs/gdk-pixbuf:2  virtual/libintl:0  >=x11-libs/gtk+-3.14.0:3  appindicator? ( dev-libs/libappindicator:3 )  dev-util/gtk-doc  dev-util/gtk-doc-am  >=dev-util/intltool-0.35:*  sys-devel/gettext:*  >=sys-devel/libtool-2.2.6  virtual/pkgconfig:*  !<gnome-extra/polkit-gnome-0.102:0 
+RDEPEND=>=dev-libs/glib-2.36:2  >=sys-auth/polkit-0.102  x11-libs/gdk-pixbuf:2  virtual/libintl:0  >=x11-libs/gtk+-3.14.0:3  appindicator? ( dev-libs/libappindicator:3 )  accountsservice? ( sys-apps/accountsservice ) 
+EAPI=6
+IUSE=accountsservice appindicator 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-polkit-1.22.0.tar.xz

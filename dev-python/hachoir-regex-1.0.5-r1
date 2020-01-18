@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://pypi/h/hachoir-regex/hachoir-regex-1.0.5.tar.gz

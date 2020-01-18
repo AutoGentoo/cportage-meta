@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Net-Netmask  dev-perl/Net-Patricia  >=dev-perl/MogileFS-Server-2.580.0  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=dev-perl/Net-Netmask  dev-perl/Net-Patricia  >=dev-perl/MogileFS-Server-2.580.0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/H/HA/HACHI/MogileFS-Network-0.06.tar.gz

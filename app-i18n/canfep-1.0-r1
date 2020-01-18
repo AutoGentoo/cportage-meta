@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=app-i18n/canna  sys-libs/ncurses:=  virtual/pkgconfig 
+RDEPEND=app-i18n/canna  sys-libs/ncurses:= 
+EAPI=6
+IUSE=unicode 
+KEYWORDS=~alpha amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/canfep-1.0.tar.gz
+	unicode? ( http://hp.vector.co.jp/authors/VA020411/patches/canfep_utf8.diff )

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  x11-libs/libXrender  x11-libs/libX11  
+RDEPEND=  x11-libs/libXrender  x11-libs/libX11  
+EAPI=7
+IUSE=
+KEYWORDS=~alpha amd64 ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://www.x.org/releases/individual/app/rendercheck-1.5.tar.bz2

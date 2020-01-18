@@ -1,0 +1,9 @@
+9ea7925ba5a0fb1a347dd7077f4d525d
+DEFINED_PHASES= postinst prepare
+DEPEND=alsa? ( >=media-libs/alsa-lib-1.0.27.2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+RDEPEND=alsa? ( >=media-libs/alsa-lib-1.0.27.2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+EAPI=6
+IUSE=alsa oss static-libs 
+KEYWORDS=alpha amd64 arm arm64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI= http://www.speech.cs.cmu.edu/flite/packed/flite-1.4/flite-1.4-release.tar.bz2

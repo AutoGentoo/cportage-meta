@@ -1,0 +1,8 @@
+2b6757e72d2f0e6fbb1febe1d07099aa
+DEFINED_PHASES= compile install prepare test unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

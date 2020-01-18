@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= pretend setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]  ppc-aix? (   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 ) x86-winnt? (   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 )   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 virtual/pkgconfig 
+DEPEND=>=x11-libs/libdrm-2.4.89[video_cards_radeon]  >=x11-libs/libpciaccess-0.8.0  x11-base/xorg-server[-minimal]  udev? ( virtual/libudev:= )  x11-base/xorg-proto 
+RDEPEND=>=x11-libs/libdrm-2.4.89[video_cards_radeon]  >=x11-libs/libpciaccess-0.8.0  x11-base/xorg-server[-minimal]  udev? ( virtual/libudev:= ) 
+EAPI=7
+IUSE=udev 
+KEYWORDS=
+SLOT=0
+SRC_URI=

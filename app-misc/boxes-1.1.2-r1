@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  sys-devel/bison  sys-devel/flex   
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/ascii-boxes/boxes/archive/v1.1.2.tar.gz -> boxes-1.1.2.tar.gz

@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure
+DEPEND=  >=dev-libs/glib-2.26:2  dev-libs/gmime:2.6  >=sys-libs/zlib-1.2.0  >=x11-libs/gtk+-2.16:2  gnome-keyring? ( >=gnome-base/libgnome-keyring-3.2 )  libnotify? ( >=x11-libs/libnotify-0.4.1:0= )  spell? (   >=app-text/enchant-1.6:0/0   >=app-text/gtkspell-2.0.7:2 )  ssl? ( >=net-libs/gnutls-3:0= )   app-text/yelp-tools  >=sys-devel/gettext-0.19.7  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.26:2  dev-libs/gmime:2.6  >=sys-libs/zlib-1.2.0  >=x11-libs/gtk+-2.16:2  gnome-keyring? ( >=gnome-base/libgnome-keyring-3.2 )  libnotify? ( >=x11-libs/libnotify-0.4.1:0= )  spell? (   >=app-text/enchant-1.6:0/0   >=app-text/gtkspell-2.0.7:2 )  ssl? ( >=net-libs/gnutls-3:0= )  
+EAPI=6
+IUSE=dbus gnome-keyring libnotify spell ssl 
+KEYWORDS=~alpha amd64 hppa ~ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=http://pan.rebelbase.com/download/releases/0.145/source/pan-0.145.tar.bz2

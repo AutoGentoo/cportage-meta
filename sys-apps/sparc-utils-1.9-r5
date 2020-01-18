@@ -1,0 +1,10 @@
+d606030492ba2248809f8605b8e0af76
+DEFINED_PHASES= compile install postinst
+DEPEND=virtual/os-headers 
+RDEPEND=>=sys-apps/util-linux-2.13-r1 
+EAPI=6
+IUSE=
+KEYWORDS=-* sparc
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/sparc-utils/sparc-utils_1.9.orig.tar.gz
+	mirror://debian/pool/main/s/sparc-utils/sparc-utils_1.9-4.diff.gz

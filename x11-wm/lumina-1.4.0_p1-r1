@@ -1,0 +1,9 @@
+4d6a8d00bf3f576cab1eb008001bb3f4
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=dev-qt/qtcore:5  dev-qt/qtconcurrent:5  dev-qt/qtmultimedia:5[widgets]  dev-qt/qtsvg:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  dev-qt/qtgui:5  dev-qt/qtdeclarative:5  dev-qt/qtprintsupport:5  x11-libs/libxcb:0  x11-libs/xcb-util  x11-libs/xcb-util-image  x11-libs/xcb-util-wm  desktop-utils? ( app-text/poppler[qt5] )  dev-qt/linguist-tools:5 
+RDEPEND=dev-qt/qtcore:5  dev-qt/qtconcurrent:5  dev-qt/qtmultimedia:5[widgets]  dev-qt/qtsvg:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  dev-qt/qtgui:5  dev-qt/qtdeclarative:5  dev-qt/qtprintsupport:5  x11-libs/libxcb:0  x11-libs/xcb-util  x11-libs/xcb-util-image  x11-libs/xcb-util-wm  desktop-utils? ( app-text/poppler[qt5] )  sys-fs/inotify-tools  x11-misc/numlockx  x11-wm/fluxbox  || ( x11-apps/xbacklight   sys-power/acpilight )  media-sound/alsa-utils  sys-power/acpi  app-admin/sysstat 
+EAPI=6
+IUSE=desktop-utils 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/trueos/lumina/archive/v1.4.0-p1.tar.gz -> lumina-1.4.0_p1.tar.gz

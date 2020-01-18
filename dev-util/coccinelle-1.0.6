@@ -1,0 +1,9 @@
+204c72b9fdacd16284bb75d24eaff6da
+DEFINED_PHASES= compile configure install postinst postrm prepare setup test
+DEPEND=>=dev-lang/ocaml-3.12:=[ocamlopt?]  dev-ml/sexplib:=[ocamlopt(+)?]  dev-ml/menhir:=[ocamlopt?]  dev-ml/camlp4:=[ocamlopt?]  dev-ml/parmap:=[ocamlopt?]  emacs? ( >=app-editors/emacs-23.1:* )  ocaml? ( dev-ml/findlib:= )  pcre? ( dev-ml/pcre-ocaml:=[ocamlopt(+)?] )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  virtual/pkgconfig  doc? (   virtual/latex-base   dev-texlive/texlive-latexextra   dev-texlive/texlive-fontsextra  ) 
+RDEPEND=>=dev-lang/ocaml-3.12:=[ocamlopt?]  dev-ml/sexplib:=[ocamlopt(+)?]  dev-ml/menhir:=[ocamlopt?]  dev-ml/camlp4:=[ocamlopt?]  dev-ml/parmap:=[ocamlopt?]  emacs? ( >=app-editors/emacs-23.1:* )  ocaml? ( dev-ml/findlib:= )  pcre? ( dev-ml/pcre-ocaml:=[ocamlopt(+)?] )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  vim-syntax? ( || ( app-editors/vim app-editors/gvim ) ) 
+EAPI=6
+IUSE=doc emacs ocaml +ocamlopt pcre python test vim-syntax 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://coccinelle.lip6.fr/distrib/coccinelle-1.0.6.tgz

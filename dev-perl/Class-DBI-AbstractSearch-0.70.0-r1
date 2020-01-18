@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/SQL-Abstract-Limit-0.12  dev-perl/Class-DBI 
+RDEPEND=>=dev-perl/SQL-Abstract-Limit-0.12  dev-perl/Class-DBI 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/Class-DBI-AbstractSearch-0.07.tar.gz

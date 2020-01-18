@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=dev-games/clanlib:2.3[opengl,mikmod]  virtual/pkgconfig  
+RDEPEND=dev-games/clanlib:2.3[opengl,mikmod] 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/methane/methane-1.5.1.tgz

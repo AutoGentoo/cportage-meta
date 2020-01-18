@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  sys-libs/talloc  pcsc-lite? ( sys-apps/pcsc-lite )   app-doc/doxygen  
+RDEPEND=  sys-libs/talloc  pcsc-lite? ( sys-apps/pcsc-lite )  
+EAPI=6
+IUSE=pcsc-lite 
+KEYWORDS=
+SLOT=0
+SRC_URI=

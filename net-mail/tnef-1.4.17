@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/verdammelt/tnef/archive/1.4.17.tar.gz -> tnef-1.4.17.tar.gz

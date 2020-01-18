@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Class-Load  dev-perl/Email-Address  dev-perl/Email-Date-Format  >=dev-perl/Email-MessageID-1.400.0  dev-perl/Email-Valid  virtual/perl-Encode  >=dev-perl/MIME-tools-5.400.0  >=dev-perl/HTML-Tree-3.0.0  dev-perl/MIME-Types  >=dev-perl/Moose-0.940.0  dev-perl/Path-Class  dev-perl/Text-Table  dev-perl/namespace-autoclean   >=virtual/perl-ExtUtils-MakeMaker-6.590.0  test? (   dev-perl/Test-Most   dev-perl/Test-NoWarnings  )  
+RDEPEND=  dev-perl/Class-Load  dev-perl/Email-Address  dev-perl/Email-Date-Format  >=dev-perl/Email-MessageID-1.400.0  dev-perl/Email-Valid  virtual/perl-Encode  >=dev-perl/MIME-tools-5.400.0  >=dev-perl/HTML-Tree-3.0.0  dev-perl/MIME-Types  >=dev-perl/Moose-0.940.0  dev-perl/Path-Class  dev-perl/Text-Table  dev-perl/namespace-autoclean  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MAROS/Mail-Builder-2.13.tar.gz

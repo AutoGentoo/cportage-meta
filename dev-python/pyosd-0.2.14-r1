@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+DEPEND=>=x11-libs/xosd-2.2.4 
+RDEPEND=>=x11-libs/xosd-2.2.4 
+EAPI=5
+IUSE=doc examples 
+KEYWORDS=amd64 ~ia64 ppc x86
+SLOT=0
+SRC_URI=http://ichi2.net/pyosd/pyosd-0.2.14.tar.gz

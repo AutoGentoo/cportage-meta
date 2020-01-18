@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~hppa ppc ppc64 x86 ~x64-cygwin ~amd64-linux ~x86-linux ~sparc-solaris ~sparc64-solaris
+SLOT=0
+SRC_URI=mirror://gnu/gengetopt/gengetopt-2.23.tar.xz

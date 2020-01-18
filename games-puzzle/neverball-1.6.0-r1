@@ -1,0 +1,9 @@
+f235f1b5c658d61f0c8ea4812776db33
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  media-libs/libsdl2[sound,joystick,opengl,video]  media-libs/sdl2-ttf  media-libs/libpng:0=  virtual/jpeg:0  media-libs/libvorbis  virtual/opengl  dev-games/physfs  media-fonts/dejavu  media-fonts/wqy-microhei  nls? ( virtual/libintl )   sys-devel/gettext  
+RDEPEND=  media-libs/libsdl2[sound,joystick,opengl,video]  media-libs/sdl2-ttf  media-libs/libpng:0=  virtual/jpeg:0  media-libs/libvorbis  virtual/opengl  dev-games/physfs  media-fonts/dejavu  media-fonts/wqy-microhei  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://neverball.org/neverball-1.6.0.tar.gz

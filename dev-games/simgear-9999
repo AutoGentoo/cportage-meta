@@ -1,0 +1,10 @@
+584ced32ce86f98c09e44a87d97dd89d
+DEFINED_PHASES= configure pretend setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/expat  <dev-games/openscenegraph-3.5.6:=  media-libs/openal  net-misc/curl  sys-libs/zlib  virtual/opengl  dns? ( net-libs/udns )  gdal? ( sci-libs/gdal )   >=dev-libs/boost-1.44  
+RDEPEND=  dev-libs/expat  <dev-games/openscenegraph-3.5.6:=  media-libs/openal  net-misc/curl  sys-libs/zlib  virtual/opengl  dns? ( net-libs/udns )  gdal? ( sci-libs/gdal )   subversion? ( dev-vcs/subversion )  
+EAPI=6
+IUSE=cpu_flags_x86_sse2 +dns debug gdal openmp subversion test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

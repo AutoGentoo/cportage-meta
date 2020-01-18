@@ -1,0 +1,10 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= install postinst postrm
+DEPEND=>=virtual/jdk-1.4  latex? ( dev-texlive/texlive-pstricks:0 ) 
+RDEPEND=>=virtual/jre-1.4 
+EAPI=5
+IUSE=latex 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jaxodraw/jaxodraw-2.0-1_src.tar.gz
+	http://downloads.sourceforge.net/jaxodraw/axodraw4j_2008_11_19.tar.gz

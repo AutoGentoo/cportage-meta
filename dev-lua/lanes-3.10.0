@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=dev-lang/lua-5.1 
+RDEPEND=>=dev-lang/lua-5.1 
+EAPI=5
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://github.com/LuaLanes/lanes/archive/v3.10.0.tar.gz -> lanes-3.10.0.tar.gz

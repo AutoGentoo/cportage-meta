@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  dev-util/netsurf-buildsystem  virtual/yacc 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64
+SLOT=0/0.6
+SRC_URI=https://download.netsurf-browser.org/libs/releases/nsgenbind-0.6-src.tar.gz

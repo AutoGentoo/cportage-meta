@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  sys-libs/ncurses:0=  gtk? ( >=x11-libs/gtk+-2.6.10:2 )  
+RDEPEND=  sys-libs/ncurses:0=  gtk? ( >=x11-libs/gtk+-2.6.10:2 )  
+EAPI=7
+IUSE=gtk 
+KEYWORDS=amd64 hppa ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
+SLOT=0
+SRC_URI=https://ibiblio.org/pub/linux/apps/sound/mp3-utils/mp3info/mp3info-0.8.5a.tgz

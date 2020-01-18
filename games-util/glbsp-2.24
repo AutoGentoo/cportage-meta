@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile install prepare
+DEPEND=fltk? ( x11-libs/fltk:1 ) 
+RDEPEND=fltk? ( x11-libs/fltk:1 ) 
+EAPI=5
+IUSE=fltk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/glbsp/glbsp_src_224.tar.gz

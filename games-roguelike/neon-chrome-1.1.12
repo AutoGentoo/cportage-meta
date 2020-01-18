@@ -1,0 +1,8 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install nofetch postinst postrm
+RDEPEND=  media-libs/libsdl2[opengl,video]  media-libs/openal  
+EAPI=7
+IUSE=
+KEYWORDS=-* ~amd64
+SLOT=0
+SRC_URI=NeonChrome-Linux-1.1.12.tar

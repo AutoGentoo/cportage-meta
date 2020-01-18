@@ -1,0 +1,9 @@
+42a6f7aa777af85589fb1198d6becfc9
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=  net-libs/libnetfilter_queue  net-libs/libnfnetlink  dbus? ( sys-apps/dbus )  qt5? (   dev-qt/qtcore:5   dev-qt/qtdbus:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   || ( kde-plasma/kde-cli-tools[kdesu] x11-misc/ktsuss )  )  zlib? ( sys-libs/zlib )   virtual/pkgconfig  sys-devel/libtool:2  
+RDEPEND=  net-libs/libnetfilter_queue  net-libs/libnfnetlink  dbus? ( sys-apps/dbus )  qt5? (   dev-qt/qtcore:5   dev-qt/qtdbus:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   || ( kde-plasma/kde-cli-tools[kdesu] x11-misc/ktsuss )  )  zlib? ( sys-libs/zlib )   net-firewall/iptables  sys-apps/sysvinit  cron? ( virtual/cron )  logrotate? ( app-admin/logrotate )  networkmanager? ( net-misc/networkmanager:= )  
+EAPI=6
+IUSE=cron dbus logrotate networkmanager qt5 zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://sourceforge.net/code-snapshots/git/p/pe/peerguardian/code.git/peerguardian-code-9d91ab6a8e6bc2b41e985aa698eb5c1eb364fea8.zip -> pglinux-2.3.1_p20171006.zip

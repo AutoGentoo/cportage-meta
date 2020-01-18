@@ -1,0 +1,11 @@
+76b9c8cca46892d146ee3c4991c29bd1
+DEFINED_PHASES= configure install
+BDEPEND=  virtual/pkgconfig  
+DEPEND=    >=dev-libs/libburn-1.5.2  >=dev-libs/libisofs-1.5.2  readline? ( sys-libs/readline:0= )  !readline? ( libedit? ( dev-libs/libedit ) )  acl? ( virtual/acl )  xattr? ( sys-apps/attr )  zlib? ( sys-libs/zlib )  launch-frontend? ( dev-lang/tcl:0 dev-lang/tk:0 )  launch-frontend-setuid? ( dev-lang/tcl:0 dev-lang/tk:0 )  frontend-optional? ( dev-tcltk/bwidget )   
+RDEPEND=  >=dev-libs/libburn-1.5.2  >=dev-libs/libisofs-1.5.2  readline? ( sys-libs/readline:0= )  !readline? ( libedit? ( dev-libs/libedit ) )  acl? ( virtual/acl )  xattr? ( sys-apps/attr )  zlib? ( sys-libs/zlib )  launch-frontend? ( dev-lang/tcl:0 dev-lang/tk:0 )  launch-frontend-setuid? ( dev-lang/tcl:0 dev-lang/tk:0 )  frontend-optional? ( dev-tcltk/bwidget )  
+EAPI=7
+IUSE=acl debug external-filters external-filters-setuid frontend-optional
+	launch-frontend launch-frontend-setuid libedit readline static-libs xattr zlib 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://files.libburnia-project.org/releases/libisoburn-1.5.2.tar.gz

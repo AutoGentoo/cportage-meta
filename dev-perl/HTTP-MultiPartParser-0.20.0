@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  virtual/perl-Scalar-List-Utils   >=virtual/perl-ExtUtils-MakeMaker-6.590.0  test? (   dev-perl/Test-Deep   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-Scalar-List-Utils  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHANSEN/HTTP-MultiPartParser-0.02.tar.gz

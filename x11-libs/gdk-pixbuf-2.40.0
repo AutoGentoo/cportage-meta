@@ -1,0 +1,9 @@
+91ad78b1d8d5ce384277b5de9533e8a5
+DEFINED_PHASES= postinst postrm preinst prepare
+DEPEND=  app-text/docbook-xsl-stylesheets  dev-libs/libxslt  dev-util/glib-utils  gtk-doc? ( >=dev-util/gtk-doc-1.20   app-text/docbook-xml-dtd:4.3 )  >=sys-devel/gettext-0.19.8  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.48.0:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  x11-misc/shared-mime-info  >=media-libs/libpng-1.4:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  jpeg? ( virtual/jpeg:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  tiff? ( >=media-libs/tiff-3.9.2:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  X? ( x11-libs/libX11[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  introspection? ( >=dev-libs/gobject-introspection-1.54:= )   !<gnome-base/gail-1000  !<gnome-base/librsvg-2.31.0  !<x11-libs/gtk+-2.21.3:2  !<x11-libs/gtk+-2.90.4:3  
+EAPI=6
+IUSE=X gtk-doc +introspection jpeg tiff 
+KEYWORDS=alpha amd64 arm arm64 hppa ~ia64 ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=2
+SRC_URI=mirror://gnome/sources/gdk-pixbuf/2.40/gdk-pixbuf-2.40.0.tar.xz

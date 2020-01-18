@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-libs/libvterm-0.0_pre20151022 
+RDEPEND=>=dev-libs/libvterm-0.0_pre20151022  dev-libs/glib:2  x11-libs/cairo  x11-libs/gdk-pixbuf:2  x11-libs/gtk+:2  x11-libs/pango  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~tranquility/distfiles/pangoterm-0.0_pre20160305.tar.gz

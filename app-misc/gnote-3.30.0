@@ -1,0 +1,9 @@
+851d690c4f534f9878a2679471ca3c66
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info   app-text/docbook-xml-dtd:4.1.2  >=dev-util/intltool-0.35.0  dev-util/itstool  virtual/pkgconfig  
+RDEPEND=  >=app-crypt/libsecret-0.8  >=app-text/gtkspell-3.0:3  >=dev-cpp/glibmm-2.52.1-r1:2  >=dev-cpp/gtkmm-3.18:3.0  >=dev-libs/glib-2.32:2[dbus]  >=dev-libs/libxml2-2:2  dev-libs/libxslt  >=sys-apps/util-linux-2.16:=  >=x11-libs/gtk+-3.20:3   gnome-base/gsettings-desktop-schemas  
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnote/3.30/gnote-3.30.0.tar.xz

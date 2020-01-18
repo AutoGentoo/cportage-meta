@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=dev-libs/boost-1.49  media-libs/tiff:0  virtual/jpeg:0  app-arch/unzip 
+RDEPEND=>=dev-libs/boost-1.49  media-libs/tiff:0  virtual/jpeg:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~hppa ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sfftools/sfftobmp3_1_2_src.zip

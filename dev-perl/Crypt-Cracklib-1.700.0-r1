@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=sys-libs/cracklib 
+RDEPEND=sys-libs/cracklib 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DANIEL/Crypt-Cracklib-1.7.tar.gz

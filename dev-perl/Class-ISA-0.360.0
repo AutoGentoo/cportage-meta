@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-if  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test )  
+RDEPEND=virtual/perl-if 
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SM/SMUELLER/Class-ISA-0.36.tar.gz

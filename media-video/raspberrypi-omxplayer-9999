@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-libs/libpcre  media-fonts/freefont  || ( media-libs/raspberrypi-userland media-libs/raspberrypi-userland-bin )  sys-apps/dbus  sys-apps/fbset  virtual/ffmpeg  dev-libs/boost  media-libs/freetype:2  X? (   x11-apps/xrefresh   x11-apps/xset  )  virtual/pkgconfig 
+RDEPEND=dev-libs/libpcre  media-fonts/freefont  || ( media-libs/raspberrypi-userland media-libs/raspberrypi-userland-bin )  sys-apps/dbus  sys-apps/fbset  virtual/ffmpeg  dev-libs/boost  media-libs/freetype:2  X? (   x11-apps/xrefresh   x11-apps/xset  ) 
+EAPI=5
+IUSE=X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

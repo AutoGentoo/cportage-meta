@@ -1,0 +1,9 @@
+3afba919e834a7339a371c713a8f1263
+DEFINED_PHASES= install prepare unpack
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0/6.13
+SRC_URI=https://docs.broadcom.com/docs-and-downloads/raid-controllers/raid-controllers-common-files/1.21.16_StorCLI.zip -> storcli-1.21.06.zip
+	https://docs.broadcom.com/docs-and-downloads/raid-controllers/raid-controllers-common-files/1.21.06_StorCLI.txt -> storcli-1.21.06_readme.txt

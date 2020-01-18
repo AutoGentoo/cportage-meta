@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/HTTP-Message-1.0.0  >=dev-perl/libwww-perl-1.0.0   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  >=dev-perl/HTTP-Message-1.0.0  >=dev-perl/libwww-perl-1.0.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BI/BIGPRESH/Business-Tax-VAT-Validation-1.11.tar.gz

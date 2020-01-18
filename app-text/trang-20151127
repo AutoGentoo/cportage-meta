@@ -1,0 +1,9 @@
+4eeb2c6c7006eea2659fcf554fe4c64e
+DEFINED_PHASES= compile configure install test
+DEPEND=  >=virtual/jdk-1.7  dev-java/javacc:0  dev-java/saxon:6.5  dev-java/testng:0    dev-java/xerces:2  dev-java/xml-commons-resolver:0 
+RDEPEND=  >=virtual/jre-1.7    dev-java/xerces:2  dev-java/xml-commons-resolver:0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/relaxng/jing-trang/archive/1e74846999bbd14ce5248acbd2be9f1e624a9846.tar.gz -> trang-20151127.tar.gz

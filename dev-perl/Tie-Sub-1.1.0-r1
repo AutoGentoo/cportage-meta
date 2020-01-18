@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=dev-perl/Params-Validate  test? (   >=dev-perl/Test-Differences-0.600.0   dev-perl/Test-NoWarnings   dev-perl/Test-Exception   virtual/perl-Test-Simple  ) 
+RDEPEND=dev-perl/Params-Validate 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/ST/STEFFENW/Tie-Sub-1.001.tar.gz

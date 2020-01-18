@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=  app-arch/unzip  doc? ( app-doc/doxygen ) 
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~dilfridge/distfiles/libpgf-6.12.27.tar.bz2

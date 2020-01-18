@@ -1,0 +1,10 @@
+ec88ff5cf6730c887a3f40501b50eb5b
+DEFINED_PHASES= configure postinst postrm prepare test
+BDEPEND=  dev-util/itstool  >=sys-devel/gettext-0.19.8  virtual/pkgconfig   || ( dev-lang/vala:0.46 dev-lang/vala:0.44 )  x11-libs/gtk+:3[introspection]  net-libs/webkit-gtk:4[introspection]  app-crypt/gcr:0[introspection,vala]  dev-libs/libgee:0.8[introspection]  app-text/gspell[vala]  app-crypt/libsecret[introspection,vala]  net-libs/libsoup:2.4[introspection,vala]  
+DEPEND=  >=dev-libs/glib-2.54:2  >=x11-libs/gtk+-3.24.7:3  >=net-libs/webkit-gtk-2.26:4=  >=dev-libs/gmime-2.6.17:2.6  >=dev-db/sqlite-3.12:3   >=dev-libs/appstream-glib-0.7.10  app-text/enchant  >=dev-libs/folks-0.11:0  >=app-crypt/gcr-3.10.1:0=  >=dev-libs/libgee-0.8.5:0.8=  net-libs/gnome-online-accounts  app-text/gspell  app-text/iso-codes  >=dev-libs/json-glib-1.0  >=media-libs/libcanberra-0.28  >=gui-libs/libhandy-0.0.9:0.0=  >=app-crypt/libsecret-0.11  >=net-libs/libsoup-2.48:2.4  >=sys-libs/libunwind-1.1:7  >=dev-libs/libxml2-2.7.8:2  ytnef? ( >=net-mail/ytnef-1.9.3 )  
+RDEPEND=  >=dev-libs/glib-2.54:2  >=x11-libs/gtk+-3.24.7:3  >=net-libs/webkit-gtk-2.26:4=  >=dev-libs/gmime-2.6.17:2.6  >=dev-db/sqlite-3.12:3   >=dev-libs/appstream-glib-0.7.10  app-text/enchant  >=dev-libs/folks-0.11:0  >=app-crypt/gcr-3.10.1:0=  >=dev-libs/libgee-0.8.5:0.8=  net-libs/gnome-online-accounts  app-text/gspell  app-text/iso-codes  >=dev-libs/json-glib-1.0  >=media-libs/libcanberra-0.28  >=gui-libs/libhandy-0.0.9:0.0=  >=app-crypt/libsecret-0.11  >=net-libs/libsoup-2.48:2.4  >=sys-libs/libunwind-1.1:7  >=dev-libs/libxml2-2.7.8:2  ytnef? ( >=net-mail/ytnef-1.9.3 )   gnome-base/gsettings-desktop-schemas  
+EAPI=7
+IUSE=ytnef 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://gnome/sources/geary/3.34/geary-3.34.2.tar.xz

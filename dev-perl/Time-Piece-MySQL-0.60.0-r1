@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=virtual/perl-Time-Piece-1.15 
+RDEPEND=>=virtual/perl-Time-Piece-1.15 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KASEI/Time-Piece-MySQL-0.06.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/CGI-PSGI  dev-perl/HTML-Mason   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   dev-perl/Plack   virtual/perl-Test-Simple  )  
+RDEPEND=  dev-perl/CGI-PSGI  dev-perl/HTML-Mason  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RU/RUZ/HTML-Mason-PSGIHandler-0.53.tar.gz

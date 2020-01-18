@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= compile install postinst prerm
+DEPEND=app-office/libreoffice[odk]  dev-libs/voikko-fi 
+RDEPEND=app-office/libreoffice[odk]  dev-libs/voikko-fi  dev-libs/libvoikko 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.puimula.org/voikko-sources/libreoffice-voikko/libreoffice-voikko-5.0.tar.gz

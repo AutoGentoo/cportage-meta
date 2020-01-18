@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/DateTime-0.120.0  >=dev-perl/Set-Infinite-0.590.0  dev-perl/Params-Validate   dev-perl/Module-Build  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  >=dev-perl/DateTime-0.120.0  >=dev-perl/Set-Infinite-0.590.0  dev-perl/Params-Validate  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FG/FGLOCK/DateTime-Set-0.3900.tar.gz

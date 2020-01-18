@@ -1,0 +1,10 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  sys-devel/flex  sys-devel/bison  
+DEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  pam? ( sys-libs/pam ) 
+RDEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+EAPI=7
+IUSE=ipv6 libressl pam ssl 
+KEYWORDS=amd64 ppc ~ppc64 x86 ~amd64-linux
+SLOT=0
+SRC_URI=http://mmonit.com/monit/dist/monit-5.25.3.tar.gz

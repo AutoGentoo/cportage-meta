@@ -1,0 +1,10 @@
+924d856dcbf29aaf2facde2ede393874
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=caps? ( sys-libs/libcap )  ldap? ( >=net-nds/openldap-2.0.25 )  mysql? ( || (   dev-db/mariadb-connector-c   dev-db/mysql-connector-c  ) )  pam? ( sys-libs/pam )  postgres? ( dev-db/postgresql:= )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.6g:0=[-bindist] )   libressl? ( dev-libs/libressl:= )  )  sysquota? ( sys-fs/quota[-rpc] )  xinetd? ( virtual/inetd ) 
+RDEPEND=caps? ( sys-libs/libcap )  ldap? ( >=net-nds/openldap-2.0.25 )  mysql? ( || (   dev-db/mariadb-connector-c   dev-db/mysql-connector-c  ) )  pam? ( sys-libs/pam )  postgres? ( dev-db/postgresql:= )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.6g:0=[-bindist] )   libressl? ( dev-libs/libressl:= )  )  sysquota? ( sys-fs/quota[-rpc] )  xinetd? ( virtual/inetd )  dev-libs/libsodium:=  net-ftp/ftpbase  selinux? ( sec-policy/selinux-ftp ) 
+EAPI=7
+IUSE=anondel anonperm anonren anonres caps implicittls ldap libressl mysql noiplog pam paranoidmsg postgres resolveids selinux ssl sysquota vchroot xinetd 
+KEYWORDS=
+SLOT=0
+SRC_URI=

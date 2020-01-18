@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-python/cython[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  test? ( dev-python/pytest[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 arm ~arm64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/methane/wsaccel/archive/0fbd074c257c51b73de05b25ccb6488801320a32.zip -> wsaccel-0.6.2_p20170108.zip

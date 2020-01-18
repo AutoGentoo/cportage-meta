@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=~dev-libs/libprelude-4.0.0  dev-libs/libpcre  icu? ( dev-libs/icu )  ssl? ( net-libs/gnutls:= )  virtual/pkgconfig 
+RDEPEND=~dev-libs/libprelude-4.0.0  dev-libs/libpcre  icu? ( dev-libs/icu )  ssl? ( net-libs/gnutls:= ) 
+EAPI=6
+IUSE=icu ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.prelude-siem.org/pkg/src/4.0.0/prelude-lml-4.0.0.tar.gz

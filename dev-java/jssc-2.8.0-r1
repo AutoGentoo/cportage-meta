@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install
+DEPEND=  >=virtual/jdk-1.6  source? ( app-arch/zip ) 
+RDEPEND=  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/scream3r/java-simple-serial-connector/archive/2.8.0.zip -> jssc-2.8.0.zip

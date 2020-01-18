@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+RDEPEND=!<sys-apps/openrc-0.11.8    selinux? ( sec-policy/selinux-entropyd ) 
+EAPI=6
+IUSE=selinux static-libs 
+KEYWORDS=amd64 arm ~arm64 ~ppc x86
+SLOT=0
+SRC_URI=http://www.issihosts.com/haveged/haveged-1.9.2.tar.gz

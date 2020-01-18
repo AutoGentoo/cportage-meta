@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-admin/elektra  media-libs/freetype  media-libs/ftgl  media-libs/libXcm[X]  media-libs/oyranos  media-libs/tiff:0  virtual/jpeg:0  virtual/opengl  x11-libs/fltk[opengl]  x11-libs/libX11  x11-libs/libXinerama  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXxf86vm   sys-devel/gettext  virtual/libintl  virtual/pkgconfig  
+RDEPEND=  app-admin/elektra  media-libs/freetype  media-libs/ftgl  media-libs/libXcm[X]  media-libs/oyranos  media-libs/tiff:0  virtual/jpeg:0  virtual/opengl  x11-libs/fltk[opengl]  x11-libs/libX11  x11-libs/libXinerama  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXxf86vm  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

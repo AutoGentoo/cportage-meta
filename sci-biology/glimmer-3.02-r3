@@ -1,0 +1,8 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= compile install prepare
+RDEPEND=app-shells/tcsh 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.cbcb.umd.edu/software/glimmer/glimmer302.tar.gz

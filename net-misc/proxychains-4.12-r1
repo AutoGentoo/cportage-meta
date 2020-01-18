@@ -1,0 +1,7 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= configure install prepare
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://github.com/rofl0r/proxychains-ng/releases/download/v4.12/proxychains-ng-4.12.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/AnyEvent  dev-perl/AnyEvent-HTTP  dev-perl/common-sense  virtual/perl-IO-Compress  dev-perl/Object-Event  virtual/perl-Time-Local  dev-perl/URI   virtual/perl-ExtUtils-MakeMaker  virtual/perl-Carp  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  dev-perl/AnyEvent  dev-perl/AnyEvent-HTTP  dev-perl/common-sense  virtual/perl-IO-Compress  dev-perl/Object-Event  virtual/perl-Time-Local  dev-perl/URI  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/EL/ELMEX/AnyEvent-HTTPD-0.93.tar.gz

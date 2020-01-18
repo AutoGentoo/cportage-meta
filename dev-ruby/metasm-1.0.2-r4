@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES=-
+DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( test? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/rake[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( dev-ruby/bundler[ruby_targets_ruby24] ) ruby_targets_ruby25? ( dev-ruby/bundler[ruby_targets_ruby25] ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=1.0.2
+SRC_URI=https://rubygems.org/gems/metasm-1.0.2.gem

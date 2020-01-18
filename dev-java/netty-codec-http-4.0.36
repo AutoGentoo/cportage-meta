@@ -1,0 +1,9 @@
+8b2b13ac1d5ad2f7671931864b6075f9
+DEFINED_PHASES= test
+DEPEND=>=virtual/jdk-1.7  ~dev-java/netty-buffer-4.0.36:0  ~dev-java/netty-codec-4.0.36:0  ~dev-java/netty-common-4.0.36:0  ~dev-java/netty-handler-4.0.36:0  ~dev-java/netty-transport-4.0.36:0  dev-java/jboss-marshalling:0  dev-java/jzlib:1.1.3  dev-java/protobuf-java:0  test? (   dev-java/hamcrest-core:1.3   dev-java/hamcrest-library:1.3   dev-java/jboss-marshalling-river:0   dev-java/jboss-marshalling-serial:0   dev-java/junit:4  ) 
+RDEPEND=>=virtual/jre-1.7  ~dev-java/netty-buffer-4.0.36:0  ~dev-java/netty-codec-4.0.36:0  ~dev-java/netty-common-4.0.36:0  ~dev-java/netty-handler-4.0.36:0  ~dev-java/netty-transport-4.0.36:0  dev-java/jboss-marshalling:0  dev-java/jzlib:1.1.3  dev-java/protobuf-java:0 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/netty/netty/archive/netty-4.0.36.Final.tar.gz

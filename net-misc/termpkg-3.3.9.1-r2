@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile configure install
+DEPEND=sys-devel/flex 
+EAPI=4
+IUSE=+uucp 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/t/termpkg/termpkg_3.3.orig.tar.gz
+	mirror://debian/pool/main/t/termpkg/termpkg_3.3-9.1.diff.gz

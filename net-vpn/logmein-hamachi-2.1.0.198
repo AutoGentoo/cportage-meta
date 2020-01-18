@@ -1,0 +1,10 @@
+d53041f128712c5120f1989313c0000e
+DEFINED_PHASES= install postinst setup unpack
+DEPEND=virtual/pkgconfig 
+RDEPEND=!net-misc/hamachi 
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=x86?	( https://www.vpn.net/installers/logmein-hamachi-2.1.0.198-x86.tgz )
+	amd64?	( https://www.vpn.net/installers/logmein-hamachi-2.1.0.198-x64.tgz )

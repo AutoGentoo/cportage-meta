@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+RDEPEND=tk? ( dev-lang/tcl:0= dev-lang/tk:0= ) 
+EAPI=6
+IUSE=tk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://nongnu/awale/awale-1.5.tar.gz https://dev.gentoo.org/~hasufell/distfiles/awale-1.5-no-autoreconf2.patch.xz

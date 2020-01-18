@@ -1,0 +1,10 @@
+593ec6297641128df0006f94d346abc6
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  virtual/pkgconfig  virtual/yacc  
+DEPEND=  dev-libs/libevent:0=  sys-libs/ncurses:0=  utempter? (   kernel_linux? ( sys-libs/libutempter )   kernel_FreeBSD? ( || ( >=sys-freebsd/freebsd-lib-9.0 sys-libs/libutempter ) )  ) 
+RDEPEND=    dev-libs/libevent:0=  sys-libs/ncurses:0=  utempter? (   kernel_linux? ( sys-libs/libutempter )   kernel_FreeBSD? ( || ( >=sys-freebsd/freebsd-lib-9.0 sys-libs/libutempter ) )  )  selinux? ( sec-policy/selinux-screen )  vim-syntax? ( app-vim/vim-tmux ) 
+EAPI=7
+IUSE=debug selinux utempter vim-syntax kernel_FreeBSD kernel_linux 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/przepompownia/tmux-bash-completion/678a27616b70c649c6701cae9cd8c92b58cc051b/completions/tmux -> tmux-bash-completion-678a27616b70c649c6701cae9cd8c92b58cc051b

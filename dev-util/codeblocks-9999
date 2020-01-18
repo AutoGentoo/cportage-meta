@@ -1,0 +1,9 @@
+faf433797beadc016aa09f6e4e6bbf06
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=app-arch/zip  x11-libs/wxGTK:3.0[X]  contrib? (   app-admin/gamin   app-text/hunspell   dev-libs/boost:=  )  >=dev-libs/tinyxml-2.6.2-r3  >=dev-util/astyle-3.1-r2:0/3.1  virtual/pkgconfig 
+RDEPEND=app-arch/zip  x11-libs/wxGTK:3.0[X]  contrib? (   app-admin/gamin   app-text/hunspell   dev-libs/boost:=  ) 
+EAPI=6
+IUSE=contrib debug pch 
+KEYWORDS=
+SLOT=0
+SRC_URI=

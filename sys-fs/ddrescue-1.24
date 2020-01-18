@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install test
+DEPEND= || ( app-arch/plzip app-arch/pdlzip app-arch/lzip ) 
+EAPI=6
+IUSE=static 
+KEYWORDS=amd64 ~arm ~ia64 ppc ~ppc64 ~sparc x86 ~amd64-linux
+SLOT=0
+SRC_URI=mirror://gnu/ddrescue/ddrescue-1.24.tar.lz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=media-libs/portaudio  doc? ( dev-python/sphinx ) 
+RDEPEND=media-libs/portaudio 
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://pypi/P/PyAudio/PyAudio-0.2.11.tar.gz

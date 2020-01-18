@@ -1,0 +1,10 @@
+05c28e5277b2e843b64499b29426da0a
+DEFINED_PHASES= compile install prepare test unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  cuda? ( dev-util/nvidia-cuda-toolkit )  doc? ( app-doc/doxygen[dot,latex] )  test? (   dev-libs/gmp:0   dev-libs/mpfr:0   media-libs/freeglut   media-libs/glew   sci-libs/adolc[sparse]   sci-libs/cholmod   sci-libs/fftw:3.0   sci-libs/pastix   sci-libs/umfpack   sci-libs/scotch   sci-libs/spqr   sci-libs/superlu   virtual/opengl   virtual/pkgconfig  )  
+RDEPEND=!dev-cpp/eigen:0 
+EAPI=6
+IUSE=altivec c++11 cpu_flags_arm_neon cuda debug doc openmp test 
+KEYWORDS=~alpha amd64 ~arm arm64 ~ia64 ppc ~ppc64 ~sparc x86 ~amd64-linux ~x86-linux
+SLOT=3
+SRC_URI=https://bitbucket.org/eigen/eigen/get/3.3.7.tar.bz2 -> eigen-3.3.7.tar.bz2

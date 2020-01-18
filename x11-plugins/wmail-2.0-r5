@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=x11-libs/libdockapp-0.7:= 
+RDEPEND=>=x11-libs/libdockapp-0.7:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://www.dockapps.net/download/wmail-2.0.tar.gz

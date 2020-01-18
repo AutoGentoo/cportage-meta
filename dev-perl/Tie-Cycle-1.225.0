@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=virtual/perl-Carp  >=virtual/perl-ExtUtils-MakeMaker-6.640.0  virtual/perl-File-Spec  test? (   >=virtual/perl-Test-Simple-0.950.0  )  
+RDEPEND=virtual/perl-Carp 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BD/BDFOY/Tie-Cycle-1.225.tar.gz

@@ -1,0 +1,10 @@
+7f9a951f0131252ab1f7c4b76f5f6439
+DEFINED_PHASES= config postinst prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  dev-db/unixODBC[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  >=dev-db/mysql-connector-c-8.0:0=[static-libs,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  
+RDEPEND=  dev-db/unixODBC[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  >=dev-db/mysql-connector-c-8.0:0=[static-libs,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=8.0
+SRC_URI=https://dev.mysql.com/get/Downloads/Connector-ODBC/8.0/mysql-connector-odbc-8.0.16-src.tar.gz

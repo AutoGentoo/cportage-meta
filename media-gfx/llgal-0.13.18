@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=media-gfx/imagemagick   dev-perl/Image-Size   dev-perl/URI   dev-perl/Locale-gettext   exif? ( media-libs/exiftool ) 
+EAPI=5
+IUSE=exif 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://download.gna.org/llgal/llgal-0.13.18.tar.bz2

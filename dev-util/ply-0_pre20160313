@@ -1,0 +1,8 @@
+d2e18189c62f7d8ce66355a96c030e02
+DEFINED_PHASES= configure install prepare pretend
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/iovisor/ply/archive/cfc56c789ad1eff1080ecb0dad18d009b91ae8ea.tar.gz -> ply-0_pre20160313.tar.gz

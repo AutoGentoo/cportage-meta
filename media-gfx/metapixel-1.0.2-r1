@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-lang/perl  >=media-libs/giflib-5:0=  >=media-libs/libpng-1.4:0=  virtual/jpeg:0  
+RDEPEND=  dev-lang/perl  >=media-libs/giflib-5:0=  >=media-libs/libpng-1.4:0=  virtual/jpeg:0  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.complang.tuwien.ac.at/schani/metapixel/files/metapixel-1.0.2.tar.gz

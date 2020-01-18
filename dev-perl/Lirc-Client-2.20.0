@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  dev-perl/File-Path-Expand  >=dev-perl/Moo-1.0.0   >=dev-perl/Module-Build-0.360.0  virtual/perl-File-Spec  virtual/perl-IO  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  virtual/perl-Carp  dev-perl/File-Path-Expand  >=dev-perl/Moo-1.0.0  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MG/MGRIMES/Lirc-Client-2.02.tar.gz

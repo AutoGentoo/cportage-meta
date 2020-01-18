@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86 ~ppc-macos ~x86-solaris
+SLOT=0
+SRC_URI=http://craz.net/programs/itunes/files/alac_decoder-0.2.0.tgz

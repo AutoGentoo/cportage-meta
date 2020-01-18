@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= prepare
+BDEPEND=>=virtual/pkgconfig-0-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] 
+DEPEND=>=sci-libs/fftw-3.3.3-r2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] 
+RDEPEND=>=sci-libs/fftw-3.3.3-r2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 ~arm hppa ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://musicip-libofa.googlecode.com/files/libofa-0.9.3.tar.gz

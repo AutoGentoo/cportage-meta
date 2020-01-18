@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/ssh  dev-perl/IO-Tty  !minimal? (   dev-perl/Net-SSH-Any   dev-perl/Net-SFTP-Foreign  )   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/ssh  dev-perl/IO-Tty  !minimal? (   dev-perl/Net-SSH-Any   dev-perl/Net-SFTP-Foreign  )  
+EAPI=6
+IUSE=minimal 
+KEYWORDS=amd64 ~hppa ~sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SALVA/Net-OpenSSH-0.70.tar.gz

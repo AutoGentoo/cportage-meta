@@ -1,0 +1,9 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= compile install nofetch prepare
+DEPEND=  media-libs/freeglut  media-libs/gd:2=  media-libs/libpng:0=  virtual/jpeg:0=  || (   x11-libs/libXmu   x11-libs/libXext   x11-libs/libX11   ) 
+RDEPEND=  media-libs/freeglut  media-libs/gd:2=  media-libs/libpng:0=  virtual/jpeg:0=  || (   x11-libs/libXmu   x11-libs/libXext   x11-libs/libX11   ) 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=molscript-2.1.2.tar.gz

@@ -1,0 +1,8 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= install
+RDEPEND=~app-emulation/virtualbox-6.0.12 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://download.virtualbox.org/virtualbox/6.0.12/Oracle_VM_VirtualBox_Extension_Pack-6.0.12-133076.vbox-extpack -> Oracle_VM_VirtualBox_Extension_Pack-6.0.12-133076.tar.gz

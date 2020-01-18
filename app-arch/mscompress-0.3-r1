@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm hppa ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=ftp://ftp.penguin.cz/pub/users/mhi/mscompress/mscompress-0.3.tar.bz2

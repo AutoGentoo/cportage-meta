@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= install
+DEPEND=  dev-java/javahelp:0  dev-java/oracle-javamail:0  >=virtual/jdk-1.6  app-arch/unzip 
+RDEPEND=  dev-java/javahelp:0  dev-java/oracle-javamail:0  >=virtual/jre-1.6  dev-db/hsqldb:0  dev-java/jgoodies-looks:2.0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/borg-calendar/borg%201.7/BORG%201.7.4/borg_src_1_7_4.zip

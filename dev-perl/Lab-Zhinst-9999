@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=sci-electronics/labone  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=sci-electronics/labone 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

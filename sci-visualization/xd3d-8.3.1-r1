@@ -1,0 +1,9 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= configure install prepare
+DEPEND=  x11-libs/libXpm  app-shells/tcsh 
+RDEPEND=  x11-libs/libXpm 
+EAPI=6
+IUSE=doc examples 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://gentoo/xd3d-8.3.1.tar.gz

@@ -1,0 +1,11 @@
+3986adcf753ed0b3984d9c3c1ef1f20f
+DEFINED_PHASES= compile configure install postinst postrm prepare test unpack
+BDEPEND=>=app-portage/elt-patches-20170815 
+DEPEND=  >=sys-devel/binutils-config-3  sys-libs/zlib   doc? ( sys-apps/texinfo )  test? ( dev-util/dejagnu )  nls? ( sys-devel/gettext )  sys-devel/flex  virtual/yacc  
+RDEPEND=  >=sys-devel/binutils-config-3  sys-libs/zlib  
+EAPI=7
+IUSE=default-gold doc +gold multitarget +nls +plugins static-libs test 
+KEYWORDS=-* ~hppa
+SLOT=2.33
+SRC_URI=mirror://gnu/binutils/binutils-2.33.1.tar.xz
+	https://dev.gentoo.org/~dilfridge/distfiles/binutils-2.33.1-patches-1.tar.xz

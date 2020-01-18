@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  net-libs/libpcap  >=dev-libs/glib-2.0.1  berkdb? ( =sys-libs/db-4* )  ncurses? ( sys-libs/ncurses )  syslog? ( virtual/logger )   virtual/pkgconfig 
+RDEPEND=  net-libs/libpcap  >=dev-libs/glib-2.0.1  berkdb? ( =sys-libs/db-4* )  ncurses? ( sys-libs/ncurses )  syslog? ( virtual/logger )  
+EAPI=5
+IUSE=berkdb ncurses syslog 
+KEYWORDS=amd64 ~arm ~ppc ~sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://jnettop.kubs.info/dist/jnettop-0.13.0.tar.gz

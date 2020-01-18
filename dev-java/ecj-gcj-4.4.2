@@ -1,0 +1,9 @@
+ca99c5ed9d134bdca18930fbc1bd482a
+DEFINED_PHASES= compile install postinst postrm
+DEPEND=sys-devel/gcc:*[gcj]  app-eselect/eselect-java  app-arch/unzip  !dev-java/eclipse-ecj:3.5[gcj] 
+RDEPEND=sys-devel/gcc:*[gcj]  app-eselect/eselect-java 
+EAPI=5
+IUSE=+native 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
+SLOT=4.4
+SRC_URI=http://download.eclipse.org/eclipse/downloads/drops4/R-4.4.2-201502041700/ecjsrc-4.4.2.jar

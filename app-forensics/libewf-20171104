@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= configure install
+DEPEND=  fuse? ( sys-fs/fuse:0= )  nls? (   virtual/libintl   virtual/libiconv  )  uuid? ( sys-apps/util-linux )  ssl? ( dev-libs/openssl:0= )  zlib? ( sys-libs/zlib )   virtual/pkgconfig  nls? ( sys-devel/gettext )  
+RDEPEND=  fuse? ( sys-fs/fuse:0= )  nls? (   virtual/libintl   virtual/libiconv  )  uuid? ( sys-apps/util-linux )  ssl? ( dev-libs/openssl:0= )  zlib? ( sys-libs/zlib )  
+EAPI=6
+IUSE=bfio bzip2 debug +fuse nls +ssl static-libs +uuid unicode zlib 
+KEYWORDS=amd64 ~arm hppa ppc ~ppc64 x86
+SLOT=0/3
+SRC_URI=https://github.com/libyal/libewf/releases/download/20171104/libewf-experimental-20171104.tar.gz

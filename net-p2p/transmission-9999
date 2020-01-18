@@ -1,0 +1,10 @@
+7a74cd863894eaeb1266791c2468e5dd
+DEFINED_PHASES= configure install postinst postrm unpack
+BDEPEND=  acct-group/transmission  acct-user/transmission   virtual/pkgconfig  nls? (   gtk? (    dev-util/intltool    sys-devel/gettext   )   qt5? (    dev-qt/linguist-tools:5   )  )  
+DEPEND=  dev-libs/libb64:0=  >=dev-libs/libevent-2.0.10:=  !mbedtls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  mbedtls? ( net-libs/mbedtls:0= )  net-libs/libnatpmp  >=net-libs/miniupnpc-1.7:=  >=net-misc/curl-7.16.3[ssl]  sys-libs/zlib:=  nls? ( virtual/libintl )  gtk? (   >=dev-libs/dbus-glib-0.100   >=dev-libs/glib-2.32:2   >=x11-libs/gtk+-3.4:3   ayatana? ( >=dev-libs/libappindicator-0.4.30:3 )  )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   dev-qt/qtnetwork:5   dev-qt/qtdbus:5  )  systemd? ( >=sys-apps/systemd-209:= )   nls? (   virtual/libintl   gtk? (    dev-util/intltool    sys-devel/gettext   )   qt5? (    dev-qt/linguist-tools:5   )  )  
+RDEPEND=  dev-libs/libb64:0=  >=dev-libs/libevent-2.0.10:=  !mbedtls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  mbedtls? ( net-libs/mbedtls:0= )  net-libs/libnatpmp  >=net-libs/miniupnpc-1.7:=  >=net-misc/curl-7.16.3[ssl]  sys-libs/zlib:=  nls? ( virtual/libintl )  gtk? (   >=dev-libs/dbus-glib-0.100   >=dev-libs/glib-2.32:2   >=x11-libs/gtk+-3.4:3   ayatana? ( >=dev-libs/libappindicator-0.4.30:3 )  )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   dev-qt/qtnetwork:5   dev-qt/qtdbus:5  )  systemd? ( >=sys-apps/systemd-209:= )     acct-group/transmission  acct-user/transmission   
+EAPI=7
+IUSE=ayatana gtk libressl lightweight nls mbedtls qt5 systemd test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

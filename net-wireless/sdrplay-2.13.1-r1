@@ -1,0 +1,9 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES=-
+DEPEND=virtual/libusb:1  virtual/udev 
+RDEPEND=virtual/libusb:1  virtual/udev 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.sdrplay.com/software/SDRplay_RSP_API-Linux-2.13.1.run

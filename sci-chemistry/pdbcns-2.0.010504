@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  dev-lang/perl 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/pdbcns.2.0.010504.perl.tgz

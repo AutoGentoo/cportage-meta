@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  
+RDEPEND=>=dev-lang/ghc-7.4.1:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/1.4.2
+SRC_URI=https://hackage.haskell.org/package/monadplus-1.4.2/monadplus-1.4.2.tar.gz

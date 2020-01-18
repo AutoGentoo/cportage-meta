@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=app-emacs/async  app-emacs/popup 
+RDEPEND=app-emacs/async  app-emacs/popup 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/emacs-helm/helm/archive/v3.6.0.tar.gz -> helm-3.6.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-perl/Email-Address  virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/JSON   virtual/perl-Test-Simple  )  
+RDEPEND=dev-perl/Email-Address 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BP/BPS/Email-Address-List-0.06.tar.gz

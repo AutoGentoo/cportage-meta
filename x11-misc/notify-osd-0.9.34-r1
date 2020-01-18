@@ -1,0 +1,9 @@
+033e7eee641af6aa2530422367960970
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=  >=dev-libs/dbus-glib-0.98  >=dev-libs/glib-2.16:2  >=x11-libs/gtk+-3.2:3  >=x11-libs/libnotify-0.7  >=x11-libs/libwnck-3:3  x11-libs/libX11  x11-libs/pixman  !x11-misc/notification-daemon  !x11-misc/qtnotifydaemon   dev-util/glib-utils  gnome-base/gnome-common  x11-base/xorg-proto  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/dbus-glib-0.98  >=dev-libs/glib-2.16:2  >=x11-libs/gtk+-3.2:3  >=x11-libs/libnotify-0.7  >=x11-libs/libwnck-3:3  x11-libs/libX11  x11-libs/pixman  !x11-misc/notification-daemon  !x11-misc/qtnotifydaemon   gnome-base/gsettings-desktop-schemas  !minimal? ( x11-themes/notify-osd-icons )  
+EAPI=6
+IUSE=minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/notify-osd/precise/0.9.34/+download/notify-osd-0.9.34.tar.gz

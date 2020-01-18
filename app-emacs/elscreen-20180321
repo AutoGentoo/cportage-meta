@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=wanderlust? ( app-emacs/wanderlust ) 
+RDEPEND=wanderlust? ( app-emacs/wanderlust ) 
+EAPI=7
+IUSE=wanderlust 
+KEYWORDS=~alpha amd64 hppa ~ia64 ~ppc ~ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/knu/elscreen/archive/20180321.tar.gz -> elscreen-20180321.tar.gz

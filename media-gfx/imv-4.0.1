@@ -1,0 +1,10 @@
+5e42bc20f8986c4f1de8e5473b823f43
+DEFINED_PHASES= compile configure install postinst postrm prepare
+BDEPEND=  app-text/asciidoc  test? ( dev-util/cmocka )  
+DEPEND=    !sys-apps/renameutils  media-libs/fontconfig  media-libs/libsdl2  media-libs/sdl2-ttf  X? (   x11-libs/pango   x11-libs/libX11  )  freeimage? ( media-libs/freeimage )  jpeg? ( media-libs/libjpeg-turbo )  png? ( media-libs/libpng )  svg? ( gnome-base/librsvg )  tiff? ( media-libs/tiff )  wayland? ( dev-libs/wayland )   
+RDEPEND=  !sys-apps/renameutils  media-libs/fontconfig  media-libs/libsdl2  media-libs/sdl2-ttf  X? (   x11-libs/pango   x11-libs/libX11  )  freeimage? ( media-libs/freeimage )  jpeg? ( media-libs/libjpeg-turbo )  png? ( media-libs/libpng )  svg? ( gnome-base/librsvg )  tiff? ( media-libs/tiff )  wayland? ( dev-libs/wayland )  
+EAPI=7
+IUSE=X +freeimage jpeg png svg test tiff wayland 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/eXeC64/imv/archive/v4.0.1.tar.gz -> imv-4.0.1.tar.gz

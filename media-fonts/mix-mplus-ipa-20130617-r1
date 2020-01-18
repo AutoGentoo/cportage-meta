@@ -1,0 +1,15 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/mix-mplus-ipa/59021/migmix-1m-20130617.zip
+	mirror://sourceforge.jp/mix-mplus-ipa/59021/migmix-1p-20130617.zip
+	mirror://sourceforge.jp/mix-mplus-ipa/59021/migmix-2m-20130617.zip
+	mirror://sourceforge.jp/mix-mplus-ipa/59021/migmix-2p-20130617.zip
+	mirror://sourceforge.jp/mix-mplus-ipa/59022/migu-1p-20130617.zip
+	mirror://sourceforge.jp/mix-mplus-ipa/59022/migu-1c-20130617.zip
+	mirror://sourceforge.jp/mix-mplus-ipa/59022/migu-1m-20130617.zip
+	mirror://sourceforge.jp/mix-mplus-ipa/59022/migu-2m-20130617.zip

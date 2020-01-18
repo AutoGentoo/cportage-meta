@@ -1,0 +1,8 @@
+077615d60507f006db73ea8d575750eb
+DEFINED_PHASES= compile install
+RDEPEND=  dev-lang/perl  dev-util/strace  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/spiculator/jail/archive/v2.0.tar.gz -> jail-2.0.tar.gz

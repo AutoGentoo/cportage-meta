@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm
+DEPEND=>=x11-wm/icewm-1.2.6 
+RDEPEND=>=x11-wm/icewm-1.2.6 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc sparc x86
+SLOT=0
+SRC_URI=http://sandbox.cz/~covex/icewm/iceicons/iceicons-default-0.10.0.tar.gz

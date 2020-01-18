@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES=-
+DEPEND=>=dev-db/sqlite-3.23.1  app-arch/unzip 
+RDEPEND=>=dev-db/sqlite-3.23.1 
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 ~arm ~ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/rogerbinns/apsw/releases/download/3.23.1-r1/apsw-3.23.1-r1.zip -> apsw-3.23.1_p1.zip

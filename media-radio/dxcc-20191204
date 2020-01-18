@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+RDEPEND=dev-lang/perl  tk? ( dev-perl/Tk ) 
+EAPI=7
+IUSE=tk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://fkurz.net/ham/dxcc/dxcc-20191204.tar.gz

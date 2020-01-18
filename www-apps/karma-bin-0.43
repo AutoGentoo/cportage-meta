@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst setup
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prymitive/karma/releases/download/v0.43/karma-linux-amd64.tar.gz -> karma-bin-0.43-amd64.tar.gz

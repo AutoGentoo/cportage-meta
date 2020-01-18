@@ -1,0 +1,11 @@
+a0cfb6328268a022338149ffaa63ddef
+DEFINED_PHASES= compile configure install prepare setup test
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) 
+DEPEND=sys-libs/ncurses:0=  X? ( x11-libs/libXaw   x11-libs/libXt   x11-libs/libX11 )  fftw? ( sci-libs/fftw:3.0 )  readline? ( sys-libs/readline:0= )  tcl? ( dev-lang/tcl:0   dev-tcltk/blt ) 
+RDEPEND=sys-libs/ncurses:0=  X? ( x11-libs/libXaw   x11-libs/libXt   x11-libs/libX11 )  fftw? ( sci-libs/fftw:3.0 )  readline? ( sys-libs/readline:0= )  tcl? ( dev-lang/tcl:0   dev-tcltk/blt )  X? ( sci-visualization/xgraph ) 
+EAPI=7
+IUSE=X debug deprecated doc examples fftw openmp +readline +shared tcl 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~x64-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/ngspice/ngspice-31.tar.gz
+	doc? ( mirror://sourceforge/ngspice/ngspice-31-manual.pdf )

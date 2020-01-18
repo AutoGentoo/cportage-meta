@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=test? ( dev-lang/php:*  dev-php/PEAR-Math_BigInteger dev-php/phpunit ) 
+RDEPEND=dev-lang/php:*  dev-php/PEAR-Math_BigInteger 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://download.pear.php.net/package/Numbers_Words-0.18.1.tgz

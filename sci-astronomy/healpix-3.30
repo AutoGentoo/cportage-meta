@@ -1,0 +1,9 @@
+d8b49c135fe4523e5e10111fcc1ea149
+DEFINED_PHASES= compile configure install prepare pretend setup test
+DEPEND=  >=sci-libs/cfitsio-3  idl? (   dev-lang/gdl   sci-astronomy/idlastro )  java? ( >=virtual/jre-1.6:* )  virtual/pkgconfig  java? ( >=virtual/jdk-1.6:* test? ( dev-java/ant-junit4:0 ) ) 
+RDEPEND=  >=sci-libs/cfitsio-3  idl? (   dev-lang/gdl   sci-astronomy/idlastro )  java? ( >=virtual/jre-1.6:* ) 
+EAPI=6
+IUSE=cxx doc idl java openmp static-libs test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/healpix/Healpix_3.30/Healpix_3.30_2015Oct08.tar.gz

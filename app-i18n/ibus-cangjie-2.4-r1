@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install postinst postrm
+DEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  app-i18n/ibus[python(+),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  app-i18n/libcangjie  dev-python/cangjie[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  nls? ( virtual/libintl )  dev-util/intltool  nls? ( sys-devel/gettext ) 
+RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  app-i18n/ibus[python(+),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  app-i18n/libcangjie  dev-python/cangjie[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/Cangjians/ibus-cangjie/releases/download/v2.4/ibus-cangjie-2.4.tar.xz

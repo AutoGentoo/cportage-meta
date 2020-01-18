@@ -1,0 +1,9 @@
+d2869126829a796ae3ed1cfb2f0d9ebf
+DEFINED_PHASES= install postinst setup
+BDEPEND=virtual/pkgconfig 
+RDEPEND=>=dev-lang/perl-5.16.3  dev-perl/Net-CIDR-Lite  dev-perl/Net-DNS  dev-perl/Net-Server  dev-perl/NetAddr-IP  virtual/perl-Digest-MD5  virtual/perl-Storable  virtual/perl-Sys-Syslog  virtual/perl-Time-HiRes  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.postfwd.org/postfwd-2.02.tar.gz

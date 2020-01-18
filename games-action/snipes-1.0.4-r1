@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=media-libs/libsdl[sound,video] 
+RDEPEND=media-libs/libsdl[sound,video] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://cyp.github.com/snipes/snipes-1.0.4.tar.gz

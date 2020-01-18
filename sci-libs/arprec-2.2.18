@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile configure install prepare
+DEPEND=qd? ( sci-libs/qd[fortran=] ) 
+RDEPEND=qd? ( sci-libs/qd[fortran=] ) 
+EAPI=6
+IUSE=cpu_flags_x86_fma3 cpu_flags_x86_fma4 doc fortran qd static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://crd.lbl.gov/~dhbailey/mpdist/arprec-2.2.18.tar.gz

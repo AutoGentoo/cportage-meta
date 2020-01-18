@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure prepare
+DEPEND=net-dns/avahi[dbus] =www-servers/apache-2* 
+RDEPEND=net-dns/avahi[dbus] =www-servers/apache-2* 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=http://0pointer.de/lennart/projects/mod_dnssd/mod_dnssd-0.6.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=virtual/perl-Time-Local  dev-perl/Set-Crontab  virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Data-Dumper   virtual/perl-Test   virtual/perl-Test-Simple   dev-perl/Test-Deep  ) 
+RDEPEND=virtual/perl-Time-Local  dev-perl/Set-Crontab 
+EAPI=6
+IUSE=test examples 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KO/KOHTS/Schedule-Cron-Events-1.95.tar.gz

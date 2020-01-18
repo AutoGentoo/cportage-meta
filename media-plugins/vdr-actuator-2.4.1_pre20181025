@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=media-video/vdr-2.4 
+RDEPEND=>=media-tv/gentoo-vdr-scripts-0.4.2  >=app-eselect/eselect-vdr-0.0.2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/olivluca/vdr-actuator-plugin/archive/c810abffbf6dc6f1f354b0c545abe65311203fd8.tar.gz -> vdr-actuator-2.4.1_pre20181025.tar.gz

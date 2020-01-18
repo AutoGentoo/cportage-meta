@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+RDEPEND=app-admin/cronolog 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/fifo-cronolog-1.1.1.tar.bz2

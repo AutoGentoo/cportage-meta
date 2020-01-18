@@ -1,0 +1,10 @@
+d0120131d37f6d4695eb5f7b97488843
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=  app-arch/xz-utils  >=dev-lang/perl-5  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+DEPEND=iconv? ( virtual/libiconv )  idn? ( net-dns/libidn2:= )  nls? ( virtual/libintl ) 
+RDEPEND=iconv? ( virtual/libiconv )  idn? ( net-dns/libidn2:= )  nls? ( virtual/libintl ) 
+EAPI=7
+IUSE=iconv idn nls 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+32c289bbafc16484096dfe85fe08df07
+DEFINED_PHASES= compile configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  app-arch/libarchive:=[lzma]  gpg? ( >=app-crypt/gpgme-1.4.0:= )  curl? ( net-misc/curl )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  virtual/libiconv  virtual/libintl   app-text/asciidoc  doc? ( app-doc/doxygen )  test? (   sys-apps/fakeroot   sys-apps/fakechroot  )  
+RDEPEND=  app-arch/libarchive:=[lzma]  gpg? ( >=app-crypt/gpgme-1.4.0:= )  curl? ( net-misc/curl )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  virtual/libiconv  virtual/libintl  
+EAPI=7
+IUSE=curl debug doc +gpg libressl test 
+KEYWORDS=-* ~amd64
+SLOT=0/10
+SRC_URI=https://sources.archlinux.org/other/pacman/pacman-5.0.2.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst
+DEPEND=>=x11-libs/gtk+-2.12:2  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=>=x11-libs/gtk+-2.12:2 
+EAPI=5
+IUSE=nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xdxclusterclient/xdx-2.5.0.tar.gz

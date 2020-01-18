@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+BDEPEND=bbdb? ( app-emacs/bbdb )  planner? ( app-emacs/planner )  sys-apps/texinfo 
+RDEPEND=bbdb? ( app-emacs/bbdb )  planner? ( app-emacs/planner ) 
+EAPI=7
+IUSE=bbdb planner 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/jwiegley/remember/archive/v2.0.tar.gz -> remember-2.0.tar.gz

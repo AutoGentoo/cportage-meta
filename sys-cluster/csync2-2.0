@@ -1,0 +1,9 @@
+a28e8938fee9571ac0bc68d2cce69ecd
+DEFINED_PHASES= config configure install postinst
+DEPEND=>=net-libs/librsync-0.9.5  mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql:= )  sqlite? ( >=dev-db/sqlite-3.0 )  ssl? ( >=net-libs/gnutls-2.7.3 )  xinetd? ( sys-apps/xinetd )  virtual/pkgconfig 
+RDEPEND=>=net-libs/librsync-0.9.5  mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql:= )  sqlite? ( >=dev-db/sqlite-3.0 )  ssl? ( >=net-libs/gnutls-2.7.3 )  xinetd? ( sys-apps/xinetd ) 
+EAPI=5
+IUSE=mysql postgres sqlite ssl xinetd 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=http://oss.linbit.com/csync2/csync2-2.0.tar.gz

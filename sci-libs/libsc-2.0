@@ -1,0 +1,9 @@
+66329a3189b8e9d4e7141f9868e3027a
+DEFINED_PHASES= configure install prepare pretend
+DEPEND=    dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio?] )  virtual/pkgconfig 
+RDEPEND=  dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio?] ) 
+EAPI=6
+IUSE=debug examples mpi openmp romio static-libs threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/cburstedde/libsc/archive/v2.0.tar.gz -> libsc-2.0.tar.gz

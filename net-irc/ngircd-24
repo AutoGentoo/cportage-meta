@@ -1,0 +1,9 @@
+2c60065e64cd8d5b7e80584820abe67a
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  iconv? ( virtual/libiconv )  ident? ( net-libs/libident )  pam? ( sys-libs/pam )  ssl? (   gnutls? ( net-libs/gnutls:= )   !gnutls? (    !libressl? ( dev-libs/openssl:0= )    libressl? ( dev-libs/libressl:0= )   )  )  tcpd? ( sys-apps/tcp-wrappers )  zlib? ( sys-libs/zlib )   >=sys-apps/sed-4  test? (   dev-tcltk/expect   net-misc/netkit-telnetd  )  
+RDEPEND=  iconv? ( virtual/libiconv )  ident? ( net-libs/libident )  pam? ( sys-libs/pam )  ssl? (   gnutls? ( net-libs/gnutls:= )   !gnutls? (    !libressl? ( dev-libs/openssl:0= )    libressl? ( dev-libs/libressl:0= )   )  )  tcpd? ( sys-apps/tcp-wrappers )  zlib? ( sys-libs/zlib )  
+EAPI=6
+IUSE=debug gnutls iconv ident ipv6 libressl pam ssl tcpd test zlib 
+KEYWORDS=amd64 x86 ~x64-macos
+SLOT=0
+SRC_URI=https://arthur.barton.de/pub/ngircd/ngircd-24.tar.gz

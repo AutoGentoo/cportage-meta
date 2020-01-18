@@ -1,0 +1,10 @@
+1a372cbd86143d43a0263cf347c4c557
+DEFINED_PHASES= configure postinst setup test
+BDEPEND=  test? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 ) )  
+DEPEND=  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=dev-qt/qtxml-5.12.3:5  epub? ( app-text/ebook-tools )  exif? ( media-gfx/exiv2:= )  ffmpeg? (   libav? ( >=media-video/libav-12.2:= )   !libav? ( media-video/ffmpeg:0= )  )  office? ( >=kde-frameworks/karchive-5.64:5 )  pdf? ( app-text/poppler[qt5] )  taglib? ( media-libs/taglib )   kernel_linux? ( sys-apps/attr )  
+RDEPEND=  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=dev-qt/qtxml-5.12.3:5  epub? ( app-text/ebook-tools )  exif? ( media-gfx/exiv2:= )  ffmpeg? (   libav? ( >=media-video/libav-12.2:= )   !libav? ( media-video/ffmpeg:0= )  )  office? ( >=kde-frameworks/karchive-5.64:5 )  pdf? ( app-text/poppler[qt5] )  taglib? ( media-libs/taglib )  
+EAPI=7
+IUSE=epub exif ffmpeg kernel_linux libav office pdf taglib 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/kfilemetadata-5.64.0.tar.xz

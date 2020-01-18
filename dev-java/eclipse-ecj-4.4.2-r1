@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install postinst postrm
+DEPEND=  app-eselect/eselect-java  >=virtual/jdk-1.6  app-arch/unzip 
+RDEPEND=  app-eselect/eselect-java  >=virtual/jre-1.6 
+PDEPEND=  ant? ( ~dev-java/ant-eclipse-ecj-4.4.2 ) 
+EAPI=5
+IUSE=+ant 
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=4.4
+SRC_URI=http://download.eclipse.org/eclipse/downloads/drops4/R-4.4.2-201502041700/ecjsrc-4.4.2.jar

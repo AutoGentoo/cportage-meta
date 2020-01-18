@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  sys-devel/libtool  virtual/pkgconfig 
+RDEPEND=!dev-libs/libvterm-neovim 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~tranquility/distfiles/libvterm-0.0_pre20181126.tar.gz

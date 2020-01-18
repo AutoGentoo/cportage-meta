@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip  dev-java/ant-core:0  dev-java/unkrig-nullanalysis:0 
+RDEPEND=>=virtual/jre-1.6  dev-java/ant-core:0  dev-java/unkrig-nullanalysis:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://janino.net/download/janino-2.7.0.zip

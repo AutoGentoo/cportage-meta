@@ -1,0 +1,10 @@
+835f4fb15b09aaa83f6984aefc977359
+DEFINED_PHASES= configure prepare test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=sys-devel/autogen-5.18.4[libopts]  dev-libs/libdnet  >=net-libs/libpcap-0.9  tcpdump? ( net-analyzer/tcpdump )  pcapnav? ( net-libs/libpcapnav )  
+RDEPEND=  >=sys-devel/autogen-5.18.4[libopts]  dev-libs/libdnet  >=net-libs/libpcap-0.9  tcpdump? ( net-analyzer/tcpdump )  pcapnav? ( net-libs/libpcapnav )  
+EAPI=7
+IUSE=debug pcapnav +tcpdump 
+KEYWORDS=
+SLOT=0
+SRC_URI=

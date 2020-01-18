@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  dev-lang/lua:0  >=gnome-base/libglade-2.4  media-libs/aldumb  media-libs/allegro:0  >=x11-libs/gtk+-2.8:2  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=  dev-lang/lua:0  >=gnome-base/libglade-2.4  media-libs/aldumb  media-libs/allegro:0  >=x11-libs/gtk+-2.8:2  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=cheats nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/kqlives/kq-0.99.tar.gz

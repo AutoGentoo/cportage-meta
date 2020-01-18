@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=  >=kde-frameworks/extra-cmake-modules-5.60.0:5  >=dev-qt/qtcore-5.12.3:5  media-gfx/fontforge  
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm x86
+SLOT=5
+SRC_URI=mirror://kde/unstable/plasma/5.4.3/oxygen-fonts-5.4.3.tar.xz

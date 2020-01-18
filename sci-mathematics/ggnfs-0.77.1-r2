@@ -1,0 +1,13 @@
+fb5579d257519a08861f0e5eebb8e546
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=dev-libs/gmp-4.3:0  app-arch/unzip 
+RDEPEND=>=dev-libs/gmp-4.3:0  app-arch/unzip  !sci-mathematics/cado-nfs 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	http://dev.gentooexperimental.org/~dreeevil/ggnfs-0.77.1.zip
+	http://stuff.mit.edu/afs/sipb/project/pari-gp/ggnfs/Linux/src/def-par.txt
+	http://stuff.mit.edu/afs/sipb/project/pari-gp/ggnfs/Linux/src/def-nm-params.txt
+	http://gentooexperimental.org/~patrick/ggnfs-doc.pdf

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  dev-libs/9libs  
+RDEPEND=    dev-libs/9libs   
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.netlib.org/research/9libs/wily-9libs.tar.gz

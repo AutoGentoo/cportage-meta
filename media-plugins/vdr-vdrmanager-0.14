@@ -1,0 +1,9 @@
+37e7f9322ce0e997facbb07e0f7c4c92
+DEFINED_PHASES= config postinst prepare
+DEPEND=>=media-video/vdr-2   ssl? ( dev-libs/openssl ) 
+RDEPEND=stream? ( media-plugins/vdr-streamdev[server] )   zlib? ( sys-libs/zlib ) 
+EAPI=6
+IUSE=gzip +ssl -stream zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://vdr-developerorg/1971/vdr-vdrmanager-0.14.tgz

@@ -1,0 +1,10 @@
+090cae6b1b54d8bba909cfcdb3328e83
+DEFINED_PHASES= compile install postinst prepare setup
+DEPEND=  dev-vcs/git  sys-libs/zlib  virtual/httpd-cgi  highlight? ( || ( dev-python/pygments app-text/highlight ) )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  lua? ( jit? ( dev-lang/luajit ) !jit? ( dev-lang/lua:0 ) )   !<www-apps/cgit-0.8.3.3  doc? ( app-text/docbook-xsl-stylesheets   >=app-text/asciidoc-8.5.1 )  
+RDEPEND=  dev-vcs/git  sys-libs/zlib  virtual/httpd-cgi  highlight? ( || ( dev-python/pygments app-text/highlight ) )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  lua? ( jit? ( dev-lang/luajit ) !jit? ( dev-lang/lua:0 ) )  
+EAPI=5
+IUSE=doc +highlight libressl +lua +jit 
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/software/scm/git/git-2.18.0.tar.xz
+	https://git.zx2c4.com/cgit/snapshot/cgit-1.2.1.tar.xz

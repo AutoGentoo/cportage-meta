@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Time-Piece  virtual/perl-Time-Local  virtual/perl-Test-Simple  
+RDEPEND=  virtual/perl-Time-Piece  virtual/perl-Time-Local  virtual/perl-Test-Simple  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DD/DDICK/Test-MockTime-0.16.tar.gz

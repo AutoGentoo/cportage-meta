@@ -1,0 +1,10 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  media-libs/liblrdf:=  media-libs/ladspa-sdk  media-libs/audiofile:=  media-libs/libsndfile:=  sci-libs/fftw:2.1=  x11-libs/gtk+:2  alsa? ( media-libs/alsa-lib:= )  jack? ( virtual/jack )  opengl? (   x11-libs/gtkglarea:2=   virtual/glu  )  vorbis? ( media-sound/vorbis-tools ) 
+RDEPEND=  media-libs/liblrdf:=  media-libs/ladspa-sdk  media-libs/audiofile:=  media-libs/libsndfile:=  sci-libs/fftw:2.1=  x11-libs/gtk+:2  alsa? ( media-libs/alsa-lib:= )  jack? ( virtual/jack )  opengl? (   x11-libs/gtkglarea:2=   virtual/glu  )  vorbis? ( media-sound/vorbis-tools ) 
+EAPI=7
+IUSE=alsa jack opengl vorbis 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/galan/galan-0.3.0_beta7.tar.gz

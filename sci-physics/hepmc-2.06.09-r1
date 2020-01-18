@@ -1,0 +1,9 @@
+2d698140ad571c4a451f502f615fb3c9
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  doc? (   app-doc/doxygen   || (    dev-texlive/texlive-latex    dev-tex/floatflt   )  ) 
+EAPI=6
+IUSE=cm doc examples gev static-libs test 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://lcgapp.cern.ch/project/simu/HepMC/download/HepMC-2.06.09.tar.gz

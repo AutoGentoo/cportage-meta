@@ -1,0 +1,10 @@
+fb3c30fd3595fc436cddcd205e9d4453
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  media-libs/libid3tag:=  net-dns/avahi:=[dbus]  sys-libs/gdbm:=  sys-libs/zlib:=  vorbis? (   media-libs/libvorbis:=   media-libs/libogg:=  )  virtual/pkgconfig 
+RDEPEND=  media-libs/libid3tag:=  net-dns/avahi:=[dbus]  sys-libs/gdbm:=  sys-libs/zlib:=  vorbis? (   media-libs/libvorbis:=   media-libs/libogg:=  ) 
+EAPI=7
+IUSE=vorbis 
+KEYWORDS=amd64 arm ~hppa ~mips ppc sh sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/mt-daapd/mt-daapd-0.2.4.2.tar.gz

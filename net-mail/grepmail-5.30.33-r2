@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= prepare
+DEPEND=  dev-perl/Inline  dev-perl/TimeDate  dev-perl/Date-Manip  virtual/perl-Digest-MD5  >=dev-perl/Mail-Mbox-MessageParser-1.40.01   
+RDEPEND=  dev-perl/Inline  dev-perl/TimeDate  dev-perl/Date-Manip  virtual/perl-Digest-MD5  >=dev-perl/Mail-Mbox-MessageParser-1.40.01  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/grepmail/grepmail-5.3033.tar.gz

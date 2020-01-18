@@ -1,0 +1,9 @@
+d2aaee118966ce28ae9937f1d865ab35
+DEFINED_PHASES= configure install prepare
+DEPEND=app-misc/ddccontrol-db  dev-libs/libxml2:2  gtk? ( x11-libs/gtk+:2 )  nls? ( sys-devel/gettext )  pci? ( sys-apps/pciutils )  dev-perl/XML-Parser  dev-util/intltool  sys-kernel/linux-headers  doc? (   >=app-text/docbook-xsl-stylesheets-1.65.1   >=dev-libs/libxslt-1.1.6   app-text/htmltidy  ) 
+RDEPEND=app-misc/ddccontrol-db  dev-libs/libxml2:2  gtk? ( x11-libs/gtk+:2 )  nls? ( sys-devel/gettext )  pci? ( sys-apps/pciutils ) 
+EAPI=5
+IUSE=doc gtk nls +pci static-libs 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/ddccontrol/ddccontrol/archive/9d89d8c0b959a4da62ecc50fb2aeb23142d4bfb4.tar.gz -> ddccontrol-0.4.2_p20140105.tar.gz

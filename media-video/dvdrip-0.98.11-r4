@@ -1,0 +1,9 @@
+16ed5f8ad22fda8653f6f9121a29e669
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=>=dev-perl/Event-ExecFlow-0.64  >=dev-perl/Event-RPC-0.89  dev-perl/Gtk2  >=dev-perl/gtk2-ex-formfactory-0.65  >=dev-perl/libintl-perl-1.16  >=media-video/transcode-1.1.0[dvd,jpeg,mp3,ogg,vorbis]  virtual/imagemagick-tools  >=virtual/perl-podlators-2.5.3  
+RDEPEND=>=dev-perl/Event-ExecFlow-0.64  >=dev-perl/Event-RPC-0.89  dev-perl/Gtk2  >=dev-perl/gtk2-ex-formfactory-0.65  >=dev-perl/libintl-perl-1.16  >=media-video/transcode-1.1.0[dvd,jpeg,mp3,ogg,vorbis]  virtual/imagemagick-tools  >=virtual/perl-podlators-2.5.3   x11-libs/gdk-pixbuf:2[jpeg]  x11-libs/gtk+:2  ffmpeg? (   libav? ( media-video/libav )   !libav? ( media-video/ffmpeg:0 )  )  fping? ( >=net-analyzer/fping-2.2 )  mplayer? ( media-video/mplayer )  ogg? ( media-sound/ogmtools )  subtitles? ( media-video/subtitleripper )  vcd? (   media-video/transcode[mjpeg]   >=media-video/mjpegtools-1.6.0  )  vorbis? ( media-sound/vorbis-tools )  xine? ( media-video/xine-ui )  xvid? ( media-video/xvid4conf )  >=media-video/lsdvd-0.15  
+EAPI=5
+IUSE=ffmpeg fping libav mplayer ogg subtitles vcd vorbis xine xvid 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://www.exit1.org/dvdrip/dist/dvdrip-0.98.11.tar.gz

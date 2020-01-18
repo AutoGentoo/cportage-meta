@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install prepare
+DEPEND=tk? ( dev-lang/tk:0 ) 
+RDEPEND=tk? ( dev-lang/tk:0 )  sys-power/acpi 
+EAPI=5
+IUSE=tk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/i8kutils/trunk/1.42/+download/i8kutils_1.42.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare test
+DEPEND=dev-libs/libpcre  lzma? ( app-arch/xz-utils )  zlib? ( sys-libs/zlib )  virtual/pkgconfig  test? (   dev-util/cram   dev-vcs/git  ) 
+RDEPEND=dev-libs/libpcre  lzma? ( app-arch/xz-utils )  zlib? ( sys-libs/zlib ) 
+EAPI=6
+IUSE=lzma test zlib 
+KEYWORDS=amd64 ~arm ~hppa ~mips ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/ggreer/the_silver_searcher/archive/2.0.0.tar.gz -> the_silver_searcher-2.0.0.tar.gz

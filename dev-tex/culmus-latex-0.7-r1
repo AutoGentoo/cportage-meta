@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=virtual/latex-base  >=sys-apps/texinfo-4.2-r5 
+DEPEND=virtual/latex-base  || (   >=media-fonts/culmus-0.110[fancy]   <media-fonts/culmus-0.110  )  app-text/t1utils 
+RDEPEND=virtual/latex-base 
+EAPI=7
+IUSE=examples 
+KEYWORDS=alpha amd64 ~hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ivritex/culmus-latex-0.7_src.tar.gz -> culmus-latex-0.7.tar.gz

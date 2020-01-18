@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install
+DEPEND=dev-java/iso-relax:0  dev-java/relaxng-datatype:0  dev-java/xsdlib:0  app-arch/unzip  >=virtual/jdk-1.5 
+RDEPEND=dev-java/iso-relax:0  dev-java/relaxng-datatype:0  dev-java/xsdlib:0  dev-java/xerces:2  >=virtual/jre-1.5 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://search.maven.org/remotecontent?filepath=net/java/dev/msv/msv-core/2013.6.1/msv-core-2013.6.1-sources.jar

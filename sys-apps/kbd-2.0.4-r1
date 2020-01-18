@@ -1,0 +1,10 @@
+52611b52a1884d11482c6e712a4763f6
+DEFINED_PHASES= configure install prepare unpack
+BDEPEND=  virtual/pkgconfig  test? ( dev-libs/check )  
+DEPEND=  app-arch/gzip  pam? (   !app-misc/vlock   sys-libs/pam  )  
+RDEPEND=  app-arch/gzip  pam? (   !app-misc/vlock   sys-libs/pam  )  
+EAPI=7
+IUSE=nls pam test 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/utils/kbd/kbd-2.0.4.tar.xz

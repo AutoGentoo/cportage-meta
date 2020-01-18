@@ -1,0 +1,9 @@
+eef33057b0c5749f076540447a23a871
+DEFINED_PHASES= compile configure install prepare setup
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+RDEPEND=perl? ( dev-lang/perl )  net-misc/ethertypes 
+EAPI=7
+IUSE=+perl static 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.netfilter.org/pub/ebtables/ebtables-2.0.11.tar.gz

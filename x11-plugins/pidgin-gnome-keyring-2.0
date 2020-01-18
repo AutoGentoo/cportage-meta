@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=app-crypt/libsecret  net-im/pidgin  virtual/pkgconfig 
+RDEPEND=app-crypt/libsecret  net-im/pidgin 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/aebrahim/pidgin-gnome-keyring/archive/2.0.tar.gz -> pidgin-gnome-keyring-2.0.tar.gz

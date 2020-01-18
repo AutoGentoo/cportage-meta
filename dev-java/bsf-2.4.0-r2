@@ -1,0 +1,9 @@
+d64737289f9a931711a677172a63d667
+DEFINED_PHASES= compile install postinst
+DEPEND=    python? (   dev-java/jython:2.7  )  javascript? (   dev-java/rhino:1.6  )  tcl? (   dev-java/jacl:0  )  dev-java/xalan:0  dev-java/commons-logging:0  >=virtual/jdk-1.6 
+RDEPEND=    python? (   dev-java/jython:2.7  )  javascript? (   dev-java/rhino:1.6  )  tcl? (   dev-java/jacl:0  )  dev-java/xalan:0  dev-java/commons-logging:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=javascript python tcl 
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=2.3
+SRC_URI=mirror://apache/jakarta/bsf/source/bsf-src-2.4.0.tar.gz

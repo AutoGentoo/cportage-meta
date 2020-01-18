@@ -1,0 +1,10 @@
+cbd6a0ac0dedd4784d89d30858a14da0
+DEFINED_PHASES= pretend setup
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.7.0-r1 
+DEPEND=  hwloc? ( sys-apps/hwloc:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  offload? (   virtual/libelf:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   virtual/libffi:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   cuda? ( dev-util/nvidia-cuda-toolkit:= )  )  dev-lang/perl  offload? ( virtual/pkgconfig[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  test? (   || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/lit[python_targets_python2_7(-),python_single_target_python2_7(+)] ) )   >=sys-devel/clang-6  ) 
+RDEPEND=  hwloc? ( sys-apps/hwloc:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  offload? (   virtual/libelf:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   virtual/libffi:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   cuda? ( dev-util/nvidia-cuda-toolkit:= )  ) 
+EAPI=6
+IUSE=cuda hwloc kernel_linux offload ompt test 
+KEYWORDS=amd64 arm arm64 ~ppc64 x86 ~amd64-linux ~x64-macos
+SLOT=0
+SRC_URI=https://releases.llvm.org/7.1.0/openmp-7.1.0.src.tar.xz

@@ -1,0 +1,10 @@
+a1015fccb519c227415565271609c93f
+DEFINED_PHASES= configure install prepare setup
+BDEPEND=  sys-devel/bison  sys-devel/flex  elibc_musl? ( sys-libs/fts-standalone )  
+DEPEND=pam? ( sys-libs/pam ) 
+RDEPEND=pam? ( sys-libs/pam ) 
+EAPI=7
+IUSE=+daemon elibc_musl pam static-libs test +tools 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/project/libcg/libcgroup/v0.41/libcgroup-0.41.tar.bz2

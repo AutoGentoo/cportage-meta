@@ -1,0 +1,9 @@
+ae6e30b696443071c2b12199a13fa2af
+DEFINED_PHASES= prepare
+BDEPEND=  test? (   dev-libs/atf   dev-util/kyua  )  
+RDEPEND=  pkg-config? (   !dev-util/pkgconfig   !dev-util/pkg-config-lite   !dev-util/pkgconfig-openbsd[pkg-config]  )  
+EAPI=7
+IUSE=+pkg-config test 
+KEYWORDS=
+SLOT=0/3
+SRC_URI=

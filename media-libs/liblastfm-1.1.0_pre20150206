@@ -1,0 +1,10 @@
+8f95e84971f9800b8c24d2b6ebd90f7b
+DEFINED_PHASES= configure
+BDEPEND=  test? ( dev-qt/qttest:5 )  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  fingerprint? (   dev-qt/qtsql:5   media-libs/libsamplerate   sci-libs/fftw:3.0  )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  fingerprint? (   dev-qt/qtsql:5   media-libs/libsamplerate   sci-libs/fftw:3.0  )  
+EAPI=7
+IUSE=fingerprint test 
+KEYWORDS=amd64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0/0
+SRC_URI=https://github.com/lastfm/liblastfm/archive/44331654256df83bc1d3cbb271a8ce3d4c464686.tar.gz -> liblastfm-1.1.0_pre20150206.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa ia64 ppc ppc64 sparc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TODDR/Net-Ident-1.24.tar.gz

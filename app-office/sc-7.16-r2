@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install prepare
+DEPEND=  virtual/pkgconfig  
+RDEPEND=    >=sys-libs/ncurses-5.2   
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=ftp://ibiblio.org/pub/Linux/apps/financial/spreadsheet/sc-7.16.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://taskwarrior.org/download/timew-1.0.0.tar.gz

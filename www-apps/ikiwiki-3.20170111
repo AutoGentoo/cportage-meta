@@ -1,0 +1,9 @@
+d9b26ae561eeccfc2fdabb8094c2a8a2
+DEFINED_PHASES= install prepare
+DEPEND=  >=dev-lang/perl-5.10  app-text/po4a  dev-perl/HTML-Parser  dev-perl/HTML-Scrubber  dev-perl/HTML-Template  dev-perl/URI  dev-perl/Text-Markdown  dev-perl/TimeDate  dev-perl/YAML-LibYAML   test? (   dev-perl/File-chdir  dev-perl/File-ReadBackwards  dev-perl/File-MimeInfo  dev-perl/HTML-LinkExtractor  dev-perl/HTML-Tree  dev-perl/Net-OpenID-Consumer  dev-perl/RPC-XML  dev-perl/XML-Feed  dev-perl/XML-Twig  dev-vcs/cvs[server]  dev-vcs/cvsps ) 
+RDEPEND=  >=dev-lang/perl-5.10  app-text/po4a  dev-perl/HTML-Parser  dev-perl/HTML-Scrubber  dev-perl/HTML-Template  dev-perl/URI  dev-perl/Text-Markdown  dev-perl/TimeDate  dev-perl/YAML-LibYAML   !minimal? (     dev-perl/CGI  >=dev-perl/CGI-FormBuilder-3.0202  >=dev-perl/CGI-Session-4.14  dev-perl/Mail-Sendmail  dev-perl/Term-ReadLine-Gnu  dev-perl/XML-Simple  media-gfx/imagemagick[perl]    extras? (      dev-python/docutils  dev-perl/Digest-SHA1  dev-perl/File-MimeInfo  dev-perl/RPC-XML  dev-perl/XML-Feed  dev-perl/LWPx-ParanoidAgent  dev-perl/Net-OpenID-Consumer    )  )  
+EAPI=5
+IUSE=extras minimal test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/i/ikiwiki/ikiwiki_3.20170111.tar.xz

@@ -1,0 +1,9 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=net-libs/libpcap  net-libs/libnetfilter_queue  ssl? ( dev-libs/openssl:0= ) 
+RDEPEND=net-libs/libpcap  net-libs/libnetfilter_queue  ssl? ( dev-libs/openssl:0= ) 
+EAPI=6
+IUSE=ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/vanhauser-thc/thc-ipv6/archive/3.2.tar.gz -> thc-ipv6-3.2.tar.gz

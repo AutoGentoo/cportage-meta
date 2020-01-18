@@ -1,0 +1,10 @@
+2648d239d3c544169ba9f928a4d5396c
+DEFINED_PHASES= compile install test
+BDEPEND=  test? ( app-shells/tcsh )  
+DEPEND=  >=dev-lang/perl-5.8  virtual/latex-base  dev-texlive/texlive-plaingeneric  dev-perl/Algorithm-Diff   dev-perl/Pod-LaTeX  
+RDEPEND=  >=dev-lang/perl-5.8  virtual/latex-base  dev-texlive/texlive-plaingeneric  dev-perl/Algorithm-Diff  
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

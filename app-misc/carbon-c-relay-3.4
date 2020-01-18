@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install preinst
+DEPEND=lz4? ( app-arch/lz4 )  snappy? ( app-arch/snappy )  zlib? ( app-arch/gzip )  ssl? ( dev-libs/openssl:0 )  !oniguruma? ( !pcre2? ( pcre? ( dev-libs/libpcre ) ) )  pcre2? ( dev-libs/libpcre2 )  oniguruma? ( dev-libs/oniguruma ) 
+RDEPEND=lz4? ( app-arch/lz4 )  snappy? ( app-arch/snappy )  zlib? ( app-arch/gzip )  ssl? ( dev-libs/openssl:0 )  !oniguruma? ( !pcre2? ( pcre? ( dev-libs/libpcre ) ) )  pcre2? ( dev-libs/libpcre2 )  oniguruma? ( dev-libs/oniguruma ) 
+EAPI=6
+IUSE=lz4 snappy zlib ssl pcre pcre2 +oniguruma 
+KEYWORDS=~amd64 ~arm ~ppc64 ~x64-macos ~x86-macos ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://github.com/grobian/carbon-c-relay/releases/download/v3.4/carbon-c-relay-3.4.tar.gz

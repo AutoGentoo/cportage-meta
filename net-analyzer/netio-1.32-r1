@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  app-arch/unzip  >=sys-apps/sed-4  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://web.ars.de/wp-content/uploads/2017/04/netio132.zip

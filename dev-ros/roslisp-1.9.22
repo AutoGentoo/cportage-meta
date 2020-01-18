@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/roslang  dev-lisp/sbcl  dev-ros/rospack  dev-ros/rosgraph_msgs  dev-ros/std_srvs  
+RDEPEND=  dev-ros/roslang  dev-lisp/sbcl  dev-ros/rospack  dev-ros/rosgraph_msgs  dev-ros/std_srvs  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ros/roslisp/archive/1.9.22.tar.gz -> roslisp-1.9.22.tar.gz

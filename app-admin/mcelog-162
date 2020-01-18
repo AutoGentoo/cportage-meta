@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install postinst prepare pretend
+DEPEND=virtual/pkgconfig 
+RDEPEND=selinux? ( sec-policy/selinux-mcelog ) 
+EAPI=6
+IUSE=selinux 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/andikleen/mcelog/archive/v162.tar.gz -> mcelog-162.tar.gz

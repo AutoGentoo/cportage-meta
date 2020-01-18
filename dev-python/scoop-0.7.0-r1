@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-python/greenlet-0.3.4  >=dev-python/pyzmq-13.1.0  dev-python/setuptools 
+RDEPEND=>=dev-python/greenlet-0.3.4  >=dev-python/pyzmq-13.1.0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/s/scoop/scoop-0.7.0.release.tar.gz

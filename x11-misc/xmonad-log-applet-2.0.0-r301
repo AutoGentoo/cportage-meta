@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  sys-apps/dbus  xfce-base/xfce4-panel  dev-libs/dbus-glib  dev-libs/glib:2  dev-haskell/dbus  x11-libs/gtk+:3  
+RDEPEND=  sys-apps/dbus  xfce-base/xfce4-panel  dev-libs/dbus-glib  dev-libs/glib:2  dev-haskell/dbus  x11-libs/gtk+:3  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/downloads/alexkay/xmonad-log-applet/xmonad-log-applet-2.0.0.tar.gz

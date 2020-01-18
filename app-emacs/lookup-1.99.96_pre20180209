@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-apps/texinfo 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/lookup2/lookup2/archive/c4f4986aac6c339e03b9e56a5dfc7c8f5c0bb5e0.tar.gz -> lookup-1.99.96_pre20180209.tar.gz

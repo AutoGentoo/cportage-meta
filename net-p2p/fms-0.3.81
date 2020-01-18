@@ -1,0 +1,10 @@
+9706a755312c53575f900797f72428e3
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=virtual/libiconv  frost? ( net-libs/mbedtls )  ssl? ( net-libs/mbedtls )  >=dev-libs/poco-1.4.3_p1  >=dev-db/sqlite-3.6.15  app-arch/unzip 
+RDEPEND=virtual/libiconv  frost? ( net-libs/mbedtls )  ssl? ( net-libs/mbedtls )  >=dev-libs/poco-1.4.3_p1  >=dev-db/sqlite-3.6.15 
+EAPI=6
+IUSE=frost ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~tommy/distfiles/fms-src-0.3.81.zip

@@ -1,0 +1,9 @@
+c6b8fb45aab1330fd412f16760c4c401
+DEFINED_PHASES= compile install prepare
+DEPEND=doc? ( app-doc/doxygen ) 
+RDEPEND=!dev-java/antlr:0[cxx] 
+EAPI=6
+IUSE=doc examples static-libs 
+KEYWORDS=amd64 ~arm ppc x86
+SLOT=2
+SRC_URI=https://www.antlr2.org/download/antlr-2.7.7.tar.gz

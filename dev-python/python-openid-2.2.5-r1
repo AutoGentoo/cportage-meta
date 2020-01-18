@@ -1,0 +1,9 @@
+06ef8b428397714a11fc439d374a06ef
+DEFINED_PHASES=-
+DEPEND=mysql? ( >=dev-python/mysql-python-1.2.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  postgres? ( dev-python/psycopg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=mysql? ( >=dev-python/mysql-python-1.2.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  postgres? ( dev-python/psycopg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=5
+IUSE=examples mysql postgres sqlite test 
+KEYWORDS=amd64 ~arm arm64 ~ia64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/python-openid-2.2.5.tar.gz

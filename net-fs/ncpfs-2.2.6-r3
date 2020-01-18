@@ -1,0 +1,9 @@
+3e32c3bb27a06e993ca1535a1dc0eb32
+DEFINED_PHASES= configure install prepare
+DEPEND=nls? ( sys-devel/gettext )  pam? ( sys-libs/pam )  php? ( || ( dev-lang/php virtual/httpd-php ) ) 
+RDEPEND=nls? ( sys-devel/gettext )  pam? ( sys-libs/pam )  php? ( || ( dev-lang/php virtual/httpd-php ) ) 
+EAPI=5
+IUSE=nls pam php 
+KEYWORDS=amd64 ~mips ppc ppc64 x86
+SLOT=0
+SRC_URI=ftp://platan.vc.cvut.cz/pub/linux/ncpfs/ncpfs-2.2.6.tar.gz

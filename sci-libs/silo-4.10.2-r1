@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure prepare
+DEPEND=  hdf5? ( sci-libs/hdf5 )  qt5? ( dev-qt/qtgui:5 ) 
+RDEPEND=  hdf5? ( sci-libs/hdf5 )  qt5? ( dev-qt/qtgui:5 ) 
+EAPI=5
+IUSE=hdf5 +silex static-libs +qt5 test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://wci.llnl.gov/content/assets/docs/simulation/computer-codes/silo/silo-4.10.2/silo-4.10.2.tar.gz

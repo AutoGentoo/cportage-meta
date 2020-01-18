@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=virtual/pkgconfig    !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+RDEPEND=net-analyzer/nagios-core    !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+EAPI=5
+IUSE=libressl 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://www.vanheusden.com/nagircbot/nagircbot-0.0.33.tgz

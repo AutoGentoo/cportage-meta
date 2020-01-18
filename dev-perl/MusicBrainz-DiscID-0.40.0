@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=>=media-libs/libdiscid-0.2.2  virtual/perl-ExtUtils-MakeMaker  virtual/pkgconfig  test? (   >=virtual/perl-Test-1.0.0   virtual/perl-Test-Simple  )  
+RDEPEND=>=media-libs/libdiscid-0.2.2 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NJ/NJH/MusicBrainz-DiscID-0.04.tar.gz

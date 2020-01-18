@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-python/matplotlib-0.98[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+RDEPEND=>=dev-python/matplotlib-0.98[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/matplotlib/natgrid-0.2.1.tar.gz

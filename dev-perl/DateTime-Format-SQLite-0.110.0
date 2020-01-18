@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/DateTime-0.51  >=dev-perl/DateTime-Format-Builder-0.79.01 
+RDEPEND=>=dev-perl/DateTime-0.51  >=dev-perl/DateTime-Format-Builder-0.79.01 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz

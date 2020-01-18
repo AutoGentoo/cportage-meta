@@ -1,0 +1,9 @@
+970f0f4b11c898c6c1161a06248b3680
+DEFINED_PHASES= postinst
+DEPEND=app-text/xmlto  sys-apps/gentoo-functions 
+RDEPEND=  portage? ( sys-apps/portage[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] ) 
+EAPI=5
+IUSE=+portage 
+KEYWORDS=
+SLOT=0
+SRC_URI=

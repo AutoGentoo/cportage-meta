@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  dev-perl/AnyEvent   virtual/perl-File-Spec  >=dev-perl/Module-Build-0.400.0  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  dev-perl/AnyEvent  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PO/POTYL/AnyEvent-CacheDNS-0.08.tar.gz

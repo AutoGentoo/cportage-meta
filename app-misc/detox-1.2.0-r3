@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=    dev-libs/popt  !dev-python/detox  sys-devel/flex  sys-devel/bison 
+RDEPEND=  dev-libs/popt  !dev-python/detox 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~hppa ~mips ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/detox/detox-1.2.0.tar.bz2

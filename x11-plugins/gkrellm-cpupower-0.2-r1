@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=app-admin/gkrellm:2[X] 
+RDEPEND=  app-admin/gkrellm:2[X]  app-admin/sudo  sys-power/cpupower 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/sainsaar/gkrellm2-cpupower/archive/0.2.tar.gz -> gkrellm2-cpupower-0.2.tar.gz

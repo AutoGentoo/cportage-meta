@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=app-text/chasen-2.3.1 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/ipadic/24435/ipadic-2.7.0.tar.gz

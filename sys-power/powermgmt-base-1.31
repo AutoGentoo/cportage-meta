@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+RDEPEND=!pm-utils? ( virtual/awk )  sys-apps/grep  virtual/modutils  pm-utils? ( >=sys-power/pm-utils-1.4.1 ) 
+EAPI=5
+IUSE=+pm-utils 
+KEYWORDS=amd64 arm ia64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/p/powermgmt-base/powermgmt-base_1.31.tar.gz

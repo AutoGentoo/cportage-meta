@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=media-libs/libsamplerate  media-libs/libsndfile  virtual/jack  osc? ( media-libs/liblo )  rubberband? ( media-libs/rubberband )  dev-libs/boost 
+RDEPEND=media-libs/libsamplerate  media-libs/libsndfile  virtual/jack  osc? ( media-libs/liblo )  rubberband? ( media-libs/rubberband ) 
+EAPI=7
+IUSE=debug osc rubberband 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://das.nasophon.de/download/klick-0.12.2.tar.gz

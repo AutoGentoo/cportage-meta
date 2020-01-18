@@ -1,0 +1,10 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= configure setup
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) doc? ( >=dev-qt/qthelp-5.12.3:5 ) doc? ( >=app-doc/doxygen-1.8.13-r1 ) >=kde-frameworks/extra-cmake-modules-5.60.0:5 
+DEPEND=   >=kde-frameworks/kconfig-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/kguiaddons-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtprintsupport-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5   >=dev-qt/qtxml-5.12.3:5  >=dev-libs/kproperty-3.1.0:5=  marble? (  >=kde-apps/marble-19.04.3:5= )  scripting? (  >=dev-qt/qtdeclarative-5.12.3:5 )  webkit? ( >=dev-qt/qtwebkit-5.212.0_pre20180120:5 )   || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 )  
+RDEPEND=   >=kde-frameworks/kconfig-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/kguiaddons-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtprintsupport-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5   >=dev-qt/qtxml-5.12.3:5  >=dev-libs/kproperty-3.1.0:5=  marble? (  >=kde-apps/marble-19.04.3:5= )  scripting? (  >=dev-qt/qtdeclarative-5.12.3:5 )  webkit? ( >=dev-qt/qtwebkit-5.212.0_pre20180120:5 )  
+EAPI=7
+IUSE=marble +scripting webkit 
+KEYWORDS=amd64 x86
+SLOT=5/4
+SRC_URI=mirror://kde/stable/kreport/src/kreport-3.2.0.tar.xz

@@ -1,0 +1,9 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= test
+DEPEND=  >=virtual/perl-Encode-2.100.0  virtual/perl-IO-Socket-IP  >=dev-perl/RedisDB-Parser-2.210.0  dev-perl/Try-Tiny  dev-perl/URI  dev-perl/URI-redis  >=dev-perl/Test-TCP-1.170.0   virtual/perl-Digest-SHA  >=virtual/perl-ExtUtils-MakeMaker-6.300.200  test? (   !minimal? (    dev-db/redis   )   >=dev-perl/Test-Differences-0.610.0   dev-perl/Test-FailWarnings   >=dev-perl/Test-Most-0.220.0   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  >=virtual/perl-Encode-2.100.0  virtual/perl-IO-Socket-IP  >=dev-perl/RedisDB-Parser-2.210.0  dev-perl/Try-Tiny  dev-perl/URI  dev-perl/URI-redis  >=dev-perl/Test-TCP-1.170.0  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Z/ZW/ZWON/RedisDB-2.54.tar.gz

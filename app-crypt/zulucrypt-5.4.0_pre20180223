@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    dev-libs/libgcrypt:0=  sys-fs/cryptsetup:=  gnome? ( app-crypt/libsecret )  qt5? (   dev-libs/libpwquality   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtnetwork:5   dev-qt/qtwidgets:5   kwallet? ( kde-frameworks/kwallet:5 )  )  virtual/pkgconfig 
+RDEPEND=    dev-libs/libgcrypt:0=  sys-fs/cryptsetup:=  gnome? ( app-crypt/libsecret )  qt5? (   dev-libs/libpwquality   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtnetwork:5   dev-qt/qtwidgets:5   kwallet? ( kde-frameworks/kwallet:5 )  )  udev? ( virtual/udev ) 
+EAPI=6
+IUSE=gnome kwallet +qt5 udev 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/mhogomchungu/zuluCrypt/archive/76637bb05af13744bf1734b56f67d6d5cc2343b1.tar.gz -> zulucrypt-5.4.0_pre20180223.tar.gz

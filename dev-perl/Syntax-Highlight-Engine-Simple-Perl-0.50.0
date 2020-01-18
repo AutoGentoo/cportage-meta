@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Syntax-Highlight-Engine-Simple-0.20.0   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  >=dev-perl/Syntax-Highlight-Engine-Simple-0.20.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AK/AKHUETTEL/Syntax-Highlight-Engine-Simple-Perl-0.05.tar.gz

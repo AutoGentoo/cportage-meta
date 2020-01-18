@@ -1,0 +1,12 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=app-arch/rpm2targz-9.0.0.3g 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm64 x86
+SLOT=0
+SRC_URI=amd64? ( https://kojipkgs.fedoraproject.org//packages/shim/15/5/x86_64/shim-x64-15-5.x86_64.rpm
+				https://kojipkgs.fedoraproject.org//packages/shim/15/5/x86_64/shim-ia32-15-5.x86_64.rpm )
+		x86? ( https://kojipkgs.fedoraproject.org//packages/shim/15/5/x86_64/shim-x64-15-5.x86_64.rpm
+				https://kojipkgs.fedoraproject.org//packages/shim/15/5/x86_64/shim-ia32-15-5.x86_64.rpm )
+		arm64? ( https://kojipkgs.fedoraproject.org//packages/shim/15/5/aarch64/shim-aa64-15-5.aarch64.rpm )

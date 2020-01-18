@@ -1,0 +1,9 @@
+2ff7ef6fab94fde6fa35e25390c7f83f
+DEFINED_PHASES= compile install prepare
+DEPEND=>=dev-lang/lua-5.1   mysql? ( dev-db/mysql-connector-c:0= )   postgres? ( dev-db/postgresql )   sqlite? ( >=dev-db/sqlite-3 )  virtual/pkgconfig 
+RDEPEND=>=dev-lang/lua-5.1   mysql? ( dev-db/mysql-connector-c:0= )   postgres? ( dev-db/postgresql )   sqlite? ( >=dev-db/sqlite-3 ) 
+EAPI=6
+IUSE=mysql postgres +sqlite 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://luadbi.googlecode.com/files/luadbi.0.5.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=app-i18n/ibus-table  virtual/pkgconfig 
+RDEPEND=app-i18n/ibus-table 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/ibus/ibus-table-extraphrase-1.3.9.20110826.tar.gz

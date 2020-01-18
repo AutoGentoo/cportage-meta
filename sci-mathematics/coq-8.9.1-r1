@@ -1,0 +1,9 @@
+1c04d9f99eabff58d19356128f333132
+DEFINED_PHASES= compile configure install test
+DEPEND=  >=dev-lang/ocaml-4.0.5:=[ocamlopt?]  dev-ml/camlp5:=[ocamlopt?]  gtk? ( dev-ml/lablgtk:=[sourceview,ocamlopt?] )  dev-ml/findlib  doc? (   media-libs/netpbm[png,zlib]   virtual/latex-base   dev-tex/hevea   dev-texlive/texlive-latexrecommended   dev-texlive/texlive-pictures   dev-texlive/texlive-mathscience   dev-texlive/texlive-latexextra   ) 
+RDEPEND=  >=dev-lang/ocaml-4.0.5:=[ocamlopt?]  dev-ml/camlp5:=[ocamlopt?]  gtk? ( dev-ml/lablgtk:=[sourceview,ocamlopt?] ) 
+EAPI=7
+IUSE=gtk debug +ocamlopt doc 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/coq/coq/archive/V8.9.1.tar.gz -> coq-8.9.1.tar.gz

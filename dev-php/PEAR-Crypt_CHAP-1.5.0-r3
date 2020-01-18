@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=test? ( || (  ( dev-php/pecl-mcrypt >=dev-lang/php-7.2:*[hash(+)] )   <dev-lang/php-7.2:*[crypt,hash] ) dev-php/PEAR-PEAR ) 
+RDEPEND=|| (  ( dev-php/pecl-mcrypt >=dev-lang/php-7.2:*[hash(+)] )   <dev-lang/php-7.2:*[crypt,hash] ) 
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 ~arm ~hppa ~sparc
+SLOT=0
+SRC_URI=https://pear.php.net/get/Crypt_CHAP-1.5.0.tgz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+BDEPEND=dev-util/ninja dev-util/cmake doc? ( dev-qt/qthelp:5 ) doc? ( >=app-doc/doxygen-1.8.13-r1 ) >=kde-frameworks/extra-cmake-modules-5.64:5 
+DEPEND=  >=kde-frameworks/ki18n-5.64:5  >=dev-qt/qtnetwork-5.12.3:5  
+RDEPEND=  >=kde-frameworks/ki18n-5.64:5  >=dev-qt/qtnetwork-5.12.3:5  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/kunitconversion-5.64.0.tar.xz

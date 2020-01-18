@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install
+DEPEND=dev-libs/glib:2  virtual/pkgconfig  doc? ( dev-util/gtk-doc )  test? ( media-libs/netpbm ) 
+RDEPEND=dev-libs/glib:2 
+EAPI=5
+IUSE=doc examples static-libs test 
+KEYWORDS=amd64 ~arm64 hppa ~mips ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://gts.sourceforge.net/tarballs/gts-snapshot-121130.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Capture-Tiny  virtual/perl-Carp  dev-perl/Class-Load  >=virtual/perl-Getopt-Long-2.350.0  virtual/perl-Locale-Maketext-Simple  virtual/perl-Pod-Simple  virtual/perl-Scalar-List-Utils   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=  dev-perl/Capture-Tiny  virtual/perl-Carp  dev-perl/Class-Load  >=virtual/perl-Getopt-Long-2.350.0  virtual/perl-Locale-Maketext-Simple  virtual/perl-Pod-Simple  virtual/perl-Scalar-List-Utils  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~ia64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PT/PTC/App-CLI-0.50.tar.gz

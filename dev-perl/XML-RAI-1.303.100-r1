@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=dev-perl/TimeDate-1.16  dev-perl/XML-Elemental  >=dev-perl/XML-RSS-Parser-4  dev-perl/Class-XPath 
+RDEPEND=>=dev-perl/TimeDate-1.16  dev-perl/XML-Elemental  >=dev-perl/XML-RSS-Parser-4  dev-perl/Class-XPath 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TI/TIMA/XML-RAI-1.3031.tar.gz

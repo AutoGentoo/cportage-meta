@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=sys-apps/help2man  sys-apps/coreutils 
+RDEPEND=  sys-apps/sed  app-shells/bash  app-text/wdiff  sys-apps/diffutils  mercurial? ( dev-vcs/mercurial )   
+EAPI=6
+IUSE=mercurial 
+KEYWORDS=
+SLOT=0
+SRC_URI=

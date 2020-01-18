@@ -1,0 +1,9 @@
+d90fa1390dc73382227eaac852009f85
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=sys-apps/policycoreutils-2.8  virtual/udev  sys-devel/m4  >=sys-apps/checkpolicy-2.8 
+RDEPEND=>=sys-apps/policycoreutils-2.8  virtual/udev 
+EAPI=6
+IUSE=doc +unknown-perms systemd +ubac +unconfined 
+KEYWORDS=
+SLOT=0
+SRC_URI=

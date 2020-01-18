@@ -1,0 +1,9 @@
+d2d0381247fad54d60d698e54b7cd12d
+DEFINED_PHASES= compile configure install postinst prepare test
+DEPEND=dev-libs/libev  dev-libs/libpcre  >=dev-libs/yajl-2.0.3  x11-libs/libxcb[xkb]  x11-libs/libxkbcommon[X]  x11-libs/startup-notification  x11-libs/xcb-util  x11-libs/xcb-util-cursor  x11-libs/xcb-util-keysyms  x11-libs/xcb-util-wm  x11-libs/xcb-util-xrm  >=x11-libs/cairo-1.14.4[X,xcb]  >=x11-libs/pango-1.30.0[X]  app-text/asciidoc  doc? ( app-text/xmlto dev-lang/perl )  test? (   dev-perl/Module-Install  )  virtual/pkgconfig 
+RDEPEND=dev-libs/libev  dev-libs/libpcre  >=dev-libs/yajl-2.0.3  x11-libs/libxcb[xkb]  x11-libs/libxkbcommon[X]  x11-libs/startup-notification  x11-libs/xcb-util  x11-libs/xcb-util-cursor  x11-libs/xcb-util-keysyms  x11-libs/xcb-util-wm  x11-libs/xcb-util-xrm  >=x11-libs/cairo-1.14.4[X,xcb]  >=x11-libs/pango-1.30.0[X]  dev-lang/perl  dev-perl/AnyEvent-I3  dev-perl/JSON-XS 
+EAPI=6
+IUSE=doc debug test 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/i3/i3/archive/4.14.tar.gz -> i3-4.14.tar.gz

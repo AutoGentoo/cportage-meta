@@ -1,0 +1,10 @@
+033e7eee641af6aa2530422367960970
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  sys-libs/gdbm:=  ssl? ( dev-libs/openssl:0= )   sys-libs/db  perl? ( dev-lang/perl )  
+RDEPEND=  sys-libs/gdbm:=  ssl? ( dev-libs/openssl:0= )  
+EAPI=7
+IUSE=perl ssl 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/lazarus-pkgs/suck/archive/4.3.3.tar.gz -> suck-4.3.3.tar.gz

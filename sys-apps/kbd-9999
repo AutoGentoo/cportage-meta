@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install prepare unpack
+BDEPEND=  virtual/pkgconfig  test? ( dev-libs/check )  
+DEPEND=  app-arch/gzip  pam? (   !app-misc/vlock   sys-libs/pam  )  
+RDEPEND=  app-arch/gzip  pam? (   !app-misc/vlock   sys-libs/pam  )  
+EAPI=7
+IUSE=nls pam test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

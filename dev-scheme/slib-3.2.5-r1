@@ -1,0 +1,9 @@
+43cb50896f073b2a8db487b29b696c7a
+DEFINED_PHASES= compile configure install postinst postrm
+DEPEND=  >=sys-apps/texinfo-5.0  >=dev-scheme/guile-1.8.8:=  gambit? ( dev-scheme/gambit )  scm? ( dev-scheme/scm )  app-arch/unzip 
+RDEPEND=  >=sys-apps/texinfo-5.0  >=dev-scheme/guile-1.8.8:=  gambit? ( dev-scheme/gambit )  scm? ( dev-scheme/scm ) 
+EAPI=6
+IUSE=gambit scm 
+KEYWORDS=alpha amd64 ia64 ppc ~ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+SLOT=0
+SRC_URI=http://groups.csail.mit.edu/mac/ftpdir/scm/slib-3b5.zip

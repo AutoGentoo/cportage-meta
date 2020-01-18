@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-File-Spec  virtual/perl-File-Temp  virtual/perl-HTTP-Tiny  virtual/perl-Time-HiRes  sci-visualization/gnuplot   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-File-Spec  virtual/perl-File-Temp  virtual/perl-HTTP-Tiny  virtual/perl-Time-HiRes  sci-visualization/gnuplot  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Z/ZO/ZOWIE/Alien-Gnuplot-1.033.tar.gz

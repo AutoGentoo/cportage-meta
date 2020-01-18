@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/libg15  truetype? ( media-libs/freetype )   truetype? ( virtual/pkgconfig ) 
+RDEPEND=  dev-libs/libg15  truetype? ( media-libs/freetype )  
+EAPI=6
+IUSE=truetype 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/g15tools/libg15render-1.2.tar.bz2

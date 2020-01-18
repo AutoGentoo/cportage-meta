@@ -1,0 +1,9 @@
+dbaaee8870ded178e0abbfcada5336b4
+DEFINED_PHASES= configure install prepare test
+DEPEND=dev-java/antlr:3  dev-java/netty-transport:0  >=dev-java/asm-5:4  dev-java/commons-compress:0  dev-java/guava:20  dev-java/jffi:1.2  dev-java/jline:2  dev-java/icu4j:52  dev-java/jnr-constants:0  dev-java/jnr-posix:3.0  dev-java/jnr-netdb:1.0  dev-java/stringtemplate:0  dev-java/xerces:2  java-virtuals/script-api:0  java-virtuals/servlet-api:3.0  >=virtual/jdk-1.7  app-arch/unzip  dev-java/ant-core:0  test? (   dev-java/junit:4   dev-java/ant-junit:0  ) 
+RDEPEND=dev-java/antlr:3  dev-java/netty-transport:0  >=dev-java/asm-5:4  dev-java/commons-compress:0  dev-java/guava:20  dev-java/jffi:1.2  dev-java/jline:2  dev-java/icu4j:52  dev-java/jnr-constants:0  dev-java/jnr-posix:3.0  dev-java/jnr-netdb:1.0  dev-java/stringtemplate:0  dev-java/xerces:2  java-virtuals/script-api:0  java-virtuals/servlet-api:3.0  >=virtual/jre-1.7 
+EAPI=6
+IUSE=examples test 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=2.7
+SRC_URI=http://search.maven.org/remotecontent?filepath=org/python/jython/2.7.0/jython-2.7.0-sources.jar

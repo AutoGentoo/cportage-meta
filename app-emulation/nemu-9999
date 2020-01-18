@@ -1,0 +1,10 @@
+f1b46efcbf564b50ce9b6036c7e418c5
+DEFINED_PHASES= configure postinst pretend
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    sys-libs/ncurses:0=[unicode]  dev-db/sqlite:3=  virtual/libusb:1  || ( sys-fs/eudev sys-fs/udev )  app-emulation/qemu[vnc,virtfs]  ovf? (   dev-libs/libxml2   app-arch/libarchive  )  vnc-client? ( net-misc/tigervnc )  sys-devel/gettext 
+RDEPEND=  sys-libs/ncurses:0=[unicode]  dev-db/sqlite:3=  virtual/libusb:1  || ( sys-fs/eudev sys-fs/udev )  app-emulation/qemu[vnc,virtfs]  ovf? (   dev-libs/libxml2   app-arch/libarchive  )  vnc-client? ( net-misc/tigervnc ) 
+EAPI=6
+IUSE=+vnc-client +ovf savevm debug 
+KEYWORDS=
+SLOT=0
+SRC_URI=

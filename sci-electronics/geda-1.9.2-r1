@@ -1,0 +1,9 @@
+f2ceda424f35c50a1995cf0d610288c3
+DEFINED_PHASES= configure postinst postrm preinst prepare test
+DEPEND=  dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/pango  >=x11-libs/cairo-1.2.0  x11-libs/gdk-pixbuf  >=dev-scheme/guile-2.0.0  nls? ( virtual/libintl )  stroke? ( >=dev-libs/libstroke-0.5.1 )  sys-apps/groff  dev-util/desktop-file-utils  x11-misc/shared-mime-info  virtual/pkgconfig  nls? ( >=sys-devel/gettext-0.16 ) 
+RDEPEND=  dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/pango  >=x11-libs/cairo-1.2.0  x11-libs/gdk-pixbuf  >=dev-scheme/guile-2.0.0  nls? ( virtual/libintl )  stroke? ( >=dev-libs/libstroke-0.5.1 )  sci-electronics/electronics-menu 
+EAPI=6
+IUSE=debug doc examples nls stroke threads 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://ftp.geda-project.org/geda-gaf/unstable/v1.9/1.9.2/geda-gaf-1.9.2.tar.gz

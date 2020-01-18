@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  dev-lang/perl  virtual/perl-Digest-MD5 
+RDEPEND=    dev-lang/perl  virtual/perl-Digest-MD5  !sci-biology/emboss 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ppc ~sparc x86
+SLOT=2.2
+SRC_URI=https://www.gnu.org/software/cons/stable/cons-2.3.0.tgz
+	https://www.gnu.org/software/cons/dev/cons-2.3.0.tgz

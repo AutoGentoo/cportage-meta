@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  x11-libs/libX11  x11-libs/libXpm 
+RDEPEND=  x11-libs/libX11  x11-libs/libXpm 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/downloads/jlec/hcalc/hcalc-1.2.tar.xz

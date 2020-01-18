@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  doc? ( dev-python/sphinx )  iconv? ( virtual/libiconv )  test? ( dev-libs/check )  
+DEPEND=media-libs/libmpdclient 
+RDEPEND=media-libs/libmpdclient 
+EAPI=7
+IUSE=doc iconv test 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://www.musicpd.org/download/mpc/0/mpc-0.32.tar.xz

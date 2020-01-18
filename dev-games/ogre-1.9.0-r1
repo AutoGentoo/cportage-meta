@@ -1,0 +1,10 @@
+467dc71148227434aace779b2cd52133
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/freetype:2  virtual/opengl  virtual/glu  x11-libs/libX11  x11-libs/libXaw  x11-libs/libXrandr  x11-libs/libXt  boost? ( dev-libs/boost:= )  cg? ( media-gfx/nvidia-cg-toolkit )  freeimage? ( media-libs/freeimage )  gles2? ( >=media-libs/mesa-9.0.0[gles2] )  gles3? ( >=media-libs/mesa-10.0.0[gles2] )  gl3plus? ( >=media-libs/mesa-9.2.5 )  ois? ( dev-games/ois )  threads? (   poco? ( dev-libs/poco )   tbb? ( dev-cpp/tbb )  )  tools? ( dev-libs/tinyxml[stl] )  zip? ( sys-libs/zlib dev-libs/zziplib )  virtual/pkgconfig  x11-base/xorg-proto  doc? ( app-doc/doxygen ) 
+RDEPEND=  media-libs/freetype:2  virtual/opengl  virtual/glu  x11-libs/libX11  x11-libs/libXaw  x11-libs/libXrandr  x11-libs/libXt  boost? ( dev-libs/boost:= )  cg? ( media-gfx/nvidia-cg-toolkit )  freeimage? ( media-libs/freeimage )  gles2? ( >=media-libs/mesa-9.0.0[gles2] )  gles3? ( >=media-libs/mesa-10.0.0[gles2] )  gl3plus? ( >=media-libs/mesa-9.2.5 )  ois? ( dev-games/ois )  threads? (   poco? ( dev-libs/poco )   tbb? ( dev-cpp/tbb )  )  tools? ( dev-libs/tinyxml[stl] )  zip? ( sys-libs/zlib dev-libs/zziplib ) 
+EAPI=5
+IUSE=+boost cg doc double-precision examples +freeimage gl3plus gles2 gles3 ois +opengl poco profile tbb threads tools +zip 
+KEYWORDS=amd64 ~arm x86
+SLOT=0/1.9.0
+SRC_URI=https://bitbucket.org/sinbad/ogre/get/v1-9-0.tar.bz2 -> ogre-1.9.0.tar.bz2

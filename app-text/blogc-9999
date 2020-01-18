@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure prepare
+DEPEND=app-text/ronn  virtual/pkgconfig  test? (   git? ( dev-vcs/git )   dev-util/cmocka ) 
+RDEPEND=  git? (   dev-vcs/git )  !dev-vcs/blogc-git-receiver  !www-servers/blogc-runserver 
+EAPI=6
+IUSE=git httpd make test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

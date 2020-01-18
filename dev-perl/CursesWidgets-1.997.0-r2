@@ -1,0 +1,9 @@
+bfd01ff33634517ec49b5fc4cbfe6758
+DEFINED_PHASES= test
+DEPEND=>=sys-libs/ncurses-5  >=dev-perl/Curses-1.60.0 
+RDEPEND=>=sys-libs/ncurses-5  >=dev-perl/Curses-1.60.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ia64 ppc s390 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CO/CORLISS/CursesWidgets-1.997.tar.gz http://www.digitalmages.com/perl/CursesWidgets/downloads/CursesWidgets-1.997.tar.gz

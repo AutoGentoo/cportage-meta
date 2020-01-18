@@ -1,0 +1,7 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= install preinst prepare
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://oss.oracle.com/projects/cancd/dist/files/source/cancd-0.1.0.tar.gz

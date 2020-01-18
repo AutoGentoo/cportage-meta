@@ -1,0 +1,9 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= install prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  virtual/linux-sources  sys-kernel/linux-headers  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

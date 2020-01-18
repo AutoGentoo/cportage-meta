@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= configure install prepare
+DEPEND=X? ( x11-libs/libXpm ) 
+RDEPEND=X? ( x11-libs/libXpm ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://artax.karlin.mff.cuni.cz/~brain/0verkill/release/0verkill-0.16.tgz

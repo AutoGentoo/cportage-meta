@@ -1,0 +1,10 @@
+47c3e3d36b3fc287a8aabb52cf409981
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=sha1?  ( >=dev-libs/openssl-0.9.6 )  ssl?  ( >=dev-libs/openssl-0.9.6 )  ldap?   ( >=net-nds/openldap-2.0.7 )  mysql?   ( virtual/mysql )  postgres? ( dev-db/postgresql[server] )  perl?  ( >=dev-lang/perl-5.6.1 )  pam?   ( sys-libs/pam       >=net-mail/mailbase-0.00-r8 )  tcpd?  ( >=sys-apps/tcp-wrappers-7.6 ) 
+RDEPEND=sha1?  ( >=dev-libs/openssl-0.9.6 )  ssl?  ( >=dev-libs/openssl-0.9.6 )  ldap?   ( >=net-nds/openldap-2.0.7 )  mysql?   ( virtual/mysql )  postgres? ( dev-db/postgresql[server] )  perl?  ( >=dev-lang/perl-5.6.1 )  pam?   ( sys-libs/pam       >=net-mail/mailbase-0.00-r8 )  tcpd?  ( >=sys-apps/tcp-wrappers-7.6 ) 
+EAPI=4
+IUSE=authexternal debug flatfile gdbm ldap maildir mbox mysql offensive
+	pam passwd perl postgres +sha1 shadow ssl tcpd 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://nongnu/tpop3d/tpop3d-1.5.5.tar.gz

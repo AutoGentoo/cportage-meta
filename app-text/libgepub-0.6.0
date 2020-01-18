@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  app-arch/libarchive  dev-libs/glib:2  dev-libs/libxml2  net-libs/libsoup:2.4  net-libs/webkit-gtk:4  x11-libs/gtk+:3  introspection? ( >=dev-libs/gobject-introspection-1.30:= )   virtual/pkgconfig  
+RDEPEND=  app-arch/libarchive  dev-libs/glib:2  dev-libs/libxml2  net-libs/libsoup:2.4  net-libs/webkit-gtk:4  x11-libs/gtk+:3  introspection? ( >=dev-libs/gobject-introspection-1.30:= )  
+EAPI=6
+IUSE=+introspection 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/libgepub/0.6/libgepub-0.6.0.tar.xz

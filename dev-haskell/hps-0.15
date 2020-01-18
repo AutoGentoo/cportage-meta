@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/hcg-minus-0.15:=[profile?] <dev-haskell/hcg-minus-0.16:=[profile?]  >=dev-lang/ghc-7.4.1:=  build-exec? ( dev-haskell/random:=[profile?] )   >=dev-haskell/cabal-1.8  
+RDEPEND=>=dev-haskell/hcg-minus-0.15:=[profile?] <dev-haskell/hcg-minus-0.16:=[profile?]  >=dev-lang/ghc-7.4.1:=  build-exec? ( dev-haskell/random:=[profile?] )  
+EAPI=6
+IUSE=build-exec 
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.15
+SRC_URI=https://hackage.haskell.org/package/hps-0.15/hps-0.15.tar.gz

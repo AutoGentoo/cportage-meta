@@ -1,0 +1,11 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= compile install test
+DEPEND=sys-libs/zlib  app-arch/unzip 
+RDEPEND=sys-libs/zlib 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=mirror://gentoo/uif2iso-0.1.7c.zip
+	 test? ( https://yegortimoshenko.s3.amazonaws.com/uif2iso-test.iso
+	       	 https://yegortimoshenko.s3.amazonaws.com/uif2iso-test.uif )

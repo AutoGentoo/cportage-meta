@@ -1,0 +1,10 @@
+e7c59f90a93b095fa2cb9e89ce25e3e4
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  qt5? (   virtual/opengl   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   x11-libs/libQGLViewer:=  )   doc? (   app-doc/doxygen   media-gfx/graphviz  )  
+RDEPEND=  qt5? (   virtual/opengl   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   x11-libs/libQGLViewer:=  )  
+EAPI=5
+IUSE=qt5 dynamicEDT3D doc 
+KEYWORDS=
+SLOT=0/19
+SRC_URI=

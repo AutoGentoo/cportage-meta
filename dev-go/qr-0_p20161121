@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-lang/go-1.10 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0_p20161121
+SRC_URI=https://github.com/rsc/qr/archive/48b2ede4844e13f1a2b7ce4d2529c9af7e359fc5.tar.gz -> qr-0_p20161121.tar.gz

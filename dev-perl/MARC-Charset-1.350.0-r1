@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  dev-lang/perl[gdbm]  dev-perl/XML-SAX  dev-perl/Class-Accessor   test? ( virtual/perl-Test-Simple ) 
+RDEPEND=  dev-lang/perl[gdbm]  dev-perl/XML-SAX  dev-perl/Class-Accessor  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GM/GMCHARLT/MARC-Charset-1.35.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Gtk2-1.200.0  dev-libs/libappindicator:2   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  >=dev-perl/Gtk2-1.200.0  dev-libs/libappindicator:2  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/O/OE/OESTERHOL/Gtk2-AppIndicator-0.15.tar.gz

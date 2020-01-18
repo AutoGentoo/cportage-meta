@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8  dev-java/ant-core:0  >=media-gfx/graphviz-2.26.3 
+EAPI=7
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/plantuml/plantuml-1.2019.13.tar.gz

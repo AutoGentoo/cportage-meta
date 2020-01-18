@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= unpack
+DEPEND=  media-libs/libsdl  x11-libs/wxGTK:3.0  
+RDEPEND=  media-libs/libsdl  x11-libs/wxGTK:3.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/bingmann/sound-of-sorting/archive/05db428c796a7006d63efdbe314f976e0aa881d6.tar.gz -> sound-of-sorting-0.6.6_pre20151107.tar.gz

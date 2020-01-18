@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure setup
+BDEPEND=dev-util/ninja dev-util/cmake doc? ( dev-qt/qthelp:5 ) doc? ( >=app-doc/doxygen-1.8.13-r1 ) >=kde-frameworks/extra-cmake-modules-5.65:5 
+DEPEND=python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   ) python_single_target_python3_8? (    dev-lang/python:3.8    >=dev-lang/python-exec-2:=[python_targets_python3_8]   )   >=dev-qt/qtdeclarative-5.12.3:5  sys-devel/gettext  virtual/libintl   test? ( >=dev-qt/qtconcurrent-5.12.3:5 )  
+RDEPEND=python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   ) python_single_target_python3_8? (    dev-lang/python:3.8    >=dev-lang/python-exec-2:=[python_targets_python3_8]   )   >=dev-qt/qtdeclarative-5.12.3:5  sys-devel/gettext  virtual/libintl  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=5/5.65
+SRC_URI=mirror://kde/stable/frameworks/5.65/ki18n-5.65.0.tar.xz

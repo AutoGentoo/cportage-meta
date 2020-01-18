@@ -1,0 +1,10 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.6  dev-java/jdom:0 
+RDEPEND=>=virtual/jre-1.6  dev-java/jdom:0 
+EAPI=5
+IUSE=html 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/google2srt/Google2SRT-0.5.6.zip
+	http://sbriesen.de/gentoo/distfiles/google2srt-icon.png

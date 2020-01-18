@@ -1,0 +1,9 @@
+13a3a8cd7d3ea7a16d94b4cc39810365
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=>=dev-libs/glib-2.6:2  virtual/pkgconfig  sys-apps/help2man 
+RDEPEND=>=dev-libs/glib-2.6:2 
+EAPI=4
+IUSE=vanilla 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/preload/preload-0.6.4.tar.gz

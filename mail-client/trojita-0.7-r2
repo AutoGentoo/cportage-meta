@@ -1,0 +1,10 @@
+2d575495c8781cf869c7406caec9c32f
+DEFINED_PHASES= configure postinst postrm preinst prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsql:5[sqlite]  dev-qt/qtsvg:5  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  crypt? (   >=app-crypt/gpgme-1.8.0[cxx,qt5]   dev-libs/mimetic  )  dbus? ( dev-qt/qtdbus:5 )  password? ( dev-libs/qtkeychain[qt5(+)] )  zlib? ( sys-libs/zlib )   dev-qt/linguist-tools:5  test? ( dev-qt/qttest:5 )  zlib? ( virtual/pkgconfig )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsql:5[sqlite]  dev-qt/qtsvg:5  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  crypt? (   >=app-crypt/gpgme-1.8.0[cxx,qt5]   dev-libs/mimetic  )  dbus? ( dev-qt/qtdbus:5 )  password? ( dev-libs/qtkeychain[qt5(+)] )  zlib? ( sys-libs/zlib )  
+EAPI=6
+IUSE=+crypt +dbus debug +password test +zlib 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/trojita/trojita-0.7.tar.xz

@@ -1,0 +1,10 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= configure install preinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=sys-libs/pam-0.78-r2  >=sys-libs/db-4.2.52_p2:= 
+RDEPEND=>=sys-libs/pam-0.78-r2  >=sys-libs/db-4.2.52_p2:= 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pam-abl/pam-abl-0.6.0.tar.gz

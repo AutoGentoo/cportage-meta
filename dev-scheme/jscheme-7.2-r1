@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.6:* 
+RDEPEND=>=virtual/jre-1.6  >=virtual/jdk-1.6:* 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jscheme/jscheme-7.2.tgz

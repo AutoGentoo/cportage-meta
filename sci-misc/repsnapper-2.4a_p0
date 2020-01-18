@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=dev-cpp/gtkglextmm-1.2  dev-cpp/gtkmm:2.4  dev-cpp/libxmlpp:2.6  dev-libs/libzip  virtual/opengl  
+RDEPEND=  >=dev-cpp/gtkglextmm-1.2  dev-cpp/gtkmm:2.4  dev-cpp/libxmlpp:2.6  dev-libs/libzip  virtual/opengl  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/timschmidt/repsnapper/archive/2.4a0.tar.gz -> repsnapper-2.4a0.tar.gz

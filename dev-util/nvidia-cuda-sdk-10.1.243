@@ -1,0 +1,9 @@
+b95a87a6b227b653de6b5bd749d4e94d
+DEFINED_PHASES= compile install postinst prepare test
+DEPEND=  ~dev-util/nvidia-cuda-toolkit-10.1.243  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   !prefix? ( >=x11-drivers/nvidia-drivers-418.87.00[uvm] )   mpi? ( virtual/mpi )   ) 
+RDEPEND=  ~dev-util/nvidia-cuda-toolkit-10.1.243  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   !prefix? ( >=x11-drivers/nvidia-drivers-418.87.00[uvm] )   mpi? ( virtual/mpi )   ) 
+EAPI=7
+IUSE=+cuda debug +doc +examples opencl mpi 
+KEYWORDS=~amd64 ~amd64-linux
+SLOT=0/10.1.243
+SRC_URI=https://developer.download.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.243_418.87.00_linux.run -> cuda_10.1.243_418.87.00_linux.run

@@ -1,0 +1,9 @@
+b55fa0eb460b56fbcff9440d54cb11e5
+DEFINED_PHASES= install postinst unpack
+DEPEND=app-arch/unzip  app-admin/chrpath 
+RDEPEND=sys-libs/ncurses-compat:5 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://docs.broadcom.com/docs-and-downloads/raid-controllers/raid-controllers-common-files/8-07-14_MegaCLI.zip

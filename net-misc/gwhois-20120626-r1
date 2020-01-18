@@ -1,0 +1,8 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= install postinst
+RDEPEND=  www-client/lynx  net-misc/curl  dev-lang/perl:=  dev-perl/libwww-perl  dev-perl/Net-LibIDN  
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/g/gwhois/gwhois_20120626-1.2.tar.gz

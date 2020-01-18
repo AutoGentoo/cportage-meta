@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=sci-libs/pgplot  >=dev-perl/ExtUtils-F77-1.13 
+RDEPEND=sci-libs/pgplot  >=dev-perl/ExtUtils-F77-1.13 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KG/KGB/PGPLOT-2.21.tar.gz

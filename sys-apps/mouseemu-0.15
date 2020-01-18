@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+EAPI=6
+IUSE=
+KEYWORDS=-* ~ppc
+SLOT=0
+SRC_URI=mirror://gentoo/mouseemu-0.15.tar.gz

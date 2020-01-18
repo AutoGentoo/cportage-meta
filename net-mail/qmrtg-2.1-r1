@@ -1,0 +1,8 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= install postinst prepare
+RDEPEND=net-analyzer/mrtg 
+EAPI=5
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://dev.publicshout.org/qmrtg/download/qmrtg-2.1.tar.gz

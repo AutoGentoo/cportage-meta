@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/DateTime  dev-perl/Dist-Zilla  dev-perl/Git-Wrapper  >=dev-perl/List-MoreUtils-0.400.0  >=virtual/perl-Scalar-List-Utils-1.330.0  dev-perl/Moose  dev-perl/Pod-Weaver  dev-perl/namespace-autoclean   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  dev-perl/DateTime  dev-perl/Dist-Zilla  dev-perl/Git-Wrapper  >=dev-perl/List-MoreUtils-0.400.0  >=virtual/perl-Scalar-List-Utils-1.330.0  dev-perl/Moose  dev-perl/Pod-Weaver  dev-perl/namespace-autoclean  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AK/AKHUETTEL/Dist-Zilla-Plugin-AuthorsFromGit-0.006.tar.gz

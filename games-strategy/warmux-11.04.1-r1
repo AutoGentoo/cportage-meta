@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/libxml2  media-libs/libsdl[joystick,video,X]  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  media-libs/sdl-net  media-libs/sdl-gfx  media-fonts/dejavu  net-misc/curl  x11-libs/libX11  nls? ( virtual/libintl )  unicode? ( dev-libs/fribidi )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=  dev-libs/libxml2  media-libs/libsdl[joystick,video,X]  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  media-libs/sdl-net  media-libs/sdl-gfx  media-fonts/dejavu  net-misc/curl  x11-libs/libX11  nls? ( virtual/libintl )  unicode? ( dev-libs/fribidi ) 
+EAPI=6
+IUSE=debug nls unicode 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0
+SRC_URI=http://download.gna.org/warmux/warmux-11.04.1.tar.bz2

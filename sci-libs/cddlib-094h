@@ -1,0 +1,9 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-libs/gmp:0= 
+RDEPEND=dev-libs/gmp:0= 
+EAPI=6
+IUSE=doc static-libs tools 
+KEYWORDS=~amd64 ~arm ~ppc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=ftp://ftp.math.ethz.ch/users/fukudak/cdd/cddlib-094h.tar.gz

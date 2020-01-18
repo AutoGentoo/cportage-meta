@@ -1,0 +1,8 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= compile configure install prepare
+DEPEND=virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+EAPI=6
+IUSE=doc static-libs 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://mediaarea.net/download/source/libzen/0.4.37/libzen_0.4.37.tar.bz2

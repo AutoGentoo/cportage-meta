@@ -1,0 +1,10 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=>=sys-devel/llvm-roc-2.10.0:=  >=dev-libs/rocr-runtime-2.10.0 
+RDEPEND=>=sys-devel/llvm-roc-2.10.0:=  >=dev-libs/rocr-runtime-2.10.0 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0/2.10
+SRC_URI=https://github.com/RadeonOpenCompute/ROCm-OpenCL-Driver/archive/roc-2.10.0.tar.gz -> rocm-opencl-driver-2.10.0.tar.gz

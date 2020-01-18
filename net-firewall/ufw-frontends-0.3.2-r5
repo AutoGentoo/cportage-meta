@@ -1,0 +1,8 @@
+4736fd4171fe7f75dbf996c0cdfe55d1
+DEFINED_PHASES=-
+RDEPEND=  dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyinotify[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  net-firewall/ufw[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  !policykit? ( kde? ( kde-plasma/kde-cli-tools[kdesu] ) )  policykit? ( sys-auth/polkit )  
+EAPI=6
+IUSE=kde policykit 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/baudm/ufw-frontends/archive/0.3.2.tar.gz -> ufw-frontends-0.3.2.tar.gz

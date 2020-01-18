@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Crypt-RSA   dev-perl/Crypt-Blowfish  dev-perl/Crypt-CAST5_PP  dev-perl/Crypt-DES_EDE3  dev-perl/Crypt-DSA  dev-perl/Crypt-IDEA  dev-perl/Crypt-RIPEMD160  dev-perl/Crypt-Rijndael  >=dev-perl/Crypt-Twofish-2.00  virtual/perl-Digest-MD5  virtual/perl-Digest-SHA  dev-perl/File-HomeDir  virtual/perl-IO-Compress  dev-perl/libwww-perl  virtual/perl-MIME-Base64  virtual/perl-Math-BigInt  dev-perl/TermReadKey  dev-perl/URI  >=dev-perl/Data-Buffer-0.04   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Exception   virtual/perl-Test-Simple  ) 
+RDEPEND=  dev-perl/Crypt-RSA   dev-perl/Crypt-Blowfish  dev-perl/Crypt-CAST5_PP  dev-perl/Crypt-DES_EDE3  dev-perl/Crypt-DSA  dev-perl/Crypt-IDEA  dev-perl/Crypt-RIPEMD160  dev-perl/Crypt-Rijndael  >=dev-perl/Crypt-Twofish-2.00  virtual/perl-Digest-MD5  virtual/perl-Digest-SHA  dev-perl/File-HomeDir  virtual/perl-IO-Compress  dev-perl/libwww-perl  virtual/perl-MIME-Base64  virtual/perl-Math-BigInt  dev-perl/TermReadKey  dev-perl/URI  >=dev-perl/Data-Buffer-0.04  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SR/SROMANOV/Crypt-OpenPGP-1.12.tar.gz

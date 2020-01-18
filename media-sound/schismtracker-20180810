@@ -1,0 +1,9 @@
+98fc6dd77cb040d6afb2a8c3b18c0fc7
+DEFINED_PHASES= install postinst postrm prepare
+DEPEND=  media-libs/alsa-lib  >=media-libs/libsdl-1.2[X]  x11-libs/libX11  x11-libs/libXext  x11-libs/libXv  x11-libs/libXxf86misc   virtual/os-headers  x11-base/xorg-proto  
+RDEPEND=  media-libs/alsa-lib  >=media-libs/libsdl-1.2[X]  x11-libs/libX11  x11-libs/libXext  x11-libs/libXv  x11-libs/libXxf86misc  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/schismtracker/schismtracker/archive/20180810.tar.gz -> schismtracker-20180810.tar.gz

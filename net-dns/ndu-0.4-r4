@@ -1,0 +1,8 @@
+2b9c3475c453c75725e9673bff281844
+DEFINED_PHASES= compile install postinst prepare
+RDEPEND=sys-apps/ed 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://uranus.it.swin.edu.au/~jn/linux/ndu-0.4.tar.gz

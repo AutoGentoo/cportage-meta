@@ -1,0 +1,11 @@
+e12ad5d26c82a0d7609fedc3d108450d
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/libXt  jpeg? ( virtual/jpeg:0 )  tiff? ( media-libs/tiff:0 )  png? ( >=media-libs/libpng-1.2:0= sys-libs/zlib ) 
+RDEPEND=x11-libs/libXt  jpeg? ( virtual/jpeg:0 )  tiff? ( media-libs/tiff:0 )  png? ( >=media-libs/libpng-1.2:0= sys-libs/zlib ) 
+EAPI=6
+IUSE=jpeg tiff png 
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/png-mng/xv-3.10a-jumbo-patches-20070520.tar.gz
+	ftp://ftp.cis.upenn.edu/pub/xv/xv-3.10a.tar.gz
+	mirror://gentoo/xv-3.10a.png.bz2

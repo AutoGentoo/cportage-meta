@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Class-Trigger  dev-perl/Email-LocalDelivery  dev-perl/Email-Simple  dev-perl/IPC-Run   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   virtual/perl-File-Temp   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  dev-perl/Class-Trigger  dev-perl/Email-LocalDelivery  dev-perl/Email-Simple  dev-perl/IPC-Run  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Email-Filter-1.034.tar.gz

@@ -1,0 +1,9 @@
+b1aed8031a00fbd6152907452b7fe307
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-python/pygame[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://emhsoft.com/dh/Dragon_Hunt-3.56.tar.gz

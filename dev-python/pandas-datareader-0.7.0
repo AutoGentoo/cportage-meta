@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES=-
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+DEPEND=  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? (     dev-python/lxml[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/pandas-0.19.2[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/requests[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/wrapt[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? (   dev-python/ipython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/matplotlib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/sphinx_rtd_theme[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   )     dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   )   
+RDEPEND=  dev-python/lxml[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/pandas-0.19.2[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/requests[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/wrapt[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? (   dev-python/ipython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/matplotlib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/sphinx_rtd_theme[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   )   
+EAPI=7
+IUSE=doc test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/pydata/pandas-datareader/archive/v0.7.0.tar.gz -> pandas-datareader-0.7.0.tar.gz

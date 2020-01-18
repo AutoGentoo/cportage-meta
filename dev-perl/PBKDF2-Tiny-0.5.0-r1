@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  >=virtual/perl-Exporter-5.570.0   >=virtual/perl-ExtUtils-MakeMaker-6.170.0  virtual/perl-File-Spec  virtual/perl-Text-ParseWords  test? (   virtual/perl-Encode   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  virtual/perl-Carp  >=virtual/perl-Exporter-5.570.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/PBKDF2-Tiny-0.005.tar.gz

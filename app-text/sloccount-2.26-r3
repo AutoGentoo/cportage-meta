@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile install prepare test
+DEPEND=dev-lang/perl   >=sys-apps/sed-4   app-shells/bash 
+RDEPEND=dev-lang/perl   >=sys-apps/sed-4   app-shells/bash 
+EAPI=4
+IUSE=
+KEYWORDS=~alpha amd64 ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://www.dwheeler.com/sloccount/sloccount-2.26.tar.gz

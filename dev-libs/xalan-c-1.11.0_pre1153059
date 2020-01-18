@@ -1,0 +1,9 @@
+c6264be2e518ace05b0a960954dea877
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=>=dev-libs/xerces-c-2.8.0  doc? ( app-doc/doxygen ) 
+RDEPEND=>=dev-libs/xerces-c-2.8.0 
+EAPI=4
+IUSE=doc examples nls threads 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://gentoo/Xalan-C_r1153059-src.tar.gz

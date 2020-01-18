@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile install unpack
+BDEPEND=>=dev-lang/go-1.10 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/maxmind/geoipupdate/archive/v4.0.3.tar.gz -> geoipupdate-4.0.3.tar.gz
+	https://files.adjust.com/geoipupdate-vendor-4.0.3.tar

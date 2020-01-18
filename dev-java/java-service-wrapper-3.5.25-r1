@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile install test
+DEPEND=  >=virtual/jdk-1.4  test? (   dev-java/ant-junit:0  ) 
+RDEPEND=  >=virtual/jre-1.4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://wrapper.tanukisoftware.org/download/3.5.25/wrapper_3.5.25_src.tar.gz

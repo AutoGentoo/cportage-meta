@@ -1,0 +1,10 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= compile install
+BDEPEND=  dev-qt/linguist-tools:5  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtscript:5  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtscript:5  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5   || (   media-video/smplayer   media-video/mpv   media-video/mplayer   media-video/vlc   media-video/totem  )  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/smtube/smtube-19.6.0.tar.bz2

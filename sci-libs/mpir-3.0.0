@@ -1,0 +1,8 @@
+f6d6d18528192fb5c6e6ac1ad8149ff1
+DEFINED_PHASES= configure install prepare
+DEPEND=  x86? ( dev-lang/yasm )  amd64? ( dev-lang/yasm )  amd64-fbsd? ( dev-lang/yasm )  
+EAPI=6
+IUSE=+cxx cpudetection static-libs 
+KEYWORDS=~alpha amd64 ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh x86 ~amd64-linux ~x86-linux
+SLOT=0/23
+SRC_URI=http://www.mpir.org/mpir-3.0.0.tar.bz2

@@ -1,0 +1,10 @@
+8ee2f502ced3efa1937ee855ed61adef
+DEFINED_PHASES= configure install postinst postrm
+BDEPEND=dev-util/intltool  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+DEPEND=dev-libs/glib:2  dev-libs/libxml2:2  media-libs/libmpdclient  net-misc/curl  x11-libs/gtk+:3  dbus? ( dev-libs/dbus-glib )  taglib? ( media-libs/taglib )  zeroconf? ( net-dns/avahi ) 
+RDEPEND=dev-libs/glib:2  dev-libs/libxml2:2  media-libs/libmpdclient  net-misc/curl  x11-libs/gtk+:3  dbus? ( dev-libs/dbus-glib )  taglib? ( media-libs/taglib )  zeroconf? ( net-dns/avahi ) 
+EAPI=7
+IUSE=dbus debug +idle nls taglib zeroconf 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ario-player/ario-1.6.tar.gz

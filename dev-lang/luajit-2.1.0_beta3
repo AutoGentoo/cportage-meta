@@ -1,0 +1,7 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= compile install
+EAPI=6
+IUSE=lua52compat static-libs 
+KEYWORDS=
+SLOT=2
+SRC_URI=http://luajit.org/download/LuaJIT-2.1.0-beta3.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=  app-admin/gkrellm:2[X]  dev-libs/openssl:0= 
+RDEPEND=  app-admin/gkrellm:2[X]  dev-libs/openssl:0= 
+EAPI=6
+IUSE=
+KEYWORDS=alpha ~amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gkwebmon/gkwebmon-0.2.tgz

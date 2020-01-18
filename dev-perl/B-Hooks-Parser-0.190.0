@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/B-Hooks-OP-Check-0.180.0  >=dev-perl/ExtUtils-Depends-0.302.0  virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Fatal   dev-perl/B-Hooks-EndOfScope   virtual/perl-File-Spec   virtual/perl-Test-Simple  )  
+RDEPEND=>=dev-perl/B-Hooks-OP-Check-0.180.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/B-Hooks-Parser-0.19.tar.gz

@@ -1,0 +1,11 @@
+3a74c38658b307deb79f746882728c72
+DEFINED_PHASES= compile configure install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=net-libs/libpcap  sys-apps/hwloc:0=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  netlink? ( dev-libs/libnl:3 )  pcre? ( dev-libs/libpcre )  airdrop-ng? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  airgraph-ng? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  experimental? ( sys-libs/zlib )  sqlite? ( >=dev-db/sqlite-3.4 ) 
+RDEPEND=net-libs/libpcap  sys-apps/hwloc:0=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  netlink? ( dev-libs/libnl:3 )  pcre? ( dev-libs/libpcre )  airdrop-ng? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  airgraph-ng? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  experimental? ( sys-libs/zlib )  sqlite? ( >=dev-db/sqlite-3.4 ) 
+PDEPEND=kernel_linux? (   net-wireless/iw   net-wireless/wireless-tools   sys-apps/ethtool   sys-apps/usbutils   sys-apps/pciutils )  sys-apps/hwids  airdrop-ng? ( net-wireless/lorcon[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=7
+IUSE=+airdrop-ng +airgraph-ng kernel_linux kernel_FreeBSD libressl +netlink +pcre +sqlite +experimental 
+KEYWORDS=
+SLOT=0
+SRC_URI=

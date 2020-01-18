@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=>=app-crypt/pinentry-0.7.0  >=app-crypt/gnupg-2.0.17-r1[smartcard] 
+DEPEND=>=dev-libs/libgpg-error-1.4  >=dev-libs/libassuan-2.0.0 
+RDEPEND=>=dev-libs/libgpg-error-1.4  >=dev-libs/libassuan-2.0.0  >=app-crypt/pinentry-0.7.0  >=app-crypt/gnupg-2.0.17-r1[smartcard] 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://gnupg/scute/scute-1.5.0.tar.bz2

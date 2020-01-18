@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=5
+SRC_URI=https://github.com/premake/premake-core/archive/v5.0.0-alpha12.tar.gz -> premake-5.0.0_alpha12.tar.gz

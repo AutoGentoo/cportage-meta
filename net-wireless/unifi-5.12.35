@@ -1,0 +1,9 @@
+e904235db99090f9dc3b354009d5090c
+DEFINED_PHASES= install prepare
+DEPEND=app-arch/unzip 
+RDEPEND=  acct-group/unifi  acct-user/unifi  dev-db/mongodb  virtual/jre:1.8  
+EAPI=6
+IUSE=systemd 
+KEYWORDS=amd64
+SLOT=0/5.12
+SRC_URI=https://dl.ui.com/unifi/5.12.35/UniFi.unix.zip -> unifi-5.12.35.zip

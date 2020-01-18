@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=!dev-lisp/cl-trivial-gray-streams 
+PDEPEND=virtual/commonlisp 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/trivial-gray-streams-20170830.tar.bz2

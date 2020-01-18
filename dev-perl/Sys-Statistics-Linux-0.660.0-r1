@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=  dev-perl/Module-Build  test? (   virtual/perl-Test-Simple  ) 
+RDEPEND=dev-perl/YAML-Syck 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BL/BLOONIX/Sys-Statistics-Linux-0.66.tar.gz

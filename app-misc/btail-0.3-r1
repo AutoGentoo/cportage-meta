@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=sys-libs/gdbm 
+RDEPEND=sys-libs/gdbm 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://www.vanheusden.com/btail/btail-0.3.tgz

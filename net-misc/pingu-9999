@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile configure install postinst
+DEPEND=dev-libs/libev:=  sys-kernel/linux-headers  virtual/pkgconfig  doc? ( app-text/asciidoc ) 
+RDEPEND=dev-libs/libev:= 
+EAPI=6
+IUSE=debug doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

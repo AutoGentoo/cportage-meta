@@ -1,0 +1,11 @@
+f8849dff7d34c38c35fcaa6cb1ebac9c
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare
+BDEPEND=  app-arch/zip  virtual/pkgconfig  nls? ( sys-devel/gettext )  
+DEPEND=    >=dev-games/physfs-2[zip]  dev-libs/openssl:0=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtopengl:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  media-libs/freetype:2  media-libs/glew:=  media-libs/harfbuzz  media-libs/libogg  media-libs/libpng:0  media-libs/libsdl2[opengl,video,X]  media-libs/libtheora  media-libs/libvorbis  media-libs/openal  sys-libs/zlib  virtual/glu  virtual/opengl  x11-libs/libX11  x11-libs/libXrandr  nls? ( virtual/libintl )   app-text/asciidoc  dev-libs/fribidi  media-libs/fontconfig  
+RDEPEND=    >=dev-games/physfs-2[zip]  dev-libs/openssl:0=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtopengl:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  media-libs/freetype:2  media-libs/glew:=  media-libs/harfbuzz  media-libs/libogg  media-libs/libpng:0  media-libs/libsdl2[opengl,video,X]  media-libs/libtheora  media-libs/libvorbis  media-libs/openal  sys-libs/zlib  virtual/glu  virtual/opengl  x11-libs/libX11  x11-libs/libXrandr  nls? ( virtual/libintl )   media-fonts/dejavu  
+EAPI=7
+IUSE=debug nls videos 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/warzone2100/warzone2100-3.3.0_src.tar.xz
+	videos? ( mirror://sourceforge/warzone2100/warzone2100/Videos/2.2/high-quality-en/sequences.wz -> warzone2100-videos-2.2.wz )

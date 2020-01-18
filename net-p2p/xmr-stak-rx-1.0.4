@@ -1,0 +1,10 @@
+fc3ae937c5ce658638a8c9e088374337
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=cuda? ( dev-util/nvidia-cuda-toolkit )  hwloc? ( sys-apps/hwloc )  opencl? ( virtual/opencl )  ssl? ( dev-libs/openssl:0= )  webserver? ( net-libs/libmicrohttpd ) 
+RDEPEND=cuda? ( dev-util/nvidia-cuda-toolkit )  hwloc? ( sys-apps/hwloc )  opencl? ( virtual/opencl )  ssl? ( dev-libs/openssl:0= )  webserver? ( net-libs/libmicrohttpd ) 
+EAPI=7
+IUSE=cuda hwloc opencl ssl webserver 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/fireice-uk/xmr-stak/archive/1.0.4-rx.tar.gz -> xmr-stak-rx-1.0.4.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  >=virtual/perl-Exporter-5.570.0  >=virtual/perl-File-Path-2.70.0  virtual/perl-File-Spec  virtual/perl-File-Temp   >=virtual/perl-ExtUtils-MakeMaker-6.170.0  test? (   >=virtual/perl-CPAN-Meta-2.120.900   >=dev-perl/Capture-Tiny-0.120.0   virtual/perl-Test-Simple  )  
+RDEPEND=  virtual/perl-Carp  >=virtual/perl-Exporter-5.570.0  >=virtual/perl-File-Path-2.70.0  virtual/perl-File-Spec  virtual/perl-File-Temp  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Test-TempDir-Tiny-0.017.tar.gz

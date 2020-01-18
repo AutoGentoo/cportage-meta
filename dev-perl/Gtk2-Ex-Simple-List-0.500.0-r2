@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Gtk2-1.60.0  >=dev-perl/glib-perl-1.62.0  
+RDEPEND=  >=dev-perl/Gtk2-1.60.0  >=dev-perl/glib-perl-1.62.0  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ia64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RM/RMCFARLA/Gtk2-Perl-Ex/Gtk2-Ex-Simple-List-0.50.tar.gz

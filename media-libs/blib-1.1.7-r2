@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=dev-libs/glib-2:2  aalib? ( >=media-libs/aalib-1.4_rc4-r2 )  gtk? ( >=x11-libs/gtk+-2.4.4:2 )   virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2:2  aalib? ( >=media-libs/aalib-1.4_rc4-r2 )  gtk? ( >=x11-libs/gtk+-2.4.4:2 )  
+EAPI=6
+IUSE=aalib gtk 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.blinkenlights.de/dist/blib-1.1.7.tar.gz

@@ -1,0 +1,9 @@
+bc02cda8dc07a9afd06bda74bd532fa2
+DEFINED_PHASES= configure install prepare setup
+DEPEND=dev-libs/libdaemon  sys-devel/bison  sys-devel/flex  virtual/pkgconfig  test? ( dev-libs/check ) 
+RDEPEND=dev-libs/libdaemon  selinux? ( sec-policy/selinux-radvd )  
+EAPI=5
+IUSE=kernel_FreeBSD selinux test 
+KEYWORDS=amd64 arm ~arm64 hppa ppc sparc x86
+SLOT=0
+SRC_URI=http://v6web.litech.org/radvd/dist/radvd-2.14.tar.gz

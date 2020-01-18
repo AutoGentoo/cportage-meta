@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND= >=dev-perl/Alien-LibGumbo-0.30.0 virtual/perl-XSLoader   >=dev-perl/Module-Build-0.420.0  virtual/perl-ExtUtils-CBuilder  test? ( >=virtual/perl-Test-Simple-0.880.0 )  
+RDEPEND= >=dev-perl/Alien-LibGumbo-0.30.0 virtual/perl-XSLoader  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RU/RUZ/HTML-Gumbo-0.18.tar.gz

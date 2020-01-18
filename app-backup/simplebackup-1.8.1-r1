@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+RDEPEND=dev-lang/perl  sasl? ( dev-perl/Authen-SASL ) 
+EAPI=6
+IUSE=sasl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/migas-sbackup/simplebackup-1.8.1.tar.gz

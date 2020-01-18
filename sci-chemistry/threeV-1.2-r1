@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+PDEPEND=sci-chemistry/msms-bin 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://geometry.molmovdb.org/3v/3v-1.2.tgz

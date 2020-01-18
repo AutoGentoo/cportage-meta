@@ -1,0 +1,10 @@
+221af2b20e60a4505a06cc930e5c9145
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/gettext 
+DEPEND=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  >=kde-frameworks/kcompletion-5.60.0:5  >=kde-frameworks/kconfig-5.60.0:5  >=kde-frameworks/kcoreaddons-5.60.0:5  >=kde-frameworks/kcrash-5.60.0:5  >=kde-frameworks/ki18n-5.60.0:5  >=kde-frameworks/kiconthemes-5.60.0:5  >=kde-frameworks/kio-5.60.0:5  >=kde-frameworks/kitemviews-5.60.0:5  >=kde-frameworks/kjobwidgets-5.60.0:5  >=kde-frameworks/kjs-5.60.0:5  >=kde-frameworks/kservice-5.60.0:5  >=kde-frameworks/kwidgetsaddons-5.60.0:5  >=kde-frameworks/kxmlgui-5.60.0:5  exif? ( media-gfx/exiv2:= )  pdf? ( app-text/podofo:= )  taglib? ( media-libs/taglib )  truetype? ( media-libs/freetype:2 )  
+RDEPEND=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  >=kde-frameworks/kcompletion-5.60.0:5  >=kde-frameworks/kconfig-5.60.0:5  >=kde-frameworks/kcoreaddons-5.60.0:5  >=kde-frameworks/kcrash-5.60.0:5  >=kde-frameworks/ki18n-5.60.0:5  >=kde-frameworks/kiconthemes-5.60.0:5  >=kde-frameworks/kio-5.60.0:5  >=kde-frameworks/kitemviews-5.60.0:5  >=kde-frameworks/kjobwidgets-5.60.0:5  >=kde-frameworks/kjs-5.60.0:5  >=kde-frameworks/kservice-5.60.0:5  >=kde-frameworks/kwidgetsaddons-5.60.0:5  >=kde-frameworks/kxmlgui-5.60.0:5  exif? ( media-gfx/exiv2:= )  pdf? ( app-text/podofo:= )  taglib? ( media-libs/taglib )  truetype? ( media-libs/freetype:2 )   !kde-misc/krename:4  
+EAPI=7
+IUSE=exif pdf taglib truetype 
+KEYWORDS=amd64 x86
+SLOT=5
+SRC_URI=mirror://kde/stable/krename/5.0.0/src/krename-5.0.0.tar.xz

@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= postinst postrm
+DEPEND=  sys-devel/gettext  test? (     app-text/iso-codes  dev-python/chardet[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  dev-python/pygobject:3[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  x11-libs/gtk+:3[introspection]  spell? (   app-text/gtkspell:3   >=dev-python/pyenchant-1.4[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  )    dev-python/pyenchant[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]   dev-python/pytest[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  )  
+RDEPEND=  app-text/iso-codes  dev-python/chardet[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  dev-python/pygobject:3[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  x11-libs/gtk+:3[introspection]  spell? (   app-text/gtkspell:3   >=dev-python/pyenchant-1.4[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  )  
+EAPI=6
+IUSE=spell test 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/otsaloma/gaupol/archive/1.6.tar.gz -> gaupol-1.6.tar.gz

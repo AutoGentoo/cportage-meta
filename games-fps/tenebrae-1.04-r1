@@ -1,0 +1,10 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=  virtual/glu  virtual/opengl  media-libs/libpng:0  x11-libs/libXxf86dga  x11-libs/libXxf86vm  app-arch/unzip  x11-base/xorg-proto 
+RDEPEND=  virtual/glu  virtual/opengl  media-libs/libpng:0  x11-libs/libXxf86dga  x11-libs/libXxf86vm 
+EAPI=6
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tenebrae/tenebraedata.zip
+	mirror://gentoo/tenebrae-1.04.tbz2

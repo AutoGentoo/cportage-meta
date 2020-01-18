@@ -1,0 +1,8 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= prepare
+BDEPEND=>=app-portage/elt-patches-20170815 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=alpha amd64 ~arm hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=2
+SRC_URI=mirror://sourceforge/sidplay2/sidplay-libs-2.1.1.tar.gz

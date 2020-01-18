@@ -1,0 +1,10 @@
+4296bd1a27000d8d98f1ed0bb4cd0f02
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/glib:2  sys-apps/dbus  sys-apps/util-linux  virtual/libiconv  virtual/libintl  x11-libs/libxkbcommon  X? (   x11-libs/libX11   x11-libs/libXfixes   x11-libs/libXinerama   x11-libs/libXrender   xml? (    x11-libs/libxkbfile    x11-misc/xkeyboard-config   )  )  cairo? (   x11-libs/cairo[X]   x11-libs/libXext   pango? ( x11-libs/pango )   !pango? ( media-libs/fontconfig )  )  enchant? ( app-text/enchant:0= )  gtk2? ( x11-libs/gtk+:2 )  gtk3? ( x11-libs/gtk+:3 )  introspection? ( dev-libs/gobject-introspection )  lua? ( dev-lang/lua:= )  nls? ( sys-devel/gettext )  opencc? ( app-i18n/opencc:= )  xml? (   app-text/iso-codes   dev-libs/libxml2  )  dev-util/glib-utils  kde-frameworks/extra-cmake-modules:5  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  sys-apps/dbus  sys-apps/util-linux  virtual/libiconv  virtual/libintl  x11-libs/libxkbcommon  X? (   x11-libs/libX11   x11-libs/libXfixes   x11-libs/libXinerama   x11-libs/libXrender   xml? (    x11-libs/libxkbfile    x11-misc/xkeyboard-config   )  )  cairo? (   x11-libs/cairo[X]   x11-libs/libXext   pango? ( x11-libs/pango )   !pango? ( media-libs/fontconfig )  )  enchant? ( app-text/enchant:0= )  gtk2? ( x11-libs/gtk+:2 )  gtk3? ( x11-libs/gtk+:3 )  introspection? ( dev-libs/gobject-introspection )  lua? ( dev-lang/lua:= )  nls? ( sys-devel/gettext )  opencc? ( app-i18n/opencc:= )  xml? (   app-text/iso-codes   dev-libs/libxml2  ) 
+EAPI=6
+IUSE=+X +autostart +cairo debug +enchant gtk2 +gtk3 +introspection lua nls opencc +pango static-libs +table test +xml 
+KEYWORDS=amd64 ~hppa ppc ppc64 x86
+SLOT=4
+SRC_URI=https://download.fcitx-im.org/fcitx/fcitx-4.2.9.6_dict.tar.xz

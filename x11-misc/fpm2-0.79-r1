@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=x11-libs/gtk+-2.10.14:2  dev-libs/libxml2  >=dev-libs/glib-2.16  x11-libs/libX11  virtual/pkgconfig  dev-util/intltool 
+RDEPEND=>=x11-libs/gtk+-2.10.14:2  dev-libs/libxml2  >=dev-libs/glib-2.16  x11-libs/libX11 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=2
+SRC_URI=http://als.regnet.cz/fpm2/download/fpm2-0.79.tar.bz2

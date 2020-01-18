@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=virtual/perl-libnet 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TOBEYA/Net-SNPP-1.17.tar.gz

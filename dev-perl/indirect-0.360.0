@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  virtual/perl-XSLoader   virtual/perl-ExtUtils-MakeMaker  virtual/perl-Socket  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-XSLoader  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 hppa ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/V/VP/VPIT/indirect-0.36.tar.gz

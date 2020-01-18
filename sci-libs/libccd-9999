@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= compile configure install test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  doc? ( dev-python/sphinx ) 
+EAPI=5
+IUSE=double doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

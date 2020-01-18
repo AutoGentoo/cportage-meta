@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= install prepare
+DEPEND=  media-libs/libsdl[sound,opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf 
+RDEPEND=  media-libs/libsdl[sound,opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/brainparty/trunk/0.61/+download/brainparty0.61.tar.gz

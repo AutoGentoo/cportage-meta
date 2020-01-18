@@ -1,0 +1,10 @@
+319a05ac30bd39396b0458b3028688f0
+DEFINED_PHASES= configure install prepare setup
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=tpm? ( app-crypt/trousers )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+RDEPEND=tpm? ( app-crypt/trousers )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+EAPI=7
+IUSE=debug libressl +tpm 
+KEYWORDS=~amd64 ~arm ~s390 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/opencryptoki/3.4.1/opencryptoki-v3.4.1.tgz

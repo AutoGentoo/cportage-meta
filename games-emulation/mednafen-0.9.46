@@ -1,0 +1,9 @@
+94ae92b63746d000593833ddbe8b848d
+DEFINED_PHASES= configure install prepare pretend
+DEPEND=  dev-libs/libcdio  >=dev-libs/lzo-2.10  media-libs/libsdl[sound,joystick,opengl,video]  media-libs/libsndfile  sys-libs/zlib[minizip]  virtual/opengl  alsa? ( media-libs/alsa-lib )  jack? ( media-sound/jack-audio-connection-kit )  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=  dev-libs/libcdio  >=dev-libs/lzo-2.10  media-libs/libsdl[sound,joystick,opengl,video]  media-libs/libsndfile  sys-libs/zlib[minizip]  virtual/opengl  alsa? ( media-libs/alsa-lib )  jack? ( media-sound/jack-audio-connection-kit )  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=alsa altivec cjk debugger jack nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://mednafen.github.io/releases/files/mednafen-0.9.46.tar.xz

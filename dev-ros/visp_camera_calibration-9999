@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/camera_calibration_parsers  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/roscpp  dev-ros/visp_bridge  sci-libs/ViSP:=  dev-libs/boost:=  
+RDEPEND=  dev-ros/camera_calibration_parsers  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/roscpp  dev-ros/visp_bridge  sci-libs/ViSP:=  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

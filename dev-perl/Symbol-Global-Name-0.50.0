@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  test? ( >=virtual/perl-Test-Simple-0.96 )  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALEXMV/Symbol-Global-Name-0.05.tar.gz

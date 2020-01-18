@@ -1,0 +1,10 @@
+f1e35cbcfcba6795a0cb6ed90489eadd
+DEFINED_PHASES= configure pretend
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=sys-apps/util-linux-2.30.2  >=sys-fs/btrfs-progs-4.20.2  
+RDEPEND=  >=sys-apps/util-linux-2.30.2  >=sys-fs/btrfs-progs-4.20.2  
+EAPI=7
+IUSE=tools 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst prepare
+DEPEND=media-libs/ladspa-sdk  media-plugins/tap-plugins  x11-libs/gtk+:2  media-sound/jack-audio-connection-kit  virtual/pkgconfig 
+RDEPEND=media-libs/ladspa-sdk  media-plugins/tap-plugins  x11-libs/gtk+:2  media-sound/jack-audio-connection-kit 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tap-plugins/tap-reverbed-r0.tar.gz

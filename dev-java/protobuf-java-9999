@@ -1,0 +1,10 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= compile install prepare
+BDEPEND=~dev-libs/protobuf-9999  >=virtual/jdk-1.7 
+DEPEND=>=virtual/jdk-1.7 
+RDEPEND=>=virtual/jre-1.7  !<dev-libs/protobuf-3[java(-)] 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0/22
+SRC_URI=

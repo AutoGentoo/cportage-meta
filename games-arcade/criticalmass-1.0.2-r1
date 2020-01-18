@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  media-libs/sdl-mixer  media-libs/sdl-image[png]  media-libs/libpng:0=  virtual/opengl  net-misc/curl  
+RDEPEND=  media-libs/sdl-mixer  media-libs/sdl-image[png]  media-libs/libpng:0=  virtual/opengl  net-misc/curl  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/criticalmass/CriticalMass-1.0.2.tar.bz2

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  test? (   dev-perl/Test-Exception  ) 
+EAPI=5
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ~mips ~ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CL/CLKAO/Data-Hierarchy-0.34.tar.gz

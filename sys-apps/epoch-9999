@@ -1,0 +1,8 @@
+168f35f0f41bbd303f769349d5da8051
+DEFINED_PHASES= compile install postinst prepare pretend
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=5
+IUSE=kernel_linux 
+KEYWORDS=
+SLOT=0
+SRC_URI=

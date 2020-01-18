@@ -1,0 +1,19 @@
+4befd3650d88af061a6095163f74f311
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=  media-libs/libsdl2[joystick,video]  media-libs/sdl2-mixer[mod,mp3,timidity]  media-libs/sdl2-net  media-libs/sdl2-image[gif]  media-libs/smpeg   app-arch/unzip  
+RDEPEND=  media-libs/libsdl2[joystick,video]  media-libs/sdl2-mixer[mod,mp3,timidity]  media-libs/sdl2-net  media-libs/sdl2-image[gif]  media-libs/smpeg  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.artsoft.org/RELEASES/unix/rocksndiamonds/rocksndiamonds-4.1.0.0.tar.gz
+	https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Contributions-1.2.0.zip
+	https://www.artsoft.org/RELEASES/rocksndiamonds/levels/BD2K3-1.0.0.zip
+	https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Boulder_Dash_Dream-1.0.0.zip
+	https://www.artsoft.org/RELEASES/rocksndiamonds/levels/rnd-contrib-1.0.0.tar.gz
+	https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Snake_Bite-1.0.0.zip
+	https://www.artsoft.org/RELEASES/rocksndiamonds/levels/Sokoban-1.0.0.zip
+	https://www.artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-emc-1.0.tar.gz
+	https://www.artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-sp-1.0.tar.gz
+	https://www.artsoft.org/RELEASES/unix/rocksndiamonds/levels/rockslevels-dx-1.0.tar.gz
+	mirror://gentoo/rnd_jue-v8.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=app-text/silvercity  >=dev-db/metakit-2.4.9.2[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/cheetah-0.9.15[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/docutils-0.3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/medusa-0.5.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pyrex-0.5[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/soappy-0.11.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  virtual/jpeg  sys-libs/zlib 
+RDEPEND=app-text/silvercity  >=dev-db/metakit-2.4.9.2[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/cheetah-0.9.15[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/docutils-0.3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/medusa-0.5.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pyrex-0.5[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/soappy-0.11.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  virtual/jpeg  sys-libs/zlib 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/PyDS-0.7.3.tar.gz

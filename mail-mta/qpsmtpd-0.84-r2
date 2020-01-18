@@ -1,0 +1,9 @@
+50c55fac110af286f29dfa58feb215b0
+DEFINED_PHASES= install prepare setup
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=>=dev-lang/perl-5.8.0  >=dev-perl/Net-DNS-0.690.0  virtual/perl-MIME-Base64  dev-perl/MailTools  dev-perl/IPC-Shareable  dev-perl/Socket6  dev-perl/Danga-Socket  dev-perl/ParaDNS  ipv6? ( dev-perl/IO-Socket-INET6 )  syslog? ( virtual/perl-Sys-Syslog )  virtual/inetd 
+EAPI=5
+IUSE=postfix ipv6 syslog 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://smtpd.develooper.com/files/qpsmtpd-0.84.tar.gz

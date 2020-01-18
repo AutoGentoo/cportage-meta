@@ -1,0 +1,9 @@
+fc80b88a318af6646d569e1725b3205b
+DEFINED_PHASES= compile configure install
+DEPEND=espeak? ( app-accessibility/espeak ) 
+RDEPEND=espeak? ( app-accessibility/espeak )  >=dev-tcltk/tclx-8.4 
+EAPI=6
+IUSE=+espeak 
+KEYWORDS=
+SLOT=0
+SRC_URI=

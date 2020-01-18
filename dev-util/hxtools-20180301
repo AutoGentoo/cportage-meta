@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  dev-lang/perl  >=sys-apps/util-linux-2.19  sys-libs/libcap  >=sys-libs/libhx-3.12.1  >=sys-apps/pciutils-3  x11-libs/libxcb:0=  
+RDEPEND=  dev-lang/perl  >=sys-apps/util-linux-2.19  sys-libs/libcap  >=sys-libs/libhx-3.12.1  >=sys-apps/pciutils-3  x11-libs/libxcb:0=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://jftp.inai.de/hxtools/hxtools-20180301.tar.xz

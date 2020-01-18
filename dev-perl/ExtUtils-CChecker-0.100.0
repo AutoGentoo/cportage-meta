@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=virtual/perl-ExtUtils-CBuilder  dev-perl/Module-Build  test? ( dev-perl/Test-Fatal  virtual/perl-Test-Simple )  
+RDEPEND=virtual/perl-ExtUtils-CBuilder 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PE/PEVANS/ExtUtils-CChecker-0.10.tar.gz

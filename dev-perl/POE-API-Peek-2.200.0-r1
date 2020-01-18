@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Devel-Size  >=dev-perl/POE-1.311.0  >=virtual/perl-ExtUtils-MakeMaker-6.31 
+RDEPEND=dev-perl/Devel-Size  >=dev-perl/POE-1.311.0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/POE-API-Peek-2.20.tar.gz

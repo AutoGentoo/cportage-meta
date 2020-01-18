@@ -1,0 +1,9 @@
+ebe8c7676c9e9a11dfcf62e8cfeb5476
+DEFINED_PHASES= compile configure install postinst prerm setup
+DEPEND=minimal? ( >=media-gfx/iscan-2.21.0 ) 
+RDEPEND=minimal? ( >=media-gfx/iscan-2.21.0 ) 
+EAPI=4
+IUSE=minimal 
+KEYWORDS=-* ~amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-gt-f500-1.0.0-1.c2.i386.rpm

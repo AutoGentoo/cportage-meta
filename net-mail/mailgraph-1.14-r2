@@ -1,0 +1,9 @@
+e2217f25a320e3e7f48aba41cc0052d7
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=>=sys-apps/sed-4 
+RDEPEND=dev-lang/perl  dev-perl/File-Tail  >=net-analyzer/rrdtool-1.2.2[graph,perl] 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=1.14
+SRC_URI=http://mailgraph.schweikert.ch//pub/mailgraph-1.14.tar.gz

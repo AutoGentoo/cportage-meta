@@ -1,0 +1,10 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    >=sys-libs/ncurses-5.7-r7:0=   virtual/os-headers  !net-analyzer/iptraf  
+RDEPEND=  >=sys-libs/ncurses-5.7-r7:0=  
+EAPI=7
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

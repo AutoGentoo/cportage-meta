@@ -1,0 +1,10 @@
+c2029036b1d60b9a8e1caa89834e0915
+DEFINED_PHASES= configure install postinst preinst prepare pretend setup test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=dev-libs/libxml2:=  ncurses? ( sys-libs/ncurses:0= )  ssl? (   gnutls? (    net-libs/gnutls:=    dev-libs/nettle:=   )   !gnutls? ( dev-libs/openssl:0=[-bindist] )  )  zlib? ( sys-libs/zlib:= )  test? (   || (    =app-arch/rar-5*    =app-arch/unrar-5*   )  )  virtual/pkgconfig 
+RDEPEND=dev-libs/libxml2:=  ncurses? ( sys-libs/ncurses:0= )  ssl? (   gnutls? (    net-libs/gnutls:=    dev-libs/nettle:=   )   !gnutls? ( dev-libs/openssl:0=[-bindist] )  )  zlib? ( sys-libs/zlib:= ) 
+EAPI=7
+IUSE=debug gnutls ncurses +parcheck ssl test zlib 
+KEYWORDS=amd64 arm ppc x86
+SLOT=0
+SRC_URI=https://github.com/nzbget/nzbget/releases/download/v20.0/nzbget-20.0-src.tar.gz -> nzbget-20.0.tar.gz

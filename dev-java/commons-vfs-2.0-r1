@@ -1,0 +1,9 @@
+f4f846e17fc2ec9d97a628361d2ecfc8
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6    dev-java/ant-core:0  dev-java/commons-collections:0  dev-java/commons-logging:0  dev-java/commons-net:0  dev-java/commons-httpclient:3  dev-java/jackrabbit-webdav:0  dev-java/jsch:0   
+RDEPEND=>=virtual/jre-1.6    dev-java/ant-core:0  dev-java/commons-collections:0  dev-java/commons-logging:0  dev-java/commons-net:0  dev-java/commons-httpclient:3  dev-java/jackrabbit-webdav:0  dev-java/jsch:0   
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=2
+SRC_URI=mirror://apache/commons/vfs/source/commons-vfs-2.0-src.tar.gz

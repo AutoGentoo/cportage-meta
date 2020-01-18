@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install unpack
+RDEPEND=dev-lang/perl   virtual/qmail 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://archives.eyrie.org/software/system/multilog-watch
+https://www.eyrie.org/%7Eeagle/software/multilog-watch/sample.filter

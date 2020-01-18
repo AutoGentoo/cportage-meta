@@ -1,0 +1,9 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= configure postinst postrm
+DEPEND=>=dev-libs/glib-2.42:2=  >=xfce-base/xfconf-4.12:=  !gtk3? ( >=x11-libs/gtk+-2.24:2=   x11-libs/gtksourceview:2.0= )  gtk3? ( >=x11-libs/gtk+-3.20:3=   x11-libs/gtksourceview:3.0= )  dev-lang/perl  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig  dbus? ( dev-util/gdbus-codegen ) 
+RDEPEND=>=dev-libs/glib-2.42:2=  >=xfce-base/xfconf-4.12:=  !gtk3? ( >=x11-libs/gtk+-2.24:2=   x11-libs/gtksourceview:2.0= )  gtk3? ( >=x11-libs/gtk+-3.20:3=   x11-libs/gtksourceview:3.0= ) 
+EAPI=7
+IUSE=dbus +gtk3 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://archive.xfce.org/src/apps/mousepad/0.4/mousepad-0.4.2.tar.bz2

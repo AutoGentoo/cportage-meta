@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=>=x11-wm/windowmaker-0.80.2-r2 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc sparc x86
+SLOT=0
+SRC_URI=
+	http://largo.windowmaker.org/files/worms2sounds.tar.gz
+	http://largo.windowmaker.org/files/wmsdefault.tar.gz

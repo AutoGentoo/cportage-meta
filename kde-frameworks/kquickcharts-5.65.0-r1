@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) >=kde-frameworks/extra-cmake-modules-5.65:5 
+DEPEND=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtquickcontrols2-5.12.3:5  examples? (   >=dev-qt/qtwidgets-5.12.3:5   >=kde-frameworks/kdeclarative-5.65:5   >=kde-frameworks/kirigami-5.65:5  )  
+RDEPEND=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtquickcontrols2-5.12.3:5  examples? (   >=dev-qt/qtwidgets-5.12.3:5   >=kde-frameworks/kdeclarative-5.65:5   >=kde-frameworks/kirigami-5.65:5  )  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=5/5.65
+SRC_URI=mirror://kde/stable/frameworks/5.65/kquickcharts-5.65.0.tar.xz

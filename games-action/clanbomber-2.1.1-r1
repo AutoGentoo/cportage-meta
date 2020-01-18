@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install prepare
+DEPEND=  dev-libs/boost  media-fonts/dejavu  media-libs/libsdl[sound,joystick,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer  media-libs/sdl-ttf  virtual/pkgconfig 
+RDEPEND=  dev-libs/boost  media-fonts/dejavu  media-libs/libsdl[sound,joystick,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer  media-libs/sdl-ttf 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/clanbomber/clanbomber-2.1.1.tar.lzma

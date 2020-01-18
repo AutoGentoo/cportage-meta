@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=app-text/mecab   >=dev-db/postgresql-7.4[server] 
+RDEPEND=app-text/mecab   >=dev-db/postgresql-7.4[server] 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://pgfoundry.org/frs/download.php/2943/textsearch_ja-9.0.0.tar.gz

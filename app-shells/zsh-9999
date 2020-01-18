@@ -1,0 +1,11 @@
+3492bc67dbc3f1cefa1a9d7a588cd9c0
+DEFINED_PHASES= compile configure install postinst prepare test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=sys-apps/groff    >=sys-libs/ncurses-5.1:0=  static? ( >=sys-libs/ncurses-5.7-r4:0=[static-libs] )  caps? ( sys-libs/libcap )  pcre? (   >=dev-libs/libpcre-3.9   static? ( >=dev-libs/libpcre-3.9[static-libs] )  )  gdbm? ( sys-libs/gdbm:= )  !<sys-apps/baselayout-2.4.1  app-text/yodl   doc? (    sys-apps/texinfo    app-text/texi2html    virtual/latex-base   ) 
+RDEPEND=  >=sys-libs/ncurses-5.1:0=  static? ( >=sys-libs/ncurses-5.7-r4:0=[static-libs] )  caps? ( sys-libs/libcap )  pcre? (   >=dev-libs/libpcre-3.9   static? ( >=dev-libs/libpcre-3.9[static-libs] )  )  gdbm? ( sys-libs/gdbm:= )  !<sys-apps/baselayout-2.4.1  
+PDEPEND=  examples? ( app-doc/zsh-lovers )  
+EAPI=7
+IUSE=caps debug doc examples gdbm maildir pcre static unicode 
+KEYWORDS=
+SLOT=0
+SRC_URI=

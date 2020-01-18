@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare setup
+DEPEND=net-analyzer/net-snmp 
+RDEPEND=net-analyzer/net-snmp 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ~ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=http://nagios.manubulon.com/nagios-plugins-snmp-0.6.0.tgz

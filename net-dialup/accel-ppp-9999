@@ -1,0 +1,11 @@
+ca1bce1f3fbda3b2c41a04f257785364
+DEFINED_PHASES= compile configure install prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=lua? ( dev-lang/lua:0 )  postgres? ( dev-db/postgresql:* )  snmp? ( net-analyzer/net-snmp )  dev-libs/libpcre  dev-libs/openssl:0=  valgrind? ( dev-util/valgrind ) 
+RDEPEND=lua? ( dev-lang/lua:0 )  postgres? ( dev-db/postgresql:* )  snmp? ( net-analyzer/net-snmp )  dev-libs/libpcre  dev-libs/openssl:0= 
+PDEPEND=net-dialup/ppp-scripts 
+EAPI=7
+IUSE=debug doc ipoe lua postgres radius shaper snmp valgrind 
+KEYWORDS=
+SLOT=0
+SRC_URI=

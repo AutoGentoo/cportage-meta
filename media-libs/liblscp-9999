@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| (   dev-vcs/subversion[http]   dev-vcs/subversion[webdav-neon]   dev-vcs/subversion[webdav-serf]  )  net-misc/rsync 
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=7
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

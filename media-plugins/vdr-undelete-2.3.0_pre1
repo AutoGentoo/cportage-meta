@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=media-video/vdr 
+RDEPEND=>=media-tv/gentoo-vdr-scripts-0.4.2  >=app-eselect/eselect-vdr-0.0.2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://phivdr.dyndns.org/vdr/vdr-undelete/vdr-undelete-2.3.1-pre1.tgz -> vdr-undelete-2.3.0_pre1.tgz

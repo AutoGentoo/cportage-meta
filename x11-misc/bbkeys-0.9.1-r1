@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=x11-wm/blackbox-0.70.0  virtual/pkgconfig 
+RDEPEND=>=x11-wm/blackbox-0.70.0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bbkeys/bbkeys-0.9.1.tar.gz

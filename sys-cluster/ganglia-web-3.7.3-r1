@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= install postinst
+DEPEND=net-misc/rsync 
+RDEPEND=  net-misc/rsync  >=app-admin/webapp-config-1.50.15  >=sys-cluster/ganglia-3.3.7[-minimal]  dev-lang/php:*[ctype,gd,json,xml]  virtual/httpd-php  media-fonts/dejavu 
+EAPI=6
+IUSE=vhosts 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/ganglia/ganglia-web/archive/3.7.3.tar.gz -> ganglia-web-3.7.3.tar.gz

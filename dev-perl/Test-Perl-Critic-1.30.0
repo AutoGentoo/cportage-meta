@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  >=dev-perl/MCE-1.520.0  >=dev-perl/Perl-Critic-1.105.0  virtual/perl-Test-Simple   >=dev-perl/Module-Build-0.400.0  
+RDEPEND=  virtual/perl-Carp  >=dev-perl/MCE-1.520.0  >=dev-perl/Perl-Critic-1.105.0  virtual/perl-Test-Simple  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TH/THALJEF/Test-Perl-Critic-1.03.tar.gz

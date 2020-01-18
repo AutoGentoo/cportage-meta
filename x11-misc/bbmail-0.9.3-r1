@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  dev-lang/perl  x11-wm/blackbox  x11-libs/libX11  x11-libs/libXext  x11-base/xorg-proto 
+RDEPEND=  dev-lang/perl  x11-wm/blackbox  x11-libs/libX11  x11-libs/libXext 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bbtools/bbmail-0.9.3.tar.gz

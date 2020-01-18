@@ -1,0 +1,10 @@
+ebd4241e3a1a245adad9ef6d51cf46db
+DEFINED_PHASES= compile install prepare test
+DEPEND=!static? (     !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sys-apps/util-linux:=  dev-libs/libzip:=   !minimal? (   dev-libs/libyaml:=  app-arch/xz-utils:= )  )  elibc_musl? ( sys-libs/fts-standalone )  static? (     !libressl? ( dev-libs/openssl:0=[static-libs(+)] )  libressl? ( dev-libs/libressl:0=[static-libs(+)] )  sys-apps/util-linux:=[static-libs(+)]  dev-libs/libzip:=[static-libs(+)]   !minimal? (   dev-libs/libyaml:=[static-libs(+)]  app-arch/xz-utils:=[static-libs(+)] )  )  app-crypt/trousers 
+RDEPEND=!static? (     !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sys-apps/util-linux:=  dev-libs/libzip:=   !minimal? (   dev-libs/libyaml:=  app-arch/xz-utils:= )  )  elibc_musl? ( sys-libs/fts-standalone ) 
+EAPI=6
+IUSE=libressl minimal static 
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/vboot-utils-72_p20181229.tar.xz
+	https://dev.gentoo.org/~zmedico/dist/vboot-utils-72_p20181229.tar.xz

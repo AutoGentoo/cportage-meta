@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  sys-fs/fuse:0=  net-libs/mbedtls:0=  ruby? ( dev-lang/ruby:* )  
+RDEPEND=  sys-fs/fuse:0=  net-libs/mbedtls:0=  ruby? ( dev-lang/ruby:* )  
+EAPI=7
+IUSE=ruby 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Aorimn/dislocker/archive/v0.7.1.tar.gz -> dislocker-0.7.1.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-perl/MIME-tools  virtual/perl-ExtUtils-MakeMaker  
+DEPEND=dev-lang/perl 
+RDEPEND=dev-perl/MIME-tools 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.adelton.com/perl/Cstools/Cstools-3.42.tar.gz

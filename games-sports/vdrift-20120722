@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=app-arch/libarchive  media-libs/glew  media-libs/libsdl[opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/libvorbis  net-misc/curl  sci-physics/bullet[-double-precision]  virtual/opengl  virtual/glu  dev-cpp/asio  dev-libs/boost  virtual/pkgconfig 
+RDEPEND=app-arch/libarchive  media-libs/glew  media-libs/libsdl[opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/libvorbis  net-misc/curl  sci-physics/bullet[-double-precision]  virtual/opengl  virtual/glu 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/vdrift/vdrift-2012-07-22.tar.bz2
+	mirror://sourceforge/vdrift/vdrift-2012-07-22c_patch.diff

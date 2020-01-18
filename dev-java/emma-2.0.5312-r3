@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= install
+DEPEND=    dev-java/ant-core  launcher? ( !sci-biology/emboss )  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/ant-core  launcher? ( !sci-biology/emboss )  >=virtual/jre-1.6 
+EAPI=5
+IUSE=+launcher 
+KEYWORDS=amd64 ~arm arm64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/emma/emma-2.0.5312-src.zip

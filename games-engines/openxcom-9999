@@ -1,0 +1,10 @@
+3cc4b7ce0d5cdafc8112beeda8da6165
+DEFINED_PHASES= compile install postinst postrm preinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-cpp/yaml-cpp-0.5.1  media-libs/libsdl[opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[flac,mikmod,vorbis]  doc? ( app-doc/doxygen ) 
+RDEPEND=>=dev-cpp/yaml-cpp-0.5.1  media-libs/libsdl[opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[flac,mikmod,vorbis] 
+EAPI=6
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

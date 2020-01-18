@@ -1,0 +1,9 @@
+923c1442f4b35dd69e82b8efab9020e9
+DEFINED_PHASES= configure install prepare setup
+DEPEND=!<sys-apps/util-linux-2.20.1-r2  !sys-fs/ntfsprogs  ntfsdecrypt? (   >=dev-libs/libgcrypt-1.2.2:0   >=net-libs/gnutls-1.4.4  )  external-fuse? (   >=sys-fs/fuse-2.8.0   <sys-fs/fuse-3.0.0_pre  )  sys-apps/attr  virtual/pkgconfig 
+RDEPEND=!<sys-apps/util-linux-2.20.1-r2  !sys-fs/ntfsprogs  ntfsdecrypt? (   >=dev-libs/libgcrypt-1.2.2:0   >=net-libs/gnutls-1.4.4  )  external-fuse? (   >=sys-fs/fuse-2.8.0   <sys-fs/fuse-3.0.0_pre  ) 
+EAPI=5
+IUSE=acl debug +external-fuse ntfsdecrypt +ntfsprogs static-libs suid xattr 
+KEYWORDS=alpha amd64 arm ~hppa ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0/87
+SRC_URI=http://tuxera.com/opensource/ntfs-3g_ntfsprogs-2016.2.22.tgz

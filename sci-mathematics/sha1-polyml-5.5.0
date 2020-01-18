@@ -1,0 +1,7 @@
+dda69afde5354cb258e8eaa2f240cc31
+DEFINED_PHASES= compile install prepare test
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://isabelle.in.tum.de/components/polyml-5.5.0.tar.gz

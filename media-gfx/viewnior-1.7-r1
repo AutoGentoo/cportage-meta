@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= install postinst postrm prepare
+DEPEND=  dev-libs/glib:2  media-gfx/exiv2:0=  x11-libs/gtk+:2   dev-util/glib-utils  virtual/pkgconfig  x11-misc/shared-mime-info  
+RDEPEND=  dev-libs/glib:2  media-gfx/exiv2:0=  x11-libs/gtk+:2  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/hellosiyan/Viewnior/archive/viewnior-1.7.tar.gz

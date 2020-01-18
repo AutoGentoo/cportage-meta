@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=net-libs/liblockfile 
+RDEPEND=net-libs/liblockfile 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ~mips ppc ~s390 ~sh sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/l/lockfile-progs/lockfile-progs_0.1.17.tar.gz

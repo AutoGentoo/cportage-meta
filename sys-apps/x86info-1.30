@@ -1,0 +1,9 @@
+42666d018264c866f851349e1d4ad770
+DEFINED_PHASES= compile configure install preinst setup
+DEPEND=  || ( >=dev-lang/python-2.7.5-r2:2.7 )  sys-apps/pciutils:= 
+RDEPEND=sys-apps/pciutils:= 
+EAPI=6
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=http://www.codemonkey.org.uk/projects/x86info/x86info-1.30.tgz

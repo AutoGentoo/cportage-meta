@@ -1,0 +1,10 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= configure install prepare
+DEPEND=sys-libs/ncurses:0= 
+RDEPEND=sys-libs/ncurses:0= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~mips ~x86
+SLOT=0
+SRC_URI=ftp://ftp.netris.org/pub/netris/netris-0.52.tar.gz
+	mirror://debian/pool/main/n/netris/netris_0.52-10.debian.tar.xz

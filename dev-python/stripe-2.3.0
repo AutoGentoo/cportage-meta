@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-python/requests-0.8.8 
+RDEPEND=>=dev-python/requests-0.8.8 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/s/stripe/stripe-2.3.0.tar.gz

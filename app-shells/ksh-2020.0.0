@@ -1,0 +1,9 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= install test
+BDEPEND=>=dev-util/meson-0.48.2  >=dev-util/ninja-1.7.2 
+RDEPEND=!app-shells/pdksh 
+EAPI=7
+IUSE=
+KEYWORDS=~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/att/ast/releases/download/2020.0.0/ksh-2020.0.0.tar.gz

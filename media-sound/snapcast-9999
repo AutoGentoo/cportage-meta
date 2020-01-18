@@ -1,0 +1,10 @@
+285b2050de53aacd1e87e0356c84d5b3
+DEFINED_PHASES= configure install setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=client? ( media-libs/alsa-lib )  flac? ( media-libs/flac )  tremor? ( media-libs/tremor )  vorbis? ( media-libs/libvorbis )  zeroconf? ( net-dns/avahi[dbus] )  >=dev-cpp/aixlog-1.2.1  >=dev-cpp/asio-1.12.1  >=dev-cpp/popl-1.2.0 
+RDEPEND=client? ( media-libs/alsa-lib )  flac? ( media-libs/flac )  tremor? ( media-libs/tremor )  vorbis? ( media-libs/libvorbis )  zeroconf? ( net-dns/avahi[dbus] ) 
+EAPI=6
+IUSE=+client +flac +server static-libs tremor +vorbis +zeroconf 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,11 @@
+3238042c75376128805e662c333508cd
+DEFINED_PHASES= compile install prepare test
+DEPEND=  x11-libs/motif:0  dev-lang/cfortran  sci-physics/cernlib  herwig? ( !sci-physics/herwig )  virtual/latex-base  x11-misc/imake  x11-misc/makedepend 
+RDEPEND=  x11-libs/motif:0  dev-lang/cfortran  sci-physics/cernlib  herwig? ( !sci-physics/herwig ) 
+EAPI=5
+IUSE=+herwig 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/m/mclibs/mclibs_20061220+dfsg3.orig.tar.gz
+	mirror://debian/pool/main/m/mclibs/mclibs_20061220+dfsg3-3.debian.tar.gz

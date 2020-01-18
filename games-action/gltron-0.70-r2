@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/libmikmod  media-libs/libpng:0  media-libs/libsdl[sound,video]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-sound[vorbis,mikmod]  media-libs/smpeg  virtual/opengl 
+RDEPEND=  media-libs/libmikmod  media-libs/libpng:0  media-libs/libsdl[sound,video]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-sound[vorbis,mikmod]  media-libs/smpeg  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gltron/gltron-0.70-source.tar.gz
+	mirror://gentoo/gltron.png

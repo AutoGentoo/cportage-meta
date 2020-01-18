@@ -1,0 +1,8 @@
+cbfc5560eadb90c9829be57b8a2857c8
+DEFINED_PHASES= install postinst prepare
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/galaxyhack/galaxyhack-1.74.tar.bz2
+	mirror://gentoo/galaxyhack.png

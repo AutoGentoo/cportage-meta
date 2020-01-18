@@ -1,0 +1,10 @@
+94ada26fee5e8f89a1263571b27871c6
+DEFINED_PHASES= configure postinst postrm prepare unpack
+BDEPEND=  dev-qt/linguist-tools:5  virtual/pkgconfig  
+DEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sci-libs/gdal  sci-libs/proj  sys-libs/zlib  exif? ( media-gfx/exiv2:= )  gps? ( >=sci-geosciences/gpsd-3.17-r2 )  libproxy? ( net-libs/libproxy )  webengine? ( dev-qt/qtwebengine:5[widgets] )  
+RDEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sci-libs/gdal  sci-libs/proj  sys-libs/zlib  exif? ( media-gfx/exiv2:= )  gps? ( >=sci-geosciences/gpsd-3.17-r2 )  libproxy? ( net-libs/libproxy )  webengine? ( dev-qt/qtwebengine:5[widgets] )  
+EAPI=7
+IUSE=debug exif gps libproxy webengine 
+KEYWORDS=
+SLOT=0
+SRC_URI=

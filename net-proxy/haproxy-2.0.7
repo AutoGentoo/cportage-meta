@@ -1,0 +1,11 @@
+37e937cbe6595d384e2011ed68093a5b
+DEFINED_PHASES= compile install postinst setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=  pcre? (   dev-libs/libpcre   pcre-jit? ( dev-libs/libpcre[jit] )  )  pcre2? (   dev-libs/libpcre   pcre2-jit? ( dev-libs/libpcre2[jit] )  )  ssl? (   !libressl? ( dev-libs/openssl:0=[zlib?] )   libressl? ( dev-libs/libressl:0= )  )  slz? ( dev-libs/libslz:= )  zlib? ( sys-libs/zlib )  lua? ( dev-lang/lua:5.3 )  device-atlas? ( dev-libs/device-atlas-api-c ) 
+RDEPEND=  pcre? (   dev-libs/libpcre   pcre-jit? ( dev-libs/libpcre[jit] )  )  pcre2? (   dev-libs/libpcre   pcre2-jit? ( dev-libs/libpcre2[jit] )  )  ssl? (   !libressl? ( dev-libs/openssl:0=[zlib?] )   libressl? ( dev-libs/libressl:0= )  )  slz? ( dev-libs/libslz:= )  zlib? ( sys-libs/zlib )  lua? ( dev-lang/lua:5.3 )  device-atlas? ( dev-libs/device-atlas-api-c ) 
+EAPI=7
+IUSE=+crypt doc examples libressl slz +net_ns +pcre pcre-jit pcre2 pcre2-jit prometheus-exporter
+ssl systemd +threads tools vim-syntax +zlib lua device-atlas 51degrees wurfl 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=http://haproxy.1wt.eu/download/2.0/src/haproxy-2.0.7.tar.gz

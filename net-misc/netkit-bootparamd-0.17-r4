@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure install prepare
+DEPEND=  !<=net-misc/netkit-bootpd-0.17-r2  libtirpc? ( net-libs/rpcsvc-proto net-libs/libtirpc )  !libtirpc? ( sys-libs/glibc[rpc(-)] )  
+RDEPEND=  !<=net-misc/netkit-bootpd-0.17-r2  libtirpc? ( net-libs/rpcsvc-proto net-libs/libtirpc )  !libtirpc? ( sys-libs/glibc[rpc(-)] )  
+EAPI=6
+IUSE=+libtirpc 
+KEYWORDS=amd64 ~hppa ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/n/netkit-bootparamd/netkit-bootparamd_0.17.orig.tar.gz

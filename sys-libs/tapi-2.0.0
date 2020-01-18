@@ -1,0 +1,12 @@
+47a49985d17c44c3a96977b616a3d5bd
+DEFINED_PHASES= compile configure prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=sys-devel/llvm:=  sys-devel/clang:= 
+RDEPEND=sys-devel/llvm:=  sys-devel/clang:= 
+EAPI=6
+IUSE=
+KEYWORDS=~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://opensource.apple.com/tarballs/clang/clang-800.0.42.1.tar.gz
+	http://releases.llvm.org/5.0.1/llvm-5.0.1.src.tar.xz
+	http://releases.llvm.org/5.0.1/cfe-5.0.1.src.tar.xz https://github.com/ributzka/tapi/archive/b9205695b4edee91000383695be8de5ba8e0db41.tar.gz -> tapi-2.0.0.tar.gz

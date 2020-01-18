@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-AutoLoader  virtual/perl-Carp  virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=virtual/perl-AutoLoader  virtual/perl-Carp 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DS/DSLEWART/Math-Libm-1.00.tar.gz

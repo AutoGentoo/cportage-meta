@@ -1,0 +1,10 @@
+c56e73f0eb9170a8c250bc51fa972af0
+DEFINED_PHASES= compile configure install postinst postrm prepare setup test
+DEPEND=sys-devel/autoconf 
+RDEPEND=!!<app-editors/gvim-8.1.0648 
+PDEPEND=!minimal? ( app-vim/gentoo-syntax ) 
+EAPI=6
+IUSE=nls acl minimal 
+KEYWORDS=
+SLOT=0
+SRC_URI=

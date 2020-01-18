@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=media-libs/libsdl[sound,joystick,video]  media-libs/sdl-mixer  app-arch/unzip 
+RDEPEND=media-libs/libsdl[sound,joystick,video]  media-libs/sdl-mixer 
+EAPI=6
+IUSE=demo 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.icculus.org/rott/releases/rott-1.1.2.tar.gz
+	demo? ( http://filesingularity.timedoctor.org/swdata.zip )

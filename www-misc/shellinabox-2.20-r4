@@ -1,0 +1,10 @@
+5e141e57c29b27af5cd165bacd9aba27
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=    acct-user/shellinaboxd  acct-group/shellinaboxd  dev-libs/openssl:0=  pam? ( sys-libs/pam ) 
+RDEPEND=  acct-user/shellinaboxd  acct-group/shellinaboxd 
+EAPI=7
+IUSE=+pam 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/shellinabox/shellinabox/archive/v2.20.tar.gz -> shellinabox-2.20.tar.gz

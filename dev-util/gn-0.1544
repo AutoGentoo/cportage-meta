@@ -1,0 +1,8 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile configure install setup test
+BDEPEND=  || ( >=dev-lang/python-2.7.5-r2:2.7 )  dev-util/ninja  
+EAPI=7
+IUSE=vim-syntax 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~floppym/dist/gn-0.1544.tar.gz

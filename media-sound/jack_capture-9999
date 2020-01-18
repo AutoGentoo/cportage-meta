@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  media-libs/libsndfile  virtual/jack  mp3? ( media-sound/lame )  ogg? ( media-libs/libogg )  osc? ( media-libs/liblo )  
+RDEPEND=  media-libs/libsndfile  virtual/jack  mp3? ( media-sound/lame )  ogg? ( media-libs/libogg )  osc? ( media-libs/liblo )  
+EAPI=7
+IUSE=mp3 ogg osc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

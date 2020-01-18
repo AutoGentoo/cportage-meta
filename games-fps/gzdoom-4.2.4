@@ -1,0 +1,10 @@
+358b716e2b6d1c2b3c9f5066691b109e
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  media-libs/libsdl2[opengl]  media-libs/libsndfile  media-libs/openal  media-sound/fluidsynth:=  media-sound/mpg123  sys-libs/zlib  virtual/jpeg:0  gtk? (   gtk2? ( x11-libs/gtk+:2 )   !gtk2? ( x11-libs/gtk+:3 )  ) 
+RDEPEND=  media-libs/libsdl2[opengl]  media-libs/libsndfile  media-libs/openal  media-sound/fluidsynth:=  media-sound/mpg123  sys-libs/zlib  virtual/jpeg:0  gtk? (   gtk2? ( x11-libs/gtk+:2 )   !gtk2? ( x11-libs/gtk+:3 )  ) 
+EAPI=7
+IUSE=gtk gtk2 +nonfree openmp 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/coelckers/gzdoom/archive/g4.2.4.tar.gz -> gzdoom-4.2.4.tar.gz

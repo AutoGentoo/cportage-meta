@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/perl-5 
+RDEPEND=>=dev-lang/perl-5  >=dev-perl/Authen-SASL-2.11  dev-perl/IO-Socket-INET6  >=dev-perl/IO-Socket-SSL-0.97  dev-perl/Net-DNS  dev-perl/Net-SSLeay  dev-perl/TermReadKey  dev-perl/Term-ReadLine-Gnu 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/syscomet/sieve-connect/releases/download/v0.87/sieve-connect-0.87.tar.bz2

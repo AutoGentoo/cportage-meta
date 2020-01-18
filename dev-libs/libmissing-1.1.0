@@ -1,0 +1,7 @@
+6071d61ccf9164ba8ff056b33d1a903a
+DEFINED_PHASES= compile configure install prepare
+EAPI=7
+IUSE=
+KEYWORDS=~ppc-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://git.savannah.gnu.org/cgit/gnulib.git/snapshot/gnulib-b451121ab45497e78cb6f612c8673a9705193391.tar.gz

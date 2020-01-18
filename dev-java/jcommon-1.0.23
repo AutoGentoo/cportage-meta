@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile install
+DEPEND=  >=virtual/jdk-1.6  app-arch/unzip  test? ( dev-java/junit:4 ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=debug 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=1.0
+SRC_URI=mirror://sourceforge/jfreechart/jcommon-1.0.23.zip

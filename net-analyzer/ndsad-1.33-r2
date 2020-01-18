@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  >=net-libs/libpcap-0.8  
+RDEPEND=    >=net-libs/libpcap-0.8   
+EAPI=7
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ndsad/ndsad-1.33.tgz

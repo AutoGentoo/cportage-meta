@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+DEPEND=x11-libs/libXext  app-text/rman  x11-misc/imake  
+RDEPEND=x11-libs/libXext 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/x/xmille/xmille_2.0.orig.tar.gz
+	mirror://debian/pool/main/x/xmille/xmille_2.0-13.diff.gz

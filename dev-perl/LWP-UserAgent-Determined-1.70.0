@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/libwww-perl  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=dev-perl/libwww-perl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALEXMV/LWP-UserAgent-Determined-1.07.tar.gz

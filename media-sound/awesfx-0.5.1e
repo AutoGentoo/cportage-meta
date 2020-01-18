@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst
+DEPEND=media-libs/alsa-lib 
+RDEPEND=media-libs/alsa-lib 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=http://ftp.suse.com/pub/people/tiwai/awesfx/awesfx-0.5.1e.tar.bz2

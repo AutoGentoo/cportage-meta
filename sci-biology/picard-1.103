@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6  dev-java/ant-apache-bcel:0  test? (   dev-java/testng:0   dev-lang/R  )  dev-java/snappy:1.0  dev-java/cofoja:0  dev-java/commons-jexl:2  dev-java/ant-core:0 
+RDEPEND=>=virtual/jre-1.6  dev-java/snappy:1.0  dev-java/cofoja:0  dev-java/commons-jexl:2  dev-java/ant-core:0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ercpe/distfiles/sci-biology/picard/picard-1.103.tar.bz2

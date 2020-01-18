@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=x11-libs/wxGTK:3.0[X] 
+RDEPEND=x11-libs/wxGTK:3.0[X] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://darwin.zoology.gla.ac.uk/~rpage/treeviewx/download/0.5/tv-0.5.1.tar.gz

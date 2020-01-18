@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=virtual/perl-IO  >=virtual/perl-autodie-2.220.0  virtual/perl-ExtUtils-MakeMaker  >=dev-perl/Module-Build-0.280.0  test? (   >=virtual/perl-Test-Simple-0.980.0  ) 
+RDEPEND=virtual/perl-IO  >=virtual/perl-autodie-2.220.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHROMATIC/Modern-Perl-1.20170117.tar.gz

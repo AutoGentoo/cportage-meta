@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Log-Dispatch  virtual/perl-parent   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   dev-perl/Test-Deep   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  dev-perl/Log-Dispatch  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Log-Dispatch-Array-1.003.tar.gz

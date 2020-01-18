@@ -1,0 +1,10 @@
+f915bea2c12e6362e5db1b79ebe25316
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=>=sys-boot/gnu-efi-3.0g  dev-util/patchutils 
+RDEPEND=sys-boot/efibootmgr  sys-fs/dosfstools[compat] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ia64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/elilo/elilo-3.16-all.tar.gz
+	mirror://debian/pool/main/e/elilo/elilo_3.14-3.debian.tar.gz

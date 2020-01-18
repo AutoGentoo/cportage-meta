@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+BDEPEND=  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+DEPEND=  media-libs/audiofile  media-libs/libsndfile 
+RDEPEND=  media-libs/audiofile  media-libs/libsndfile 
+EAPI=7
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

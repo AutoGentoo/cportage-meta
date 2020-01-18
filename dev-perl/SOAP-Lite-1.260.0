@@ -1,0 +1,9 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= test
+DEPEND=  dev-perl/Class-Inspector  >=dev-perl/IO-SessionData-1.30.0  dev-perl/libwww-perl  virtual/perl-MIME-Base64  virtual/perl-Scalar-List-Utils  dev-perl/Task-Weaken  dev-perl/URI  >=dev-perl/XML-Parser-2.230.0  dev-perl/MIME-tools  ssl? (   dev-perl/IO-Socket-SSL   dev-perl/LWP-Protocol-https   dev-perl/Crypt-SSLeay  )  xmpp? ( dev-perl/Net-Jabber )   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-IO   virtual/perl-Test-Simple   dev-perl/Test-Warn   >=dev-perl/XML-Parser-Lite-0.715.0  )  
+RDEPEND=  dev-perl/Class-Inspector  >=dev-perl/IO-SessionData-1.30.0  dev-perl/libwww-perl  virtual/perl-MIME-Base64  virtual/perl-Scalar-List-Utils  dev-perl/Task-Weaken  dev-perl/URI  >=dev-perl/XML-Parser-2.230.0  dev-perl/MIME-tools  ssl? (   dev-perl/IO-Socket-SSL   dev-perl/LWP-Protocol-https   dev-perl/Crypt-SSLeay  )  xmpp? ( dev-perl/Net-Jabber )  
+EAPI=6
+IUSE=ssl test xmpp 
+KEYWORDS=amd64 ~arm ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PH/PHRED/SOAP-Lite-1.26.tar.gz

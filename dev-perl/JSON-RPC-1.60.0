@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  !minimal? ( dev-perl/JSON-XS )  dev-perl/CGI  dev-perl/Class-Accessor-Lite  dev-perl/HTTP-Message  dev-perl/JSON  dev-perl/libwww-perl  dev-perl/Plack  dev-perl/Router-Simple  dev-perl/Try-Tiny  virtual/perl-parent   >=dev-perl/Module-Build-0.380.0  virtual/perl-CPAN-Meta  test? (   >=virtual/perl-ExtUtils-MakeMaker-6.360.0   virtual/perl-Test-Simple  )  
+RDEPEND=  !minimal? ( dev-perl/JSON-XS )  dev-perl/CGI  dev-perl/Class-Accessor-Lite  dev-perl/HTTP-Message  dev-perl/JSON  dev-perl/libwww-perl  dev-perl/Plack  dev-perl/Router-Simple  dev-perl/Try-Tiny  virtual/perl-parent  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DM/DMAKI/JSON-RPC-1.06.tar.gz

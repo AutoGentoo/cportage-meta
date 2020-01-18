@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://archives.fedoraproject.org/pub/archive/fedora/linux/development/16/source/SRPMS/verne-backgrounds-15.91.0-1.fc16.src.rpm

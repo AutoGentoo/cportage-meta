@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/mtl-2:=[profile?]   >=dev-haskell/transformers-0.2.2:=[profile?]   dev-haskell/split:=[profile?]   dev-haskell/syb:=[profile?]   >=dev-lang/ghc-6.10.4:=   >=dev-haskell/cabal-1.6 
+RDEPEND=>=dev-haskell/mtl-2:=[profile?]   >=dev-haskell/transformers-0.2.2:=[profile?]   dev-haskell/split:=[profile?]   dev-haskell/syb:=[profile?]   >=dev-lang/ghc-6.10.4:= 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0/0.3.5
+SRC_URI=https://hackage.haskell.org/package/cmdlib-0.3.5/cmdlib-0.3.5.tar.gz

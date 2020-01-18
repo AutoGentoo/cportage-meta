@@ -1,0 +1,13 @@
+09d9e8e473022f0382e083f532bfd9d4
+DEFINED_PHASES= install postinst postrm preinst prepare
+BDEPEND=  dev-util/intltool  sys-devel/gettext  
+DEPEND=dev-libs/glib:2 
+RDEPEND=dev-libs/glib:2  app-eselect/eselect-gnome-shell-extensions  >=gnome-base/gnome-shell-3.18.0  
+EAPI=7
+IUSE=branding 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	https://github.com/home-sweet-gnome/dash-to-panel/archive/v26.tar.gz -> gnome-shell-extension-dash-to-panel-26.tar.gz
+	branding? ( https://www.mail-archive.com/tango-artists@lists.freedesktop.org/msg00043/tango-gentoo-v1.1.tar.gz )
+

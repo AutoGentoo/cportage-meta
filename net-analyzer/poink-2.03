@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://ep09.pld-linux.org/~mmazur/poink/poink-2.03.tar.gz

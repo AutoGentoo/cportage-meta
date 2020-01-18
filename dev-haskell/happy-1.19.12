@@ -1,0 +1,10 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=>=dev-haskell/mtl-2.2.1:=  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  doc? ( ~app-text/docbook-xml-dtd-4.2    app-text/docbook-xsl-stylesheets )  
+RDEPEND=>=dev-haskell/mtl-2.2.1:=  >=dev-lang/ghc-7.4.1:=  
+EAPI=7
+IUSE=doc 
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/happy-1.19.12/happy-1.19.12.tar.gz

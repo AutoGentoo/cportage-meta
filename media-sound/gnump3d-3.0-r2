@@ -1,0 +1,9 @@
+4b976cd1a24cb915bb5c24d609830eb2
+DEFINED_PHASES= compile install postinst setup
+DEPEND=sys-apps/sed 
+RDEPEND=sox? ( media-sound/sox ) 
+EAPI=5
+IUSE=sox 
+KEYWORDS=alpha amd64 ~ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://savannah.gnu.org/download/gnump3d/gnump3d-3.0.tar.bz2

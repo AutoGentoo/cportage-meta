@@ -1,0 +1,7 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install prepare
+EAPI=6
+IUSE=doc examples 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://lancet.mit.edu/ga/dist/galib247.tgz

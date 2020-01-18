@@ -1,0 +1,10 @@
+c38e789a7216519c992437ad85ea61c7
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=selinux? ( sys-libs/libselinux[static-libs(+)] )  !dev-libs/libelf  sys-libs/binutils-libs  >=sys-libs/glibc-2.8 
+RDEPEND=selinux? ( sys-libs/libselinux[static-libs(+)] )  !dev-libs/libelf  sys-libs/binutils-libs  >=sys-libs/glibc-2.8  >=sys-devel/binutils-2.18  >=dev-libs/elfutils-0.100[static-libs(+)] 
+EAPI=7
+IUSE=doc selinux 
+KEYWORDS=
+SLOT=0
+SRC_URI=

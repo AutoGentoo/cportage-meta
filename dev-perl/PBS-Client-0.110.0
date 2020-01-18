@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=    >=virtual/perl-Data-Dumper-2.121.0  >=virtual/perl-File-Temp-0.140.0   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  >=virtual/perl-Data-Dumper-2.121.0  >=virtual/perl-File-Temp-0.140.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KW/KWMAK/PBS/Client/PBS-Client-0.11.tar.gz

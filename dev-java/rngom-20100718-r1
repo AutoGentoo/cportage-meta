@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile
+DEPEND=    dev-java/xsdlib:0  dev-java/relaxng-datatype:0  app-arch/unzip  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/xsdlib:0  dev-java/relaxng-datatype:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/org/kohsuke/rngom/rngom/20100718/rngom-20100718-sources.jar -> rngom-20100718.jar

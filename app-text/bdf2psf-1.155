@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+RDEPEND=dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/console-setup/console-setup_1.155.tar.xz

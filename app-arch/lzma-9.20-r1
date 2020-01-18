@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~arm ~ia64 ~mips ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/sevenzip/lzma920.tar.bz2 -> lzma-9.20.tar.bz2

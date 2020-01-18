@@ -1,0 +1,9 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= install
+DEPEND=  >=virtual/jdk-1.4  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=2.0
+SRC_URI=http://www.jgoodies.com/download/libraries/looks/looks-2_3_1.zip

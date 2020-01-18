@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES=-
+BDEPEND=dev-lang/swig 
+DEPEND=>=dev-libs/libcdio-2.0.0 
+RDEPEND=>=dev-libs/libcdio-2.0.0 
+EAPI=7
+IUSE=examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/p/pycdio/pycdio-2.1.0.tar.gz

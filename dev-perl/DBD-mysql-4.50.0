@@ -1,0 +1,9 @@
+77443058c0803c3741cb6437444ae823
+DEFINED_PHASES= configure test
+DEPEND=>=dev-perl/DBI-1.609.0  >=dev-perl/Devel-CheckLib-1.109.0  mysql? ( dev-db/mysql-connector-c:= )  mariadb? ( dev-db/mariadb-connector-c:=[ssl(+)?] )   virtual/perl-ExtUtils-MakeMaker  virtual/perl-Data-Dumper  test? (   dev-perl/Test-Deep   >=virtual/perl-Test-Simple-0.900.0   virtual/perl-Time-HiRes  )  
+RDEPEND=>=dev-perl/DBI-1.609.0  >=dev-perl/Devel-CheckLib-1.109.0  mysql? ( dev-db/mysql-connector-c:= )  mariadb? ( dev-db/mariadb-connector-c:=[ssl(+)?] )  
+EAPI=6
+IUSE=mariadb +mysql test +ssl 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DV/DVEEDEN/DBD-mysql-4.050.tar.gz

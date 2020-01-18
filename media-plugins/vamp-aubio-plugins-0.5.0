@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=media-libs/aubio-0.4.1  media-libs/vamp-plugin-sdk  =sci-libs/fftw-3* 
+RDEPEND=>=media-libs/aubio-0.4.1  media-libs/vamp-plugin-sdk  =sci-libs/fftw-3* 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc ppc64 x86
+SLOT=0
+SRC_URI=https://aubio.org/pub/vamp-aubio-plugins/vamp-aubio-plugins-0.5.0.tar.bz2

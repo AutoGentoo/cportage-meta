@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=sys-devel/flex  virtual/yacc 
+EAPI=7
+IUSE=
+KEYWORDS=~alpha amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=ftp://ftp.invisible-island.net/cproto//cproto-4.7o.tgz

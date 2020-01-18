@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=  sys-devel/flex  virtual/pkgconfig  virtual/yacc 
+DEPEND=    x11-libs/libX11  x11-libs/libXext  x11-libs/libXft  x11-libs/libXpm  x11-libs/libXrender  x11-libs/libXtst  x11-base/xorg-proto 
+RDEPEND=  x11-libs/libX11  x11-libs/libXext  x11-libs/libXft  x11-libs/libXpm  x11-libs/libXrender  x11-libs/libXtst 
+EAPI=7
+IUSE=
+KEYWORDS=alpha ~amd64 hppa ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/xstroke-0.6.tar.bz2

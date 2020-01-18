@@ -1,0 +1,9 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= configure install postinst postrm
+DEPEND=  >=dev-db/sqlite-3.11.1:3  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtprintsupport:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtsql:5[sqlite]  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5   dev-qt/linguist-tools:5  virtual/pkgconfig  
+RDEPEND=  >=dev-db/sqlite-3.11.1:3  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtprintsupport:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtsql:5[sqlite]  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/QuiteRSS/quiterss/archive/0.18.12.tar.gz -> quiterss-0.18.12.tar.gz

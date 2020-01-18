@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+RDEPEND=>=dev-lang/php-5.3:*  >=dev-php/PEAR-Crypt_CHAP-1.0.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~hppa ~sparc
+SLOT=0
+SRC_URI=https://pear.php.net/get/File_SMBPasswd-1.0.3.tgz

@@ -1,0 +1,11 @@
+8dc87a195da53a62c170a638455e4a6b
+DEFINED_PHASES= install prepare setup
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-python/pygame[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  media-libs/sdl-image[gif,jpeg,png]  media-libs/sdl-ttf  media-libs/sdl-mixer[vorbis]  media-libs/libogg 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-python/pygame[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  media-libs/sdl-image[gif,jpeg,png]  media-libs/sdl-ttf  media-libs/sdl-mixer[vorbis]  media-libs/libogg 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/childsplay/childsplay-0.90.2.tgz
+	mirror://sourceforge/childsplay/childsplay_plugins-0.90.tgz
+	mirror://sourceforge/childsplay/childsplay_plugins_lfc-0.90.tgz

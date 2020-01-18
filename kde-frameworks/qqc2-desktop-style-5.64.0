@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.64:5 
+DEPEND=  >=kde-frameworks/kconfigwidgets-5.64:5  >=kde-frameworks/kiconthemes-5.64:5  >=kde-frameworks/kirigami-5.64:5  >=dev-qt/qtdeclarative-5.12.3:5=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  
+RDEPEND=  >=kde-frameworks/kconfigwidgets-5.64:5  >=kde-frameworks/kiconthemes-5.64:5  >=kde-frameworks/kirigami-5.64:5  >=dev-qt/qtdeclarative-5.12.3:5=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5   >=dev-qt/qtgraphicaleffects-5.12.3:5  >=dev-qt/qtquickcontrols2-5.12.3:5  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/qqc2-desktop-style-5.64.0.tar.xz

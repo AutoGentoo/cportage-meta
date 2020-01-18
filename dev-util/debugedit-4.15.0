@@ -1,0 +1,9 @@
+69796a7a6fa7ceda8793a2aafbaf554e
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=  sys-libs/zlib:=  >=dev-libs/popt-1.7  >=dev-libs/elfutils-0.176-r1  dev-libs/nss   virtual/pkgconfig  
+RDEPEND=  sys-libs/zlib:=  >=dev-libs/popt-1.7  >=dev-libs/elfutils-0.176-r1  dev-libs/nss  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 hppa ~ia64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://ftp.rpm.org/releases/rpm-4.15.x/rpm-4.15.0.tar.bz2

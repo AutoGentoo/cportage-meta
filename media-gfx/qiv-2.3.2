@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= compile install prepare
+DEPEND=  media-libs/imlib2[X]  >=x11-libs/gtk+-2.12:2  exif? ( media-libs/libexif )  lcms? (   media-libs/lcms:2   media-libs/tiff:0   virtual/jpeg:0  )  magic? ( sys-apps/file )  virtual/pkgconfig 
+RDEPEND=  media-libs/imlib2[X]  >=x11-libs/gtk+-2.12:2  exif? ( media-libs/libexif )  lcms? (   media-libs/lcms:2   media-libs/tiff:0   virtual/jpeg:0  )  magic? ( sys-apps/file ) 
+EAPI=6
+IUSE=exif lcms magic 
+KEYWORDS=~amd64 ~mips ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/ciberandy/qiv/get/v2.3.2.tar.gz -> qiv-2.3.2.tar.gz

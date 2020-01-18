@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=dev-perl/Tk 
+RDEPEND=dev-perl/Tk 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ia64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DU/DUNNIGANJ/Tk-CursorControl-0.4.tar.gz

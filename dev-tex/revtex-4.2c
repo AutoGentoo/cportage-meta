@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install prepare
+BDEPEND=virtual/latex-base  >=sys-apps/texinfo-4.2-r5 
+DEPEND=>=dev-texlive/texlive-latex-2012  app-arch/unzip  
+RDEPEND=>=dev-texlive/texlive-latex-2012 
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=http://mirrors.ctan.org/macros/latex/contrib/revtex.zip -> revtex-4.2c.zip

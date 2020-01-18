@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=~app-leechcraft/lc-core-9999  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtconcurrent:5  dev-qt/qtprintsupport:5  dev-qt/qtxml:5  pdf? ( app-text/poppler[qt5] )  djvu? ( app-text/djvu )  doc? ( app-doc/doxygen[dot] ) 
+RDEPEND=~app-leechcraft/lc-core-9999  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtconcurrent:5  dev-qt/qtprintsupport:5  dev-qt/qtxml:5  pdf? ( app-text/poppler[qt5] )  djvu? ( app-text/djvu )  postscript? ( app-text/ghostscript-gpl ) 
+EAPI=6
+IUSE=debug +djvu doc +fb2 +mobi +pdf +postscript 
+KEYWORDS=
+SLOT=0
+SRC_URI=

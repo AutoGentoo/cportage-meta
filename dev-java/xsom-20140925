@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-java/relaxng-datatype:0  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/relaxng-datatype:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://repo1.maven.org/maven2/com/sun/xsom/xsom/20140925/xsom-20140925-sources.jar -> xsom-20140925.jar

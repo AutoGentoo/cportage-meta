@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  net-dns/avahi[mdnsresponder-compat]  media-libs/libao  
+RDEPEND=    net-dns/avahi[mdnsresponder-compat]  media-libs/libao   
+EAPI=7
+IUSE=+playfair static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/juhovh/shairplay/archive/096b61ad14c90169f438e690d096e3fcf87e504e.tar.gz -> shairplay-0_pre20180824.tar.gz

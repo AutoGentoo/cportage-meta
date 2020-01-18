@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=!sys-apps/moreutils 
+RDEPEND=!sys-apps/moreutils 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://math.smsu.edu/~erik/files/timestamp-1.1.tar.gz

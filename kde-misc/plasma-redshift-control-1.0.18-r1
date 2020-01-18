@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.60.0:5 
+DEPEND= >=kde-frameworks/plasma-5.60.0:5 
+RDEPEND= >=kde-frameworks/plasma-5.60.0:5  x11-misc/redshift  
+EAPI=7
+IUSE=
+KEYWORDS=amd64
+SLOT=5
+SRC_URI=https://github.com/kotelnik/plasma-applet-redshift-control/archive/v1.0.18.tar.gz -> plasma-applet-redshift-control-1.0.18.tar.gz

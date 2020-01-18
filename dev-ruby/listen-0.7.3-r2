@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( test? ( dev-ruby/rspec:2[ruby_targets_ruby24] >=dev-ruby/rspec-core-2.14.8-r2[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/rspec:2[ruby_targets_ruby25] >=dev-ruby/rspec-core-2.14.8-r2[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ) test? ( ruby_targets_ruby24? ( >=dev-ruby/rb-inotify-0.9.0[ruby_targets_ruby24] ) ruby_targets_ruby25? ( >=dev-ruby/rb-inotify-0.9.0[ruby_targets_ruby25] ) ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby24? ( >=dev-ruby/rb-inotify-0.9.0[ruby_targets_ruby24] ) ruby_targets_ruby25? ( >=dev-ruby/rb-inotify-0.9.0[ruby_targets_ruby25] ) 
+EAPI=5
+IUSE= test 
+KEYWORDS=amd64 ~arm ~hppa ~ppc ~ppc64 x86 ~x64-macos
+SLOT=0
+SRC_URI=https://github.com/guard/listen/archive/v0.7.3.tar.gz -> listen-0.7.3-git.tgz

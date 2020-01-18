@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/XML-LibXML  dev-perl/XML-NodeFilter 
+RDEPEND=dev-perl/XML-LibXML  dev-perl/XML-NodeFilter 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PH/PHISH/XML-LibXML-Iterator-1.04.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Net-DNS  >=dev-perl/Danga-Socket-1.61 
+RDEPEND=dev-perl/Net-DNS  >=dev-perl/Danga-Socket-1.61 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSERGEANT/ParaDNS-2.0.tar.gz

@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=  sys-devel/gettext  >=dev-util/intltool-0.35.0  virtual/pkgconfig  
+RDEPEND=  dev-cpp/gtkmm:2.4  >=media-libs/libgig-3.3.0  >=media-libs/libsndfile-1.0.2  >=media-sound/linuxsampler-0.5.1  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=http://download.linuxsampler.org/packages/gigedit-1.1.1.tar.bz2

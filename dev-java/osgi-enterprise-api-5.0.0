@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= nofetch
+DEPEND=dev-java/glassfish-persistence:0  dev-java/osgi-core-api:0  java-virtuals/servlet-api:2.5  >=virtual/jdk-1.5  app-arch/unzip 
+RDEPEND=dev-java/glassfish-persistence:0  dev-java/osgi-core-api:0  java-virtuals/servlet-api:2.5  >=virtual/jre-1.5 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.osgi.org/download/r5/osgi.enterprise-5.0.0.jar

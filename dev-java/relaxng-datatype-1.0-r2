@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.7 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/relaxng/relaxngDatatype-1.0.zip -> relaxng-datatype-1.0.zip

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/URI-1.600.0   >=dev-perl/Module-Build-0.300.0  test? (   >=virtual/perl-Test-Simple-0.880.0   dev-perl/Test-Pod  )  
+RDEPEND=  >=dev-perl/URI-1.600.0  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSCHWERN/URI-Find-20140709.tar.gz

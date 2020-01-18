@@ -1,0 +1,10 @@
+12c97367654deb1a052a47a8765c0fc7
+DEFINED_PHASES= compile install postinst preinst prepare
+BDEPEND=virtual/pkgconfig  X? (   x11-apps/bdftopcf   x11-apps/mkfontscale  ) 
+DEPEND=acct-group/gamestat  sys-libs/ncurses:0=  X? (   x11-libs/libXaw   x11-libs/libXpm   x11-libs/libXt  )  X? ( x11-base/xorg-proto )   
+RDEPEND=acct-group/gamestat  sys-libs/ncurses:0=  X? (   x11-libs/libXaw   x11-libs/libXpm   x11-libs/libXt  ) 
+EAPI=7
+IUSE=X 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://nethack.org/download/3.6.3/nethack-363-src.tgz -> nethack-3.6.3.tar.gz

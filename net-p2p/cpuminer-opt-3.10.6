@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install prepare test
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/gmp:0  dev-libs/jansson  >=net-misc/curl-7.15[ssl]  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  
+RDEPEND=  dev-libs/gmp:0  dev-libs/jansson  >=net-misc/curl-7.15[ssl]  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  
+EAPI=7
+IUSE=cpu_flags_x86_sse2 curl libressl 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/JayDDee/cpuminer-opt/archive/v3.10.6.tar.gz -> cpuminer-opt-3.10.6.tar.gz

@@ -1,0 +1,9 @@
+7fd5be7d0d445cdd6f4063aa6570a547
+DEFINED_PHASES= configure install prepare
+DEPEND=>=dev-libs/cxxtools-2.2.1  sys-libs/zlib[minizip]  ssl? (   gnutls? (    >=net-libs/gnutls-1.2.0    dev-libs/libgcrypt:0   )   !gnutls? ( dev-libs/openssl:0= )  )  virtual/pkgconfig  app-arch/zip 
+RDEPEND=>=dev-libs/cxxtools-2.2.1  sys-libs/zlib[minizip]  ssl? (   gnutls? (    >=net-libs/gnutls-1.2.0    dev-libs/libgcrypt:0   )   !gnutls? ( dev-libs/openssl:0= )  ) 
+EAPI=5
+IUSE=doc gnutls server ssl examples 
+KEYWORDS=amd64 ~sparc x86
+SLOT=0
+SRC_URI=http://www.tntnet.org/download/tntnet-2.2.1.tar.gz

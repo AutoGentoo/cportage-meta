@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=sys-apps/groff 
+RDEPEND=  virtual/cron  app-arch/gzip 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://download.openpkg.org/components/cache/newsyslog/newsyslog-1.1.0.81.tar.gz

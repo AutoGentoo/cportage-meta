@@ -1,0 +1,11 @@
+99676c637e7d9dcdf88d4402f4b01237
+DEFINED_PHASES= compile configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  libmpeg2? ( media-libs/libmpeg2:= )  ffmpeg? ( virtual/ffmpeg )  imagemagick? ( media-gfx/imagemagick )  !media-plugins/vdr-markad  virtual/pkgconfig 
+RDEPEND=  libmpeg2? ( media-libs/libmpeg2:= )  ffmpeg? ( virtual/ffmpeg )  imagemagick? ( media-gfx/imagemagick )  !media-plugins/vdr-markad 
+EAPI=7
+IUSE=+ffmpeg imagemagick libmpeg2 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://noad.net23.net/noad-0.8.6.tar.bz2
+		http://vdr.websitec.de/download/noad/noad-0.8.6-ffmpeg3.4.diff.bz2

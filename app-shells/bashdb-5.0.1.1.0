@@ -1,0 +1,9 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure prepare
+DEPEND=!>=app-shells/bash-5.1 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bashdb/bashdb-5.0-1.1.0.tar.bz2
+	test? ( https://dev.gentoo.org/~whissi/dist/bashdb/bashdb-4.4-1.0.0-missing-test-files.tar.xz )

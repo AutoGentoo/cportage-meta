@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm preinst
+DEPEND=dev-games/clanlib:0.8[opengl]  virtual/pkgconfig 
+RDEPEND=dev-games/clanlib:0.8[opengl] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/trophy/trophy-2.0.3.tar.gz

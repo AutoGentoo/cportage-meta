@@ -1,0 +1,12 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install prepare
+RDEPEND=    >=app-portage/portage-utils-0.80_pre20190620  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=
+	https://github.com/gentoo-perl/gentoo-perl-helpers/releases/download/0.4.0/gentoo-perl-helpers-0.4.0.tar.xz
+	mirror://gentoo/gentoo-perl-helpers-0.4.0.tar.xz
+	https://dev.gentoo.org/~kentnl/distfiles/gentoo-perl-helpers-0.4.0.tar.xz
+

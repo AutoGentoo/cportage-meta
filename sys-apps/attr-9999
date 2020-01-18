@@ -1,0 +1,9 @@
+773da7229b0e410064c7362bdc52516a
+DEFINED_PHASES= prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=nls? ( sys-devel/gettext ) 
+EAPI=7
+IUSE=debug nls static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

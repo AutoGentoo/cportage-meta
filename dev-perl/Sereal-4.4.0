@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Sereal-Encoder-4.4.0  >=dev-perl/Sereal-Decoder-4.4.0   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Data-Dumper   virtual/perl-File-Spec   virtual/perl-Scalar-List-Utils   dev-perl/Test-LongString   >=virtual/perl-Test-Simple-0.880.0   dev-perl/Test-Warn  )  
+RDEPEND=  >=dev-perl/Sereal-Encoder-4.4.0  >=dev-perl/Sereal-Decoder-4.4.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Y/YV/YVES/Sereal-4.004.tar.gz

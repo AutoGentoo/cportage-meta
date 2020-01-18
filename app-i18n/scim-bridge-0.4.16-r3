@@ -1,0 +1,9 @@
+29a161c0007067ee4e89680094cbb29d
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=  >=app-i18n/scim-1.4.6  gtk? (   >=x11-libs/gtk+-2.2:2   >=x11-libs/pango-1.1  )   virtual/pkgconfig  dev-util/intltool  doc? ( app-doc/doxygen )  
+RDEPEND=  >=app-i18n/scim-1.4.6  gtk? (   >=x11-libs/gtk+-2.2:2   >=x11-libs/pango-1.1  )  
+EAPI=6
+IUSE=doc gtk 
+KEYWORDS=~amd64 ~hppa ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/scim/scim-bridge-0.4.16.tar.gz

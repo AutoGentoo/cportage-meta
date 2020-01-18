@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install
+BDEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php7-2? ( dev-lang/php:7.2[session(-)?] ) php_targets_php7-3? ( dev-lang/php:7.3[session(-)?] ) php_targets_php7-4? ( dev-lang/php:7.4[session(-)?] )  
+DEPEND=sys-libs/zlib 
+RDEPEND=sys-libs/zlib 
+EAPI=7
+IUSE=+session 
+KEYWORDS=~amd64 ~hppa ~ppc64 ~x86
+SLOT=7
+SRC_URI=https://pecl.php.net/get/memcache-4.0.5.2.tgz

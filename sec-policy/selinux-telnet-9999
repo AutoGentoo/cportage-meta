@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=sys-apps/policycoreutils-2.0.82   >=sec-policy/selinux-base-policy-9999  sys-devel/m4  >=sys-apps/checkpolicy-2.0.21  sec-policy/selinux-remotelogin  
+RDEPEND=>=sys-apps/policycoreutils-2.0.82   >=sec-policy/selinux-base-policy-9999  sec-policy/selinux-remotelogin  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  || ( <=dev-perl/Inline-0.560.0 dev-perl/Inline-C )  media-libs/libogg  media-libs/libvorbis   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  || ( <=dev-perl/Inline-0.560.0 dev-perl/Inline-C )  media-libs/libogg  media-libs/libvorbis  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAVECROSS/Ogg-Vorbis-Header-0.05.tar.gz

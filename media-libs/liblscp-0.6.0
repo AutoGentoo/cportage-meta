@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://download.linuxsampler.org/packages/liblscp-0.6.0.tar.gz

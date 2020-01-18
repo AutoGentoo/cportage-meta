@@ -1,0 +1,10 @@
+6d49be47cc747e0b72f9005abf7c8e40
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/gmp:0=  media-libs/libsdl2[video]  clipboard? ( !kernel_Winnt? (   media-libs/libsdl2[X]   x11-libs/libX11  ) )  jpeg? ( virtual/jpeg )  kernel_linux? ( virtual/libudev )  lilo? ( sys-libs/zlib )  opengl? ( virtual/opengl )  osmesa? ( media-libs/mesa[osmesa] )  pmmu? ( dev-libs/mpfr:0= )  usb? ( virtual/libusb:1 )  
+RDEPEND=  dev-libs/gmp:0=  media-libs/libsdl2[video]  clipboard? ( !kernel_Winnt? (   media-libs/libsdl2[X]   x11-libs/libX11  ) )  jpeg? ( virtual/jpeg )  kernel_linux? ( virtual/libudev )  lilo? ( sys-libs/zlib )  opengl? ( virtual/opengl )  osmesa? ( media-libs/mesa[osmesa] )  pmmu? ( dev-libs/mpfr:0= )  usb? ( virtual/libusb:1 )  
+EAPI=7
+IUSE=+clipboard +jit jpeg lilo opengl osmesa pmmu +standard usb 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/aranym/aranym/releases/download/ARANYM_1_1_0/aranym_1.1.0.orig.tar.gz

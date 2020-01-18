@@ -1,0 +1,11 @@
+ee942de92f28283c64775a678a1c9e7a
+DEFINED_PHASES= configure install prepare pretend setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sys-libs/zlib  ssl? ( >=net-libs/mbedtls-2.0[threads] )  xslt? ( dev-libs/libxslt    dev-libs/libxml2 ) 
+RDEPEND=  sys-libs/zlib  ssl? ( >=net-libs/mbedtls-2.0[threads] )  xslt? ( dev-libs/libxslt    dev-libs/libxml2 ) 
+PDEPEND=monitor? ( www-apps/hiawatha-monitor ) 
+EAPI=5
+IUSE=+cache ipv6 monitor +rewrite +rproxy +ssl tomahawk +xslt 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.hiawatha-webserver.org/files/hiawatha-9.15.tar.gz

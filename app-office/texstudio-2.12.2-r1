@@ -1,0 +1,9 @@
+429ff9bb1046c1705071e2cec8a6aaa9
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=  app-text/hunspell:=  app-text/poppler[qt5]  >=dev-libs/quazip-0.7.2[qt5(+)]  dev-qt/designer:5  dev-qt/qtcore:5  dev-qt/qtconcurrent:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtscript:5  dev-qt/qtsingleapplication[qt5(+),X]  dev-qt/qtsvg:5  dev-qt/qttest:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib  x11-libs/libX11  x11-libs/libXext  video? ( media-libs/phonon[qt5(+)] )  virtual/pkgconfig 
+RDEPEND=  app-text/hunspell:=  app-text/poppler[qt5]  >=dev-libs/quazip-0.7.2[qt5(+)]  dev-qt/designer:5  dev-qt/qtcore:5  dev-qt/qtconcurrent:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtscript:5  dev-qt/qtsingleapplication[qt5(+),X]  dev-qt/qtsvg:5  dev-qt/qttest:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib  x11-libs/libX11  x11-libs/libXext  video? ( media-libs/phonon[qt5(+)] )  app-text/ghostscript-gpl  app-text/psutils  media-libs/netpbm  virtual/latex-base 
+EAPI=6
+IUSE=video 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/texstudio/texstudio/TeXstudio%202.12.2/texstudio-2.12.2.tar.gz

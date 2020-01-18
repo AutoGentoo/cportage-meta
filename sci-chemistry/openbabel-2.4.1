@@ -1,0 +1,10 @@
+55d5d81bfc82082157edcbb0b29dcb39
+DEFINED_PHASES= configure install postinst prepare setup test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-cpp/eigen:3  dev-libs/libxml2:2  sci-libs/inchi  sys-libs/zlib  wxwidgets? ( x11-libs/wxGTK:3.0[X] )  >=dev-util/cmake-2.4.8  doc? ( app-doc/doxygen ) 
+RDEPEND=  dev-cpp/eigen:3  dev-libs/libxml2:2  sci-libs/inchi  sys-libs/zlib  wxwidgets? ( x11-libs/wxGTK:3.0[X] ) 
+EAPI=6
+IUSE=doc openmp test wxwidgets 
+KEYWORDS=amd64 ~arm x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0/5.0.0
+SRC_URI=mirror://sourceforge/openbabel/openbabel-2.4.1.tar.gz

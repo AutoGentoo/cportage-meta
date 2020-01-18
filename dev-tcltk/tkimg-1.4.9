@@ -1,0 +1,11 @@
+7a06b406d4da8e501e1ba1aa60513bbd
+DEFINED_PHASES= install prepare
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) 
+DEPEND=  dev-lang/tk:=  >=dev-tcltk/tcllib-1.11  media-libs/tiff:0=  >=media-libs/libpng-1.6:0=  >=sys-libs/zlib-1.2.7:=  x11-libs/libX11  virtual/jpeg:=  test? (   x11-apps/xhost   media-fonts/font-misc-misc   media-fonts/font-cursor-misc ) 
+RDEPEND=  dev-lang/tk:=  >=dev-tcltk/tcllib-1.11  media-libs/tiff:0=  >=media-libs/libpng-1.6:0=  >=sys-libs/zlib-1.2.7:=  x11-libs/libX11  virtual/jpeg:= 
+EAPI=7
+IUSE=doc test static-libs 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/tkimg/tkimg/1.4/tkimg%201.4.9/Img-1.4.9-Source.tar.gz
+	https://dev.gentoo.org/~tupone/distfiles/tkimg-1.4.7-patchset-1.tar.xz

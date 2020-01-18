@@ -1,0 +1,9 @@
+3f857d6314920e760d25ef85ad05b5a9
+DEFINED_PHASES= configure install prepare
+DEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= ) )  srtp? ( net-libs/libsrtp:0= )   doc? ( app-doc/doxygen )  virtual/pkgconfig  
+RDEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= ) )  srtp? ( net-libs/libsrtp:0= )  
+EAPI=6
+IUSE=debug doc examples ipv6 libressl minimal ntp-timestamp ssl srtp 
+KEYWORDS=alpha amd64 arm64 ia64 ppc ppc64 sparc x86 ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0/9
+SRC_URI=mirror://nongnu/linphone/ortp/sources/ortp-0.23.0.tar.gz

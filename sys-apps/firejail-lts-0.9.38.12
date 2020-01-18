@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=!sys-apps/firejail 
+RDEPEND=!sys-apps/firejail 
+EAPI=5
+IUSE=+seccomp 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/firejail/firejail-0.9.38.12.tar.bz2

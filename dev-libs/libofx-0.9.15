@@ -1,0 +1,10 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= install prepare
+BDEPEND=  dev-util/gengetopt  sys-apps/help2man  virtual/pkgconfig  test? ( app-crypt/gnupg )  
+DEPEND=  >=dev-cpp/libxmlpp-2.40.1:2.6  >=net-misc/curl-7.9.7  virtual/libiconv   >app-text/opensp-1.5  
+RDEPEND=  >=dev-cpp/libxmlpp-2.40.1:2.6  >=net-misc/curl-7.9.7  virtual/libiconv  
+EAPI=7
+IUSE=static-libs test 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0/7
+SRC_URI=https://github.com/libofx/libofx/archive/0.9.15.tar.gz -> libofx-0.9.15.tar.gz

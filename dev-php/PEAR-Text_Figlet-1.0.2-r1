@@ -1,0 +1,8 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= install
+RDEPEND=dev-lang/php:*  dev-php/PEAR-PEAR 
+EAPI=6
+IUSE=examples 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://download.pear.php.net/package/Text_Figlet-1.0.2.tgz

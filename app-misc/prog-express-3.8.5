@@ -1,0 +1,12 @@
+14eff754f18e40f89090bc10575c33ef
+DEFINED_PHASES= install postinst postrm prepare unpack
+BDEPEND=virtual/pkgconfig 
+RDEPEND=  dev-db/sqlite:3  dev-dotnet/gtk-sharp:2  dev-dotnet/libgdiplus  dev-lang/mono  dev-lang/mono-basic  virtual/libusb:1  virtual/udev  
+EAPI=7
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	amd64? ( https://www.batronix.com/exe/Batronix/Prog-Express/deb/prog-express-3.8.5-1.amd64.deb )
+	x86? ( https://www.batronix.com/exe/Batronix/Prog-Express/deb/prog-express-3.8.5-1.i386.deb )
+

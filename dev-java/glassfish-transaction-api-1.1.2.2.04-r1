@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+DEPEND=>=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=http://download.java.net/javaee5/v2ur2/promoted/source/glassfish-v2ur2-b04-src.zip

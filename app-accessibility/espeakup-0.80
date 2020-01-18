@@ -1,0 +1,9 @@
+73b82d0a55a3398e3feb2dace7a6f0e5
+DEFINED_PHASES= install postinst setup
+DEPEND=|| (  app-accessibility/espeak[portaudio]  app-accessibility/espeak[pulseaudio] ) 
+RDEPEND=|| (  app-accessibility/espeak[portaudio]  app-accessibility/espeak[pulseaudio] ) 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/williamh/espeakup/archive/v0.80.tar.gz -> espeakup-0.80.tar.gz

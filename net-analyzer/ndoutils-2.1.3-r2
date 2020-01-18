@@ -1,0 +1,9 @@
+04f2f7ef9c67f90ecede9342c82ccbcb
+DEFINED_PHASES= compile configure install postinst
+DEPEND=dev-db/mysql-connector-c  dev-perl/DBD-mysql  dev-perl/DBI  >=net-analyzer/nagios-core-4.4.5 
+RDEPEND=dev-db/mysql-connector-c  dev-perl/DBD-mysql  dev-perl/DBI  >=net-analyzer/nagios-core-4.4.5  virtual/mysql 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/NagiosEnterprises/ndoutils/archive/ndoutils-2.1.3.tar.gz

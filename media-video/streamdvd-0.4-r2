@@ -1,0 +1,8 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libdvdread  media-video/lsdvd  X? ( dev-perl/Tk  dev-perl/Tk-JPEG-Lite  virtual/cdrtools  >=media-video/dvdauthor-0.6.5  >=app-cdr/dvd+rw-tools-5.13.4.7.4 ) 
+EAPI=7
+IUSE=X 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://www.badabum.de/down/streamdvd-0.4.tar.gz

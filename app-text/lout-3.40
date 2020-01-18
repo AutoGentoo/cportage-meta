@@ -1,0 +1,9 @@
+db7a35950ea6da85f18dcca51001ed34
+DEFINED_PHASES= compile install
+DEPEND=zlib? ( >=sys-libs/zlib-1.1.4 ) 
+RDEPEND=zlib? ( >=sys-libs/zlib-1.1.4 ) 
+EAPI=6
+IUSE=zlib doc 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://nongnu/lout/lout-3.40.tar.gz

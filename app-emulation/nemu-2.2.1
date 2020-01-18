@@ -1,0 +1,10 @@
+e7ee9e5a841097ceb162152d4dba6974
+DEFINED_PHASES= configure postinst pretend
+BDEPEND=sys-devel/gettext 
+DEPEND=app-emulation/qemu[vnc,virtfs,spice?]  dev-db/sqlite:3=  sys-libs/ncurses:0=[unicode]  virtual/libusb:1  virtual/libudev:=  network-map? ( media-gfx/graphviz )  ovf? (   dev-libs/libxml2:2  app-arch/libarchive   )  vnc-client? ( net-misc/tigervnc ) 
+RDEPEND=app-emulation/qemu[vnc,virtfs,spice?]  dev-db/sqlite:3=  sys-libs/ncurses:0=[unicode]  virtual/libusb:1  virtual/libudev:=  network-map? ( media-gfx/graphviz )  ovf? (   dev-libs/libxml2:2  app-arch/libarchive   )  vnc-client? ( net-misc/tigervnc ) 
+EAPI=7
+IUSE=debug network-map +ovf savevm spice +vnc-client 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://lib.void.so/src/nemu-2.2.1.tar.gz

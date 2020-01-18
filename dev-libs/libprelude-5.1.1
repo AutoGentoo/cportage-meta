@@ -1,0 +1,10 @@
+fe3197966a4a8f3f0997c5baa4a46784
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=>=dev-lang/swig-3.0.11  dev-util/gtk-doc-am  sys-devel/flex  lua? ( dev-lang/lua:* )  perl? ( dev-lang/perl:= virtual/perl-ExtUtils-MakeMaker )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  ruby? ( || (  dev-lang/ruby:2.5 dev-lang/ruby:2.4 dev-lang/ruby:2.6 ) virtual/rubygems )  virtual/pkgconfig  virtual/yacc 
+DEPEND=net-libs/gnutls:=  lua? ( dev-lang/lua:* )  perl? ( dev-lang/perl:= )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  ruby? ( || (  dev-lang/ruby:2.5 dev-lang/ruby:2.4 dev-lang/ruby:2.6 ) virtual/rubygems ) 
+RDEPEND=net-libs/gnutls:=  lua? ( dev-lang/lua:* )  perl? ( dev-lang/perl:= )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  ruby? ( || (  dev-lang/ruby:2.5 dev-lang/ruby:2.4 dev-lang/ruby:2.6 ) virtual/rubygems ) 
+EAPI=7
+IUSE=lua perl python ruby 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.prelude-siem.org/pkg/src/5.1.0/libprelude-5.1.1.tar.gz

@@ -1,0 +1,8 @@
+8a57eb1a3bb31a68fc186117c75a8fc0
+DEFINED_PHASES= install postinst prepare setup
+RDEPEND=  <sys-devel/gcc-9[cxx]  >=x11-drivers/nvidia-drivers-396.24[X,uvm]  debugger? (   sys-libs/libtermcap-compat   sys-libs/ncurses-compat:5[tinfo]   )  eclipse? ( >=virtual/jre-1.6 )  profiler? ( >=virtual/jre-1.6 ) 
+EAPI=7
+IUSE=debugger doc eclipse profiler 
+KEYWORDS=-* ~amd64 ~amd64-linux
+SLOT=0/10.1.168
+SRC_URI=https://developer.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.168_418.67_linux.run -> cuda_10.1.168_418.67_linux.run

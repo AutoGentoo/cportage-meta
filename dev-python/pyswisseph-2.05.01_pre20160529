@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+EAPI=6
+IUSE=python_targets_python2_7 python_targets_python3_6 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/astrorigin/pyswisseph/archive/4f76befee7e39dff96b4c068cc6ce5fa66fb021c.tar.gz -> pyswisseph-2.05.01_pre20160529.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=>=dev-libs/re2-0.2017.03.01 
+RDEPEND=>=dev-libs/re2-0.2017.03.01 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/google/bloaty/archive/73594cde8c9a52a102c4341c244c833aa61b9c06.tar.gz -> bloaty-0_p20170420.tar.gz

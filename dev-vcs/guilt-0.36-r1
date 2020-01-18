@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-vcs/git  app-text/asciidoc  app-text/xmlto  dev-lang/perl  
+RDEPEND=dev-vcs/git 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ia64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://repo.or.cz/w/guilt.git/snapshot/22d785dd24329170f66e7696da38b3e90e033d61.tar.gz -> guilt-0.36.tar.gz

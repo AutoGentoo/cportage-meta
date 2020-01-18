@@ -1,0 +1,10 @@
+b8268de8276c12f3d644d3a770be9225
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| (   dev-vcs/subversion[http]   dev-vcs/subversion[webdav-neon]   dev-vcs/subversion[webdav-serf]  )  net-misc/rsync 
+DEPEND=alsa? ( media-libs/alsa-lib )  glide? ( media-libs/openglide )  opengl? ( virtual/glu virtual/opengl )  debug? ( sys-libs/ncurses:0= )  X? ( x11-libs/libX11 )  media-libs/libpng:0=  media-libs/libsdl[joystick,opengl?,video,X?]  media-libs/sdl-net  media-libs/sdl-sound  sys-libs/zlib 
+RDEPEND=alsa? ( media-libs/alsa-lib )  glide? ( media-libs/openglide )  opengl? ( virtual/glu virtual/opengl )  debug? ( sys-libs/ncurses:0= )  X? ( x11-libs/libX11 )  media-libs/libpng:0=  media-libs/libsdl[joystick,opengl?,video,X?]  media-libs/sdl-net  media-libs/sdl-sound  sys-libs/zlib 
+EAPI=7
+IUSE=alsa +core-inline debug glide hardened opengl X 
+KEYWORDS=
+SLOT=0
+SRC_URI= glide? ( https://raw.githubusercontent.com/voyageur/openglide/841e1071597b64ead14dd08c25a03206b2d1d1b6/platform/dosbox/dosbox_glide.diff -> dosbox_glide-841e1071597b64ead14dd08c25a03206b2d1d1b6.diff )

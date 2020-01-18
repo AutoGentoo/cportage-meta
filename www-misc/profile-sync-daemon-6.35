@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+RDEPEND=  app-shells/bash  net-misc/rsync[xattr]  sys-apps/systemd 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/graysky2/profile-sync-daemon/archive/v6.35.tar.gz -> profile-sync-daemon-6.35.tar.gz

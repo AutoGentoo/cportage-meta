@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/ghc-6.12.1:=   >=dev-haskell/cabal-1.6 
+RDEPEND=>=dev-lang/ghc-6.12.1:= 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0/0.2.0
+SRC_URI=https://hackage.haskell.org/package/asn1-types-0.2.0/asn1-types-0.2.0.tar.gz

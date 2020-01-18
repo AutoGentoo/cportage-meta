@@ -1,0 +1,7 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= compile install prepare setup
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=ftp://bitreich.org/releases/geomyidae/geomyidae-v0.34.tgz

@@ -1,0 +1,9 @@
+77602a766ba7fba61bfb905de6bce82c
+DEFINED_PHASES= configure install postinst prepare unpack
+DEPEND=sys-apps/sed 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/a/adjtimex/adjtimex_1.29-10.debian.tar.xz
+	mirror://debian/pool/main/a/adjtimex/adjtimex_1.29.orig.tar.gz

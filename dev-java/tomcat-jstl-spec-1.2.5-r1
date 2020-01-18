@@ -1,0 +1,9 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= install test
+DEPEND=  java-virtuals/servlet-api:3.0  test? (   dev-java/ant-junit:0   dev-java/easymock:3.2  )  >=virtual/jdk-1.6 
+RDEPEND=  java-virtuals/servlet-api:3.0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://apache.mirrors.ovh.net/ftp.apache.org/dist/tomcat/taglibs/taglibs-standard-1.2.5/taglibs-standard-1.2.5-source-release.zip -> tomcat-jstl-spec-1.2.5.zip

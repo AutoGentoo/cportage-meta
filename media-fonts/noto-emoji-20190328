@@ -1,0 +1,8 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= install prepare
+DEPEND=|| ( >=dev-lang/python-2.7.5-r2:2.7 )  app-arch/zopfli  dev-python/fonttools  dev-python/nototools  media-gfx/pngquant  x11-libs/cairo  || ( media-gfx/imagemagick[png] media-gfx/graphicsmagick[png] )  
+EAPI=6
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://github.com/googlei18n/noto-emoji/archive/e7490e1841094da518f4672398bdd74ee3c5fcac.tar.gz -> noto-emoji-20190328.tar.gz

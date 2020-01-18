@@ -1,0 +1,10 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= configure postinst postrm prepare
+BDEPEND=  app-text/po4a  dev-lang/perl  sys-devel/gettext 
+DEPEND=  dev-games/physfs  dev-libs/boost:=  media-libs/glew:0  media-libs/libogg  media-libs/libpng:0=  media-libs/libsdl2:=  media-libs/libsndfile:=  media-libs/libvorbis:=  media-libs/sdl2-image  media-libs/sdl2-ttf  media-sound/vorbis-tools  openal? ( media-libs/openal ) 
+RDEPEND=  dev-games/physfs  dev-libs/boost:=  media-libs/glew:0  media-libs/libogg  media-libs/libpng:0=  media-libs/libsdl2:=  media-libs/libsndfile:=  media-libs/libvorbis:=  media-libs/sdl2-image  media-libs/sdl2-ttf  media-sound/vorbis-tools  openal? ( media-libs/openal )  games-strategy/colobot-data 
+EAPI=7
+IUSE=devbuild doc +openal test tools 
+KEYWORDS=
+SLOT=0
+SRC_URI=

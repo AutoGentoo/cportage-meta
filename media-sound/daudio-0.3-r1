@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=>=media-libs/libmad-0.15.0b-r1 
+RDEPEND=>=media-libs/libmad-0.15.0b-r1 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc -sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/daudio/daudio-0.3.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure
+DEPEND= =www-servers/apache-2* 
+RDEPEND= =www-servers/apache-2* 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~hppa ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://apache/httpd/mod_fcgid/mod_fcgid-2.3.9.tar.bz2

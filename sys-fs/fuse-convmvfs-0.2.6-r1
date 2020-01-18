@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=sys-fs/fuse:0  virtual/pkgconfig 
+RDEPEND=sys-fs/fuse:0 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/project/fuse-convmvfs/fuse-convmvfs/0.2.6/fuse-convmvfs-0.2.6.tar.gz

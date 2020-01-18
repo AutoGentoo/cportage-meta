@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/glib:2  dev-libs/json-glib  dev-libs/protobuf-c:=  net-im/pidgin  sys-libs/zlib 
+RDEPEND=  dev-libs/glib:2  dev-libs/json-glib  dev-libs/protobuf-c:=  net-im/pidgin  sys-libs/zlib 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

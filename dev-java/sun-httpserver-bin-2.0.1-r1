@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install unpack
+DEPEND=app-arch/unzip  >=virtual/jre-1.5 
+RDEPEND=>=virtual/jre-1.5 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=2
+SRC_URI=https://jax-ws.dev.java.net/jax-ws-201-m1/JAXWS2.0.1m1_source_20060817.jar

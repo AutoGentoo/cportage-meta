@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=7
+IUSE=ipv6 
+KEYWORDS=
+SLOT=0
+SRC_URI=
+	ipv6? ( https://dev.gentoo.org/~jer/netselect-0.4-ipv6.patch.xz )
+

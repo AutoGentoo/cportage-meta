@@ -1,0 +1,23 @@
+d896a6e8717095652ab8e12a5fd9330e
+DEFINED_PHASES= configure install prepare setup test
+DEPEND=  !sys-cluster/mpich  !sys-cluster/mpich2  !sys-cluster/pmix  <sys-apps/hwloc-2  dev-libs/libltdl:0  openmpi_fabrics_dapl? ( sys-fabric/dapl )  openmpi_fabrics_ofed? ( sys-fabric/ofed )  openmpi_fabrics_knem? ( sys-cluster/knem )  openmpi_fabrics_psm? ( sys-fabric/infinipath-psm )  openmpi_fabrics_sctp? ( net-misc/lksctp-tools )  openmpi_rm_pbs? ( sys-cluster/torque )  openmpi_rm_slurm? ( sys-cluster/slurm )  openmpi_ofed_features_rdmacm? ( sys-fabric/librdmacm )  vt? (   !dev-libs/libotf   !app-text/lcdf-typetools  )   
+RDEPEND=  !sys-cluster/mpich  !sys-cluster/mpich2  !sys-cluster/pmix  <sys-apps/hwloc-2  dev-libs/libltdl:0  openmpi_fabrics_dapl? ( sys-fabric/dapl )  openmpi_fabrics_ofed? ( sys-fabric/ofed )  openmpi_fabrics_knem? ( sys-cluster/knem )  openmpi_fabrics_psm? ( sys-fabric/infinipath-psm )  openmpi_fabrics_sctp? ( net-misc/lksctp-tools )  openmpi_rm_pbs? ( sys-cluster/torque )  openmpi_rm_slurm? ( sys-cluster/slurm )  openmpi_ofed_features_rdmacm? ( sys-fabric/librdmacm )  vt? (   !dev-libs/libotf   !app-text/lcdf-typetools  )   
+EAPI=5
+IUSE=+cxx fortran heterogeneous ipv6 mpi-threads romio threads vt
+	
+	openmpi_fabrics_dapl
+	openmpi_fabrics_ofed
+	openmpi_fabrics_knem
+	openmpi_fabrics_psm
+	openmpi_fabrics_sctp 
+	openmpi_rm_pbs
+	openmpi_rm_slurm 
+	openmpi_ofed_features_control-hdr-padding
+	openmpi_ofed_features_connectx-xrc
+	openmpi_ofed_features_rdmacm
+	openmpi_ofed_features_dynamic-sl
+	openmpi_ofed_features_failover
+	 
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=http://www.open-mpi.org/software/ompi/v1.6/downloads/openmpi-1.6.5.tar.bz2

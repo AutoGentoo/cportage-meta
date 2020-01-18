@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=app-arch/unzip 
+RDEPEND=>=app-editors/gvim-7.0 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=https://www.vim.org/scripts/download_script.php?src_id=12789 -> colorsel-20100406.zip

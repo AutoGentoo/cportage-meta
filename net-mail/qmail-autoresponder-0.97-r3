@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=>=dev-libs/bglibs-1.106  mysql? ( dev-db/mysql-connector-c:0= ) 
+RDEPEND=  >=dev-libs/bglibs-1.106  mysql? ( dev-db/mysql-connector-c:0= )  virtual/qmail  mysql? ( virtual/mysql )  
+EAPI=7
+IUSE=mysql 
+KEYWORDS=alpha amd64 hppa ~mips ppc ~sparc x86
+SLOT=0
+SRC_URI=http://untroubled.org/qmail-autoresponder/archive/qmail-autoresponder-0.97.tar.gz

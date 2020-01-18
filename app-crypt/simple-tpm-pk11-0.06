@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=app-crypt/tpm-tools[pkcs11]  dev-libs/opencryptoki[tpm]  app-crypt/trousers  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+RDEPEND=app-crypt/tpm-tools[pkcs11]  dev-libs/opencryptoki[tpm]  app-crypt/trousers  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  net-misc/openssh[-X509] 
+EAPI=6
+IUSE=libressl 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ThomasHabets/simple-tpm-pk11/archive/0.06.tar.gz -> simple-tpm-pk11-0.06.tar.gz

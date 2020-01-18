@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-perl/Moose  >=dev-perl/MooseX-ClassAttribute-0.250.0  dev-perl/namespace-autoclean   test? (   dev-perl/List-MoreUtils   virtual/perl-Test-Simple  )  
+RDEPEND=  dev-perl/Moose  >=dev-perl/MooseX-ClassAttribute-0.250.0  dev-perl/namespace-autoclean  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/EC/ECARROLL/Olson-Abbreviations-0.04.tar.gz

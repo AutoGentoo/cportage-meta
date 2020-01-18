@@ -1,0 +1,9 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= compile install postinst prepare
+RDEPEND=cron? ( virtual/cron ) 
+EAPI=7
+IUSE=+cron 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=ftp://ftp.pangeia.com.br/pub/seg/pac/chkrootkit-0.53.tar.gz
+	https://dev.gentoo.org/~polynomial-c/chkrootkit-0.53-gentoo.diff.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=>=www-apache/mod_backtrace-2.01  =www-servers/apache-2*[debug]  app-arch/unzip =www-servers/apache-2* 
+RDEPEND=>=www-apache/mod_backtrace-2.01  =www-servers/apache-2*[debug] =www-servers/apache-2* 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://emptyhammock.com/downloads/wku_bt-2.01.zip

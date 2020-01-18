@@ -1,0 +1,9 @@
+a37de7be8469621fc1202e1cf6f39a2c
+DEFINED_PHASES= compile install postinst prepare setup test
+DEPEND=dev-java/eclipse-ecj:4.5  >=dev-java/tomcat-servlet-api-8.5:3.1  app-admin/pwgen  >=dev-java/ant-core-1.9.13  >=virtual/jdk-1.8  test? (   >=dev-java/ant-junit-1.9:0   dev-java/easymock:3.2  ) 
+RDEPEND=dev-java/eclipse-ecj:4.5  >=dev-java/tomcat-servlet-api-8.5:3.1  >=virtual/jre-1.8 
+EAPI=7
+IUSE=extra-webapps 
+KEYWORDS=amd64 ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=8.5
+SRC_URI=mirror://apache/tomcat/tomcat-8/v8.5.47/src/apache-tomcat-8.5.47-src.tar.gz

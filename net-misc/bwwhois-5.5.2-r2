@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=  virtual/perl-Getopt-Long 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://whois.bw.org/dist/whois-5.5.2.tgz

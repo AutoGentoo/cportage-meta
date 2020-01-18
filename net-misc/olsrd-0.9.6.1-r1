@@ -1,0 +1,9 @@
+39c19e973ad00293c9df59de817dec9b
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )  pud? ( sci-geosciences/gpsd )  
+RDEPEND=    gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )  pud? ( sci-geosciences/gpsd )   
+EAPI=6
+IUSE=gtk pud 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.olsr.org/releases/0.9/olsrd-0.9.6.1.tar.bz2

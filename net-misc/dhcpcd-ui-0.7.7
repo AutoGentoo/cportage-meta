@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install
+BDEPEND=  virtual/libintl  
+DEPEND=  gtk? (   gtk2? (    dev-libs/glib:2    x11-libs/gdk-pixbuf:2    x11-libs/gtk+:2   )   !gtk2? (    dev-libs/glib:2    x11-libs/gdk-pixbuf:2    x11-libs/gtk+:3   )  )  libnotify? ( x11-libs/libnotify )  ncurses? ( sys-libs/ncurses:0= )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   media-libs/mesa  )  
+RDEPEND=  gtk? (   gtk2? (    dev-libs/glib:2    x11-libs/gdk-pixbuf:2    x11-libs/gtk+:2   )   !gtk2? (    dev-libs/glib:2    x11-libs/gdk-pixbuf:2    x11-libs/gtk+:3   )  )  libnotify? ( x11-libs/libnotify )  ncurses? ( sys-libs/ncurses:0= )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   media-libs/mesa  )   >=net-misc/dhcpcd-6.4.4 
+EAPI=7
+IUSE=debug gtk gtk2 libnotify ncurses qt5 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://roy.marples.name/downloads/dhcpcd/dhcpcd-ui-0.7.7.tar.xz

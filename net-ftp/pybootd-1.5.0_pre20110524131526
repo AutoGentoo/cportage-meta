@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=>=dev-python/netifaces-0.5 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/eblot/pybootd/archive/7fd7d0.tar.gz -> pybootd-1.5.0_pre20110524131526.tar.gz

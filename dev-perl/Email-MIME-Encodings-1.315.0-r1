@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=virtual/perl-MIME-Base64-3.07  test? (   dev-perl/Capture-Tiny  ) 
+RDEPEND=>=virtual/perl-MIME-Base64-3.07 
+EAPI=5
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Email-MIME-Encodings-1.315.tar.gz

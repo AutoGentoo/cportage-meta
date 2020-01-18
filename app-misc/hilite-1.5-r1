@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare unpack
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa ia64 ~mips ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://gentoo/hilite-1.5.c

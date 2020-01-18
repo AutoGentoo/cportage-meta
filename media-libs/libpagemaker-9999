@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+DEPEND=  dev-libs/librevenge   dev-libs/boost  
+RDEPEND=  dev-libs/librevenge  
+EAPI=7
+IUSE=debug doc tools 
+KEYWORDS=
+SLOT=0
+SRC_URI=

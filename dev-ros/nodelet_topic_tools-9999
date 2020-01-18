@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost:=[threads]  dev-ros/dynamic_reconfigure[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/message_filters  dev-ros/nodelet  dev-ros/pluginlib  dev-ros/roscpp  
+RDEPEND=  dev-libs/boost:=[threads]  dev-ros/dynamic_reconfigure[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/message_filters  dev-ros/nodelet  dev-ros/pluginlib  dev-ros/roscpp  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

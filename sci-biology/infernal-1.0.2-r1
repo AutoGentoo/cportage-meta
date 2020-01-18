@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=mpi? ( virtual/mpi ) 
+RDEPEND=mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=mpi 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=ftp://selab.janelia.org/pub/software/infernal/infernal-1.0.2.tar.gz

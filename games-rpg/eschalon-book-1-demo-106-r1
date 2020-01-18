@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  >=media-libs/freetype-2.5.0.1[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXxf86vm[abi_x86_32(-)]  virtual/glu[abi_x86_32(-)]  virtual/opengl[abi_x86_32(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~calchan/distfiles/eschalon-book-1-demo-106.tar.gz

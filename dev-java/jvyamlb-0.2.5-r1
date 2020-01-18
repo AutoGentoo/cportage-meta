@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare test
+DEPEND=    dev-java/bytelist:0  dev-java/jcodings:0  dev-java/joda-time:0  >=virtual/jdk-1.4  test? ( dev-java/ant-junit ) 
+RDEPEND=    dev-java/bytelist:0  dev-java/jcodings:0  dev-java/joda-time:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0
+SRC_URI=https://github.com/olabini/jvyamlb/archive/0.2.5.tar.gz -> jvyamlb-0.2.5.tar.gz

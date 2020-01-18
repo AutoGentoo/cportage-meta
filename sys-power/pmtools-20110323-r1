@@ -1,0 +1,8 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= compile install postinst prepare
+RDEPEND=   dev-lang/perl   >=sys-power/iasl-20090521 
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/anyc/pmtools/tarball/20110323 -> pmtools-20110323.tar.gz

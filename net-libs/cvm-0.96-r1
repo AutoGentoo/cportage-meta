@@ -1,0 +1,9 @@
+d4917581a7211d9f17f69376bb3cb3ba
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=  dev-db/cdb:=  >=dev-libs/bglibs-1.041:=  mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql[server] )  vpopmail? ( net-mail/vpopmail )  test? (   app-editors/vim   dev-db/sqlite  ) 
+RDEPEND=  dev-db/cdb:=  >=dev-libs/bglibs-1.041:= 
+EAPI=7
+IUSE=mysql postgres test vpopmail 
+KEYWORDS=~amd64 ppc ~sparc ~x86
+SLOT=0
+SRC_URI=http://untroubled.org/cvm/archive/cvm-0.96.tar.gz

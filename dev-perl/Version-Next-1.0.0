@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  dev-perl/Sub-Exporter  >=virtual/perl-version-0.810.0   >=virtual/perl-ExtUtils-MakeMaker-6.170.0  test? (   virtual/perl-File-Spec   >=dev-perl/Test-Exception-0.290.0   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  virtual/perl-Carp  dev-perl/Sub-Exporter  >=virtual/perl-version-0.810.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Version-Next-1.000.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/ipython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/ipdb  dev-python/nose  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+RDEPEND=dev-python/ipython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/ipdb  dev-python/nose 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

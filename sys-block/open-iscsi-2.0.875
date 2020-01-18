@@ -1,0 +1,9 @@
+497efc11f1c5d9e318fa09897479469f
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=sys-block/open-isns:=  infiniband? ( sys-fabric/ofed )  sys-kernel/linux-headers 
+RDEPEND=sys-block/open-isns:=  infiniband? ( sys-fabric/ofed )  sys-kernel/linux-headers  sys-fs/lsscsi  sys-apps/util-linux 
+EAPI=6
+IUSE=debug infiniband +tcp rdma 
+KEYWORDS=~alpha amd64 arm ~arm64 ia64 ~mips ppc ppc64 sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/open-iscsi/open-iscsi/archive/2.0.875.tar.gz -> open-iscsi-2.0.875.tar.gz

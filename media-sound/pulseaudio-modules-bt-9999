@@ -1,0 +1,9 @@
+28c215844f550a32313ecb1bf54a189e
+DEFINED_PHASES= install postinst
+DEPEND=  media-libs/fdk-aac:0=  virtual/ffmpeg  media-libs/sbc  media-libs/libldac  >=net-wireless/bluez-5  >=sys-apps/dbus-1.0.0  >=net-misc/ofono-1.13  >=media-sound/pulseaudio-13[-bluetooth]  
+RDEPEND=  media-libs/fdk-aac:0=  virtual/ffmpeg  media-libs/sbc  media-libs/libldac  >=net-wireless/bluez-5  >=sys-apps/dbus-1.0.0  >=net-misc/ofono-1.13  >=media-sound/pulseaudio-13[-bluetooth]  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

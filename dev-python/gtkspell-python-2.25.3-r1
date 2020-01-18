@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=app-text/gtkspell:2  virtual/pkgconfig  gnome-base/gnome-common 
+RDEPEND=app-text/gtkspell:2 
+EAPI=5
+IUSE=doc examples 
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-python-extras/2.25/gnome-python-extras-2.25.3.tar.bz2

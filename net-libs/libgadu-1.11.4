@@ -1,0 +1,9 @@
+e6c64c8d7e38ad688f02343a5e8bc762
+DEFINED_PHASES= configure install
+DEPEND=  sys-libs/zlib  ssl? (   gnutls? ( net-libs/gnutls )   !gnutls? ( >=dev-libs/openssl-0.9.6m:0 )  )   doc? ( app-doc/doxygen )  
+RDEPEND=  sys-libs/zlib  ssl? (   gnutls? ( net-libs/gnutls )   !gnutls? ( >=dev-libs/openssl-0.9.6m:0 )  )   !=net-im/kadu-0.6.0.2  !=net-im/kadu-0.6.0.1  
+EAPI=5
+IUSE=doc gnutls ssl static-libs threads 
+KEYWORDS=alpha amd64 arm ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://github.com/wojtekka/libgadu/archive/1.11.4.tar.gz -> libgadu-1.11.4.tar.gz

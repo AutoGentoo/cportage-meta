@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  virtual/perl-File-Path  virtual/perl-Getopt-Long  virtual/perl-IO  virtual/perl-Scalar-List-Utils  virtual/perl-Socket  >=virtual/perl-Storable-2.40.0  virtual/perl-Time-HiRes  sereal? (   >=dev-perl/Sereal-Encoder-3.15.0   >=dev-perl/Sereal-Decoder-3.15.0  )   virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-File-Path  virtual/perl-Getopt-Long  virtual/perl-IO  virtual/perl-Scalar-List-Utils  virtual/perl-Socket  >=virtual/perl-Storable-2.40.0  virtual/perl-Time-HiRes  sereal? (   >=dev-perl/Sereal-Encoder-3.15.0   >=dev-perl/Sereal-Decoder-3.15.0  )  
+EAPI=6
+IUSE=test +sereal 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MARIOROY/MCE-1.831.tar.gz

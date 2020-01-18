@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install
+DEPEND=emboss? ( >=sci-biology/emboss-5.0.0 ) 
+RDEPEND=emboss? ( >=sci-biology/emboss-5.0.0 ) 
+EAPI=6
+IUSE=emboss minimal 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/rebase-1806.tar.xz

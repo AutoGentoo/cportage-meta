@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CI/CINE/Lingua-Stem-Snowball-Da-1.01.tar.gz

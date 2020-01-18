@@ -1,0 +1,9 @@
+5c926d0a5fe8dc20c5bf559732354099
+DEFINED_PHASES= compile install prepare
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~arm64 ~ppc ~riscv ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/m/mmv/mmv_1.01b.orig.tar.gz
+	mirror://debian/pool/main/m/mmv/mmv_1.01b-18.debian.tar.gz

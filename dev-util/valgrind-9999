@@ -1,0 +1,9 @@
+c1c96ebb3e88b261bf3c9d4d78c67545
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=mpi? ( virtual/mpi ) 
+RDEPEND=mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=mpi 
+KEYWORDS=
+SLOT=0
+SRC_URI=

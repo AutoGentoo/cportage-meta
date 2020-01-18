@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup test
+BDEPEND=test? ( dev-util/cmdtest ) 
+DEPEND=x11-libs/libX11  x11-libs/libXau  x11-libs/libXext  x11-libs/libXmu  x11-base/xorg-proto 
+RDEPEND=x11-libs/libX11  x11-libs/libXau  x11-libs/libXext  x11-libs/libXmu 
+EAPI=7
+IUSE=ipv6 test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

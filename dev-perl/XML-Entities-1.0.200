@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=virtual/perl-Carp  !minimal? (   dev-perl/HTML-Parser  )   dev-perl/Module-Build  test? ( virtual/perl-Test-Simple ) 
+RDEPEND=virtual/perl-Carp  !minimal? (   dev-perl/HTML-Parser  )  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SI/SIXTEASE/XML-Entities-1.0002.tar.gz

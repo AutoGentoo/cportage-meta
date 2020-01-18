@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES=-
+DEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) 
+RDEPEND=|| ( app-editors/vim[ruby] app-editors/gvim[ruby] ) 
+EAPI=6
+IUSE= ruby_targets_ruby24 ruby_targets_ruby25 ruby_targets_ruby26 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/wincent/command-t/archive/5.0.3.tar.gz -> command-t-5.0.3.tar.gz

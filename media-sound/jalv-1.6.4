@@ -1,0 +1,9 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= configure
+DEPEND=  >=dev-libs/serd-0.24.0  >=dev-libs/sord-0.14.0  >=media-libs/lilv-0.24.0  >=media-libs/lv2-1.16.0  >=media-libs/sratom-0.6.0  >=media-libs/suil-0.10.0  gtk? ( >=x11-libs/gtk+-3.0.0:3 )  gtk2? ( >=x11-libs/gtk+-2.18.0:2 )  gtkmm? ( >=dev-cpp/gtkmm-2.20.0:2.4 )  portaudio? ( media-libs/portaudio )  !portaudio? ( virtual/jack )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5  )   || ( dev-lang/python:3.8[threads(+)] dev-lang/python:3.7[threads(+)] dev-lang/python:3.6[threads(+)] )  virtual/pkgconfig 
+RDEPEND=  >=dev-libs/serd-0.24.0  >=dev-libs/sord-0.14.0  >=media-libs/lilv-0.24.0  >=media-libs/lv2-1.16.0  >=media-libs/sratom-0.6.0  >=media-libs/suil-0.10.0  gtk? ( >=x11-libs/gtk+-3.0.0:3 )  gtk2? ( >=x11-libs/gtk+-2.18.0:2 )  gtkmm? ( >=dev-cpp/gtkmm-2.20.0:2.4 )  portaudio? ( media-libs/portaudio )  !portaudio? ( virtual/jack )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5  )  
+EAPI=6
+IUSE=gtk gtk2 gtkmm portaudio qt5 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://download.drobilla.net/jalv-1.6.4.tar.bz2

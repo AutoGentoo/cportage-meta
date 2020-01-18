@@ -1,0 +1,8 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install
+RDEPEND=dev-lang/php:*[xml]  dev-vcs/subversion  virtual/httpd-php:*  enscript? ( app-text/enscript ) 
+EAPI=6
+IUSE=enscript 
+KEYWORDS=amd64 ppc ppc64 ~sparc x86
+SLOT=2.3.3-r1
+SRC_URI=http://websvn.tigris.org/files/documents/1380/49056/websvn-2.3.3.tar.gz

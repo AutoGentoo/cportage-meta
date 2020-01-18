@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  virtual/perl-parent   >=dev-perl/ExtUtils-Depends-0.302.0  >=virtual/perl-ExtUtils-MakeMaker-6.420.0  test? (   virtual/perl-Scalar-List-Utils   dev-perl/Test-Fatal   virtual/perl-Test-Simple  )  
+RDEPEND=  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/XS-Object-Magic-0.04.tar.gz

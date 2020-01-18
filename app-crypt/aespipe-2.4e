@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+RDEPEND=app-arch/sharutils  app-crypt/gnupg 
+EAPI=7
+IUSE=+asm cpu_flags_x86_aes cpu_flags_x86_padlock static 
+KEYWORDS=amd64 arm arm64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris
+SLOT=0
+SRC_URI=http://loop-aes.sourceforge.net/aespipe/aespipe-v2.4e.tar.bz2

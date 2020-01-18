@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple ) 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TODDR/Crypt-RIPEMD160-0.06.tar.gz

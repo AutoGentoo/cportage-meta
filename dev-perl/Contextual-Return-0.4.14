@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=  dev-perl/Want  virtual/perl-version   virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  dev-perl/Want  virtual/perl-version  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~ppc-aix
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DC/DCONWAY/Contextual-Return-0.004014.tar.gz

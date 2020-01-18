@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  dev-java/ant-core:0  >=virtual/jdk-1.7 
+RDEPEND=  dev-lang/perl  dev-java/ant-core:0  >=virtual/jre-1.7 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.kaffe.org/~stuart/japi/japitools-0.9.7.tar.gz

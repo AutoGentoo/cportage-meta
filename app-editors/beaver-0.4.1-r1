@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst postrm
+DEPEND=    >=dev-libs/glib-2.14:2  >=x11-libs/gtk+-2.10:2   dev-util/intltool  sys-devel/gettext  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+RDEPEND=  >=dev-libs/glib-2.14:2  >=x11-libs/gtk+-2.10:2  
+EAPI=7
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/beaver-editor/beaver-0.4.1.tar.bz2

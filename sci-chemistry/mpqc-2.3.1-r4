@@ -1,0 +1,9 @@
+626ab7e96782561989979475bb526410
+DEFINED_PHASES= configure install postinst prepare test
+DEPEND=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[cxx] )  tk? ( dev-lang/tk:0 )  dev-lang/perl  sys-devel/flex  sys-apps/sed  virtual/pkgconfig  doc? (   app-doc/doxygen   media-gfx/graphviz ) 
+RDEPEND=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[cxx] )  tk? ( dev-lang/tk:0 ) 
+EAPI=6
+IUSE=doc mpi threads static-libs tk 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mpqc/mpqc-2.3.1.tar.bz2

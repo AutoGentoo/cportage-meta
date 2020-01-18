@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-lang/perl  sci-biology/hmmer:2 
+RDEPEND=  dev-lang/perl  sci-biology/hmmer:2 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/qrna-2.0.3c.tar.bz2

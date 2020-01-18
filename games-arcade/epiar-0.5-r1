@@ -1,0 +1,9 @@
+c4aae5a6e17ce192bc5cc4a0e90104a6
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libsdl[video]  media-libs/sdl-image[png]  x11-libs/libX11  virtual/opengl  app-arch/unzip 
+RDEPEND=media-libs/libsdl[video]  media-libs/sdl-image[png] 
+EAPI=5
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/epiar/epiar-0.5.0-src.zip

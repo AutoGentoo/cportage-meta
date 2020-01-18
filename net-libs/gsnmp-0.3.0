@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/glib:2  net-libs/gnet  
+RDEPEND=  dev-libs/glib:2  net-libs/gnet  
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux
+SLOT=0
+SRC_URI=ftp://ftp.ibr.cs.tu-bs.de/pub/local/gsnmp/gsnmp-0.3.0.tar.gz

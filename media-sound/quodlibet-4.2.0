@@ -1,0 +1,10 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install postinst postrm prepare
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+DEPEND=dev-util/intltool 
+RDEPEND=dev-libs/keybinder:3[introspection]  dev-python/feedparser[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pygobject:3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=media-libs/mutagen-1.32[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  net-libs/libsoup[introspection]  x11-libs/gtk+[introspection]  gstreamer? (   media-libs/gstreamer:1.0   media-libs/gst-plugins-base:1.0   media-libs/gst-plugins-good:1.0   media-plugins/gst-plugins-meta:1.0   )  !gstreamer? ( media-libs/xine-lib )  dbus? (   app-misc/media-player-info   dev-python/dbus-python[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   )  udev? ( virtual/udev )  !media-plugins/quodlibet-plugins 
+EAPI=7
+IUSE=+dbus gstreamer +udev 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/quodlibet/quodlibet/archive/release-4.2.0.tar.gz -> quodlibet-4.2.0.tar.gz

@@ -1,0 +1,9 @@
+14f45a0c87e98444be1adb0a7407fbc6
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=sys-boot/dvhtool  abi_mips_o32? ( sys-devel/kgcc64 ) 
+EAPI=4
+IUSE=abi_mips_o32 
+KEYWORDS=-* ~mips
+SLOT=0
+SRC_URI=https://www.linux-mips.org/pub/linux/mips/people/skylark/arcload-0.5.tar.bz2
+	 mirror://gentoo/arcload-0.50-patches-v1.tar.xz

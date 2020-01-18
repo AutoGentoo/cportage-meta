@@ -1,0 +1,9 @@
+ec797b7c5389831f163c3848362954f9
+DEFINED_PHASES= compile configure install prepare setup
+DEPEND=   postgres_targets_postgres11? ( dev-db/postgresql:11= ) postgres_targets_postgres10? ( dev-db/postgresql:10= ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6= ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5= ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4= )  net-libs/libnsl:0=  memcached? ( dev-libs/libmemcached )  pam? ( sys-auth/pambase )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )   !!dev-db/pgpool  sys-devel/bison  virtual/pkgconfig  
+RDEPEND=   postgres_targets_postgres11? ( dev-db/postgresql:11= ) postgres_targets_postgres10? ( dev-db/postgresql:10= ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6= ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5= ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4= )  net-libs/libnsl:0=  memcached? ( dev-libs/libmemcached )  pam? ( sys-auth/pambase )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  
+EAPI=6
+IUSE=doc libressl memcached pam ssl static-libs 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.pgpool.net/download.php?f=pgpool-II-4.0.5.tar.gz -> pgpool-II-4.0.5.tar.gz

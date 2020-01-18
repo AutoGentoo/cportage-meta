@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  dev-java/animal-sniffer-annotations:0  dev-java/error-prone-annotations:0  dev-java/jsr305:0   >=virtual/jdk-1.7  dev-java/j2objc-annotations:0 
+RDEPEND=  dev-java/animal-sniffer-annotations:0  dev-java/error-prone-annotations:0  dev-java/jsr305:0   >=virtual/jre-1.7 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~arm64 x86
+SLOT=20
+SRC_URI=https://github.com/google/guava/archive/v20.0.tar.gz -> guava-20.0.tar.gz

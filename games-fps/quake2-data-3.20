@@ -1,0 +1,8 @@
+1fe3cce57d600d91ab2492129b0e2ae4
+DEFINED_PHASES= install setup unpack
+DEPEND=app-arch/unzip 
+EAPI=5
+IUSE=videos 
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://idsoftware/quake2/q2-3.20-x86-full-ctf.exe

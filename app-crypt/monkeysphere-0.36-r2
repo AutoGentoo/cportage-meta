@@ -1,0 +1,9 @@
+93f45ad938dd809585d5cf5e2cce7aac
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=app-crypt/gnupg  net-misc/socat  dev-perl/Crypt-OpenSSL-RSA  dev-perl/Digest-SHA1  app-misc/lockfile-progs 
+RDEPEND=app-crypt/gnupg  net-misc/socat  dev-perl/Crypt-OpenSSL-RSA  dev-perl/Digest-SHA1  app-misc/lockfile-progs 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/monkeysphere/m/monkeysphere/monkeysphere_0.36.orig.tar.gz

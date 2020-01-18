@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install test
+DEPEND=  dev-java/xz-java:0  >=virtual/jdk-1.6  test? (   dev-java/junit:4   dev-java/ant-junit:0   dev-java/hamcrest-core:1.3  ) 
+RDEPEND=  dev-java/xz-java:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0
+SRC_URI=mirror://apache/commons//compress/source/commons-compress-1.10-src.tar.gz

@@ -1,0 +1,9 @@
+5a9dd36579006570c4c618dce767db57
+DEFINED_PHASES= compile configure install prepare setup
+DEPEND=   sys-apps/hwloc   virtual/linux-sources 
+RDEPEND=   sys-apps/hwloc   virtual/modutils 
+EAPI=6
+IUSE=debug modules 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install test
+DEPEND=  dev-java/log4j:0  java-virtuals/jms:0  dev-java/oracle-javamail:0  java-virtuals/servlet-api:3.0  >=virtual/jdk-1.6  test? (   dev-java/ant-junit:0  ) 
+RDEPEND=  dev-java/log4j:0  java-virtuals/jms:0  dev-java/oracle-javamail:0  java-virtuals/servlet-api:3.0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x86-solaris
+SLOT=2.0
+SRC_URI=mirror://apache/excalibur/excalibur-logkit/source/avalon-logkit-2.1-src.tar.gz

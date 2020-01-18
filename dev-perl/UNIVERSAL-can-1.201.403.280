@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  test? (   virtual/perl-Scalar-List-Utils   >=virtual/perl-Test-Simple-0.60  ) 
+RDEPEND=virtual/perl-Scalar-List-Utils 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~arm ppc sparc x86 ~ppc-aix
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHROMATIC/UNIVERSAL-can-1.20140328.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=sys-libs/pam 
+RDEPEND=sys-libs/pam 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/muennich/physlock/archive/v11.tar.gz -> physlock-11.tar.gz

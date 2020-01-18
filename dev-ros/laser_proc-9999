@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/roscpp  dev-ros/rosconsole  dev-libs/console_bridge:=  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/pluginlib  dev-ros/nodelet  dev-libs/boost:=  
+RDEPEND=  dev-ros/roscpp  dev-ros/rosconsole  dev-libs/console_bridge:=  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/pluginlib  dev-ros/nodelet  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

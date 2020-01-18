@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure test
+BDEPEND=>=dev-util/meson-0.48.2  >=dev-util/ninja-1.7.2 
+DEPEND=test? ( dev-cpp/gtest ) 
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://github.com/Samsung/rlottie/archive/87f485e2247925ceaead99c4bca997e4c44e3a20.tar.gz -> rlottie-0.0.1_pre20191214.tar.gz

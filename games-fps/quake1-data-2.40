@@ -1,0 +1,9 @@
+66139bf53535bc83bf8b107fc0c26981
+DEFINED_PHASES= install unpack
+DEPEND=app-arch/lha 
+RDEPEND=!games-fps/quake1-demodata[symlink] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=  app-text/xmlto  >=sys-libs/libsepol-9999   
+RDEPEND=  >=sys-libs/libsepol-9999   
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

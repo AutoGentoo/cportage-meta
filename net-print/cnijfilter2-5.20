@@ -1,0 +1,9 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= configure install prepare
+DEPEND=virtual/libusb:1  dev-libs/libxml2  net-print/cups 
+RDEPEND=virtual/libusb:1  dev-libs/libxml2  net-print/cups 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://gdlp01.c-wss.com/gds/0/0100006900/01/cnijfilter2-source-5.20-1.tar.gz

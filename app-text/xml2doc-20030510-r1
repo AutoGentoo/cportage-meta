@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=dev-libs/libxml2-2.5 
+RDEPEND=>=dev-libs/libxml2-2.5 
+EAPI=4
+IUSE=
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xml2doc/xml2doc-20030510.tgz

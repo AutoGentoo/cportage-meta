@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-libs/dbus-glib  dev-libs/glib:2  >=gnome-base/gconf-2:2  x11-libs/gtk+:2  >=x11-libs/libwnck-2.10:1  x11-libs/libXcomposite  x11-libs/libXinerama  x11-libs/libXrender  gnome-base/gnome-common  virtual/pkgconfig 
+RDEPEND=  dev-libs/dbus-glib  dev-libs/glib:2  >=gnome-base/gconf-2:2  x11-libs/gtk+:2  >=x11-libs/libwnck-2.10:1  x11-libs/libXcomposite  x11-libs/libXinerama  x11-libs/libXrender 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://superswitcher.googlecode.com/files/superswitcher-0.6.tar.gz

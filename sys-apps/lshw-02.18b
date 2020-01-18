@@ -1,0 +1,9 @@
+96001703913a60f3e3f178a58ca3256c
+DEFINED_PHASES= compile install prepare
+DEPEND=gtk? ( x11-libs/gtk+:2 )  sqlite? ( dev-db/sqlite:3 )  gtk? ( virtual/pkgconfig )  sqlite? ( virtual/pkgconfig ) 
+RDEPEND=gtk? ( x11-libs/gtk+:2 )  sqlite? ( dev-db/sqlite:3 )  sys-apps/hwids 
+EAPI=5
+IUSE=gtk sqlite static 
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://www.ezix.org/software/files/lshw-B.02.18.tar.gz

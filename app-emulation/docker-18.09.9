@@ -1,0 +1,9 @@
+aeba72ed08cd925640f1677ead8c960f
+DEFINED_PHASES= compile install postinst setup
+DEPEND=    >=dev-db/sqlite-3.7.9:3  device-mapper? (   >=sys-fs/lvm2-2.02.89[thin]  )  seccomp? ( >=sys-libs/libseccomp-2.2.1 )  apparmor? ( sys-libs/libapparmor )    dev-go/go-md2man   btrfs? (   >=sys-fs/btrfs-progs-3.16.1  )  
+RDEPEND=    >=dev-db/sqlite-3.7.9:3  device-mapper? (   >=sys-fs/lvm2-2.02.89[thin]  )  seccomp? ( >=sys-libs/libseccomp-2.2.1 )  apparmor? ( sys-libs/libapparmor )   >=net-firewall/iptables-1.4  sys-process/procps  >=dev-vcs/git-1.7  >=app-arch/xz-utils-4.9  dev-libs/libltdl  ~app-emulation/containerd-1.2.6  ~app-emulation/runc-1.0.0_rc8[apparmor?,seccomp?]  ~app-emulation/docker-proxy-0.8.0_p20190513  container-init? ( >=sys-process/tini-0.18.0[static] )  
+EAPI=6
+IUSE=apparmor aufs btrfs +container-init device-mapper hardened +overlay seccomp 
+KEYWORDS=amd64 ~arm ~arm64
+SLOT=0
+SRC_URI=https://github.com/docker/docker-ce/archive/v18.09.9.tar.gz -> docker-18.09.9.tar.gz

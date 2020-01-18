@@ -1,0 +1,11 @@
+8d0425be648fc59d512a58aeb1f95715
+DEFINED_PHASES= compile install postinst prepare pretend setup
+DEPEND==sec-policy/selinux-base-2.20180701-r1[systemd?] 
+RDEPEND==sec-policy/selinux-base-2.20180701-r1[systemd?] 
+PDEPEND=unconfined? ( sec-policy/selinux-unconfined ) 
+EAPI=6
+IUSE=systemd +unconfined 
+KEYWORDS=amd64 -arm ~arm64 ~mips x86
+SLOT=0
+SRC_URI=https://github.com/SELinuxProject/refpolicy/releases/download/RELEASE_2_20180701/refpolicy-2.20180701.tar.bz2
+			https://dev.gentoo.org/~perfinion/patches/selinux-base-policy/patchbundle-selinux-base-policy-2.20180701-r1.tar.bz2

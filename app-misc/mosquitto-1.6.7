@@ -1,0 +1,10 @@
+963e97fcbd748bb3fc2fbc2f9207b310
+DEFINED_PHASES= compile install postinst prepare test
+BDEPEND=virtual/pkgconfig 
+DEPEND=|| ( dev-lang/python:3.7 dev-lang/python:3.6 )    acct-user/mosquitto  acct-group/mosquitto  srv? ( net-dns/c-ares:= )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  tcpd? ( sys-apps/tcp-wrappers )  test? ( dev-util/cunit )  websockets? ( net-libs/libwebsockets ) 
+RDEPEND=  acct-user/mosquitto  acct-group/mosquitto  srv? ( net-dns/c-ares:= )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  tcpd? ( sys-apps/tcp-wrappers ) 
+EAPI=7
+IUSE=bridge examples libressl +persistence +srv ssl tcpd test websockets 
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=https://mosquitto.org/files/source/mosquitto-1.6.7.tar.gz

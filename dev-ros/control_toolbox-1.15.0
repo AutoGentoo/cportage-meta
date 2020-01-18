@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/roscpp  dev-ros/dynamic_reconfigure  dev-ros/realtime_tools  dev-libs/boost:=[threads]  dev-libs/tinyxml  dev-ros/control_msgs[ros_messages_cxx(-)]  
+RDEPEND=  dev-ros/roscpp  dev-ros/dynamic_reconfigure  dev-ros/realtime_tools  dev-libs/boost:=[threads]  dev-libs/tinyxml  dev-ros/control_msgs[ros_messages_cxx(-)]  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ros-controls/control_toolbox/archive/1.15.0.tar.gz -> control_toolbox-1.15.0.tar.gz

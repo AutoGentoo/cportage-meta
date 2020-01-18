@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+BDEPEND=  dev-libs/appstream-glib  dev-libs/libxml2:2  dev-util/itstool  >=sys-devel/gettext-0.19.8  virtual/pkgconfig  
+DEPEND=  >=dev-libs/atk-1.0.0  >=dev-libs/glib-2.31.10:2  >=x11-libs/gtk+-3.3.8:3  
+RDEPEND=  >=dev-libs/atk-1.0.0  >=dev-libs/glib-2.31.10:2  >=x11-libs/gtk+-3.3.8:3  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=2
+SRC_URI=mirror://gnome/sources/ghex/3.18/ghex-3.18.4.tar.xz

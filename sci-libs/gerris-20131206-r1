@@ -1,0 +1,9 @@
+811c02b1dc2ce775400c997d44e06a5c
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/glib:2  dev-games/ode  sci-libs/netcdf:=  sci-libs/gsl:=  sci-libs/gts  sci-libs/hypre[mpi?]  sci-libs/lis[mpi?]  sci-libs/proj  sci-libs/fftw:3.0=  virtual/lapack  mpi? ( virtual/mpi )  virtual/pkgconfig 
+RDEPEND=  dev-libs/glib:2  dev-games/ode  sci-libs/netcdf:=  sci-libs/gsl:=  sci-libs/gts  sci-libs/hypre[mpi?]  sci-libs/lis[mpi?]  sci-libs/proj  sci-libs/fftw:3.0=  virtual/lapack  mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=examples mpi static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://gerris.dalembert.upmc.fr/gerris/tarballs/gerris-snapshot-131206.tar.gz

@@ -1,0 +1,10 @@
+83e1e11298c533220f2cfbda00417756
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=!dev-db/mongodb  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-libs/jemalloc  >=dev-libs/boost-1.50[threads(+)]  >=dev-libs/libpcre-8.30[cxx]  net-libs/libpcap  sys-libs/ncurses  sys-libs/readline  pax_kernel? ( sys-apps/paxctl sys-apps/elfix ) 
+RDEPEND=!dev-db/mongodb  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-libs/jemalloc  >=dev-libs/boost-1.50[threads(+)]  >=dev-libs/libpcre-8.30[cxx]  net-libs/libpcap 
+EAPI=6
+IUSE=pax_kernel 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://gentoo/tokumx-git-tag-1.5.0.tar.bz2

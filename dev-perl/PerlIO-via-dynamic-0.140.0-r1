@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=virtual/perl-File-Temp-0.14 
+RDEPEND=>=virtual/perl-File-Temp-0.14 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ~mips ~ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALEXMV/PerlIO-via-dynamic-0.14.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/FasterXML/stax2-api/archive/stax2-api-4.0.0.tar.gz

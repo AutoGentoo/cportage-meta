@@ -1,0 +1,10 @@
+4e4faf2ea2493334fba2097e7ccf71f0
+DEFINED_PHASES= install postinst setup unpack
+BDEPEND=virtual/pkgconfig 
+RDEPEND=virtual/tmpfiles 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( http://download-cdn.resilio.com/2.6.3/Debian/resilio-sync_2.6.3-1_amd64.deb )
+	x86? ( http://download-cdn.resilio.com/2.6.3/Debian/resilio-sync_2.6.3-1_i386.deb )

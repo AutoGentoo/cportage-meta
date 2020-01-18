@@ -1,0 +1,9 @@
+ec58abbd445ff99aaf42f074f65d9c11
+DEFINED_PHASES= configure install postinst postrm preinst prepare setup
+DEPEND=  virtual/jpeg:0  media-libs/libpng:0  media-libs/libsdl[opengl?,sound?,video]  >=media-libs/sdl-gfx-2.0.21  media-libs/sdl-image[jpeg,png]  nls? ( virtual/libintl )  opengl? ( virtual/opengl )  sound? (   media-libs/libogg   media-libs/libvorbis   media-libs/sdl-mixer[vorbis] )  x11-libs/libX11  || ( >=dev-lang/python-2.7.5-r2:2.7 )  nls? ( sys-devel/gettext ) 
+RDEPEND=  virtual/jpeg:0  media-libs/libpng:0  media-libs/libsdl[opengl?,sound?,video]  >=media-libs/sdl-gfx-2.0.21  media-libs/sdl-image[jpeg,png]  nls? ( virtual/libintl )  opengl? ( virtual/opengl )  sound? (   media-libs/libogg   media-libs/libvorbis   media-libs/sdl-mixer[vorbis] )  x11-libs/libX11 
+EAPI=6
+IUSE=nls opengl sound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.osuosl.org/pub/freedroid/freedroidRPG-0.16//freedroidRPG-0.16.tar.gz

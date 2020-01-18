@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/libsdl:0[sound,opengl,video,X]  media-libs/sdl-image[jpeg]  media-libs/sdl-mixer[vorbis]  
+RDEPEND=  media-libs/libsdl:0[sound,opengl,video,X]  media-libs/sdl-image[jpeg]  media-libs/sdl-mixer[vorbis]  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.viewizard.com/download/memonix_1.6_src.tar.bz2

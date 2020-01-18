@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=dev-libs/glib-2.14:2  >=media-video/ogmrip-0.13.4  virtual/pkgconfig  nls? ( dev-util/intltool   sys-devel/gettext ) 
+RDEPEND=>=dev-libs/glib-2.14:2  >=media-video/ogmrip-0.13.4 
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ogmrip/shrip-0.6.0.tar.gz

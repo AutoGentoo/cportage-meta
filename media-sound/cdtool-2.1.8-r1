@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=!media-sound/cdplay 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=http://hinterhof.net/cdtool/dist/cdtool-2.1.8.tar.gz

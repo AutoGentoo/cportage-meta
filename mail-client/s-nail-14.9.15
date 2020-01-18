@@ -1,0 +1,10 @@
+18f6e25b9d8d1c3df472b44d8ffc76a9
+DEFINED_PHASES= compile configure install
+BDEPEND=virtual/awk 
+DEPEND=  sys-libs/ncurses:0=  virtual/libiconv  idn? ( net-dns/libidn2 )  net? (   ssl? (    !libressl? ( dev-libs/openssl:0 )    libressl? ( dev-libs/libressl )   )   kerberos? ( virtual/krb5 )  )  !mail-client/mailx  !net-mail/mailutils  !mail-client/nail  
+RDEPEND=  sys-libs/ncurses:0=  virtual/libiconv  idn? ( net-dns/libidn2 )  net? (   ssl? (    !libressl? ( dev-libs/openssl:0 )    libressl? ( dev-libs/libressl )   )   kerberos? ( virtual/krb5 )  )  !mail-client/mailx  !net-mail/mailutils  !mail-client/nail  
+EAPI=7
+IUSE=idn kerberos libressl net ssl 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://ftp.sdaoden.eu/s-nail-14.9.15.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=    x11-libs/vte:2.91   dev-util/intltool  sys-devel/gettext  virtual/pkgconfig  
+RDEPEND=  x11-libs/vte:2.91  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

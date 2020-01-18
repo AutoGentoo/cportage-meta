@@ -1,0 +1,10 @@
+3e8020b480255479fb89956aae5d1614
+DEFINED_PHASES= compile configure install test
+DEPEND=>=virtual/jdk-1.6  test? ( dev-java/junit:4 )  dev-java/ant-core:0 
+RDEPEND=>=virtual/jre-1.6  vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )  dev-java/ant-core:0 
+PDEPEND=>=dev-java/javacup-0.11b_p20151001:0 
+EAPI=5
+IUSE=examples test vim-syntax 
+KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://jflex.de/jflex-1.6.1.tar.gz

@@ -1,0 +1,8 @@
+92bd7ff16b9130c9ff5cffb80db05e60
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=  sys-libs/slang  gpm? ( sys-libs/gpm )  nls? ( sys-devel/gettext ) 
+EAPI=6
+IUSE=nls gpm examples 
+KEYWORDS=amd64 ~mips x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/p/pdmenu/pdmenu_1.3.4.tar.gz

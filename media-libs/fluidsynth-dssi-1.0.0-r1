@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  media-libs/dssi  media-libs/liblo  media-sound/fluidsynth:=  x11-libs/gtk+:2  
+RDEPEND=  media-libs/dssi  media-libs/liblo  media-sound/fluidsynth:=  x11-libs/gtk+:2  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dssi/fluidsynth-dssi-1.0.0.tar.gz

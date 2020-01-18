@@ -1,0 +1,9 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= configure
+DEPEND=  >=media-libs/coin-3.1.3  x11-libs/motif:0  virtual/opengl  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=  >=media-libs/coin-3.1.3  x11-libs/motif:0  virtual/opengl 
+EAPI=5
+IUSE=debug doc static-libs 
+KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://bitbucket.org/Coin3D/coin/downloads/SoXt-1.3.0.tar.gz

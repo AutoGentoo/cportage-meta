@@ -1,0 +1,10 @@
+266cd8d9aa0aa94b87fd62be4d9d9df7
+DEFINED_PHASES= compile install postinst prepare
+BDEPEND=<dev-lang/go-1.13 
+DEPEND=  acct? (   acct-group/git   acct-user/git[gitea]  )  pam? ( sys-libs/pam ) 
+RDEPEND=  acct? (   acct-group/git   acct-user/git[gitea]  )  pam? ( sys-libs/pam )  dev-vcs/git 
+EAPI=7
+IUSE=+acct pam sqlite 
+KEYWORDS=~amd64 ~arm ~arm64
+SLOT=0
+SRC_URI=https://github.com/go-gitea/gitea/archive/v1.9.5.tar.gz -> gitea-1.9.5.tar.gz

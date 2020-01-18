@@ -1,0 +1,10 @@
+c91cd83e78a3b97010a2287bceee64c9
+DEFINED_PHASES= install postinst prepare
+DEPEND=dev-libs/libpcre 
+RDEPEND=dev-libs/libpcre  dev-perl/Text-Iconv  dev-perl/XML-Parser  net-proxy/squid 
+EAPI=4
+IUSE=banlists 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://rejik.ru/download/redirector-3.2.10.tgz
+	banlists? ( http://rejik.ru/download/banlists-2.x.x.tgz )

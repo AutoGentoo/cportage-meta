@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare unpack
+DEPEND=x11-libs/pango  media-libs/libsdl[video]  virtual/pkgconfig 
+RDEPEND=x11-libs/pango  media-libs/libsdl[video] 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=alpha amd64 ~hppa ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sdlpango/SDL_Pango-0.1.2.tar.gz
+	http://zarb.org/~gc/t/SDL_Pango-0.1.2-API-adds.patch

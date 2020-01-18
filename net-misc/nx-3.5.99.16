@@ -1,0 +1,9 @@
+3215ee1e9ef0f383fe5ecca389457a60
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/libxml2  >=media-libs/libpng-1.2.8:0=  >=sys-libs/zlib-1.2.3  virtual/jpeg:*  x11-libs/libX11  x11-libs/libXcomposite  x11-libs/libXdamage  x11-libs/libXdmcp  x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXfont2  x11-libs/libXinerama  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXrender  x11-libs/libXtst  x11-libs/pixman   virtual/pkgconfig  x11-base/xorg-proto  x11-libs/libfontenc  x11-misc/gccmakedep  x11-misc/imake 
+RDEPEND=  dev-libs/libxml2  >=media-libs/libpng-1.2.8:0=  >=sys-libs/zlib-1.2.3  virtual/jpeg:*  x11-libs/libX11  x11-libs/libXcomposite  x11-libs/libXdamage  x11-libs/libXdmcp  x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXfont2  x11-libs/libXinerama  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXrender  x11-libs/libXtst  x11-libs/pixman  
+EAPI=6
+IUSE=elibc_glibc 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://code.x2go.org/releases/source/nx-libs/nx-libs-3.5.99.16-full.tar.gz

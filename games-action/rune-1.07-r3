@@ -1,0 +1,8 @@
+8cac5084d2b45bc97a7080f06d65ddcd
+DEFINED_PHASES= install unpack
+RDEPEND=dev-util/xdelta:0  >=media-libs/libsdl-1.2.9-r1[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  virtual/opengl[abi_x86_32(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/rune-all-0.2.tar.bz2

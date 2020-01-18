@@ -1,0 +1,10 @@
+944ddc4a9b58fef365957b184e122a99
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  dev-libs/boehm-gc[threads]  >=dev-libs/libpcre-5:3  dev-libs/libxml2:2  
+RDEPEND=  dev-libs/boehm-gc[threads]  >=dev-libs/libpcre-5:3  dev-libs/libxml2:2  
+EAPI=7
+IUSE=
+KEYWORDS=~alpha amd64 ppc -sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=1
+SRC_URI=mirror://sourceforge/ferite/ferite-1.1.17.tar.gz

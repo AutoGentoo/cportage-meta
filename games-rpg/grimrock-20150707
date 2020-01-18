@@ -1,0 +1,9 @@
+061160b55f5ac97e6115a081d39f7292
+DEFINED_PHASES= install nofetch postinst postrm preinst unpack
+DEPEND=app-arch/xz-utils 
+RDEPEND=media-libs/freeimage  media-libs/freetype:2  media-libs/openal  media-libs/libsdl2[opengl,sound,video]  media-libs/libvorbis  sys-libs/zlib[minizip]  virtual/opengl  x11-libs/libX11 
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=Grimrock-Linux-2015-07-07.sh

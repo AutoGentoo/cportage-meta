@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=  gtk? (   x11-libs/gtk+:2   x11-libs/libX11  )  nvcontrol? ( x11-libs/libX11 x11-libs/libXext )  
+RDEPEND=  gtk? (   x11-libs/gtk+:2   x11-libs/libX11  )  nvcontrol? ( x11-libs/libX11 x11-libs/libXext )  
+EAPI=4
+IUSE=gtk nvcontrol 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://gentoo/nvclock-0.8_p20110102.tar.bz2

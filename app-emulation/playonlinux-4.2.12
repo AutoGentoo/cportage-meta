@@ -1,0 +1,8 @@
+ccc02657860a812b232f00c8820568d7
+DEFINED_PHASES= install postinst postrm preinst prepare prerm
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-arch/cabextract  app-arch/p7zip  app-arch/unzip  app-crypt/gnupg  virtual/wine  dev-python/wxpython:3.0[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  net-misc/wget  x11-apps/mesa-progs  x11-terms/xterm  media-gfx/icoutils  net-analyzer/netcat  virtual/imagemagick-tools  winbind? ( net-fs/samba[winbind] )  
+EAPI=6
+IUSE=winbind 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.playonlinux.com/script_files/PlayOnLinux/4.2.12/PlayOnLinux_4.2.12.tar.gz

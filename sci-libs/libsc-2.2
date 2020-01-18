@@ -1,0 +1,10 @@
+7e32f63d7cfd3b055b7ec51cc25e9278
+DEFINED_PHASES= configure install prepare pretend
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio?] )  virtual/pkgconfig 
+RDEPEND=  dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio?] ) 
+EAPI=7
+IUSE=debug examples mpi openmp romio static-libs threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/cburstedde/libsc/archive/v2.2.tar.gz -> libsc-2.2.tar.gz

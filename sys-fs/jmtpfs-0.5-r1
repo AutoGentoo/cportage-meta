@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    >=media-libs/libmtp-1.1.0  >=sys-fs/fuse-2.6:0   virtual/pkgconfig  
+RDEPEND=  >=media-libs/libmtp-1.1.0  >=sys-fs/fuse-2.6:0  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/JasonFerrara/jmtpfs/archive/v0.5.tar.gz -> jmtpfs-0.5.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Archive-Tar  dev-perl/Archive-Zip  dev-perl/Module-Find  dev-perl/MIME-Types  dev-perl/File-MMagic  virtual/perl-File-Spec   >=dev-perl/Module-Build-0.280.0  test? (   virtual/perl-Test-Simple   dev-perl/Test-Warn  )  
+RDEPEND=  virtual/perl-Archive-Tar  dev-perl/Archive-Zip  dev-perl/Module-Find  dev-perl/MIME-Types  dev-perl/File-MMagic  virtual/perl-File-Spec  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/O/OA/OALDERS/Archive-Any-0.0945.tar.gz

@@ -1,0 +1,9 @@
+6aa0f8c86cf774e953e6cdb8d8afb650
+DEFINED_PHASES= postinst
+DEPEND=dev-lang/perl 
+RDEPEND=  dev-perl/Config-General  dev-perl/Date-Calc  dev-perl/Data-UUID  dev-perl/Filesys-Df  dev-perl/glib-perl  dev-perl/Goo-Canvas  dev-perl/Gtk2-Ex-PodViewer  dev-perl/Gtk2-Ex-Simple-List  dev-perl/Gtk2-ImageView  dev-perl/Gtk2  dev-perl/HTML-Parser  dev-perl/Image-Sane  dev-perl/Locale-gettext  dev-perl/List-MoreUtils  dev-perl/Log-Log4perl  dev-perl/PDF-API2  dev-perl/Proc-ProcessTable  dev-perl/Readonly  dev-perl/Set-IntSpan  dev-perl/Try-Tiny  virtual/perl-Archive-Tar  virtual/perl-Carp  virtual/perl-Data-Dumper  virtual/perl-File-Temp  virtual/perl-Getopt-Long  virtual/perl-threads  virtual/perl-threads-shared  media-gfx/gtkimageview  media-gfx/imagemagick[png,tiff,perl]  media-gfx/sane-backends  media-libs/tiff 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gscan2pdf/gscan2pdf-1.8.11.tar.xz

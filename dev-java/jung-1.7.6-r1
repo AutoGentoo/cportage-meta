@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    dev-java/colt:0  dev-java/commons-collections:0  app-arch/unzip  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/colt:0  dev-java/commons-collections:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jung/jung-1.7.6.zip

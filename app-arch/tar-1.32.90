@@ -1,0 +1,10 @@
+cbac34006769682d3f067a5c36401121
+DEFINED_PHASES= configure install prepare
+DEPEND=!static? ( acl? ( virtual/acl ) )  selinux? ( sys-libs/libselinux )  nls? ( >=sys-devel/gettext-0.10.35 )  static? ( acl? ( virtual/acl[static-libs(+)] ) )  xattr? ( elibc_glibc? ( sys-apps/attr ) ) 
+RDEPEND=!static? ( acl? ( virtual/acl ) )  selinux? ( sys-libs/libselinux ) 
+EAPI=7
+IUSE=acl elibc_glibc minimal nls selinux static userland_GNU xattr 
+KEYWORDS=
+SLOT=0
+SRC_URI=mirror://gnu/tar/tar-1.32.90.tar.xz
+	mirror://gnu-alpha/tar/tar-1.32.90.tar.xz

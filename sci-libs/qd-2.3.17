@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure install prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 fortran? ( virtual/fortran ) 
+RDEPEND= fortran? ( virtual/fortran ) 
+EAPI=6
+IUSE=cpu_flags_x86_fma3 cpu_flags_x86_fma4 doc fortran static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://crd.lbl.gov/~dhbailey/mpdist/qd-2.3.17.tar.gz

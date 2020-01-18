@@ -1,0 +1,9 @@
+b6e7b827d01f81bcbc928a0e054a5735
+DEFINED_PHASES= install prepare
+DEPEND=nls? ( sys-devel/gettext:* ) 
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  gnome-base/libglade:2.0 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.pixelbeat.org/fslint/fslint-2.46.tar.xz

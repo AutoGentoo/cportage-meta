@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=!net-dialup/radiusclient  !net-dialup/freeradius-client 
+RDEPEND=!net-dialup/radiusclient  !net-dialup/freeradius-client 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/radiusclient-ng.berlios/radiusclient-ng-0.5.6.tar.gz

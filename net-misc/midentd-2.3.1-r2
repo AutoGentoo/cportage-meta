@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/midentd-2.3.1.tar.gz

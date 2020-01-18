@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-common-1.22.0.tar.xz

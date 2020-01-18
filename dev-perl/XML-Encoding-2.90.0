@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/XML-Parser-2.180.0  >=virtual/perl-ExtUtils-MakeMaker-6.640.0  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=>=dev-perl/XML-Parser-2.180.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SH/SHAY/XML-Encoding-2.09.tar.gz

@@ -1,0 +1,9 @@
+613bed39209c4db26ef8f768cf9fc54c
+DEFINED_PHASES= configure install postinst setup
+DEPEND=virtual/pkgconfig  dev-libs/libpcre  app-admin/sagan-rules[lognorm?]  smtp? ( net-libs/libesmtp )  pcap? ( net-libs/libpcap )  mysql? ( virtual/mysql )  lognorm? (   dev-libs/liblognorm   dev-libs/json-c:=   dev-libs/libee   dev-libs/libestr    )  libdnet? ( dev-libs/libdnet )  snort? ( >=net-analyzer/snortsam-2.50 )  geoip? ( dev-libs/geoip )   
+RDEPEND=dev-libs/libpcre  app-admin/sagan-rules[lognorm?]  smtp? ( net-libs/libesmtp )  pcap? ( net-libs/libpcap )  mysql? ( virtual/mysql )  lognorm? (   dev-libs/liblognorm   dev-libs/json-c:=   dev-libs/libee   dev-libs/libestr    )  libdnet? ( dev-libs/libdnet )  snort? ( >=net-analyzer/snortsam-2.50 )  geoip? ( dev-libs/geoip )   
+EAPI=5
+IUSE=geoip +libdnet +lognorm mysql +pcap smtp snort 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://sagan.quadrantsec.com/download/sagan-1.0.0RC3.tar.gz

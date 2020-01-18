@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  test? (   >=dev-perl/Cache-Simple-TimedExpiry-0.210.0  >=dev-perl/capitalization-0.30.0  >=dev-perl/Class-ReturnValue-0.400.0  dev-perl/Class-Accessor  dev-perl/Clone  dev-perl/DBI  dev-perl/DBIx-DBSchema  dev-perl/Want    >=virtual/perl-Test-Simple-0.520.0   dev-perl/DBD-SQLite   virtual/perl-File-Temp  )  
+RDEPEND=  >=dev-perl/Cache-Simple-TimedExpiry-0.210.0  >=dev-perl/capitalization-0.30.0  >=dev-perl/Class-ReturnValue-0.400.0  dev-perl/Class-Accessor  dev-perl/Clone  dev-perl/DBI  dev-perl/DBIx-DBSchema  dev-perl/Want  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 hppa ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALEXMV/DBIx-SearchBuilder-1.66.tar.gz

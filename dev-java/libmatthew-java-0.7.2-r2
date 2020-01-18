@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= compile install prepare
+DEPEND=  >=virtual/jdk-1.5 
+RDEPEND=  >=virtual/jre-1.5 
+EAPI=6
+IUSE=doc source 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/libmatthew-java-0.7.2.tar.gz

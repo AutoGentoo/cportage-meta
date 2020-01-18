@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile prepare
+DEPEND=    media-libs/libpng:0  virtual/jpeg:0  x11-libs/libX11  x11-libs/libXft  x11-libs/libXpm   app-text/rman  dev-lang/perl  x11-base/xorg-proto  x11-misc/imake  
+RDEPEND=    media-libs/libpng:0  virtual/jpeg:0  x11-libs/libX11  x11-libs/libXft  x11-libs/libXpm   media-fonts/font-misc-misc  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux
+SLOT=0
+SRC_URI=ftp://ftp.ac-grenoble.fr/ge/Xutils/xsnap-1.5.15.tar.bz2

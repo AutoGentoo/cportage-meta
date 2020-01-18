@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip   
+RDEPEND=>=virtual/jre-1.6   
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=3.0
+SRC_URI=http://www.caucho.com/download/resin-4.0.27-src.zip

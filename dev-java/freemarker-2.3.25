@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= install prepare
+DEPEND=dev-java/avalon-logkit:2.0  dev-java/commons-logging:0  dev-java/dom4j:1  dev-java/jaxen:1.1  dev-java/jython:2.7  dev-java/log4j:0  dev-java/rhino:1.6  dev-java/slf4j-api:0  dev-java/xalan:0  java-virtuals/servlet-api:2.5  >=virtual/jdk-1.7  dev-java/javacc:0 
+RDEPEND=dev-java/avalon-logkit:2.0  dev-java/commons-logging:0  dev-java/dom4j:1  dev-java/jaxen:1.1  dev-java/jython:2.7  dev-java/log4j:0  dev-java/rhino:1.6  dev-java/slf4j-api:0  dev-java/xalan:0  java-virtuals/servlet-api:2.5  >=virtual/jre-1.7 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=2.3
+SRC_URI=https://github.com/apache/incubator-freemarker/archive/v2.3.25.tar.gz -> freemarker-2.3.25.tar.gz

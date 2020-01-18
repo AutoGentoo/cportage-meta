@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-db/sqlite:3  || ( >=dev-lang/python-2.7.5-r2:2.7 )  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=dev-db/sqlite:3 
+PDEPEND=<=app-i18n/sunpinyin-data-20130220 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0/3
+SRC_URI=https://dev.gentoo.org/~yngwin/distfiles/sunpinyin-2.0.4_pre20130108.tar.xz

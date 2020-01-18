@@ -1,0 +1,10 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install preinst prepare
+DEPEND=>=dev-lang/lua-5.1:= 
+RDEPEND=>=dev-lang/lua-5.1:= 
+EAPI=7
+IUSE=
+KEYWORDS=arm
+SLOT=0
+SRC_URI=mirror://debian/pool/main/q/qcontrol/qcontrol_0.4.2.orig.tar.gz
+	mirror://debian/pool/main/q/qcontrol/qcontrol_0.4.2-6.diff.gz

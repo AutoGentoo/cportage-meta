@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  libav? ( media-video/libav )  !libav? ( media-video/ffmpeg:0 )   virtual/pkgconfig  
+RDEPEND=  libav? ( media-video/libav )  !libav? ( media-video/ffmpeg:0 )  
+EAPI=5
+IUSE=libav 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://vdr-developerorg/1911/vdr2jpeg-0.2.0.tgz
+		mirror://gentoo/vdr2jpeg-0.2.0.tgz

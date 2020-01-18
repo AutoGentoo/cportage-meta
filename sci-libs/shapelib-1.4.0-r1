@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=sci-libs/proj:= 
+RDEPEND=sci-libs/proj:= 
+EAPI=6
+IUSE=doc static-libs 
+KEYWORDS=amd64 ~arm arm64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0/2
+SRC_URI=http://download.osgeo.org/shapelib/shapelib-1.4.0.tar.gz

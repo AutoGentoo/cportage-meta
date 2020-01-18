@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install prepare
+DEPEND=gmp? ( dev-libs/gmp:0=      mpi? ( virtual/mpi ) ) 
+RDEPEND=gmp? ( dev-libs/gmp:0=      mpi? ( virtual/mpi ) ) 
+EAPI=6
+IUSE=gmp mpi 
+KEYWORDS=amd64 ~arm x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://cgm.cs.mcgill.ca/~avis/C/lrslib/archive/lrslib-062.tar.gz

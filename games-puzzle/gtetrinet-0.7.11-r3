@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/libxml2  media-libs/libcanberra  >=gnome-base/gconf-2  >=gnome-base/libgnome-2  >=gnome-base/libgnomeui-2  nls? ( virtual/libintl )   virtual/pkgconfig  nls? ( sys-devel/gettext )  
+RDEPEND=  dev-libs/libxml2  media-libs/libcanberra  >=gnome-base/gconf-2  >=gnome-base/libgnome-2  >=gnome-base/libgnomeui-2  nls? ( virtual/libintl )  
+EAPI=5
+IUSE=nls ipv6 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gtetrinet/0.7/gtetrinet-0.7.11.tar.bz2
+	mirror://gentoo/gtetrinet-gentoo-theme-0.1.tbz2

@@ -1,0 +1,9 @@
+01138c6db4d0782e497215f231958673
+DEFINED_PHASES= postinst test
+DEPEND=  >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (     >=virtual/perl-Carp-1.260.0  >=virtual/perl-Encode-2.510.0  >=virtual/perl-IO-1.310.0  >=virtual/perl-MIME-Base64-3.130.0    >=virtual/perl-Scalar-List-Utils-1.290.0   >=virtual/perl-Test-Simple-0.980.0  )  
+RDEPEND=  >=virtual/perl-Carp-1.260.0  >=virtual/perl-Encode-2.510.0  >=virtual/perl-IO-1.310.0  >=virtual/perl-MIME-Base64-3.130.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RC/RCAPUTO/CDDB-1.222.tar.gz

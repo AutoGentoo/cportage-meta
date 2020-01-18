@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure install prepare
+DEPEND=x11-libs/libXaw  x11-libs/libXi  virtual/opengl  virtual/glu  >=media-libs/freetype-2.0.9:2  media-libs/libpng:0=  sdl? ( media-libs/libsdl[video] )  !sdl? ( media-libs/freeglut )   virtual/pkgconfig 
+RDEPEND=x11-libs/libXaw  x11-libs/libXi  virtual/opengl  virtual/glu  >=media-libs/freetype-2.0.9:2  media-libs/libpng:0=  sdl? ( media-libs/libsdl[video] )  !sdl? ( media-libs/freeglut )  
+EAPI=6
+IUSE=sdl video_cards_nvidia 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/foobillard-3.0a.tar.gz

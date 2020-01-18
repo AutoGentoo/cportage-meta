@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= install
+DEPEND=dev-java/msv:0  dev-java/xsdlib:0  dev-java/ant-core:0  dev-java/iso-relax:0  dev-java/relaxng-datatype:0  >=virtual/jdk-1.6  app-arch/unzip 
+RDEPEND=dev-java/msv:0  dev-java/xsdlib:0  dev-java/ant-core:0  dev-java/iso-relax:0  dev-java/relaxng-datatype:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/relaxngcc/relaxngcc-20031218.zip

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.7  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=2
+SRC_URI=http://repo1.maven.org/maven2/args4j/args4j/2.32/args4j-2.32-sources.jar

@@ -1,0 +1,10 @@
+433b9a74e7d37a48856c54705d4b4d1f
+DEFINED_PHASES= configure install setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=virtual/libusb:1  cxx? ( dev-libs/boost )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   ) python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )  )  tools? (   !<dev-embedded/ftdi_eeprom-1.0   dev-libs/confuse:=  )  python? ( dev-lang/swig )  doc? ( app-doc/doxygen ) 
+RDEPEND=virtual/libusb:1  cxx? ( dev-libs/boost )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   ) python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )  )  tools? (   !<dev-embedded/ftdi_eeprom-1.0   dev-libs/confuse:=  ) 
+EAPI=6
+IUSE=cxx doc examples python static-libs test tools 
+KEYWORDS=
+SLOT=1
+SRC_URI=

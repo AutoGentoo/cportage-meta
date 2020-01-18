@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst
+EAPI=7
+IUSE=moneyplex 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://gentoo/towitoko-2.0.7.tar.gz

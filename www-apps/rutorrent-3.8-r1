@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= install prepare setup
+DEPEND=  || ( dev-lang/php[xml,gd] dev-lang/php[xml,gd-external] )  
+RDEPEND=virtual/httpd-php 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+SLOT=3.8-r1
+SRC_URI=https://github.com/Novik/ruTorrent/archive/v3.8.tar.gz -> rutorrent-3.8.tar.gz

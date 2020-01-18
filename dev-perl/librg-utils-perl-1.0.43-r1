@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= configure install test
+DEPEND=  dev-perl/List-MoreUtils  sci-libs/profphd-utils  dev-perl/Module-Build  
+RDEPEND=  dev-perl/List-MoreUtils 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=ftp://rostlab.org/librg-utils-perl/librg-utils-perl-1.0.43.tar.gz

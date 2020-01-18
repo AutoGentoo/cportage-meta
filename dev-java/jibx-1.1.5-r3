@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install prepare
+DEPEND=    dev-java/bcel:0  dev-java/xpp3:0  dev-java/dom4j:1  dev-java/ant-core:0  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/bcel:0  dev-java/xpp3:0  dev-java/dom4j:1  dev-java/ant-core:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/jibx/jibx_1_1_5.zip -> jibx-1.1.5.zip

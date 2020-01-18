@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=net-libs/gnutls:= net-analyzer/net-snmp:= 
+RDEPEND=net-libs/gnutls:= net-analyzer/net-snmp:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://gitlab.com/grknight/omnisync/-/archive/b3a759af454552f4bbd3b1e097b41bd0d1d7fcf5/omnisync-b3a759af454552f4bbd3b1e097b41bd0d1d7fcf5.tar.bz2 -> omnisync-1.0_p20180614.tar.bz2

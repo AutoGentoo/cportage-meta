@@ -1,0 +1,7 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= compile install prepare
+EAPI=6
+IUSE=python 
+KEYWORDS=~arm
+SLOT=0
+SRC_URI=https://github.com/joan2937/pigpio/archive/V67.tar.gz -> pigpio-67.tar.gz

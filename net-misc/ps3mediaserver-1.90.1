@@ -1,0 +1,9 @@
+46f5dac8b0a5f4662f7fc1ec3e21a771
+DEFINED_PHASES= install postinst prepare
+DEPEND=app-arch/unzip 
+RDEPEND=>=virtual/jre-1.6.0  media-libs/libmediainfo  media-libs/libzen  tsmuxer? ( media-video/tsmuxer )  transcode? ( media-video/mplayer[encode] ) 
+EAPI=5
+IUSE=multiuser +transcode tsmuxer 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/project/ps3mediaserver/pms-1.90.1-generic-linux-unix.tar.gz

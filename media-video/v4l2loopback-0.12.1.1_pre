@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install prepare setup
+DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=6
+IUSE=examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/umlaeute/v4l2loopback/archive/0b8feb80fdef9a415d8250bca1790b3ff23e8391.tar.gz -> v4l2loopback-0.12.1.1_pre.tar.gz

@@ -1,0 +1,8 @@
+da9405c72dac61ce8c0745c723b76d5e
+DEFINED_PHASES= compile install postinst prepare setup
+DEPEND=dev-util/promu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prometheus/mysqld_exporter/archive/v0.10.0.tar.gz -> mysqld_exporter-0.10.0.tar.gz

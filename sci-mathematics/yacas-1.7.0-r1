@@ -1,0 +1,11 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  gui? (   dev-qt/qtcore:5[icu]   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtnetwork:5   dev-qt/qtopengl:5   dev-qt/qtprintsupport:5   dev-qt/qtsql:5   dev-qt/qtsvg:5   dev-qt/qtwebengine:5[widgets]   dev-qt/qtwidgets:5  )  jupyter? (   dev-libs/boost:=   dev-libs/jsoncpp:=   dev-libs/openssl:0=   dev-python/jupyter   net-libs/zeromq   >=net-libs/zmqpp-4.1.2  )  
+RDEPEND=  gui? (   dev-qt/qtcore:5[icu]   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtnetwork:5   dev-qt/qtopengl:5   dev-qt/qtprintsupport:5   dev-qt/qtsql:5   dev-qt/qtsvg:5   dev-qt/qtwebengine:5[widgets]   dev-qt/qtwidgets:5  )  jupyter? (   dev-libs/boost:=   dev-libs/jsoncpp:=   dev-libs/openssl:0=   dev-python/jupyter   net-libs/zeromq   >=net-libs/zmqpp-4.1.2  )  
+EAPI=7
+IUSE=gui +jupyter static-libs test 
+KEYWORDS=~amd64 ~x86
+SLOT=0/1
+SRC_URI=https://codeload.github.com/grzegorzmazur/yacas/tar.gz/v1.7.0 -> yacas-1.7.0.tar.gz
+gui? ( https://dev.gentoo.org/~asturm/distfiles/yacas-bundled-1.7.0.tar.xz )

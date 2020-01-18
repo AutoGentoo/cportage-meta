@@ -1,0 +1,10 @@
+1c04d9f99eabff58d19356128f333132
+DEFINED_PHASES= install prepare setup
+DEPEND=>=sys-devel/crossdev-0.9.1 
+EAPI=5
+IUSE=doc headers-only 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/avr-libc/avr-libc-2.0.0.tar.bz2
+	https://savannah.nongnu.org/download/avr-libc/avr-libc-manpages-2.0.0.tar.bz2
+	doc? ( https://savannah.nongnu.org/download/avr-libc/avr-libc-user-manual-2.0.0.tar.bz2 )

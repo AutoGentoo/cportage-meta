@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=sys-libs/ncurses:0=  virtual/libiconv 
+RDEPEND=sys-libs/ncurses:0=  virtual/libiconv  !net-irc/irc-client 
+EAPI=6
+IUSE=ipv6 
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://ircii.warped.com/ircii-20190117.tar.bz2
+	https://ircii.warped.com/old/ircii-20190117.tar.bz2

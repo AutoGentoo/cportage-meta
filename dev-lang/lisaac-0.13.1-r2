@@ -1,0 +1,9 @@
+3d0e4462dae79b9be0252454be8e8fee
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=vim-syntax? ( app-editors/vim )   emacs? ( >=app-editors/emacs-23.1 ) 
+RDEPEND=vim-syntax? ( app-editors/vim )   emacs? ( >=app-editors/emacs-23.1 ) 
+EAPI=4
+IUSE=vim-syntax emacs examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://isaacproject.u-strasbg.fr/download/lisaac-0.13.1.tar.gz

@@ -1,0 +1,10 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= configure install postinst postrm preinst
+DEPEND=!dedicated? (   virtual/jpeg:0  media-libs/openal  media-libs/libvorbis  media-libs/freetype:2  virtual/glu  virtual/opengl  dga? ( x11-libs/libXxf86dga )  vidmode? ( x11-libs/libXxf86vm )  zlib? ( sys-libs/zlib )  net-misc/curl  )  !dedicated? (   dga? ( x11-base/xorg-proto )  vidmode? ( x11-base/xorg-proto )  )  virtual/pkgconfig  
+RDEPEND=!dedicated? (   virtual/jpeg:0  media-libs/openal  media-libs/libvorbis  media-libs/freetype:2  virtual/glu  virtual/opengl  dga? ( x11-libs/libXxf86dga )  vidmode? ( x11-libs/libXxf86vm )  zlib? ( sys-libs/zlib )  net-misc/curl  ) 
+EAPI=6
+IUSE=dedicated +dga +vidmode +zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://icculus.org/alienarena/Files/alienarena-7.66-linux20130827.tar.gz
+	http://red.planetarena.org/files/alienarena-7.66-linux20130827.tar.gz

@@ -1,0 +1,8 @@
+62195f5bc43acaaf9750986d11558c09
+DEFINED_PHASES= compile install postinst prepare
+BDEPEND=dev-libs/libxslt  media-gfx/imagemagick[truetype,svg,png] 
+EAPI=7
+IUSE=+fallback 
+KEYWORDS=
+SLOT=0
+SRC_URI=

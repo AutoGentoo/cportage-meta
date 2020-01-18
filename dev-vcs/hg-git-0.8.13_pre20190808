@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=app-arch/unzip 
+DEPEND=  >=dev-vcs/mercurial-3.6[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/dulwich-0.9.7[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+RDEPEND=  >=dev-vcs/mercurial-3.6[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/dulwich-0.9.7[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://bitbucket.org/durin42/hg-git/get/aa15905ca87f.zip -> hg-git-0.8.13_pre20190808.zip

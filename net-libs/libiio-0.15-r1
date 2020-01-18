@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/libxml2:=  virtual/libusb:1=  aio? ( dev-libs/libaio )  zeroconf? ( net-dns/avahi ) 
+RDEPEND=dev-libs/libxml2:=  virtual/libusb:1=  aio? ( dev-libs/libaio )  zeroconf? ( net-dns/avahi ) 
+EAPI=6
+IUSE=+aio +zeroconf 
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.15
+SRC_URI=https://github.com/analogdevicesinc/libiio/archive/v0.15.tar.gz -> libiio-0.15.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  >=dev-lang/ocaml-3.10.2:=[ocamlopt]  !dev-ml/dns  !dev-ml/ocaml-dns  
+RDEPEND=  >=dev-lang/ocaml-3.10.2:=[ocamlopt]  !dev-ml/dns  !dev-ml/ocaml-dns  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0.3
+SRC_URI=http://download.tuxfamily.org/odns/odns-0.3.tar.gz

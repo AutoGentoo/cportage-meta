@@ -1,0 +1,10 @@
+28edeb02216576e6eb9fa8de38ed70ca
+DEFINED_PHASES= postinst pretend setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=test? ( dev-vcs/subversion )   
+RDEPEND=  bazaar? ( dev-vcs/bzr )  cvs? ( dev-vcs/cvs )  darcs? ( dev-vcs/darcs )  git? ( dev-vcs/git )  mercurial? ( dev-vcs/mercurial )  g-sorcery? ( app-portage/g-sorcery )  subversion? (   || (    >=dev-vcs/subversion-1.5.4[http]    >=dev-vcs/subversion-1.5.4[webdav-neon]    >=dev-vcs/subversion-1.5.4[webdav-serf]   )  )  gpg? ( >=dev-python/pyGPG-0.2 )  sync-plugin-portage? ( >=sys-apps/portage-2.2.16[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  !sync-plugin-portage? ( sys-apps/portage[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  >=dev-python/ssl-fetch-0.4[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]   
+EAPI=7
+IUSE=bazaar cvs darcs +git gpg g-sorcery mercurial sqlite squashfs subversion sync-plugin-portage test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

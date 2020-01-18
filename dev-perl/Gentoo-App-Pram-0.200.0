@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    dev-vcs/git  virtual/perl-Encode  dev-perl/File-Which  dev-perl/Net-SSLeay  dev-perl/IO-Socket-SSL  virtual/perl-File-Temp  virtual/perl-HTTP-Tiny  virtual/perl-Getopt-Long  virtual/perl-Term-ANSIColor  !app-portage/pram  dev-perl/Module-Build-Tiny  test? (   virtual/perl-Test-Simple  ) 
+RDEPEND=  dev-vcs/git  virtual/perl-Encode  dev-perl/File-Which  dev-perl/Net-SSLeay  dev-perl/IO-Socket-SSL  virtual/perl-File-Temp  virtual/perl-HTTP-Tiny  virtual/perl-Getopt-Long  virtual/perl-Term-ANSIColor  !app-portage/pram 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MO/MONSIEURP/Gentoo-App-Pram-0.200000.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  
+RDEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )   !dev-util/repo  
+EAPI=7
+IUSE=libressl 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/voretaq7/radmind/releases/download/radmind-1.15.1/radmind-1.15.1.tar.gz

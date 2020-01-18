@@ -1,0 +1,10 @@
+1d9d55b71335df427a902b02d6f407e8
+DEFINED_PHASES= compile configure postinst postrm prepare
+BDEPEND=emacs? ( >=app-editors/emacs-23.1:* ) 
+DEPEND=test? ( >=dev-cpp/gtest-1.9[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  zlib? ( sys-libs/zlib[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+RDEPEND=emacs? ( >=app-editors/emacs-23.1:* )  zlib? ( sys-libs/zlib[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+EAPI=7
+IUSE=emacs examples static-libs test zlib 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0/19
+SRC_URI=https://github.com/protocolbuffers/protobuf/archive/v3.8.0.tar.gz -> protobuf-3.8.0.tar.gz

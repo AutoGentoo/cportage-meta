@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND= sys-devel/make >=dev-util/cmake-3.9.6 virtual/fortran 
+RDEPEND= virtual/fortran 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/MM-align-20120321.tar.xz

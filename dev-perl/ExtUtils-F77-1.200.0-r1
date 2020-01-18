@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-File-Spec  virtual/fortran   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=virtual/perl-File-Spec  virtual/fortran  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHM/ExtUtils-F77-1.20.tar.gz

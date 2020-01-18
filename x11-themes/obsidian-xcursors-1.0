@@ -1,0 +1,7 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= install postinst
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=http://www.kde-look.org/CONTENT/content-files/73135-Obsidian.tar.bz2

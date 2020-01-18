@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND==dev-util/nvidia-cuda-toolkit-10.2* 
+RDEPEND==dev-util/nvidia-cuda-toolkit-10.2* 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~amd64-linux
+SLOT=0/7
+SRC_URI=cudnn-10.2-linux-x64-v7.6.5.32.tgz

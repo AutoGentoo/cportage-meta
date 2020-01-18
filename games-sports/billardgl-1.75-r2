@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare
+DEPEND=  media-libs/freeglut  x11-libs/libXi  x11-libs/libXmu  virtual/opengl  virtual/glu 
+RDEPEND=  media-libs/freeglut  x11-libs/libXi  x11-libs/libXmu  virtual/opengl  virtual/glu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/billardgl/BillardGL-1.75.tar.gz
+	mirror://gentoo/billardgl.png

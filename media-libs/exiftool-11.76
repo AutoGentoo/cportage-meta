@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=dev-lang/perl 
+DEPEND=dev-lang/perl 
+RDEPEND=dev-lang/perl:= 
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 arm64 ppc ppc64 x86 ~x64-macos
+SLOT=0
+SRC_URI=https://www.sno.phy.queensu.ca/~phil/exiftool/Image-ExifTool-11.76.tar.gz

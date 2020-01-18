@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  dev-libs/expat  sys-libs/zlib  
+RDEPEND=  dev-libs/expat  sys-libs/zlib  
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.gaia-gis.it/gaia-sins/readosm-sources/readosm-1.0.0e.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Authen-SASL-2.150.0  >=dev-perl/IO-Socket-SSL-1  >=virtual/perl-libnet-2  virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=  >=dev-perl/Authen-SASL-2.150.0  >=dev-perl/IO-Socket-SSL-1  >=virtual/perl-libnet-2 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TOMO/src/Net-SMTPS-0.09.tar.gz

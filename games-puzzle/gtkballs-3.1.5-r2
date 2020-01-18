@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  x11-libs/gtk+:2  nls? ( virtual/libintl )   virtual/pkgconfig  nls? ( >=sys-devel/gettext-0.10.38 )  
+RDEPEND=  x11-libs/gtk+:2  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://gtkballs.antex.ru/dist/gtkballs-3.1.5.tar.gz

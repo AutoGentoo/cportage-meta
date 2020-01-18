@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  source? ( app-arch/zip )  >=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/mersennetwister-0_pre23765.tar.bz2

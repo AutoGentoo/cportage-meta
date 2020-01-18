@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=  >=virtual/perl-ExtUtils-MakeMaker-6.360.0  test? (   >=virtual/perl-Test-Simple-0.880.0   virtual/perl-File-Temp  )  
+RDEPEND=  virtual/perl-Carp  >=virtual/perl-Time-Piece-1.160.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BA/BAREFOOT/Data-Random-0.12.tar.gz

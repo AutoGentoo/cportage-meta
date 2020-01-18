@@ -1,0 +1,11 @@
+ee5e152d6625c11e9d8c0efbb745b78b
+DEFINED_PHASES= compile install prepare test
+BDEPEND=>=dev-lang/go-1.10 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/0_pre20190911
+SRC_URI=https://github.com/golang/tools/archive/6bfd74cf029c99138aa1bb5b7e0d6b57c9d4eb49.tar.gz -> go-tools-0_pre20190911.tar.gz
+	 https://github.com/golang/net/archive/3b0461eec859c4b73bb64fdc8285971fd33e3938.tar.gz -> github.com-golang-net-3b0461eec859c4b73bb64fdc8285971fd33e3938.tar.gz https://github.com/golang/sync/archive/112230192c580c3556b8cee6403af37a4fc5f28c.tar.gz -> github.com-golang-sync-112230192c580c3556b8cee6403af37a4fc5f28c.tar.gz https://github.com/golang/xerrors/archive/a985d3407aa71f30cf86696ee0a2f409709f22e1.tar.gz -> github.com-golang-xerrors-a985d3407aa71f30cf86696ee0a2f409709f22e1.tar.gz
+	mirror://gentoo/go-favicon-20181103162401.ico
+	https://dev.gentoo.org/~zmedico/distfiles/go-favicon-20181103162401.ico

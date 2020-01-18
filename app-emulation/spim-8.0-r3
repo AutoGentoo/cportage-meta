@@ -1,0 +1,9 @@
+a323628f59b5333f77dba60e2d4d9848
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=  X? (   media-fonts/font-adobe-100dpi   x11-libs/libXaw )   X? (   x11-base/xorg-proto   x11-misc/imake  )  sys-devel/bison  
+RDEPEND=  X? (   media-fonts/font-adobe-100dpi   x11-libs/libXaw )  
+EAPI=6
+IUSE=doc X 
+KEYWORDS=amd64 ~ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.cs.wisc.edu/~larus/SPIM/spim-8.0.tar.gz

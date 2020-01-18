@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install postinst
+DEPEND=dev-scheme/gauche  cgi? ( virtual/httpd-cgi )  fastcgi? ( virtual/httpd-fastcgi )   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=dev-scheme/gauche  cgi? ( virtual/httpd-cgi )  fastcgi? ( virtual/httpd-fastcgi ) 
+EAPI=6
+IUSE=cgi fastcgi 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wiliki/WiLiKi-0.6.1.tgz

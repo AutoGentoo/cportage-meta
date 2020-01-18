@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm
+DEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm 
+RDEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://people.debian.org/~godisch/wmpuzzle/wmpuzzle-0.5.2.tar.gz

@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0_pre20150619
+SRC_URI=https://github.com/davecgh/go-spew/archive/2df174808ee097f90d259e432cc04442cf60be21.tar.gz -> go-spew-0_pre20150619.tar.gz

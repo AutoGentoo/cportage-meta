@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+DEPEND=  sys-libs/ncurses:0=  !app-admin/procinfo  virtual/pkgconfig 
+RDEPEND=  sys-libs/ncurses:0=  !app-admin/procinfo 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa x86
+SLOT=0
+SRC_URI=mirror://sourceforge/procinfo-ng/procinfo-ng-2.0.304.tar.bz2

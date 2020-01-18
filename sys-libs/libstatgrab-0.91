@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install
+DEPEND=sys-libs/ncurses 
+RDEPEND=sys-libs/ncurses 
+EAPI=5
+IUSE=doc examples static-libs 
+KEYWORDS=amd64 ~arm ~arm64 ~ia64 ppc x86
+SLOT=0
+SRC_URI=https://www.mirrorservice.org/sites/ftp.i-scream.org/pub/i-scream/libstatgrab/libstatgrab-0.91.tar.gz

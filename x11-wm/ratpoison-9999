@@ -1,0 +1,10 @@
+90d874640b91a10119ec1b4f402f35a8
+DEFINED_PHASES= compile configure install postinst postrm prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    emacs? ( >=app-editors/emacs-23.1:* )  history? ( sys-libs/readline:= )  xft? ( x11-libs/libXft )  xrandr? ( x11-libs/libXrandr )  virtual/perl-Pod-Parser  x11-libs/libXtst   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  emacs? ( >=app-editors/emacs-23.1:* )  history? ( sys-libs/readline:= )  xft? ( x11-libs/libXft )  xrandr? ( x11-libs/libXrandr )  virtual/perl-Pod-Parser  x11-libs/libXtst  
+EAPI=7
+IUSE=debug emacs +history sloppy +xft +xrandr 
+KEYWORDS=
+SLOT=0
+SRC_URI=

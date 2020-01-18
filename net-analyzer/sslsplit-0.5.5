@@ -1,0 +1,9 @@
+e6c64c8d7e38ad688f02343a5e8bc762
+DEFINED_PHASES= install prepare
+DEPEND=  dev-libs/libevent[ssl,threads]  dev-libs/openssl:0=  net-libs/libnet:1.1  elibc_musl? ( sys-libs/fts-standalone )  test? ( dev-libs/check ) 
+RDEPEND=  dev-libs/libevent[ssl,threads]  dev-libs/openssl:0=  net-libs/libnet:1.1  elibc_musl? ( sys-libs/fts-standalone ) 
+EAPI=7
+IUSE=elibc_musl test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/droe/sslsplit/archive/0.5.5.tar.gz -> sslsplit-0.5.5.tar.gz

@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install prepare test
+DEPEND=sys-libs/gdbm  mbedtls? ( net-libs/mbedtls:= )  test? (   !libressl? ( dev-libs/openssl:0 )   libressl? ( dev-libs/libressl:0 )  ) 
+RDEPEND=sys-libs/gdbm  mbedtls? ( net-libs/mbedtls:= ) 
+EAPI=6
+IUSE=ipv6 libressl mbedtls test 
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0/0.97
+SRC_URI=mirror://sourceforge/gauche/Gauche-0.9.8.tgz

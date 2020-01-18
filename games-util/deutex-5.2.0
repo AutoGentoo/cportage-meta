@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=man? ( app-text/asciidoc ) 
+DEPEND=png? ( media-libs/libpng:0= ) 
+RDEPEND=png? ( media-libs/libpng:0= ) 
+EAPI=7
+IUSE=man png 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/Doom-Utils/deutex/releases/download/v5.2.0/deutex-5.2.0.tar.xz

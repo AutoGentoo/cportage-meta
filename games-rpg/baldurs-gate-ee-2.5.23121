@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= install nofetch unpack
+DEPEND=app-arch/unzip 
+RDEPEND=dev-libs/expat  dev-libs/openssl:0  media-libs/openal  virtual/opengl  x11-libs/libX11 
+EAPI=7
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=baldur_s_gate_enhanced_edition_en_2_5_23121.sh

@@ -1,0 +1,9 @@
+e6c64c8d7e38ad688f02343a5e8bc762
+DEFINED_PHASES= install
+DEPEND=    dev-java/javahelp:0  dev-java/gnu-regexp:1  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/javahelp:0  dev-java/gnu-regexp:1  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/simplyhtml/SimplyHTML_src_0_13_1.tar.gz

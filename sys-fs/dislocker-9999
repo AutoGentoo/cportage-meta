@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  sys-fs/fuse:0=  net-libs/mbedtls:0=  ruby? ( dev-lang/ruby:* )  
+RDEPEND=  sys-fs/fuse:0=  net-libs/mbedtls:0=  ruby? ( dev-lang/ruby:* )  
+EAPI=7
+IUSE=ruby 
+KEYWORDS=
+SLOT=0
+SRC_URI=

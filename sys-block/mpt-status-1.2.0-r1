@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://gentoo/mpt-status-1.2.0.tar.bz2
+	mirror://gentoo/mpt-status-1.2.0-linux-sources.tar.bz2

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+RDEPEND=dev-perl/XML-Simple 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bfast/bfast-0.7.0a.tar.gz

@@ -1,0 +1,7 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile configure install test
+EAPI=6
+IUSE=debug 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst prepare
+DEPEND=>=x11-wm/fvwm-2.6.2  gnome? ( virtual/imagemagick-tools ) 
+RDEPEND=>=x11-wm/fvwm-2.6.2 
+EAPI=6
+IUSE=gnome 
+KEYWORDS=~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/fvwm-themes/fvwm-themes-0.7.0.tar.bz2

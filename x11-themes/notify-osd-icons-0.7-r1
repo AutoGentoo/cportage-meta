@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=x11-misc/notify-osd 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/main/n/notify-osd-icons/notify-osd-icons_0.7.tar.gz

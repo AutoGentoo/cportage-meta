@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=app-text/poppler[utils]  dev-php/PEAR-Date  virtual/httpd-php 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=2.1.7-r1
+SRC_URI=mirror://sourceforge/dotproject/dotproject-2.1.7.tar.gz

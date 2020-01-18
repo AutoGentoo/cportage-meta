@@ -1,0 +1,9 @@
+bdd1162f921b1058e356dca241bad410
+DEFINED_PHASES= compile configure postinst postrm preinst prepare test
+DEPEND=  x11-libs/wxGTK:3.0[X,opengl,debug?]  dev-lang/luajit:2[lua52compat]  dev-libs/boost:=[icu,nls,threads]  dev-libs/icu:=  media-libs/ffmpegsource:=  media-libs/fontconfig  media-libs/freetype  media-libs/libass:=[fontconfig]  sys-libs/zlib  virtual/libiconv  virtual/opengl  alsa? ( media-libs/alsa-lib )  fftw? ( >=sci-libs/fftw-3.3:= )  openal? ( media-libs/openal )  portaudio? ( =media-libs/portaudio-19* )  pulseaudio? ( media-sound/pulseaudio )  spell? ( app-text/hunspell:= )  uchardet? ( app-i18n/uchardet )   dev-util/intltool  sys-devel/gettext  virtual/pkgconfig  
+RDEPEND=  x11-libs/wxGTK:3.0[X,opengl,debug?]  dev-lang/luajit:2[lua52compat]  dev-libs/boost:=[icu,nls,threads]  dev-libs/icu:=  media-libs/ffmpegsource:=  media-libs/fontconfig  media-libs/freetype  media-libs/libass:=[fontconfig]  sys-libs/zlib  virtual/libiconv  virtual/opengl  alsa? ( media-libs/alsa-lib )  fftw? ( >=sci-libs/fftw-3.3:= )  openal? ( media-libs/openal )  portaudio? ( =media-libs/portaudio-19* )  pulseaudio? ( media-sound/pulseaudio )  spell? ( app-text/hunspell:= )  uchardet? ( app-i18n/uchardet )  
+EAPI=6
+IUSE=+alsa debug +fftw openal oss portaudio pulseaudio spell +uchardet 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,12 @@
+5ad2e3664c692d2439331b6aa012aa0f
+DEFINED_PHASES= config install postinst postrm prepare
+BDEPEND=app-arch/p7zip 
+RDEPEND=  !games-server/ut2004-ded  games-fps/ut2004-bonuspack-ece  games-fps/ut2004-bonuspack-mega  >=games-fps/ut2004-data-3186-r5  media-libs/libsdl  media-libs/openal  sys-libs/glibc  ~virtual/libstdc++-3.3  virtual/opengl  x11-libs/libX11  x11-libs/libXau  x11-libs/libXdmcp  x11-libs/libXext  
+EAPI=7
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	https://ut2004.ut-files.com/Patches/Linux/ut2004-lnxpatch3369-2.tar.bz2
+	https://dev.gentoo.org/~chewi/distfiles/ut2004-v3369-3-linux-dedicated.7z
+

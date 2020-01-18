@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/HTTP-Date   >=dev-perl/Module-Build-Tiny-0.35.0  test? (   >=virtual/perl-Test-Simple-0.980.0   dev-perl/Test-Requires  )  
+RDEPEND=  dev-perl/HTTP-Date  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TOKUHIROM/HTTP-Headers-Fast-0.21.tar.gz

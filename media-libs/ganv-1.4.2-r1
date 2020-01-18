@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure
+DEPEND=  dev-cpp/glibmm:2  dev-cpp/gtkmm:2.4  x11-libs/gtk+:2  graphviz? ( media-gfx/graphviz[gtk] )  introspection? (   app-text/yelp-tools   dev-libs/gobject-introspection:=[doctool] )   || ( >=dev-lang/python-2.7.5-r2:2.7[threads(+)] )  dev-util/glib-utils  nls? ( virtual/libintl )  
+RDEPEND=  dev-cpp/glibmm:2  dev-cpp/gtkmm:2.4  x11-libs/gtk+:2  graphviz? ( media-gfx/graphviz[gtk] )  introspection? (   app-text/yelp-tools   dev-libs/gobject-introspection:=[doctool] )  
+EAPI=6
+IUSE=+fdgl +graphviz introspection nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.drobilla.net/ganv-1.4.2.tar.bz2

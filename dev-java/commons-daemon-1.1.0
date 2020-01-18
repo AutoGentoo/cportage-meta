@@ -1,0 +1,9 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  kernel_linux? ( sys-libs/libcap )  >=virtual/jdk-1.6 
+RDEPEND=  kernel_linux? ( sys-libs/libcap )  >=virtual/jre-1.6 
+EAPI=6
+IUSE=kernel_linux 
+KEYWORDS=~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0
+SRC_URI=mirror://apache/commons/daemon/source/commons-daemon-1.1.0-src.tar.gz

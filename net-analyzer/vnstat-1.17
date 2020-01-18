@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install prepare setup
+DEPEND=    gd? ( media-libs/gd[png] )   test? ( dev-libs/check )  
+RDEPEND=    gd? ( media-libs/gd[png] )   selinux? ( sec-policy/selinux-vnstatd )  
+EAPI=6
+IUSE=gd selinux test 
+KEYWORDS=amd64 arm hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://humdi.net/vnstat/vnstat-1.17.tar.gz

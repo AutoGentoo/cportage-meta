@@ -1,0 +1,8 @@
+8a1df4b35bd8409a7e33032ba1d58309
+DEFINED_PHASES= prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=~amd64 -arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=https://github.com/numactl/numactl/releases/download/v2.0.13/numactl-2.0.13.tar.gz

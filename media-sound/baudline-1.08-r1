@@ -1,0 +1,11 @@
+69ee13969dee497674edea2a553ff5c4
+DEFINED_PHASES= install unpack
+RDEPEND=media-fonts/font-adobe-75dpi  media-fonts/font-misc-misc  x11-libs/libX11  x11-libs/libXext  x11-libs/libXmu  x11-libs/libXt  x11-libs/libXxf86vm 
+EAPI=6
+IUSE=jack 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( http://www.baudline.com/baudline_1.08_linux_x86_64.tar.gz )
+	ppc? ( http://www.baudline.com/baudline_1.08_linux_ppc.tar.gz )
+	s390? ( http://www.baudline.com/baudline_1.08_linux_s390.tar.gz )
+	x86? ( http://www.baudline.com/baudline_1.08_linux_i686.tar.gz )

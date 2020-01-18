@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=>=dev-perl/Graphics-ColorNames-0.320.0  dev-perl/Module-Build  test? (   virtual/perl-Test-Simple   dev-perl/Test-NoWarnings  )  
+RDEPEND=>=dev-perl/Graphics-ColorNames-0.320.0 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CF/CFAERBER/Graphics-ColorNames-WWW-1.13.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+RDEPEND=dev-perl/URI  dev-perl/libwww-perl  >=dev-perl/Image-Size-2.900.0  >=media-libs/exiftool-6  gui? ( gnome-extra/zenity ) 
+EAPI=6
+IUSE=gui 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BP/BPOSTLE/Panotools-Script-0.28.tar.gz

@@ -1,0 +1,11 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-libs/libusb-1.0.16  tecla? ( dev-libs/libtecla )  virtual/pkgconfig 
+RDEPEND=>=dev-libs/libusb-1.0.16  tecla? ( dev-libs/libtecla ) 
+PDEPEND=>=net-wireless/bladerf-firmware-2.2.0  >=net-wireless/bladerf-fpga-0.7.3 
+EAPI=6
+IUSE=doc +tecla 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/2018.08
+SRC_URI=https://github.com/Nuand/bladeRF/archive/2018.08.tar.gz -> bladerf-2018.08.tar.gz

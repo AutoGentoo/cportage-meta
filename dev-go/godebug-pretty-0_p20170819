@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+DEPEND=>=dev-lang/go-1.10 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0_p20170819
+SRC_URI=https://github.com/kylelemons/godebug/archive/d65d576e9348f5982d7f6d83682b694e731a45c6.tar.gz -> godebug-pretty-0_p20170819.tar.gz

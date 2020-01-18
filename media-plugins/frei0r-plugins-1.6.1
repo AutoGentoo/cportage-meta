@@ -1,0 +1,10 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=x11-libs/cairo  facedetect? ( >=media-libs/opencv-2.3.0:= )  scale0tilt? ( >=media-libs/gavl-1.2.0 )  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=x11-libs/cairo  facedetect? ( >=media-libs/opencv-2.3.0:= )  scale0tilt? ( >=media-libs/gavl-1.2.0 ) 
+EAPI=6
+IUSE=doc +facedetect +scale0tilt 
+KEYWORDS=amd64 ~arm arm64 ~hppa ppc x86
+SLOT=0
+SRC_URI=https://files.dyne.org/frei0r/releases/frei0r-plugins-1.6.1.tar.gz

@@ -1,0 +1,8 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=7
+IUSE=crnl-as-line-terminator static-libs 
+KEYWORDS=
+SLOT=0/5
+SRC_URI=

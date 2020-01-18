@@ -1,0 +1,9 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= configure install prepare
+DEPEND=sci-libs/minuit 
+RDEPEND=sci-libs/minuit 
+EAPI=6
+IUSE=cpu_flags_x86_sse threads 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/libcmatrix-3.11.0.tar.gz

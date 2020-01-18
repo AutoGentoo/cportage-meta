@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  man? ( >=kde-frameworks/kdoctools-5.65:5 )  
+DEPEND=  >=kde-frameworks/kconfig-5.65:5  >=kde-frameworks/kcoreaddons-5.65:5  >=kde-frameworks/kcrash-5.65:5  >=kde-frameworks/kdbusaddons-5.65:5  >=kde-frameworks/kinit-5.65:5  >=kde-frameworks/kservice-5.65:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  
+RDEPEND=  >=kde-frameworks/kconfig-5.65:5  >=kde-frameworks/kcoreaddons-5.65:5  >=kde-frameworks/kcrash-5.65:5  >=kde-frameworks/kdbusaddons-5.65:5  >=kde-frameworks/kinit-5.65:5  >=kde-frameworks/kservice-5.65:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  
+EAPI=7
+IUSE=+man 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=5/5.65
+SRC_URI=mirror://kde/stable/frameworks/5.65/kded-5.65.0.tar.xz

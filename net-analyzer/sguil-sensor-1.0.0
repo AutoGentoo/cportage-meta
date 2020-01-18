@@ -1,0 +1,8 @@
+c417c2a20e7389c2f6f9ad981cdf0362
+DEFINED_PHASES= install postinst prepare setup
+RDEPEND=  >=dev-lang/tcl-8.3:0=[-threads]  >=dev-tcltk/tclx-8.3  >=net-analyzer/barnyard-0.2.0-r1  >=net-analyzer/snort-2.4.1-r1  dev-ml/pcre-ocaml  net-analyzer/sancp  
+EAPI=7
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=https://github.com/bammv/sguil/archive/v1.0.0.tar.gz -> sguil-1.0.0.tar.gz

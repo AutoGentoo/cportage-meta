@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=http://www.cosmix.org/software/files/InconsolataHellenic.zip -> inconsolata-hellenic-1.19.zip

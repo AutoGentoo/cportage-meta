@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/libconfig  dev-perl/Conf-Libconfig 
+RDEPEND=dev-libs/libconfig  dev-perl/Conf-Libconfig 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/yrutschle/conf2struct/archive/v1.0.tar.gz -> conf2struct-1.0.tar.gz

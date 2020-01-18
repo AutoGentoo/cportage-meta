@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  media-libs/speex  net-libs/libgsasl  sys-libs/zlib  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  media-libs/speex  net-libs/libgsasl  sys-libs/zlib  
+EAPI=7
+IUSE=debug 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/euroelessar/jreen/archive/v1.3.0.tar.gz -> jreen-1.3.0.tar.gz

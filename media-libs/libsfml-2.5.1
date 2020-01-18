@@ -1,0 +1,10 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    media-libs/flac  media-libs/freetype:2  media-libs/libpng:0=  media-libs/libogg  media-libs/libvorbis  media-libs/openal  sys-libs/zlib  virtual/jpeg:0  kernel_linux? ( virtual/libudev:0 )  virtual/opengl  !kernel_Winnt? (   x11-libs/libX11   x11-libs/libXrandr   x11-libs/libxcb   x11-libs/xcb-util-image  )   doc? ( app-doc/doxygen )  
+RDEPEND=  media-libs/flac  media-libs/freetype:2  media-libs/libpng:0=  media-libs/libogg  media-libs/libvorbis  media-libs/openal  sys-libs/zlib  virtual/jpeg:0  kernel_linux? ( virtual/libudev:0 )  virtual/opengl  !kernel_Winnt? (   x11-libs/libX11   x11-libs/libXrandr   x11-libs/libxcb   x11-libs/xcb-util-image  )  
+EAPI=6
+IUSE=debug doc examples 
+KEYWORDS=amd64 x86
+SLOT=0/2.5
+SRC_URI=https://github.com/SFML/SFML/archive/2.5.1.tar.gz -> libsfml-2.5.1.tar.gz

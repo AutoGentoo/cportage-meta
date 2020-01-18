@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= postinst prepare
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=>=app-admin/eselect-1.2.3  >=dev-lang/python-exec-2.4.2 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

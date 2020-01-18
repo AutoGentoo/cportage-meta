@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-haskell/text:=[profile?]  dev-haskell/th-lift:=[profile?]  >=dev-haskell/vector-0.4:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  test? ( >=dev-haskell/quickcheck-2.6 )  
+RDEPEND=dev-haskell/text:=[profile?]  dev-haskell/th-lift:=[profile?]  >=dev-haskell/vector-0.4:=[profile?]  >=dev-lang/ghc-7.4.1:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.1.11
+SRC_URI=https://hackage.haskell.org/package/th-lift-instances-0.1.11/th-lift-instances-0.1.11.tar.gz

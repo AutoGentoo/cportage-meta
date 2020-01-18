@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-haskell/network:=[profile?]  >=dev-lang/ghc-6.10.4:=   >=dev-haskell/cabal-1.6.0.3  
+RDEPEND=dev-haskell/network:=[profile?]  >=dev-lang/ghc-6.10.4:=  
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~ppc-macos ~x86-macos
+SLOT=0/0.4
+SRC_URI=https://hackage.haskell.org/package/httpd-shed-0.4/httpd-shed-0.4.tar.gz

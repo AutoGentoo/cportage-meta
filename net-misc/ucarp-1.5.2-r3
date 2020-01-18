@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install postinst
+DEPEND=net-libs/libpcap  nls? ( sys-devel/gettext ) 
+RDEPEND=net-libs/libpcap 
+EAPI=5
+IUSE=nls 
+KEYWORDS=~amd64 ~ppc x86
+SLOT=0
+SRC_URI=ftp://ftp.ucarp.org/pub/ucarp/ucarp-1.5.2.tar.gz

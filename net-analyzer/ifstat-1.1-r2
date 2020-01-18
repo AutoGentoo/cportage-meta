@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=snmp? ( >=net-analyzer/net-snmp-5.0 ) 
+RDEPEND=snmp? ( >=net-analyzer/net-snmp-5.0 ) 
+EAPI=4
+IUSE=snmp 
+KEYWORDS=~alpha amd64 hppa ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://gael.roualland.free.fr/ifstat/ifstat-1.1.tar.gz

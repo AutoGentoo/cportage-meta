@@ -1,0 +1,9 @@
+e60f53dc4a6a8221817be410544fe94c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=~dev-libs/libprelude-4.0.0  net-libs/gnutls:=  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:* )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  sqlite? ( dev-db/sqlite:3 )  >=dev-lang/swig-3.0.7  dev-util/gtk-doc-am  sys-devel/flex  virtual/pkgconfig  virtual/yacc 
+RDEPEND=~dev-libs/libprelude-4.0.0  net-libs/gnutls:=  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:* )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  sqlite? ( dev-db/sqlite:3 ) 
+EAPI=6
+IUSE=mysql postgres python sqlite 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.prelude-siem.org/pkg/src/4.0.0/libpreludedb-4.0.0.tar.gz

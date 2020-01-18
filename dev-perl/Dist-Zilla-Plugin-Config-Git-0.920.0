@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Dist-Zilla-1.0.0  >=dev-perl/Moose-0.340.0  >=dev-perl/MooseX-Types-0.60.0  >=dev-perl/String-Errf-0.1.0  >=dev-perl/namespace-clean-0.60.0   virtual/perl-ExtUtils-MakeMaker  test? (   >=dev-perl/Test-CheckDeps-0.10.0   >=virtual/perl-Test-Simple-0.940.0  )  
+RDEPEND=  >=dev-perl/Dist-Zilla-1.0.0  >=dev-perl/Moose-0.340.0  >=dev-perl/MooseX-Types-0.60.0  >=dev-perl/String-Errf-0.1.0  >=dev-perl/namespace-clean-0.60.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BB/BBYRD/Dist-Zilla-Plugin-Config-Git-0.92.tar.gz

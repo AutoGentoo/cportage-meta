@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=app-arch/unzip  sys-devel/bison  sys-devel/flex 
+RDEPEND=virtual/latex-base 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://mirror.ctan.org/support/rail.zip -> rail-1.2_p1.zip

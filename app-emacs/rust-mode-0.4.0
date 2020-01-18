@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+BDEPEND=>=app-editors/emacs-24:* 
+RDEPEND=>=app-editors/emacs-24:* 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/rust-lang/rust-mode/archive/0.4.0.tar.gz -> rust-mode-0.4.0.tar.gz

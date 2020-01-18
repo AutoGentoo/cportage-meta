@@ -1,0 +1,9 @@
+9e5facca87ae2ec340317dd7a0ee1dc1
+DEFINED_PHASES= configure install postinst prepare pretend
+DEPEND=dev-libs/glib:2  sys-apps/i2c-tools  virtual/udev  drm? ( x11-libs/libdrm )  usb-monitor? (   dev-libs/hidapi   virtual/libusb:1   sys-apps/usbutils  )  X? (   x11-libs/libXrandr   x11-libs/libX11  )  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  sys-apps/i2c-tools  virtual/udev  drm? ( x11-libs/libdrm )  usb-monitor? (   dev-libs/hidapi   virtual/libusb:1   sys-apps/usbutils  )  X? (   x11-libs/libXrandr   x11-libs/libX11  ) 
+EAPI=6
+IUSE=drm usb-monitor user-permissions video_cards_nvidia X 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/rockowitz/ddcutil/archive/v0.9.5.tar.gz -> ddcutil-0.9.5.tar.gz

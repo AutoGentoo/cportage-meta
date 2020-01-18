@@ -1,0 +1,8 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= configure prepare
+DEPEND=doc? ( app-doc/doxygen )  virtual/pkgconfig 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 ~arm arm64 hppa ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gmerlin/gavl-1.4.0.tar.gz

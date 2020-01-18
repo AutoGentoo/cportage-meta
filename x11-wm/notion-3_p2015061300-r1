@@ -1,0 +1,9 @@
+21b6acdc48e11562f98840de7f3cab9e
+DEFINED_PHASES= configure install prepare
+DEPEND=>=dev-lang/lua-5.1:0=  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  nls? ( sys-devel/gettext )  xinerama? ( x11-libs/libXinerama )  xrandr? ( x11-libs/libXrandr )   virtual/pkgconfig 
+RDEPEND=>=dev-lang/lua-5.1:0=  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  nls? ( sys-devel/gettext )  xinerama? ( x11-libs/libXinerama )  xrandr? ( x11-libs/libXrandr ) 
+EAPI=5
+IUSE=nls xinerama +xrandr 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/raboof/notion/archive/3-2015061300.tar.gz -> notion-3_p2015061300.tar.gz

@@ -1,0 +1,11 @@
+6518ed480c31919fc943085c347d594a
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=x11-libs/libXaw  x11-misc/gccmakedep  x11-misc/imake 
+RDEPEND=x11-libs/libXaw 
+EAPI=5
+IUSE=l10n_fr 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble-2.10.tgz
+	l10n_fr? ( ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_fr.tgz )
+	ftp://ftp.ac-grenoble.fr/ge/educational_games/xscrabble_en.tgz

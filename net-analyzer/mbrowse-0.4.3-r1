@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  dev-libs/glib  net-analyzer/net-snmp:=  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  
+RDEPEND=  dev-libs/glib  net-analyzer/net-snmp:=  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mbrowse/files/mbrowse-0.4.3.tar.gz

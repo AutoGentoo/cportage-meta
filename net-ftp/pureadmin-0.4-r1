@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  gnome-base/libglade:2.0  sys-libs/zlib  virtual/fam  x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=  gnome-base/libglade:2.0  sys-libs/zlib  virtual/fam  x11-libs/gtk+:2 
+EAPI=4
+IUSE=debug doc 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/purify/pureadmin-0.4.tar.gz

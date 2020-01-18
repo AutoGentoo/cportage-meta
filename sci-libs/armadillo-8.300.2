@@ -1,0 +1,11 @@
+5268b64590ffb3f79b1cafb81865118b
+DEFINED_PHASES= configure install prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost  arpack? ( sci-libs/arpack )  blas? ( virtual/blas )  lapack? ( virtual/lapack )  superlu? ( >=sci-libs/superlu-5.2 )   arpack? ( virtual/pkgconfig )  blas? ( virtual/pkgconfig )  hdf5? ( sci-libs/hdf5 )  lapack? ( virtual/pkgconfig )  mkl? ( sci-libs/mkl )  tbb? ( dev-cpp/tbb ) 
+RDEPEND=  dev-libs/boost  arpack? ( sci-libs/arpack )  blas? ( virtual/blas )  lapack? ( virtual/lapack )  superlu? ( >=sci-libs/superlu-5.2 )  
+PDEPEND=  dev-libs/boost  arpack? ( sci-libs/arpack )  blas? ( virtual/blas )  lapack? ( virtual/lapack )  superlu? ( >=sci-libs/superlu-5.2 )   hdf5? ( sci-libs/hdf5 )  mkl? ( sci-libs/mkl )  tbb? ( dev-cpp/tbb ) 
+EAPI=6
+IUSE=arpack blas debug doc examples hdf5 lapack mkl superlu tbb test 
+KEYWORDS=amd64 ~arm ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0/8
+SRC_URI=mirror://sourceforge/arma/armadillo-8.300.2.tar.xz

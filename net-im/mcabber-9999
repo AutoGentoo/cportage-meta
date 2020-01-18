@@ -1,0 +1,9 @@
+8037d4d3810193973a615d6a8e99360d
+DEFINED_PHASES= configure install postinst setup
+DEPEND=crypt? ( >=app-crypt/gpgme-1.0.0 )  otr? ( >=net-libs/libotr-3.1.0 )  aspell? ( app-text/aspell )  vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )  idn? ( net-dns/libidn:= )  spell? ( app-text/enchant )  dev-libs/glib:2  net-libs/libnsl:0=  sys-libs/ncurses:0=  >=net-libs/loudmouth-1.4.3-r1[ssl?]  virtual/pkgconfig 
+RDEPEND=crypt? ( >=app-crypt/gpgme-1.0.0 )  otr? ( >=net-libs/libotr-3.1.0 )  aspell? ( app-text/aspell )  vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )  idn? ( net-dns/libidn:= )  spell? ( app-text/enchant )  dev-libs/glib:2  net-libs/libnsl:0=  sys-libs/ncurses:0=  >=net-libs/loudmouth-1.4.3-r1[ssl?] 
+EAPI=7
+IUSE=aspell crypt idn otr spell ssl vim-syntax l10n_cs l10n_de l10n_fr l10n_it l10n_nl l10n_pl l10n_ru l10n_uk 
+KEYWORDS=
+SLOT=0
+SRC_URI=

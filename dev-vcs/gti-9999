@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=dev-vcs/git 
+RDEPEND=dev-vcs/git 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

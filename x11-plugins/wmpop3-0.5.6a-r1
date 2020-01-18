@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-wm/windowmaker  x11-libs/libXpm 
+RDEPEND=x11-wm/windowmaker  x11-libs/libXpm 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~sparc x86
+SLOT=0
+SRC_URI=https://www.dockapps.net/download/WMPop3-0.5.6a.tar.gz

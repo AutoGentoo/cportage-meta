@@ -1,0 +1,10 @@
+a63443f430b97f00e9d29f5ebc324733
+DEFINED_PHASES= configure postinst prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-db/sqlite-3.4:3  >=dev-libs/openssl-1.1.0:0=  dev-libs/qtkeychain[qt5(+)]  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsql:5  dev-qt/qtwebengine:5[widgets]  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-fs/inotify-tools  dolphin? (   kde-frameworks/kcoreaddons:5   kde-frameworks/kio:5  )  nautilus? ( dev-python/nautilus-python )  shibboleth? ( dev-qt/qtwebkit:5 )  dev-qt/linguist-tools:5  doc? (   dev-python/sphinx   dev-tex/latexmk   dev-texlive/texlive-latexextra   virtual/latex-base  )  dolphin? ( kde-frameworks/extra-cmake-modules )  test? (   dev-util/cmocka   dev-qt/qttest:5  ) 
+RDEPEND=>=dev-db/sqlite-3.4:3  >=dev-libs/openssl-1.1.0:0=  dev-libs/qtkeychain[qt5(+)]  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsql:5  dev-qt/qtwebengine:5[widgets]  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-fs/inotify-tools  dolphin? (   kde-frameworks/kcoreaddons:5   kde-frameworks/kio:5  )  nautilus? ( dev-python/nautilus-python )  shibboleth? ( dev-qt/qtwebkit:5 ) 
+EAPI=7
+IUSE=doc dolphin nautilus shibboleth test 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/nextcloud/desktop/archive/v2.6.1.tar.gz -> nextcloud-client-2.6.1.tar.gz

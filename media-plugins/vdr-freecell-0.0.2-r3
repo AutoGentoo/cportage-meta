@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=media-video/vdr-2 
+RDEPEND=>=media-tv/gentoo-vdr-scripts-0.4.2  >=app-eselect/eselect-vdr-0.0.2 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://vdr.websitec.de/download/vdr-freecell/vdr-freecell-0.0.2.tgz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/HTML-FromText-1.004 
+RDEPEND=>=dev-perl/HTML-FromText-1.004 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ppc x86 ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ED/EDAVIS/Log-TraceMessages-1.4.tar.gz

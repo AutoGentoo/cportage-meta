@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND= sys-devel/make >=dev-util/cmake-3.9.6 
+EAPI=6
+IUSE=
+KEYWORDS=~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://opensource.apple.com/tarballs/tapi/tapi-1.30.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm preinst
+DEPEND=app-arch/unzip 
+RDEPEND=games-engines/love:0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/SimonLarsen/mrrescue/releases/download/v1.02b/mrrescue-1.02b-love.zip
+	https://dev.gentoo.org/~hasufell/distfiles/mrrescue.png

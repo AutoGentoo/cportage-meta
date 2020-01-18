@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+RDEPEND=|| ( dev-php/PEAR-MDB2 dev-php/PEAR-DB )  dev-php/PEAR-Date  !minimal? ( dev-php/PEAR-Validate ) 
+EAPI=6
+IUSE=minimal 
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/DB_DataObject-1.11.5.tgz

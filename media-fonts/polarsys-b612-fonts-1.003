@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm arm64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://git.polarsys.org/c/b612/b612.git/snapshot/b612-bd14fde2544566e620eab106eb8d6f2b7fb1347e.tar.bz2 -> polarsys-b612-fonts-1.003.tar.bz2

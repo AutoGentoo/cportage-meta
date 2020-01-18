@@ -1,0 +1,10 @@
+919b2a6d8272bddd4b6b67eedc63654e
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/icu:=  virtual/jpeg:0  png? ( media-libs/libpng:* )  ssl? ( dev-libs/openssl:0= )  tcpd? ( sys-apps/tcp-wrappers )  tiff? ( media-libs/tiff:0 )  xml? ( dev-libs/libxml2:2 )  zlib? ( sys-libs/zlib )  media-gfx/graphviz  doc? ( app-doc/doxygen ) 
+RDEPEND=  dev-libs/icu:=  virtual/jpeg:0  png? ( media-libs/libpng:* )  ssl? ( dev-libs/openssl:0= )  tcpd? ( sys-apps/tcp-wrappers )  tiff? ( media-libs/tiff:0 )  xml? ( dev-libs/libxml2:2 )  zlib? ( sys-libs/zlib ) 
+EAPI=7
+IUSE=doc png ssl tcpd tiff +threads xml zlib 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://dicom.offis.de/download/dcmtk/release/dcmtk-3.6.4.tar.gz

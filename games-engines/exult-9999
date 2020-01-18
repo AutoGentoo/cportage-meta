@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure postinst prepare
+DEPEND=  >=media-libs/libpng-1.2.43-r2:0  games-misc/exult-sound  media-libs/libvorbis  sdl2? ( media-libs/libsdl2[sound,video,X] )  !sdl2? ( media-libs/libsdl[sound,video,X] )  timidity? ( >=media-sound/timidity++-2 )  zlib? ( sys-libs/zlib )  
+RDEPEND=  >=media-libs/libpng-1.2.43-r2:0  games-misc/exult-sound  media-libs/libvorbis  sdl2? ( media-libs/libsdl2[sound,video,X] )  !sdl2? ( media-libs/libsdl[sound,video,X] )  timidity? ( >=media-sound/timidity++-2 )  zlib? ( sys-libs/zlib )  
+EAPI=6
+IUSE=+sdl2 timidity zlib 
+KEYWORDS=
+SLOT=0
+SRC_URI=

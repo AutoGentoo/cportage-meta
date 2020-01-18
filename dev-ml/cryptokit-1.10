@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure postinst test
+DEPEND=zlib? ( >=sys-libs/zlib-1.1 ) 
+RDEPEND=zlib? ( >=sys-libs/zlib-1.1 ) 
+EAPI=5
+IUSE=zlib 
+KEYWORDS=amd64 ppc x86
+SLOT=0/1.10
+SRC_URI=http://forge.ocamlcore.org/frs/download.php/1493/cryptokit-1.10.tar.gz

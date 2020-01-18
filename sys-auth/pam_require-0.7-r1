@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=sys-libs/pam 
+RDEPEND=sys-libs/pam 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ia64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://www.splitbrain.org/_media/projects/pamrequire/pam_require-0.7.tgz

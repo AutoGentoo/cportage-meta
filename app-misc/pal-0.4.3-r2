@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile install prepare
+DEPEND=    >=dev-libs/glib-2.0  nls? ( virtual/libintl )  sys-libs/ncurses:0  sys-libs/readline:0   nls? ( sys-devel/gettext )  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.0  nls? ( virtual/libintl )  sys-libs/ncurses:0  sys-libs/readline:0  
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 ~hppa ppc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/palcal/pal-0.4.3.tgz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-go/qr:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0_p20180418
+SRC_URI=https://github.com/gokyle/twofactor/archive/bbc82ff8de72400ce39a13077627531d9841ad62.tar.gz -> twofactor-0_p20180418.tar.gz

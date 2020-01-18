@@ -1,0 +1,10 @@
+5b051e99210b5e5415b74bbb4eb77ce9
+DEFINED_PHASES= install nofetch postinst prepare unpack
+DEPEND=cdinstall? (   app-arch/unarj   dev-util/xdelta:3  )  !cdinstall? (   app-arch/innoextract  ) 
+RDEPEND=!<games-action/d2x-0.2.5-r3  !games-action/descent2-demodata 
+EAPI=6
+IUSE=doc videos 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=cdinstall? ( http://www.dxx-rebirth.com/download/dxx/misc/d2xptch12.tgz )
+	!cdinstall? ( setup_descent_2_1.1_(16596).exe )

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Differences   dev-perl/Test-Memory-Cycle  ) 
+RDEPEND=dev-perl/HTML-Parser 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NI/NIGELM/HTML-Scrubber-0.17.tar.gz

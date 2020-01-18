@@ -1,0 +1,9 @@
+25791aa3373b451bab188db5a54dd036
+DEFINED_PHASES= compile install prepare setup test
+DEPEND=>=dev-lang/go-1.12:= 
+RDEPEND=!dev-db/etcdctl 
+EAPI=6
+IUSE=doc +server 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/coreos/etcd/archive/v3.3.18.tar.gz -> etcd-3.3.18.tar.gz

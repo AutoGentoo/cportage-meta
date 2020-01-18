@@ -1,0 +1,8 @@
+e251af4a0c28de13513391be670515d7
+DEFINED_PHASES= install prepare unpack
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0/6.11
+SRC_URI=http://docs.avagotech.com/docs-and-downloads/docs-and-downloads/raid-controllers/raid-controllers-common-files/1.19.04_StorCLI.zip -> storcli-1.19.04.zip

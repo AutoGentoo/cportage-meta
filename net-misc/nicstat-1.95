@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/scotte/nicstat/archive/a716ee81cbf1e177267e20a880b5a0d9fa5b689e.tar.gz -> nicstat-1.95.tar.gz

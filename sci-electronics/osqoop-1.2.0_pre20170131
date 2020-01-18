@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  sci-libs/fftw:3.0  virtual/libusb:0  x11-libs/libXtst 
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  sci-libs/fftw:3.0  virtual/libusb:0  x11-libs/libXtst 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/sandsmark/osqoop/archive/b5bd459dd5c2a180a9a3e5a706ed5039159d7286.tar.gz -> osqoop-1.2.0_pre20170131.tar.gz

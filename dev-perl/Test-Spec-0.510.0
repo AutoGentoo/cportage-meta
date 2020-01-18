@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  virtual/perl-Exporter  virtual/perl-Scalar-List-Utils  >=dev-perl/Package-Stash-0.230.0  virtual/perl-Test-Harness  >=dev-perl/Test-Deep-0.103.0  >=virtual/perl-Test-Simple-0.880.0  dev-perl/Test-Trap  dev-perl/Tie-IxHash   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-Carp  virtual/perl-Exporter  virtual/perl-Scalar-List-Utils  >=dev-perl/Package-Stash-0.230.0  virtual/perl-Test-Harness  >=dev-perl/Test-Deep-0.103.0  >=virtual/perl-Test-Simple-0.880.0  dev-perl/Test-Trap  dev-perl/Tie-IxHash  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AN/ANDYJONES/Test-Spec-0.51.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  >=dev-perl/AnyEvent-5  ev? ( >=dev-perl/EV-4.0.0 )  event? ( >=dev-perl/Event-0.890.0 )  >=dev-perl/Guard-0.500.0  virtual/perl-Scalar-List-Utils  >=virtual/perl-Storable-2.150.0  dev-perl/common-sense   dev-perl/Canary-Stability  >=virtual/perl-ExtUtils-MakeMaker-6.520.0  
+RDEPEND=  >=dev-perl/AnyEvent-5  ev? ( >=dev-perl/EV-4.0.0 )  event? ( >=dev-perl/Event-0.890.0 )  >=dev-perl/Guard-0.500.0  virtual/perl-Scalar-List-Utils  >=virtual/perl-Storable-2.150.0  dev-perl/common-sense  
+EAPI=6
+IUSE=+ev event 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/ML/MLEHMANN/Coro-6.514.tar.gz

@@ -1,0 +1,8 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install prepare
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/nmeap/nmeap-0.3.tar.gz

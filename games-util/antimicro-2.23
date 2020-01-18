@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-libs/libsdl2[X,joystick]  x11-libs/libX11  x11-libs/libXtst   dev-qt/linguist-tools:5  virtual/pkgconfig  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-libs/libsdl2[X,joystick]  x11-libs/libX11  x11-libs/libXtst  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/AntiMicro/antimicro/archive/2.23.tar.gz -> antimicro-2.23.tar.gz

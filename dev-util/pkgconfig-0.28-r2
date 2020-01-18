@@ -1,0 +1,9 @@
+f87396dbe5349b0114b50a8dbf28e719
+DEFINED_PHASES= prepare
+DEPEND=!internal-glib? ( >=dev-libs/glib-2.34.3[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  !dev-util/pkgconf[pkg-config]  !dev-util/pkg-config-lite  !dev-util/pkgconfig-openbsd[pkg-config] 
+RDEPEND=!internal-glib? ( >=dev-libs/glib-2.34.3[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  !dev-util/pkgconf[pkg-config]  !dev-util/pkg-config-lite  !dev-util/pkgconfig-openbsd[pkg-config] 
+EAPI=5
+IUSE=elibc_FreeBSD elibc_glibc hardened internal-glib 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://pkgconfig.freedesktop.org/releases/pkg-config-0.28.tar.gz

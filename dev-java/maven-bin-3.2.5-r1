@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= install postinst postrm
+DEPEND=  >=virtual/jdk-1.8  app-eselect/eselect-java 
+RDEPEND=  >=virtual/jre-1.8 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=3.2
+SRC_URI=mirror://apache/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz

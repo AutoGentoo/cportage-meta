@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  virtual/libusb:1  dev-libs/libxml2  
+RDEPEND=  virtual/libusb:1  dev-libs/libxml2  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/codestation/vitamtp/archive/7ab537a4f45e34984cbeb9cf1b1af543a75a3dc0.tar.gz -> vitamtp-2.5.9_pre20160829.tar.gz

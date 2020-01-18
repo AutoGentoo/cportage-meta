@@ -1,0 +1,10 @@
+0b50646cd2c868f6490a49afe81eef9c
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=  sys-devel/bison  sys-devel/flex  virtual/pkgconfig  extras? ( app-doc/doxygen[dot]     app-doc/xmltoman     app-text/htmldoc     dev-perl/CGI     dev-perl/SQL-Translator  ) 
+DEPEND=  app-crypt/gpgme:=  dev-db/redis  dev-libs/libgcrypt:=  dev-libs/libksba  >=net-analyzer/gvm-libs-10.0.1  net-analyzer/net-snmp  net-libs/gnutls:=  net-libs/libpcap  net-libs/libssh:=  
+RDEPEND=    app-crypt/gpgme:=  dev-db/redis  dev-libs/libgcrypt:=  dev-libs/libksba  >=net-analyzer/gvm-libs-10.0.1  net-analyzer/net-snmp  net-libs/gnutls:=  net-libs/libpcap  net-libs/libssh:=  
+EAPI=7
+IUSE=cron extras 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/greenbone/openvas-scanner/archive/v6.0.1.tar.gz -> openvas-scanner-6.0.1.tar.gz

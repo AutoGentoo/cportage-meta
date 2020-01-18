@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=atasmart? ( dev-libs/libatasmart )  yaml? ( dev-cpp/yaml-cpp ) 
+RDEPEND=atasmart? ( dev-libs/libatasmart )  yaml? ( dev-cpp/yaml-cpp )  nvidia? ( x11-drivers/nvidia-drivers ) 
+EAPI=7
+IUSE=atasmart nvidia +yaml 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/vmatare/thinkfan/archive/1.0.2.tar.gz -> thinkfan-1.0.2.tar.gz

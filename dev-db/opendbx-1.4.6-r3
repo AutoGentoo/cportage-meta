@@ -1,0 +1,9 @@
+00d83853fb9df458e9ecbc9bbafd51d0
+DEFINED_PHASES= compile configure install prepare setup
+DEPEND=mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:* )  sqlite? ( dev-db/sqlite:3 )  oracle? ( dev-db/oracle-instantclient-basic )  firebird? ( dev-db/firebird )  man? ( app-doc/doxygen   app-text/docbook2X ) 
+RDEPEND=mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:* )  sqlite? ( dev-db/sqlite:3 )  oracle? ( dev-db/oracle-instantclient-basic )  firebird? ( dev-db/firebird ) 
+EAPI=6
+IUSE=firebird +man +mysql oracle postgres sqlite 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.linuxnetworks.de/opendbx/download/opendbx-1.4.6.tar.gz

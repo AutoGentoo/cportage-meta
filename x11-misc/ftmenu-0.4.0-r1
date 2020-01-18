@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+DEPEND=>=x11-libs/gtk+-2.6:2  >=dev-libs/glib-2.6:2  virtual/pkgconfig 
+RDEPEND=>=x11-libs/gtk+-2.6:2  >=dev-libs/glib-2.6:2  x11-wm/fluxbox 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ftmenu/ftmenu-0.4.0.tar.gz

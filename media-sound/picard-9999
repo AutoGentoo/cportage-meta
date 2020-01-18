@@ -1,0 +1,10 @@
+29ad2a0289c3a04d026bf193c0f47e4c
+DEFINED_PHASES= postinst
+BDEPEND=  nls? ( dev-qt/linguist-tools:5 )  
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info  
+RDEPEND=  dev-python/PyQt5[declarative,gui,network,widgets,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?,python_single_target_python3_7(+)?]  dev-qt/qtgui:5[accessibility]  >=media-libs/mutagen-1.38 
+EAPI=7
+IUSE=nls 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,11 @@
+07ad5f6e43f1463779c478c16fe85992
+DEFINED_PHASES= compile install postinst prepare unpack
+DEPEND=>=sys-libs/libselinux-2.9:=[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=sys-libs/libcap-1.10-r10:=  >=sys-libs/libsemanage-2.9:=[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  sys-libs/libcap-ng:=  >=sys-libs/libsepol-2.9:=  >=app-admin/setools-4.2.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  sys-devel/gettext  dev-python/ipy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dbus? (   sys-apps/dbus   dev-libs/dbus-glib:=  )  audit? ( >=sys-process/audit-1.5.1[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  pam? ( sys-libs/pam:= )  python_targets_python3_6? ( dev-lang/python:3.6[xml] ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  !<sec-policy/selinux-base-policy-2.20151208-r6 
+RDEPEND=>=sys-libs/libselinux-2.9:=[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=sys-libs/libcap-1.10-r10:=  >=sys-libs/libsemanage-2.9:=[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  sys-libs/libcap-ng:=  >=sys-libs/libsepol-2.9:=  >=app-admin/setools-4.2.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  sys-devel/gettext  dev-python/ipy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dbus? (   sys-apps/dbus   dev-libs/dbus-glib:=  )  audit? ( >=sys-process/audit-1.5.1[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  pam? ( sys-libs/pam:= )  python_targets_python3_6? ( dev-lang/python:3.6[xml] ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  !<sec-policy/selinux-base-policy-2.20151208-r6  app-misc/pax-utils  !<sys-apps/openrc-0.14 
+PDEPEND=sys-apps/semodule-utils  sys-apps/selinux-python 
+EAPI=6
+IUSE=audit dbus pam split-usr 
+KEYWORDS=amd64 ~arm64 ~mips x86
+SLOT=0
+SRC_URI=https://github.com/SELinuxProject/selinux/releases/download/20190315/policycoreutils-2.9.tar.gz
+		https://dev.gentoo.org/~perfinion/distfiles/policycoreutils-extra-1.36.tar.bz2

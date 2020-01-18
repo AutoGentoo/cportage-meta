@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip  dev-java/ant-core:0  dev-java/args4j:2 
+RDEPEND=>=virtual/jre-1.6  dev-java/ant-core:0  dev-java/args4j:2 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://maven.java.net/content/repositories/releases/com/sun/istack/istack-commons-soimp/2.22/istack-commons-soimp-2.22-sources.jar

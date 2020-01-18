@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=dev-libs/glib:2  x11-libs/gtk+:2  media-libs/libsdl  media-libs/libpng:0  ftdi? ( dev-embedded/libftdi:0 )  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  x11-libs/gtk+:2  media-libs/libsdl  media-libs/libpng:0  ftdi? ( dev-embedded/libftdi:0 ) 
+EAPI=6
+IUSE=ftdi 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://tucnak.nagano.cz/libzia-4.18.tar.gz

@@ -1,0 +1,10 @@
+221af2b20e60a4505a06cc930e5c9145
+DEFINED_PHASES= compile install prepare test
+DEPEND=dev-db/sqlite 
+RDEPEND=dev-db/sqlite 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=http://repo.or.cz/w/smatch.git/snapshot/1.60.tar.gz -> smatch-1.60.tar.gz
+		mirror://gentoo/smatch-1.60.tar.gz

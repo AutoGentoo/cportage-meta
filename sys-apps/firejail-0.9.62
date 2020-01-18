@@ -1,0 +1,9 @@
+70fad422a84674f769b7351f05d0c28a
+DEFINED_PHASES= configure install prepare
+DEPEND=!sys-apps/firejail-lts  apparmor? ( sys-libs/libapparmor )  test? ( dev-tcltk/expect ) 
+RDEPEND=apparmor? ( sys-libs/libapparmor ) 
+EAPI=7
+IUSE=apparmor +chroot contrib debug +file-transfer +globalcfg +network +overlayfs +private-home +seccomp +suid test +userns vim-syntax +whitelist x11 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/netblue30/firejail/archive/0.9.62.tar.gz -> firejail-0.9.62.tar.gz

@@ -1,0 +1,9 @@
+8198b13f3f3aa6ae50f0cfabc07c4554
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=bbdb? ( app-emacs/bbdb )  sys-apps/texinfo 
+RDEPEND=bbdb? ( app-emacs/bbdb )  ssl? ( net-misc/stunnel ) 
+EAPI=7
+IUSE=bbdb ssl 
+KEYWORDS=~alpha amd64 ~ia64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://launchpad.net/vm/8.2.x/8.2.0b/+download/vm-8.2.0b.tgz

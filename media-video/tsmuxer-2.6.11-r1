@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=|| (  >=app-arch/upx-3.01[lzma]  >=app-arch/upx-bin-3.01 ) 
+RDEPEND=  >=media-libs/freetype-2.5.0.1:2[abi_x86_32(-)]  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://drive.google.com/uc?export=download&id=0B0VmPcEZTp8NekJxLUVJRWMwejQ -> tsmuxer-2.6.11.tar.gz

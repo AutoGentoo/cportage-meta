@@ -1,0 +1,9 @@
+1a8f0c3990ca34ca0f4ba3010f90b3e9
+DEFINED_PHASES=-
+DEPEND=ncurses? ( dev-python/urwid[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  gtk? (   dev-python/pygobject:3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pycairo[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  qt5? (   dev-python/PyQt5[python_targets_python3_6(-)?,-python_single_target_python3_6(-),gui,widgets]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+RDEPEND=sys-process/lsof  inotify? ( dev-python/pyinotify )  ncurses? ( dev-python/urwid[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  gtk? (   dev-python/pygobject:3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pycairo[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  qt5? (   dev-python/PyQt5[python_targets_python3_6(-)?,-python_single_target_python3_6(-),gui,widgets]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+EAPI=6
+IUSE=+ncurses cli gtk inotify qt5 
+KEYWORDS=
+SLOT=0
+SRC_URI=

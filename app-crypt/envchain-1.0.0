@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=  sys-libs/readline:0=  app-crypt/libsecret 
+RDEPEND=  sys-libs/readline:0=  app-crypt/libsecret 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/sorah/envchain/archive/v1.0.0.tar.gz -> envchain-1.0.0.tar.gz

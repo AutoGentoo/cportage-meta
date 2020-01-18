@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~mips ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AP/APEIRON/Net-IRC-0.79.tar.gz

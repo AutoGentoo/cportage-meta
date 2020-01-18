@@ -1,0 +1,9 @@
+80ee82b7bcd1ec199d242d8d297409ae
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  net-libs/libtirpc  dev-libs/expat  >=sci-libs/proj-4.9.0:=  <sci-libs/proj-6.0.0:=  sys-libs/zlib  
+RDEPEND=  net-libs/libtirpc  dev-libs/expat  >=sci-libs/proj-4.9.0:=  <sci-libs/proj-6.0.0:=  sys-libs/zlib  
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=amd64 ~arm arm64 ~ia64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/ogdi/ogdi-3.2.0.tar.gz

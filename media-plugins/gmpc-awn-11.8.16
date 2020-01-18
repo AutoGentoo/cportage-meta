@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  nls? (   dev-util/intltool   sys-devel/gettext  ) 
+DEPEND=  >=media-sound/gmpc-11.8.16  dev-libs/dbus-glib 
+RDEPEND=  >=media-sound/gmpc-11.8.16  dev-libs/dbus-glib 
+EAPI=7
+IUSE=nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://download.sarine.nl/Programs/gmpc/11.8/gmpc-awn-11.8.16.tar.gz

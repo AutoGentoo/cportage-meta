@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-php/PEAR-DB-1.7.6-r1 
+RDEPEND=>=dev-php/PEAR-DB-1.7.6-r1 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cphplib/cphplib-0.51.tar.bz2

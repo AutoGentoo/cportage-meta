@@ -1,0 +1,9 @@
+4fe5e8f9b608cddc1dc87cf874be3d02
+DEFINED_PHASES= configure prepare
+DEPEND=>=dev-libs/glib-2.6:2  >=dev-libs/check-0.9.11  >=dev-util/gtk-doc-am-1.2  virtual/pkgconfig  
+RDEPEND=>=dev-libs/glib-2.6:2 
+EAPI=5
+IUSE=test 
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
+SLOT=2
+SRC_URI=mirror://gnome/sources/gnet/2.0/gnet-2.0.8.tar.bz2

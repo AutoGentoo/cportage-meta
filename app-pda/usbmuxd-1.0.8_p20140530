@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install setup
+DEPEND=  acct-group/plugdev  >=app-pda/libimobiledevice-1.1.6  >=app-pda/libplist-1.11  virtual/libusb:1  virtual/os-headers  virtual/pkgconfig 
+RDEPEND=  acct-group/plugdev  >=app-pda/libimobiledevice-1.1.6  >=app-pda/libplist-1.11  virtual/libusb:1 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ssuominen/usbmuxd-1.0.8_p20140530.tar.xz

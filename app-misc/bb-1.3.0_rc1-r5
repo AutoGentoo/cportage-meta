@@ -1,0 +1,10 @@
+f15d0d3415c6b03ae809b08e27693246
+DEFINED_PHASES= postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=media-libs/aalib:=  dev-libs/lzo:=  mikmod? ( media-libs/libmikmod:=[openal] )  
+RDEPEND=media-libs/aalib:=  dev-libs/lzo:=  mikmod? ( media-libs/libmikmod:=[openal] )  
+EAPI=7
+IUSE=mikmod 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/aa-project/bb-1.3rc1.tar.gz

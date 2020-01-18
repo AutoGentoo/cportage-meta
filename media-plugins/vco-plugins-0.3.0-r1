@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=media-libs/ladspa-sdk 
+RDEPEND=media-libs/ladspa-sdk 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/VCO-plugins-0.3.0.tar.bz2

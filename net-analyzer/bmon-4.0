@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=    >=sys-libs/ncurses-5.3-r2:0=  dev-libs/confuse:=  dev-libs/libnl:3   virtual/pkgconfig  
+RDEPEND=  >=sys-libs/ncurses-5.3-r2:0=  dev-libs/confuse:=  dev-libs/libnl:3  
+EAPI=6
+IUSE=kernel_linux 
+KEYWORDS=amd64 ~arm hppa ~ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=
+	https://codeload.github.com/tgraf/bmon/tar.gz/v4.0 -> bmon-4.0.tar.gz
+

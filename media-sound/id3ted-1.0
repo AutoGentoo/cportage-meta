@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup
+DEPEND=  media-libs/taglib  sys-apps/file 
+RDEPEND=  media-libs/taglib  sys-apps/file 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/muennich/id3ted/archive/v1.0.tar.gz -> id3ted-1.0.tar.gz

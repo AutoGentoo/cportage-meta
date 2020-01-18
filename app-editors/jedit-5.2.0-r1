@@ -1,0 +1,9 @@
+1013eaec74f82a760ca98e0c885f23b6
+DEFINED_PHASES= install postinst postrm test
+DEPEND=    dev-java/bsh:0  dev-java/jsr305:0  dev-java/ant-contrib:0  dev-java/ant-apache-bsf:0  >=virtual/jdk-1.7 
+RDEPEND=    dev-java/bsh:0  dev-java/jsr305:0  dev-java/ant-contrib:0  dev-java/ant-apache-bsf:0  >=virtual/jre-1.7 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jedit/jedit5.2.0source.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst
+DEPEND=  x11-libs/libX11  x11-libs/libXScrnSaver   
+RDEPEND=  x11-libs/libX11  x11-libs/libXScrnSaver   
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~hppa ~x86
+SLOT=0
+SRC_URI=http://distcache.freebsd.org/local-distfiles/novel/xidle-26052015.tar.bz2

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  app-text/asciidoc  virtual/pkgconfig  test? (   dev-texlive/texlive-latex   dev-texlive/texlive-latexrecommended   dev-util/dejagnu  ) 
+DEPEND=  app-text/poppler:=[cxx]  dev-libs/libgcrypt:0=  pcre? ( dev-libs/libpcre[cxx] )  unac? ( app-text/unac ) 
+RDEPEND=  app-text/poppler:=[cxx]  dev-libs/libgcrypt:0=  pcre? ( dev-libs/libpcre[cxx] )  unac? ( app-text/unac ) 
+EAPI=7
+IUSE=+pcre test unac 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.pdfgrep.org/download/pdfgrep-2.1.2.tar.gz

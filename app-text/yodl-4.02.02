@@ -1,0 +1,8 @@
+c3442353c939ebf7fc544619a2d932ad
+DEFINED_PHASES= compile install prepare pretend
+DEPEND=>=dev-util/icmake-8.00.00 
+EAPI=7
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://gitlab.com/fbb-git/yodl/-/archive/4.02.02/yodl-4.02.02.tar.gz

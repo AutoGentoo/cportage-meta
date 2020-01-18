@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  net-dns/libidn  test? (   dev-python/aiodns[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/aiohttp[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyasn1-modules[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyasn1[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  
+RDEPEND=  dev-python/aiodns[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/aiohttp[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyasn1-modules[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyasn1[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

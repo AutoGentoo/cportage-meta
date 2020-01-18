@@ -1,0 +1,9 @@
+a9a8198fde65ac37a965183d1410f192
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=!sys-cluster/heartbeat  infiniband? (   sys-fabric/libibverbs:*   sys-fabric/librdmacm:*  )  dev-libs/nss  >=sys-cluster/libqb-0.14.4  virtual/pkgconfig  doc? ( sys-apps/groff ) 
+RDEPEND=!sys-cluster/heartbeat  infiniband? (   sys-fabric/libibverbs:*   sys-fabric/librdmacm:*  )  dev-libs/nss  >=sys-cluster/libqb-0.14.4 
+EAPI=6
+IUSE=doc infiniband static-libs systemd xml 
+KEYWORDS=~amd64 ~arm64 ~hppa ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/corosync/corosync/archive/v2.4.2.tar.gz -> corosync-2.4.2.tar.gz

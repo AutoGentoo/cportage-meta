@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Exporter-Lite  dev-perl/JSON  dev-perl/Test-Deep   >=virtual/perl-ExtUtils-MakeMaker-6.590.0  >=dev-perl/Module-Build-Tiny-0.35.0  test? (   >=virtual/perl-Test-Simple-1.1.10  )  
+RDEPEND=  dev-perl/Exporter-Lite  dev-perl/JSON  dev-perl/Test-Deep  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MO/MOTEMEN/Test-Deep-JSON-0.04.tar.gz

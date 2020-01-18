@@ -1,0 +1,10 @@
+8f061b75a7c813b82489ece596e8bb6b
+DEFINED_PHASES= compile configure install postinst prepare pretend test unpack
+BDEPEND=  X? (   x11-libs/libX11   x11-libs/libSM   x11-libs/libICE   )  blas? ( virtual/blas )  cuda? ( >=dev-util/nvidia-cuda-toolkit-4.2.9-r1 )  opencl? ( virtual/opencl )  fftw? ( sci-libs/fftw:3.0 )  hwloc? ( <sys-apps/hwloc-2 )  lapack? ( virtual/lapack )  mkl? ( sci-libs/mkl )  mpi? ( virtual/mpi )    virtual/pkgconfig  doc? (   app-doc/doxygen   dev-texlive/texlive-latex   dev-texlive/texlive-latexextra   media-gfx/imagemagick  ) 
+RDEPEND=  X? (   x11-libs/libX11   x11-libs/libSM   x11-libs/libICE   )  blas? ( virtual/blas )  cuda? ( >=dev-util/nvidia-cuda-toolkit-4.2.9-r1 )  opencl? ( virtual/opencl )  fftw? ( sci-libs/fftw:3.0 )  hwloc? ( <sys-apps/hwloc-2 )  lapack? ( virtual/lapack )  mkl? ( sci-libs/mkl )  mpi? ( virtual/mpi )   
+EAPI=7
+IUSE=X blas cuda +doc -double-precision +fftw +hwloc lapack mkl mpi +offensive opencl openmp +single-precision test +threads +tng cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 cpu_flags_x86_fma4 cpu_flags_x86_avx cpu_flags_x86_avx2 
+KEYWORDS=amd64 arm x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0/2018.8
+SRC_URI=ftp://ftp.gromacs.org/pub/gromacs/gromacs-2018.8.tar.gz
+		test? ( http://gerrit.gromacs.org/download/regressiontests-2018.8.tar.gz )

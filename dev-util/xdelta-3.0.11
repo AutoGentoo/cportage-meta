@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install test
+DEPEND=lzma? ( app-arch/xz-utils:= ) 
+RDEPEND=lzma? ( app-arch/xz-utils:= ) 
+EAPI=6
+IUSE=examples lzma 
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=3
+SRC_URI=https://github.com/jmacd/xdelta-gpl/releases/download/v3.0.11/xdelta3-3.0.11.tar.gz

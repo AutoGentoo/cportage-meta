@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dl.opendesktop.org/api/files/downloadfile/id/1460735439/s/bdd2fc99c6d7c6dae5a922c9ee5f688f/t/1524406902/u/54541/124442-Pulse-Glass.tar.gz

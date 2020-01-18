@@ -1,0 +1,9 @@
+191a387a5dcc10a9686c78b6bf82d230
+DEFINED_PHASES= prepare
+DEPEND=lzma? ( app-arch/xz-utils[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  libatomic? ( dev-libs/libatomic_ops[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+RDEPEND=lzma? ( app-arch/xz-utils[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+EAPI=6
+IUSE=debug debug-frame doc libatomic lzma +static-libs 
+KEYWORDS=amd64 arm arm64 hppa ia64 ~mips ppc ppc64 -sparc x86 ~amd64-linux ~x86-linux
+SLOT=7
+SRC_URI=mirror://nongnu/libunwind/libunwind-1.2.1.tar.gz

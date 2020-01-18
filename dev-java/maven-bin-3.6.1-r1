@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= install postinst postrm
+DEPEND=  >=virtual/jdk-1.8  app-eselect/eselect-java 
+RDEPEND=  >=virtual/jre-1.8 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=3.6
+SRC_URI=mirror://apache/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz

@@ -1,0 +1,9 @@
+5acc986902ca5fcc3e2a5ef4b2efad45
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=>=sys-apps/pcsc-lite-1.2.9  gtk? (   x11-libs/gdk-pixbuf[jpeg]   x11-libs/gtk+:*   dev-libs/libxml2   net-misc/curl[ssl]   net-libs/libproxy   !app-misc/eid-viewer-bin  )  p11-kit? ( app-crypt/p11-kit )  virtual/pkgconfig 
+RDEPEND=>=sys-apps/pcsc-lite-1.2.9  gtk? (   x11-libs/gdk-pixbuf[jpeg]   x11-libs/gtk+:*   dev-libs/libxml2   net-misc/curl[ssl]   net-libs/libproxy   !app-misc/eid-viewer-bin  )  p11-kit? ( app-crypt/p11-kit ) 
+EAPI=6
+IUSE=+dialogs +gtk +p11v220 p11-kit 
+KEYWORDS=
+SLOT=0
+SRC_URI=

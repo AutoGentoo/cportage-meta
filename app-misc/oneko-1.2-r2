@@ -1,0 +1,12 @@
+7ba0d7b24ee1e66e4b620a629d20bc41
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=    x11-libs/libX11  x11-libs/libXext   app-text/rman  x11-base/xorg-proto  x11-misc/gccmakedep  x11-misc/imake  
+RDEPEND=  x11-libs/libX11  x11-libs/libXext  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://www.daidouji.com/oneko/distfiles/oneko-1.2.sakura.5.tar.gz
+	mirror://gentoo/oneko-1.2-cat.png
+	mirror://gentoo/oneko-1.2-dog.png
+	mirror://gentoo/oneko-1.2-sakura-nobsd.patch.bz2

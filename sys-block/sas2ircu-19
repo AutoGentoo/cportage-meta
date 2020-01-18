@@ -1,0 +1,10 @@
+b69f3b78c52577630c25ed8af2880e61
+DEFINED_PHASES= install nofetch unpack
+EAPI=5
+IUSE=efi doc 
+KEYWORDS=-* ~amd64 ~ppc64 ~x86 ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=
+http://www.lsi.com/downloads/Public/Host%20Bus%20Adapters/Host%20Bus%20Adapters%20Common%20Files/SAS_SATA_6G_P19/SAS2IRCU_P19.zip
+doc? ( http://www.lsi.com/downloads/Public/Host%20Bus%20Adapters/Host%20Bus%20Adapters%20Common%20Files/SAS_SATA_6G_P12/SAS2IRCU_User_Guide.pdf )
+

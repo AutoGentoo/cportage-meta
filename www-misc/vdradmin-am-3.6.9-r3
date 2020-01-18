@@ -1,0 +1,9 @@
+afd6c0f3ddcd4f14600438886cd8ae1a
+DEFINED_PHASES= config install postinst preinst prepare setup unpack
+DEPEND=dev-lang/perl  dev-perl/Template-Toolkit  dev-perl/libwww-perl  dev-perl/URI  dev-perl/Locale-gettext  virtual/perl-IO-Compress  ipv6? ( dev-perl/IO-Socket-INET6 )  ssl? ( dev-perl/IO-Socket-SSL )  virtual/perl-libnet  dev-perl/Authen-SASL  dev-perl/Digest-HMAC 
+RDEPEND=dev-lang/perl  dev-perl/Template-Toolkit  dev-perl/libwww-perl  dev-perl/URI  dev-perl/Locale-gettext  virtual/perl-IO-Compress  ipv6? ( dev-perl/IO-Socket-INET6 )  ssl? ( dev-perl/IO-Socket-SSL )  virtual/perl-libnet  dev-perl/Authen-SASL  dev-perl/Digest-HMAC 
+EAPI=5
+IUSE=ipv6 ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://andreas.vdr-developer.org/vdradmin-am/download/vdradmin-am-3.6.9.tar.bz2

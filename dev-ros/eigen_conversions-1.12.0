@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sci-libs/orocos_kdl:=  dev-cpp/eigen:3  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/std_msgs[ros_messages_cxx(-)]  dev-ros/cmake_modules  
+RDEPEND=  sci-libs/orocos_kdl:=  dev-cpp/eigen:3  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/std_msgs[ros_messages_cxx(-)]  dev-ros/cmake_modules  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros/geometry/archive/1.12.0.tar.gz -> geometry-1.12.0.tar.gz

@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=sci-libs/fftw:3.0= 
+RDEPEND=sci-libs/fftw:3.0= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/arss/arss-0.2.3-src.tar.gz

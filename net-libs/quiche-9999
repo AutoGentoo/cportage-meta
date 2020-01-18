@@ -1,0 +1,8 @@
+1bbff456fafb9b307868450c90c1c793
+DEFINED_PHASES= prepare unpack
+BDEPEND=  >=virtual/rust-1.38.0[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  dev-util/cmake  dev-lang/go  dev-lang/perl  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0/0
+SRC_URI=

@@ -1,0 +1,9 @@
+c0bb85ac5ddf2b10e5c868482785aa81
+DEFINED_PHASES= configure install postinst preinst prepare
+DEPEND=  app-crypt/qca[qt5(+)]  dev-qt/qtcore:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtx11extras:5  sys-auth/libfprint  sys-auth/polkit-qt[qt5(+)]  sys-libs/pam  x11-libs/libX11  x11-libs/libfakekey  dev-libs/libusb  !sys-auth/thinkfinger  
+RDEPEND=  app-crypt/qca[qt5(+)]  dev-qt/qtcore:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtx11extras:5  sys-auth/libfprint  sys-auth/polkit-qt[qt5(+)]  sys-libs/pam  x11-libs/libX11  x11-libs/libfakekey  dev-libs/libusb  !sys-auth/thinkfinger  
+EAPI=6
+IUSE=+upekbsapi 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/maksbotan/fingerprint-gui/archive/v1.09-qt5.tar.gz -> fingerprint-gui-1.09.tar.gz

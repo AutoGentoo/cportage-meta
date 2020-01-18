@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  luajit? ( dev-lang/luajit:2 )  !luajit? ( >=dev-lang/lua-5.1:0 )  dev-libs/openssl:0[-bindist]  !dev-lua/lua-openssl  virtual/pkgconfig 
+RDEPEND=  luajit? ( dev-lang/luajit:2 )  !luajit? ( >=dev-lang/lua-5.1:0 )  dev-libs/openssl:0[-bindist]  !dev-lua/lua-openssl 
+EAPI=7
+IUSE=luajit 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/wahern/luaossl/archive/rel-20181207.tar.gz -> luaossl-rel-20181207.tar.gz

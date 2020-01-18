@@ -1,0 +1,9 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= test
+DEPEND=dev-php/pecl-apcu:7[php_targets_php7-1?,php_targets_php7-2?,php_targets_php7-3?] 
+RDEPEND=dev-php/pecl-apcu:7[php_targets_php7-1?,php_targets_php7-2?,php_targets_php7-3?] 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://pecl.php.net/get/apcu_bc-1.0.4.tgz

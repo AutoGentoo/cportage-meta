@@ -1,0 +1,9 @@
+eba8fd37026707bc2ae6756aa3623fd1
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=>=sys-libs/ncurses-5.2-r2:0=  sys-libs/readline:0=  =dev-db/sqlite-3*  nls? ( sys-devel/gettext )  || ( >=sys-devel/gcc-apple-4.2.1 sys-devel/llvm:* ) 
+RDEPEND=>=sys-libs/ncurses-5.2-r2:0=  sys-libs/readline:0=  =dev-db/sqlite-3* 
+EAPI=6
+IUSE=nls 
+KEYWORDS=~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.opensource.apple.com/darwinsource/tarballs/other/gdb-1752.tar.gz

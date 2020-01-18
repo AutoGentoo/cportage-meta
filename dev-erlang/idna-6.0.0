@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/erlang-21.0 
+RDEPEND=dev-lang/erlang 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/benoitc/erlang-idna/archive/6.0.0.tar.gz
+	-> idna-6.0.0.tar.gz

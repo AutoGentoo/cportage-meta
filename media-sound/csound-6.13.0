@@ -1,0 +1,17 @@
+5e3cac05fbd390c6cb2c573b00356069
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=  sys-devel/flex  virtual/yacc  chua? ( dev-libs/boost )  python? ( dev-lang/swig )  nls? ( sys-devel/gettext )  test? (   dev-util/cunit   python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   ) python_single_target_python3_8? (    dev-lang/python:3.8    >=dev-lang/python-exec-2:=[python_targets_python3_8]   )   )  
+DEPEND=    dev-cpp/eigen:3  >=media-libs/libsndfile-1.0.16  media-libs/libsamplerate  sys-libs/zlib  alsa? ( media-libs/alsa-lib )  curl? ( net-misc/curl )  dssi? (   media-libs/dssi   media-libs/ladspa-sdk  )  fluidsynth? ( media-sound/fluidsynth:= )  fltk? ( x11-libs/fltk:1[threads?] )  hdf5? ( sci-libs/hdf5 )  image? ( media-libs/libpng:0= )  jack? ( virtual/jack )  keyboard? ( x11-libs/fltk:1[threads?] )  linear? ( =sci-mathematics/gmm-5.1* )  lua? (   luajit? ( dev-lang/luajit:2 )   !luajit? ( dev-lang/lua:0 )  )  osc? ( media-libs/liblo )  portaudio? ( media-libs/portaudio )  portmidi? ( media-libs/portmidi )  pulseaudio? ( media-sound/pulseaudio )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   ) python_single_target_python3_8? (    dev-lang/python:3.8    >=dev-lang/python-exec-2:=[python_targets_python3_8]   )  )  stk? ( media-libs/stk )  utils? ( !media-sound/snd )  websocket? ( net-libs/libwebsockets:= )   dev-libs/boost doc? ( app-arch/unzip ) 
+RDEPEND=  dev-cpp/eigen:3  >=media-libs/libsndfile-1.0.16  media-libs/libsamplerate  sys-libs/zlib  alsa? ( media-libs/alsa-lib )  curl? ( net-misc/curl )  dssi? (   media-libs/dssi   media-libs/ladspa-sdk  )  fluidsynth? ( media-sound/fluidsynth:= )  fltk? ( x11-libs/fltk:1[threads?] )  hdf5? ( sci-libs/hdf5 )  image? ( media-libs/libpng:0= )  jack? ( virtual/jack )  keyboard? ( x11-libs/fltk:1[threads?] )  linear? ( =sci-mathematics/gmm-5.1* )  lua? (   luajit? ( dev-lang/luajit:2 )   !luajit? ( dev-lang/lua:0 )  )  osc? ( media-libs/liblo )  portaudio? ( media-libs/portaudio )  portmidi? ( media-libs/portmidi )  pulseaudio? ( media-sound/pulseaudio )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   ) python_single_target_python3_8? (    dev-lang/python:3.8    >=dev-lang/python-exec-2:=[python_targets_python3_8]   )  )  stk? ( media-libs/stk )  utils? ( !media-sound/snd )  websocket? ( net-libs/libwebsockets:= )  
+EAPI=7
+IUSE=+alsa beats chua curl +cxx debug doc double-precision dssi examples
+fltk +fluidsynth hdf5 +image jack keyboard linear lua luajit nls osc portaudio
+portaudio portmidi pulseaudio python samples static-libs stk test +threads +utils
+vim-syntax websocket 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~fordfrog/distfiles/csound-6.13.0-distributable.tar.xz
+		doc? (
+			https://github.com/csound/csound/releases/download/6.13.0/Csound6.13.0_manual_pdf.zip
+			https://github.com/csound/csound/releases/download/6.13.0/Csound6.13.0_manual_html.zip
+		)

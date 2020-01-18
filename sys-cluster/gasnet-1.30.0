@@ -1,0 +1,9 @@
+f98533f242e664feb8dfa5257b679172
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=mpi? ( virtual/mpi ) 
+RDEPEND=mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=mpi test threads 
+KEYWORDS=~amd64 ~arm
+SLOT=0/1.30.0
+SRC_URI=https://gasnet.lbl.gov/download/GASNet-1.30.0.tar.gz

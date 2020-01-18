@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    virtual/perl-Exporter  virtual/perl-ExtUtils-CBuilder  virtual/perl-File-Temp  virtual/perl-parent   >=dev-perl/Module-Build-Tiny-0.35.0  test? (   >=virtual/perl-Test-Simple-0.980.0  )  
+RDEPEND=  virtual/perl-Exporter  virtual/perl-ExtUtils-CBuilder  virtual/perl-File-Temp  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SY/SYOHEX/Devel-CheckCompiler-0.07.tar.gz

@@ -1,0 +1,9 @@
+7cb6c0c4f46bf16d385df42b954779a0
+DEFINED_PHASES= compile configure install
+DEPEND=sys-boot/grub:2=[grub_platforms_xen]  app-emulation/xen-tools:= 
+RDEPEND=sys-boot/grub:2=[grub_platforms_xen]  app-emulation/xen-tools:= 
+EAPI=5
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=

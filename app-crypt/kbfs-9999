@@ -1,0 +1,8 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile install test unpack
+RDEPEND=  app-crypt/gnupg  sys-fs/fuse:0=   
+EAPI=6
+IUSE=git 
+KEYWORDS=
+SLOT=0
+SRC_URI=

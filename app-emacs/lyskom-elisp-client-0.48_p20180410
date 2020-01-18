@@ -1,0 +1,9 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=7
+IUSE=l10n_sv 
+KEYWORDS=amd64 sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/lyskom-elisp-client-0.48_p20180410.tar.xz

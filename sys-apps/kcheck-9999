@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+RDEPEND=dev-python/configargparse[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=python_targets_python3_6 
+KEYWORDS=
+SLOT=0
+SRC_URI=

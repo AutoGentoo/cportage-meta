@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=  app-admin/gkrellm:2[X]  dev-libs/glib:2  x11-libs/gtk+:2  dev-perl/libwww-perl  dev-perl/Finance-Quote  virtual/pkgconfig 
+RDEPEND=  app-admin/gkrellm:2[X]  dev-libs/glib:2  x11-libs/gtk+:2  dev-perl/libwww-perl  dev-perl/Finance-Quote 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=2
+SRC_URI=mirror://sourceforge/gkrellstock/gkrellstock-0.5.1.tar.gz

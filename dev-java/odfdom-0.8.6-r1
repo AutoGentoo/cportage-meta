@@ -1,0 +1,9 @@
+344e0fbd3b8478e1a032575099eba826
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.5  dev-java/xerces:2  dev-java/xml-commons-external:1.4  test? (   dev-java/ant-junit4:0   dev-java/hamcrest-core:0   dev-java/junit:4  ) 
+RDEPEND=>=virtual/jre-1.5  dev-java/xerces:2  dev-java/xml-commons-external:1.4 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~ppc-aix ~x86-linux ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://odftoolkit.org/projects/odfdom/downloads/download/current-version%252Fodfdom-0.8.6-sources.zip -> odfdom-0.8.6-sources.zip

@@ -1,0 +1,9 @@
+927fc6c0669bc06f7a1e94c839b1ced3
+DEFINED_PHASES= config install postinst setup
+DEPEND=>=net-analyzer/icinga2-2.1.1   dev-php/pecl-imagick   pdf? ( media-gfx/imagemagick[png] )   apache2-server? ( >=www-servers/apache-2.4.0 )   nginx? ( >=www-servers/nginx-1.7.0:* )   || (    dev-lang/php:5.6[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]    dev-lang/php:7.1[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]    dev-lang/php:7.2[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]    dev-lang/php:7.3[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]   ) apache2? ( =www-servers/apache-2* ) 
+RDEPEND=>=net-analyzer/icinga2-2.1.1   dev-php/pecl-imagick   pdf? ( media-gfx/imagemagick[png] )   apache2-server? ( >=www-servers/apache-2.4.0 )   nginx? ( >=www-servers/nginx-1.7.0:* )   || (    dev-lang/php:5.6[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]    dev-lang/php:7.1[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]    dev-lang/php:7.2[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]    dev-lang/php:7.3[apache2?,cli,fpm?,gd,json,intl,ldap?,mysql?,nls,pdo,postgres?,sockets,ssl,xslt,xml]   ) apache2? ( =www-servers/apache-2* ) 
+EAPI=6
+IUSE=apache2 apache2-server fpm ldap mysql nginx pdf postgres apache2 
+KEYWORDS=
+SLOT=0
+SRC_URI=

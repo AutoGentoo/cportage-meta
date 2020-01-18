@@ -1,0 +1,8 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= install postinst prepare
+RDEPEND=app-portage/deltup  dev-util/bdelta 
+EAPI=5
+IUSE=
+KEYWORDS=~alpha ~amd64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://linux01.gwdg.de/~nlissne/getdelta-0.7.8.tar.bz2

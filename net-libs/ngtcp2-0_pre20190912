@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES=-
+BDEPEND=virtual/pkgconfig 
+DEPEND=ssl? ( >=dev-libs/openssl-1.1.1:0= )  test? ( >=dev-util/cunit-2.1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+EAPI=7
+IUSE=ssl test 
+KEYWORDS=~amd64 ~hppa
+SLOT=0/0
+SRC_URI=https://github.com/ngtcp2/ngtcp2/archive/5122d9e5e1e91c718ebc3933252ee42522c6e942.tar.gz -> ngtcp2-0_pre20190912.tar.gz

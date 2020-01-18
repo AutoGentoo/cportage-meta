@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=  sys-devel/bison  sys-devel/flex  
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info  test? ( dev-qt/qttest:5 )  dev-qt/qtcore:5 
+RDEPEND= || (     kde-frameworks/breeze-icons:*     kde-frameworks/oxygen-icons:*    ) >=kde-frameworks/kf-env-4  dev-qt/qtcore:5 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=5
+SRC_URI=mirror://kde/stable/kdevelop-pg-qt/2.2.0/src/kdevelop-pg-qt-2.2.0.tar.xz

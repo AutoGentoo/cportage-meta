@@ -1,0 +1,9 @@
+9be2a68e13a6c013229c512914aed441
+DEFINED_PHASES= compile configure install postinst preinst prepare setup unpack
+DEPEND=  virtual/pkgconfig 
+RDEPEND=  !<sci-libs/linux-gpib-4.2.0_rc1  
+EAPI=6
+IUSE=isa pcmcia debug 
+KEYWORDS=amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/linux-gpib/linux-gpib-4.2.0.tar.gz

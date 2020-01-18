@@ -1,0 +1,12 @@
+7d5270e259268031881b97fee7bb1ee4
+DEFINED_PHASES= compile configure install prepare
+DEPEND=    x11-libs/libX11  x11-libs/libXpm  x11-libs/libXt  svg? (   dev-libs/glib:2   gnome-base/librsvg:2   x11-libs/gtk+:2  )   app-text/rman  svg? ( virtual/pkgconfig )  x11-misc/imake  
+RDEPEND=  x11-libs/libX11  x11-libs/libXpm  x11-libs/libXt  svg? (   dev-libs/glib:2   gnome-base/librsvg:2   x11-libs/gtk+:2  )  
+EAPI=5
+IUSE=svg 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=
+	mirror://sourceforge/xxkb/xxkb-1.11.1-src.tar.gz
+	svg? ( https://dev.gentoo.org/~jer/xxkb-flags.tar.bz2 )
+

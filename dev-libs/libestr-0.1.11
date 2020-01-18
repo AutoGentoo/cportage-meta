@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=debug static-libs test 
+KEYWORDS=amd64 arm arm64 hppa x86
+SLOT=0
+SRC_URI=https://libestr.adiscon.com/files/download/libestr-0.1.11.tar.gz

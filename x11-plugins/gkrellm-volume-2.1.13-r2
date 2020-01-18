@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=  app-admin/gkrellm:2[X]  alsa? ( media-libs/alsa-lib ) 
+RDEPEND=  app-admin/gkrellm:2[X]  alsa? ( media-libs/alsa-lib ) 
+EAPI=6
+IUSE=alsa 
+KEYWORDS=~alpha amd64 ~ppc ~sparc x86
+SLOT=2
+SRC_URI=http://gkrellm.luon.net/files/gkrellm-volume-2.1.13.tar.gz

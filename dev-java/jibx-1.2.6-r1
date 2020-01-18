@@ -1,0 +1,13 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    dev-java/bcel:0  dev-java/xpp3:0  dev-java/jdom:0  dev-java/dom4j:1  dev-java/log4j:0  dev-java/joda-time:0  dev-java/ant-core:0  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/bcel:0  dev-java/xpp3:0  dev-java/jdom:0  dev-java/dom4j:1  dev-java/log4j:0  dev-java/joda-time:0  dev-java/ant-core:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris
+SLOT=1.2
+SRC_URI=
+	https://repo1.maven.org/maven2/org/jibx/jibx-extras/1.2.6/jibx-extras-1.2.6-sources.jar
+	https://repo1.maven.org/maven2/org/jibx/jibx-bind/1.2.6/jibx-bind-1.2.6-sources.jar
+	https://repo1.maven.org/maven2/org/jibx/jibx-run/1.2.6/jibx-run-1.2.6-sources.jar
+

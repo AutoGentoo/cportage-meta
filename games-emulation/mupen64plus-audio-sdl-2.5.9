@@ -1,0 +1,9 @@
+9d6e94b8e9351da24ad343e43ea1fd1a
+DEFINED_PHASES= compile install prepare
+DEPEND=>=games-emulation/mupen64plus-core-2.5.9:=  media-libs/libsdl2:0=[sound]  libsamplerate? ( media-libs/libsamplerate:= )  speex? (   media-libs/speex:=   media-libs/speexdsp:=  )  virtual/pkgconfig 
+RDEPEND=>=games-emulation/mupen64plus-core-2.5.9:=  media-libs/libsdl2:0=[sound]  libsamplerate? ( media-libs/libsamplerate:= )  speex? (   media-libs/speex:=   media-libs/speexdsp:=  ) 
+EAPI=7
+IUSE=libsamplerate oss speex 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/mupen64plus/mupen64plus-audio-sdl/releases/download/2.5.9/mupen64plus-audio-sdl-src-2.5.9.tar.gz

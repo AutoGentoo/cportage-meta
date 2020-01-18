@@ -1,0 +1,8 @@
+92bd7ff16b9130c9ff5cffb80db05e60
+DEFINED_PHASES= compile install postinst test unpack
+RDEPEND=app-crypt/gnupg 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

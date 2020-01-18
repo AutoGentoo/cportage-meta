@@ -1,0 +1,10 @@
+b875c9aeb38b9642048a93692e27a541
+DEFINED_PHASES= configure postinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-qt/qtcore-5.6:5  >=dev-qt/qtdbus-5.6:5  >=dev-qt/qtgui-5.6:5  >=dev-qt/qtdeclarative-5.6:5  >=dev-qt/qtnetwork-5.6:5  >=x11-base/xorg-server-1.15.1  x11-libs/libxcb[xkb]  consolekit? ( >=sys-auth/consolekit-0.9.4 )  elogind? ( sys-auth/elogind )  pam? ( sys-libs/pam )  systemd? ( sys-apps/systemd:= )  !systemd? ( sys-power/upower )  dev-python/docutils  >=dev-qt/linguist-tools-5.6:5  >=dev-qt/qttest-5.6:5  kde-frameworks/extra-cmake-modules  virtual/pkgconfig 
+RDEPEND=  >=dev-qt/qtcore-5.6:5  >=dev-qt/qtdbus-5.6:5  >=dev-qt/qtgui-5.6:5  >=dev-qt/qtdeclarative-5.6:5  >=dev-qt/qtnetwork-5.6:5  >=x11-base/xorg-server-1.15.1  x11-libs/libxcb[xkb]  consolekit? ( >=sys-auth/consolekit-0.9.4 )  elogind? ( sys-auth/elogind )  pam? ( sys-libs/pam )  systemd? ( sys-apps/systemd:= )  !systemd? ( sys-power/upower ) 
+EAPI=6
+IUSE=consolekit elogind +pam systemd 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=https://github.com/sddm/sddm/releases/download/v0.15.0/sddm-0.15.0.tar.gz

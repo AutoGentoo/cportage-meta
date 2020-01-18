@@ -1,0 +1,8 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= compile install prepare setup
+DEPEND=>=dev-lang/go-1.10 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/google/cadvisor/archive/v0.34.0.tar.gz -> cadvisor-0.34.0.tar.gz

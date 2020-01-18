@@ -1,0 +1,9 @@
+54eede55d7d99c4a3c50d71104de8f5a
+DEFINED_PHASES=-
+DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby24? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby25] ) ) ruby_targets_ruby26? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby26] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26] ) ) ruby_targets_ruby24? ( test? ( dev-ruby/bundler[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/bundler[ruby_targets_ruby25] ) ) ruby_targets_ruby26? ( test? ( dev-ruby/bundler[ruby_targets_ruby26] ) ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26] ) 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/grosser/fast_gettext/archive/v1.8.0.tar.gz -> fast_gettext-1.8.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst postrm preinst
+DEPEND=  app-arch/bzip2  x11-misc/xdg-utils  x11-libs/wxGTK:3.0[X]   nls? ( >=dev-util/intltool-0.31 )  
+RDEPEND=  app-arch/bzip2  x11-misc/xdg-utils  x11-libs/wxGTK:3.0[X]  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnu/freedink/dfarc-3.14.tar.gz

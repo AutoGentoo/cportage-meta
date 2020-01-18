@@ -1,0 +1,11 @@
+780cdeb8ba06a09c51aa322d5fa33fa3
+DEFINED_PHASES= compile configure install prepare unpack
+DEPEND=  media-libs/libsdl  media-libs/sdl-mixer  virtual/glu  virtual/opengl  x11-libs/libICE  x11-libs/libSM  x11-libs/libXi  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libXxf86vm   x11-base/xorg-proto 
+RDEPEND=  media-libs/libsdl  media-libs/sdl-mixer  virtual/glu  virtual/opengl  x11-libs/libICE  x11-libs/libSM  x11-libs/libXi  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libXxf86vm  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/searchandrescue/SearchAndRescue-1.7.0.tar.gz -> SearchAndRescue-1.7.0.tar
+	mirror://sourceforge/searchandrescue/SearchAndRescue-data-1.7.0.tar.gz -> SearchAndRescue-data-1.7.0.tar
+	mirror://sourceforge/searchandrescue/SearchAndRescue-data-guadarrama-1.7.0.tar.gz -> SearchAndRescue-data-guadarrama-1.7.0.tar

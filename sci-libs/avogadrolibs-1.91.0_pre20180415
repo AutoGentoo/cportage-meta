@@ -1,0 +1,11 @@
+43787e9b5a25ef420dd85742e00bca63
+DEFINED_PHASES= configure unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/jsoncpp:=  >=sci-chemistry/molequeue-0.7  archive? ( app-arch/libarchive )  hdf5? ( sci-libs/hdf5:= )  qt5? (   dev-qt/qtconcurrent:5   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtnetwork:5   dev-qt/qtwidgets:5   media-libs/glew:0=   virtual/opengl  )  vtk? ( sci-libs/vtk[qt5,views] )   dev-cpp/eigen:3  qt5? ( dev-qt/linguist-tools:5 )  test? ( dev-cpp/gtest ) 
+RDEPEND=  dev-libs/jsoncpp:=  >=sci-chemistry/molequeue-0.7  archive? ( app-arch/libarchive )  hdf5? ( sci-libs/hdf5:= )  qt5? (   dev-qt/qtconcurrent:5   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtnetwork:5   dev-qt/qtwidgets:5   media-libs/glew:0=   virtual/opengl  )  vtk? ( sci-libs/vtk[qt5,views] )  
+EAPI=6
+IUSE=archive doc hdf5 qt5 static-plugins test vtk 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/OpenChemistry/avogadrolibs/archive/606debb5d7c2c4020478264c609f895584fc5e38.tar.gz -> avogadrolibs-1.91.0_pre20180415.tar.gz
+	vtk? ( https://github.com/psavery/genXrdPattern/releases/download/1.0-static/linux64-genXrdPattern )

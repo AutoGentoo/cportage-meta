@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= configure prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~ia64 ppc ~ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-solaris
+SLOT=0
+SRC_URI=mirror://debian/pool/main/a/arj/arj_3.10.22.orig.tar.gz
+	mirror://debian/pool/main/a/arj/arj_3.10.22-15.debian.tar.xz

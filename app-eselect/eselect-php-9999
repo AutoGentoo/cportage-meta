@@ -1,0 +1,9 @@
+c4aae5a6e17ce192bc5cc4a0e90104a6
+DEFINED_PHASES= configure install prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+RDEPEND=app-admin/eselect  apache2? ( www-servers/apache[apache2_modules_dir] ) 
+EAPI=6
+IUSE=fpm apache2 
+KEYWORDS=
+SLOT=0
+SRC_URI=

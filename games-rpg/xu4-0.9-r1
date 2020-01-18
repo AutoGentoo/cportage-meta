@@ -1,0 +1,11 @@
+950302b274fc8cc5bce4a81ee0872837
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=dev-libs/libxml2  media-libs/libsdl[sound,video]  media-libs/sdl-mixer[timidity]  app-arch/unzip 
+RDEPEND=dev-libs/libxml2  media-libs/libsdl[sound,video]  media-libs/sdl-mixer[timidity] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xu4/xu4-0.9.tar.gz
+	mirror://sourceforge/xu4/ultima4-1.01.zip
+	mirror://sourceforge/xu4/u4upgrad.zip

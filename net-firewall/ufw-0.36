@@ -1,0 +1,9 @@
+2a342b155759daeb42a934ad3d7cead2
+DEFINED_PHASES= postinst pretend
+BDEPEND=sys-devel/gettext 
+RDEPEND=>=net-firewall/iptables-1.4[ipv6?]  !<kde-misc/kcm-ufw-0.4.2  !<net-firewall/ufw-frontends-0.3.2 
+EAPI=7
+IUSE=examples ipv6 
+KEYWORDS=amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://launchpad.net/ufw/0.36/0.36/+download/ufw-0.36.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm preinst prepare
+DEPEND=dev-lang/mono  dev-dotnet/mono-addins[gtk]  dev-util/intltool  virtual/pkgconfig  sys-devel/gettext 
+RDEPEND=dev-lang/mono  dev-dotnet/mono-addins[gtk]  x11-libs/cairo[X]  x11-libs/gdk-pixbuf[X,jpeg,tiff]  x11-themes/adwaita-icon-theme 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

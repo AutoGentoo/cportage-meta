@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= configure install setup
+DEPEND=virtual/libusb:0  gemplug? ( sys-process/at ) 
+RDEPEND=virtual/libusb:0  gemplug? ( sys-process/at ) 
+EAPI=5
+IUSE=gemplug 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sispmctl/sispmctl-4.0.tar.gz

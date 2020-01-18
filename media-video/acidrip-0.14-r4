@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-perl/Gtk2  media-video/lsdvd  media-video/mplayer[encode]  encode? ( >=media-sound/lame-3.92 ) 
+RDEPEND=dev-perl/Gtk2  media-video/lsdvd  media-video/mplayer[encode]  encode? ( >=media-sound/lame-3.92 ) 
+EAPI=5
+IUSE=encode 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://sourceforge.net/projects/acidrip/files/acidrip/0.14%20-%20Your%20two-wheeled%20knife/acidrip-0.14.tar.gz

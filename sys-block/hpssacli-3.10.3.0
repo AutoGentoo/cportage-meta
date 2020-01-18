@@ -1,0 +1,8 @@
+dadb60884849296851d728608555c78f
+DEFINED_PHASES= install prepare unpack
+RDEPEND=elibc_glibc? ( >sys-libs/glibc-2.14 )  >=sys-libs/libunwind-0.99  >=sys-process/procps-3.3.6 
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64
+SLOT=0
+SRC_URI=https://downloads.linux.hpe.com/SDR/repo/spp/2017.10.1/packages/ssacli-3.10-3.0.x86_64.rpm

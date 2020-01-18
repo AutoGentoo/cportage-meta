@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=sys-devel/bison  sys-devel/flex 
+RDEPEND=!sci-biology/newick-utils 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/openknights/libnw-1.30.02.tar.gz

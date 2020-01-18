@@ -1,0 +1,9 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=dev-lang/perl-5 
+RDEPEND=>=dev-lang/perl-5 
+EAPI=7
+IUSE=
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc64 ~x86 ~x64-solaris
+SLOT=0
+SRC_URI=https://github.com/tnalpgge/rank-amateur-cowsay/archive/cowsay-3.04.tar.gz

@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile install postinst prepare pretend
+DEPEND=>=sys-libs/ncurses-5.2  dev-libs/libnl:1.1  >=dev-libs/popt-1.16  virtual/pkgconfig 
+RDEPEND=>=sys-libs/ncurses-5.2  dev-libs/libnl:1.1  >=dev-libs/popt-1.16 
+EAPI=4
+IUSE=static-libs 
+KEYWORDS=amd64 ia64 ppc ppc64 s390 sparc x86
+SLOT=0
+SRC_URI=http://www.linuxvirtualserver.org/software/kernel-2.6/ipvsadm-1.26.tar.gz

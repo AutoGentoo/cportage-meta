@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=    !libtirpc? ( elibc_glibc? ( sys-libs/glibc[rpc(-)] ) )  libtirpc? ( net-libs/libtirpc )   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  !libtirpc? ( elibc_glibc? ( sys-libs/glibc[rpc(-)] ) )  libtirpc? ( net-libs/libtirpc )  
+EAPI=6
+IUSE=+libtirpc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBA/Lab-VXI11-0.02.tar.gz

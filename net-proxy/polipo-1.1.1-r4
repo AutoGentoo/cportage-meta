@@ -1,0 +1,8 @@
+e53ebc05268d733d931574fe0cab4b32
+DEFINED_PHASES= compile install postinst setup
+DEPEND=sys-apps/texinfo 
+EAPI=5
+IUSE=systemd 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.pps.jussieu.fr/~jch/software/files/polipo/polipo-1.1.1.tar.gz

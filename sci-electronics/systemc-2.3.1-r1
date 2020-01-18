@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=>=app-portage/elt-patches-20170815 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://accellera.org/images/downloads/standards/systemc/systemc-2.3.1a.tar.gz

@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure
+DEPEND=  >=dev-libs/maloc-1.4  doc? (   media-gfx/graphviz   app-doc/doxygen   ) 
+RDEPEND=>=dev-libs/maloc-1.4 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.fetk.org/codes/download/gamer-1.5.tar.gz

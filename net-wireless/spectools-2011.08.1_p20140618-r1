@@ -1,0 +1,9 @@
+eba84749906509e36e5d150168058250
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  virtual/libusb:0  ncurses? ( sys-libs/ncurses:0= )  gtk? ( x11-libs/gtk+:2 )  virtual/pkgconfig 
+RDEPEND=  virtual/libusb:0  ncurses? ( sys-libs/ncurses:0= )  gtk? ( x11-libs/gtk+:2 ) 
+EAPI=5
+IUSE=debug +ncurses +gtk 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~zerochaos/distfiles/spectools-2011-08-R1_p20140618.tar.xz

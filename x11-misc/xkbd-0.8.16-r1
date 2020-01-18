@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=x11-libs/libXrender  x11-libs/libX11  x11-libs/libXft  x11-libs/libXtst  x11-libs/libXpm  media-libs/freetype  dev-libs/expat  sys-libs/zlib  x11-base/xorg-proto 
+RDEPEND=x11-libs/libXrender  x11-libs/libX11  x11-libs/libXft  x11-libs/libXtst  x11-libs/libXpm  media-libs/freetype  dev-libs/expat  sys-libs/zlib 
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 ~arm ~ppc x86
+SLOT=0
+SRC_URI=http://trac.hackable1.org/trac/raw-attachment/wiki/Xkbd/xkbd-0.8.16.tar.gz

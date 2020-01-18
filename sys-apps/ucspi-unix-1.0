@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=dev-libs/bglibs-2.04 
+RDEPEND=!net-analyzer/mk-livestatus 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://untroubled.org/ucspi-unix/archive/ucspi-unix-1.0.tar.gz

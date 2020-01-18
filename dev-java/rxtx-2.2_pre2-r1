@@ -1,0 +1,9 @@
+bb5fec68bd38b01634621dae937cd18e
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.6  lfd? ( sys-apps/xinetd ) 
+EAPI=5
+IUSE=lfd 
+KEYWORDS=~amd64 ~x86
+SLOT=2
+SRC_URI=ftp://ftp.qbang.org/pub/rxtx/rxtx-2.2pre2.zip

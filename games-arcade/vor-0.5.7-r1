@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm preinst
+DEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[mod] 
+RDEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[mod] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://jasonwoof.com/downloads/vor/vor-0.5.7.tgz

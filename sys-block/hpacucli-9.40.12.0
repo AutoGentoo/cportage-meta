@@ -1,0 +1,10 @@
+5c20cb564da57469de7970576479a662
+DEFINED_PHASES= install
+RDEPEND=sys-apps/coreutils  sys-process/procps  >=sys-apps/util-linux-2.20.1 
+EAPI=6
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=
+	amd64? ( ftp://ftp.hp.com/pub/softlib2/software1/pubsw-linux/p1257348637/v80070/hpacucli-9.40-12.0.x86_64.rpm )
+	x86? ( ftp://ftp.hp.com/pub/softlib2/software1/pubsw-linux/p414707558/v80071/hpacucli-9.40-12.0.i386.rpm )

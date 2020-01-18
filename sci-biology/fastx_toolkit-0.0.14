@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  sci-biology/libgtextutils  virtual/pkgconfig 
+RDEPEND=  dev-perl/PerlIO-gzip  dev-perl/GDGraph  sci-biology/libgtextutils:=  sci-visualization/gnuplot 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/agordon/fastx_toolkit/releases/download/0.0.14/fastx_toolkit-0.0.14.tar.bz2

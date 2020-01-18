@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/XML-Parser-2.16 
+RDEPEND=>=dev-perl/XML-Parser-2.16 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MI/MIKEWONG/XML-Dumper-0.81.tar.gz

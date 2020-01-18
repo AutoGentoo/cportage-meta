@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare setup
+DEPEND=dev-lang/mono  >=dev-dotnet/dbus-sharp-0.8:2.0  virtual/pkgconfig 
+RDEPEND=dev-lang/mono  >=dev-dotnet/dbus-sharp-0.8:2.0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=2.0
+SRC_URI=https://github.com/mono/dbus-sharp-glib/releases/download/v0.6/dbus-sharp-glib-0.6.0.tar.gz

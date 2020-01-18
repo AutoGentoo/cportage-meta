@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+DEPEND=dev-libs/libcdio  dev-libs/libcdio-paranoia  gnustep-apps/cynthiune  dbus? ( gnustep-libs/dbuskit ) 
+RDEPEND=dev-libs/libcdio  dev-libs/libcdio-paranoia  gnustep-apps/cynthiune  dbus? ( gnustep-libs/dbuskit ) 
+EAPI=5
+IUSE=dbus 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/schik/cdplayer/archive/v0.6.0.tar.gz -> cdplayer-0.6.0.tar.gz

@@ -1,0 +1,10 @@
+c1b55e6c2ec514e3dd56f2a3d3fa6a6c
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  media-libs/libpng:0=  sys-libs/zlib[minizip]  elf? ( dev-libs/elfutils )  ffmpeg? (   libav? ( media-video/libav:= )   !libav? ( media-video/ffmpeg:= )  )  imagemagick? ( media-gfx/imagemagick:= )  opengl? ( virtual/opengl )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtwidgets:5   opengl? ( dev-qt/qtopengl:5 )  )  sdl? ( media-libs/libsdl2[X,sound,joystick,video,opengl?] )  sqlite? ( dev-db/sqlite:3 )  
+RDEPEND=  media-libs/libpng:0=  sys-libs/zlib[minizip]  elf? ( dev-libs/elfutils )  ffmpeg? (   libav? ( media-video/libav:= )   !libav? ( media-video/ffmpeg:= )  )  imagemagick? ( media-gfx/imagemagick:= )  opengl? ( virtual/opengl )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtwidgets:5   opengl? ( dev-qt/qtopengl:5 )  )  sdl? ( media-libs/libsdl2[X,sound,joystick,video,opengl?] )  sqlite? ( dev-db/sqlite:3 )  
+EAPI=7
+IUSE=debug elf ffmpeg imagemagick libav opengl qt5 +sdl sqlite 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://github.com/mgba-emu/mgba/archive/0.8-b1.tar.gz -> mgba-0.8_beta1.tar.gz

@@ -1,0 +1,9 @@
+346bd4fe370db21f84bffbbd787f2254
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  media-fonts/libertine  media-fonts/liberation-fonts  media-libs/freetype:2  media-libs/libpng:0  media-libs/sdl-mixer  media-libs/sdl-sound[modplug,mp3,vorbis]  sys-libs/zlib  virtual/jpeg:0  x11-libs/gtk+:2  app-arch/unzip  dev-util/ftjam  virtual/pkgconfig 
+RDEPEND=  media-fonts/libertine  media-fonts/liberation-fonts  media-libs/freetype:2  media-libs/libpng:0  media-libs/sdl-mixer  media-libs/sdl-sound[modplug,mp3,vorbis]  sys-libs/zlib  virtual/jpeg:0  x11-libs/gtk+:2 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://garglk.googlecode.com/files/gargoyle-2011.1-sources.zip

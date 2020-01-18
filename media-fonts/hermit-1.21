@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://pcaro.es/d/otf-hermit-1.21.tar.gz

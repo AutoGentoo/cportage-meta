@@ -1,0 +1,9 @@
+d093fe208f4f85ec1d480a93c6aa38bd
+DEFINED_PHASES= setup
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  test? ( dev-python/fixtures[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] ) 
+RDEPEND=mysql? ( dev-python/mysql-python[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] )  postgres? ( =dev-python/psycopg-2*[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] ) 
+EAPI=5
+IUSE=mysql postgres sqlite test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/storm/trunk/0.20/+download/storm-0.20.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=    virtual/perl-File-Spec  virtual/perl-IO  >=virtual/perl-Module-Load-0.10  virtual/perl-Module-Loaded  recommended? (   >=dev-perl/Color-Library-0.02   dev-perl/Tie-Sub   >=dev-perl/Pod-Readme-0.09  )   dev-perl/Test-Exception  virtual/perl-Test-Simple  dev-perl/Module-Build  
+RDEPEND=    virtual/perl-File-Spec  virtual/perl-IO  >=virtual/perl-Module-Load-0.10  virtual/perl-Module-Loaded  recommended? (   >=dev-perl/Color-Library-0.02   dev-perl/Tie-Sub   >=dev-perl/Pod-Readme-0.09  )   
+EAPI=5
+IUSE=recommended 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RR/RRWO/Graphics-ColorNames-2.11.tar.gz

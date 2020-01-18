@@ -1,0 +1,7 @@
+c0e6c3b3a9aa38fa6edd756350301b96
+DEFINED_PHASES= configure install preinst prepare
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

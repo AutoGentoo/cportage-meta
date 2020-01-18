@@ -1,0 +1,8 @@
+d17482eac0d1efeb5d0f1a829cbdc149
+DEFINED_PHASES= compile install prepare test
+DEPEND=>=dev-go/go-crypto-0_pre20180816:=  >=dev-go/go-sys-0_pre20180816:=  >=dev-go/go-text-0.3.0:= 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

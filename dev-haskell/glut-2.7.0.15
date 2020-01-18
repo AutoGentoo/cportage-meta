@@ -1,0 +1,9 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/opengl-2.12:=[profile?] <dev-haskell/opengl-3.1:=[profile?]  >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.3:=[profile?]  >=dev-lang/ghc-7.8.2:=  examples? ( >=dev-haskell/openglraw-1.0:=[profile?] <dev-haskell/openglraw-3.4:=[profile?]    >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.2:=[profile?] )   >=dev-haskell/cabal-1.18.1.3  
+RDEPEND=>=dev-haskell/opengl-2.12:=[profile?] <dev-haskell/opengl-3.1:=[profile?]  >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.3:=[profile?]  >=dev-lang/ghc-7.8.2:=  examples? ( >=dev-haskell/openglraw-1.0:=[profile?] <dev-haskell/openglraw-3.4:=[profile?]    >=dev-haskell/random-1.0:=[profile?] <dev-haskell/random-1.2:=[profile?] )  
+EAPI=7
+IUSE=examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0/2.7.0.15
+SRC_URI=https://hackage.haskell.org/package/GLUT-2.7.0.15/GLUT-2.7.0.15.tar.gz

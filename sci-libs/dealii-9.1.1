@@ -1,0 +1,19 @@
+7879c578167b14e365998e77d0cc1efd
+DEFINED_PHASES= configure install
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/boost  app-arch/bzip2  sys-libs/zlib  adolc? ( sci-libs/adolc )  arpack? ( sci-libs/arpack[mpi=] )  assimp? ( media-libs/assimp )  cuda? ( dev-util/nvidia-cuda-sdk )  gmsh? ( sci-libs/gmsh )  gsl? ( sci-libs/gsl )  hdf5? ( sci-libs/hdf5[mpi=] )  lapack? ( virtual/lapack )  metis? ( >=sci-libs/parmetis-4 )  mpi? ( virtual/mpi )  muparser? ( dev-cpp/muParser )  nanoflann? ( sci-libs/nanoflann )  netcdf? ( sci-libs/netcdf-cxx:0 )  opencascade? ( sci-libs/opencascade:* )  p4est? ( sci-libs/p4est[mpi] )  petsc? ( sci-mathematics/petsc[mpi=] )  scalapack? ( sci-libs/scalapack )  slepc? ( sci-mathematics/slepc[mpi=] )  sparse? ( sci-libs/umfpack )  sundials? ( <sci-libs/sundials-4:= )  symengine? ( >=sci-libs/symengine-0.4:= )  tbb? ( dev-cpp/tbb )  trilinos? ( sci-libs/trilinos )  virtual/pkgconfig  doc? ( app-doc/doxygen[dot] dev-lang/perl ) 
+RDEPEND=dev-libs/boost  app-arch/bzip2  sys-libs/zlib  adolc? ( sci-libs/adolc )  arpack? ( sci-libs/arpack[mpi=] )  assimp? ( media-libs/assimp )  cuda? ( dev-util/nvidia-cuda-sdk )  gmsh? ( sci-libs/gmsh )  gsl? ( sci-libs/gsl )  hdf5? ( sci-libs/hdf5[mpi=] )  lapack? ( virtual/lapack )  metis? ( >=sci-libs/parmetis-4 )  mpi? ( virtual/mpi )  muparser? ( dev-cpp/muParser )  nanoflann? ( sci-libs/nanoflann )  netcdf? ( sci-libs/netcdf-cxx:0 )  opencascade? ( sci-libs/opencascade:* )  p4est? ( sci-libs/p4est[mpi] )  petsc? ( sci-mathematics/petsc[mpi=] )  scalapack? ( sci-libs/scalapack )  slepc? ( sci-mathematics/slepc[mpi=] )  sparse? ( sci-libs/umfpack )  sundials? ( <sci-libs/sundials-4:= )  symengine? ( >=sci-libs/symengine-0.4:= )  tbb? ( dev-cpp/tbb )  trilinos? ( sci-libs/trilinos ) 
+EAPI=7
+IUSE=
+	adolc assimp arpack cpu_flags_x86_avx cpu_flags_x86_avx512f
+	cpu_flags_x86_sse2 cuda +debug doc +examples gmsh +gsl hdf5 +lapack
+	metis mpi muparser nanoflann opencascade netcdf p4est petsc scalapack
+	slepc +sparse static-libs sundials symengine +tbb trilinos
+ 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/dealii/dealii/releases/download/v9.1.1/dealii-9.1.1.tar.gz -> dealii-9.1.1.tar.gz
+		doc? (
+			https://github.com/dealii/dealii/releases/download/v9.1.1/dealii-9.1.1-offline_documentation.tar.gz
+			-> dealii-9.1.1-offline_documentation.tar.gz
+			)

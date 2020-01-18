@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare test
+DEPEND=test? (   dev-lang/php:*  dev-php/fedora-autoloader  dev-php/symfony-filesystem >=dev-php/phpunit-5.7.15 ) 
+RDEPEND=  dev-lang/php:*  dev-php/fedora-autoloader  dev-php/symfony-filesystem 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/symfony/config/archive/v2.8.20.tar.gz
+	-> symfony-config-2.8.20.tar.gz

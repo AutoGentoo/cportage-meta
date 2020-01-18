@@ -1,0 +1,9 @@
+f5d29ea6d63bc5b4157e9465a94e0781
+DEFINED_PHASES= configure install preinst prepare
+DEPEND=sys-libs/zlib  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl )  !postgres? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:*[server] ) 
+RDEPEND=sys-libs/zlib  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl )  !postgres? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:*[server] ) 
+EAPI=7
+IUSE=libressl postgres 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://www.gasmi.net/down/gld-1.7.tgz

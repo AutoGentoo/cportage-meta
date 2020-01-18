@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/go-1.10 
+EAPI=6
+IUSE=hardened 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/kubernetes/kompose/archive/v1.16.0.tar.gz -> kompose-1.16.0.tar.gz

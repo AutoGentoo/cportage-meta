@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=media-libs/libsdl[X,sound,joystick,opengl,video]  media-libs/plib  sci-mathematics/cgal  portaudio? ( media-libs/portaudio ) 
+RDEPEND=media-libs/libsdl[X,sound,joystick,opengl,video]  media-libs/plib  sci-mathematics/cgal  portaudio? ( media-libs/portaudio ) 
+EAPI=6
+IUSE=portaudio 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/crrcsim/crrcsim-0.9.13.tar.gz

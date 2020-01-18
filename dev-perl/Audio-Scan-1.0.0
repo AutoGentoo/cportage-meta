@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Warn  )  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AG/AGRUNDMA/Audio-Scan-1.00.tar.gz

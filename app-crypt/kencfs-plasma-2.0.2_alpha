@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  kde-frameworks/kconfig:5  kde-frameworks/knotifications:5  kde-frameworks/kwallet:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  kde-frameworks/kconfig:5  kde-frameworks/knotifications:5  kde-frameworks/kwallet:5   sys-fs/encfs  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~asturm/distfiles/kencfs-plasma-2.0.2a.tar.gz

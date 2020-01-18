@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst prepare
+DEPEND=virtual/libusb:0 
+RDEPEND=virtual/libusb:0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.codon.org.uk/~mjg59/gobi_loader/download/gobi_loader-0.7.tar.gz

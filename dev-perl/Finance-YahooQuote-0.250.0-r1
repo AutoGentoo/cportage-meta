@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= test
+DEPEND=  dev-perl/libwww-perl  virtual/perl-MIME-Base64  >=dev-perl/HTML-Parser-2.200.0  >=virtual/perl-Text-ParseWords-3.100.0   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  dev-perl/libwww-perl  virtual/perl-MIME-Base64  >=dev-perl/HTML-Parser-2.200.0  >=virtual/perl-Text-ParseWords-3.100.0  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ED/EDD/Finance-YahooQuote-0.25.tar.gz

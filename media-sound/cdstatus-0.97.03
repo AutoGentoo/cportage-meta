@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= postinst
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cdstatus/cdstatus-0.97.03.tar.gz

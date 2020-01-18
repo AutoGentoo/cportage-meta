@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/ghc-6.10.4:=   >=dev-haskell/cabal-0 
+RDEPEND=>=dev-lang/ghc-6.10.4:= 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/1.0.0.0
+SRC_URI=https://hackage.haskell.org/package/prettyclass-1.0.0.0/prettyclass-1.0.0.0.tar.gz

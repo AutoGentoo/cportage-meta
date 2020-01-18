@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=x11-libs/gtk+:2  x11-libs/libX11 
+RDEPEND=x11-libs/gtk+:2  x11-libs/libX11 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=http://www.ne.jp/asahi/linux/timecop/software/wmfishtime-1.24.tar.gz

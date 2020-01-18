@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure postinst
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=7
+IUSE=X 
+KEYWORDS=amd64 arm arm64 x86
+SLOT=0
+SRC_URI=https://github.com/svofski/glasstty/archive/8d5bcafe971ee94df4aa20317f197d407df672e9.tar.gz -> glass-tty-vt220-001.3.tar.gz

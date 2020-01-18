@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-parent  virtual/perl-Scalar-List-Utils   virtual/perl-ExtUtils-MakeMaker  test? ( >=virtual/perl-Test-Simple-0.940.0 )  
+RDEPEND=  virtual/perl-parent  virtual/perl-Scalar-List-Utils  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MANWAR/SVG-2.82.tar.gz

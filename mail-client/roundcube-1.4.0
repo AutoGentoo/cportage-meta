@@ -1,0 +1,9 @@
+30586bd5c8024b5eaf562d290d45f648
+DEFINED_PHASES= install postinst
+DEPEND=>=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=  >=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi )  >=dev-lang/php-5.4.0[filter,gd,iconv,json,ldap?,pdo,postgres?,session,sqlite?,ssl?,unicode,xml]  virtual/httpd-php  change-password? (   dev-lang/php[sockets]  )  enigma? (   app-crypt/gnupg  )  mysql? (   || (    dev-lang/php[mysql]    dev-lang/php[mysqli]   )  )  spell? ( dev-lang/php[curl,spell] )  
+EAPI=6
+IUSE=change-password enigma ldap mysql postgres sqlite ssl spell 
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~sparc ~x86
+SLOT=1.4.0
+SRC_URI=https://github.com/roundcube/roundcubemail/releases/download/1.4.0/roundcubemail-1.4.0-complete.tar.gz

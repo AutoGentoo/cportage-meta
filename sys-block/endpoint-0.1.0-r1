@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=  virtual/pkgconfig  
+DEPEND=>=sys-libs/libraw1394-0.9  >=dev-libs/glib-2:2 
+RDEPEND=>=sys-libs/libraw1394-0.9  >=dev-libs/glib-2:2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://oss.oracle.com/projects/endpoint/dist/files/endpoint-0.1.0.tar.gz

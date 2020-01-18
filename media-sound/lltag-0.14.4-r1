@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install setup
+DEPEND=dev-perl/libwww-perl  mp3? ( media-sound/mp3info dev-perl/MP3-Tag )  ogg? ( media-sound/vorbis-tools )  flac? ( media-libs/flac )  readline? ( dev-perl/Term-ReadLine-Perl ) 
+RDEPEND=dev-perl/libwww-perl  mp3? ( media-sound/mp3info dev-perl/MP3-Tag )  ogg? ( media-sound/vorbis-tools )  flac? ( media-libs/flac )  readline? ( dev-perl/Term-ReadLine-Perl ) 
+EAPI=5
+IUSE=flac mp3 ogg readline 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.gna.org/lltag/lltag-0.14.4.tar.bz2

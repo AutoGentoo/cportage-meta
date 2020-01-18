@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/SQL-Abstract   dev-perl/DBI  dev-perl/Module-Build  test? (   dev-perl/Test-Deep   dev-perl/Test-Exception  ) 
+RDEPEND=dev-perl/SQL-Abstract   dev-perl/DBI 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAVEBAIRD/SQL-Abstract-Limit-0.141.tar.gz

@@ -1,0 +1,9 @@
+214186010c0df484089305ad36e476ab
+DEFINED_PHASES= install postinst prepare
+RDEPEND=  sys-devel/binutils  sys-devel/gdb 
+EAPI=7
+IUSE=
+KEYWORDS=amd64
+SLOT=2016
+SRC_URI=http://mirrors.cdn.adacore.com/art/5739cefdc7a447658e0b016b
+		-> gnat-gpl-2016-x86_64-linux-bin.tar.gz

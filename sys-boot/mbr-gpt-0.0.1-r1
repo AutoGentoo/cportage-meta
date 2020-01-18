@@ -1,0 +1,7 @@
+0ee6fbbb2ed617f7630dd91bc2e50113
+DEFINED_PHASES= compile install postinst prepare
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~robbat2/distfiles/mbr-gpt_0.0.1.tar.gz

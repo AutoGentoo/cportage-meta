@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/bardsoftware/eclipsito/archive/0eb2fbb739898f55265027c2796f77fbee9f4ab2.tar.gz -> eclipsito-20180510.tar.gz

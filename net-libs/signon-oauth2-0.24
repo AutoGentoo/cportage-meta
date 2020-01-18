@@ -1,0 +1,9 @@
+8330c92f3615e95ad42defaed88df58c
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5[ssl]  net-libs/signond   test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5[ssl]  net-libs/signond  
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 arm64 x86
+SLOT=0
+SRC_URI=https://gitlab.com/accounts-sso/signon-plugin-oauth2/-/archive/VERSION_0.24/signon-plugin-oauth2-VERSION_0.24.tar.gz -> signon-oauth2-0.24.tar.gz

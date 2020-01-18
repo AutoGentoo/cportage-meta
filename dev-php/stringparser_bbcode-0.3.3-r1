@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=dev-lang/php 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://christian-seiler.de/projekte/php/bbcode/download/stringparser_bbcode-0.3.3.tar.gz

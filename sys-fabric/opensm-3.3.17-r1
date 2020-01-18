@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  sys-fabric/libibmad:3.12  sys-fabric/libibumad:3.12 
+RDEPEND=  sys-fabric/libibmad:3.12  sys-fabric/libibumad:3.12   tools? (   net-misc/iputils   net-misc/openssh  ) !sys-fabric/opensm:0 !sys-fabric/opensm:3.5 
+EAPI=5
+IUSE=tools 
+KEYWORDS=amd64 ~x86 ~amd64-linux
+SLOT=3.12
+SRC_URI=https://www.openfabrics.org/downloads/OFED/ofed-3.12/OFED-3.12-rc1.tgz

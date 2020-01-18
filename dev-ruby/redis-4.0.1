@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=test? ( >=dev-db/redis-3.2.0 ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) 
+EAPI=6
+IUSE=doc test 
+KEYWORDS=~amd64
+SLOT=4
+SRC_URI=https://github.com/redis/redis-rb/archive/v4.0.1.tar.gz -> redis-rb-4.0.1.tar.gz

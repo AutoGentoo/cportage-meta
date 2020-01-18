@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= install postinst prepare setup
+DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
+RDEPEND=!=app-emulation/virtualbox-9999 
+EAPI=7
+IUSE=pax_kernel 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~polynomial-c/virtualbox/vbox-kernel-module-src-5.2.32.tar.xz

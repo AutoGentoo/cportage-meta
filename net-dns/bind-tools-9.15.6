@@ -1,0 +1,10 @@
+fc9fd523b9b505a71bae654c10447529
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  caps? ( sys-libs/libcap )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  xml? ( dev-libs/libxml2 )  idn? ( net-dns/libidn2:= )  gssapi? ( virtual/krb5 )  libedit? ( dev-libs/libedit )  !libedit? (   readline? ( sys-libs/readline:0= )  ) 
+RDEPEND=  caps? ( sys-libs/libcap )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  xml? ( dev-libs/libxml2 )  idn? ( net-dns/libidn2:= )  gssapi? ( virtual/krb5 )  libedit? ( dev-libs/libedit )  !libedit? (   readline? ( sys-libs/readline:0= )  ) 
+EAPI=7
+IUSE=+caps doc gssapi idn ipv6 libedit libressl readline xml 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://downloads.isc.org/isc/bind9/9.15.6/bind-9.15.6.tar.gz

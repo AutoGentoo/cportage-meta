@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=>=sys-libs/db-2.0:*  virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=>=sys-libs/db-2.0:* 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PM/PMQS/BerkeleyDB-0.55.tar.gz

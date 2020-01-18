@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install
+DEPEND=  dev-java/swt:3.8  app-arch/unzip  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/swt:3.8  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/piccolo2d/piccolo2d.java/archive/piccolo2d-complete-3.0.zip -> piccolo2d-3.0.zip

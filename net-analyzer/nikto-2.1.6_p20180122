@@ -1,0 +1,8 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install prepare
+RDEPEND=  dev-lang/perl  virtual/perl-JSON-PP  net-analyzer/nmap  ssl? (   dev-libs/openssl:0=   dev-perl/Net-SSLeay  )  
+EAPI=6
+IUSE=ssl 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/sullo/nikto/archive/b8454661c4dc9249cb515311cb2a80906a0a4b7a.tar.gz -> nikto-2.1.6_p20180122.tar.gz

@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=    app-eselect/eselect-awk  !sys-freebsd/freebsd-ubin  virtual/yacc 
+RDEPEND=  app-eselect/eselect-awk  !sys-freebsd/freebsd-ubin 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-macos
+SLOT=0
+SRC_URI=mirror://gentoo/nawk-20121220.tar.gz

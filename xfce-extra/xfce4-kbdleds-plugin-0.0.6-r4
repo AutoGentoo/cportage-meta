@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm
+DEPEND=<xfce-base/libxfce4ui-4.15:=[gtk2(+)]  >=xfce-base/libxfce4util-4.8  <xfce-base/xfce4-panel-4.15:=[gtk2(+)]  >=x11-libs/gtk+-2.20:2  dev-util/intltool  virtual/pkgconfig  sys-devel/gettext 
+RDEPEND=<xfce-base/libxfce4ui-4.15:=[gtk2(+)]  >=xfce-base/libxfce4util-4.8  <xfce-base/xfce4-panel-4.15:=[gtk2(+)]  >=x11-libs/gtk+-2.20:2 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://compas.com.ua/oco/file/xfce4-kbdleds-plugin-0.0.6.tar.bz2

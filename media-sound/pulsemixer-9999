@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=media-sound/pulseaudio 
+EAPI=7
+IUSE=python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 
+KEYWORDS=
+SLOT=0
+SRC_URI=

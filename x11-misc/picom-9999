@@ -1,0 +1,10 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= configure
+BDEPEND=virtual/pkgconfig  doc? ( app-text/asciidoc ) 
+DEPEND=dev-libs/libev  dev-libs/uthash  x11-libs/libX11  x11-libs/libxcb  x11-libs/libXext  x11-libs/pixman  x11-libs/xcb-util-image  x11-libs/xcb-util-renderutil  config-file? (   dev-libs/libconfig   dev-libs/libxdg-basedir  )  dbus? ( sys-apps/dbus )  drm? ( x11-libs/libdrm )  opengl? ( virtual/opengl )  pcre? ( dev-libs/libpcre )  x11-base/xorg-proto 
+RDEPEND=dev-libs/libev  dev-libs/uthash  x11-libs/libX11  x11-libs/libxcb  x11-libs/libXext  x11-libs/pixman  x11-libs/xcb-util-image  x11-libs/xcb-util-renderutil  config-file? (   dev-libs/libconfig   dev-libs/libxdg-basedir  )  dbus? ( sys-apps/dbus )  drm? ( x11-libs/libdrm )  opengl? ( virtual/opengl )  pcre? ( dev-libs/libpcre ) 
+EAPI=7
+IUSE=+config-file dbus +doc +drm opengl pcre 
+KEYWORDS=
+SLOT=0
+SRC_URI=

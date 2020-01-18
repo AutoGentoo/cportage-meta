@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  >=sys-libs/ncurses-5.2  virtual/pkgconfig  
+RDEPEND=  >=sys-libs/ncurses-5.2  virtual/inetd  
+EAPI=5
+IUSE=ipv6 
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=ftp://ftp.uk.linux.org/pub/linux/Networking/netkit/netkit-ntalk-0.17.tar.gz

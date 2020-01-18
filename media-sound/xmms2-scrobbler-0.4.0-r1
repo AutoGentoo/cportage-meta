@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= compile install postinst
+DEPEND=media-sound/xmms2  net-misc/curl 
+RDEPEND=media-sound/xmms2  net-misc/curl 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.code-monkey.de/pub/xmms2-scrobbler/xmms2-scrobbler-0.4.0.tar.gz

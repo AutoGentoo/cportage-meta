@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  png? (   media-libs/libpng:0  )  jpeg? (   virtual/jpeg:0  )  gif? (   media-libs/giflib  )   test? (   dev-perl/Test-NoWarnings  )  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  png? (   media-libs/libpng:0  )  jpeg? (   virtual/jpeg:0  )  gif? (   media-libs/giflib  )  
+EAPI=6
+IUSE=+gif jpeg +png test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AG/AGRUNDMA/Image-Scale-0.13.tar.gz

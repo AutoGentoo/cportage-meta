@@ -1,0 +1,9 @@
+a8120a5b6b0ea205e4c7ebf61ad59c18
+DEFINED_PHASES= configure install
+DEPEND=  dev-libs/libcdio  media-libs/xine-lib[v4l?,X,imagemagick]  curl? ( net-misc/curl )  dvb? ( media-libs/xine-lib[v4l] )  joystick? ( media-libs/libjsw )  jpeg? (   media-gfx/imagemagick   media-libs/netpbm[jpeg,zlib]   media-video/mjpegtools  )  lirc? ( app-misc/lirc )  nls? (   virtual/libintl   sys-devel/gettext  )  png? (   media-gfx/imagemagick   media-libs/netpbm[png,zlib]   media-video/mjpegtools  )  X? (   x11-libs/libXext   x11-libs/libX11  )  virtual/pkgconfig 
+RDEPEND=  dev-libs/libcdio  media-libs/xine-lib[v4l?,X,imagemagick]  curl? ( net-misc/curl )  dvb? ( media-libs/xine-lib[v4l] )  joystick? ( media-libs/libjsw )  jpeg? (   media-gfx/imagemagick   media-libs/netpbm[jpeg,zlib]   media-video/mjpegtools  )  lirc? ( app-misc/lirc )  nls? (   virtual/libintl   sys-devel/gettext  )  png? (   media-gfx/imagemagick   media-libs/netpbm[png,zlib]   media-video/mjpegtools  )  X? (   x11-libs/libXext   x11-libs/libX11  )  virtual/eject 
+EAPI=6
+IUSE=curl debug dvb exif joystick jpeg lirc nls png v4l X 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/oxine/oxine-0.7.1.tar.gz

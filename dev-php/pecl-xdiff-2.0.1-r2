@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure install prepare
+DEPEND=  php_targets_php7-0? ( dev-libs/libxdiff )  php_targets_php7-1? ( dev-libs/libxdiff )  php_targets_php7-2? ( dev-libs/libxdiff )  php_targets_php7-3? ( dev-libs/libxdiff )  php_targets_php7-4? ( dev-libs/libxdiff )  
+RDEPEND=  php_targets_php7-0? ( dev-libs/libxdiff )  php_targets_php7-1? ( dev-libs/libxdiff )  php_targets_php7-2? ( dev-libs/libxdiff )  php_targets_php7-3? ( dev-libs/libxdiff )  php_targets_php7-4? ( dev-libs/libxdiff )  php_targets_php5-6? ( dev-php/pecl-xdiff:0[php_targets_php5-6] ) 
+EAPI=6
+IUSE= php_targets_php5-6 php_targets_php7-0 php_targets_php7-1 php_targets_php7-2 php_targets_php7-3 php_targets_php7-4 
+KEYWORDS=~amd64 ~x86
+SLOT=7
+SRC_URI=https://pecl.php.net/get/xdiff-2.0.1.tgz

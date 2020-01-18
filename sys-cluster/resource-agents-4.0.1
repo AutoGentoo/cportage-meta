@@ -1,0 +1,9 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=sys-apps/iproute2  sys-cluster/cluster-glue  !<sys-cluster/heartbeat-3.0  libnet? ( net-libs/libnet:1.1 )  doc? (   dev-libs/libxslt   app-text/docbook-xsl-stylesheets  ) 
+RDEPEND=sys-apps/iproute2  sys-cluster/cluster-glue  !<sys-cluster/heartbeat-3.0  libnet? ( net-libs/libnet:1.1 ) 
+EAPI=6
+IUSE=doc libnet rgmanager 
+KEYWORDS=~amd64 ~hppa ~x86
+SLOT=0
+SRC_URI=https://github.com/ClusterLabs/resource-agents/archive/v4.0.1.tar.gz -> resource-agents-4.0.1.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/IO-String  virtual/perl-Scalar-List-Utils  virtual/perl-File-Temp   test? (   virtual/perl-Test-Simple  )  
+RDEPEND=dev-perl/IO-String  virtual/perl-Scalar-List-Utils  virtual/perl-File-Temp  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BL/BLILBURNE/Pod-Abstract-0.20.tar.gz

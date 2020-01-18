@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=X? ( media-gfx/ebdftopcf ) 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 arm ia64 ppc s390 sh sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xfonts/lfpfonts-var-src-0.84.tar.bz2

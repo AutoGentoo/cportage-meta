@@ -1,0 +1,9 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-qt/qtcore:5  dev-vcs/subversion 
+RDEPEND=  dev-qt/qtcore:5  dev-vcs/subversion  dev-vcs/git 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/svn-all-fast-export/svn2git/archive/1.0.11.tar.gz -> svn2git-1.0.11.tar.gz

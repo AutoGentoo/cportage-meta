@@ -1,0 +1,10 @@
+137028f06553292c2fbe34041601684b
+DEFINED_PHASES= install postinst postrm prepare
+BDEPEND=  || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.42 dev-lang/vala:0.40 )  dev-util/itstool  dev-libs/appstream-glib  >=sys-devel/gettext-0.19.8  virtual/pkgconfig  
+DEPEND=  >=dev-libs/glib-2.44:2  >=x11-libs/gtk+-3.20.0:3  >=gnome-base/librsvg-2.32.0:2   gnome-base/librsvg:2[vala]  
+RDEPEND=  >=dev-libs/glib-2.44:2  >=x11-libs/gtk+-3.20.0:3  >=gnome-base/librsvg-2.32.0:2  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-chess/3.34/gnome-chess-3.34.0.tar.xz

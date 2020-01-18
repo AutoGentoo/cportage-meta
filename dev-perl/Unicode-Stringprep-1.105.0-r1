@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=virtual/perl-Unicode-Normalize-1   >=dev-perl/Module-Build-0.420.0  test? (   virtual/perl-Test-Simple   dev-perl/Test-NoWarnings  )  
+RDEPEND=  >=virtual/perl-Unicode-Normalize-1  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CF/CFAERBER/Unicode-Stringprep-1.105.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/HTML-Parser-3.260.0   >=virtual/perl-ExtUtils-MakeMaker-6.590.0  virtual/perl-CPAN-Meta  test? (   >=virtual/perl-Test-Simple-0.320.0  )  
+RDEPEND=  >=dev-perl/HTML-Parser-3.260.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DJ/DJERIUS/HTML-TableParser-0.42.tar.gz

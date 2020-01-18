@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/arduino/ctags/archive/abc8fca7499f44c725122881cd380a88c37abe0e.tar.gz -> arduino-ctags-20161123.tar.gz

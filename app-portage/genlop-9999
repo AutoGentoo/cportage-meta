@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-lang/perl   dev-perl/Date-Manip   dev-perl/libwww-perl 
+RDEPEND=dev-lang/perl   dev-perl/Date-Manip   dev-perl/libwww-perl 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

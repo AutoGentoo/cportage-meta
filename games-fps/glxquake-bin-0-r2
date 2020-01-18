@@ -1,0 +1,8 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= install postinst
+RDEPEND=sys-libs/glibc  amd64? ( sys-libs/glibc[multilib] )  virtual/opengl[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  x11-libs/libXxf86vm[abi_x86_32(-)]  x11-libs/libXxf86dga[abi_x86_32(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.wh-hms.uni-ulm.de/~mfcn/shared/glxquake/glxquake.tar.gz

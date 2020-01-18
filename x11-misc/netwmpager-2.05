@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=  x11-libs/libX11  x11-libs/libXrender  x11-libs/libXft  x11-libs/libXdmcp  x11-libs/libXau   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  x11-libs/libX11  x11-libs/libXrender  x11-libs/libXft  x11-libs/libXdmcp  x11-libs/libXau  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sf-xpaint/netwmpager-2.05.tar.bz2

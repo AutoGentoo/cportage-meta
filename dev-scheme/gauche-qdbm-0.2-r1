@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-scheme/gauche:=  dev-db/qdbm 
+RDEPEND=dev-scheme/gauche:=  dev-db/qdbm 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ia64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/gauche/6988/Gauche-qdbm-0.2.tar.gz

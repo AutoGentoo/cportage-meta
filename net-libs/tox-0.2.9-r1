@@ -1,0 +1,9 @@
+73cd10c2a958da7a4ba97a6be78ca51e
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+RDEPEND=  av? ( media-libs/libvpx:=   media-libs/opus )  daemon? ( dev-libs/libconfig )  >=dev-libs/libsodium-0.6.1:=[asm,urandom,-minimal] 
+EAPI=7
+IUSE=+av daemon dht-node ipv6 log-debug +log-error log-info log-trace log-warn static-libs test 
+KEYWORDS=amd64 ~arm ~x86
+SLOT=0/0.2
+SRC_URI=https://github.com/TokTok/c-toxcore/archive/v0.2.9.tar.gz -> c-toxcore-0.2.9.tar.gz

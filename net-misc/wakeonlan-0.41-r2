@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=dev-lang/perl[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ppc sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://gsd.di.uminho.pt/jpo/software/wakeonlan/downloads/wakeonlan-0.41.tar.gz

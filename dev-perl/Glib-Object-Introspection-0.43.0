@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup
+DEPEND=  >=dev-perl/ExtUtils-Depends-0.300.0  >=dev-perl/ExtUtils-PkgConfig-1.0.0    >=dev-perl/glib-perl-1.320.0  >=dev-libs/gobject-introspection-1.0  >=dev-libs/libffi-3.0.0:0=  >=dev-libs/glib-2.0.0   
+RDEPEND=  >=dev-perl/glib-perl-1.320.0  >=dev-libs/gobject-introspection-1.0  >=dev-libs/libffi-3.0.0:0=  >=dev-libs/glib-2.0.0  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/X/XA/XAOC/Glib-Object-Introspection-0.043.tar.gz

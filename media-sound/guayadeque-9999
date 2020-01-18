@@ -1,0 +1,10 @@
+d667a62f12487106eefbef7addea72fd
+DEFINED_PHASES= configure postinst prepare setup unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-db/sqlite:3  >=dev-db/wxsqlite3-3.2.1  dev-libs/glib:2  media-libs/flac  media-libs/gst-plugins-base:1.0  media-libs/gst-plugins-good:1.0  media-libs/gstreamer:1.0  >=media-libs/taglib-1.6.4  net-misc/curl  sys-apps/dbus  x11-libs/wxGTK:3.0[X]  ayatana? ( >=dev-libs/libindicate-0.7 )  ipod? ( media-libs/libgpod )  !minimal? (   media-libs/gnonlin:1.0  media-plugins/gst-plugins-libav:1.0  media-plugins/gst-plugins-libnice:1.0  media-plugins/gst-plugins-pulse:1.0  media-plugins/gst-plugins-soup:1.0  media-libs/gst-plugins-bad:1.0  media-libs/gst-plugins-ugly:1.0  )  app-arch/unzip  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=  dev-db/sqlite:3  >=dev-db/wxsqlite3-3.2.1  dev-libs/glib:2  media-libs/flac  media-libs/gst-plugins-base:1.0  media-libs/gst-plugins-good:1.0  media-libs/gstreamer:1.0  >=media-libs/taglib-1.6.4  net-misc/curl  sys-apps/dbus  x11-libs/wxGTK:3.0[X]  ayatana? ( >=dev-libs/libindicate-0.7 )  ipod? ( media-libs/libgpod )  !minimal? (   media-libs/gnonlin:1.0  media-plugins/gst-plugins-libav:1.0  media-plugins/gst-plugins-libnice:1.0  media-plugins/gst-plugins-pulse:1.0  media-plugins/gst-plugins-soup:1.0  media-libs/gst-plugins-bad:1.0  media-libs/gst-plugins-ugly:1.0  ) 
+EAPI=6
+IUSE=ayatana ipod +minimal 
+KEYWORDS=
+SLOT=0
+SRC_URI=

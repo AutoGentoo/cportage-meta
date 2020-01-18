@@ -1,0 +1,9 @@
+abfd4f5b3e2393e99cecbfae5477322c
+DEFINED_PHASES= configure prepare
+DEPEND=>=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  test? ( >=dev-haskell/doctest-0.10   >=dev-haskell/quickcheck-2.4 )  
+RDEPEND=>=dev-lang/ghc-7.4.1:=  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0/0.0.5.0
+SRC_URI=https://hackage.haskell.org/package/ed25519-0.0.5.0/ed25519-0.0.5.0.tar.gz

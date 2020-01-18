@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure install prepare
+DEPEND=  sdl? ( media-libs/libsdl )  !X? ( media-libs/libsdl )  X? ( x11-libs/libXext )   X? ( x11-base/xorg-proto )  
+RDEPEND=  sdl? ( media-libs/libsdl )  !X? ( media-libs/libsdl )  X? ( x11-libs/libXext )  
+EAPI=6
+IUSE=X sdl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/gnuboy-1.0.3.tar.gz

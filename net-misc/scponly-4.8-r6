@@ -1,0 +1,9 @@
+e019174938c8031e91b6367ef67721b5
+DEFINED_PHASES= compile config configure install postinst
+DEPEND=  sys-apps/sed  net-misc/openssh  quota? ( sys-fs/quota )  rsync? ( net-misc/rsync )  subversion? ( dev-vcs/subversion )  unison? ( net-misc/unison:= )  
+RDEPEND=  sys-apps/sed  net-misc/openssh  quota? ( sys-fs/quota )  rsync? ( net-misc/rsync )  subversion? ( dev-vcs/subversion )  unison? ( net-misc/unison:= )  
+EAPI=7
+IUSE=+sftp scp winscp gftp rsync unison subversion wildcards quota passwd logging 
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/scponly/scponly-4.8.tgz

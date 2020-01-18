@@ -1,0 +1,12 @@
+e6c64c8d7e38ad688f02343a5e8bc762
+DEFINED_PHASES= configure install prepare test
+DEPEND=  nls? ( sys-devel/gettext )  app-text/texi2html  
+RDEPEND=  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~jer/indent-2.2.11.tar.gz
+	http://http.debian.net/debian/pool/main/i/indent/indent_2.2.11-5.debian.tar.xz
+

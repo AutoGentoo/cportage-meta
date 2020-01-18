@@ -1,0 +1,9 @@
+7ce34248210a27e01f87b7be366c9a88
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=>=dev-libs/glib-2.14:2  dev-libs/libgcrypt:0  virtual/libusb:0  virtual/udev  >=dev-util/intltool-0.40  sys-apps/texinfo  virtual/pkgconfig 
+RDEPEND=>=dev-libs/glib-2.14:2  dev-libs/libgcrypt:0  virtual/libusb:0  virtual/udev 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://launchpad.net/isight-firmware-tools/main/1.6/+download/isight-firmware-tools-1.6.tar.gz

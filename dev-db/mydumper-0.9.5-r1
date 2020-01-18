@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-db/mysql-connector-c:=  dev-libs/glib:=  dev-libs/libpcre:=  dev-libs/openssl:0=  sys-libs/zlib:=  virtual/pkgconfig  doc? ( dev-python/sphinx ) 
+RDEPEND=dev-db/mysql-connector-c:=  dev-libs/glib:=  dev-libs/libpcre:=  dev-libs/openssl:0=  sys-libs/zlib:= 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/maxbube/mydumper/archive/v0.9.5.tar.gz -> mydumper-0.9.5.tar.gz

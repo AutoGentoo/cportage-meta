@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=media-video/vdr-2.1.7 
+RDEPEND=>=media-video/vdr-2.1.7 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

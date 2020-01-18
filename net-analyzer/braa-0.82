@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install prepare
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://s-tech.elsat.net.pl/braa/braa-0.82.tar.gz

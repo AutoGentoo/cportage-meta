@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  virtual/perl-Carp  dev-perl/Class-Data-Inheritable  >=dev-perl/DateTime-Format-Natural-0.600.0  virtual/perl-Scalar-List-Utils  virtual/perl-parent   >=virtual/perl-ExtUtils-MakeMaker-6.360.0  test? (   dev-perl/Test-MockTime   virtual/perl-Test-Simple  )  
+RDEPEND=  virtual/perl-Carp  dev-perl/Class-Data-Inheritable  >=dev-perl/DateTime-Format-Natural-0.600.0  virtual/perl-Scalar-List-Utils  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALEXMV/Date-Extract-0.06.tar.gz

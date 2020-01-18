@@ -1,0 +1,9 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6  dev-java/cglib:3  dev-java/commons-beanutils:1.7  >=dev-java/commons-logging-1.0.2:0  test? (   dev-java/junit:4   dev-java/ant-junit:0  ) 
+RDEPEND=>=virtual/jre-1.6  dev-java/cglib:3  dev-java/commons-beanutils:1.7  >=dev-java/commons-logging-1.0.2:0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86
+SLOT=3.2
+SRC_URI=mirror://apache/commons/digester/source/commons-digester3-3.2-src.tar.gz

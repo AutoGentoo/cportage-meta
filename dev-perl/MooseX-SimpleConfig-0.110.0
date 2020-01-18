@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/MooseX-ConfigFromFile  >=dev-perl/Moose-0.350.0  >=dev-perl/Config-Any-0.130.0   >=dev-perl/Module-Build-Tiny-0.39.0  test? (   virtual/perl-ExtUtils-MakeMaker   virtual/perl-File-Spec   virtual/perl-File-Temp   dev-perl/Test-Fatal   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  dev-perl/MooseX-ConfigFromFile  >=dev-perl/Moose-0.350.0  >=dev-perl/Config-Any-0.130.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/MooseX-SimpleConfig-0.11.tar.gz

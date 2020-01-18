@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=ssl? ( dev-libs/openssl:0= ) 
+RDEPEND=ssl? ( dev-libs/openssl:0= ) 
+EAPI=6
+IUSE=threads +ssl debug 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/Rudde/mktorrent/archive/96090fb175f3cef17ae2499e98c2868363106927.tar.gz -> mktorrent-96090fb175f3cef17ae2499e98c2868363106927.tar.gz

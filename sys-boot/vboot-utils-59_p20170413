@@ -1,0 +1,9 @@
+d3f6319ff250ec73a05792b9dfea89f2
+DEFINED_PHASES= compile install prepare test
+DEPEND=!static? (   !libressl? ( <dev-libs/openssl-1.1:0= )  libressl? ( dev-libs/libressl:0= )  sys-apps/util-linux:= )  !minimal? (   app-arch/xz-utils:=   dev-libs/libyaml:=  )  static? (   !libressl? ( <dev-libs/openssl-1.1:0=[static-libs(+)] )  libressl? ( dev-libs/libressl:0=[static-libs(+)] )  sys-apps/util-linux:=[static-libs(+)] )  app-crypt/trousers 
+RDEPEND=!static? (   !libressl? ( <dev-libs/openssl-1.1:0= )  libressl? ( dev-libs/libressl:0= )  sys-apps/util-linux:= )  !minimal? (   app-arch/xz-utils:=   dev-libs/libyaml:=  ) 
+EAPI=6
+IUSE=libressl minimal static 
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/vboot-utils-59_p20170413.tar.xz

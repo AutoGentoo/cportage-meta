@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= unpack
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm arm64 x86
+SLOT=0
+SRC_URI=https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.tar.xz

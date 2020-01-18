@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+DEPEND=ipafont? (   media-gfx/fontforge   media-fonts/ja-ipafonts  ) 
+EAPI=6
+IUSE=ipafont 
+KEYWORDS=amd64 hppa ia64 ppc x86 ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/mplus-fonts/62344/mplus-TESTFLIGHT-063.tar.xz

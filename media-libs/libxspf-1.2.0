@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=dev-libs/expat-2  >=dev-libs/uriparser-0.7.5  virtual/pkgconfig  test? ( >=dev-util/cpptest-1.1 ) 
+RDEPEND=  >=dev-libs/expat-2  >=dev-libs/uriparser-0.7.5 
+EAPI=6
+IUSE=static-libs test 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/libspiff/libxspf-1.2.0.tar.bz2

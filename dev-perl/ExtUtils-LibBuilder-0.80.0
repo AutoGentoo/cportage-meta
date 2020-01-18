@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=virtual/perl-ExtUtils-CBuilder-0.230.0  virtual/perl-File-Spec  virtual/perl-File-Temp   >=dev-perl/Module-Build-0.420.0  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=  >=virtual/perl-ExtUtils-CBuilder-0.230.0  virtual/perl-File-Spec  virtual/perl-File-Temp  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBS/ExtUtils-LibBuilder-0.08.tar.gz

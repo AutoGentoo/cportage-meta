@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=!!app-emulation/wine:0 
+EAPI=6
+IUSE=abi_x86_32 abi_x86_64 
+KEYWORDS=amd64 x86
+SLOT=2.47
+SRC_URI=
+	abi_x86_32? ( https://dl.winehq.org/wine/wine-gecko/2.47/wine_gecko-2.47-x86.msi )
+	abi_x86_64? ( https://dl.winehq.org/wine/wine-gecko/2.47/wine_gecko-2.47-x86_64.msi )
+

@@ -1,0 +1,9 @@
+ea804abb240a5ba2e60b0745d2ad486b
+DEFINED_PHASES= compile install unpack
+DEPEND=sys-libs/zlib  openssl? ( dev-libs/openssl:0= )  !openssl? (   gcrypt? ( dev-libs/libgcrypt:0= )   mhash? ( app-crypt/mhash )  ) 
+RDEPEND=sys-libs/zlib  openssl? ( dev-libs/openssl:0= )  !openssl? (   gcrypt? ( dev-libs/libgcrypt:0= )   mhash? ( app-crypt/mhash )  ) 
+EAPI=6
+IUSE=gcrypt mhash +openssl 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/cvsync-2014.08.24.014706.tar.xz

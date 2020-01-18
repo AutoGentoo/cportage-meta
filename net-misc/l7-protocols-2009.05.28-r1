@@ -1,0 +1,8 @@
+8e0f1d158288ce9d95f7e90fcf1a5e79
+DEFINED_PHASES= compile install prepare
+DEPEND=>=sys-apps/sed-4 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/l7-filter/l7-protocols-2009-05-28.tar.gz

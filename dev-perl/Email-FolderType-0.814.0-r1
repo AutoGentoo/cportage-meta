@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=virtual/perl-Exporter-5.570.0  dev-perl/Module-Pluggable   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   dev-perl/Capture-Tiny   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  >=virtual/perl-Exporter-5.570.0  dev-perl/Module-Pluggable  
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Email-FolderType-0.814.tar.gz

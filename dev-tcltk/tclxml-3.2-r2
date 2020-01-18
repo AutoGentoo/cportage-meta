@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=dev-lang/tcl-8.2:0  >=dev-libs/libxml2-2.6.9  dev-libs/libxslt  >=dev-tcltk/tcllib-1.2  dev-libs/expat 
+RDEPEND=  >=dev-lang/tcl-8.2:0  >=dev-libs/libxml2-2.6.9  dev-libs/libxslt  >=dev-tcltk/tcllib-1.2  dev-libs/expat 
+EAPI=5
+IUSE=debug threads 
+KEYWORDS=alpha amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tclxml/tclxml-3.2.tar.gz

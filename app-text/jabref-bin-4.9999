@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= install unpack
+DEPEND=app-arch/unzip 
+RDEPEND=   || (   dev-java/oracle-jre-bin:1.8[javafx]   dev-java/oracle-jdk-bin:1.8[javafx]   )   >=virtual/jre-1.8    
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

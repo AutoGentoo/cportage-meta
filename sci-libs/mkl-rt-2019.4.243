@@ -1,0 +1,8 @@
+f262ab3e96843e5f18b7008865cd8238
+DEFINED_PHASES= install postinst postrm
+RDEPEND= eselect-ldso? ( !app-eselect/eselect-cblas  >=app-eselect/eselect-blas-0.2 ) sys-libs/libomp 
+EAPI=7
+IUSE=eselect-ldso 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://repo.continuum.io/pkgs/main/linux-64/mkl-2019.4-243.tar.bz2 -> mkl-rt-2019.4.243.tar.bz2

@@ -1,0 +1,9 @@
+33018aa9911b4b290df3025fa9ad289d
+DEFINED_PHASES= compile install postinst postrm
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[tk?]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   tk? ( dev-lang/tk )  vim-syntax? (   || (    app-editors/vim    app-editors/gvim   )  )  emacs? ( >=app-editors/emacs-23.1:* ) 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[tk?]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   tk? ( dev-lang/tk )  vim-syntax? (   || (    app-editors/vim    app-editors/gvim   )  )  emacs? ( >=app-editors/emacs-23.1:* ) 
+EAPI=5
+IUSE=emacs tk vim-syntax 
+KEYWORDS=amd64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris
+SLOT=0
+SRC_URI=https://txt2tags.googlecode.com/files/txt2tags-2.6.tgz

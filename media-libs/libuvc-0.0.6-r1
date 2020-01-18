@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  virtual/jpeg:0  virtual/libusb:1  virtual/udev  
+RDEPEND=  virtual/jpeg:0  virtual/libusb:1  virtual/udev  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ktossell/libuvc/archive/v0.0.6.tar.gz -> libuvc-0.0.6.tar.gz

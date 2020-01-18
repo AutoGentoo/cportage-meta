@@ -1,0 +1,13 @@
+ae6e30b696443071c2b12199a13fa2af
+DEFINED_PHASES= configure prepare test
+BDEPEND=virtual/pkgconfig 
+DEPEND=  >=dev-libs/libuv-1.32.0:=  luajit? ( dev-lang/luajit:2 )  !luajit? ( dev-lang/lua:0 )  
+RDEPEND=  >=dev-libs/libuv-1.32.0:=  luajit? ( dev-lang/luajit:2 )  !luajit? ( dev-lang/lua:0 )  
+EAPI=7
+IUSE=luajit test 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=
+	https://github.com/luvit/luv/archive/1.32.0-0.tar.gz -> luv-1.32.0.0.tar.gz
+	https://github.com/keplerproject/lua-compat-5.3/archive/v0.7.tar.gz -> luv-lua-compat-0.7.tar.gz
+

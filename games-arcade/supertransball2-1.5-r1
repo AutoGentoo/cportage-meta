@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare unpack
+DEPEND=  media-libs/libsdl[sound,video]  media-libs/sdl-image  media-libs/sdl-mixer  media-libs/sdl-sound  media-libs/sge   app-arch/unzip  
+RDEPEND=  media-libs/libsdl[sound,video]  media-libs/sdl-image  media-libs/sdl-mixer  media-libs/sdl-sound  media-libs/sge  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://braingames.bugreport.nl/stransball2/stransball2-v15-linux.zip
+	mirror://debian/pool/main/s/supertransball2/supertransball2_1.5-8.debian.tar.xz

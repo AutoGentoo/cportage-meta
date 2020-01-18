@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6  test? ( dev-java/junit:4 ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://apache/commons/sanselan/source/apache-sanselan-incubating-0.97-src.tar.gz

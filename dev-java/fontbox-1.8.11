@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= install test
+DEPEND=>=dev-java/commons-logging-1.1.1:0  >=virtual/jdk-1.6  app-arch/unzip  test? ( dev-java/junit:4 ) 
+RDEPEND=>=dev-java/commons-logging-1.1.1:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~arm64 ppc64 x86
+SLOT=1.8
+SRC_URI=mirror://apache/pdfbox/1.8.11/pdfbox-1.8.11-src.zip

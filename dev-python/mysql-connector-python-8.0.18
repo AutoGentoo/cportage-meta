@@ -1,0 +1,10 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES=-
+BDEPEND=>=dev-libs/protobuf-3.6.1 
+DEPEND=  >=dev-db/mysql-connector-c-8.0  >=dev-python/protobuf-python-3.6.1[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  test? ( dev-db/mysql[server(+)] ) 
+RDEPEND=  >=dev-db/mysql-connector-c-8.0  >=dev-python/protobuf-python-3.6.1[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  
+EAPI=7
+IUSE=examples test 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python-8.0.18.tar.gz

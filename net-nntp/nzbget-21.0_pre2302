@@ -1,0 +1,10 @@
+b3bd737f09003bc7b8b6a45fe427c107
+DEFINED_PHASES= configure install postinst preinst prepare pretend setup test
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/libxml2:=  ncurses? ( sys-libs/ncurses:0= )  ssl? (   gnutls? (    net-libs/gnutls:=    dev-libs/nettle:=   )   !gnutls? ( dev-libs/openssl:0=[-bindist] )  )  zlib? ( sys-libs/zlib:= )  test? (   || (    =app-arch/rar-5*    =app-arch/unrar-5*   )  )  virtual/pkgconfig 
+RDEPEND=dev-libs/libxml2:=  ncurses? ( sys-libs/ncurses:0= )  ssl? (   gnutls? (    net-libs/gnutls:=    dev-libs/nettle:=   )   !gnutls? ( dev-libs/openssl:0=[-bindist] )  )  zlib? ( sys-libs/zlib:= ) 
+EAPI=7
+IUSE=debug gnutls ncurses +parcheck ssl test zlib 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/nzbget/nzbget/releases/download/v21.0-r2302/nzbget-21.0-testing-r2302-src.tar.gz -> nzbget-21.0_pre2302.tar.gz

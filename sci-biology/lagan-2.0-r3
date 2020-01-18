@@ -1,0 +1,8 @@
+9b779f45b0a3f2f468258cd9758a19ca
+DEFINED_PHASES= compile install prepare
+RDEPEND=dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://lagan.stanford.edu/lagan_web/lagan20.tar.gz

@@ -1,0 +1,9 @@
+760dbb68ba5b82d4454686f2f15a2fd0
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=dev-db/sqlite:3  dev-python/pyzmq  dev-lang/luajit:2  dev-libs/json-c:=  dev-libs/geoip  dev-libs/glib:2  dev-libs/hiredis  dev-libs/libsodium:=  dev-libs/libxml2  dev-libs/libmaxminddb  net-analyzer/rrdtool  net-libs/libpcap  >=net-libs/nDPI-2.4:=  net-misc/curl  sys-libs/binutils-libs  dev-db/mysql-connector-c:= 
+RDEPEND=dev-db/sqlite:3  dev-python/pyzmq  dev-lang/luajit:2  dev-libs/json-c:=  dev-libs/geoip  dev-libs/glib:2  dev-libs/hiredis  dev-libs/libsodium:=  dev-libs/libxml2  dev-libs/libmaxminddb  net-analyzer/rrdtool  net-libs/libpcap  >=net-libs/nDPI-2.4:=  net-misc/curl  sys-libs/binutils-libs  dev-db/mysql-connector-c:=  dev-db/redis 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ntop/ntopng/archive/3.8.tar.gz -> ntopng-3.8.tar.gz

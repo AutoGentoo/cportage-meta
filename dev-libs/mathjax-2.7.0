@@ -1,0 +1,7 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare
+EAPI=6
+IUSE=doc examples 
+KEYWORDS=amd64 arm ~arm64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/mathjax/MathJax/archive/2.7.0.tar.gz -> mathjax-2.7.0.tar.gz

@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= install nofetch postinst postrm
+DEPEND=app-arch/unrar 
+RDEPEND=  virtual/opengl  x11-libs/libX11  x11-libs/libXcursor  x11-libs/libXrandr  gui? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )  
+EAPI=7
+IUSE=+gui 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=Linux-Standalone-20151218.rar

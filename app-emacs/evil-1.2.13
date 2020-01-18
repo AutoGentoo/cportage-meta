@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=app-emacs/undo-tree-0.6.3  sys-apps/texinfo 
+RDEPEND=>=app-emacs/undo-tree-0.6.3 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/emacs-evil/evil/archive/1.2.13.tar.gz -> evil-1.2.13.tar.gz

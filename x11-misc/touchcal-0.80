@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+BDEPEND=virtual/pkgconfig 
+DEPEND=  sys-libs/ncurses:0=  x11-libs/libX11  x11-libs/libXft  x11-libs/libXinerama  
+RDEPEND=  sys-libs/ncurses:0=  x11-libs/libX11  x11-libs/libXft  x11-libs/libXinerama  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 arm ~arm64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/touchcal/touchcal_0.80.orig.tar.gz

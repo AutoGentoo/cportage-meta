@@ -1,0 +1,9 @@
+ce063fa36f410a123332916dec59a433
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=gpm? ( sys-libs/gpm ) 
+RDEPEND=gpm? ( sys-libs/gpm ) 
+EAPI=4
+IUSE=gpm cpu_flags_x86_mmx cpu_flags_x86_sse 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/beye/6.1.0/biew-610-src.tar.bz2

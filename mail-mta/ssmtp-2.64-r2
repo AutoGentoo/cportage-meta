@@ -1,0 +1,10 @@
+91dfbd8af4ea290e0a0e60f726106446
+DEFINED_PHASES= compile configure install prepare setup
+DEPEND=ssl? (   !gnutls? ( dev-libs/openssl:0 )   gnutls? ( net-libs/gnutls[openssl] )  ) 
+RDEPEND=ssl? (   !gnutls? ( dev-libs/openssl:0 )   gnutls? ( net-libs/gnutls[openssl] )  )  net-mail/mailbase  mta? (   !net-mail/mailwrapper   !mail-mta/courier   !mail-mta/esmtp   !mail-mta/exim   !mail-mta/mini-qmail   !mail-mta/msmtp[mta]   !mail-mta/nbsmtp   !mail-mta/netqmail   !mail-mta/nullmailer   !mail-mta/postfix   !mail-mta/qmail-ldap   !mail-mta/sendmail   !mail-mta/opensmtpd  ) 
+EAPI=4
+IUSE=ipv6 +ssl gnutls +mta 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/ssmtp/ssmtp_2.64.orig.tar.bz2
+	https://dev.gentoo.org/~flameeyes/ssmtp/ssmtp-2.64-patches-3.tar.bz2

@@ -1,0 +1,7 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sentrytools/portsentry-1.2.tar.gz

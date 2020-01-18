@@ -1,0 +1,8 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= install postinst
+RDEPEND=  app-shells/bash  dev-lang/perl  sys-process/lsof[rpc]  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ~arm ~mips ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/rkhunter/rkhunter-1.4.6.tar.gz

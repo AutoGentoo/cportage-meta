@@ -1,0 +1,9 @@
+52611b52a1884d11482c6e712a4763f6
+DEFINED_PHASES= compile install test
+DEPEND=  dev-libs/gmp:0=  virtual/jdk:1.8  
+RDEPEND=  dev-libs/gmp:0=  virtual/jdk:1.8  
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://download.i2p2.de/releases/0.9.42/i2psource_0.9.42.tar.bz2

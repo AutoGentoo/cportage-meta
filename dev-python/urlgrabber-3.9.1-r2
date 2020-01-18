@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/pycurl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=dev-python/pycurl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ia64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://urlgrabber.baseurl.org/download/urlgrabber-3.9.1.tar.gz

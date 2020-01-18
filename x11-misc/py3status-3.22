@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  x11-misc/i3status  gevent? ( >=dev-python/gevent-1.2.0[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  udev? ( >=dev-python/pyudev-0.21.0[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )   dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+RDEPEND=  x11-misc/i3status  gevent? ( >=dev-python/gevent-1.2.0[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  udev? ( >=dev-python/pyudev-0.21.0[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  
+EAPI=6
+IUSE=gevent +udev 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ultrabug/py3status/archive/3.22.tar.gz -> py3status-3.22.tar.gz

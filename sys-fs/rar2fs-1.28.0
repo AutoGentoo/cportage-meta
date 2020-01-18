@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=app-arch/unrar-5:=  sys-fs/fuse:0 
+RDEPEND=>=app-arch/unrar-5:=  sys-fs/fuse:0 
+EAPI=7
+IUSE=debug 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/hasse69/rar2fs/releases/download/v1.28.0/rar2fs-1.28.0.tar.gz

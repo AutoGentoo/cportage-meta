@@ -1,0 +1,11 @@
+900fb10ee7da16af705765c546d60a2f
+DEFINED_PHASES= configure install postinst
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  ~sci-libs/votca-tools-1.4[sqlite]  ~sci-chemistry/votca-csg-1.4  doc? (   app-doc/doxygen[dot]   dev-texlive/texlive-latexextra   virtual/latex-base   dev-tex/pgf  )  >=app-text/txt2tags-2.5  virtual/pkgconfig 
+RDEPEND=  ~sci-libs/votca-tools-1.4[sqlite]  ~sci-chemistry/votca-csg-1.4 
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/votca/xtp/archive/v1.4.tar.gz -> votca-xtp-1.4.tar.gz
+		doc? ( https://github.com/votca/xtp/releases/download/v1.4/votca-xtp-manual-1.4.pdf )

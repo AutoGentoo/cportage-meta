@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=test? ( dev-perl/Path-Class ) 
+EAPI=5
+IUSE=test 
+KEYWORDS=alpha amd64 ~arm ~hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALEXMV/Module-Refresh-0.17.tar.gz

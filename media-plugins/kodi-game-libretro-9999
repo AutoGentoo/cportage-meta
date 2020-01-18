@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  ~media-tv/kodi-9999  ~media-libs/kodi-platform-9999  =dev-libs/libplatform-2*   
+RDEPEND=    ~media-tv/kodi-9999  ~media-libs/kodi-platform-9999  =dev-libs/libplatform-2*     
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

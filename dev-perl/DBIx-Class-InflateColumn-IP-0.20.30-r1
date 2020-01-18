@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=  dev-perl/NetAddr-IP  >=dev-perl/DBIx-Class-0.81.70   test? ( dev-perl/DBD-SQLite )  
+RDEPEND=  dev-perl/NetAddr-IP  >=dev-perl/DBIx-Class-0.81.70  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IL/ILMARI/DBIx-Class-InflateColumn-IP-0.02003.tar.gz

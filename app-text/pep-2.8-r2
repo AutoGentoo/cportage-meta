@@ -1,0 +1,8 @@
+05ab88fb98453f3a811b785145662131
+DEFINED_PHASES= compile install prepare
+DEPEND=app-arch/unzip 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~mips ppc x86 ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://hannemyr.com/enjoy/pep28.zip -> pep-2.8.zip

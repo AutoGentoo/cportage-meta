@@ -1,0 +1,8 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= install
+RDEPEND=dev-lang/php[xml]  dev-php/phpdepend 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/phpmd/phpmd/archive/2.6.0.tar.gz -> phpmd-2.6.0.tar.gz

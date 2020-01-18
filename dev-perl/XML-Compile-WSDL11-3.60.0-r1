@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Log-Report-1.50.0  >=dev-perl/XML-Compile-1.480.0  >=dev-perl/XML-Compile-Cache-1.30.0  >=dev-perl/XML-Compile-SOAP-3.160.0   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/XML-Compile-Tester   >=virtual/perl-Test-Simple-0.540.0  )  
+RDEPEND=  >=dev-perl/Log-Report-1.50.0  >=dev-perl/XML-Compile-1.480.0  >=dev-perl/XML-Compile-Cache-1.30.0  >=dev-perl/XML-Compile-SOAP-3.160.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MARKOV/XML-Compile-WSDL11-3.06.tar.gz

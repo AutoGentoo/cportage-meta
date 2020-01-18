@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= unpack
+DEPEND=>=virtual/jdk-1.5  app-arch/unzip  dev-java/junit:4  dev-java/objenesis:0  dev-java/hamcrest-core:0  dev-java/ant-core:0 
+RDEPEND=>=virtual/jre-1.5  dev-java/junit:4  dev-java/objenesis:0  dev-java/hamcrest-core:0  dev-java/ant-core:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm64 ppc64 x86
+SLOT=0
+SRC_URI=https://mockito.googlecode.com/files/mockito-1.9.5.zip

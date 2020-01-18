@@ -1,0 +1,10 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure prepare
+BDEPEND=  virtual/pkgconfig  
+DEPEND=    dev-libs/glib:2  gnome-base/libgnome  >=gnome-base/libgnomeui-2.2.0  >=media-libs/id3lib-3.8.3  media-sound/cdparanoia  media-sound/lame  net-misc/curl  >=x11-libs/gtk+-2.2:2  x11-libs/libX11  x11-libs/pango  vorbis? ( media-sound/vorbis-tools )   sys-devel/gettext  
+RDEPEND=  dev-libs/glib:2  gnome-base/libgnome  >=gnome-base/libgnomeui-2.2.0  >=media-libs/id3lib-3.8.3  media-sound/cdparanoia  media-sound/lame  net-misc/curl  >=x11-libs/gtk+-2.2:2  x11-libs/libX11  x11-libs/pango  vorbis? ( media-sound/vorbis-tools )  
+EAPI=7
+IUSE=vorbis 
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/grip/grip-4.0.0.tar.gz

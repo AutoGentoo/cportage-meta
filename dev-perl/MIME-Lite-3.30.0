@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  !minimal? (   virtual/perl-MIME-Base64   >=dev-perl/MIME-Types-1.280.0   >=dev-perl/MailTools-1.620.0  )  dev-perl/Email-Date-Format  virtual/perl-File-Spec   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  !minimal? (   virtual/perl-MIME-Base64   >=dev-perl/MIME-Types-1.280.0   >=dev-perl/MailTools-1.620.0  )  dev-perl/Email-Date-Format  virtual/perl-File-Spec  
+EAPI=6
+IUSE=minimal 
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/MIME-Lite-3.030.tar.gz

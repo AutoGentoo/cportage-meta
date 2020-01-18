@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  >=dev-perl/Module-Build-0.400.500    dev-perl/Devel-CheckCompiler  virtual/perl-Devel-PPPort  virtual/perl-Exporter  virtual/perl-ExtUtils-CBuilder  virtual/perl-File-Path  virtual/perl-XSLoader  virtual/perl-parent   test? (   dev-perl/Capture-Tiny   dev-perl/Cwd-Guard   dev-perl/File-Copy-Recursive   virtual/perl-File-Spec   virtual/perl-File-Temp   >=virtual/perl-Test-Simple-0.980.0  )  
+RDEPEND=  dev-perl/Devel-CheckCompiler  virtual/perl-Devel-PPPort  virtual/perl-Exporter  virtual/perl-ExtUtils-CBuilder  virtual/perl-File-Path  virtual/perl-XSLoader  virtual/perl-parent  
+EAPI=6
+IUSE=test examples 
+KEYWORDS=amd64 hppa ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/H/HI/HIDEAKIO/Module-Build-XSUtil-0.18.tar.gz

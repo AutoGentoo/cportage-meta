@@ -1,0 +1,10 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= configure install prepare
+DEPEND=alsa? ( media-libs/alsa-lib ) 
+RDEPEND=alsa? ( media-libs/alsa-lib ) 
+EAPI=6
+IUSE=alsa oss 
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tse3/tse3-0.3.1.tar.gz
+	mirror://gentoo/tse3-0.3.1-awe_voice.h.tbz2

@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  bluetooth? ( net-wireless/bluez:= )  usb? ( virtual/libusb:= )  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=  bluetooth? ( net-wireless/bluez:= )  usb? ( virtual/libusb:= ) 
+EAPI=6
+IUSE=bluetooth doc irda usb 
+KEYWORDS=amd64 arm ~hppa ppc ppc64 ~sparc x86
+SLOT=0/2
+SRC_URI=mirror://sourceforge/openobex/1.7.2/openobex-1.7.2-Source.tar.gz

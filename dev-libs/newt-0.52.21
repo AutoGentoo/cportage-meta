@@ -1,0 +1,9 @@
+c998f13439e527926769d471a51e2dad
+DEFINED_PHASES= compile configure install prepare
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  >=dev-libs/popt-1.6  =sys-libs/slang-2*  elibc_uclibc? ( sys-libs/ncurses:0= )  gpm? ( sys-libs/gpm )  tcl? ( >=dev-lang/tcl-8.5:0 )   
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  >=dev-libs/popt-1.6  =sys-libs/slang-2*  elibc_uclibc? ( sys-libs/ncurses:0= )  gpm? ( sys-libs/gpm )  tcl? ( >=dev-lang/tcl-8.5:0 )   
+EAPI=6
+IUSE=gpm nls tcl 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://releases.pagure.org/newt/newt-0.52.21.tar.gz

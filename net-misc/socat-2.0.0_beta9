@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install prepare setup
+DEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  readline? ( sys-libs/readline:= )  tcpd? ( sys-apps/tcp-wrappers )  
+RDEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  readline? ( sys-libs/readline:= )  tcpd? ( sys-apps/tcp-wrappers )  
+EAPI=6
+IUSE=libressl ssl readline ipv6 tcpd 
+KEYWORDS=
+SLOT=0
+SRC_URI=http://www.dest-unreach.org/socat/download/socat-2.0.0-b9.tar.bz2

@@ -1,0 +1,9 @@
+be0b3d9325f32ce56a45cba7491b66c8
+DEFINED_PHASES= compile install postinst prepare setup test
+DEPEND=  mpi? ( virtual/mpi )  doc? (   >=app-text/poppler-0.12.3-r3[utils]   dev-tex/latex2html   virtual/tex-base   || ( ( >=dev-lang/python-2.7.5-r2:2.7     >=dev-python/beautifulsoup-4[python_targets_python2_7(-),python_single_target_python2_7(+)]    dev-python/lxml[python_targets_python2_7(-),python_single_target_python2_7(+)]    ) )   media-libs/netpbm   || ( >=dev-lang/python-2.7.5-r2:2.7 )  ) 
+RDEPEND=mpi? ( virtual/mpi ) 
+EAPI=5
+IUSE=charmdebug charmtracing charmproduction cmkopt doc examples mlogft mpi numa smp static-libs syncft tcp 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://charm.cs.uiuc.edu/distrib/charm-6.6.0.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install pretend
+RDEPEND=!sys-kernel/linux-firmware[-savedconfig] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/iwl3160-7260-bt-ucode-37.8.10_p2.tgz

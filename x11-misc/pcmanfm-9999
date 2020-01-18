@@ -1,0 +1,9 @@
+f30e15a3374714f538b2959f829faaca
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=>=dev-libs/glib-2.18:2  >=x11-libs/gtk+-2.16:2  >=lxde-base/menu-cache-0.3.2  x11-misc/shared-mime-info  >=x11-libs/libfm-9999:=[gtk(+)]  virtual/eject  virtual/freedesktop-icon-theme  app-arch/xz-utils  >=dev-util/intltool-0.40  virtual/pkgconfig  sys-devel/gettext 
+RDEPEND=>=dev-libs/glib-2.18:2  >=x11-libs/gtk+-2.16:2  >=lxde-base/menu-cache-0.3.2  x11-misc/shared-mime-info  >=x11-libs/libfm-9999:=[gtk(+)]  virtual/eject  virtual/freedesktop-icon-theme 
+EAPI=6
+IUSE=debug 
+KEYWORDS=
+SLOT=0
+SRC_URI=

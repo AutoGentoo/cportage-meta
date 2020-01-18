@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/CGI  >=dev-perl/GD-2.300.0  >=dev-perl/Statistics-Descriptive-2.600.0  <=sci-biology/bioperl-1.6.924  >=sci-biology/bioperl-1.5.9.1   >=dev-perl/Module-Build-0.420.0  
+RDEPEND=  dev-perl/CGI  >=dev-perl/GD-2.300.0  >=dev-perl/Statistics-Descriptive-2.600.0  <=sci-biology/bioperl-1.6.924  >=sci-biology/bioperl-1.5.9.1  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CJ/CJFIELDS/Bio-Graphics-2.40.tar.gz

@@ -1,0 +1,7 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare setup
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc sparc ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/gartoon-0.5.tar.gz

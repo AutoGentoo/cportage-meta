@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=media-video/vdr-2.0.6[permashift] 
+RDEPEND=>=media-video/vdr-2.0.6[permashift] 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://ein-eike.de/wordpress/wp-content/uploads/2014/11/vdr-permashift-1.0.1.tgz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-lang/php-5.2.0:* 
+RDEPEND=>=dev-lang/php-5.2.0:*  >=dev-php/PEAR-HTML_Common2-2.1.0 
+EAPI=7
+IUSE=examples 
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/HTML_QuickForm2-2.1.0.tgz

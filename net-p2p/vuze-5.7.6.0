@@ -1,0 +1,10 @@
+c42c5b529ebe34836ea63e8f792a31dc
+DEFINED_PHASES= compile install postinst postrm prepare unpack
+DEPEND=    dev-java/log4j:0  dev-java/swt:3.8[cairo]  dev-java/commons-cli:1  dev-java/json-simple:0  dev-java/commons-lang:2.1  app-arch/unzip  dev-util/desktop-file-utils  >=virtual/jdk-1.8 
+RDEPEND=    dev-java/log4j:0  dev-java/swt:3.8[cairo]  dev-java/commons-cli:1  dev-java/json-simple:0  dev-java/commons-lang:2.1  >=virtual/jre-1.8 
+PDEPEND=~net-p2p/vuze-coreplugins-5.7.6.0 
+EAPI=7
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/azureus/vuze/Vuze_5760/Vuze_5760_source.zip

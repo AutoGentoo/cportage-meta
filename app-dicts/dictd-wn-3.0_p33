@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+DEPEND=>=app-text/dictd-1.5.5 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/w/wordnet/dict-wn_3.0-33_all.deb

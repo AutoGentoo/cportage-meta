@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/libXaw  !!dev-lang/elixir  x11-base/xorg-proto 
+RDEPEND=x11-libs/libXaw  !!dev-lang/elixir 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://evolution.gs.washington.edu/phylip/download/phylip-3.696.tar.gz

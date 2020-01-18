@@ -1,0 +1,10 @@
+a44f2656e738b97a00251ea1ddccfdc2
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/libogg  media-libs/libpng:0=  media-libs/libsdl[X,sound,video]  media-libs/libvorbis  media-libs/sdl-mixer[mp3,vorbis]  media-libs/sdl-image[png]  
+RDEPEND=  media-libs/libogg  media-libs/libpng:0=  media-libs/libsdl[X,sound,video]  media-libs/libvorbis  media-libs/sdl-mixer[mp3,vorbis]  media-libs/sdl-image[png]  
+EAPI=6
+IUSE=debug devtools 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/freesynd/freesynd-0.7.1.tar.gz

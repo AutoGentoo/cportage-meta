@@ -1,0 +1,8 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= install
+DEPEND=dev-perl/TermReadKey  dev-perl/Term-ReadLine-Perl  virtual/perl-Storable  dev-perl/Config-General  crypt? ( dev-perl/Crypt-CBC   dev-perl/Crypt-Blowfish   dev-perl/Crypt-DES )  mysql? ( virtual/mysql   dev-perl/DBD-mysql ) 
+EAPI=5
+IUSE=crypt dbm general mysql text 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.daemon.de/files/mirror/ftp.daemon.de/scip/Apps/note/note-1.3.3.tar.gz

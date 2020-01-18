@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 )  
+RDEPEND=  php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 )  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/phacility/xhprof/archive/dab44f76da5c8a0d4f1339f7d2ea2bc42408e8e9.tar.gz -> xhprof-0.9.10.tar.gz

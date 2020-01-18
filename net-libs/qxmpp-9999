@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  opus? ( media-libs/opus )  speex? ( media-libs/speex )  theora? ( media-libs/libtheora )  vpx? ( media-libs/libvpx:= )   dev-util/cmake  test? ( dev-qt/qttest:5 )  doc? ( app-doc/doxygen )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  opus? ( media-libs/opus )  speex? ( media-libs/speex )  theora? ( media-libs/libtheora )  vpx? ( media-libs/libvpx:= )  
+EAPI=6
+IUSE=debug doc opus +speex test theora vpx 
+KEYWORDS=
+SLOT=0
+SRC_URI=

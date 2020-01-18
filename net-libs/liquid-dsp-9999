@@ -1,0 +1,9 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= configure install prepare
+DEPEND=sci-libs/fftw:3.0= 
+RDEPEND=sci-libs/fftw:3.0= 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

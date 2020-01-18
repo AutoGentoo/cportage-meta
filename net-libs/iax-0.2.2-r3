@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=debug snomhack 
+KEYWORDS=~amd64 ppc x86
+SLOT=0
+SRC_URI=https://downloads.asterisk.org/pub/telephony/libiax/iax-0.2.2.tar.gz

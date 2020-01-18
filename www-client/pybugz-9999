@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES=-
+DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+RDEPEND=dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+EAPI=5
+IUSE=zsh-completion 
+KEYWORDS=
+SLOT=0
+SRC_URI=

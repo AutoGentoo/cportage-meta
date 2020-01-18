@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-File-Spec  virtual/perl-File-Temp  dev-perl/File-Which  dev-perl/IPC-Run  dev-perl/Log-Log4perl  virtual/perl-File-Path  app-arch/tar   virtual/perl-ExtUtils-MakeMaker  test? (   >=dev-perl/Dumbbench-0.111.0   >=virtual/perl-Test-Simple-1.302.73  )  
+RDEPEND=  virtual/perl-File-Spec  virtual/perl-File-Temp  dev-perl/File-Which  dev-perl/IPC-Run  dev-perl/Log-Log4perl  virtual/perl-File-Path  app-arch/tar  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AR/ARFREITAS/Archive-Tar-Wrapper-0.33.tar.gz

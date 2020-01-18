@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=dev-libs/glib-2.26:2  >=x11-libs/cairo-1.10[glib]  >=x11-libs/gtk+-3.5.2:3  virtual/pkgconfig 
+RDEPEND=>=dev-libs/glib-2.26:2  >=x11-libs/cairo-1.10[glib]  >=x11-libs/gtk+-3.5.2:3 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~tetromino/distfiles/gtk-engines-unico/unico-1.0.3_pre20121212.tar.bz2

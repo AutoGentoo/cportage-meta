@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Module-Build  test? (   dev-perl/CGI  )  
+RDEPEND=dev-lang/perl:= 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SK/SKNPP/OOTools-2.4.tar.gz https://dev.gentoo.org/~tove/distfiles/dev-perl/OOTools/OOTools-2.300.0-patch.tar.bz2

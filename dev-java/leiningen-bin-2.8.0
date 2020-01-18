@@ -1,0 +1,12 @@
+2e4740e8c07ce5a8a6cfce4eb5db4fe6
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=>=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x64-macos
+SLOT=0
+SRC_URI=
+	https://github.com/technomancy/leiningen/releases/download/2.8.0/leiningen-2.8.0-standalone.zip -> leiningen-2.8.0-standalone.jar
+	https://raw.githubusercontent.com/technomancy/leiningen/2.8.0/bin/lein-pkg -> leiningen-2.8.0.sh
+

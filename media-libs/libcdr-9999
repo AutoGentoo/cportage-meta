@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install prepare
+BDEPEND=  sys-devel/libtool  virtual/pkgconfig  doc? ( app-doc/doxygen )  test? ( dev-util/cppunit )  
+DEPEND=  dev-libs/icu:=  dev-libs/librevenge  media-libs/lcms:2  sys-libs/zlib   dev-libs/boost  
+RDEPEND=  dev-libs/icu:=  dev-libs/librevenge  media-libs/lcms:2  sys-libs/zlib  
+EAPI=7
+IUSE=doc static-libs test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

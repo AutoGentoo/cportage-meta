@@ -1,0 +1,10 @@
+823f8361e770f48862b64ea2af66f0b3
+DEFINED_PHASES= configure install postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  eselect-ldso? ( >=app-eselect/eselect-blas-0.2  >=app-eselect/eselect-lapack-0.2 )  !app-eselect/eselect-cblas  !sci-libs/blas-reference  !sci-libs/cblas-reference  !sci-libs/lapack-reference  !sci-libs/lapacke-reference  virtual/fortran  doc? ( app-doc/blas-docs )  virtual/pkgconfig 
+RDEPEND=  eselect-ldso? ( >=app-eselect/eselect-blas-0.2  >=app-eselect/eselect-lapack-0.2 )  !app-eselect/eselect-cblas  !sci-libs/blas-reference  !sci-libs/cblas-reference  !sci-libs/lapack-reference  !sci-libs/lapacke-reference  virtual/fortran  doc? ( app-doc/blas-docs ) 
+EAPI=7
+IUSE=lapacke doc eselect-ldso 
+KEYWORDS=alpha amd64 arm arm64 ~hppa ia64 ~mips ppc ppc64 ~s390 ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.netlib.org/lapack/lapack-3.8.0.tar.gz

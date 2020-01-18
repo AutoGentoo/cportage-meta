@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://gentoo/wait_on_pid-0.0.2.tar.bz2 https://dev.gentoo.org/~zzam/wait_on_pid/wait_on_pid-0.0.2.tar.bz2

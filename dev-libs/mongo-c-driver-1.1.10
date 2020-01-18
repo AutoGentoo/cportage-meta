@@ -1,0 +1,9 @@
+c1752ca13f437131c8bfba89b2b61e9b
+DEFINED_PHASES= configure install prepare test
+DEPEND=>=dev-libs/libbson-1.1.10  sasl? ( dev-libs/cyrus-sasl )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  test? ( dev-db/mongodb ) 
+RDEPEND=>=dev-libs/libbson-1.1.10  sasl? ( dev-libs/cyrus-sasl )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+EAPI=5
+IUSE=debug examples libressl sasl ssl static-libs test 
+KEYWORDS=~amd64 ~hppa ~s390 ~x86
+SLOT=0
+SRC_URI=https://github.com/mongodb/mongo-c-driver/releases/download/1.1.10/mongo-c-driver-1.1.10.tar.gz

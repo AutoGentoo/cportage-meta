@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=man? ( ~app-text/scdoc-9999 ) 
+DEPEND=  >=dev-libs/wayland-protocols-1.14  dev-libs/wayland  x11-libs/cairo 
+RDEPEND=  >=dev-libs/wayland-protocols-1.14  dev-libs/wayland  x11-libs/cairo 
+EAPI=7
+IUSE=+man 
+KEYWORDS=
+SLOT=0
+SRC_URI=

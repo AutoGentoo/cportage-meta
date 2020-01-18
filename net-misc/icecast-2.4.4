@@ -1,0 +1,10 @@
+4368da3e248988b2ab2dc62e36a2e9cb
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/libxml2  dev-libs/libxslt  media-libs/libogg  media-libs/libvorbis  kate? ( media-libs/libkate )  logrotate? ( app-admin/logrotate )  speex? ( media-libs/speex )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  theora? ( media-libs/libtheora )  yp? ( net-misc/curl )  
+RDEPEND=  dev-libs/libxml2  dev-libs/libxslt  media-libs/libogg  media-libs/libvorbis  kate? ( media-libs/libkate )  logrotate? ( app-admin/logrotate )  speex? ( media-libs/speex )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  theora? ( media-libs/libtheora )  yp? ( net-misc/curl )  
+EAPI=7
+IUSE=kate libressl logrotate +speex +ssl +theora +yp 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://downloads.xiph.org/releases/icecast/icecast-2.4.4.tar.gz

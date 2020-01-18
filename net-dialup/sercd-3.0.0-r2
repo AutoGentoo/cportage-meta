@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=xinetd? ( virtual/inetd ) 
+EAPI=6
+IUSE=xinetd 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sercd/sercd-3.0.0.tar.gz

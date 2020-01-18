@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure preinst prepare
+DEPEND=  dev-libs/libpcre  net-libs/libpcap  
+RDEPEND=  dev-libs/libpcre  net-libs/libpcap  
+EAPI=5
+IUSE=ipv6 
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/ngrep/ngrep-1.45.tar.bz2

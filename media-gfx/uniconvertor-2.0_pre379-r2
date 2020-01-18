@@ -1,0 +1,9 @@
+512dcb273445ed463456aed932cb01a9
+DEFINED_PHASES= postinst postrm
+DEPEND=  dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-gfx/imagemagick:=  media-libs/lcms:2  dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  virtual/pkgconfig  app-text/ghostscript-gpl 
+RDEPEND=  dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-gfx/imagemagick:=  media-libs/lcms:2  dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm hppa ppc ppc64 x86 ~amd64-linux ~x86-linux ~x64-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/uniconvertor-2.0_pre379.tar.xz

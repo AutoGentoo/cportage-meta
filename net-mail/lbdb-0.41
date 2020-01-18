@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure install
+DEPEND=dev-libs/libvformat  evo? ( mail-client/evolution )  finger? ( net-misc/netkit-fingerd )  abook? ( app-misc/abook )  crypt? ( app-crypt/gnupg ) 
+RDEPEND=dev-libs/libvformat  evo? ( mail-client/evolution )  finger? ( net-misc/netkit-fingerd )  abook? ( app-misc/abook )  crypt? ( app-crypt/gnupg )  pda? ( dev-perl/Palm )  ldap? ( dev-perl/perl-ldap ) 
+EAPI=6
+IUSE=pda ldap finger abook crypt evo 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.spinnaker.de/debian/lbdb_0.41.tar.gz

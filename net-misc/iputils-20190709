@@ -1,0 +1,11 @@
+7f6dff7941676ad04736247d58995cb3
+DEFINED_PHASES= compile configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=    arping? ( !net-misc/arping )  rarpd? ( !net-misc/rarpd )  traceroute6? ( !net-analyzer/traceroute )  !static? (   caps? ( sys-libs/libcap )  idn? ( net-dns/libidn2:= )  ipv6? (   ssl? (    gcrypt? ( dev-libs/libgcrypt:0= )    !gcrypt? (     nettle? ( dev-libs/nettle )     !nettle? (      libressl? ( dev-libs/libressl:0= )      !libressl? ( dev-libs/openssl:0= )     )    )   )  )  nls? ( sys-devel/gettext )  )   virtual/os-headers  static? (   caps? ( sys-libs/libcap[static-libs(+)] )  idn? ( net-dns/libidn2:=[static-libs(+)] )  ipv6? (   ssl? (    gcrypt? ( dev-libs/libgcrypt:0=[static-libs(+)] )    !gcrypt? (     nettle? ( dev-libs/nettle[static-libs(+)] )     !nettle? (      libressl? ( dev-libs/libressl:0=[static-libs(+)] )      !libressl? ( dev-libs/openssl:0=[static-libs(+)] )     )    )   )  )  nls? ( sys-devel/gettext[static-libs(+)] )  )  
+RDEPEND=  arping? ( !net-misc/arping )  rarpd? ( !net-misc/rarpd )  traceroute6? ( !net-analyzer/traceroute )  !static? (   caps? ( sys-libs/libcap )  idn? ( net-dns/libidn2:= )  ipv6? (   ssl? (    gcrypt? ( dev-libs/libgcrypt:0= )    !gcrypt? (     nettle? ( dev-libs/nettle )     !nettle? (      libressl? ( dev-libs/libressl:0= )      !libressl? ( dev-libs/openssl:0= )     )    )   )  )  nls? ( sys-devel/gettext )  )  
+EAPI=7
+IUSE=+arping caps clockdiff doc gcrypt idn ipv6 libressl nettle nls rarpd rdisc SECURITY_HAZARD ssl static tftpd tracepath traceroute6 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~ppc-aix ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/iputils/iputils/archive/s20190709.tar.gz -> iputils-20190709.tar.gz
+		https://dev.gentoo.org/~whissi/dist/iputils/iputils-manpages-20190709.tar.xz

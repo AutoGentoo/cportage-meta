@@ -1,0 +1,9 @@
+1a09ff9ad3890bc96b48406c1cb84273
+DEFINED_PHASES= compile configure install prepare
+DEPEND=uum? ( sys-libs/ncurses:= )  uum? ( virtual/pkgconfig ) 
+RDEPEND=uum? ( sys-libs/ncurses:= ) 
+EAPI=6
+IUSE=ipv6 uum 
+KEYWORDS=~alpha ~amd64 ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/freewnn/63271/FreeWnn-1.1.1-a023.tar.bz2

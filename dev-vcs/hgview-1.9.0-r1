@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install prepare
+DEPEND=  dev-python/pyinotify[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygments[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/urwid-1.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-vcs/mercurial[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  doc? (   app-text/asciidoc   app-text/xmlto  ) 
+RDEPEND=  dev-python/pyinotify[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygments[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/urwid-1.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-vcs/mercurial[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/h/hgview/hgview-1.9.0.tar.gz

@@ -1,0 +1,13 @@
+481cf9eb0dafbee1b9cd6b93086173bd
+DEFINED_PHASES= compile configure install prepare
+DEPEND=ada_target_gnat_2016? ( dev-lang/gnat-gpl:4.9.4 ) ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 )  
+RDEPEND=ada_target_gnat_2016? ( dev-lang/gnat-gpl:4.9.4 ) ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 )  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	http://mirrors.cdn.adacore.com/art/591c45e2c7a447af2deecff7
+		-> gprbuild-gpl-2017-src.tar.gz
+	http://mirrors.cdn.adacore.com/art/591aeb88c7a4473fcbb154f8
+		-> xmlada-gpl-2017-src.tar.gz

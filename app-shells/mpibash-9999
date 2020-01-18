@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=virtual/mpi  >=app-shells/bash-4.2[plugins]  sys-cluster/libcircle 
+RDEPEND=virtual/mpi  >=app-shells/bash-4.2[plugins]  sys-cluster/libcircle 
+EAPI=5
+IUSE=examples 
+KEYWORDS=
+SLOT=0
+SRC_URI=

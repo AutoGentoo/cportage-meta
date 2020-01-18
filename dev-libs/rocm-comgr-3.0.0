@@ -1,0 +1,10 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= configure prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-libs/rocm-device-libs-3.0.0  >=sys-devel/llvm-roc-3.0.0:= 
+RDEPEND=>=dev-libs/rocm-device-libs-3.0.0  >=sys-devel/llvm-roc-3.0.0:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/3.0
+SRC_URI=https://github.com/RadeonOpenCompute/ROCm-CompilerSupport/archive/roc-3.0.0.tar.gz -> rocm-comgr-3.0.0.tar.gz

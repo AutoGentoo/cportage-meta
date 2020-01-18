@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=>=dev-lang/php-5.3:*  >=dev-php/PEAR-PEAR-1.10.1  dev-php/PEAR-PEAR_PackageFileManager2  dev-php/PEAR-PEAR_PackageFileManager_Plugins 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/PEAR_PackageFileManager-1.7.2.tgz

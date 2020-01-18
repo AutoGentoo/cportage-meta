@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    >=dev-libs/chmlib-0.36  x11-libs/wxGTK:3.0-gtk3[X]  nls? ( virtual/libintl )   nls? ( sys-devel/gettext )  
+RDEPEND=  >=dev-libs/chmlib-0.36  x11-libs/wxGTK:3.0-gtk3[X]  nls? ( virtual/libintl )  
+EAPI=7
+IUSE=nls 
+KEYWORDS=
+SLOT=0
+SRC_URI=

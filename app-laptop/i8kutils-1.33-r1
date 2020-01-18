@@ -1,0 +1,9 @@
+94b4710518b0b3d3bf08c75dda217258
+DEFINED_PHASES= install prepare
+DEPEND=tk? ( dev-lang/tk ) 
+RDEPEND=tk? ( dev-lang/tk ) 
+EAPI=4
+IUSE=examples tk 
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/i/i8kutils/i8kutils_1.33.tar.gz

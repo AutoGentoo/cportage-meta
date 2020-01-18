@@ -1,0 +1,9 @@
+15e9898c781c2b7abe2d937df39c1366
+DEFINED_PHASES= compile configure install prepare
+DEPEND=virtual/pkgconfig  doc? ( app-doc/doxygen )    ssl? (   gnutls? (    net-libs/gnutls:0=    dev-libs/libgcrypt:0=   )   !gnutls? (    !libressl? ( dev-libs/openssl:0= )    libressl? ( dev-libs/libressl:0= )   )  ) 
+RDEPEND=  ssl? (   gnutls? (    net-libs/gnutls:0=    dev-libs/libgcrypt:0=   )   !gnutls? (    !libressl? ( dev-libs/openssl:0= )    libressl? ( dev-libs/libressl:0= )   )  ) 
+EAPI=5
+IUSE=doc static-libs socks +cxx debug libressl ssl gnutls 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux
+SLOT=0/6
+SRC_URI=mirror://gnu/commoncpp/ucommon-6.5.7.tar.gz

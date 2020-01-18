@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Class-MethodMaker   virtual/perl-Text-Balanced   virtual/perl-File-Spec 
+RDEPEND=dev-perl/Class-MethodMaker   virtual/perl-Text-Balanced   virtual/perl-File-Spec 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SAMTREGAR/Config-ApacheFormat-1.2.tar.gz

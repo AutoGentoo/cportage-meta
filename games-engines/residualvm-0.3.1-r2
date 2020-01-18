@@ -1,0 +1,10 @@
+08cf881aaa0af6ece16d433f2b943ca6
+DEFINED_PHASES= compile configure install postinst postrm preinst
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  media-libs/glew:0=  media-libs/libsdl2[X,sound,alsa,joystick,opengl,video]  virtual/glu  alsa? ( media-libs/alsa-lib )  jpeg? ( virtual/jpeg:0 )  mp3? ( media-libs/libmad )  mpeg2? ( media-libs/libmpeg2 )  opengl? ( virtual/opengl )  png? ( media-libs/libpng:0= )  truetype? ( media-libs/freetype:2 )  vorbis? ( media-libs/libvorbis )  zlib? ( sys-libs/zlib:= )  
+RDEPEND=  media-libs/glew:0=  media-libs/libsdl2[X,sound,alsa,joystick,opengl,video]  virtual/glu  alsa? ( media-libs/alsa-lib )  jpeg? ( virtual/jpeg:0 )  mp3? ( media-libs/libmad )  mpeg2? ( media-libs/libmpeg2 )  opengl? ( virtual/opengl )  png? ( media-libs/libpng:0= )  truetype? ( media-libs/freetype:2 )  vorbis? ( media-libs/libvorbis )  zlib? ( sys-libs/zlib:= )  
+EAPI=7
+IUSE=alsa debug jpeg mpeg2 mp3 opengl png truetype vorbis zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.residualvm.org/downloads/release/0.3.1/residualvm-0.3.1-sources.tar.bz2

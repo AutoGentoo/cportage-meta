@@ -1,0 +1,8 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= install nofetch postinst postrm unpack
+RDEPEND=  virtual/opengl  x11-libs/libX11  x11-libs/libXrandr  gui? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )  
+EAPI=7
+IUSE=+gui 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=train_valley_1_3_31403.sh

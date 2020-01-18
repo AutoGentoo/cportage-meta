@@ -1,0 +1,9 @@
+b54ed929d83497f1bf2af6069ee37248
+DEFINED_PHASES= install postinst
+RDEPEND=!<media-gfx/splashutils-1.5.2 
+EAPI=7
+IUSE=vim-syntax 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://tuxonice.nigelcunningham.com.au/downloads/all/hibernate-script-2.0.tar.gz
+	mirror://gentoo/hibernate-script-2.0-patches-5.tar.bz2

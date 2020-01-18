@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+EAPI=4
+IUSE=
+KEYWORDS=-* x86
+SLOT=0
+SRC_URI=mirror://gentoo/cromwell-2.40.tar.bz2
+	mirror://gentoo/cromwell-2.40-r3-cvs-fixes.patch.lzma

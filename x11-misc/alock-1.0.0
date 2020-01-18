@@ -1,0 +1,9 @@
+b90e2b9970774237e8c9f7028d6a7adb
+DEFINED_PHASES= compile configure install
+DEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-libs/libXrender  x11-libs/libXcursor  imlib? ( media-libs/imlib2[X] )  pam? ( sys-libs/pam )  doc? ( app-text/asciidoc ) 
+RDEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-libs/libXrender  x11-libs/libXcursor  imlib? ( media-libs/imlib2[X] )  pam? ( sys-libs/pam )  doc? ( app-text/asciidoc ) 
+EAPI=6
+IUSE=doc imlib pam 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/mgumz/alock/archive/v1.0.0.tar.gz -> alock-1.0.0.tar.gz

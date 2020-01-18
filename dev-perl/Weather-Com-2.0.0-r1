@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Data-Dumper  dev-perl/HTTP-Message  dev-perl/libwww-perl  virtual/perl-Locale-Maketext  virtual/perl-Storable  dev-perl/Test-MockObject  >=dev-perl/Time-Format-1.0.0  virtual/perl-Time-Local  dev-perl/URI  dev-perl/XML-Simple   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-Data-Dumper  dev-perl/HTTP-Message  dev-perl/libwww-perl  virtual/perl-Locale-Maketext  virtual/perl-Storable  dev-perl/Test-MockObject  >=dev-perl/Time-Format-1.0.0  virtual/perl-Time-Local  dev-perl/URI  dev-perl/XML-Simple  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBERNST/Weather-Com-2.0.0.tar.gz

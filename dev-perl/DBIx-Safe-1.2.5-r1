@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=dev-perl/DBI  dev-perl/DBD-Pg 
+RDEPEND=dev-perl/DBI  dev-perl/DBD-Pg 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TU/TURNSTEP/DBIx-Safe-1.2.5.tar.gz

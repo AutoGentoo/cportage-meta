@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-libs/geoip  app-arch/unzip 
+RDEPEND=dev-libs/geoip 
+EAPI=6
+IUSE=web 
+KEYWORDS=~amd64 ~hppa ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/gslist-0.8.11a.zip

@@ -1,0 +1,10 @@
+54833c70796e0415d2d7d58794d78f1e
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=    nls? ( virtual/libintl )  lm-sensors? ( sys-apps/lm-sensors:= )   nls? ( sys-devel/gettext )  
+RDEPEND=    nls? ( virtual/libintl )  lm-sensors? ( sys-apps/lm-sensors:= )   selinux? ( sec-policy/selinux-sysstat )  
+EAPI=7
+IUSE=debug nls lm-sensors selinux static 
+KEYWORDS=
+SLOT=0
+SRC_URI=

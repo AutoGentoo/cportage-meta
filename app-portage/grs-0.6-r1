@@ -1,0 +1,8 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= install setup
+RDEPEND=  sys-apps/portage  server? (   app-arch/tar[xattr]   app-crypt/md5deep   dev-libs/libcgroup   dev-vcs/git   net-misc/rsync   sys-fs/squashfs-tools   virtual/cdrtools   || (    sys-kernel/genkernel    sys-kernel/genkernel-next   )  ) 
+EAPI=6
+IUSE=server 
+KEYWORDS=amd64 arm ~arm64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~blueness/grs/grs-0.6.tar.gz

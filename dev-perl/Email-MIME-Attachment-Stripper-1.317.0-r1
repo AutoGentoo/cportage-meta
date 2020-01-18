@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Email-MIME-1.900  >=dev-perl/Email-MIME-ContentType-1.012  test? (   dev-perl/Capture-Tiny  ) 
+RDEPEND=>=dev-perl/Email-MIME-1.900  >=dev-perl/Email-MIME-ContentType-1.012 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Email-MIME-Attachment-Stripper-1.317.tar.gz

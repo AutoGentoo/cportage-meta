@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/libev  net-dns/c-ares  >=net-misc/curl-7.53.0[http2,ssl]   
+RDEPEND=dev-libs/libev  net-dns/c-ares  >=net-misc/curl-7.53.0[http2,ssl]   
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

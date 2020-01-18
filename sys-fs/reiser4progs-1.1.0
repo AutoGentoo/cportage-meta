@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install prepare
+DEPEND=!static? ( ~sys-libs/libaal-1.0.6  readline? ( sys-libs/readline ) )  static-libs? ( ~sys-libs/libaal-1.0.6[static-libs(+)] )  static? ( ~sys-libs/libaal-1.0.6[static-libs(+)]  readline? ( sys-libs/readline[static-libs(+)] ) ) 
+RDEPEND=!static? ( ~sys-libs/libaal-1.0.6  readline? ( sys-libs/readline ) )  static-libs? ( ~sys-libs/libaal-1.0.6[static-libs(+)] ) 
+EAPI=4
+IUSE=debug readline static static-libs 
+KEYWORDS=amd64 arm ppc ppc64 -sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/reiser4/reiser4progs-1.1.0.tar.gz

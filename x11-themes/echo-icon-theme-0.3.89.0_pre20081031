@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm preinst
+DEPEND=  virtual/pkgconfig  >=x11-misc/icon-naming-utils-0.8.90  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/echo-icon-theme-0.3.89.0_pre20081031.tar.bz2

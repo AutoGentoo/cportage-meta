@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= configure prepare
+BDEPEND=  doc? ( app-doc/doxygen )  virtual/pkgconfig  
+DEPEND=    >=media-libs/lv2-1.16.0  gtk? ( x11-libs/gtk+:2 )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5  )  || ( dev-lang/python:3.7[threads(+)] dev-lang/python:3.6[threads(+)] )  
+RDEPEND=  >=media-libs/lv2-1.16.0  gtk? ( x11-libs/gtk+:2 )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5  ) 
+EAPI=6
+IUSE=doc gtk qt5 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.drobilla.net/suil-0.10.6.tar.bz2

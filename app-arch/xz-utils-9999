@@ -1,0 +1,9 @@
+59c3016405710f1159cf9c1088ba1db4
+DEFINED_PHASES= postinst preinst prepare
+DEPEND=!<app-arch/lzma-4.63  !<app-arch/p7zip-4.57  sys-devel/gettext dev-vcs/cvs >=sys-devel/libtool-2 
+RDEPEND=!<app-arch/lzma-4.63  !<app-arch/p7zip-4.57 
+EAPI=6
+IUSE=elibc_FreeBSD +extra-filters nls static-libs +threads 
+KEYWORDS=
+SLOT=0
+SRC_URI=

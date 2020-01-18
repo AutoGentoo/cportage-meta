@@ -1,0 +1,9 @@
+bf3f31f374347ec95297f4c3c1af964c
+DEFINED_PHASES= compile configure install postinst prepare setup test
+DEPEND=  bzip2?    ( app-arch/bzip2 )  fam?      ( virtual/fam )  gdbm?     ( sys-libs/gdbm )  ldap?     ( >=net-nds/openldap-2.1.26 )  libev?    ( >=dev-libs/libev-4.01 )  lua?      ( >=dev-lang/lua-5.1:= )  memcached? ( dev-libs/libmemcached )  mysql?    ( >=virtual/mysql-4.0 )  pcre?     ( >=dev-libs/libpcre-3.1 )  php?      ( dev-lang/php:*[cgi] )  rrdtool?  ( net-analyzer/rrdtool )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.7:0= )   libressl? ( dev-libs/libressl:= )  )  webdav? (   dev-libs/libxml2   >=dev-db/sqlite-3   sys-fs/e2fsprogs  )  xattr? ( kernel_linux? ( sys-apps/attr ) )  zlib? ( >=sys-libs/zlib-1.1 )  virtual/pkgconfig  doc?  ( dev-python/docutils )  test? (   virtual/perl-Test-Harness   dev-libs/fcgi  ) 
+RDEPEND=  bzip2?    ( app-arch/bzip2 )  fam?      ( virtual/fam )  gdbm?     ( sys-libs/gdbm )  ldap?     ( >=net-nds/openldap-2.1.26 )  libev?    ( >=dev-libs/libev-4.01 )  lua?      ( >=dev-lang/lua-5.1:= )  memcached? ( dev-libs/libmemcached )  mysql?    ( >=virtual/mysql-4.0 )  pcre?     ( >=dev-libs/libpcre-3.1 )  php?      ( dev-lang/php:*[cgi] )  rrdtool?  ( net-analyzer/rrdtool )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.7:0= )   libressl? ( dev-libs/libressl:= )  )  webdav? (   dev-libs/libxml2   >=dev-db/sqlite-3   sys-fs/e2fsprogs  )  xattr? ( kernel_linux? ( sys-apps/attr ) )  zlib? ( >=sys-libs/zlib-1.1 )  selinux? ( sec-policy/selinux-apache )  
+EAPI=6
+IUSE=bzip2 doc fam gdbm ipv6 kerberos ldap libev libressl lua minimal mmap memcached mysql pcre php rrdtool selinux ssl test webdav xattr zlib 
+KEYWORDS=
+SLOT=0
+SRC_URI=

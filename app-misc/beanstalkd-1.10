@@ -1,0 +1,7 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= compile install prepare setup
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~mips x86 ~amd64-linux ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/kr/beanstalkd/archive/v1.10.tar.gz -> beanstalkd-1.10.tar.gz

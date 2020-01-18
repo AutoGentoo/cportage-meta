@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure install prepare
+BDEPEND=  dev-util/intltool  gnome-base/librsvg  sys-devel/gettext  virtual/imagemagick-tools[png?]  virtual/pkgconfig  x11-misc/icon-naming-utils 
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info  
+RDEPEND=!hppa? ( !minimal? ( x11-themes/adwaita-icon-theme ) )  >=x11-themes/hicolor-icon-theme-0.12 
+EAPI=7
+IUSE=minimal png 
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://tango.freedesktop.org/releases/tango-icon-theme-0.8.90.tar.gz

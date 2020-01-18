@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=media-gfx/xv  || ( x11-wm/fluxbox x11-wm/blackbox x11-wm/openbox ) 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ~hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/commonbox-styles-extra-0.2.tar.bz2
+	http://mkeadle.org/distfiles/commonbox-styles-extra-0.2.tar.bz2

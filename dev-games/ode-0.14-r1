@@ -1,0 +1,9 @@
+4dbe4c247a7d429127d30c68133b6815
+DEFINED_PHASES= compile configure install prepare
+DEPEND=examples? (  virtual/glu  virtual/opengl )  doc? ( app-doc/doxygen ) 
+RDEPEND=examples? (  virtual/glu  virtual/opengl ) 
+EAPI=5
+IUSE=debug doc double-precision examples gyroscopic static-libs 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0/6
+SRC_URI=https://bitbucket.org/odedevs/ode/downloads/ode-0.14.tar.gz

@@ -1,0 +1,8 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install postinst prepare
+RDEPEND=  !sci-geosciences/gmt  sci-visualization/gnuplot 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://probcons.stanford.edu/probcons_v1_12.tar.gz

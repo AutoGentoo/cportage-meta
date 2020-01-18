@@ -1,0 +1,9 @@
+c1477b3f647a4b3f0b4c47b7ef864e24
+DEFINED_PHASES= compile configure install prepare
+DEPEND=media-fonts/terminus-font  aalib? ( media-libs/aalib[slang] )  dia? ( app-office/dia )  djvu? ( app-text/djvu )  exif? ( media-libs/libexif )  gif? ( media-libs/giflib )  graphicsmagick? ( media-gfx/graphicsmagick )  imagemagick? ( virtual/imagemagick-tools )  jpeg? ( virtual/jpeg:0 )  pdf? ( >=app-text/poppler-0.31 )  png? ( media-libs/libpng:0= )  postscript? ( app-text/libspectre )  readline? ( sys-libs/readline:0= )  sdl? ( media-libs/libsdl )  svg? ( media-gfx/inkscape )  tiff? ( media-libs/tiff:0 )  xfig? ( media-gfx/xfig )  sys-devel/bison  sys-devel/flex 
+RDEPEND=media-fonts/terminus-font  aalib? ( media-libs/aalib[slang] )  dia? ( app-office/dia )  djvu? ( app-text/djvu )  exif? ( media-libs/libexif )  gif? ( media-libs/giflib )  graphicsmagick? ( media-gfx/graphicsmagick )  imagemagick? ( virtual/imagemagick-tools )  jpeg? ( virtual/jpeg:0 )  pdf? ( >=app-text/poppler-0.31 )  png? ( media-libs/libpng:0= )  postscript? ( app-text/libspectre )  readline? ( sys-libs/readline:0= )  sdl? ( media-libs/libsdl )  svg? ( media-gfx/inkscape )  tiff? ( media-libs/tiff:0 )  xfig? ( media-gfx/xfig ) 
+EAPI=6
+IUSE=aalib bmp dia djvu exif fbcon gif graphicsmagick imagemagick jpeg pcx pdf png postscript readline sdl static svg tiff xfig 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/fbi-improved/fim-0.5-rc3.tar.bz2

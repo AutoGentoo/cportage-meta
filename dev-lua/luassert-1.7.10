@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=  !luajit? ( >=dev-lang/lua-5.1:= )  luajit? ( dev-lang/luajit:2 )  virtual/pkgconfig  test? ( dev-lua/busted ) 
+RDEPEND=  !luajit? ( >=dev-lang/lua-5.1:= )  luajit? ( dev-lang/luajit:2 )  >=dev-lua/say-1.2_p1[luajit=] 
+EAPI=6
+IUSE=luajit test 
+KEYWORDS=amd64 arm ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/Olivine-Labs/luassert/archive/v1.7.10.tar.gz -> luassert-1.7.10.tar.gz

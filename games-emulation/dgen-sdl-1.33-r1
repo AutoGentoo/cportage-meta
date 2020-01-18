@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=  media-libs/libsdl[joystick?,opengl?]  app-arch/libarchive  opengl? ( virtual/opengl )   x86? ( dev-lang/nasm )  
+RDEPEND=  media-libs/libsdl[joystick?,opengl?]  app-arch/libarchive  opengl? ( virtual/opengl )  
+EAPI=6
+IUSE=joystick opengl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dgen/files/dgen-sdl-1.33.tar.gz

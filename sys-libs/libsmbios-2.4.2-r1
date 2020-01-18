@@ -1,0 +1,10 @@
+46536935eedfeeb2f92d4ac64b632965
+DEFINED_PHASES= configure install prepare setup
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=dev-libs/libxml2  sys-libs/zlib  nls? ( virtual/libintl )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   ) python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   ) python_single_target_python3_8? (    dev-lang/python:3.8    >=dev-lang/python-exec-2:=[python_targets_python3_8]   )  )  virtual/pkgconfig  doc? ( app-doc/doxygen )  graphviz? ( media-gfx/graphviz )  nls? ( sys-devel/gettext )  test? ( >=dev-util/cppunit-1.9.6 ) 
+RDEPEND=dev-libs/libxml2  sys-libs/zlib  nls? ( virtual/libintl )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   ) python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   ) python_single_target_python3_8? (    dev-lang/python:3.8    >=dev-lang/python-exec-2:=[python_targets_python3_8]   )  ) 
+EAPI=7
+IUSE=doc graphviz nls python static-libs test 
+KEYWORDS=~amd64 ~ia64 ~x86
+SLOT=0
+SRC_URI=https://github.com/dell/libsmbios/archive/v2.4.2.tar.gz -> libsmbios-2.4.2.tar.gz

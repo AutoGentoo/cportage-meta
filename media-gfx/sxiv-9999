@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  exif? ( media-libs/libexif )  gif? ( media-libs/giflib:0= )  media-libs/imlib2[X,gif?,jpeg?,png?]  x11-libs/libX11  x11-libs/libXft  
+RDEPEND=  exif? ( media-libs/libexif )  gif? ( media-libs/giflib:0= )  media-libs/imlib2[X,gif?,jpeg?,png?]  x11-libs/libX11  x11-libs/libXft  
+EAPI=6
+IUSE=exif gif +jpeg +png 
+KEYWORDS=
+SLOT=0
+SRC_URI=

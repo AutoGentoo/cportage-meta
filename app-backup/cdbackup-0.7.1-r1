@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+RDEPEND=>=app-cdr/cdrtools-1.11.28 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.muempf.de/down/cdbackup-0.7.1.tar.gz

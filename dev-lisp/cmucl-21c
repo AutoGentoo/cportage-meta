@@ -1,0 +1,10 @@
+e2d03a229cd8669f74ea6c9964d3a869
+DEFINED_PHASES= compile install prepare
+DEPEND=>=dev-lisp/asdf-2.33-r3:=    x11-libs/motif:0  sys-devel/bc  doc? ( virtual/latex-base ) 
+RDEPEND=>=dev-lisp/asdf-2.33-r3:=    x11-libs/motif:0 
+EAPI=6
+IUSE=X doc source 
+KEYWORDS=x86
+SLOT=0
+SRC_URI=http://common-lisp.net/project/cmucl/downloads/release/21c/cmucl-src-21c.tar.bz2
+	http://common-lisp.net/project/cmucl/downloads/release/21c/cmucl-21c-x86-linux.tar.bz2

@@ -1,0 +1,7 @@
+d84604ba6e7bf38a664f6e339c0e4fbe
+DEFINED_PHASES= configure install setup
+EAPI=6
+IUSE=authonly examples ipv6 
+KEYWORDS=amd64 ~mips ppc x86
+SLOT=0
+SRC_URI=http://www.maradns.org/download/2.0/2.0.09/maradns-2.0.09.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install test
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=7
+IUSE=doc test 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/nlohmann/json/archive/v3.7.0.tar.gz -> nlohmann_json-3.7.0.tar.gz

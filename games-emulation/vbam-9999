@@ -1,0 +1,10 @@
+b81d68336ede9a20ec601c0b9882b1b0
+DEFINED_PHASES= configure install postinst postrm preinst
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=media-libs/libpng-1.4:0=  media-libs/libsdl2[joystick]  link? ( >=media-libs/libsfml-2.0:= )  sys-libs/zlib:=  virtual/glu  virtual/opengl  ffmpeg? ( =media-video/ffmpeg-3*:= )  lirc? ( app-misc/lirc )  nls? ( virtual/libintl )  wxwidgets? (   openal? ( media-libs/openal )   x11-libs/wxGTK:3.0-gtk3[X,opengl]  )  app-arch/zip  wxwidgets? ( virtual/imagemagick-tools )  x86? ( || ( dev-lang/nasm dev-lang/yasm ) )  nls? ( sys-devel/gettext )  virtual/pkgconfig 
+RDEPEND=  >=media-libs/libpng-1.4:0=  media-libs/libsdl2[joystick]  link? ( >=media-libs/libsfml-2.0:= )  sys-libs/zlib:=  virtual/glu  virtual/opengl  ffmpeg? ( =media-video/ffmpeg-3*:= )  lirc? ( app-misc/lirc )  nls? ( virtual/libintl )  wxwidgets? (   openal? ( media-libs/openal )   x11-libs/wxGTK:3.0-gtk3[X,opengl]  ) 
+EAPI=7
+IUSE=ffmpeg link lirc nls openal +sdl wxwidgets 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=x11-libs/gtk+:3  x11-themes/gtk-engines 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=live
+SRC_URI=

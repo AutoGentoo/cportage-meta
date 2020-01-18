@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/HTML-Parser  dev-perl/URI  
+RDEPEND=  dev-perl/HTML-Parser  dev-perl/URI  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/W/WR/WROSS/HTML-TagFilter-1.03.tar.gz

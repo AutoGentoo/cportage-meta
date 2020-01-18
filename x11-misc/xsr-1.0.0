@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  dev-lang/perl  media-gfx/scrot  cursor? (   media-gfx/imagemagick   x11-misc/xdotool  ) 
+EAPI=6
+IUSE=cursor 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/nonnymoose/xsr/archive/v1.0.0.tar.gz -> xsr-1.0.0.tar.gz

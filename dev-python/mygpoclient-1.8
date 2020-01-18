@@ -1,0 +1,10 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= install prepare
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+DEPEND=dev-python/simplejson[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  test? (   dev-python/coverage[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]   dev-python/minimock  )  
+RDEPEND=dev-python/simplejson[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/gpodder/mygpoclient/archive/1.8.tar.gz -> mygpoclient-1.8.tar.gz

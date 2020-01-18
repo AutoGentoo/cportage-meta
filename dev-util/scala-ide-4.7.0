@@ -1,0 +1,11 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare unpack
+DEPEND=java? ( >=dev-java/java-config-2.2.0-r3 ) 
+RDEPEND=>=virtual/jdk-1.6  || (   dev-lang/scala   dev-lang/scala-bin  ) 
+EAPI=6
+IUSE= java 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	amd64? ( http://downloads.typesafe.com/scalaide-pack/4.7.0-vfinal-oxygen-212-20170929/scala-SDK-4.7.0-vfinal-2.12-linux.gtk.x86_64.tar.gz )
+	x86? ( http://downloads.typesafe.com/scalaide-pack/4.7.0-vfinal-oxygen-212-20170929/scala-SDK-4.7.0-vfinal-2.12-linux.gtk.x86_64.tar.gz )

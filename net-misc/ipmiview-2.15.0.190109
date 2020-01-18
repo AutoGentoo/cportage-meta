@@ -1,0 +1,12 @@
+64b48a0a6e9e43837af25a4c13203edf
+DEFINED_PHASES= compile install nofetch prepare unpack
+DEPEND=app-arch/unzip 
+RDEPEND=  net-misc/stunnel  virtual/jre:1.8  
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	amd64? ( ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_2.15.0_build.190109_bundleJRE_Linux_x64.tar.gz )
+	x86? ( ftp://ftp.supermicro.com/utility/IPMIView/Linux/IPMIView_2.15.0_build.190109_bundleJRE_Linux.tar.gz )
+

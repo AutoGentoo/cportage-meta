@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=xml? ( dev-libs/libxml2 )  virtual/linuxtv-dvb-headers 
+RDEPEND=xml? ( dev-libs/libxml2 ) 
+EAPI=5
+IUSE=xml 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dvbtools/dvbtune-0.5.tar.gz

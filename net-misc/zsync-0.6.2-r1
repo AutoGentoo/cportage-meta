@@ -1,0 +1,11 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= install prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~ppc64 x86
+SLOT=0
+SRC_URI=
+	http://zsync.moria.org.uk/download/zsync-0.6.2.tar.bz2
+	http://www.gzip.org/zlib/zlib-1.2.3.tar.bz2
+	http://www.zlib.net/zlib-1.2.3.tar.bz2

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare setup
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  media-gfx/exiv2  <media-gfx/gimp-2.10.0  >=media-libs/lensfun-0.3.2  
+RDEPEND=  media-gfx/exiv2  <media-gfx/gimp-2.10.0  >=media-libs/lensfun-0.3.2  
+EAPI=7
+IUSE=openmp 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/seebk/GIMP-Lensfun/archive/0.2.4.tar.gz -> gimp-lensfun-0.2.4.tar.gz

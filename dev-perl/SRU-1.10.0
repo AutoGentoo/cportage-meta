@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/CQL-Parser-1.120.0  virtual/perl-Carp  dev-perl/Class-Accessor  dev-perl/URI  dev-perl/XML-LibXML  dev-perl/XML-Simple   test? (   dev-perl/CGI   dev-perl/Test-Exception   dev-perl/Test-Pod   dev-perl/Test-Pod-Coverage  )  
+RDEPEND=  >=dev-perl/CQL-Parser-1.120.0  virtual/perl-Carp  dev-perl/Class-Accessor  dev-perl/URI  dev-perl/XML-LibXML  dev-perl/XML-Simple  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BR/BRICAS/SRU-1.01.tar.gz

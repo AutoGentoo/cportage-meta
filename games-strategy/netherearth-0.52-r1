@@ -1,0 +1,10 @@
+dd63da2364aac047eced35d4cf98e08d
+DEFINED_PHASES= install prepare unpack
+DEPEND=  >=media-libs/libsdl-1.2.6-r3  >=media-libs/sdl-mixer-1.2.5-r1  media-libs/freeglut   app-arch/unzip  
+RDEPEND=  >=media-libs/libsdl-1.2.6-r3  >=media-libs/sdl-mixer-1.2.5-r1  media-libs/freeglut  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.braingames.getput.com/nether/sources.zip
+	http://www.braingames.getput.com/nether/netherearth052.zip

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=net-libs/libpcap  dev-perl/IO-Interface 
+RDEPEND=net-libs/libpcap  dev-perl/IO-Interface 
+EAPI=5
+IUSE=
+KEYWORDS=~alpha amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SAPER/Net-Pcap-0.17.tar.gz

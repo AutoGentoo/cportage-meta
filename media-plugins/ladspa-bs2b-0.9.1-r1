@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=media-libs/ladspa-sdk   >=media-libs/libbs2b-3.1.0 
+RDEPEND=media-libs/ladspa-sdk   >=media-libs/libbs2b-3.1.0 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bs2b/plugins/LADSPA%20plugin/0.9.1/ladspa-bs2b-0.9.1.tar.bz2

@@ -1,0 +1,10 @@
+6fbe7a9a86356e1b16381cdef7bc5d49
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  dev-libs/glib  media-libs/libebur128  media-libs/taglib  ffmpeg? ( media-video/ffmpeg )  mpg123? ( media-sound/mpg123 )  musepack? ( media-sound/musepack-tools )  sndfile? ( media-libs/libsndfile )  gtk? (   gnome-base/librsvg:2   x11-libs/cairo   x11-libs/gtk+:2  )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtsvg:5   dev-qt/qtwidgets:5  )  
+RDEPEND=  dev-libs/glib  media-libs/libebur128  media-libs/taglib  ffmpeg? ( media-video/ffmpeg )  mpg123? ( media-sound/mpg123 )  musepack? ( media-sound/musepack-tools )  sndfile? ( media-libs/libsndfile )  gtk? (   gnome-base/librsvg:2   x11-libs/cairo   x11-libs/gtk+:2  )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtsvg:5   dev-qt/qtwidgets:5  )  
+EAPI=7
+IUSE=+ffmpeg gtk mpg123 musepack qt5 sndfile 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+2a2e21899ebbd4552579eede172c358a
+DEFINED_PHASES= prepare
+BDEPEND=app-arch/xz-utils  virtual/pmake  test? ( sys-devel/clang ) 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~mgorny/dist/netbsd-csu-9.0_beta.tar.xz
+	test? ( https://dev.gentoo.org/~mgorny/dist/netbsd-csu-7.1-tests.tar.bz2 )

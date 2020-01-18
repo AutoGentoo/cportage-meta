@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+DEPEND=app-i18n/librime 
+RDEPEND=app-i18n/librime 
+EAPI=6
+IUSE=extra 
+KEYWORDS=amd64 arm64 ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://github.com/rime/brise/releases/download/brise-0.38/brise-0.38.20180515.tar.gz

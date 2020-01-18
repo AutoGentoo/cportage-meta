@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=>=dev-python/requests-2.1.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/requests-oauthlib-0.4.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://pypi/t/twython/twython-3.3.0.tar.gz

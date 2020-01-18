@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.denx.de/pub/u-boot/u-boot-2018.11.tar.bz2

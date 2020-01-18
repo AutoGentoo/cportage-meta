@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=inband? ( sys-fabric/libibmad )  sys-libs/zlib:= 
+RDEPEND=inband? ( sys-fabric/libibmad )  sys-libs/zlib:= 
+EAPI=6
+IUSE=inband 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Mellanox/mstflint/archive/v4.10.0-3.tar.gz -> mstflint-4.10.0_p3.tar.gz

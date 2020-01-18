@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/libpcre:=  doc? ( app-doc/doxygen ) 
+RDEPEND=dev-libs/libpcre:=  cli? ( !dev-python/editorconfig-core-py[cli] ) 
+EAPI=6
+IUSE=cli doc 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/editorconfig/editorconfig-core-c/archive/v0.12.2.tar.gz -> editorconfig-core-c-0.12.2.tar.gz

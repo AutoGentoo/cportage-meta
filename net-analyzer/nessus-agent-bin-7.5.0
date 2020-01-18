@@ -1,0 +1,9 @@
+84adc63c4d0a46985bc0232f824640f4
+DEFINED_PHASES= install nofetch postinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=app-arch/rpm2targz-9.0.0.3g 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=NessusAgent-7.5.0-es7.x86_64.rpm

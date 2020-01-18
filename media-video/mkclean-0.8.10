@@ -1,0 +1,7 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile configure install
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://downloads.sourceforge.net/project/matroska/mkclean/mkclean-0.8.10.tar.bz2

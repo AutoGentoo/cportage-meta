@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=4
+SRC_URI=mirror://sourceforge/premake/premake-4.4-beta5-src.zip

@@ -1,0 +1,7 @@
+9967adebb1821326e1eff7f0c024a757
+DEFINED_PHASES= compile install postinst prepare
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=ftp://ftp.nedit.org/pub/contrib/misc/nedit_expander_kit_2.05.tar.gz

@@ -1,0 +1,9 @@
+076829bf536ec51ccd50991b23393332
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=dev-libs/openssl:0= 
+RDEPEND=dev-libs/openssl:0= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/osp-toolkit/OSPToolkit-4.13.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=sys-apps/sed 
+RDEPEND=dev-lang/tk 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+SLOT=0
+SRC_URI=http://math-www.uni-paderborn.de/~axel/tkinfo/tkinfo-2.8.tar.gz

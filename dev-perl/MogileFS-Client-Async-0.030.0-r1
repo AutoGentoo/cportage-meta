@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-perl/IO-AIO  dev-perl/AnyEvent  dev-perl/AnyEvent-HTTP  dev-perl/File-Slurp  >=dev-perl/MogileFS-Client-1.16  dev-perl/Try-Tiny  dev-perl/namespace-clean  
+RDEPEND=  dev-perl/IO-AIO  dev-perl/AnyEvent  dev-perl/AnyEvent-HTTP  dev-perl/File-Slurp  >=dev-perl/MogileFS-Client-1.16  dev-perl/Try-Tiny  dev-perl/namespace-clean  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DL/DLAMBLEY/MogileFS-Client-Async-0.030.tar.gz

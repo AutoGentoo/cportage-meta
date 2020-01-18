@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=app-text/ronn 
+RDEPEND=app-admin/sysstat  media-sound/playerctl  sys-apps/lm-sensors  sys-power/acpi  || ( x11-wm/i3 x11-wm/i3-gaps ) 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0
+SRC_URI=https://github.com/vivien/i3blocks/archive/1.4.tar.gz -> i3blocks-1.4.tar.gz

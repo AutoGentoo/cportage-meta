@@ -1,0 +1,10 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= compile install prepare test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=dev-db/sqlite 
+RDEPEND=dev-db/sqlite 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

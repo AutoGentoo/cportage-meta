@@ -1,0 +1,12 @@
+50d09813e1b617b2571726aadb502175
+DEFINED_PHASES= configure install prepare
+DEPEND=  ggi? ( media-libs/libggi media-libs/libgii media-libs/libmikmod )  nls? ( virtual/libintl )  sdl? ( media-libs/libsdl media-libs/sdl-mixer )  !sdl? ( !ggi? ( media-libs/libsdl media-libs/sdl-mixer ) )  nls? ( sys-devel/gettext ) 
+RDEPEND=  ggi? ( media-libs/libggi media-libs/libgii media-libs/libmikmod )  nls? ( virtual/libintl )  sdl? ( media-libs/libsdl media-libs/sdl-mixer )  !sdl? ( !ggi? ( media-libs/libsdl media-libs/sdl-mixer ) ) 
+EAPI=6
+IUSE=ggi nls sdl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/heroes/heroes-0.21.tar.bz2
+	mirror://sourceforge/heroes/heroes-data-1.5.tar.bz2
+	mirror://sourceforge/heroes/heroes-sound-tracks-1.0.tar.bz2
+	mirror://sourceforge/heroes/heroes-sound-effects-1.0.tar.bz2

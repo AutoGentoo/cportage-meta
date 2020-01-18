@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure install prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    app-text/yodl  
+EAPI=7
+IUSE=libressl ssl readline ipv6 tcpd 
+KEYWORDS=
+SLOT=0
+SRC_URI=

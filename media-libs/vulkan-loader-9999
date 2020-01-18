@@ -1,0 +1,10 @@
+a1bd8d4408f0dc41c5300981ed0d43d7
+DEFINED_PHASES= postinst
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=|| ( dev-lang/python:3.7 dev-lang/python:3.6 )  >=dev-util/vulkan-headers-9999  wayland? ( dev-libs/wayland:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  X? (   x11-libs/libX11:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   x11-libs/libXrandr:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  ) 
+PDEPEND=layers? ( media-libs/vulkan-layers:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+EAPI=7
+IUSE=layers wayland X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

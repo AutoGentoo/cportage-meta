@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= install prepare
+DEPEND=dev-libs/libnl:3  sys-libs/ncurses:0=  caps? ( sys-libs/libcap )  virtual/pkgconfig 
+RDEPEND=dev-libs/libnl:3  sys-libs/ncurses:0=  caps? ( sys-libs/libcap ) 
+EAPI=6
+IUSE=caps 
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/uoaerg/wavemon/archive/v0.8.0.tar.gz -> wavemon-0.8.0.tar.gz

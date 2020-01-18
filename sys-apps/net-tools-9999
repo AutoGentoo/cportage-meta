@@ -1,0 +1,9 @@
+7f22e328bbbd7f68a4d31c21b46bd098
+DEFINED_PHASES= configure install setup
+DEPEND=selinux? ( sys-libs/libselinux )  selinux? ( virtual/pkgconfig )  app-arch/xz-utils nls? ( sys-devel/gettext ) 
+RDEPEND=selinux? ( sys-libs/libselinux )  hostname? ( !sys-apps/coreutils[hostname] )  !<sys-apps/openrc-0.9.9.3 
+EAPI=6
+IUSE=+arp +hostname ipv6 nis nls plipconfig selinux slattach static 
+KEYWORDS=
+SLOT=0
+SRC_URI=

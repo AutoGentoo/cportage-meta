@@ -1,0 +1,8 @@
+6e0f8db3f50649ef4553e4a31e899bae
+DEFINED_PHASES= compile install prepare test
+DEPEND=test? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) ) 
+EAPI=6
+IUSE=static-libs test 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~s390 ~x86
+SLOT=0
+SRC_URI=https://github.com/libhugetlbfs/libhugetlbfs/archive/2.21.tar.gz -> libhugetlbfs-2.21.tar.gz

@@ -1,0 +1,10 @@
+1e989ff25f5454ab0fa4a51305ed29b3
+DEFINED_PHASES= compile install prepare
+DEPEND=~dev-lang/mercury-14.01.1  cairo? ( >=x11-libs/cairo-1.10.0 )  glut? ( media-libs/freeglut )  odbc? ( dev-db/unixODBC )  iodbc? ( !odbc? ( dev-db/libiodbc ) )  ncurses? ( sys-libs/ncurses:= )  opengl? (   virtual/opengl   virtual/glu  )  tcl? ( tk? (    dev-lang/tcl:0    dev-lang/tk:0    x11-libs/libX11    x11-libs/libXmu   )  ) 
+RDEPEND=~dev-lang/mercury-14.01.1  cairo? ( >=x11-libs/cairo-1.10.0 )  glut? ( media-libs/freeglut )  odbc? ( dev-db/unixODBC )  iodbc? ( !odbc? ( dev-db/libiodbc ) )  ncurses? ( sys-libs/ncurses:= )  opengl? (   virtual/opengl   virtual/glu  )  tcl? ( tk? (    dev-lang/tcl:0    dev-lang/tk:0    x11-libs/libX11    x11-libs/libXmu   )  ) 
+EAPI=5
+IUSE=X cairo examples glut iodbc ncurses odbc opengl ssl tcl tk xml 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://dl.mercurylang.org/release/mercury-srcdist-14.01.1.tar.gz
+	mirror://gentoo/mercury-extras-14.01.1-gentoo-patchset-2.tar.gz

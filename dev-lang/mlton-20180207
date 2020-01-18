@@ -1,0 +1,10 @@
+45884e1e8fe4bc5abfbe5bfaa7871a6b
+DEFINED_PHASES= compile install postinst prepare pretend setup test unpack
+DEPEND=dev-libs/gmp:*   bootstrap-smlnj? ( dev-lang/smlnj )   !bootstrap-smlnj? (    !amd64?  ( dev-lang/smlnj )   )   pax_kernel? ( sys-apps/elfix )   doc? ( virtual/latex-base ) 
+RDEPEND=dev-libs/gmp:* 
+EAPI=6
+IUSE=binary bootstrap-smlnj stage3 doc pax_kernel 
+KEYWORDS=~amd64 ~x86
+SLOT=0/20180207
+SRC_URI=!binary? ( mirror://sourceforge/mlton/mlton-20180207.src.tgz )
+		  !bootstrap-smlnj? ( amd64? ( mirror://sourceforge/mlton/mlton-20180207-1.amd64-linux.tgz ) )

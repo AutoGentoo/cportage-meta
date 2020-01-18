@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/glib:2  x11-libs/libxcb  x11-libs/xcb-util  man? ( dev-python/docutils ) 
+RDEPEND=dev-libs/glib:2  x11-libs/libxcb  x11-libs/xcb-util 
+EAPI=6
+IUSE=+man 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/raymonad/xss-lock/get/1e158fb20108058dbd62bd51d8e8c003c0a48717.tar.bz2 -> xss-lock-0.3.0_p20140302.tar.bz2

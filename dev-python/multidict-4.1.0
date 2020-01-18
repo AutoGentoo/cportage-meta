@@ -1,0 +1,8 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES=-
+DEPEND=  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/cython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? ( dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  test? ( dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  
+EAPI=6
+IUSE=doc test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/aio-libs/multidict/archive/v4.1.0.tar.gz -> multidict-4.1.0.tar.gz

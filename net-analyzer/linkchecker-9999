@@ -1,0 +1,9 @@
+0c251a748f0764ad088c6c8e035a95d7
+DEFINED_PHASES= postinst
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=  dev-python/dnspython[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyxdg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/requests-2.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+EAPI=7
+IUSE=sqlite 
+KEYWORDS=
+SLOT=0
+SRC_URI=

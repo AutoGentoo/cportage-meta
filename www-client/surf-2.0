@@ -1,0 +1,11 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= install prepare setup
+DEPEND=    dev-libs/glib:2  net-libs/libsoup  net-libs/webkit-gtk:4  x11-libs/gtk+:3  x11-libs/libX11   virtual/pkgconfig  
+RDEPEND=  !sci-chemistry/surf    dev-libs/glib:2  net-libs/libsoup  net-libs/webkit-gtk:4  x11-libs/gtk+:3  x11-libs/libX11   !savedconfig? (   net-misc/curl   x11-apps/xprop   x11-misc/dmenu   x11-terms/st  )  
+EAPI=6
+IUSE=savedconfig 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	https://dl.suckless.org/surf/surf-2.0.tar.gz
+

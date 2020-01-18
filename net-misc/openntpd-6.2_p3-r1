@@ -1,0 +1,10 @@
+d8aafa8989449aaf7ed2c6122f34a4d7
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  !net-misc/ntp[-openntpd]  libressl? ( dev-libs/libressl:0= ) 
+RDEPEND=    !net-misc/ntp[-openntpd]  libressl? ( dev-libs/libressl:0= )  acct-group/openntpd  acct-user/openntpd  selinux? ( sec-policy/selinux-ntp ) 
+EAPI=7
+IUSE=libressl selinux 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://openbsd/OpenNTPD/openntpd-6.2p3.tar.gz

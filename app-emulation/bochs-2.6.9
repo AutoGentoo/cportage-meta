@@ -1,0 +1,9 @@
+931d76fce4c64998109561edf3fb8d3d
+DEFINED_PHASES= configure prepare
+DEPEND=  X? ( x11-libs/libICE   x11-libs/libSM   x11-libs/libX11   x11-libs/libXpm )  sdl? ( media-libs/libsdl )  svga? ( media-libs/svgalib )  readline? ( sys-libs/readline:= )  ncurses? ( sys-libs/ncurses:= )   doc? ( app-text/docbook-sgml-utils )  X? ( x11-base/xorg-proto )  sys-apps/sed  >=app-text/opensp-1.5  
+RDEPEND=  X? ( x11-libs/libICE   x11-libs/libSM   x11-libs/libX11   x11-libs/libXpm )  sdl? ( media-libs/libsdl )  svga? ( media-libs/svgalib )  readline? ( sys-libs/readline:= )  ncurses? ( sys-libs/ncurses:= )  
+EAPI=6
+IUSE=3dnow avx debugger doc gdb ncurses readline svga sdl +smp vnc X +x86-64 
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bochs/bochs-2.6.9.tar.gz

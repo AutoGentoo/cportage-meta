@@ -1,0 +1,9 @@
+3d0e4462dae79b9be0252454be8e8fee
+DEFINED_PHASES= install prepare
+DEPEND=app-arch/unzip 
+RDEPEND=  acct-group/unifi  acct-user/unifi  dev-db/mongodb  virtual/jre:1.8  
+EAPI=6
+IUSE=
+KEYWORDS=amd64
+SLOT=0/5.6
+SRC_URI=https://dl.ubnt.com/unifi/5.6.42/UniFi.unix.zip -> unifi-5.6.42.zip

@@ -1,0 +1,10 @@
+035887895d360fa407173a5dbdf6a62e
+DEFINED_PHASES= configure install postinst prepare test
+BDEPEND=    dev-libs/libev  >=dev-libs/libpcre-3  dns? ( net-libs/udns )   sys-devel/gettext  virtual/pkgconfig  
+DEPEND=  test? ( net-misc/curl )  
+RDEPEND=  dev-libs/libev  >=dev-libs/libpcre-3  dns? ( net-libs/udns )  
+EAPI=7
+IUSE=+dns +largefile rfc3339 test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/dlundquist/sniproxy/archive/0.6.0.tar.gz -> sniproxy-0.6.0.tar.gz

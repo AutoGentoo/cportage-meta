@@ -1,0 +1,10 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= install setup
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+RDEPEND=  sys-apps/portage  server? (   app-arch/tar[xattr]   app-crypt/md5deep   dev-libs/libcgroup   dev-vcs/git   net-misc/rsync   sys-fs/squashfs-tools   virtual/cdrtools   || (    sys-kernel/genkernel    sys-kernel/genkernel-next   )  ) 
+EAPI=7
+IUSE=server 
+KEYWORDS=amd64 arm arm64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~blueness/grs/grs-0.7.tar.gz
+	https://dev.gentoo.org/~blueness/grs/ISO-1.tar.gz

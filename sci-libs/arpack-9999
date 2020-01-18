@@ -1,0 +1,10 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[fortran] )  virtual/pkgconfig 
+RDEPEND=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[fortran] ) 
+EAPI=7
+IUSE=examples mpi 
+KEYWORDS=
+SLOT=0
+SRC_URI=

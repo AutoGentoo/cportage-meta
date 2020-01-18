@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=    net-libs/libpcap   dev-lang/perl  dev-libs/expat  sys-apps/texinfo  virtual/os-headers  
+RDEPEND=  net-libs/libpcap  
+EAPI=6
+IUSE=+ipv6 +nanotimestamp 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://read.seas.harvard.edu/~kohler/ipsumdump/ipsumdump-1.86.tar.gz

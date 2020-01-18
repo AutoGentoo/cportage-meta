@@ -1,0 +1,13 @@
+16abef7dc606034d306752416936cf12
+DEFINED_PHASES= configure install postinst
+DEPEND=  ssl? ( dev-libs/openssl:0= )  dev-libs/libpcre 
+RDEPEND=  ssl? ( dev-libs/openssl:0= )  dev-libs/libpcre 
+EAPI=6
+IUSE=+atcp debug doc +gmcp ipv6 +option102 ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	mirror://sourceforge/tinyfugue/tf-50b8.tar.gz
+	http://homepage.mac.com/mikeride/abelinc/scripts/allrootpatch.txt -> tf-allrootpatch.txt
+	http://homepage.mac.com/mikeride/abelinc/scripts/allsrcpatch.txt -> tf-allsrcpatch.txt
+	doc? ( mirror://sourceforge/tinyfugue/tf-50b8-help.tar.gz )

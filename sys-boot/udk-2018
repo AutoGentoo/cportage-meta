@@ -1,0 +1,10 @@
+02c438f49a4a65958102929853403a1a
+DEFINED_PHASES= compile configure install setup unpack
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[sqlite]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   >=dev-lang/nasm-2.14.02  >=sys-power/iasl-20160729  doc? ( app-arch/unzip ) 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[sqlite]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
+EAPI=7
+IUSE=doc examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/tianocore/edk2/archive/vUDK2018.tar.gz -> udk-2018.tar.gz
+		doc? ( https://github.com/tianocore/edk2/releases/download/vUDK2018/UDK2018.Documents.zip -> udk-2018-docs.zip )

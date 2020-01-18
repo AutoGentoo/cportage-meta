@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/fusesource/hawtjni/archive/hawtjni-project-1.15.tar.gz

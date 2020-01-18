@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  app-text/discount  app-text/hunspell  dev-qt/linguist-tools:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qttest:5  dev-qt/qtwebkit:5  
+RDEPEND=  app-text/discount  app-text/hunspell  dev-qt/linguist-tools:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qttest:5  dev-qt/qtwebkit:5  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/cloose/cutemarked/archive/v0.11.3.tar.gz -> cutemarked-0.11.3.tar.gz

@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=>=dev-libs/darts-0.32 
+RDEPEND=>=dev-libs/darts-0.32  perl? ( !dev-perl/Text-ChaSen ) 
+PDEPEND=>=app-dicts/ipadic-2.7.0 
+EAPI=5
+IUSE=perl static-libs 
+KEYWORDS=amd64 ppc ~ppc64 x86 ~sparc-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/chasen-legacy/32224/chasen-2.4.4.tar.gz

@@ -1,0 +1,8 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install postinst prepare setup
+RDEPEND=  !app-admin/logsentry  app-misc/lockfile-progs  dev-lang/perl  dev-perl/mime-construct  virtual/mailx  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/l/logcheck/logcheck_1.3.18.tar.xz

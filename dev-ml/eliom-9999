@@ -1,0 +1,9 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/ocaml-4.03:=[ocamlopt?]  >=dev-ml/js_of_ocaml-2.8.2:=[xml]  >=www-servers/ocsigenserver-2.8:=  >=dev-ml/tyxml-4:=  >=dev-ml/deriving-0.6:=  >=dev-ml/reactiveData-0.2.1:=  dev-ml/ocaml-ipaddr:=  dev-ml/react:=  dev-ml/ocaml-ssl:=  >=dev-ml/lwt-2.5.0:=  dev-ml/lwt_react:=  dev-ml/camlp4:=  ppx? ( >=dev-ml/ppx_tools-0.99.3:= )  dev-ml/ocamlbuild  dev-ml/opam 
+RDEPEND=>=dev-lang/ocaml-4.03:=[ocamlopt?]  >=dev-ml/js_of_ocaml-2.8.2:=[xml]  >=www-servers/ocsigenserver-2.8:=  >=dev-ml/tyxml-4:=  >=dev-ml/deriving-0.6:=  >=dev-ml/reactiveData-0.2.1:=  dev-ml/ocaml-ipaddr:=  dev-ml/react:=  dev-ml/ocaml-ssl:=  >=dev-ml/lwt-2.5.0:=  dev-ml/lwt_react:=  dev-ml/camlp4:=  ppx? ( >=dev-ml/ppx_tools-0.99.3:= ) 
+EAPI=5
+IUSE=doc +ocamlopt +ppx 
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

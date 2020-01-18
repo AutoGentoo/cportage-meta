@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=  dev-perl/glib-perl  dev-perl/Gtk2  >=x11-libs/libnotify-0.7   dev-perl/ExtUtils-Depends  dev-perl/ExtUtils-PkgConfig  test? ( dev-perl/Test-Exception )  
+RDEPEND=  dev-perl/glib-perl  dev-perl/Gtk2  >=x11-libs/libnotify-0.7  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FL/FLORA/Gtk2-Notify-0.05.tar.gz

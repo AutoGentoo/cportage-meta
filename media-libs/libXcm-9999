@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  X? (   x11-libs/libX11   x11-libs/libXfixes   x11-libs/libXmu  )   x11-base/xorg-proto 
+RDEPEND=  X? (   x11-libs/libX11   x11-libs/libXfixes   x11-libs/libXmu  )  
+EAPI=7
+IUSE=static-libs X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

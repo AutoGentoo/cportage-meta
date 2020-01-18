@@ -1,0 +1,10 @@
+9347d19e2e294970228eccb64ba316ce
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare
+BDEPEND=virtual/latex-base  >=sys-apps/texinfo-4.2-r5 
+DEPEND=  || ( app-text/openjade app-text/opensp )  app-text/sgml-common  dev-lang/perl:=  sys-apps/groff   sys-devel/flex  virtual/awk  doc? (   dev-texlive/texlive-fontsrecommended   virtual/latex-base  )  
+RDEPEND=  || ( app-text/openjade app-text/opensp )  app-text/sgml-common  dev-lang/perl:=  sys-apps/groff  
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 ~ia64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://gitlab.com/agmartin/linuxdoc-tools/-/archive/0.9.73/linuxdoc-tools-0.9.73.tar.gz

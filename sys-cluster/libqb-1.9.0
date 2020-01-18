@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=dev-libs/glib:2  app-arch/xz-utils  test? ( dev-libs/check )  doc? ( app-doc/doxygen[dot] ) 
+RDEPEND=dev-libs/glib:2 
+EAPI=7
+IUSE=debug doc examples systemd test 
+KEYWORDS=~amd64 ~arm64 ~hppa ~ppc ~ppc64 ~x86
+SLOT=0/20
+SRC_URI=https://github.com/ClusterLabs/libqb/archive/v1.9.0.tar.gz -> libqb-1.9.0.tar.gz

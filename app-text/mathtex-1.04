@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst
+DEPEND=app-arch/unzip 
+RDEPEND=app-text/dvipng  virtual/latex-base 
+EAPI=5
+IUSE=png 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/mathtex-1.04.zip

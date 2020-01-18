@@ -1,0 +1,16 @@
+ce753a40940056de5a30fb503811cc1a
+DEFINED_PHASES= install postinst unpack
+RDEPEND=  || (   ppc? (    media-libs/libsdl    virtual/opengl    virtual/glu   )   !ppc? (    media-libs/libsdl[abi_x86_32(-)]    virtual/opengl[abi_x86_32(-)]    virtual/glu[abi_x86_32(-)]   )  ) 
+EAPI=5
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=x86? (
+		http://www.shrapnelgames.com/downloads/dompatch216_linux_x86.tgz )
+	amd64? (
+		http://www.shrapnelgames.com/downloads/dompatch216_linux_x86.tgz )
+	ppc? (
+		http://www.shrapnelgames.com/downloads/dompatch216_linux_ppc.tgz )
+	doc? ( http://www.shrapnelgames.com/downloads/DOM2_Walkthrough.pdf
+		http://www.shrapnelgames.com/downloads/manual_addenda.pdf )
+	mirror://gentoo/dominions2.png

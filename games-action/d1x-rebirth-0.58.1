@@ -1,0 +1,16 @@
+710c9379af7bf365679e17aa4e3e81dc
+DEFINED_PHASES= compile install postinst prepare unpack
+DEPEND=dev-games/physfs[hog,zip]  media-libs/libsdl[X,sound,joystick,opengl?,video]  cdinstall? ( !games-action/descent1-demodata )  music? (   media-libs/sdl-mixer[timidity]  )  opengl? (   virtual/opengl   virtual/glu  )  app-arch/unzip 
+RDEPEND=dev-games/physfs[hog,zip]  media-libs/libsdl[X,sound,joystick,opengl?,video]  cdinstall? ( !games-action/descent1-demodata )  music? (   media-libs/sdl-mixer[timidity]  )  opengl? (   virtual/opengl   virtual/glu  ) 
+PDEPEND=demo? ( games-action/descent1-demodata ) 
+EAPI=5
+IUSE=cdinstall debug demo ipv6 l10n_de +music opengl opl3-musicpack sc55-musicpack 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.dxx-rebirth.com/download/dxx/d1x-rebirth_v0.58.1-src.tar.gz
+	https://www.dxx-rebirth.com/download/dxx/res/d1xrdata.zip
+	https://www.dxx-rebirth.com/download/dxx/res/dxx-rebirth_icons.zip
+	opl3-musicpack? ( https://www.dxx-rebirth.com/download/dxx/res/d1xr-opl3-music.zip )
+	sc55-musicpack? ( https://www.dxx-rebirth.com/download/dxx/res/d1xr-sc55-music.zip )
+	cdinstall? ( https://www.dxx-rebirth.com/download/dxx/res/d1datapt.zip )
+	l10n_de? ( https://www.dxx-rebirth.com/download/dxx/res/d1xr-briefings-ger.zip )

@@ -1,0 +1,9 @@
+3bfd29c84298e796d598291e3fca9c65
+DEFINED_PHASES= compile configure install prepare
+DEPEND=sys-devel/bison 
+EAPI=6
+IUSE=multilib nls 
+KEYWORDS=~amd64 ~x86
+SLOT=5
+SRC_URI=ftp://gcc.gnu.org/pub/gcc/releases/gcc-3.3.6/gcc-3.3.6.tar.bz2
+	mirror://gentoo/gcc-3.3.6-patches-1.10.tar.bz2

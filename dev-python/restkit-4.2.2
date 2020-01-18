@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES=-
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  doc? ( dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/epydoc[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  test? ( cli? ( dev-python/ipython[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  dev-python/webob[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/socketpool-0.5.3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/http-parser-0.8.3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/nose[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=cli? ( dev-python/ipython[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  dev-python/webob[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/socketpool-0.5.3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/http-parser-0.8.3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=+cli doc examples test 
+KEYWORDS=amd64 ~arm ~arm64 ppc64 s390 ~sh x86
+SLOT=0
+SRC_URI=mirror://pypi/r/restkit/restkit-4.2.2.tar.gz

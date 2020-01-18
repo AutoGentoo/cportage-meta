@@ -1,0 +1,11 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install prepare
+DEPEND=  >=virtual/jdk-1.6  app-arch/xz-utils 
+RDEPEND=  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	http://sbriesen.de/gentoo/distfiles/bdsup2sub-4.0.0.tar.xz
+	http://sbriesen.de/gentoo/distfiles/xdg-20100731.java.xz

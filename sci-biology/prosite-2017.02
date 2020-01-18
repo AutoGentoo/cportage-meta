@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=emboss? ( sci-biology/emboss ) 
+RDEPEND=emboss? ( sci-biology/emboss ) 
+EAPI=6
+IUSE=emboss minimal 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=ftp://ftp.expasy.org/databases/prosite/old_releases/prosite2017_02.tar.bz2

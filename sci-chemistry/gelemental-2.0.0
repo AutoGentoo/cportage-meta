@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  dev-cpp/gtkmm:2.4  dev-cpp/glibmm:2  virtual/pkgconfig  sys-devel/gettext  dev-util/intltool  doc? ( app-doc/doxygen ) 
+RDEPEND=  dev-cpp/gtkmm:2.4  dev-cpp/glibmm:2 
+EAPI=7
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ginggs/gelemental/archive/v2.0.0.tar.gz -> gelemental-2.0.0.tar.gz

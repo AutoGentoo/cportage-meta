@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  barcode? (      dev-perl/GD-Barcode      dev-perl/GD[png]  )  >=dev-perl/Business-ISBN-Data-20140910.2.0   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.950.0  )  
+RDEPEND=  barcode? (      dev-perl/GD-Barcode      dev-perl/GD[png]  )  >=dev-perl/Business-ISBN-Data-20140910.2.0  
+EAPI=6
+IUSE=test barcode 
+KEYWORDS=amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BD/BDFOY/Business-ISBN-3.004.tar.gz

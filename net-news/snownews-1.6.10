@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile configure prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=    >=dev-libs/libxml2-2.5.6  >=sys-libs/ncurses-5.3:0=[unicode]   
+RDEPEND=    >=dev-libs/libxml2-2.5.6  >=sys-libs/ncurses-5.3:0=[unicode]   dev-perl/XML-LibXML  dev-perl/libwww-perl  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/kouya/snownews/archive/1.6.10.tar.gz -> snownews-1.6.10.tar.gz

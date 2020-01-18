@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= configure install preinst
+DEPEND=x11-libs/gtk+:3[X]  x11-libs/libX11  x11-libs/libXext  x11-libs/libXrender  introspection? ( dev-libs/gobject-introspection )  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:3[X]  x11-libs/libX11  x11-libs/libXext  x11-libs/libXrender  introspection? ( dev-libs/gobject-introspection ) 
+EAPI=6
+IUSE=+introspection 
+KEYWORDS=~alpha amd64 arm ~hppa ~ia64 ~mips ppc ppc64 x86
+SLOT=3
+SRC_URI=https://github.com/kupferlauncher/keybinder/releases/download/keybinder-3.0-v0.3.2/keybinder-3.0-0.3.2.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/imlib2[X]  x11-libs/libX11  x11-base/xorg-proto 
+RDEPEND=media-libs/imlib2[X]  x11-libs/libX11 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://download.gna.org/fvwm-crystal/habak/0.2.5/habak-0.2.5.tar.bz2

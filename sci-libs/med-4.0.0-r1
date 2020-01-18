@@ -1,0 +1,10 @@
+813951355ff98e6ee66d0bc8193f0848
+DEFINED_PHASES= configure install prepare setup
+BDEPEND=python? ( >=dev-lang/swig-3.0.8 ) 
+DEPEND=  !sci-libs/libmed  dev-lang/tk:0=  >=sci-libs/hdf5-1.10.2:=[fortran=,mpi(+)]  virtual/mpi[fortran=]  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )  )  
+RDEPEND=  !sci-libs/libmed  dev-lang/tk:0=  >=sci-libs/hdf5-1.10.2:=[fortran=,mpi(+)]  virtual/mpi[fortran=]  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )  )  
+EAPI=7
+IUSE=doc fortran hdf5-16-api python test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://files.salome-platform.org/Salome/other/med-4.0.0.tar.gz

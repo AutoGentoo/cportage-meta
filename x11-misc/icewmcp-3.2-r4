@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= install prepare
+DEPEND=  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-python/pygtk:2  x11-libs/gtk+:2  x11-wm/icewm  
+RDEPEND=  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-python/pygtk:2  x11-libs/gtk+:2  x11-wm/icewm  
+EAPI=5
+IUSE=+python_targets_python2_7 +python_single_target_python2_7 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/icesoundmanager/IceWMControlPanel-3.2.tar.bz2

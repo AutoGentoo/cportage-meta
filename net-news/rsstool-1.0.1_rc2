@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-libs/libxml2  net-misc/curl  app-arch/unzip 
+RDEPEND=dev-libs/libxml2  net-misc/curl 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/rsstool/rsstool-1.0.1rc2-src.zip

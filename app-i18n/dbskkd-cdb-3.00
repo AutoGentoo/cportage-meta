@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install prepare setup
+DEPEND=|| (   dev-db/tinycdb   dev-db/cdb  ) 
+RDEPEND=app-i18n/skk-jisyo[cdb]  sys-apps/xinetd 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/jj1bdx/dbskkd-cdb/archive/3.00.tar.gz -> dbskkd-cdb-3.00.tar.gz

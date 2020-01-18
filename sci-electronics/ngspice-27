@@ -1,0 +1,10 @@
+0dd361ea1452dddf280a7a5d9245a96b
+DEFINED_PHASES= configure install prepare
+DEPEND=X? ( x11-libs/libICE   x11-libs/libXaw   x11-libs/libXext   x11-libs/libXmu )   fftw? ( sci-libs/fftw:3.0 ) 
+RDEPEND=X? ( x11-libs/libICE   x11-libs/libXaw   x11-libs/libXext   x11-libs/libXmu )   fftw? ( sci-libs/fftw:3.0 )  X? ( sci-visualization/xgraph ) 
+EAPI=6
+IUSE=X debug doc fftw openmp readline 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86 ~x64-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/ngspice/ngspice-27.tar.gz
+	doc? ( mirror://sourceforge/ngspice/ngspice-27-manual.pdf )

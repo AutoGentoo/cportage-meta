@@ -1,0 +1,12 @@
+e993b89783992916008d14e66864a863
+DEFINED_PHASES= install postinst prepare
+RDEPEND=  sys-devel/binutils  sys-devel/gdb 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=2014
+SRC_URI=
+	x86? ( http://mirrors.cdn.adacore.com/art/564b3e9dc8e196b040fbe248
+		-> gnat-gpl-2014-x86-linux-bin.tar.gz )
+	amd64? ( http://mirrors.cdn.adacore.com/art/564b3ebec8e196b040fbe66c
+		-> gnat-gpl-2014-x86_64-linux-bin.tar.gz )

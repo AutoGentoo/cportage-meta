@@ -1,0 +1,9 @@
+65c3bbe1586e3dd53e19d7e881afd8b1
+DEFINED_PHASES= compile install postinst setup
+DEPEND=  dev-perl/Danga-Socket  dev-perl/Sys-Syscall 
+RDEPEND=  dev-perl/Danga-Socket  dev-perl/Sys-Syscall 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://bitflu.workaround.ch/bitflu/bitflu-1.50.tgz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=    dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  sys-apps/file  dbus? ( dev-qt/qtdbus:5 )  ffmpeg? ( virtual/ffmpeg )  imagemagick? ( >=media-gfx/imagemagick-7:= )   app-arch/unzip  dev-qt/linguist-tools:5  
+RDEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  sys-apps/file  dbus? ( dev-qt/qtdbus:5 )  ffmpeg? ( virtual/ffmpeg )  imagemagick? ( >=media-gfx/imagemagick-7:= )  
+EAPI=7
+IUSE=+dbus ffmpeg imagemagick 
+KEYWORDS=
+SLOT=0
+SRC_URI=

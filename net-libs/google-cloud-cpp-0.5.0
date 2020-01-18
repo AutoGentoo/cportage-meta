@@ -1,0 +1,12 @@
+6f02661ba628f8dbab656cb138f1e0c8
+DEFINED_PHASES= configure prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-cpp/gtest  dev-libs/protobuf:=  dev-libs/crc32c  net-misc/curl  net-libs/grpc 
+RDEPEND=dev-cpp/gtest  dev-libs/protobuf:=  dev-libs/crc32c  net-misc/curl  net-libs/grpc 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/GoogleCloudPlatform/google-cloud-cpp/archive/v0.5.0.tar.gz -> google-cloud-cpp-0.5.0.tar.gz
+	https://github.com/nlohmann/json/releases/download/v3.4.0/json.hpp -> nlohmann-json-3.4.0-json.hpp
+	https://github.com/googleapis/googleapis/archive/6a3277c0656219174ff7c345f31fb20a90b30b97.tar.gz -> googleapis-6a3277c0656219174ff7c345f31fb20a90b30b97.tar.gz

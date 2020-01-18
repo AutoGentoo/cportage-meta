@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) doc? ( dev-qt/qthelp:5 ) doc? ( >=app-doc/doxygen-1.8.13-r1 ) >=kde-frameworks/extra-cmake-modules-5.64:5 
+DEPEND=  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=kde-frameworks/kio-5.64:5  >=kde-frameworks/kservice-5.64:5  >=kde-frameworks/plasma-5.64:5  >=kde-frameworks/solid-5.64:5  >=kde-frameworks/threadweaver-5.64:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  
+RDEPEND=  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=kde-frameworks/kio-5.64:5  >=kde-frameworks/kservice-5.64:5  >=kde-frameworks/plasma-5.64:5  >=kde-frameworks/solid-5.64:5  >=kde-frameworks/threadweaver-5.64:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/krunner-5.64.0.tar.xz

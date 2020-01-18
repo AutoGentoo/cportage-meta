@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Moose-0.96  dev-perl/Module-Build  test? (   >=dev-perl/Test-Unit-Lite-0.12   dev-perl/Test-Assert   virtual/perl-parent  ) 
+RDEPEND=>=dev-perl/Moose-0.96 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DE/DEXTER/MooseX-GlobRef-0.0701.tar.gz

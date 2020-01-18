@@ -1,0 +1,10 @@
+d847c047e8a6a1c9c5c7c301dd00cfce
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=virtual/opengl  x11-libs/libXxf86dga  x11-libs/libXext  x11-libs/libX11  x11-libs/libXxf86vm  media-libs/libpng:0  cdinstall? ( games-fps/quake1-data )  x11-base/xorg-proto  app-arch/unzip 
+RDEPEND=virtual/opengl  x11-libs/libXxf86dga  x11-libs/libXext  x11-libs/libX11  x11-libs/libXxf86vm  media-libs/libpng:0  cdinstall? ( games-fps/quake1-data ) 
+EAPI=5
+IUSE=cdinstall 
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/industri/industri_BIN-1.01-src.tar.gz
+	mirror://sourceforge/industri/industri-1.00.zip

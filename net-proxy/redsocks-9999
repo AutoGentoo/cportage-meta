@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install setup
+DEPEND=dev-libs/libevent:0= 
+RDEPEND=dev-libs/libevent:0=  net-firewall/iptables 
+EAPI=6
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

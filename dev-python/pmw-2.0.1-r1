@@ -1,0 +1,10 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES=-
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) 
+DEPEND=!dev-python/pmw:0 
+RDEPEND=!dev-python/pmw:0 
+EAPI=7
+IUSE=doc examples test 
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=py3
+SRC_URI=mirror://pypi/P/Pmw/Pmw-2.0.1.tar.gz

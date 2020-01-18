@@ -1,0 +1,9 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= install prepare
+DEPEND=>=media-libs/freetype-2.5.1:2 
+RDEPEND=>=media-libs/freetype-2.5.1:2 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ttf2pt1/ttf2pt1-3.4.4.tgz

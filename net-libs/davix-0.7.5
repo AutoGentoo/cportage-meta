@@ -1,0 +1,10 @@
+7c3d6399935fb243ba27160d0fbdbd84
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=   dev-libs/libxml2:2=   dev-libs/openssl:0=   kernel_linux? ( sys-apps/util-linux )    doc? (    app-doc/doxygen[dot]    dev-python/sphinx   )   virtual/pkgconfig  
+RDEPEND=   dev-libs/libxml2:2=   dev-libs/openssl:0=   kernel_linux? ( sys-apps/util-linux )  
+EAPI=7
+IUSE=doc ipv6 kernel_linux test tools 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://grid-deployment.web.cern.ch/grid-deployment/dms/lcgutil/tar/davix/0.7.5/davix-0.7.5.tar.gz -> davix-0.7.5.tar

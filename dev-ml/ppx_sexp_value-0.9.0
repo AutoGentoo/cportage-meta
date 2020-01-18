@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-ml/ppx_core:=  dev-ml/ppx_driver:=  dev-ml/ppx_here:=  dev-ml/ppx_metaquot:=  dev-ml/ppx_sexp_conv:=  dev-ml/sexplib:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/jbuilder 
+RDEPEND=  dev-ml/ppx_core:=  dev-ml/ppx_driver:=  dev-ml/ppx_here:=  dev-ml/ppx_metaquot:=  dev-ml/ppx_sexp_conv:=  dev-ml/sexplib:=  dev-ml/ocaml-migrate-parsetree:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0.9.0
+SRC_URI=https://github.com/janestreet/ppx_sexp_value/archive/v0.9.0.tar.gz -> ppx_sexp_value-0.9.0.tar.gz

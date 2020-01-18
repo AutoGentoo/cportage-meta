@@ -1,0 +1,10 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile configure install
+RDEPEND=>=dev-libs/libf2c-20130927-r1 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/f/f2c/f2c_20100827.orig.tar.gz
+	mirror://debian/pool/main/f/f2c/f2c_20100827-1.debian.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  dev-perl/Date-Manip  >=virtual/perl-Time-Local-1.70.0   >=dev-perl/Module-Build-0.400.0  test? ( >=virtual/perl-Test-Simple-0.400.0 )  
+RDEPEND=  dev-perl/Date-Manip  >=virtual/perl-Time-Local-1.70.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RO/ROODE/Time-Format-1.12.tar.gz

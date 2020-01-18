@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=~app-i18n/sunpinyin-3.0.0_rc1:=  x11-libs/gtk+:2  x11-libs/libX11  virtual/pkgconfig 
+RDEPEND=~app-i18n/sunpinyin-3.0.0_rc1:=  x11-libs/gtk+:2  x11-libs/libX11 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/xsunpinyin/xsunpinyin/archive/v3.0.0-rc1.tar.gz -> sunpinyin-3.0.0_rc1.tar.gz

@@ -1,0 +1,17 @@
+6e86a477e5305813342f6c4111b78e32
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=dev-lisp/asdf-2.33-r3:= 
+RDEPEND=>=dev-lisp/asdf-2.33-r3:= 
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=
+	x86? ( https://github.com/Clozure/ccl/releases/download/v1.11.5/ccl-1.11.5-linuxx86.tar.gz )
+	amd64? ( https://github.com/Clozure/ccl/releases/download/v1.11.5/ccl-1.11.5-linuxx86.tar.gz )
+	arm? ( https://github.com/Clozure/ccl/releases/download/v1.11.5/ccl-1.11.5-linuxarm.tar.gz )
+	x86-macos? ( https://github.com/Clozure/ccl/releases/download/v1.11.5/ccl-1.11.5-darwinx86.tar.gz )
+	x64-macos? ( https://github.com/Clozure/ccl/releases/download/v1.11.5/ccl-1.11.5-darwinx86.tar.gz )
+	x86-solaris? ( https://github.com/Clozure/ccl/releases/download/v1.11.5/ccl-1.11.5-solarisx86.tar.gz )
+	x64-solaris? ( https://github.com/Clozure/ccl/releases/download/v1.11.5/ccl-1.11.5-solarisx86.tar.gz )
+	doc? ( https://ccl.clozure.com/docs/ccl.html )

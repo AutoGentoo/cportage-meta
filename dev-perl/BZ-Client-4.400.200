@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= test
+DEPEND=  dev-perl/DateTime-Format-ISO8601  dev-perl/DateTime-Format-Strptime  dev-perl/DateTime-TimeZone  virtual/perl-Encode  virtual/perl-File-Spec  dev-perl/HTTP-CookieJar  virtual/perl-HTTP-Tiny  virtual/perl-MIME-Base64  dev-perl/URI  dev-perl/XML-Parser  dev-perl/XML-Writer  virtual/perl-parent   >=dev-perl/Module-Build-0.280.0  virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-CPAN-Meta-2.120.900   dev-perl/Clone   virtual/perl-Data-Dumper   dev-perl/DateTime   dev-perl/IO-Socket-SSL   dev-perl/Test-RequiresInternet   virtual/perl-Test-Simple   dev-perl/Text-Password-Pronounceable  )  
+RDEPEND=  dev-perl/DateTime-Format-ISO8601  dev-perl/DateTime-Format-Strptime  dev-perl/DateTime-TimeZone  virtual/perl-Encode  virtual/perl-File-Spec  dev-perl/HTTP-CookieJar  virtual/perl-HTTP-Tiny  virtual/perl-MIME-Base64  dev-perl/URI  dev-perl/XML-Parser  dev-perl/XML-Writer  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DJ/DJZORT/BZ-Client-4.4002.tar.gz

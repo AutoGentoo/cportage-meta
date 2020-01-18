@@ -1,0 +1,7 @@
+74b1a2fd9842bb80169c5d9260d31159
+DEFINED_PHASES= configure install postinst prepare test
+EAPI=7
+IUSE=serial 
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=https://www.memtest86.com/downloads/memtest86-4.3.7-src.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/glib:2  x11-libs/gtk+:2  media-libs/libexif:= 
+RDEPEND=  dev-libs/glib:2  x11-libs/gtk+:2  media-libs/libexif:= 
+EAPI=7
+IUSE=nls 
+KEYWORDS=alpha amd64 ia64 ppc sparc x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/libexif/libexif-gtk-0.3.5.tar.gz

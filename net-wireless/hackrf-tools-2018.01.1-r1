@@ -1,0 +1,10 @@
+8899393110bc2726ba40ccade44abe75
+DEFINED_PHASES= install
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=~net-libs/libhackrf-2018.01.1:=   sci-libs/fftw:3.0= 
+RDEPEND=~net-libs/libhackrf-2018.01.1:=   sci-libs/fftw:3.0= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/mossmann/hackrf/releases/download/v2018.01.1/hackrf-2018.01.1.tar.xz

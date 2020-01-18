@@ -1,0 +1,9 @@
+bc91c13e7e21f1bed376ae4b7605266e
+DEFINED_PHASES= compile install test
+DEPEND=dev-java/bsh:0  dev-java/guice:4  dev-java/junit:4  dev-java/ant-core:0  dev-java/snakeyaml:0  dev-java/jcommander:0  >=virtual/jdk-1.7  test? ( dev-java/assertj-core:2 ) 
+RDEPEND=dev-java/bsh:0  dev-java/guice:4  dev-java/junit:4  dev-java/ant-core:0  dev-java/snakeyaml:0  dev-java/jcommander:0  >=virtual/jre-1.7 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/cbeust/testng/archive/6.9.10.tar.gz -> testng-6.9.10.tar.gz

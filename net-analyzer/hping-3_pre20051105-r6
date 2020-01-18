@@ -1,0 +1,9 @@
+5a66a5e19bf719e0eb85c9ac071ddab7
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  net-libs/libpcap  tcl? ( dev-lang/tcl:0= )  
+RDEPEND=    net-libs/libpcap  tcl? ( dev-lang/tcl:0= )   
+EAPI=6
+IUSE=tcl 
+KEYWORDS=alpha amd64 ~arm hppa ia64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=http://www.hping.org/hping3-20051105.tar.gz

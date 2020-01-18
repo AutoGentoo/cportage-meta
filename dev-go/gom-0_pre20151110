@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-go/go-colortext:= 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/mattn/gom/archive/c522e7d.tar.gz -> gom-0_pre20151110.tar.gz

@@ -1,0 +1,10 @@
+790e3e53d027f0f01f5e2067b16f5027
+DEFINED_PHASES= compile install postinst setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=net-libs/libmnl 
+RDEPEND=net-libs/libmnl  wg-quick? (   || ( net-firewall/nftables net-firewall/iptables )   virtual/resolvconf  )  !<virtual/wireguard-1  
+EAPI=7
+IUSE=+wg-quick 
+KEYWORDS=
+SLOT=0
+SRC_URI=

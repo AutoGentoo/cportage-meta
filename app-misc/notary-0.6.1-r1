@@ -1,0 +1,8 @@
+5526dbb4f1a14f7cbf2445b603d8d432
+DEFINED_PHASES= compile install setup
+DEPEND=>=dev-lang/go-1.10 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/theupdateframework/notary/archive/v0.6.1.tar.gz -> notary-0.6.1.tar.gz

@@ -1,0 +1,10 @@
+c42f4c608179b0e44fcdcb0814389d51
+DEFINED_PHASES= configure install prepare setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=net-im/pidgin-2.6  gnutls? ( net-libs/gnutls )  imlib? ( media-libs/imlib2 )  libcaca? (   media-libs/imlib2   media-libs/libcaca  )  pam? ( sys-libs/pam )  
+RDEPEND=  >=net-im/pidgin-2.6  gnutls? ( net-libs/gnutls )  imlib? ( media-libs/imlib2 )  libcaca? (   media-libs/imlib2   media-libs/libcaca  )  pam? ( sys-libs/pam )   virtual/logger  xinetd? ( sys-apps/xinetd )  
+EAPI=6
+IUSE=gnutls +imlib +libcaca pam xinetd 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://symlink.me/attachments/download/148/minbif-1.0.5.tar.gz

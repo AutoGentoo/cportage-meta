@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm preinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  >=dev-util/intltool-0.35.0  sys-devel/gettext  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.0:2  >=x11-libs/gtk+-3.10:3  openconnect? ( >=net-vpn/openconnect-5.99 )   net-misc/connman  
+EAPI=7
+IUSE=openconnect 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/jgke/connman-gtk/archive/v1.1.1.tar.gz -> connman-gtk-1.1.1.tar.gz

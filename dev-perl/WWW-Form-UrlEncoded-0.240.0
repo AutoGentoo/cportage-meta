@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Exporter  xs? ( >=dev-perl/WWW-Form-UrlEncoded-XS-0.190.0 )   >=dev-perl/Module-Build-0.400.500  test? (   >=dev-perl/JSON-2.0.0   >=virtual/perl-Test-Simple-0.980.0  )  
+RDEPEND=  virtual/perl-Exporter  xs? ( >=dev-perl/WWW-Form-UrlEncoded-XS-0.190.0 )  
+EAPI=6
+IUSE=test +xs 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KAZEBURO/WWW-Form-UrlEncoded-0.24.tar.gz

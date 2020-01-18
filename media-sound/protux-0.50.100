@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile install prepare
+DEPEND=>=virtual/jdk-1.5  source? ( app-arch/zip ) 
+RDEPEND=>=dev-java/java-config-2.2.0-r3 
+EAPI=7
+IUSE=source 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=http://protux.sourceforge.net/releases/protux-0.50.100.tar.gz

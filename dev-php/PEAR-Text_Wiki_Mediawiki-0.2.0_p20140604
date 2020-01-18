@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=test? ( >=dev-php/PEAR-Text_Wiki-1.2.2_p20170904 dev-php/phpunit ) 
+RDEPEND=>=dev-php/PEAR-Text_Wiki-1.2.2_p20170904 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/pear/Text_Wiki_Mediawiki/archive/11a902741d3f8cc6010fb97b825d66345143e4dc.tar.gz -> Text_Wiki_Mediawiki-0.2.0_p20140604.tar.gz

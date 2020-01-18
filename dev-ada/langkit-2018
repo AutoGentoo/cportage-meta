@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= install test
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-ada/gnatcoll-bindings[iconv,shared]  dev-python/mako  dev-python/pyyaml  <dev-python/pyyaml-5  dev-python/enum34  dev-python/funcy  dev-python/docutils  dev-python/quex 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-ada/gnatcoll-bindings[iconv,shared]  dev-python/mako  dev-python/pyyaml  <dev-python/pyyaml-5  dev-python/enum34  dev-python/funcy  dev-python/docutils  dev-python/quex 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5b0cfbefc7a4475263382c2a
+	-> langkit-gpl-2018.tar.gz

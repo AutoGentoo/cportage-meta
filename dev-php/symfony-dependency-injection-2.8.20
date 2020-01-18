@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= install prepare test
+DEPEND=test? ( dev-lang/php:*  dev-php/fedora-autoloader  >=dev-php/symfony-config-2.1.0  >=dev-php/symfony-yaml-2.1.0 >=dev-php/phpunit-5.7.15 ) 
+RDEPEND=dev-lang/php:*  dev-php/fedora-autoloader  >=dev-php/symfony-config-2.1.0  >=dev-php/symfony-yaml-2.1.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/symfony/dependency-injection/archive/v2.8.20.tar.gz
+	-> symfony-dependency-injection-2.8.20.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=virtual/perl-Digest-MD5-2.0.0  >=virtual/perl-ExtUtils-ParseXS-3.70.0   >=dev-perl/Module-Build-0.400.0  test? (   dev-perl/Test-Differences   dev-perl/Test-Base  )  
+RDEPEND=  >=virtual/perl-Digest-MD5-2.0.0  >=virtual/perl-ExtUtils-ParseXS-3.70.0  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SM/SMUELLER/ExtUtils-XSpp-0.18.tar.gz

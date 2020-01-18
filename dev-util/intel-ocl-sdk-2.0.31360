@@ -1,0 +1,8 @@
+e1dc48fe8764d628056e6b368cd2d8fd
+DEFINED_PHASES= install postinst prepare unpack
+RDEPEND=app-eselect/eselect-opencl  dev-cpp/tbb  sys-process/numactl  tools? (   sys-devel/llvm   >=virtual/jre-1.6  ) 
+EAPI=4
+IUSE=tools 
+KEYWORDS=amd64 -x86
+SLOT=0
+SRC_URI=http://registrationcenter.intel.com/irc_nas/2563/intel_sdk_for_ocl_applications_2012_x64.tgz

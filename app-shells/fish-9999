@@ -1,0 +1,10 @@
+45ab3e4913f93c56d22a4e01e180dfcd
+DEFINED_PHASES= configure install postinst prepare test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=dev-libs/libpcre2-10.32[pcre32]  sys-libs/ncurses:0=[unicode]   doc? ( app-doc/doxygen )  nls? ( sys-devel/gettext )  test? ( dev-tcltk/expect )  
+RDEPEND=  >=dev-libs/libpcre2-10.32[pcre32]  sys-libs/ncurses:0=[unicode]  
+EAPI=7
+IUSE=doc nls test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

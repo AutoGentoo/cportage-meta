@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.60.0:5 
+DEPEND=   >=kde-frameworks/karchive-5.60.0:5   >=kde-frameworks/kcompletion-5.60.0:5   >=kde-frameworks/kconfig-5.60.0:5   >=kde-frameworks/kconfigwidgets-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/ki18n-5.60.0:5   >=kde-frameworks/kio-5.60.0:5   >=kde-frameworks/kparts-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=kde-frameworks/kxmlgui-5.60.0:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtprintsupport-5.12.3:5   >=dev-qt/qtsvg-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5  dev-libs/kdiagram:5  callgraph? ( media-gfx/kgraphviewer:5 )    >=dev-qt/qtxmlpatterns-5.12.3:5  
+RDEPEND=   >=kde-frameworks/karchive-5.60.0:5   >=kde-frameworks/kcompletion-5.60.0:5   >=kde-frameworks/kconfig-5.60.0:5   >=kde-frameworks/kconfigwidgets-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/ki18n-5.60.0:5   >=kde-frameworks/kio-5.60.0:5   >=kde-frameworks/kparts-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=kde-frameworks/kxmlgui-5.60.0:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtprintsupport-5.12.3:5   >=dev-qt/qtsvg-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5  dev-libs/kdiagram:5  callgraph? ( media-gfx/kgraphviewer:5 )  
+EAPI=7
+IUSE=+callgraph 
+KEYWORDS=~amd64
+SLOT=5
+SRC_URI=mirror://kde/stable/massif-visualizer/0.7.0/src/massif-visualizer-0.7.0.tar.xz

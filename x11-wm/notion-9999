@@ -1,0 +1,9 @@
+3190e700621a2a2b7f10c40adf6237f9
+DEFINED_PHASES= configure install prepare
+DEPEND=>=dev-lang/lua-5.1:0=  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  nls? ( sys-devel/gettext )  xinerama? ( x11-libs/libXinerama )  xrandr? ( x11-libs/libXrandr )   virtual/pkgconfig 
+RDEPEND=>=dev-lang/lua-5.1:0=  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  nls? ( sys-devel/gettext )  xinerama? ( x11-libs/libXinerama )  xrandr? ( x11-libs/libXrandr ) 
+EAPI=5
+IUSE=nls xinerama +xrandr 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+2648d239d3c544169ba9f928a4d5396c
+DEFINED_PHASES= install
+RDEPEND=dev-lang/php  dev-php/fedora-autoloader  >=dev-php/symfony-config-2.3  >=dev-php/symfony-dependency-injection-2.3  >=dev-php/symfony-filesystem-2.3 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/pdepend/pdepend/archive/2.5.0.tar.gz
+	-> phpdepend-2.5.0.tar.gz

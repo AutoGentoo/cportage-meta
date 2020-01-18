@@ -1,0 +1,7 @@
+931d76fce4c64998109561edf3fb8d3d
+DEFINED_PHASES= compile install postinst prepare test
+EAPI=6
+IUSE=doc 
+KEYWORDS=alpha amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://code.call-cc.org/releases/4.13.0/chicken-4.13.0.tar.gz

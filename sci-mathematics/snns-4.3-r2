@@ -1,0 +1,10 @@
+2c56624ce71011dddeaa7db53d97c73d
+DEFINED_PHASES= compile configure install prepare
+DEPEND=X? (   x11-libs/libX11   x11-libs/libXaw3d   x11-libs/libXt  )  X? ( x11-base/xorg-proto )  >=sys-devel/bison-1.2.2 
+RDEPEND=X? (   x11-libs/libX11   x11-libs/libXaw3d   x11-libs/libXt  ) python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=5
+IUSE=X doc python 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.ra.cs.uni-tuebingen.de/downloads/SNNS/SNNSv4.3.tar.gz
+	doc? ( http://www.ra.cs.uni-tuebingen.de/downloads/SNNS/SNNSv4.2.Manual.pdf )

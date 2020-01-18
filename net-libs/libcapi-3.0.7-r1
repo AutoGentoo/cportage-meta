@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=!net-dialup/capi4k-utils 
+RDEPEND=!net-dialup/capi4k-utils 
+EAPI=5
+IUSE=abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_riscv_lp64d abi_riscv_lp64 abi_s390_32 abi_s390_64 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.tabos.org/ffgtk/download/libcapi20-3.0.7.tar.bz2

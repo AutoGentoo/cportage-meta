@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= postinst
+DEPEND=  dev-python/maintboot  >=dev-python/pyparted-3.10[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/python-augeas-0.5.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+RDEPEND=  dev-python/maintboot  >=dev-python/pyparted-3.10[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/python-augeas-0.5.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   >=sys-block/parted-2.3  !minimal? (   sys-fs/btrfs-progs   sys-fs/lvm2   sys-fs/bcache-tools   sys-fs/nilfs-utils   sys-fs/cryptsetup   sys-fs/reiserfsprogs   sys-fs/xfsprogs   sys-fs/e2fsprogs  )  
+EAPI=5
+IUSE=+minimal 
+KEYWORDS=
+SLOT=0
+SRC_URI=

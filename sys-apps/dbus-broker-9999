@@ -1,0 +1,10 @@
+884b2e661e302540112dbe8fd9a3fd04
+DEFINED_PHASES= configure prepare
+BDEPEND=  doc? ( dev-python/docutils )  dev-python/docutils  virtual/pkgconfig  
+DEPEND=  audit? (   >=sys-process/audit-2.7   >=sys-libs/libcap-ng-0.6  )  launcher? (   >=dev-libs/expat-2.2   >=sys-apps/systemd-230:0=  )  selinux? ( sys-libs/libselinux )  
+RDEPEND=  audit? (   >=sys-process/audit-2.7   >=sys-libs/libcap-ng-0.6  )  launcher? (   >=dev-libs/expat-2.2   >=sys-apps/systemd-230:0=  )  selinux? ( sys-libs/libselinux )   launcher? ( sys-apps/dbus ) 
+EAPI=7
+IUSE=audit doc +launcher selinux 
+KEYWORDS=
+SLOT=0
+SRC_URI=

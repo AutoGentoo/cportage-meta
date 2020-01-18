@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-perl/Module-Build  dev-perl/Snowball-Norwegian  dev-perl/Snowball-Swedish  dev-perl/Lingua-Stem-Snowball-Da  dev-perl/Lingua-Stem-Fr  dev-perl/Lingua-Stem-It  dev-perl/Lingua-Stem-Ru  dev-perl/Lingua-PT-Stemmer  dev-perl/Text-German 
+RDEPEND=dev-perl/Snowball-Norwegian  dev-perl/Snowball-Swedish  dev-perl/Lingua-Stem-Snowball-Da  dev-perl/Lingua-Stem-Fr  dev-perl/Lingua-Stem-It  dev-perl/Lingua-Stem-Ru  dev-perl/Lingua-PT-Stemmer  dev-perl/Text-German 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SN/SNOWHARE/Lingua-Stem-0.84.tar.gz

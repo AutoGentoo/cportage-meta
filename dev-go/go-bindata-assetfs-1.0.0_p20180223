@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-lang/go-1.10 
+RDEPEND=dev-go/go-bindata 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/1.0.0_p20180223
+SRC_URI=https://github.com/elazarl/go-bindata-assetfs/archive/38087fe4dafb822e541b3f7955075cc1c30bd294.tar.gz -> go-bindata-assetfs-1.0.0_p20180223.tar.gz

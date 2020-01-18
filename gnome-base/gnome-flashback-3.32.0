@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= configure
+DEPEND=  >=x11-libs/gdk-pixbuf-2.32.2:2  >=x11-libs/gtk+-3.22.0:3[X]  >=gnome-base/gnome-desktop-3.12.0:3=  >=media-libs/libcanberra-0.13[gtk3]  >=dev-libs/glib-2.44.0:2  >=gnome-base/gsettings-desktop-schemas-3.24.0  >=sys-auth/polkit-0.97  >=app-i18n/ibus-1.5.2  >=sys-power/upower-0.99.0:=  >=x11-libs/libXrandr-1.5.0  x11-libs/libxcb  x11-libs/libX11  net-wireless/gnome-bluetooth  x11-libs/libXext  >=x11-libs/libXi-1.6.0  x11-libs/pango  x11-libs/libxkbfile  x11-misc/xkeyboard-config  x11-libs/libXfixes  media-sound/pulseaudio[glib]   dev-util/gdbus-codegen  dev-util/glib-utils  >=sys-devel/gettext-0.19.8  x11-base/xorg-proto  virtual/pkgconfig  
+RDEPEND=  >=x11-libs/gdk-pixbuf-2.32.2:2  >=x11-libs/gtk+-3.22.0:3[X]  >=gnome-base/gnome-desktop-3.12.0:3=  >=media-libs/libcanberra-0.13[gtk3]  >=dev-libs/glib-2.44.0:2  >=gnome-base/gsettings-desktop-schemas-3.24.0  >=sys-auth/polkit-0.97  >=app-i18n/ibus-1.5.2  >=sys-power/upower-0.99.0:=  >=x11-libs/libXrandr-1.5.0  x11-libs/libxcb  x11-libs/libX11  net-wireless/gnome-bluetooth  x11-libs/libXext  >=x11-libs/libXi-1.6.0  x11-libs/pango  x11-libs/libxkbfile  x11-misc/xkeyboard-config  x11-libs/libXfixes  media-sound/pulseaudio[glib]   x11-wm/metacity  gnome-base/gnome-panel  gnome-base/gnome-settings-daemon  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-flashback/3.32/gnome-flashback-3.32.0.tar.xz

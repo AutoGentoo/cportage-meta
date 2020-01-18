@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=|| (   gtk2-only? (    !!x11-libs/gtk+:3    x11-themes/mate-themes:0   )   (    >=x11-libs/gtk+-3.22:3    >=x11-themes/mate-themes-3.22.18   )  ) 
+EAPI=7
+IUSE=gtk2-only 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=

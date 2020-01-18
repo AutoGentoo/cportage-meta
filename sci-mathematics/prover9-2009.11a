@@ -1,0 +1,9 @@
+f98b4ab3be16a4c73d3beec6cccb96eb
+DEFINED_PHASES= compile install prepare
+EAPI=5
+IUSE=examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	https://www.cs.unm.edu/~mccune/mace4/download/LADR-2009-11A.tar.gz
+	https://dev.gentoo.org/~jlec/distfiles/LADR-2009-11A-makefile.patch.xz

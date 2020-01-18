@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=>=net-libs/libetpan-0.35  sys-libs/ncurses:=  ldap? ( net-nds/openldap )  virtual/yacc 
+RDEPEND=>=net-libs/libetpan-0.35  sys-libs/ncurses:=  ldap? ( net-nds/openldap ) 
+EAPI=6
+IUSE=debug ldap 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/libetpan/etpan-ng-0.7.1.tar.gz

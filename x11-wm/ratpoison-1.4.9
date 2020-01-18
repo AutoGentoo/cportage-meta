@@ -1,0 +1,9 @@
+59add3a018b6802e42dc9a273f7d2378
+DEFINED_PHASES= compile configure install postinst postrm
+DEPEND=    emacs? ( >=app-editors/emacs-23.1:* )  history? ( sys-libs/readline:= )  xft? ( x11-libs/libXft )  xrandr? ( x11-libs/libXrandr )  virtual/perl-Pod-Parser  x11-libs/libXtst   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  emacs? ( >=app-editors/emacs-23.1:* )  history? ( sys-libs/readline:= )  xft? ( x11-libs/libXft )  xrandr? ( x11-libs/libXrandr )  virtual/perl-Pod-Parser  x11-libs/libXtst  
+EAPI=6
+IUSE=debug emacs +history sloppy +xft +xrandr 
+KEYWORDS=amd64 hppa ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/ratpoison/ratpoison-1.4.9.tar.xz

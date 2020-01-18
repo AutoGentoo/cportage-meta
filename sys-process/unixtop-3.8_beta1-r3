@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure prepare
+DEPEND=sys-libs/ncurses 
+RDEPEND=sys-libs/ncurses 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64-linux ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/unixtop/top-3.8beta1.tar.bz2

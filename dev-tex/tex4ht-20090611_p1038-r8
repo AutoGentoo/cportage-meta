@@ -1,0 +1,11 @@
+c31c7c6eca6e3a8c81356f4964445ea0
+DEFINED_PHASES= compile install postinst prepare
+BDEPEND=virtual/pkgconfig  java? ( >=virtual/jdk-1.5 ) 
+DEPEND=dev-libs/kpathsea 
+RDEPEND=app-text/ghostscript-gpl  media-gfx/imagemagick  dev-libs/kpathsea  java? ( >=virtual/jre-1.5 ) 
+EAPI=7
+IUSE=java 
+KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=http://www.cse.ohio-state.edu/~gurari/TeX4ht/fix/tex4ht-1.0.2009_06_11_1038.tar.gz
+	mirror://gentoo/tex4ht-texlive-2019-03-22.tar.xz

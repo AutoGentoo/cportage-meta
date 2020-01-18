@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install setup
+RDEPEND=dev-lang/php[curl?,filter,gd,hash(+),intl,json,mysql?,pdo,posix,postgres?,session,simplexml,sqlite?,truetype,xmlreader,xmlwriter,zip]  imagemagick? ( dev-php/pecl-imagick )  virtual/httpd-php 
+EAPI=7
+IUSE=+curl +imagemagick mysql postgres +sqlite 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=15.0.14
+SRC_URI=http://download.nextcloud.com/server/releases/nextcloud-15.0.14.tar.bz2

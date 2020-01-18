@@ -1,0 +1,10 @@
+c951d73026947287c5801ece16dbe4fc
+DEFINED_PHASES= install postinst test unpack
+BDEPEND=dev-util/cmake  >=virtual/rust-1.37.0  
+DEPEND=  media-libs/fontconfig:=  media-libs/freetype:2  x11-libs/libxcb  
+RDEPEND=  media-libs/fontconfig:=  media-libs/freetype:2  x11-libs/libxcb   sys-libs/zlib  sys-libs/ncurses:0  x11-libs/libXcursor  x11-libs/libXi  x11-libs/libXrandr  virtual/opengl  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

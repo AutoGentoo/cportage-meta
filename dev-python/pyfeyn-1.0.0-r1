@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=>=dev-python/pyx-0.14[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  latex? ( dev-texlive/texlive-mathscience ) 
+EAPI=5
+IUSE=latex 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/p/pyfeyn/pyfeyn-1.0.0.tar.gz

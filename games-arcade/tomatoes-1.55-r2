@@ -1,0 +1,10 @@
+481cf9eb0dafbee1b9cd6b93086173bd
+DEFINED_PHASES= install prepare
+DEPEND=virtual/opengl  virtual/glu  media-libs/libsdl[sound,video]  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer[mod] 
+RDEPEND=virtual/opengl  virtual/glu  media-libs/libsdl[sound,video]  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer[mod] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tomatoes/tomatoes-linux-src-1.55.tar.bz2
+	mirror://sourceforge/tomatoes/tomatoes-linux-1.5.tar.bz2

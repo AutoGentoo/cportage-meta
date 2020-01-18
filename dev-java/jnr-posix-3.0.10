@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= install test
+DEPEND=dev-java/jnr-constants:0  dev-java/jnr-ffi:2  >=virtual/jdk-1.6  test? (   dev-java/ant-junit   dev-java/junit:4  ) 
+RDEPEND=dev-java/jnr-constants:0  dev-java/jnr-ffi:2  >=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~arm64 x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=3.0
+SRC_URI=https://github.com/jnr/jnr-posix/archive/3.0.10.tar.gz -> jnr-posix-3.0.10.tar.gz

@@ -1,0 +1,9 @@
+2b4ae9ec75feef063e3fe12b9d883ea0
+DEFINED_PHASES= compile install postinst postrm preinst prepare unpack
+RDEPEND=  media-libs/libogg  media-libs/libvorbis  >=sys-libs/glibc-2.3  x11-libs/libX11  x11-libs/libXau  x11-libs/libXdmcp  x11-libs/libXext  system-libs? ( media-libs/libsdl[sound,video] ) 
+EAPI=6
+IUSE=+system-libs 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=x86? ( http://www.introversion.co.uk/defcon/downloads/defcon_1.6-1_i386.deb )
+	amd64? ( http://www.introversion.co.uk/defcon/downloads/defcon_1.6-1_amd64.deb )

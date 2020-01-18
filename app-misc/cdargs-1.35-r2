@@ -1,0 +1,9 @@
+8f95e84971f9800b8c24d2b6ebd90f7b
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=  sys-libs/ncurses:0=  emacs? ( >=app-editors/emacs-23.1:* ) 
+RDEPEND=  sys-libs/ncurses:0=  emacs? ( >=app-editors/emacs-23.1:* ) 
+EAPI=5
+IUSE=emacs 
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=http://www.skamphausen.de/software/cdargs/cdargs-1.35.tar.gz

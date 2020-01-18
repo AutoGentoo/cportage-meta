@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=test? ( >=dev-lang/php-5.1.4:* dev-php/phpunit ) 
+RDEPEND=>=dev-lang/php-5.1.4:* 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/File_Fortune-1.0.0.tgz

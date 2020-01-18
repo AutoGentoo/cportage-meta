@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=~app-leechcraft/lc-core-9999  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtdeclarative:5[widgets]  dev-qt/qtxml:5  
+RDEPEND=~app-leechcraft/lc-core-9999  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtdeclarative:5[widgets]  dev-qt/qtxml:5   quark? ( ~virtual/leechcraft-quark-sideprovider-9999 )  notify? ( ~virtual/leechcraft-notifier-9999 ) 
+EAPI=6
+IUSE=debug notify quark 
+KEYWORDS=
+SLOT=0
+SRC_URI=

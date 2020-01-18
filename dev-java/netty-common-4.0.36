@@ -1,0 +1,9 @@
+1f9828673ae1cf237c848325365bc3e4
+DEFINED_PHASES= test
+DEPEND=>=virtual/jdk-1.7  dev-java/commons-logging:0  dev-java/javassist:3  dev-java/log4j:0  dev-java/slf4j-api:0  test? (   dev-java/asm:4   dev-java/cglib:3   dev-java/easymock:3.2   dev-java/hamcrest-core:1.3   dev-java/hamcrest-library:1.3   dev-java/junit:4   dev-java/mockito:0   dev-java/objenesis:0   dev-java/slf4j-simple:0  ) 
+RDEPEND=>=virtual/jre-1.7  dev-java/commons-logging:0  dev-java/javassist:3  dev-java/log4j:0  dev-java/slf4j-api:0 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/netty/netty/archive/netty-4.0.36.Final.tar.gz

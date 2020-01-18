@@ -1,0 +1,10 @@
+8cdb8480305cfbbb978c8c67ca79c44d
+DEFINED_PHASES= compile configure postinst postrm preinst prepare setup
+DEPEND=dev-libs/glib:2  gif? ( >=media-libs/gd-2.0.23 )  gtk? ( x11-libs/gtk+:2 x11-libs/pango   x11-libs/gtkglext   dbus? ( sys-apps/dbus ) )  jpeg? ( >=media-libs/gd-2.0.23[jpeg] )  motif? ( !gtk? (   >=x11-libs/motif-2.3:0   dbus? ( sys-apps/dbus )   xrender? ( >=x11-libs/libXrender-0.9 ) ) )  nelma? ( >=media-libs/gd-2.0.23[png] )  opengl? ( virtual/opengl )  gcode? ( >=media-libs/gd-2.0.23[png] )  virtual/libintl  png? ( >=media-libs/gd-2.0.23[png] )  m4lib-png? ( >=media-libs/gd-2.0.23[png] )  tk? ( >=dev-lang/tk-8:0 )  test? (   sci-electronics/gerbv   virtual/imagemagick-tools  )  >=dev-util/intltool-0.35  virtual/pkgconfig  sys-devel/gettext 
+RDEPEND=dev-libs/glib:2  gif? ( >=media-libs/gd-2.0.23 )  gtk? ( x11-libs/gtk+:2 x11-libs/pango   x11-libs/gtkglext   dbus? ( sys-apps/dbus ) )  jpeg? ( >=media-libs/gd-2.0.23[jpeg] )  motif? ( !gtk? (   >=x11-libs/motif-2.3:0   dbus? ( sys-apps/dbus )   xrender? ( >=x11-libs/libXrender-0.9 ) ) )  nelma? ( >=media-libs/gd-2.0.23[png] )  opengl? ( virtual/opengl )  gcode? ( >=media-libs/gd-2.0.23[png] )  virtual/libintl  png? ( >=media-libs/gd-2.0.23[png] )  m4lib-png? ( >=media-libs/gd-2.0.23[png] )  tk? ( >=dev-lang/tk-8:0 )  sci-electronics/electronics-menu 
+EAPI=5
+IUSE=dbus debug doc gcode gif gtk jpeg m4lib-png motif nelma opengl png
+test tk toporouter xrender 
+KEYWORDS=amd64 ppc x86 ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/pcb/pcb/pcb-20140316/pcb-20140316.tar.gz

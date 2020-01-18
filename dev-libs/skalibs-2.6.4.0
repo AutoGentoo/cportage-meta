@@ -1,0 +1,8 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure install prepare
+DEPEND=>=sys-devel/make-3.81 
+EAPI=6
+IUSE=doc ipv6 static-libs 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/2.6
+SRC_URI=https://www.skarnet.org/software/skalibs/skalibs-2.6.4.0.tar.gz

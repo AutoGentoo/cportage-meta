@@ -1,0 +1,8 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install prepare test
+DEPEND=app-arch/xz-utils 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~mips x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~flameeyes/gentoo10-backgrounds-20110309.tar.xz

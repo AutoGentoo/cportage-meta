@@ -1,0 +1,9 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/gdk-pixbuf:2[X]  x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=x11-libs/gdk-pixbuf:2[X]  x11-libs/gtk+:2 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=http://people.easter-eggs.org/~valos/wmdrawer/wmdrawer-0.10.5.tar.gz

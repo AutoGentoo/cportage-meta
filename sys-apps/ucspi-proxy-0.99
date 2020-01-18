@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=>=dev-libs/bglibs-1.106 
+RDEPEND=>=dev-libs/bglibs-1.106 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://untroubled.org/ucspi-proxy/archive/ucspi-proxy-0.99.tar.gz

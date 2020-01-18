@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare setup
+DEPEND=virtual/jre:1.8 
+RDEPEND=virtual/jre:1.8 
+EAPI=6
+IUSE=internal-zookeeper 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://apache/kafka/2.3.0/kafka_2.12-2.3.0.tgz

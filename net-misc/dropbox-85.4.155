@@ -1,0 +1,11 @@
+455f42bc59d41565577baed4d30b4f73
+DEFINED_PHASES= install postinst postrm preinst prepare unpack
+DEPEND=librsync-bundled? ( dev-util/patchelf ) 
+RDEPEND=X? (   dev-libs/glib:2   dev-qt/qtcore:5   dev-qt/qtdbus:5   dev-qt/qtdeclarative:5   dev-qt/qtgui:5[-gles2,xcb]   dev-qt/qtopengl:5[-gles2]   dev-qt/qtnetwork:5   dev-qt/qtprintsupport:5[-gles2]   dev-qt/qtwebkit:5   dev-qt/qtwidgets:5[-gles2]   media-libs/fontconfig   media-libs/freetype   virtual/jpeg   x11-libs/libSM   x11-libs/libX11   x11-libs/libXinerama   x11-libs/libXxf86vm   x11-libs/pango[X]   x11-misc/wmctrl   x11-themes/hicolor-icon-theme  )  !librsync-bundled? ( <net-libs/librsync-2 )  selinux? ( sec-policy/selinux-dropbox )  app-arch/bzip2  dev-libs/libffi-compat:6  dev-libs/popt  net-misc/wget  >=sys-devel/gcc-4.2.0  sys-libs/zlib  sys-libs/ncurses-compat:5 
+EAPI=6
+IUSE=+librsync-bundled selinux X 
+KEYWORDS=~amd64 ~x86 ~x86-linux
+SLOT=0
+SRC_URI=
+	x86? ( https://clientupdates.dropboxstatic.com/dbx-releng/client/dropbox-lnx.x86-85.4.155.tar.gz )
+	amd64? ( https://clientupdates.dropboxstatic.com/dbx-releng/client/dropbox-lnx.x86_64-85.4.155.tar.gz )

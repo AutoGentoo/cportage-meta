@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/DBI  virtual/perl-Storable   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  dev-perl/DBI  virtual/perl-Storable  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IV/IVAN/DBIx-DBSchema-0.45.tar.gz

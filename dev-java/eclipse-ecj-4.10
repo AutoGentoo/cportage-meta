@@ -1,0 +1,10 @@
+a44f2656e738b97a00251ea1ddccfdc2
+DEFINED_PHASES= compile install postinst postrm
+DEPEND=  app-eselect/eselect-java  dev-java/ant-core  >=virtual/jdk-11  app-arch/unzip 
+RDEPEND=  app-eselect/eselect-java  dev-java/ant-core  >=virtual/jre-11 
+PDEPEND=  ant? ( ~dev-java/ant-eclipse-ecj-4.10 ) 
+EAPI=6
+IUSE=+ant 
+KEYWORDS=~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=4.10
+SRC_URI=http://download.eclipse.org/eclipse/downloads/drops4/R-4.10-201812060815/ecjsrc-4.10.jar

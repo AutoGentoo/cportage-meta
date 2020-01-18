@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-libs/glib:2 
+RDEPEND=dev-libs/glib:2 
+EAPI=6
+IUSE=test threads utils 
+KEYWORDS=~amd64 ~x86 ~ppc-macos ~x64-macos
+SLOT=0
+SRC_URI=http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-2.2.0.tar.gz

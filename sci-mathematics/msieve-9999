@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile install prepare
+DEPEND=  ecm? ( sci-mathematics/gmp-ecm )  mpi? ( virtual/mpi )  zlib? ( sys-libs/zlib ) 
+RDEPEND=  ecm? ( sci-mathematics/gmp-ecm )  mpi? ( virtual/mpi )  zlib? ( sys-libs/zlib ) 
+EAPI=5
+IUSE=zlib +ecm mpi 
+KEYWORDS=
+SLOT=0
+SRC_URI=

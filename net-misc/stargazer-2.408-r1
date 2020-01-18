@@ -1,0 +1,9 @@
+98d333c5dd5b5cfa0d94c6cb629c054b
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=  module_config_rpcconfig? (   dev-libs/expat   dev-libs/xmlrpc-c[abyss,cxx]  )  module_config_sgconfig? ( dev-libs/expat )  module_store_firebird? ( dev-db/firebird )  module_store_mysql? ( dev-db/mysql-connector-c:0= )  module_store_postgres? ( dev-db/postgresql:= )  sgconf? ( dev-libs/expat )  sgconf_xml? ( dev-libs/expat ) 
+RDEPEND=  module_config_rpcconfig? (   dev-libs/expat   dev-libs/xmlrpc-c[abyss,cxx]  )  module_config_sgconfig? ( dev-libs/expat )  module_store_firebird? ( dev-db/firebird )  module_store_mysql? ( dev-db/mysql-connector-c:0= )  module_store_postgres? ( dev-db/postgresql:= )  sgconf? ( dev-libs/expat )  sgconf_xml? ( dev-libs/expat ) 
+EAPI=7
+IUSE=sgconv radius rscriptd sgauth sgconf sgconf_xml +stargazer debug module_auth_always_online module_auth_internet_access module_auth_freeradius module_capture_ipq module_capture_ether module_capture_netflow module_config_sgconfig module_config_rpcconfig module_other_ping module_other_smux module_other_remote_script +module_store_files module_store_firebird module_store_mysql module_store_postgres 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://stg.dp.ua/download/server/2.408/stg-2.408.tar.gz

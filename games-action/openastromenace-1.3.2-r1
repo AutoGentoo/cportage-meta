@@ -1,0 +1,10 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/freealut  media-libs/freetype:2  media-libs/libogg  media-libs/libsdl[joystick,video,X]  media-libs/libvorbis  media-libs/openal  virtual/glu  virtual/opengl  x11-libs/libXinerama 
+RDEPEND=  media-libs/freealut  media-libs/freetype:2  media-libs/libogg  media-libs/libsdl[joystick,video,X]  media-libs/libvorbis  media-libs/openal  virtual/glu  virtual/opengl  x11-libs/libXinerama 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/openastromenace/1.3.2/astromenace-src-1.3.2.tar.bz2

@@ -1,0 +1,9 @@
+e886aae7683748643c82b4e8985270eb
+DEFINED_PHASES= install postinst prepare
+DEPEND=app-arch/unzip 
+RDEPEND=virtual/jre 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sabayon/app-admin/ElasticLoadBalancing-1.0.15.1.zip

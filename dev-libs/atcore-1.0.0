@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=  >=dev-qt/linguist-tools-5.12.3:5  doc? ( app-doc/doxygen[dot] )  
+DEPEND=  >=dev-qt/qtserialport-5.12.3:5  gui? (   >=dev-qt/qtcharts-5.12.3:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5  )  
+RDEPEND=  >=dev-qt/qtserialport-5.12.3:5  gui? (   >=dev-qt/qtcharts-5.12.3:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5  )  
+EAPI=7
+IUSE=doc gui test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://kde/stable/atcore/1.0.0/atcore-1.0.0.tar.xz

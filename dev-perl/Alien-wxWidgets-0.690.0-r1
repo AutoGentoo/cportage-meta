@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure test
+DEPEND=  >=x11-libs/wxGTK-3:3.0[gstreamer=,opengl=,tiff,X]  >=dev-perl/Module-Pluggable-2.600.0   >=virtual/perl-ExtUtils-CBuilder-0.24  >=virtual/perl-File-Spec-1.500.0  >=dev-perl/Module-Build-0.280.0  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  >=x11-libs/wxGTK-3:3.0[gstreamer=,opengl=,tiff,X]  >=dev-perl/Module-Pluggable-2.600.0  
+EAPI=6
+IUSE=gstreamer opengl test 
+KEYWORDS=amd64 ~ia64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MD/MDOOTSON/Alien-wxWidgets-0.69.tar.gz

@@ -1,0 +1,7 @@
+d8aafa8989449aaf7ed2c6122f34a4d7
+DEFINED_PHASES= compile install postinst prepare pretend
+EAPI=5
+IUSE=kernel_linux 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://universe2.us/epoch_1.3.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=>=dev-libs/libxml2-2.6.13 
+RDEPEND=>=dev-libs/libxml2-2.6.13 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/doxymacs/doxymacs-1.8.0.tar.gz

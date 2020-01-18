@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.5  dev-java/ant-core:0 
+RDEPEND=>=virtual/jre-1.5 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=3.3
+SRC_URI=https://download.oracle.com/berkeley-db/je-3.3.75.tar.gz

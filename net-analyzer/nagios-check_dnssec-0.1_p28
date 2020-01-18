@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=|| ( net-analyzer/nagios-plugins net-analyzer/monitoring-plugins )   net-libs/ldns 
+RDEPEND=|| ( net-analyzer/nagios-plugins net-analyzer/monitoring-plugins )   net-libs/ldns 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/check_dnssec-0.1_p28.tar.bz2

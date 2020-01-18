@@ -1,0 +1,10 @@
+f8421c953c738f16f9030e303630c136
+DEFINED_PHASES= configure prepare test
+BDEPEND=  dev-qt/linguist-tools:5  zlib? ( virtual/pkgconfig )  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsql:5[sqlite]  dev-qt/qtsvg:5  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  crypt? (   >=app-crypt/gpgme-1.8.0[cxx,qt5]   dev-libs/mimetic  )  dbus? ( dev-qt/qtdbus:5 )  password? ( dev-libs/qtkeychain[qt5(+)] )  pim? ( kde-apps/akonadi-contacts:5 )  spell? ( kde-frameworks/sonnet:5 )  zlib? ( sys-libs/zlib )   test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsql:5[sqlite]  dev-qt/qtsvg:5  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  crypt? (   >=app-crypt/gpgme-1.8.0[cxx,qt5]   dev-libs/mimetic  )  dbus? ( dev-qt/qtdbus:5 )  password? ( dev-libs/qtkeychain[qt5(+)] )  pim? ( kde-apps/akonadi-contacts:5 )  spell? ( kde-frameworks/sonnet:5 )  zlib? ( sys-libs/zlib )  
+EAPI=7
+IUSE=+crypt +dbus debug +password pim +spell test +zlib 
+KEYWORDS=
+SLOT=0
+SRC_URI=

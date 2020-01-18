@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    virtual/perl-Carp  virtual/perl-Data-Dumper  virtual/perl-Digest-MD5  dev-perl/File-HomeDir  virtual/perl-File-Spec  >=dev-perl/Getopt-Long-Descriptive-0.84.0  dev-perl/HTTP-Message  >=dev-perl/LWP-Protocol-https-1.0.0  dev-perl/libwww-perl  dev-perl/TermReadKey   virtual/perl-ExtUtils-MakeMaker  test? (   !minimal? (    >=virtual/perl-CPAN-Meta-2.120.900   )   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-Data-Dumper  virtual/perl-Digest-MD5  dev-perl/File-HomeDir  virtual/perl-File-Spec  >=dev-perl/Getopt-Long-Descriptive-0.84.0  dev-perl/HTTP-Message  >=dev-perl/LWP-Protocol-https-1.0.0  dev-perl/libwww-perl  dev-perl/TermReadKey  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/CPAN-Uploader-0.103013.tar.gz

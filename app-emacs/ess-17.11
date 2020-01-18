@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install
+DEPEND=app-text/texi2html  virtual/latex-base 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ppc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=http://ess.r-project.org/downloads/ess/ess-17.11.tgz

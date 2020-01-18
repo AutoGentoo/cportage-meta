@@ -1,0 +1,9 @@
+3c786bf84eb543684c6b04485e156080
+DEFINED_PHASES= compile configure install postinst preinst prepare setup
+DEPEND=  dev-util/cmake  monkeyd_plugins_tls? ( net-libs/mbedtls:= ) 
+RDEPEND=  php? ( dev-lang/php )  cgi? ( dev-lang/php[cgi] ) 
+EAPI=5
+IUSE=cgi -debug fastcgi php static-plugins monkeyd_plugins_auth monkeyd_plugins_cheetah monkeyd_plugins_dirlisting +monkeyd_plugins_liana monkeyd_plugins_logger monkeyd_plugins_mandril monkeyd_plugins_tls 
+KEYWORDS=amd64 arm ~mips ppc ppc64 x86
+SLOT=0
+SRC_URI=http://monkey-project.com/releases/1.6/monkey-1.6.9.tar.gz

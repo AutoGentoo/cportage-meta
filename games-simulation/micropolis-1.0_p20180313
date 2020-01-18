@@ -1,0 +1,10 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= compile install prepare
+BDEPEND=sys-devel/bison 
+DEPEND=  media-libs/libsdl  media-libs/sdl-mixer  x11-libs/libX11  x11-libs/libXpm 
+RDEPEND=  media-libs/libsdl  media-libs/sdl-mixer  x11-libs/libX11  x11-libs/libXpm 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://gitlab.com/stargo/micropolis/-/archive/cc31822e4ebe54c0109623ac0c5cdf0e3acad755/micropolis-cc31822e4ebe54c0109623ac0c5cdf0e3acad755.tar.bz2

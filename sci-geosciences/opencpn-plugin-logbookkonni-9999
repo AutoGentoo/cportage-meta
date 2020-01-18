@@ -1,0 +1,10 @@
+b1b16324adf0d4450b4e311fda0330e4
+DEFINED_PHASES= install postinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/zip    x11-libs/wxGTK:3.0  >=sci-geosciences/opencpn-4.2.0  sys-devel/gettext   
+RDEPEND=  x11-libs/wxGTK:3.0  >=sci-geosciences/opencpn-4.2.0  sys-devel/gettext  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

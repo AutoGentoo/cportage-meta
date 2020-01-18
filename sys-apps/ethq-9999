@@ -1,0 +1,10 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= compile install prepare test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=sys-libs/ncurses:0 
+RDEPEND=sys-libs/ncurses:0 
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

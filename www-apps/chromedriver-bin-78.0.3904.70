@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=!www-client/chromium  www-client/google-chrome 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=amd64? ( https://chromedriver.storage.googleapis.com/78.0.3904.70/chromedriver_linux64.zip -> chromedriver-bin-78.0.3904.70.linux64.zip )

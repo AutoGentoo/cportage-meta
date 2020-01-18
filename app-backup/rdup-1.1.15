@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare test
+DEPEND=  app-arch/libarchive  dev-libs/glib:2  dev-libs/libpcre  dev-libs/nettle  test? ( dev-util/dejagnu ) 
+RDEPEND=  app-arch/libarchive  dev-libs/glib:2  dev-libs/libpcre  dev-libs/nettle 
+EAPI=6
+IUSE=debug test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/miekg/rdup/archive/1.1.15.tar.gz -> rdup-1.1.15.tar.gz

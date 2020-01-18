@@ -1,0 +1,12 @@
+6d6c516730856dbc5a9cef5ac5e76c00
+DEFINED_PHASES= compile configure install postinst prerm setup
+DEPEND=>=media-gfx/iscan-2.21.0  !!<media-gfx/iscan-plugin-gt-x770-2.1.2.1-r2 
+RDEPEND=>=media-gfx/iscan-2.21.0  !!<media-gfx/iscan-plugin-gt-x770-2.1.2.1-r2 
+EAPI=4
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	x86? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-gt-x770/2.1.2/iscan-plugin-gt-x770-2.1.2-1.i386.rpm )
+	amd64? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-gt-x770/2.1.2/iscan-plugin-gt-x770-2.1.2-1.x86_64.rpm )
+

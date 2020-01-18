@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile configure install setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND= postgres_targets_postgres11? ( dev-db/postgresql:11=[server] ) postgres_targets_postgres10? ( dev-db/postgresql:10=[server] ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6=[server] ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5=[server] ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4=[server] )  >=dev-db/postgis-2.0  dev-libs/boost  sci-mathematics/cgal   >=dev-python/sphinx-1.2  pdf? ( >=dev-python/sphinx-1.2[latex] )  
+RDEPEND= postgres_targets_postgres11? ( dev-db/postgresql:11=[server] ) postgres_targets_postgres10? ( dev-db/postgresql:10=[server] ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6=[server] ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5=[server] ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4=[server] )  >=dev-db/postgis-2.0  dev-libs/boost  sci-mathematics/cgal  
+EAPI=6
+IUSE=pdf html 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/pgRouting/pgrouting/archive/v2.6.2.tar.gz -> pgrouting-2.6.2.tar.gz

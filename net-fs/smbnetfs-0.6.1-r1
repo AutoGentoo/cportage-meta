@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=sys-fs/fuse-2.3:0=  >=net-fs/samba-4.2  >=dev-libs/glib-2.30  gnome-keyring? ( app-crypt/libsecret )  virtual/pkgconfig 
+RDEPEND=>=sys-fs/fuse-2.3:0=  >=net-fs/samba-4.2  >=dev-libs/glib-2.30  gnome-keyring? ( app-crypt/libsecret ) 
+EAPI=7
+IUSE=gnome-keyring 
+KEYWORDS=~amd64 ~x86 ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/smbnetfs/smbnetfs-0.6.1.tar.bz2

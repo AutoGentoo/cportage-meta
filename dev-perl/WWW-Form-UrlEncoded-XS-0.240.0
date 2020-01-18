@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Exporter   >=dev-perl/Module-Build-Tiny-0.35.0  test? (   >=dev-perl/JSON-2   >=virtual/perl-Test-Simple-0.980.0  )  
+RDEPEND=  virtual/perl-Exporter  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KAZEBURO/WWW-Form-UrlEncoded-XS-0.24.tar.gz

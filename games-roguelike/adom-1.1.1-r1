@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=sys-libs/ncurses-compat:5[abi_x86_32(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.adom.de/adom/download/linux/adom-111-elf.tar.gz

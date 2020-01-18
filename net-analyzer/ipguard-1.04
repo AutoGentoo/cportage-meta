@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile install prepare
+DEPEND=  net-libs/libnet  net-libs/libpcap  
+RDEPEND=  net-libs/libnet  net-libs/libpcap  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://ipguard.deep.perm.ru/files/ipguard-1.04.tar.gz

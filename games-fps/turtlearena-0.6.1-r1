@@ -1,0 +1,10 @@
+a22c5c2ddcc85c0a1066e09a139c7d74
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  sys-libs/zlib[minizip]  !dedicated? (   media-libs/freetype:2   media-libs/libsdl[X,sound,joystick,opengl,video]   virtual/jpeg:0   virtual/opengl   curl? ( net-misc/curl )   openal? ( media-libs/openal )   theora? ( media-libs/libtheora )   voice? (    media-libs/speex    mumble? ( media-sound/mumble )   )   vorbis? ( media-libs/libvorbis )  )  app-arch/unzip  virtual/pkgconfig 
+RDEPEND=  sys-libs/zlib[minizip]  !dedicated? (   media-libs/freetype:2   media-libs/libsdl[X,sound,joystick,opengl,video]   virtual/jpeg:0   virtual/opengl   curl? ( net-misc/curl )   openal? ( media-libs/openal )   theora? ( media-libs/libtheora )   voice? (    media-libs/speex    mumble? ( media-sound/mumble )   )   vorbis? ( media-libs/libvorbis )  ) 
+EAPI=6
+IUSE=+curl debug dedicated mumble openal server theora voice vorbis 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://turtlearena.googlecode.com/files/turtlearena-0.6.1-0-src.tar.bz2
+	https://turtlearena.googlecode.com/files/turtlearena-0.6.1-0.zip

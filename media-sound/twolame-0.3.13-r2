@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= prepare
+DEPEND=>=media-libs/libsndfile-1.0.25[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  virtual/pkgconfig 
+RDEPEND=>=media-libs/libsndfile-1.0.25[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/twolame/twolame-0.3.13.tar.gz

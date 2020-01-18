@@ -1,0 +1,8 @@
+a7fa88328aab4e5e022f539ebea5d6c6
+DEFINED_PHASES= install postinst prepare unpack
+RDEPEND=sys-libs/libstdc++-v3:5  amd64? ( sys-libs/libstdc++-v3:5[multilib] )  >=virtual/opengl-7.0-r1[abi_x86_32(-)]  >=virtual/glu-9.0-r1[abi_x86_32(-)]  >=x11-libs/libX11-1.6.2[abi_x86_32(-)]  >=x11-libs/libXxf86vm-1.1.3[abi_x86_32(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/JN2_1_FREE_LIN.tar.gz

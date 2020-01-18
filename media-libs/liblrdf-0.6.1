@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  media-libs/ladspa-sdk  media-libs/raptor:2   virtual/pkgconfig 
+RDEPEND=  media-libs/ladspa-sdk  media-libs/raptor:2  
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=amd64 ~hppa ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://github.com/swh/LRDF/archive/v0.6.1.tar.gz -> liblrdf-0.6.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.5  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.5 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=4
+SRC_URI=http://javolution.org/javolution-4.0.2-src.zip

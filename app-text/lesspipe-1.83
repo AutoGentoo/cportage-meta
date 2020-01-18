@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= compile configure install preinst
+DEPEND=dev-lang/perl 
+RDEPEND=dev-lang/perl  !<sys-apps/less-483-r1 
+EAPI=5
+IUSE=
+KEYWORDS=~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://www-zeuthen.desy.de/~friebel/unix/less/lesspipe-1.83.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  app-text/aspell  dev-perl/Tk  virtual/perl-Carp  
+RDEPEND=  app-text/aspell  dev-perl/Tk  virtual/perl-Carp  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RK/RKIES/tkispell-0.18.tar.gz

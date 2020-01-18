@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=media-libs/libpng:0  >=media-libs/libsdl-1.2.3[X,sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[midi,vorbis,wav] 
+RDEPEND=media-libs/libpng:0  >=media-libs/libsdl-1.2.3[X,sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[midi,vorbis,wav] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/nazghul/nazghul-0.7.1.tar.gz

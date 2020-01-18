@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-libs/glib-2.16:2[dbus]  gnome-base/gsettings-desktop-schemas  >=x11-libs/gtk+-3.0.0:3   >=app-text/gnome-doc-utils-0.3.2  >=dev-util/intltool-0.35  dev-util/itstool  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.16:2[dbus]  gnome-base/gsettings-desktop-schemas  >=x11-libs/gtk+-3.0.0:3  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/moserial/3.0/moserial-3.0.12.tar.xz

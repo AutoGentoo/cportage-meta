@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Shell-Guess  virtual/perl-ExtUtils-MakeMaker  test? (   >=dev-perl/Test2-Suite-0.0.60   >=virtual/perl-Test-Simple-1.302.15  )  
+RDEPEND=dev-perl/Shell-Guess 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PL/PLICEASE/Shell-Config-Generate-0.33.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-libs/libpcre  net-libs/libnet:1.0  net-libs/libpcap  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc sparc x86
+SLOT=0
+SRC_URI=http://www.thc.org/thc-rut/thcrut-1.2.5.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-perl/Archive-Extract  dev-perl/Archive-Zip  dev-perl/Capture-Tiny  dev-perl/File-ShareDir  dev-perl/File-Which  dev-perl/Text-Patch  media-libs/libsdl  virtual/perl-Archive-Tar  virtual/perl-Digest-SHA  virtual/perl-ExtUtils-CBuilder  virtual/perl-ExtUtils-MakeMaker  dev-perl/Module-Build  virtual/perl-File-Spec  virtual/perl-File-Temp  
+RDEPEND=  dev-perl/Archive-Extract  dev-perl/Archive-Zip  dev-perl/Capture-Tiny  dev-perl/File-ShareDir  dev-perl/File-Which  dev-perl/Text-Patch  media-libs/libsdl  virtual/perl-Archive-Tar  virtual/perl-Digest-SHA  virtual/perl-ExtUtils-CBuilder  virtual/perl-ExtUtils-MakeMaker  dev-perl/Module-Build  virtual/perl-File-Spec  virtual/perl-File-Temp  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FR/FROGGS/Alien-SDL-1.446.tar.gz

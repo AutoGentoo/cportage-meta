@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install test
+DEPEND=dev-db/tokyocabinet 
+RDEPEND=dev-db/tokyocabinet 
+EAPI=7
+IUSE=examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://fallabs.com/tokyodystopia/tokyodystopia-0.9.15.tar.gz

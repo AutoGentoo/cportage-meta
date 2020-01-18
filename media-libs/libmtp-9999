@@ -1,0 +1,10 @@
+2009476148b7c2a35f5d4bed00a0c632
+DEFINED_PHASES= configure install prepare
+BDEPEND=  >sys-devel/gettext-0.18.3  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+DEPEND=  acct-group/plugdev  virtual/libusb:1  crypt? ( >=dev-libs/libgcrypt-1.5.4:0= ) 
+RDEPEND=  acct-group/plugdev  virtual/libusb:1  crypt? ( >=dev-libs/libgcrypt-1.5.4:0= ) 
+EAPI=7
+IUSE=+crypt doc examples static-libs 
+KEYWORDS=
+SLOT=0/9
+SRC_URI=

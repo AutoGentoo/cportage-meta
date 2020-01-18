@@ -1,0 +1,8 @@
+221af2b20e60a4505a06cc930e5c9145
+DEFINED_PHASES= compile install prepare
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/rbsec/sslscan/archive/1.11.13-rbsec.tar.gz -> sslscan-1.11.13-rbsec.tar.gz
+	https://github.com/PeterMosmans/openssl/archive/c9ba19c8b7fd131137373dbd1fccd6a8bb0628be.tar.gz -> sslscan-1.11.13-rbsec-openssl.tar.gz

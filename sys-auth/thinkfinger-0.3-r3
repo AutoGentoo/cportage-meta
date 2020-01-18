@@ -1,0 +1,9 @@
+2f6b2627db53c8fa42533266d358c6dc
+DEFINED_PHASES= configure install postinst preinst setup
+DEPEND=virtual/libusb:0  pam? ( sys-libs/pam )  sys-devel/libtool  virtual/pkgconfig 
+RDEPEND=virtual/libusb:0  pam? ( sys-libs/pam ) 
+EAPI=4
+IUSE=debug pam static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/thinkfinger/thinkfinger-0.3.tar.gz

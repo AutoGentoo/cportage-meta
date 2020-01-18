@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=    dev-java/icu4j:52  dev-java/jchardet:0  dev-java/xom:0  app-arch/unzip  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/icu4j:52  dev-java/jchardet:0  dev-java/xom:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://about.validator.nu/htmlparser/htmlparser-1.4.zip

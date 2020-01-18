@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= configure
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4  ppc-aix? (   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 ) x86-winnt? (   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 ) virtual/pkgconfig x11-base/xorg-proto  dri? (   x11-base/xorg-server[-minimal]  x11-libs/libdrm  )   x11-base/xorg-server[xorg]     x11-libs/libpciaccess   
+RDEPEND= x11-base/xorg-server:=  dri? (   x11-base/xorg-server[-minimal]  x11-libs/libdrm  )   x11-base/xorg-server[xorg]     x11-libs/libpciaccess   
+EAPI=5
+IUSE= dri 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://www.x.org/releases/individual/driver/xf86-video-mga-1.6.5.tar.bz2

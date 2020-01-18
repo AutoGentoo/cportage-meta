@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=virtual/perl-Math-BigInt-1.70  >=virtual/perl-Storable-2.12  >=dev-perl/Params-Util-0.15 
+RDEPEND=>=virtual/perl-Math-BigInt-1.70  >=virtual/perl-Storable-2.12  >=dev-perl/Params-Util-0.15 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa ~mips ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/Chart-Math-Axis-1.06.tar.gz

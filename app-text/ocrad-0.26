@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND= || ( app-arch/plzip app-arch/pdlzip app-arch/lzip ) 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://nongnu/ocrad/ocrad-0.26.tar.lz

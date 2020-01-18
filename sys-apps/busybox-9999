@@ -1,0 +1,9 @@
+6985565725dc23c3f74430e7b03f6a8b
+DEFINED_PHASES= compile configure install postinst preinst prepare
+DEPEND=!static? ( selinux? ( sys-libs/libselinux ) )  pam? ( sys-libs/pam )  static? ( selinux? ( sys-libs/libselinux[static-libs(+)] ) )  >=sys-kernel/linux-headers-2.6.39 
+RDEPEND=!static? ( selinux? ( sys-libs/libselinux ) )  pam? ( sys-libs/pam )  mdev? ( !<sys-apps/openrc-0.13 ) 
+EAPI=6
+IUSE=debug ipv6 livecd make-symlinks math mdev pam selinux sep-usr static syslog systemd 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,8 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install test
+DEPEND=  sys-devel/flex  sys-devel/bison  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.denx.de/pub/u-boot/u-boot-2019.10.tar.bz2

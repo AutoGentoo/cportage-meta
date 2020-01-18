@@ -1,0 +1,9 @@
+61ffcf170eac323001ffc94bf7e22b02
+DEFINED_PHASES= compile configure install postinst postrm preinst
+DEPEND=  media-libs/alsa-lib  media-libs/freetype:2  media-libs/libsdl[X,sound,alsa,joystick,opengl,video]  sys-libs/zlib  virtual/glu  virtual/opengl 
+RDEPEND=  media-libs/alsa-lib  media-libs/freetype:2  media-libs/libsdl[X,sound,alsa,joystick,opengl,video]  sys-libs/zlib  virtual/glu  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/residualvm/residualvm-0.2.1-sources.tar.bz2

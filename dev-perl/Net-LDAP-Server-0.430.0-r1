@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/perl-ldap  dev-perl/Convert-ASN1  virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=dev-perl/perl-ldap  dev-perl/Convert-ASN1 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AA/AAR/Net-LDAP-Server-0.43.tar.gz

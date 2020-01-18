@@ -1,0 +1,9 @@
+78422274bfc1ba8318ab6d8c08351280
+DEFINED_PHASES= configure install postinst preinst prepare
+DEPEND=dev-lang/perl  sys-devel/flex  gnutls? ( net-libs/gnutls )  zlib? ( sys-libs/zlib ) 
+RDEPEND=gnutls? ( net-libs/gnutls )  zlib? ( sys-libs/zlib ) 
+EAPI=6
+IUSE=gnutls ipv6 zlib 
+KEYWORDS=amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://www.gedanken.org.uk/software/wwwoffle/download/wwwoffle-2.9i.tgz

@@ -1,0 +1,10 @@
+e81a0a803ea5db495fad17dcd270ddf6
+DEFINED_PHASES= nofetch postinst unpack
+BDEPEND=dev-util/patchelf 
+DEPEND=app-eselect/eselect-opencl  dev-libs/ocl-icd 
+RDEPEND=app-eselect/eselect-opencl  dev-libs/ocl-icd  !media-libs/mesa[opencl] 
+EAPI=7
+IUSE=abi_x86_32 abi_x86_64 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=amdgpu-pro-19.30-838629-ubuntu-18.04.tar.xz

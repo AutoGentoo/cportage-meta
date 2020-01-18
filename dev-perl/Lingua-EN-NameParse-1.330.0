@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Parse-RecDescent-1   >=dev-perl/Module-Build-0.380.0  test? (   >=virtual/perl-Test-Simple-0.940.0  )  
+RDEPEND=  >=dev-perl/Parse-RecDescent-1  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KI/KIMRYAN/Lingua-EN-NameParse-1.33.tar.gz

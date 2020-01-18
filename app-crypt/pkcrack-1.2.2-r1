@@ -1,0 +1,9 @@
+5c20cb564da57469de7970576479a662
+DEFINED_PHASES= compile install postinst test
+BDEPEND=test? ( app-arch/zip[crypt] ) 
+RDEPEND=!<app-text/html-xml-utils-5.3 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/pkcrack-1.2.2.tar.gz

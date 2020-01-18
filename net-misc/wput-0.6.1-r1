@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  ssl? ( net-libs/gnutls )  nls? ( sys-devel/gettext ) 
+RDEPEND=ssl? ( net-libs/gnutls ) 
+EAPI=6
+IUSE=debug nls ssl 
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wput/wput-0.6.1.tgz

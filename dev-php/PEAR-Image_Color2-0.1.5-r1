@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=test? ( >=dev-php/phpunit-5 ) 
+RDEPEND=>=dev-php/pear-1.8.1 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/Image_Color2-0.1.5.tgz

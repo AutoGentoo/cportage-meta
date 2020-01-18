@@ -1,0 +1,9 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=virtual/w3m 
+RDEPEND=virtual/w3m 
+EAPI=7
+IUSE=gzip-el l10n_ja 
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/emacs-w3m-1.4.632_pre20181112.tar.xz

@@ -1,0 +1,9 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6  dev-java/commons-beanutils:1.7  >=dev-java/commons-collections-2.1:0  >=dev-java/commons-logging-1.0.2:0  test? (   dev-java/junit:0   dev-java/ant-junit:0  ) 
+RDEPEND=>=virtual/jre-1.6  dev-java/commons-beanutils:1.7  >=dev-java/commons-collections-2.1:0  >=dev-java/commons-logging-1.0.2:0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86
+SLOT=2.1
+SRC_URI=mirror://apache/commons/digester/source/commons-digester-2.1-src.tar.gz

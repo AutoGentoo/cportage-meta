@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure prepare
+DEPEND=  dev-libs/popt  >=media-libs/libgphoto2-2.5.17:=[exif?]  aalib? (   media-libs/aalib   virtual/jpeg:0 )  exif? ( media-libs/libexif )  ncurses? ( dev-libs/cdk:0= )  readline? ( sys-libs/readline:0= )   virtual/pkgconfig  nls? ( >=sys-devel/gettext-0.14.1 )  
+RDEPEND=  dev-libs/popt  >=media-libs/libgphoto2-2.5.17:=[exif?]  aalib? (   media-libs/aalib   virtual/jpeg:0 )  exif? ( media-libs/libexif )  ncurses? ( dev-libs/cdk:0= )  readline? ( sys-libs/readline:0= )  
+EAPI=6
+IUSE=aalib exif ncurses nls readline 
+KEYWORDS=alpha amd64 ~hppa ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gphoto/gphoto2-2.5.20.tar.bz2

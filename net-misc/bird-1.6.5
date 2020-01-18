@@ -1,0 +1,9 @@
+c4aae5a6e17ce192bc5cc4a0e90104a6
+DEFINED_PHASES= compile configure install prepare
+DEPEND=sys-devel/flex  sys-devel/bison  sys-devel/m4 
+RDEPEND=client? ( sys-libs/ncurses )  client? ( sys-libs/readline ) 
+EAPI=7
+IUSE=+client debug ipv6 
+KEYWORDS=~amd64 ~arm64 ~x86 ~x64-macos
+SLOT=0
+SRC_URI=ftp://bird.network.cz/pub/bird/bird-1.6.5.tar.gz

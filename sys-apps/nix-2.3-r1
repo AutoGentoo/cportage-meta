@@ -1,0 +1,10 @@
+a93c77ccca106e4dde46bbc13708930e
+DEFINED_PHASES= compile configure install postinst prepare setup
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  app-arch/brotli  app-arch/bzip2  app-arch/xz-utils  sys-apps/busybox[static]  dev-db/sqlite  dev-libs/editline:0=  dev-libs/openssl:0=  >=dev-libs/boost-1.66:0=[context]  net-misc/curl  sys-libs/libseccomp  sys-libs/zlib  gc? ( dev-libs/boehm-gc[cxx] )  doc? ( dev-libs/libxml2   dev-libs/libxslt   app-text/docbook-xsl-stylesheets  )  s3? ( dev-libs/aws-sdk-cpp )  sodium? ( dev-libs/libsodium:0= )   >=sys-devel/bison-2.6  >=sys-devel/flex-2.5.35  
+RDEPEND=  app-arch/brotli  app-arch/bzip2  app-arch/xz-utils  sys-apps/busybox[static]  dev-db/sqlite  dev-libs/editline:0=  dev-libs/openssl:0=  >=dev-libs/boost-1.66:0=[context]  net-misc/curl  sys-libs/libseccomp  sys-libs/zlib  gc? ( dev-libs/boehm-gc[cxx] )  doc? ( dev-libs/libxml2   dev-libs/libxslt   app-text/docbook-xsl-stylesheets  )  s3? ( dev-libs/aws-sdk-cpp )  sodium? ( dev-libs/libsodium:0= )  
+EAPI=7
+IUSE=+etc-profile +gc doc s3 +sodium 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://nixos.org/releases/nix/nix-2.3/nix-2.3.tar.xz

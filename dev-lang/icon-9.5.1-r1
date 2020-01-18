@@ -1,0 +1,9 @@
+8da6de7951e14b1ebc42037c2cacdbe6
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=    X? ( x11-libs/libX11:= )  X? (   x11-libs/libXpm   x11-libs/libXt  ) 
+RDEPEND=  X? ( x11-libs/libX11:= ) 
+EAPI=6
+IUSE=X iplsrc 
+KEYWORDS=alpha amd64 ~hppa ia64 ~ppc ~ppc64 ~s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.cs.arizona.edu/icon/ftp/packages/unix/icon-v951src.tgz

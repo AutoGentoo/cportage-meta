@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=nls? ( sys-devel/gettext )   dev-util/intltool   dev-perl/XML-Parser 
+RDEPEND=nls? ( sys-devel/gettext ) 
+EAPI=5
+IUSE=nls 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/ddccontrol/ddccontrol-db/archive/130da80af5cd5d2897ffeed63362262262c6944f.tar.gz -> ddccontrol-db-20061014_p20121105.tar.gz

@@ -1,0 +1,8 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=|| ( >=dev-lang/python-2.7.5-r2:2.7 )  doc? ( || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/sphinx[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) )  
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 ~hppa ppc ~s390 x86
+SLOT=0
+SRC_URI=https://github.com/mongodb/mongo-c-driver/tarball/v0.7.1 -> mongo-c-driver-0.7.1.tar.gz

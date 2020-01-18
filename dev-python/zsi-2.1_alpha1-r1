@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES=-
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  twisted? (   dev-python/twisted-core   dev-python/twisted-web  ) 
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  twisted? (   dev-python/twisted-core   dev-python/twisted-web  ) 
+EAPI=5
+IUSE=doc examples twisted 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pywebsvcs/ZSI-2.1-a1.tar.gz

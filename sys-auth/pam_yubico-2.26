@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  sys-libs/pam  sys-auth/libyubikey  >=sys-auth/ykclient-2.15  >=sys-auth/ykpers-1.6  ldap? ( net-nds/openldap )  app-text/asciidoc  test? ( dev-perl/Net-LDAP-Server ) 
+RDEPEND=  sys-libs/pam  sys-auth/libyubikey  >=sys-auth/ykclient-2.15  >=sys-auth/ykpers-1.6  ldap? ( net-nds/openldap ) 
+EAPI=6
+IUSE=ldap test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://opensource.yubico.com/yubico-pam/releases/pam_yubico-2.26.tar.gz

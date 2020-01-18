@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=    >=gnome-base/libglade-2  x11-libs/gtk+:2   virtual/pkgconfig  
+RDEPEND=  >=gnome-base/libglade-2  x11-libs/gtk+:2  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://frameworks.polycrystal.org/release/frameworks-0.3.7.tar.gz

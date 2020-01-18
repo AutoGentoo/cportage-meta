@@ -1,0 +1,9 @@
+810b04ee5573a14b92e4b534890cb3ab
+DEFINED_PHASES= install postinst
+DEPEND=>=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=  dev-lang/php[simplexml,xml,xsl(+),xslt(+),unicode]  virtual/httpd-php  
+EAPI=7
+IUSE=vhosts 
+KEYWORDS=amd64 hppa ppc ppc64 x86
+SLOT=3.3.1
+SRC_URI=https://github.com/rk4an/phpsysinfo/archive/v3.3.1.tar.gz -> phpsysinfo-3.3.1.tar.gz

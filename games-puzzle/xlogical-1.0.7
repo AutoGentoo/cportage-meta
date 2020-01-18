@@ -1,0 +1,10 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install prepare unpack
+DEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image[jpeg]  media-libs/sdl-mixer[mod]  alt_gfx? ( app-arch/unzip ) 
+RDEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image[jpeg]  media-libs/sdl-mixer[mod] 
+EAPI=5
+IUSE=alt_gfx 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://changeling.ixionstudios.com/xlogical/downloads/xlogical-1.0-7.tar.bz2
+	alt_gfx? ( http://changeling.ixionstudios.com/xlogical/downloads/xlogical_gfx.zip )

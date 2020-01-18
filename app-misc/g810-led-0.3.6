@@ -1,0 +1,10 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= compile install
+BDEPEND=virtual/pkgconfig 
+DEPEND=  hidapi? ( dev-libs/hidapi:= )  !hidapi? ( virtual/libusb:= )  
+RDEPEND=  hidapi? ( dev-libs/hidapi:= )  !hidapi? ( virtual/libusb:= )  
+EAPI=7
+IUSE=+hidapi 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/MatMoul/g810-led/archive/v0.3.6.tar.gz -> g810-led-0.3.6.tar.gz

@@ -1,0 +1,9 @@
+3e5df1e50219772763420f0954b79e31
+DEFINED_PHASES= configure postinst prepare
+DEPEND=examples? ( dev-libs/glib:2 )  dev-util/gtk-doc-am  virtual/pkgconfig 
+RDEPEND=examples? ( dev-libs/glib:2 ) 
+EAPI=5
+IUSE=+examples static-libs test 
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0.3
+SRC_URI=https://liboil.freedesktop.org/download/liboil-0.3.17.tar.gz

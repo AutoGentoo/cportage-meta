@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=    >=app-vim/genutils-1.18  >=app-vim/multvals-3.6.1  >=app-vim/cmdalias-1.0 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/greputils-2.8.tar.bz2
+		https://dev.gentoo.org/~radhermit/vim/greputils-2.8.tar.bz2

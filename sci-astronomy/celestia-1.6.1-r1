@@ -1,0 +1,9 @@
+7b16c808edb70df1a0a5860bfd8bc8bc
+DEFINED_PHASES= configure install prepare setup
+DEPEND=  virtual/opengl  virtual/jpeg:0  media-libs/libpng:0=  <dev-lang/lua-5.2:*  gtk? ( !gnome? ( x11-libs/gtk+:2 >=x11-libs/gtkglext-1.0 ) )  gnome? (   x11-libs/gtk+:2   >=x11-libs/gtkglext-1.0   >=gnome-base/libgnomeui-2.0  )  !gtk? ( !gnome? ( media-libs/freeglut ) )  cairo? ( x11-libs/cairo )  theora? ( media-libs/libtheora )  virtual/pkgconfig 
+RDEPEND=  virtual/opengl  virtual/jpeg:0  media-libs/libpng:0=  <dev-lang/lua-5.2:*  gtk? ( !gnome? ( x11-libs/gtk+:2 >=x11-libs/gtkglext-1.0 ) )  gnome? (   x11-libs/gtk+:2   >=x11-libs/gtkglext-1.0   >=gnome-base/libgnomeui-2.0  )  !gtk? ( !gnome? ( media-libs/freeglut ) )  cairo? ( x11-libs/cairo )  theora? ( media-libs/libtheora ) 
+EAPI=5
+IUSE=cairo gnome gtk nls pch theora threads 
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/celestia/celestia-1.6.1.tar.gz

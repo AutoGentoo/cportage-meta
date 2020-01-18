@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.4  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.4:* 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=2.4
+SRC_URI=http://www.caucho.com/download/resin-3.0.25-src.zip
+	mirror://gentoo/resin-gentoo-patches-3.0.25.tar.bz2

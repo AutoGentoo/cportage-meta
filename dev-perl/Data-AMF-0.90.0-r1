@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-perl/DateTime  dev-perl/Any-Moose  dev-perl/UNIVERSAL-require  dev-perl/XML-LibXML  test? ( dev-perl/YAML ) 
+RDEPEND=dev-perl/DateTime  dev-perl/Any-Moose  dev-perl/UNIVERSAL-require  dev-perl/XML-LibXML 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TY/TYPESTER/Data-AMF-0.09.tar.gz

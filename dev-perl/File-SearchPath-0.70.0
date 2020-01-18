@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Module-Build 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TJ/TJENNESS/File-SearchPath-0.07.tar.gz

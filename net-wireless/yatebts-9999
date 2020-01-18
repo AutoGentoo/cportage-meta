@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= configure prepare
+DEPEND=|| (   dev-vcs/subversion[http]   dev-vcs/subversion[webdav-neon]   dev-vcs/subversion[webdav-serf]  )  net-misc/rsync 
+RDEPEND=  =net-voip/yate-9999:=[gsm]  bladerf? ( net-wireless/bladerf:= )  uhd? ( net-wireless/uhd )  virtual/libusb:1 
+EAPI=6
+IUSE=rad1 usrp1 uhd +bladerf cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 
+KEYWORDS=
+SLOT=0
+SRC_URI=

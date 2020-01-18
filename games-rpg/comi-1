@@ -1,0 +1,9 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= install unpack
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info  
+RDEPEND=>=games-engines/scummvm-0.4.0 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~chewi/distfiles/comi.jpg

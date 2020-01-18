@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/hector_pose_estimation  dev-ros/hector_pose_estimation_core  dev-ros/message_to_tf  
+RDEPEND=  dev-ros/hector_pose_estimation  dev-ros/hector_pose_estimation_core  dev-ros/message_to_tf  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

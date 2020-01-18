@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  app-admin/gkrellm:2[X]  x11-libs/libXtst  x11-base/xorg-proto 
+RDEPEND=  app-admin/gkrellm:2[X]  x11-libs/libXtst 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ~ppc ~sparc x86
+SLOT=2
+SRC_URI=http://heim.ifi.uio.no/~oyvinha/e107_files/downloads/gkleds-0.8.2.tar.gz

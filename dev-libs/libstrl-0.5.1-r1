@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  doc? ( app-doc/doxygen )  test? ( dev-libs/check )  
+EAPI=7
+IUSE=doc static-libs test 
+KEYWORDS=amd64 x86 ~amd64-linux ~x64-macos
+SLOT=0
+SRC_URI=http://mirror.ohnopub.net/mirror/libstrl-0.5.1.tar.bz2

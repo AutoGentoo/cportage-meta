@@ -1,0 +1,8 @@
+1dfff96eca0cd5bfda34103984e0df78
+DEFINED_PHASES= compile install prepare
+DEPEND=|| (   sys-devel/clang   =sys-devel/gcc-apple-4.2.1*  ) 
+EAPI=7
+IUSE=
+KEYWORDS=~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.opensource.apple.com/tarballs/Csu/Csu-85.tar.gz

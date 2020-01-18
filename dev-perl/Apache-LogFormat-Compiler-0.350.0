@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/POSIX-strftime-Compiler-0.300.0  virtual/perl-Time-Local  >=dev-lang/perl-5.8.4   >=dev-perl/Module-Build-Tiny-0.35.0   test? (     dev-perl/HTTP-Message     dev-perl/Test-MockTime     >=virtual/perl-Test-Simple-0.980.0     dev-perl/Test-Requires     >=dev-perl/Try-Tiny-0.120.0     >=dev-perl/URI-1.600.0   )  
+RDEPEND=  >=dev-perl/POSIX-strftime-Compiler-0.300.0  virtual/perl-Time-Local  >=dev-lang/perl-5.8.4 
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.35.tar.gz

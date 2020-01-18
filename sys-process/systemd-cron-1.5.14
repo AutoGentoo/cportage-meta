@@ -1,0 +1,10 @@
+433b9a74e7d37a48856c54705d4b4d1f
+DEFINED_PHASES= configure prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=sys-process/cronbase  test? ( sys-apps/man-db dev-python/pyflakes ) 
+RDEPEND=>=sys-apps/systemd-217  sys-apps/debianutils  !etc-crontab-systemd? ( !sys-process/dcron )  python_single_target_pypy3? (    >=dev-python/pypy3-5:0=    >=dev-lang/python-exec-2:=[python_targets_pypy3]   ) python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )   sys-process/cronbase 
+EAPI=7
+IUSE=cron-boot etc-crontab-systemd minutely setgid test yearly 
+KEYWORDS=~amd64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/systemd-cron/systemd-cron/archive/v1.5.14.tar.gz -> systemd-cron-1.5.14.tar.gz

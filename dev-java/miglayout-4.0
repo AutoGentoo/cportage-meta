@@ -1,0 +1,9 @@
+0c2120ee62488cb2e256282e3a1a2970
+DEFINED_PHASES= compile install
+DEPEND=  swt? ( dev-java/swt:3.7 )  >=virtual/jdk-1.5  app-arch/unzip 
+RDEPEND=  swt? ( dev-java/swt:3.7 )  >=virtual/jre-1.5 
+EAPI=4
+IUSE=swt 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.migcalendar.com/miglayout/versions/4.0/miglayout-4.0-sources.jar

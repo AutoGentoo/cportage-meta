@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile install
+DEPEND=>=app-emacs/apel-10.6  app-emacs/flim 
+RDEPEND=>=app-emacs/apel-10.6  app-emacs/flim 
+EAPI=5
+IUSE=l10n_ja 
+KEYWORDS=alpha amd64 ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://git.chise.org/elisp/dist/semi/semi-1.14-for-flim-1.14/semi-1.14.6.tar.gz

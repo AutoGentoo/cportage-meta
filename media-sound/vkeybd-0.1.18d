@@ -1,0 +1,9 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= configure postinst
+DEPEND=  >=dev-lang/tk-8.3:=  x11-libs/libX11  alsa? ( media-libs/alsa-lib:= )  lash? ( media-sound/lash:= )  x11-base/xorg-proto  virtual/pkgconfig 
+RDEPEND=  >=dev-lang/tk-8.3:=  x11-libs/libX11  alsa? ( media-libs/alsa-lib:= )  lash? ( media-sound/lash:= ) 
+EAPI=7
+IUSE=alsa lash oss 
+KEYWORDS=amd64 ~sparc x86
+SLOT=0
+SRC_URI=http://ftp.suse.com/pub/people/tiwai/vkeybd/vkeybd-0.1.18d.tar.bz2

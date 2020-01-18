@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/libltdl:0  virtual/jpeg:0  media-libs/libpng:0=  sys-libs/zlib:0=  x11-libs/fltk[opengl]  virtual/glu  virtual/opengl   virtual/pkgconfig 
+RDEPEND=  dev-libs/libltdl:0  virtual/jpeg:0  media-libs/libpng:0=  sys-libs/zlib:0=  x11-libs/fltk[opengl]  virtual/glu  virtual/opengl  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0/4.3
+SRC_URI=

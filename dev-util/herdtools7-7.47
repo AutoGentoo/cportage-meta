@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=dev-ml/ocamlbuild 
+RDEPEND=>=dev-lang/ocaml-4.02.0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/herd/herdtools7/archive/7.47.tar.gz -> herdtools7-7.47.tar.gz

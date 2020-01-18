@@ -1,0 +1,10 @@
+044650ac8a42a4240bde7934b49096d7
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-db/sqlite:3  dev-libs/boost:0=[threads(+)]  dev-libs/libgcrypt:0  dev-libs/protobuf:0=  dev-libs/tinyxml[stl]  dev-qt/qtcore:5  dev-qt/qtnetwork:5  >=net-libs/libircclient-1.6-r2  >=net-misc/curl-7.16  virtual/gsasl  !dedicated? (   dev-qt/qtgui:5   dev-qt/qtwidgets:5   media-libs/libsdl:0   media-libs/sdl-mixer[mod,vorbis]  )  dev-cpp/websocketpp  !dedicated? ( dev-qt/qtsql:5 ) 
+RDEPEND=dev-db/sqlite:3  dev-libs/boost:0=[threads(+)]  dev-libs/libgcrypt:0  dev-libs/protobuf:0=  dev-libs/tinyxml[stl]  dev-qt/qtcore:5  dev-qt/qtnetwork:5  >=net-libs/libircclient-1.6-r2  >=net-misc/curl-7.16  virtual/gsasl  !dedicated? (   dev-qt/qtgui:5   dev-qt/qtwidgets:5   media-libs/libsdl:0   media-libs/sdl-mixer[mod,vorbis]  ) 
+EAPI=7
+IUSE=dedicated 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pokerth/pokerth-1.1.2.tar.gz

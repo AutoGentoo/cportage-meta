@@ -1,0 +1,9 @@
+455852b0e81a0d13da04f11ae63e0245
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  dev-libs/openssl:0=  media-libs/libpng:0=  !<sci-biology/ucsc-genome-browser-223  mysql? ( dev-db/mysql-connector-c:0= )  server? ( virtual/httpd-cgi ) app-arch/unzip 
+RDEPEND=  dev-libs/openssl:0=  media-libs/libpng:0=  !<sci-biology/ucsc-genome-browser-223  mysql? ( dev-db/mysql-connector-c:0= )  server? ( virtual/httpd-cgi ) 
+EAPI=6
+IUSE=+mysql +server static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://hgdownload.cse.ucsc.edu/admin/jksrc.v260.zip

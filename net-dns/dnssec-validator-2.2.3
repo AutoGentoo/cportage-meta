@@ -1,0 +1,10 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=>=dev-libs/openssl-1.1.0:0 
+RDEPEND=>=dev-libs/openssl-1.1.0:0 
+EAPI=7
+IUSE=dlv +ipv6 +nsec3 static-libs +threads 
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=https://github.com/DNSSEC-Tools/DNSSEC-Tools/archive/dnssec-tools-2.2.3.tar.gz

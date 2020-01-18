@@ -1,0 +1,9 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure
+DEPEND=  dev-ml/ocaml-re:=  dev-ml/stringext:=  dev-ml/ocaml-uri:=  dev-ml/fieldslib:=  dev-ml/sexplib:=  dev-ml/ppx_fields_conv:=  dev-ml/ppx_sexp_conv:=  dev-ml/ocaml-base64:=  lwt? (   dev-ml/lwt:=   dev-ml/logs:=[fmt,lwt]   dev-ml/cmdliner:=   dev-ml/ocaml-conduit:=   dev-ml/ocaml-magic-mime:=  )  async? (   dev-ml/ocaml-conduit:=   dev-ml/logs:=[fmt]   dev-ml/ocaml-magic-mime:=   dev-ml/fmt:=  )  javascript? (   dev-ml/js_of_ocaml:=[ppx]  )   test? (   dev-ml/ounit   dev-ml/alcotest  )  
+RDEPEND=  dev-ml/ocaml-re:=  dev-ml/stringext:=  dev-ml/ocaml-uri:=  dev-ml/fieldslib:=  dev-ml/sexplib:=  dev-ml/ppx_fields_conv:=  dev-ml/ppx_sexp_conv:=  dev-ml/ocaml-base64:=  lwt? (   dev-ml/lwt:=   dev-ml/logs:=[fmt,lwt]   dev-ml/cmdliner:=   dev-ml/ocaml-conduit:=   dev-ml/ocaml-magic-mime:=  )  async? (   dev-ml/ocaml-conduit:=   dev-ml/logs:=[fmt]   dev-ml/ocaml-magic-mime:=   dev-ml/fmt:=  )  javascript? (   dev-ml/js_of_ocaml:=[ppx]  )  
+EAPI=5
+IUSE=async javascript +lwt 
+KEYWORDS=~amd64
+SLOT=0/0.22.0
+SRC_URI=https://github.com/mirage/ocaml-cohttp/archive/v0.22.0.tar.gz -> ocaml-cohttp-0.22.0.tar.gz

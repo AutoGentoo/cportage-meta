@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= install postinst
+DEPEND=  dev-libs/glib:2  
+RDEPEND=  dev-libs/glib:2   app-eselect/eselect-gnome-shell-extensions  >=gnome-base/gnome-shell-3.20  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/RaphaelRochet/applications-overview-tooltip/archive/v6.tar.gz -> gnome-shell-extension-applications-overview-tooltip-6.tar.gz

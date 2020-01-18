@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= install postinst
+DEPEND=dev-libs/libpcre  !libressl? ( dev-libs/openssl:0 )  libressl? ( dev-libs/libressl ) 
+RDEPEND=dev-libs/libpcre  !libressl? ( dev-libs/openssl:0 )  libressl? ( dev-libs/libressl ) 
+EAPI=5
+IUSE=libressl 
+KEYWORDS=~alpha amd64 ~hppa ~mips ~ppc ~sparc x86
+SLOT=0
+SRC_URI=http://www.apsis.ch/pound/Pound-2.7f.tgz

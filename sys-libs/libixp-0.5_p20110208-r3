@@ -1,0 +1,8 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile install prepare setup
+DEPEND=app-arch/xz-utils 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/libixp-0.5_p20110208.tar.xz

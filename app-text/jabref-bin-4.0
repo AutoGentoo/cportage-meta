@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install unpack
+DEPEND=app-arch/unzip 
+RDEPEND=  || (  dev-java/oracle-jre-bin:1.8[javafx]  dev-java/oracle-jdk-bin:1.8[javafx]  )  >=virtual/jre-1.8  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/JabRef/jabref/releases/download/v4.0/JabRef-4.0.jar

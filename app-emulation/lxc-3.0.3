@@ -1,0 +1,11 @@
+4ee42f4d118a4ce8f34ace13c4cb5e38
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=  net-libs/gnutls  sys-libs/libcap  pam? ( sys-libs/pam )  seccomp? ( sys-libs/libseccomp )  selinux? ( sys-libs/libselinux )  >=app-text/docbook-sgml-utils-0.6.14-r2  >=sys-kernel/linux-headers-3.2 
+RDEPEND=  net-libs/gnutls  sys-libs/libcap  pam? ( sys-libs/pam )  seccomp? ( sys-libs/libseccomp )  selinux? ( sys-libs/libselinux )  sys-apps/util-linux  app-misc/pax-utils  virtual/awk 
+PDEPEND=templates? ( app-emulation/lxc-templates )  python? ( dev-python/python3-lxc ) 
+EAPI=7
+IUSE=apparmor examples pam python seccomp selinux +templates 
+KEYWORDS=amd64 ~arm ~arm64 ppc64 x86
+SLOT=0
+SRC_URI=https://linuxcontainers.org/downloads/lxc/lxc-3.0.3.tar.gz

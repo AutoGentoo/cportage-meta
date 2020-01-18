@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=net-libs/libnetfilter_conntrack-0.0.100  >=net-libs/libnetfilter_queue-1.0.0  net-libs/libnfnetlink 
+RDEPEND=>=net-libs/libnetfilter_conntrack-0.0.100  >=net-libs/libnetfilter_queue-1.0.0  net-libs/libnfnetlink  net-misc/l7-protocols 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~bircoph/distfiles/l7-filter-userspace-0.12-beta1.tar.gz

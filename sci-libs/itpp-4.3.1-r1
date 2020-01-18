@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sci-libs/fftw:3.0=  virtual/blas  virtual/lapack   virtual/pkgconfig  doc? (   app-doc/doxygen   virtual/latex-base  )  
+RDEPEND=  sci-libs/fftw:3.0=  virtual/blas  virtual/lapack  
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/itpp/itpp-4.3.1.tar.bz2

@@ -1,0 +1,10 @@
+e73a72eefe343ea1996260349b5dd6ee
+DEFINED_PHASES= config configure install postinst postrm
+BDEPEND=virtual/pkgconfig 
+DEPEND=app-i18n/skk-jisyo  gnutls? ( net-libs/gnutls:= )  !gnutls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  systemd? ( virtual/udev[systemd] )  dev-lang/perl 
+RDEPEND=app-i18n/skk-jisyo  gnutls? ( net-libs/gnutls:= )  !gnutls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  systemd? ( virtual/udev[systemd] ) 
+EAPI=7
+IUSE=gnutls libressl systemd 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://umiushi.org/~wac/yaskkserv/yaskkserv-1.1.1.tar.xz

@@ -1,0 +1,10 @@
+3d6089345109e67a997c51859d0fb3a3
+DEFINED_PHASES= compile install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-cpp/gtkmm:3.0  dev-cpp/gtksourceviewmm:3.0  dev-cpp/libxmlpp:2.6  dev-cpp/glibmm  dev-cpp/pangomm  dev-cpp/cairomm  dev-libs/libsigc++:2  dev-libs/glib:2  system-binutils? ( >=sys-libs/binutils-libs-2.25.1-r2:=[multitarget] )  net-misc/curl  virtual/libelf:0= 
+RDEPEND=  dev-cpp/gtkmm:3.0  dev-cpp/gtksourceviewmm:3.0  dev-cpp/libxmlpp:2.6  dev-cpp/glibmm  dev-cpp/pangomm  dev-cpp/cairomm  dev-libs/libsigc++:2  dev-libs/glib:2  system-binutils? ( >=sys-libs/binutils-libs-2.25.1-r2:=[multitarget] )  net-misc/curl  virtual/libelf:0= 
+EAPI=5
+IUSE=+system-binutils 
+KEYWORDS=
+SLOT=0
+SRC_URI=!system-binutils? ( mirror://gnu/binutils/binutils-2.23.2.tar.bz2 )

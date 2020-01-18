@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  media-libs/imlib  sys-power/acpi  sys-power/acpid  x11-libs/libX11  x11-misc/xdialog 
+RDEPEND=    media-libs/imlib  sys-power/acpi  sys-power/acpid  x11-libs/libX11  x11-misc/xdialog  media-fonts/font-adobe-100dpi 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bbacpi/bbacpi-0.1.5.tar.gz

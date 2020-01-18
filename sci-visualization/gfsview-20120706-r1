@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  sci-libs/gerris  media-libs/ftgl  media-libs/mesa[osmesa,X(+)]  x11-libs/gtk+:2  >=x11-libs/gtkglext-1.0.6  x11-libs/startup-notification   virtual/pkgconfig 
+RDEPEND=  sci-libs/gerris  media-libs/ftgl  media-libs/mesa[osmesa,X(+)]  x11-libs/gtk+:2  >=x11-libs/gtkglext-1.0.6  x11-libs/startup-notification  
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://gerris.dalembert.upmc.fr/gerris/tarballs/gfsview-snapshot-120706.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  app-text/ghostscript-gpl  media-libs/fontconfig:1.0=  sys-libs/zlib:=  x11-libs/cairo  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXpm  x11-libs/libXt  tcl? (   dev-lang/tcl:0=   dev-lang/tk:0=  )  
+RDEPEND=  app-text/ghostscript-gpl  media-libs/fontconfig:1.0=  sys-libs/zlib:=  x11-libs/cairo  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXpm  x11-libs/libXt  tcl? (   dev-lang/tcl:0=   dev-lang/tk:0=  )  
+EAPI=6
+IUSE=tcl 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://opencircuitdesign.com/xcircuit/archive/xcircuit-3.9.73.tgz

@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile configure install
+DEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/navi2ch/navi2ch-1.8.4.tar.gz

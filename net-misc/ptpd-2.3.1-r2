@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  pcap? ( net-libs/libpcap )  snmp? ( net-analyzer/net-snmp ) 
+RDEPEND=  pcap? ( net-libs/libpcap )  snmp? ( net-analyzer/net-snmp )  ntp? ( net-misc/ntp ) 
+EAPI=6
+IUSE=debug experimental ntp +pcap snmp slave-only +statistics 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/ptpd/ptpd/archive/ptpd-2.3.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst prepare
+DEPEND=  virtual/perl-Carp  dev-perl/IO-Socket-SSL  dev-perl/HTML-TableParser  virtual/perl-MIME-Base64  dev-perl/XML-Simple   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-Carp  dev-perl/IO-Socket-SSL  dev-perl/HTML-TableParser  virtual/perl-MIME-Base64  dev-perl/XML-Simple  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TL/TLINDEN/WWW-Dict-Leo-Org-2.02.tar.gz

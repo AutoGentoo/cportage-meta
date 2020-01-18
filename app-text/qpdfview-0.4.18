@@ -1,0 +1,10 @@
+7176b3ae16f97eb614a7678015e909d3
+DEFINED_PHASES= configure install prepare
+BDEPEND=  dev-qt/linguist-tools:5  virtual/pkgconfig  
+DEPEND=  cups? ( net-print/cups )  djvu? ( app-text/djvu )  fitz? ( >=app-text/mupdf-1.7:= )  postscript? ( app-text/libspectre )  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5[cups?]  dev-qt/qtwidgets:5  dbus? ( dev-qt/qtdbus:5 )  pdf? ( >=app-text/poppler-0.35[qt5]   dev-qt/qtxml:5 )  sqlite? ( dev-qt/qtsql:5[sqlite] )  svg? ( dev-qt/qtsvg:5 )  !svg? ( virtual/freedesktop-icon-theme )  synctex? ( app-text/texlive-core ) 
+RDEPEND=  cups? ( net-print/cups )  djvu? ( app-text/djvu )  fitz? ( >=app-text/mupdf-1.7:= )  postscript? ( app-text/libspectre )  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5[cups?]  dev-qt/qtwidgets:5  dbus? ( dev-qt/qtdbus:5 )  pdf? ( >=app-text/poppler-0.35[qt5]   dev-qt/qtxml:5 )  sqlite? ( dev-qt/qtsql:5[sqlite] )  svg? ( dev-qt/qtsvg:5 )  !svg? ( virtual/freedesktop-icon-theme )  synctex? ( app-text/texlive-core ) 
+EAPI=7
+IUSE=cups +dbus djvu fitz +pdf postscript +sqlite +svg synctex 
+KEYWORDS=~amd64 ~arm ~ppc64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://launchpad.net/qpdfview/trunk/0.4.18/+download/qpdfview-0.4.18.tar.gz

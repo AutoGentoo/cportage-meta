@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure install
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=virtual/pkgconfig  doc? ( >=app-doc/doxygen-1.5.8   qt5? ( dev-qt/qthelp:5 ) )  test? ( >=dev-cpp/gtest-1.8.1 ) 
+EAPI=7
+IUSE=doc qt5 test unicode 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+SLOT=0
+SRC_URI=https://github.com/uriparser/uriparser/releases/download/uriparser-0.9.3/uriparser-0.9.3.tar.bz2

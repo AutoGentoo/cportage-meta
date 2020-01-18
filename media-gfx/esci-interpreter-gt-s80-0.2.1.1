@@ -1,0 +1,10 @@
+01420a192e4105842be92f95d42a35c0
+DEFINED_PHASES= compile configure install postinst prerm setup
+DEPEND=>=media-gfx/iscan-2.28.0 
+RDEPEND=>=media-gfx/iscan-2.28.0 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( https://dev.gentoo.org/~flameeyes/avasys/esci-interpreter-gt-s80-0.2.1-1.x86_64.rpm )
+	x86? ( https://dev.gentoo.org/~flameeyes/avasys/esci-interpreter-gt-s80-0.2.1-1.i386.rpm )

@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://archives.fedoraproject.org/pub/archive/fedora/linux/releases/15/Fedora/source/SRPMS/lovelock-backgrounds-14.91.1-1.fc15.src.rpm

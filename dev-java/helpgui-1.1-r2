@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.4   app-arch/unzip 
+RDEPEND=>=virtual/jre-1.4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/helpgui/helpgui-1.1-src.jar

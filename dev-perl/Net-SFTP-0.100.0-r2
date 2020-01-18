@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Net-SSH-Perl-1.240.0  virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=>=dev-perl/Net-SSH-Perl-1.240.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DB/DBROBINS/Net-SFTP-0.10.tar.gz

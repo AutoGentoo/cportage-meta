@@ -1,0 +1,10 @@
+6267d50acb3aea4124b134ea63014597
+DEFINED_PHASES= configure install prepare
+BDEPEND=  nls? ( sys-devel/gettext )  virtual/pkgconfig  
+DEPEND=!static? ( >=sys-libs/ncurses-5.9-r1:0=[unicode?]  sys-libs/ncurses:0=  magic? ( sys-apps/file )  nls? ( virtual/libintl )  !ncurses? ( slang? ( sys-libs/slang ) ) )  static? ( >=sys-libs/ncurses-5.9-r1:0=[unicode?]  sys-libs/ncurses:0=[static-libs(+)]  magic? ( sys-apps/file[static-libs(+)] )  nls? ( virtual/libintl )  !ncurses? ( slang? ( sys-libs/slang[static-libs(+)] ) ) ) 
+RDEPEND=!static? ( >=sys-libs/ncurses-5.9-r1:0=[unicode?]  sys-libs/ncurses:0=  magic? ( sys-apps/file )  nls? ( virtual/libintl )  !ncurses? ( slang? ( sys-libs/slang ) ) ) 
+EAPI=7
+IUSE=debug justify +magic minimal ncurses nls slang +spell +split-usr static unicode 
+KEYWORDS=
+SLOT=0
+SRC_URI=

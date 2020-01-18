@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare setup
+DEPEND=virtual/pkgconfig 
+EAPI=5
+IUSE=kernel_linux 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://www.deater.net/john/powernowd-1.00.tar.gz

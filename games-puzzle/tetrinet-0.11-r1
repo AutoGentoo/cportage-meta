@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=sys-libs/ncurses-5:0=  virtual/pkgconfig  
+RDEPEND=>=sys-libs/ncurses-5:0= 
+EAPI=6
+IUSE=ipv6 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://tetrinet.or.cz/download/tetrinet-0.11.tar.bz2

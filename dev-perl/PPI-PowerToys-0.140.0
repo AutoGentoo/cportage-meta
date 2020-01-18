@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=dev-perl/File-Find-Rule-0.32  >=dev-perl/File-Find-Rule-Perl-1.10  >=dev-perl/Test-Script-1.70.0  >=dev-perl/Probe-Perl-0.01  dev-perl/PPI  dev-perl/IPC-Run3  
+RDEPEND=  >=dev-perl/File-Find-Rule-0.32  >=dev-perl/File-Find-Rule-Perl-1.10  >=dev-perl/Test-Script-1.70.0  >=dev-perl/Probe-Perl-0.01  dev-perl/PPI  dev-perl/IPC-Run3  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/PPI-PowerToys-0.14.tar.gz

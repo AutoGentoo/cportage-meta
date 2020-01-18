@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  sys-libs/ncurses:0  net-nds/openldap  dev-libs/popt  dev-libs/glib:2  sys-libs/readline  gnutls? ( net-libs/gnutls )  !gnutls? ( dev-libs/openssl:0 )  sasl? ( dev-libs/cyrus-sasl:2 )  virtual/pkgconfig 
+RDEPEND=  sys-libs/ncurses:0  net-nds/openldap  dev-libs/popt  dev-libs/glib:2  sys-libs/readline  gnutls? ( net-libs/gnutls )  !gnutls? ( dev-libs/openssl:0 )  sasl? ( dev-libs/cyrus-sasl:2 ) 
+EAPI=5
+IUSE=gnutls sasl 
+KEYWORDS=amd64 ~hppa ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/ldapvi-1.7_p20101214.tar.bz2

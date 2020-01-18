@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/rosbag_storage  dev-ros/std_msgs[ros_messages_cxx(-)]  dev-libs/boost:=  test? ( dev-cpp/gtest ) 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install pretend setup
+DEPEND=  >=sci-libs/netcdf-4:=[dap=,hdf5?,tools]  gsl? ( sci-libs/gsl:= )  ncap2? ( dev-cpp/antlr-cpp:2= )  udunits? ( >=sci-libs/udunits-2 )  test? ( >=sci-libs/netcdf-4[tools] ) 
+RDEPEND=  >=sci-libs/netcdf-4:=[dap=,hdf5?,tools]  gsl? ( sci-libs/gsl:= )  ncap2? ( dev-cpp/antlr-cpp:2= )  udunits? ( >=sci-libs/udunits-2 ) 
+EAPI=6
+IUSE=dap gsl hdf5 ncap2 openmp static-libs test udunits 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0/4.5.1
+SRC_URI=http://nco.sf.net/src/nco-4.5.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=net-libs/libpcap   test? ( dev-lang/perl ) 
+RDEPEND=net-libs/libpcap 
+EAPI=5
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

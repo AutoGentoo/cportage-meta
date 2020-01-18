@@ -1,0 +1,9 @@
+83befd1f6f10eb4179b727d1041234e4
+DEFINED_PHASES= install prepare
+DEPEND=acct-group/gamestat  media-libs/libsdl[sound,joystick,video]  media-libs/sdl-net 
+RDEPEND=acct-group/gamestat  media-libs/libsdl[sound,joystick,video]  media-libs/sdl-net 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.libsdl.org/projects/Maelstrom/src/Maelstrom-3.0.6.tar.gz

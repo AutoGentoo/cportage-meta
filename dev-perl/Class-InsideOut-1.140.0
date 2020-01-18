@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  dev-perl/Class-ISA  virtual/perl-Exporter  >=virtual/perl-Scalar-List-Utils-1.90.0  virtual/perl-Storable   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   virtual/perl-File-Spec   virtual/perl-File-Temp   virtual/perl-IO   virtual/perl-Scalar-List-Utils   >=virtual/perl-Test-Simple-0.45   virtual/perl-XSLoader  )  
+RDEPEND=  virtual/perl-Carp  dev-perl/Class-ISA  virtual/perl-Exporter  >=virtual/perl-Scalar-List-Utils-1.90.0  virtual/perl-Storable  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/Class-InsideOut-1.14.tar.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= prepare
+RDEPEND=!minimal? ( >=dev-php/PEAR-HTML_Javascript-1.1.0-r1  dev-php/PEAR-File_Gettext ) 
+EAPI=6
+IUSE=minimal 
+KEYWORDS=~alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/HTML_Template_Flexy-1.3.13.tgz

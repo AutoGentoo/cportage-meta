@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile configure install
+DEPEND=dev-ada/xmlada[shared?,static-libs?,static-pic?,ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?]  !net-libs/grpc  dev-ada/gprbuild[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?] 
+RDEPEND=dev-ada/xmlada[shared?,static-libs?,static-pic?,ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?]  !net-libs/grpc 
+EAPI=7
+IUSE=+shared static-libs static-pic 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5cdf8e8031e87a8f1d425093
+		-> gprbuild-2019-20190517-194D8-src.tar.gz

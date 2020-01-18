@@ -1,0 +1,9 @@
+92bd7ff16b9130c9ff5cffb80db05e60
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  >=dev-lang/tk-8.6:=  =dev-tcltk/itcl-4.0* 
+RDEPEND=  >=dev-lang/tk-8.6:=  =dev-tcltk/itcl-4.0* 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ia64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/project/incrtcl/%5Bincr%20Tcl_Tk%5D-4-source/Itcl%204.0.0/itk4.0.0.tar.gz

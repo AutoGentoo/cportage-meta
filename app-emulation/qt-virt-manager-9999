@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtnetwork:5  >=x11-libs/qtermwidget-0.7.0  smartcard? ( >=app-emulation/libcacard-2.5.0 )  dev-libs/glib  net-misc/spice-gtk  net-libs/libvncserver  app-emulation/libvirt  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtnetwork:5  >=x11-libs/qtermwidget-0.7.0  smartcard? ( >=app-emulation/libcacard-2.5.0 )  dev-libs/glib  net-misc/spice-gtk  net-libs/libvncserver  app-emulation/libvirt  
+EAPI=6
+IUSE=smartcard 
+KEYWORDS=
+SLOT=0
+SRC_URI=

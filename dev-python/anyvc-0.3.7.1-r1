@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES=-
+DEPEND=  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/hgdistver[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  doc? ( dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=dev-python/apipkg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/execnet[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/py[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  bazaar? ( dev-vcs/bzr )  git? ( dev-python/dulwich[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  mercurial? ( dev-vcs/mercurial )  subversion? ( dev-python/subvertpy ) 
+EAPI=5
+IUSE=bazaar doc git mercurial subversion 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://pypi/a/anyvc/anyvc-0.3.7.1.tar.gz

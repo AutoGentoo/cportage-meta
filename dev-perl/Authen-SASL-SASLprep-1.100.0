@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Unicode-Stringprep-1   >=dev-perl/Module-Build-0.420.0  test? (   virtual/perl-Test-Simple   dev-perl/Test-NoWarnings  )  
+RDEPEND=  >=dev-perl/Unicode-Stringprep-1  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CF/CFAERBER/Authen-SASL-SASLprep-1.100.tar.gz

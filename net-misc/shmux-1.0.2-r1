@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=    pcre? ( dev-libs/libpcre )  sys-libs/ncurses:0=   virtual/awk 
+RDEPEND=  pcre? ( dev-libs/libpcre )  sys-libs/ncurses:0=  
+EAPI=6
+IUSE=pcre 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://web.taranis.org/shmux/dist/shmux-1.0.2.tgz

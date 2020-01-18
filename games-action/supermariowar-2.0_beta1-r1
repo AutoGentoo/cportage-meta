@@ -1,0 +1,10 @@
+68cefbad9003d3b6f068ac51e487414a
+DEFINED_PHASES= configure install prepare unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    sys-libs/zlib:=  dev-cpp/yaml-cpp  net-libs/enet:1.3=  media-libs/sdl-mixer[vorbis]  media-libs/sdl-image[png,jpeg]  app-arch/unzip  virtual/pkgconfig 
+RDEPEND=  sys-libs/zlib:=  dev-cpp/yaml-cpp  net-libs/enet:1.3=  media-libs/sdl-mixer[vorbis]  media-libs/sdl-image[png,jpeg] 
+EAPI=6
+IUSE=server 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/mmatyas/supermariowar/archive/v2.0-beta.1.tar.gz -> supermariowar-2.0_beta1.tar.gz

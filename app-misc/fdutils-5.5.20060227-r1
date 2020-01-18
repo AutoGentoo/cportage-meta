@@ -1,0 +1,11 @@
+1cab99a89488bab7ed8b9199fb1d484d
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=sys-fs/mtools-4  sys-apps/texinfo  virtual/os-headers  doc? ( virtual/texi2dvi ) 
+RDEPEND=>=sys-fs/mtools-4 
+EAPI=5
+IUSE=doc 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/f/fdutils/fdutils_5.5-20060227.orig.tar.gz
+	mirror://debian/pool/main/f/fdutils/fdutils_5.5-20060227-8.debian.tar.xz
+	https://dev.gentoo.org/~robbat2/distfiles/fdutils-5.5-20060227_20081027.diff.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/snar/bgpq3/archive/v0.1.35.tar.gz -> bgpq3-0.1.35.tar.gz

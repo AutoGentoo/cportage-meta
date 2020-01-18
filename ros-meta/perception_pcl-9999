@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/pcl_conversions  dev-ros/pcl_ros  
+RDEPEND=  dev-ros/pcl_conversions  dev-ros/pcl_ros  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

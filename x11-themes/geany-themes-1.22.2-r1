@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+RDEPEND=>=dev-util/geany-1.22 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/downloads/codebrainz/geany-themes/geany-themes-1.22.2.tar.bz2

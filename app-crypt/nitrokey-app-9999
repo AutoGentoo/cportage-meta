@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+BDEPEND=  dev-qt/linguist-tools:5  virtual/pkgconfig 
+DEPEND=    >=app-crypt/libnitrokey-3.5:=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-libs/cppcodec 
+RDEPEND=  >=app-crypt/libnitrokey-3.5:=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

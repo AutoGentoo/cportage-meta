@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=    >=x11-libs/libxkbcommon-0.5.0[X]  dev-libs/libev  sys-libs/pam  x11-libs/cairo[xcb]  x11-libs/libxcb[xkb]  x11-libs/xcb-util   virtual/pkgconfig  
+RDEPEND=  >=x11-libs/libxkbcommon-0.5.0[X]  dev-libs/libev  sys-libs/pam  x11-libs/cairo[xcb]  x11-libs/libxcb[xkb]  x11-libs/xcb-util  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=https://i3wm.org/i3lock/i3lock-2.10.tar.bz2

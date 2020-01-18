@@ -1,0 +1,10 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=  dev-qt/qtdeclarative:5[localstorage]  dev-qt/qtgraphicaleffects:5  dev-qt/qtquickcontrols:5[widgets]  dev-qt/qtsql:5  dev-qt/qtwidgets:5  
+RDEPEND=  dev-qt/qtdeclarative:5[localstorage]  dev-qt/qtgraphicaleffects:5  dev-qt/qtquickcontrols:5[widgets]  dev-qt/qtsql:5  dev-qt/qtwidgets:5  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Swordfish90/cool-retro-term/archive/1.1.0.tar.gz -> cool-retro-term-1.1.0.tar.gz
+	https://github.com/Swordfish90/qmltermwidget/archive/0.2.0.tar.gz -> qmltermwidget-0.2.0.tar.gz

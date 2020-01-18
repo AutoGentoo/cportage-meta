@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=x11-libs/libXt  >=app-i18n/scim-1.1  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=x11-libs/libXt  >=app-i18n/scim-1.1  nls? ( virtual/libintl ) 
+EAPI=4
+IUSE=nls 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/scim/scim-pinyin-0.5.92.tar.gz

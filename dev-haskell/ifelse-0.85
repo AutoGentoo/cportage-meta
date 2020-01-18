@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-haskell/mtl[profile?]   >=dev-lang/ghc-6.8.2   >=dev-haskell/cabal-1.2 
+RDEPEND=dev-haskell/mtl[profile?]   >=dev-lang/ghc-6.8.2 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/IfElse-0.85/IfElse-0.85.tar.gz

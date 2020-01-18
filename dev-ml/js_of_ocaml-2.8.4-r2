@@ -1,0 +1,9 @@
+3f3d769c6f463387e34488143956cb1f
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  >=dev-lang/ocaml-3.12:=[ocamlopt?,X(+)?]  >=dev-ml/lwt-2.4.4:=[camlp4(+)]  react? ( dev-ml/react:=  dev-ml/reactiveData:= )  xml? ( >=dev-ml/tyxml-4:= )  ppx? ( dev-ml/ppx_tools:= dev-ml/ppx_deriving:= dev-ml/ppx_driver:= )  dev-ml/cmdliner:=  dev-ml/menhir:=  dev-ml/ocaml-base64:=  dev-ml/camlp4:=  dev-ml/cppo:=  dev-ml/uchar:=  dev-ml/ocamlbuild:=  dev-ml/yojson:=  dev-ml/ocaml-migrate-parsetree:=  deriving? ( >=dev-ml/deriving-0.6:= ) 
+RDEPEND=  >=dev-lang/ocaml-3.12:=[ocamlopt?,X(+)?]  >=dev-ml/lwt-2.4.4:=[camlp4(+)]  react? ( dev-ml/react:=  dev-ml/reactiveData:= )  xml? ( >=dev-ml/tyxml-4:= )  ppx? ( dev-ml/ppx_tools:= dev-ml/ppx_deriving:= dev-ml/ppx_driver:= )  dev-ml/cmdliner:=  dev-ml/menhir:=  dev-ml/ocaml-base64:=  dev-ml/camlp4:=  dev-ml/cppo:=  dev-ml/uchar:=  dev-ml/ocamlbuild:=  dev-ml/yojson:=  dev-ml/ocaml-migrate-parsetree:=  deriving? ( >=dev-ml/deriving-0.6:= ) 
+EAPI=5
+IUSE=+ocamlopt doc +deriving +ppx +react +xml X 
+KEYWORDS=~amd64
+SLOT=0/2.8.4
+SRC_URI=https://github.com/ocsigen/js_of_ocaml/archive/2.8.4.tar.gz -> js_of_ocaml-2.8.4.tar.gz

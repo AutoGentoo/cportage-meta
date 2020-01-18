@@ -1,0 +1,10 @@
+c819c62218eccf9b1c35ad3e7c16853c
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  client? ( net-misc/wget[ssl] )  firewalld? ( net-firewall/firewalld[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  gdbm? ( sys-libs/gdbm )  gpg? (   app-crypt/gpgme   dev-libs/libassuan   dev-libs/libgpg-error  )  iptables? ( net-firewall/iptables )  nfqueue? ( net-libs/libnetfilter_queue )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  server? ( !nfqueue? ( !udp-server? ( net-libs/libpcap ) ) )  
+RDEPEND=  client? ( net-misc/wget[ssl] )  firewalld? ( net-firewall/firewalld[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  gdbm? ( sys-libs/gdbm )  gpg? (   app-crypt/gpgme   dev-libs/libassuan   dev-libs/libgpg-error  )  iptables? ( net-firewall/iptables )  nfqueue? ( net-libs/libnetfilter_queue )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  server? ( !nfqueue? ( !udp-server? ( net-libs/libpcap ) ) )  
+EAPI=7
+IUSE=+client extras firewalld gdbm gpg +iptables nfqueue python +server udp-server 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.cipherdyne.org/fwknop/download/fwknop-2.6.10.tar.gz

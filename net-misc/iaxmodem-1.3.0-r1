@@ -1,0 +1,9 @@
+e2830d35ddfef66506a1fbec1678840e
+DEFINED_PHASES= compile configure install prepare
+DEPEND=media-libs/tiff:=  sys-process/procps 
+RDEPEND=media-libs/tiff:=  sys-process/procps 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/iaxmodem/iaxmodem-1.3.0.tar.gz

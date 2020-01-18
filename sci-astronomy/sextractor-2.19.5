@@ -1,0 +1,9 @@
+5db53fd93817c76158302799c4534248
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  modelfit? ( sci-libs/atlas[lapack,threads=] sci-libs/fftw:3.0 )  modelfit? ( || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 ) 
+RDEPEND=  modelfit? ( sci-libs/atlas[lapack,threads=] sci-libs/fftw:3.0 ) 
+EAPI=6
+IUSE=doc modelfit test threads 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.astromatic.net/download/sextractor/sextractor-2.19.5.tar.gz

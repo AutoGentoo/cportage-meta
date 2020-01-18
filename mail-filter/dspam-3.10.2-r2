@@ -1,0 +1,9 @@
+42a75ed11a845e6251fbe42ef7311efe
+DEFINED_PHASES= configure install preinst setup
+DEPEND=  net-mail/mailbase  ldap? ( net-nds/openldap )  mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql )  sqlite? ( dev-db/sqlite:3 )  
+RDEPEND=    net-mail/mailbase  ldap? ( net-nds/openldap )  mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql )  sqlite? ( dev-db/sqlite:3 )   clamav? ( app-antivirus/clamav )  syslog? ( virtual/logger )  
+EAPI=7
+IUSE=clamav daemon debug ldap static-libs syslog virtual-users user-homedirs +hash mysql postgres sqlite small-scale +domain-scale large-scale 
+KEYWORDS=amd64 ~arm ~arm64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dspam/dspam-3.10.2.tar.gz

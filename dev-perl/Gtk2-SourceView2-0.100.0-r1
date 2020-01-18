@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  dev-perl/Gtk2  >=dev-perl/glib-perl-1.160.0   dev-perl/ExtUtils-Depends  dev-perl/ExtUtils-PkgConfig  virtual/perl-ExtUtils-MakeMaker  x11-libs/gtksourceview:2.0  
+RDEPEND=  dev-perl/Gtk2  >=dev-perl/glib-perl-1.160.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PO/POTYL/Gtk2-SourceView2-0.10.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install unpack
+DEPEND=dev-lang/perl  >=app-crypt/gnupg-1.2.1 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 hppa ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/gpg-ringmgr -> gpg-ringmgr-1.12

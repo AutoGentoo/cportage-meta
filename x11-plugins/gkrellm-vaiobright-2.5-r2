@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=app-admin/gkrellm:2[X] 
+RDEPEND=app-admin/gkrellm:2[X] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=2
+SRC_URI=http://nerv-un.net/~dragorn/code/vaiobright-2.5.tar.gz

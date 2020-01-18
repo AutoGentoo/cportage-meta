@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES=-
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) >=kde-frameworks/extra-cmake-modules-5.64.0:5 
+DEPEND=  >=kde-frameworks/kcompletion-5.64.0:5  >=kde-frameworks/kconfig-5.64.0:5  >=kde-frameworks/kconfigwidgets-5.64.0:5  >=kde-frameworks/kcoreaddons-5.64.0:5  >=kde-frameworks/ki18n-5.64.0:5  >=kde-frameworks/kiconthemes-5.64.0:5  >=kde-frameworks/kio-5.64.0:5  >=kde-frameworks/kjobwidgets-5.64.0:5  >=kde-frameworks/knotifications-5.64.0:5  >=kde-frameworks/kwayland-5.64.0:5  >=kde-frameworks/kwidgetsaddons-5.64.0:5  >=kde-frameworks/kwindowsystem-5.64.0:5  >=kde-frameworks/kxmlgui-5.64.0:5  >=kde-plasma/breeze-5.17.4:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5=[dbus]  >=dev-qt/qtquickcontrols2-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtx11extras-5.12.3:5  x11-libs/libXcursor  x11-libs/libxcb  
+RDEPEND=  >=kde-frameworks/kcompletion-5.64.0:5  >=kde-frameworks/kconfig-5.64.0:5  >=kde-frameworks/kconfigwidgets-5.64.0:5  >=kde-frameworks/kcoreaddons-5.64.0:5  >=kde-frameworks/ki18n-5.64.0:5  >=kde-frameworks/kiconthemes-5.64.0:5  >=kde-frameworks/kio-5.64.0:5  >=kde-frameworks/kjobwidgets-5.64.0:5  >=kde-frameworks/knotifications-5.64.0:5  >=kde-frameworks/kwayland-5.64.0:5  >=kde-frameworks/kwidgetsaddons-5.64.0:5  >=kde-frameworks/kwindowsystem-5.64.0:5  >=kde-frameworks/kxmlgui-5.64.0:5  >=kde-plasma/breeze-5.17.4:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5=[dbus]  >=dev-qt/qtquickcontrols2-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtx11extras-5.12.3:5  x11-libs/libXcursor  x11-libs/libxcb   media-fonts/hack  media-fonts/noto  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5
+SRC_URI=mirror://kde/stable/plasma/5.17.4/plasma-integration-5.17.4.tar.xz

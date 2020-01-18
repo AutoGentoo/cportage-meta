@@ -1,0 +1,10 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= configure
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) designer? ( dev-qt/designer:5 ) doc? ( dev-qt/qthelp:5 ) doc? ( >=app-doc/doxygen-1.8.13-r1 ) >=kde-frameworks/extra-cmake-modules-5.64:5 
+DEPEND=  >=kde-frameworks/kcompletion-5.64:5  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kconfigwidgets-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=kde-frameworks/kiconthemes-5.64:5  >=kde-frameworks/kservice-5.64:5  >=kde-frameworks/kwidgetsaddons-5.64:5  >=kde-frameworks/kwindowsystem-5.64:5  >=kde-frameworks/sonnet-5.64:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  speech? ( >=dev-qt/qtspeech-5.12.3:5 )  
+RDEPEND=  >=kde-frameworks/kcompletion-5.64:5  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kconfigwidgets-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=kde-frameworks/kiconthemes-5.64:5  >=kde-frameworks/kservice-5.64:5  >=kde-frameworks/kwidgetsaddons-5.64:5  >=kde-frameworks/kwindowsystem-5.64:5  >=kde-frameworks/sonnet-5.64:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  speech? ( >=dev-qt/qtspeech-5.12.3:5 )  
+EAPI=7
+IUSE=speech 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/ktextwidgets-5.64.0.tar.xz

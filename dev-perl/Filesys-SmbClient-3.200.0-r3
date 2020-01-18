@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= prepare test
+DEPEND=>=net-fs/samba-4.2[client]  virtual/perl-ExtUtils-MakeMaker  virtual/pkgconfig  
+RDEPEND=>=net-fs/samba-4.2[client] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALIAN/Filesys-SmbClient-3.2.tar.gz

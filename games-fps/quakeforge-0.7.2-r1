@@ -1,0 +1,9 @@
+50fcd0de0e22d455108f617d7315f3dd
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  media-libs/libsamplerate  net-misc/curl  virtual/opengl  alsa? ( media-libs/alsa-lib )  dga? ( x11-libs/libXxf86dga )  flac? ( media-libs/flac )  ncurses? ( sys-libs/ncurses:0 )  png? ( media-libs/libpng:0 )  sdl? ( media-libs/libsdl[video] )  vorbis? (   media-libs/libogg   media-libs/libvorbis  )  wildmidi? ( media-sound/wildmidi )  X? (   x11-libs/libX11   x11-libs/libXext   x11-libs/libXxf86vm  )  xv? (   x11-libs/libX11   x11-libs/libXext   x11-libs/libXxf86vm  )  zlib? ( sys-libs/zlib )  cdinstall? ( games-fps/quake1-data )  >=sys-devel/bison-2.6  sys-devel/flex  virtual/pkgconfig 
+RDEPEND=  media-libs/libsamplerate  net-misc/curl  virtual/opengl  alsa? ( media-libs/alsa-lib )  dga? ( x11-libs/libXxf86dga )  flac? ( media-libs/flac )  ncurses? ( sys-libs/ncurses:0 )  png? ( media-libs/libpng:0 )  sdl? ( media-libs/libsdl[video] )  vorbis? (   media-libs/libogg   media-libs/libvorbis  )  wildmidi? ( media-sound/wildmidi )  X? (   x11-libs/libX11   x11-libs/libXext   x11-libs/libXxf86vm  )  xv? (   x11-libs/libX11   x11-libs/libXext   x11-libs/libXxf86vm  )  zlib? ( sys-libs/zlib ) 
+EAPI=6
+IUSE=alsa cdinstall debug dga fbcon flac ipv6 ncurses oss png sdl vorbis wildmidi X xdg xv zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/quake/quakeforge-0.7.2.tar.bz2

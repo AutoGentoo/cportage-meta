@@ -1,0 +1,8 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= compile install prepare
+BDEPEND=virtual/pkgconfig 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/ar-/incron/archive/1eedfbc9b318372efd119fd17f4abdbde561a53d.tar.gz -> incron-0.5.12_p20191114.tar.gz

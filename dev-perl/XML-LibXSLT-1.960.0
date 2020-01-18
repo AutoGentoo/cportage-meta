@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Encode  >=dev-perl/XML-LibXML-1.700.0  >=dev-libs/libxslt-1.1.32   virtual/perl-ExtUtils-MakeMaker  virtual/pkgconfig  
+RDEPEND=  virtual/perl-Encode  >=dev-perl/XML-LibXML-1.700.0  >=dev-libs/libxslt-1.1.32  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~mips ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SH/SHLOMIF/XML-LibXSLT-1.96.tar.gz

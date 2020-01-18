@@ -1,0 +1,10 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile configure install prepare
+DEPEND=sys-libs/zlib 
+RDEPEND=sys-libs/zlib 
+EAPI=6
+IUSE=debug doc extended-solver 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://minisat.se/downloads/minisat-2.2.0.tar.gz
+	doc? ( http://minisat.se/downloads/MiniSat.pdf )

@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure prepare
+DEPEND=    gtk2? (     dev-libs/glib:2    >=x11-libs/gtk+-2.4:2  )  gtk3? (     dev-libs/glib:2    >=x11-libs/gtk+-3.12:3  )  ncurses? ( sys-libs/ncurses )   virtual/pkgconfig  
+RDEPEND=  gtk2? (     dev-libs/glib:2    >=x11-libs/gtk+-2.4:2  )  gtk3? (     dev-libs/glib:2    >=x11-libs/gtk+-3.12:3  )  ncurses? ( sys-libs/ncurses )  
+EAPI=5
+IUSE=gtk2 gtk3 ncurses nls 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://aa.vslib.cz/silk/projekty/pinger/download/pinger-0.33.tar.gz

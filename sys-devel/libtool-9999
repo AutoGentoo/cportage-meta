@@ -1,0 +1,10 @@
+83b050663f968320a1c7867159020177
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-apps/help2man 
+DEPEND=  sys-devel/gnuconfig  >=sys-devel/autoconf-2.69:*  >=sys-devel/automake-1.13:*  dev-libs/libltdl:0 
+RDEPEND=  sys-devel/gnuconfig  >=sys-devel/autoconf-2.69:*  >=sys-devel/automake-1.13:*  dev-libs/libltdl:0 
+EAPI=7
+IUSE=vanilla 
+KEYWORDS=
+SLOT=2
+SRC_URI=

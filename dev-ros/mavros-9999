@@ -1,0 +1,10 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/diagnostic_updater  dev-ros/pluginlib   dev-libs/tinyxml2:=  dev-ros/roscpp  dev-ros/tf  dev-ros/angles  dev-ros/libmavconn  dev-ros/rosconsole_bridge  dev-libs/boost:=  dev-ros/eigen_conversions  dev-ros/std_srvs[ros_messages_cxx(-)]  >=dev-ros/mavros_msgs-9999[ros_messages_cxx(-)]  dev-ros/diagnostic_msgs[ros_messages_cxx(-)]  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_msgs[ros_messages_cxx(-)]  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  >=dev-ros/mavlink-gbp-release-2016.11.11  dev-libs/console_bridge:=  
+RDEPEND=  dev-ros/diagnostic_updater  dev-ros/pluginlib   dev-libs/tinyxml2:=  dev-ros/roscpp  dev-ros/tf  dev-ros/angles  dev-ros/libmavconn  dev-ros/rosconsole_bridge  dev-libs/boost:=  dev-ros/eigen_conversions  dev-ros/std_srvs[ros_messages_cxx(-)]  >=dev-ros/mavros_msgs-9999[ros_messages_cxx(-)]  dev-ros/diagnostic_msgs[ros_messages_cxx(-)]  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_msgs[ros_messages_cxx(-)]  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  >=dev-ros/mavlink-gbp-release-2016.11.11  dev-libs/console_bridge:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/freeglut  media-libs/sdl-image  media-libs/smpeg  virtual/glu  x11-libs/libX11  x11-libs/libXext  x11-libs/libXi  x11-libs/libXmu 
+RDEPEND=media-libs/freeglut  media-libs/sdl-image  media-libs/smpeg  virtual/glu  x11-libs/libX11  x11-libs/libXext  x11-libs/libXi  x11-libs/libXmu 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=http://www.determinate.net/webdata/data/tdfsb-0.0.10.tar.gz

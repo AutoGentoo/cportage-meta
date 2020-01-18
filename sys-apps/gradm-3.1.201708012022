@@ -1,0 +1,8 @@
+2648d239d3c544169ba9f928a4d5396c
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  sys-devel/bison  sys-devel/flex  pam? ( sys-libs/pam ) 
+EAPI=6
+IUSE=pam 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~blueness/hardened-sources/gradm/gradm-3.1-201708012022.tar.gz

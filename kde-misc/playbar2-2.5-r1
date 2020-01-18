@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=kde-frameworks/extra-cmake-modules:5  kde-frameworks/kdoctools:5 
+DEPEND=kde-frameworks/kconfig:5  kde-frameworks/kconfigwidgets:5  kde-frameworks/kcoreaddons:5  kde-frameworks/kglobalaccel:5  kde-frameworks/ki18n:5  kde-frameworks/kwidgetsaddons:5  kde-frameworks/kwindowsystem:5  kde-frameworks/kxmlgui:5  kde-frameworks/plasma:5  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtquickcontrols:5  dev-qt/qtwidgets:5 
+RDEPEND=kde-frameworks/kconfig:5  kde-frameworks/kconfigwidgets:5  kde-frameworks/kcoreaddons:5  kde-frameworks/kglobalaccel:5  kde-frameworks/ki18n:5  kde-frameworks/kwidgetsaddons:5  kde-frameworks/kwindowsystem:5  kde-frameworks/kxmlgui:5  kde-frameworks/plasma:5  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtquickcontrols:5  dev-qt/qtwidgets:5 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/audoban/PlayBar2/archive/v2.5.tar.gz -> playbar2-2.5.tar.gz

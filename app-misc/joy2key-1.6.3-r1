@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=    X? ( x11-libs/libX11  x11-apps/xwininfo )  X? ( x11-base/xorg-proto ) 
+RDEPEND=  X? ( x11-libs/libX11  x11-apps/xwininfo ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/joy2key/joy2key-1.6.3.tar.bz2

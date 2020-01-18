@@ -1,0 +1,7 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= configure install prepare
+EAPI=5
+IUSE=
+KEYWORDS=alpha ~amd64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/n/netkit-routed/netkit-routed_0.17.orig.tar.gz

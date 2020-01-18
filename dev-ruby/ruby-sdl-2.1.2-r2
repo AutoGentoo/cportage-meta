@@ -1,0 +1,9 @@
+0ab2b9b67f21c31420345ba8fc98d04a
+DEFINED_PHASES= postinst
+DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 )   >=media-libs/libsdl-1.2.5  truetype? ( >=media-libs/sdl-ttf-2.0.6 )  image? ( >=media-libs/sdl-image-1.2.2 )  mixer? ( >=media-libs/sdl-mixer-1.2.4 )  mpeg? ( >=media-libs/smpeg-0.4.4-r1 )  sge? ( media-libs/sge ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 )   >=media-libs/libsdl-1.2.5  truetype? ( >=media-libs/sdl-ttf-2.0.6 )  image? ( >=media-libs/sdl-image-1.2.2 )  mixer? ( >=media-libs/sdl-mixer-1.2.4 )  mpeg? ( >=media-libs/smpeg-0.4.4-r1 )  sge? ( media-libs/sge ) 
+EAPI=5
+IUSE=image mixer truetype mpeg sge 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://github.com/ohai/rubysdl/archive/rel-2-1-2.tar.gz -> ruby-sdl-2.1.2.tar.gz

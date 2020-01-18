@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=  nls? ( >=dev-qt/linguist-tools-5.12.3:5 )  
+DEPEND=  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  >=kde-frameworks/kcodecs-5.65:5  >=kde-frameworks/kconfig-5.65:5  >=kde-frameworks/kcoreaddons-5.65:5  >=kde-frameworks/kiconthemes-5.65:5  >=kde-frameworks/kwidgetsaddons-5.65:5  >=kde-frameworks/kxmlgui-5.65:5   >=kde-frameworks/kconfigwidgets-5.65:5  
+RDEPEND=  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  >=kde-frameworks/kcodecs-5.65:5  >=kde-frameworks/kconfig-5.65:5  >=kde-frameworks/kcoreaddons-5.65:5  >=kde-frameworks/kiconthemes-5.65:5  >=kde-frameworks/kwidgetsaddons-5.65:5  >=kde-frameworks/kxmlgui-5.65:5  
+EAPI=7
+IUSE=nls 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=5/5.65
+SRC_URI=mirror://kde/stable/frameworks/5.65/kbookmarks-5.65.0.tar.xz

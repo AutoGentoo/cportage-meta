@@ -1,0 +1,9 @@
+28f37ba214ce006b84ec5f9fdbf95748
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  sci-astronomy/wcslib:0=  sci-libs/cfitsio:0=  sci-libs/fftw:3.0=  gasgano? ( sci-astronomy/gasgano )  doc? ( app-doc/doxygen ) 
+RDEPEND=  sci-astronomy/wcslib:0=  sci-libs/cfitsio:0=  sci-libs/fftw:3.0=  gasgano? ( sci-astronomy/gasgano ) 
+EAPI=6
+IUSE=doc gasgano static-libs threads 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/26
+SRC_URI=ftp://ftp.eso.org/pub/dfs/pipelines/libraries/cpl/cpl-7.0.tar.gz

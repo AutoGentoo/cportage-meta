@@ -1,0 +1,9 @@
+137028f06553292c2fbe34041601684b
+DEFINED_PHASES= configure install prepare test
+DEPEND=  >=x11-libs/gtk+-2.12:2  >=dev-libs/libxml2-2.5:2  >=dev-libs/glib-2.14:2   dev-util/glib-utils  dev-util/gtk-doc-am  >=dev-util/intltool-0.40  >=sys-devel/gettext-0.17  virtual/pkgconfig  
+RDEPEND=  >=x11-libs/gtk+-2.12:2  >=dev-libs/libxml2-2.5:2  >=dev-libs/glib-2.14:2  
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 arm ~arm64 ia64 ~mips ppc ppc64 ~sh sparc x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=2.0
+SRC_URI=mirror://gnome/sources/gtksourceview/2.10/gtksourceview-2.10.5.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  gtk? (   dev-libs/glib:2=   x11-libs/gtk+:2=  )  
+RDEPEND=    gtk? (   dev-libs/glib:2=   x11-libs/gtk+:2=  )   
+EAPI=6
+IUSE=gtk 
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/ipsorc-2.0.9.tar.gz

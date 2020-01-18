@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=    sys-libs/ncurses:0=  !dev-java/nailgun  canna? ( app-i18n/canna )  sys-apps/sed 
+RDEPEND=  sys-libs/ncurses:0=  !dev-java/nailgun  canna? ( app-i18n/canna ) 
+EAPI=6
+IUSE=canna 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://tt.sakura.ne.jp/~amura/archives/ng/ng-1.5beta1.tar.gz

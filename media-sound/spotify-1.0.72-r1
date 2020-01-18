@@ -1,0 +1,8 @@
+c8f48dfa59cb94c5f1ca818ec2c72a45
+DEFINED_PHASES= install postinst postrm prepare
+RDEPEND=    dev-libs/nss  gnome-base/gconf  gnome-extra/zenity  media-libs/alsa-lib  media-libs/harfbuzz  media-libs/fontconfig  media-libs/mesa[X(+)]  net-misc/curl[ssl,curl_ssl_openssl]  net-print/cups[ssl]  x11-libs/gtk+:2  x11-libs/libXScrnSaver  x11-libs/libXtst  dev-python/pygobject:3  dev-python/dbus-python  libnotify? ( x11-libs/libnotify )  pulseaudio? ( media-sound/pulseaudio )  systray? ( gnome-extra/gnome-integration-spotify ) 
+EAPI=6
+IUSE=libnotify systray pax_kernel pulseaudio 
+KEYWORDS=x86
+SLOT=0
+SRC_URI=http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.0.72.117.g6bd7cc73-35_i386.deb

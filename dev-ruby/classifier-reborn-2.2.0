@@ -1,0 +1,9 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES=-
+DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( test? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/rake[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ) test? ( ruby_targets_ruby24? ( >=dev-ruby/fast-stemmer-1.0.0[ruby_targets_ruby24] !!dev-ruby/classifier[ruby_targets_ruby24] gsl? ( dev-ruby/rb-gsl[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( >=dev-ruby/fast-stemmer-1.0.0[ruby_targets_ruby25] !!dev-ruby/classifier[ruby_targets_ruby25] gsl? ( dev-ruby/rb-gsl[ruby_targets_ruby25] ) ) ) ruby_targets_ruby24? ( test? ( dev-ruby/redis[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/redis[ruby_targets_ruby25] ) ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby24? ( >=dev-ruby/fast-stemmer-1.0.0[ruby_targets_ruby24] !!dev-ruby/classifier[ruby_targets_ruby24] gsl? ( dev-ruby/rb-gsl[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( >=dev-ruby/fast-stemmer-1.0.0[ruby_targets_ruby25] !!dev-ruby/classifier[ruby_targets_ruby25] gsl? ( dev-ruby/rb-gsl[ruby_targets_ruby25] ) ) 
+EAPI=6
+IUSE=gsl test test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/jekyll/classifier-reborn/archive/v2.2.0.tar.gz -> classifier-reborn-2.2.0.tar.gz

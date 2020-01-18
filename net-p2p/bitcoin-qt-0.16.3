@@ -1,0 +1,12 @@
+b1a74b948a7f378f12853342fa51721b
+DEFINED_PHASES= configure install postinst postrm prepare pretend
+DEPEND=  >=dev-libs/boost-1.52.0:=[threads(+)]  >=dev-libs/libsecp256k1-0.0.0_pre20151118:=[recovery]  dev-libs/univalue:=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  virtual/bitcoin-leveldb  bip70? ( dev-libs/protobuf:= )  dbus? (   dev-qt/qtdbus:5  )  libevent? ( dev-libs/libevent:= )  !libressl? ( dev-libs/openssl:0=[-bindist] )  libressl? ( dev-libs/libressl:0= )  qrcode? (   media-gfx/qrencode:=  )  upnp? ( >=net-libs/miniupnpc-1.9.20150916:= )  wallet? ( sys-libs/db:4.8=[cxx] )  zeromq? ( net-libs/zeromq:= )   dev-qt/linguist-tools:5  knots? (   gnome-base/librsvg   media-gfx/imagemagick[png]  )  
+RDEPEND=  >=dev-libs/boost-1.52.0:=[threads(+)]  >=dev-libs/libsecp256k1-0.0.0_pre20151118:=[recovery]  dev-libs/univalue:=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  virtual/bitcoin-leveldb  bip70? ( dev-libs/protobuf:= )  dbus? (   dev-qt/qtdbus:5  )  libevent? ( dev-libs/libevent:= )  !libressl? ( dev-libs/openssl:0=[-bindist] )  libressl? ( dev-libs/libressl:0= )  qrcode? (   media-gfx/qrencode:=  )  upnp? ( >=net-libs/miniupnpc-1.9.20150916:= )  wallet? ( sys-libs/db:4.8=[cxx] )  zeromq? ( net-libs/zeromq:= )  
+EAPI=6
+IUSE=+asm +bip70 +bitcoin_policy_rbf dbus kde +libevent knots libressl +qrcode test upnp +wallet zeromq 
+KEYWORDS=amd64 ~arm ~arm64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	https://github.com/bitcoin/bitcoin/archive/49e34e288005a5b144a642e197b628396f5a0765.tar.gz -> bitcoin-v0.16.3.tar.gz
+	https://bitcoinknots.org/files/0.16.x/0.16.3.knots20180918/bitcoin-0.16.3.knots20180918.patches.txz -> bitcoin-0.16.3.knots20180918.patches.tar.xz
+

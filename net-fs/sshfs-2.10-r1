@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=sys-fs/fuse-2.6.0_pre3:0  >=dev-libs/glib-2.4.2  virtual/pkgconfig 
+RDEPEND=>=sys-fs/fuse-2.6.0_pre3:0  >=dev-libs/glib-2.4.2  >=net-misc/openssh-4.4 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm ~arm64 hppa ~ppc ~ppc64 ~riscv x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/libfuse/sshfs/releases/download/sshfs-2.10/sshfs-2.10.tar.gz

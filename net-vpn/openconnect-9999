@@ -1,0 +1,11 @@
+56b804c994f19d22c94b97a234b86533
+DEFINED_PHASES= configure install postinst prepare pretend setup unpack
+BDEPEND=  virtual/pkgconfig  doc? ( || ( dev-lang/python:3.7[xml] dev-lang/python:3.6[xml] >=dev-lang/python-2.7.5-r2:2.7[xml] ) sys-apps/groff )  nls? ( sys-devel/gettext ) 
+DEPEND=  dev-libs/libxml2  sys-libs/zlib  !gnutls? (   !libressl? ( >=dev-libs/openssl-1.0.1h:0=[static-libs?] )   libressl? ( dev-libs/libressl:0=[static-libs?] )  )  gnutls? (   app-crypt/trousers   app-misc/ca-certificates   dev-libs/nettle   >=net-libs/gnutls-3:0=[static-libs?]  )  gssapi? ( virtual/krb5 )  libproxy? ( net-libs/libproxy )  lz4? ( app-arch/lz4:= )  nls? ( virtual/libintl )  smartcard? ( sys-apps/pcsc-lite:0= )  stoken? ( app-crypt/stoken ) 
+RDEPEND=  dev-libs/libxml2  sys-libs/zlib  !gnutls? (   !libressl? ( >=dev-libs/openssl-1.0.1h:0=[static-libs?] )   libressl? ( dev-libs/libressl:0=[static-libs?] )  )  gnutls? (   app-crypt/trousers   app-misc/ca-certificates   dev-libs/nettle   >=net-libs/gnutls-3:0=[static-libs?]  )  gssapi? ( virtual/krb5 )  libproxy? ( net-libs/libproxy )  lz4? ( app-arch/lz4:= )  nls? ( virtual/libintl )  smartcard? ( sys-apps/pcsc-lite:0= )  stoken? ( app-crypt/stoken )  sys-apps/iproute2  !<sys-apps/openrc-0.13 
+EAPI=7
+IUSE=doc +gnutls gssapi libproxy libressl lz4 nls smartcard static-libs stoken 
+KEYWORDS=
+SLOT=0/5
+SRC_URI=
+	ftp://ftp.infradead.org/pub/vpnc-scripts/vpnc-scripts-20190611.tar.gz

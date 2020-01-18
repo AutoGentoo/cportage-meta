@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  dev-ml/jbuilder  test? ( dev-ml/rresult dev-ml/bos dev-ml/alcotest )  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0/2.2.0
+SRC_URI=https://github.com/mirage/ocaml-base64/archive/v2.2.0.tar.gz -> ocaml-base64-2.2.0.tar.gz

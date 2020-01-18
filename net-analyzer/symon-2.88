@@ -1,0 +1,9 @@
+76bfb38b1eebade7c03470be8a79c1dd
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=    perl? ( dev-lang/perl )  symux? ( net-analyzer/rrdtool )   sys-devel/pmake  
+RDEPEND=  perl? ( dev-lang/perl )  symux? ( net-analyzer/rrdtool )  
+EAPI=6
+IUSE=perl +symon symux 
+KEYWORDS=~amd64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://wpd.home.xs4all.nl/symon/philes/symon-2.88.tar.gz

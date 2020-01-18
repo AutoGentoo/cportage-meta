@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=x11-libs/libXdamage  x11-libs/libXcomposite  x11-libs/libXfixes  x11-libs/libXrender 
+RDEPEND=x11-libs/libXdamage  x11-libs/libXcomposite  x11-libs/libXfixes  x11-libs/libXrender 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/XVilka/set_opacity/archive-tarball/1.0 -> set_opacity-1.0.tar.gz

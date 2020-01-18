@@ -1,0 +1,10 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= install nofetch
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+			amd64? ( msms_i86_64Linux2_2.6.1.tar.gz )
+			x86? ( msms_i86Linux2_2.6.1.tar.gz )
+

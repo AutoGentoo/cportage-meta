@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-ros/mavros_msgs  dev-ros/libmavconn  dev-ros/mavros  dev-ros/mavros_extras  
+RDEPEND=  dev-ros/mavros_msgs  dev-ros/libmavconn  dev-ros/mavros  dev-ros/mavros_extras  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

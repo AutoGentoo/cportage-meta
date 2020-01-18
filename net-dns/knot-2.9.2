@@ -1,0 +1,10 @@
+1b43c1142fe6cac7cb49b8f0978c3f1d
+DEFINED_PHASES= compile configure install test
+BDEPEND=  virtual/pkgconfig  doc? ( dev-python/sphinx )  
+DEPEND=  acct-group/knot  acct-user/knot  dev-db/lmdb  dev-libs/libedit  dev-libs/userspace-rcu:=  dev-python/lmdb  net-libs/gnutls:=  caps? ( sys-libs/libcap-ng )  dnstap? (   dev-libs/fstrm   dev-libs/protobuf-c:=  )  geoip? ( dev-libs/libmaxminddb:= )  idn? (   !libidn2? ( net-dns/libidn:0= !net-dns/libidn2 )   libidn2? ( net-dns/libidn2:= )  )  systemd? ( sys-apps/systemd:= )  
+RDEPEND=  acct-group/knot  acct-user/knot  dev-db/lmdb  dev-libs/libedit  dev-libs/userspace-rcu:=  dev-python/lmdb  net-libs/gnutls:=  caps? ( sys-libs/libcap-ng )  dnstap? (   dev-libs/fstrm   dev-libs/protobuf-c:=  )  geoip? ( dev-libs/libmaxminddb:= )  idn? (   !libidn2? ( net-dns/libidn:0= !net-dns/libidn2 )   libidn2? ( net-dns/libidn2:= )  )  systemd? ( sys-apps/systemd:= )  
+EAPI=7
+IUSE=doc caps +fastparser idn +libidn2 systemd +utils +cookies +dnsproxy dnstap geoip +noudp +onlinesign +queryacl +rrl +stats +synthrecord +whoami 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://secure.nic.cz/files/knot-dns/knot-2.9.2.tar.xz

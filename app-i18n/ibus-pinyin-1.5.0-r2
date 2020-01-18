@@ -1,0 +1,9 @@
+b5c24f569336e58837d9cedc26d4691c
+DEFINED_PHASES= configure prepare
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-i18n/ibus[python(+),python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  app-i18n/pyzy  dev-db/sqlite:3  dev-python/pygobject:3[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  boost? ( dev-libs/boost )  lua? ( =dev-lang/lua-5.1*:= )  nls? ( virtual/libintl )  dev-util/intltool  sys-devel/autoconf-archive  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-i18n/ibus[python(+),python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  app-i18n/pyzy  dev-db/sqlite:3  dev-python/pygobject:3[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  boost? ( dev-libs/boost )  lua? ( =dev-lang/lua-5.1*:= )  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=boost lua nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/ibus/ibus-pinyin-1.5.0.tar.gz

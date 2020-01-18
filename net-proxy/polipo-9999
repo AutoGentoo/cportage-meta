@@ -1,0 +1,8 @@
+c0d56451972e8a543dac5fe95352a1e5
+DEFINED_PHASES= compile install postinst setup
+DEPEND=sys-apps/texinfo 
+EAPI=5
+IUSE=systemd 
+KEYWORDS=
+SLOT=0
+SRC_URI=

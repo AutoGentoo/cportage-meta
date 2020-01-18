@@ -1,0 +1,8 @@
+ff7dcea2a665271023fe68d7e453f1aa
+DEFINED_PHASES= compile install postinst prepare
+RDEPEND=sys-boot/grub:2[mount] 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/o/os-prober/os-prober_1.77.tar.xz

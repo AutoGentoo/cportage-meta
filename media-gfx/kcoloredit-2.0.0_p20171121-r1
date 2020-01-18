@@ -1,0 +1,10 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake handbook? ( >=kde-frameworks/kdoctools-5.60.0:5 ) >=kde-frameworks/extra-cmake-modules-5.60.0:5 
+DEPEND=   >=kde-frameworks/kactivities-5.60.0   >=kde-frameworks/kcompletion-5.60.0   >=kde-frameworks/kconfig-5.60.0   >=kde-frameworks/kconfigwidgets-5.60.0   >=kde-frameworks/kcoreaddons-5.60.0   >=kde-frameworks/kdelibs4support-5.60.0   >=kde-frameworks/kguiaddons-5.60.0   >=kde-frameworks/ki18n-5.60.0   >=kde-frameworks/kiconthemes-5.60.0   >=kde-frameworks/kio-5.60.0   >=kde-frameworks/ktextwidgets-5.60.0   >=kde-frameworks/kwidgetsaddons-5.60.0   >=kde-frameworks/kxmlgui-5.60.0   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5  
+RDEPEND=   >=kde-frameworks/kactivities-5.60.0   >=kde-frameworks/kcompletion-5.60.0   >=kde-frameworks/kconfig-5.60.0   >=kde-frameworks/kconfigwidgets-5.60.0   >=kde-frameworks/kcoreaddons-5.60.0   >=kde-frameworks/kdelibs4support-5.60.0   >=kde-frameworks/kguiaddons-5.60.0   >=kde-frameworks/ki18n-5.60.0   >=kde-frameworks/kiconthemes-5.60.0   >=kde-frameworks/kio-5.60.0   >=kde-frameworks/ktextwidgets-5.60.0   >=kde-frameworks/kwidgetsaddons-5.60.0   >=kde-frameworks/kxmlgui-5.60.0   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5   !media-gfx/kcoloredit:4  
+EAPI=7
+IUSE= debug +handbook 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/KDE/kcoloredit/archive/50ac0509891343bc01a0aeffda5a44a1e65d9d04.tar.gz -> kcoloredit-2.0.0_p20171121.tar.gz

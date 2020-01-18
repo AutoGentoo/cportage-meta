@@ -1,0 +1,9 @@
+776182396c5ba6a53af386a2a53b3b41
+DEFINED_PHASES= install prepare
+DEPEND=media-libs/libsdl  media-libs/sdl-image  media-libs/sdl-net  media-libs/sdl-ttf  opengl? ( virtual/opengl )  
+RDEPEND=media-libs/libsdl  media-libs/sdl-image  media-libs/sdl-net  media-libs/sdl-ttf  opengl? ( virtual/opengl )  
+EAPI=6
+IUSE=opengl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mures/mures-0.5.tar.gz

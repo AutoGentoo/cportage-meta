@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/freetype:2  media-libs/libsdl[joystick,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-net  media-libs/sdl-ttf  virtual/libintl  virtual/opengl  virtual/glu  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=  media-libs/freetype:2  media-libs/libsdl[joystick,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-net  media-libs/sdl-ttf  virtual/libintl  virtual/opengl  virtual/glu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/scourge/scourge-0.21.1.src.tar.gz
+	mirror://sourceforge/scourge/scourge-0.21.1.data.tar.gz

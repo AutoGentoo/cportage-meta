@@ -1,0 +1,10 @@
+8899393110bc2726ba40ccade44abe75
+DEFINED_PHASES= install
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=~net-libs/libhackrf-9999:=   sci-libs/fftw:3.0= 
+RDEPEND=~net-libs/libhackrf-9999:=   sci-libs/fftw:3.0= 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+65e50e608c1b84c2059b3e3385a5d79a
+DEFINED_PHASES= compile install prepare setup
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[tk]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-shells/tcsh  dev-lang/tcl:0=  dev-lang/tk:0= 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[tk]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-shells/tcsh  dev-lang/tcl:0=  dev-lang/tk:0= 
+EAPI=6
+IUSE=examples 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.cgl.ucsf.edu/home/sparky/distrib-3.115/sparky-source-3.115.tar.gz

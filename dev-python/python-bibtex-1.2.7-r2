@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/glib:2  >=app-text/recode-3.6-r1 
+RDEPEND=  dev-libs/glib:2  >=app-text/recode-3.6-r1 
+EAPI=7
+IUSE=python_targets_python2_7 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pybliographer/python-bibtex-1.2.7.tar.gz

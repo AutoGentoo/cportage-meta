@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= configure install prepare
+DEPEND=<sys-cluster/corosync-2.0.0  virtual/pkgconfig 
+RDEPEND=<sys-cluster/corosync-2.0.0 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=amd64 ~arm64 hppa x86
+SLOT=0
+SRC_URI=ftp://ftp:openais.org@openais.org/downloads/openais-1.1.4/openais-1.1.4.tar.gz

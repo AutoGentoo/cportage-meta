@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=  test? ( dev-python/pytest[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] )  
+RDEPEND=  ffmpeg? ( virtual/ffmpeg )  gstreamer? (   dev-python/pygobject:3[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]   media-libs/gstreamer:1.0   media-plugins/gst-plugins-meta:1.0  )  mad? ( dev-python/pymad )  
+EAPI=7
+IUSE=ffmpeg gstreamer mad test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/a/audioread/audioread-2.1.8.tar.gz

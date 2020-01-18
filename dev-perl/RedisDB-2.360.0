@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Encode  virtual/perl-IO-Socket-IP  dev-perl/RedisDB-Parser  dev-perl/Try-Tiny   virtual/perl-Digest-SHA  virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Differences   dev-perl/Test-FailWarnings   virtual/perl-Test-Simple   dev-perl/Test-Most   dev-perl/Test-TCP  )  
+RDEPEND=  virtual/perl-Encode  virtual/perl-IO-Socket-IP  dev-perl/RedisDB-Parser  dev-perl/Try-Tiny  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Z/ZW/ZWON/RedisDB-2.36.tar.gz

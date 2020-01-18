@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure install prepare
+DEPEND=X? ( x11-libs/libX11 )  X? ( x11-base/xorg-proto ) 
+RDEPEND=X? ( x11-libs/libX11 ) 
+EAPI=4
+IUSE=debug X 
+KEYWORDS=~amd64 ~mips ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/project/gxemul/GXemul/0.6.0/gxemul-0.6.0.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install test
+BDEPEND=virtual/pkgconfig 
+DEPEND=  >=dev-libs/boost-1.66.0:=  dev-libs/openssl:0=  mysql? ( dev-db/mysql-connector-c:= )   test? ( net-misc/curl || ( dev-lang/python:3.7 dev-lang/python:3.6 ) )  
+RDEPEND=  >=dev-libs/boost-1.66.0:=  dev-libs/openssl:0=  mysql? ( dev-db/mysql-connector-c:= )  
+EAPI=7
+IUSE=mysql test 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/trojan-gfw/trojan/archive/v1.13.0.tar.gz -> trojan-1.13.0.tar.gz

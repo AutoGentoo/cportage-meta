@@ -1,0 +1,8 @@
+4981173bb965e01a8270238abf0f88e1
+DEFINED_PHASES= install postinst prepare
+RDEPEND=>=dev-lang/perl-5.6.1  virtual/perl-Time-Local  dev-perl/URI  geoip? ( dev-perl/Geo-IP )  ipv6? ( dev-perl/Net-IP dev-perl/Net-DNS ) 
+EAPI=4
+IUSE=geoip ipv6 
+KEYWORDS=~alpha amd64 hppa ppc ~sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~flameeyes/awstats/awstats-7.1_p20121017.tar.gz

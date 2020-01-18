@@ -1,0 +1,12 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= install prepare
+DEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  dev-python/pygame[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  media-libs/sdl-image[png]  media-libs/sdl-mixer[mod]  
+RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  dev-python/pygame[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  media-libs/sdl-image[png]  media-libs/sdl-mixer[mod]  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~hppa ~x86
+SLOT=0
+SRC_URI=
+	http://sam.zoy.org/projects/monsterz/monsterz-0.7.1.tar.gz
+	mirror://debian/pool/main/m/monsterz/monsterz_0.7.1-11.debian.tar.xz
+

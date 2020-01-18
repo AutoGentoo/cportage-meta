@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-java/xpp3:0  >=virtual/jdk-1.6  source? ( app-arch/zip ) 
+RDEPEND=  dev-java/xpp3:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/sjsxp-1.0.1.tar.bz2

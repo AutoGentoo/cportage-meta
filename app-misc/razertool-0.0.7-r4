@@ -1,0 +1,9 @@
+4fe5e8f9b608cddc1dc87cf874be3d02
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=virtual/libusb:0  gtk? (   dev-libs/atk   dev-libs/glib:2   >=gnome-base/librsvg-2.0   >=x11-libs/cairo-1.0.0   x11-libs/gdk-pixbuf   >=x11-libs/gtk+-2.8.0:2  )  virtual/pkgconfig 
+RDEPEND=virtual/libusb:0  gtk? (   dev-libs/atk   dev-libs/glib:2   >=gnome-base/librsvg-2.0   >=x11-libs/cairo-1.0.0   x11-libs/gdk-pixbuf   >=x11-libs/gtk+-2.8.0:2  ) 
+EAPI=6
+IUSE=gtk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/razertool/razertool_0.0.7.orig.tar.gz

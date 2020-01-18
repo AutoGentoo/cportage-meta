@@ -1,0 +1,9 @@
+84980c5a7f776036b50cfeaf04cfda47
+DEFINED_PHASES= install prepare
+DEPEND=app-eselect/eselect-infinality  app-eselect/eselect-lcdfilter  media-libs/fontconfig-infinality  media-libs/freetype:2[infinality] 
+RDEPEND=app-eselect/eselect-infinality  app-eselect/eselect-lcdfilter  media-libs/fontconfig-infinality  media-libs/freetype:2[infinality] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/bohoomil/fontconfig-ultimate/archive/2015-04.tar.gz -> fontconfig-ultimate-2015.04.tar.gz

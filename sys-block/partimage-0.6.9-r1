@@ -1,0 +1,9 @@
+4c0905843771c28f07e3525db54505d1
+DEFINED_PHASES= config configure install postinst prepare setup
+DEPEND=!static? ( pam? ( sys-libs/pam ) )  app-arch/bzip2  >=dev-libs/newt-0.52  >=sys-libs/slang-2  sys-libs/zlib:=  ssl? ( dev-libs/openssl:0= )  nls? ( sys-devel/gettext ) 
+RDEPEND=!static? ( pam? ( sys-libs/pam ) )  !static? ( app-arch/bzip2  >=dev-libs/newt-0.52  >=sys-libs/slang-2  sys-libs/zlib:=  ssl? ( dev-libs/openssl:0= ) ) 
+EAPI=6
+IUSE=nls nologin pam ssl static 
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/partimage/partimage-0.6.9.tar.bz2

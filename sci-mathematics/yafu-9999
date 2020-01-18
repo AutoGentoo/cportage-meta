@@ -1,0 +1,9 @@
+aee6e30bf3f1fbee43e7e80c4a23c738
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-libs/gmp:0=  sci-mathematics/gmp-ecm  sieve? (   sci-mathematics/msieve   sci-mathematics/ggnfs ) 
+RDEPEND=  dev-libs/gmp:0=  sci-mathematics/gmp-ecm  sieve? (   sci-mathematics/msieve   sci-mathematics/ggnfs ) 
+EAPI=5
+IUSE=+sieve 
+KEYWORDS=
+SLOT=0
+SRC_URI=

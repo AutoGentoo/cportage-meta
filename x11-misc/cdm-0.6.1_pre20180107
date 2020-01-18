@@ -1,0 +1,8 @@
+1dfff96eca0cd5bfda34103984e0df78
+DEFINED_PHASES= install postinst prepare
+RDEPEND=  dev-util/dialog  x11-apps/xdpyinfo  x11-apps/xinit  consolekit? ( sys-auth/consolekit   sys-apps/dbus )  pam? ( sys-libs/pam ) 
+EAPI=6
+IUSE=pam consolekit 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~gienah/snapshots/cdm-0.6.1_pre20180107.tar.gz

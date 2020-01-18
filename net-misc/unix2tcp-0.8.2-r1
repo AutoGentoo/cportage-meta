@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm hppa ia64 ppc s390 x86
+SLOT=0
+SRC_URI=mirror://gentoo/unix2tcp-0.8.2.tar.bz2

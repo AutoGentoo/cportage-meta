@@ -1,0 +1,8 @@
+c5543c3fa5164cd1f3b415239d3dd102
+DEFINED_PHASES= install prepare
+PDEPEND=net-analyzer/wireshark:=[lua]  net-misc/curl 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://appliance.cloudshark.org/downloads/cloudshark-plugin-1.0.2-174.tgz

@@ -1,0 +1,9 @@
+221af2b20e60a4505a06cc930e5c9145
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Crypt-Curve25519-0.50.0  dev-perl/Crypt-IDEA  >=dev-perl/CryptX-0.32.0  virtual/perl-Digest-MD5  dev-perl/File-HomeDir  virtual/perl-File-Spec  virtual/perl-IO  >=dev-perl/Math-GMP-1.40.0  virtual/perl-Scalar-List-Utils  >=dev-perl/String-CRC32-1.200.0  !minimal? (   dev-perl/Digest-BubbleBabble   dev-perl/Crypt-RSA   dev-perl/TermReadKey  )   virtual/perl-ExtUtils-MakeMaker  test? ( >=virtual/perl-Test-Simple-0.610.0 )  
+RDEPEND=  >=dev-perl/Crypt-Curve25519-0.50.0  dev-perl/Crypt-IDEA  >=dev-perl/CryptX-0.32.0  virtual/perl-Digest-MD5  dev-perl/File-HomeDir  virtual/perl-File-Spec  virtual/perl-IO  >=dev-perl/Math-GMP-1.40.0  virtual/perl-Scalar-List-Utils  >=dev-perl/String-CRC32-1.200.0  !minimal? (   dev-perl/Digest-BubbleBabble   dev-perl/Crypt-RSA   dev-perl/TermReadKey  )  
+EAPI=6
+IUSE=minimal test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SC/SCHWIGON/Net-SSH-Perl-2.14.tar.gz

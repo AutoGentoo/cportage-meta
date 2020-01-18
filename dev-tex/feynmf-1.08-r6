@@ -1,0 +1,10 @@
+a4ce5e5eef782f9827c55b4cf0325477
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-texlive/texlive-metapost  dev-lang/perl  doc? ( dev-texlive/texlive-bibtexextra ) 
+RDEPEND=dev-texlive/texlive-metapost 
+EAPI=6
+IUSE=doc 
+KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/feynmf-1.08.tar.gz
+	doc? ( https://dev.gentoo.org/~ulm/distfiles/feynmf-cnl.tar.gz )

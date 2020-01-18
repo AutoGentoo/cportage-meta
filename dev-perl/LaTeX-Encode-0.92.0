@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-Getopt-Long  dev-perl/HTML-Parser  dev-perl/Pod-LaTeX  dev-perl/Readonly   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Test-Simple   dev-perl/Carp-Always  )  
+RDEPEND=  virtual/perl-Getopt-Long  dev-perl/HTML-Parser  dev-perl/Pod-LaTeX  dev-perl/Readonly  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm arm64 ppc ppc64 x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/EI/EINHVERFR/LaTeX-Encode-0.092.0.tar.gz

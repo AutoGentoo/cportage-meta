@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES=-
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/rspec:3[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ) test? ( dev-vcs/git )  test? ( ruby_targets_ruby24? ( dev-ruby/bundler[ruby_targets_ruby24] dev-ruby/parslet[ruby_targets_ruby24] ) ruby_targets_ruby25? ( dev-ruby/bundler[ruby_targets_ruby25] dev-ruby/parslet[ruby_targets_ruby25] ) ) ruby_targets_ruby24? ( test? ( dev-ruby/pry[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( test? ( dev-ruby/pry[ruby_targets_ruby25] ) ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) sys-libs/readline  ruby_targets_ruby24? ( dev-ruby/bundler[ruby_targets_ruby24] dev-ruby/parslet[ruby_targets_ruby24] ) ruby_targets_ruby25? ( dev-ruby/bundler[ruby_targets_ruby25] dev-ruby/parslet[ruby_targets_ruby25] ) 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~amd64-linux
+SLOT=0
+SRC_URI=https://github.com/thoughtbot/gitsh/archive/v0.11.2.tar.gz -> gitsh-0.11.2.tar.gz

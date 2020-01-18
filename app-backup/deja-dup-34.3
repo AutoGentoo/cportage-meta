@@ -1,0 +1,10 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-admin/packagekit-base  app-crypt/libsecret[vala]  >=dev-libs/glib-2.34:2[dbus]  >=dev-libs/libpeas-1.0  >=x11-libs/gtk+-3.10:3  >=x11-libs/libnotify-0.7   >=app-backup/duplicity-0.6.23  dev-libs/dbus-glib   nautilus? ( gnome-base/nautilus )   || ( dev-lang/vala:0.42 dev-lang/vala:0.40 dev-lang/vala:0.36 )  app-text/yelp-tools  dev-perl/Locale-gettext  virtual/pkgconfig  dev-util/intltool  sys-devel/gettext  
+RDEPEND=  app-admin/packagekit-base  app-crypt/libsecret[vala]  >=dev-libs/glib-2.34:2[dbus]  >=dev-libs/libpeas-1.0  >=x11-libs/gtk+-3.10:3  >=x11-libs/libnotify-0.7   >=app-backup/duplicity-0.6.23  dev-libs/dbus-glib   nautilus? ( gnome-base/nautilus )   gnome-base/dconf  gnome-base/gvfs[fuse]  
+EAPI=6
+IUSE=nautilus test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://launchpad.net/deja-dup/34/34.3/+download/deja-dup-34.3.tar.xz

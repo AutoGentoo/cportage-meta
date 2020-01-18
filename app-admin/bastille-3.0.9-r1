@@ -1,0 +1,10 @@
+55cfd16e523e57dcc94234830cf60898
+DEFINED_PHASES= install postinst prepare
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=  app-admin/logrotate  dev-perl/Curses  net-firewall/iptables  net-firewall/psad  virtual/logger  X? ( dev-perl/Tk )  
+EAPI=5
+IUSE=X 
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bastille-linux/Bastille-3.0.9.tar.bz2
+	mirror://gentoo/bastille-3.0.9-gentoo-0.2.patch.bz2

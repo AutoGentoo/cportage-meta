@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=media-libs/libggi-2.2.2 
+RDEPEND=>=media-libs/libggi-2.2.2 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ggi/libggigcp-1.0.2.src.tar.bz2

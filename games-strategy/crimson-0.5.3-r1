@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  media-libs/libsdl[sound,video]  media-libs/sdl-mixer  media-libs/sdl-ttf  media-libs/sdl-net  zlib? ( sys-libs/zlib )  dev-libs/libxslt  test? (   app-text/docbook-xml-dtd:4.2   dev-libs/libxml2  )  
+RDEPEND=  media-libs/libsdl[sound,video]  media-libs/sdl-mixer  media-libs/sdl-ttf  media-libs/sdl-net  zlib? ( sys-libs/zlib ) 
+EAPI=6
+IUSE=test zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://crimson.seul.org/files/crimson-0.5.3.tar.bz2

@@ -1,0 +1,10 @@
+cbe2a0957599c249bf9c5bd7ad58e7e9
+DEFINED_PHASES= install prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=net-print/cups  test? ( dev-util/cppunit )  usb_modeswitch? ( sys-apps/usb_modeswitch ) 
+RDEPEND=net-print/cups 
+EAPI=7
+IUSE=test usb_modeswitch 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.dymo.com/Download%20Drivers/Linux/Download/dymo-cups-drivers-1.4.0.tar.gz

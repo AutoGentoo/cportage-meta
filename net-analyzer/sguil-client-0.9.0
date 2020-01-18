@@ -1,0 +1,8 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= install prepare
+RDEPEND=  >=dev-lang/tcl-8.3:0=[-threads]  >=dev-lang/tk-8.3:0=  >=dev-tcltk/itcl-3.2  >=dev-tcltk/tclx-8.3  dev-tcltk/itk  dev-tcltk/iwidgets  dev-tcltk/tcllib  net-analyzer/wireshark  ssl? ( >=dev-tcltk/tls-1.4.1 )  
+EAPI=5
+IUSE=ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/bammv/sguil/archive/v0.9.0.tar.gz -> sguil-0.9.0.tar.gz

@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= compile install prepare
+DEPEND=>=net-misc/wget-1.9-r2  >=media-gfx/imagemagick-5.5.7.15  x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-base/xorg-proto 
+RDEPEND=>=net-misc/wget-1.9-r2  >=media-gfx/imagemagick-5.5.7.15  x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ppc x86
+SLOT=0
+SRC_URI=https://www.dockapps.net/download/wmGrabImage-0.72.tgz

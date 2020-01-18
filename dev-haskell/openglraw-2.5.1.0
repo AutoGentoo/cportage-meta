@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/transformers-0.2:=[profile?] <dev-haskell/transformers-0.5:=[profile?]  >=dev-lang/ghc-7.4.1:=  virtual/opengl   >=dev-haskell/cabal-1.10  
+RDEPEND=>=dev-haskell/transformers-0.2:=[profile?] <dev-haskell/transformers-0.5:=[profile?]  >=dev-lang/ghc-7.4.1:=  virtual/opengl  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~sparc ~x86
+SLOT=0/2.5.1.0
+SRC_URI=https://hackage.haskell.org/package/OpenGLRaw-2.5.1.0/OpenGLRaw-2.5.1.0.tar.gz

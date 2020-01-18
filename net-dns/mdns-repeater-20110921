@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://bitbucket.org/geekman/mdns-repeater/get/28ecc2ab9a0e.tar.gz -> mdns-repeater-28ecc2ab9a0e.tar.gz

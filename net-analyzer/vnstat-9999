@@ -1,0 +1,10 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile install setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=    dev-db/sqlite  gd? ( media-libs/gd[png] )   test? ( dev-libs/check )  
+RDEPEND=    dev-db/sqlite  gd? ( media-libs/gd[png] )   selinux? ( sec-policy/selinux-vnstatd )  
+EAPI=7
+IUSE=gd selinux test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

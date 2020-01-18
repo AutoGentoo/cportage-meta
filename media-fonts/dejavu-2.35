@@ -1,0 +1,9 @@
+7d06a5afafcf622a987090b24b06046c
+DEFINED_PHASES= compile install unpack
+DEPEND=fontforge? ( >=x11-apps/mkfontscale-1.2.0   >=media-gfx/fontforge-20080429   dev-perl/Font-TTF   app-i18n/unicode-data   >media-libs/fontconfig-2.6.0 ) 
+EAPI=5
+IUSE=fontforge 
+KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=!fontforge? ( mirror://sourceforge/dejavu/dejavu-fonts-ttf-2.35.tar.bz2 )
+		fontforge? ( mirror://sourceforge/dejavu/dejavu-fonts-2.35.tar.bz2 )

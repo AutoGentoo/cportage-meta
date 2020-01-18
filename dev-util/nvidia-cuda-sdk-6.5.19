@@ -1,0 +1,11 @@
+6c6820de8662b6304f13ad8e09ea2994
+DEFINED_PHASES= compile install prepare setup test unpack
+DEPEND=  ~dev-util/nvidia-cuda-toolkit-6.5.19  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   virtual/mpi   >=x11-drivers/nvidia-drivers-340.32[uvm]   x86? ( <x11-drivers/nvidia-drivers-346.35[uvm] )   ) 
+RDEPEND=  ~dev-util/nvidia-cuda-toolkit-6.5.19  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   virtual/mpi   >=x11-drivers/nvidia-drivers-340.32[uvm]   x86? ( <x11-drivers/nvidia-drivers-346.35[uvm] )   ) 
+EAPI=6
+IUSE=debug +doc +examples opencl +cuda 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	amd64? ( http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.19_linux_64.run )
+	x86? ( http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.19_linux_32.run )

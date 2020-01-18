@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=    net-libs/libpcap  sys-libs/ncurses:0=   virtual/pkgconfig  
+RDEPEND=  net-libs/libpcap  sys-libs/ncurses:0=  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~ia64 x86
+SLOT=0
+SRC_URI=https://github.com/raboof/nethogs/archive/v0.8.5.tar.gz -> nethogs-0.8.5.tar.gz

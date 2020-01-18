@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:2  sys-apps/pmount  virtual/udev 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  virtual/pkgconfig  doc? ( app-text/pandoc )    sys-libs/ncurses:0=[unicode]  media-libs/libmpdclient   
+RDEPEND=  sys-libs/ncurses:0=[unicode]  media-libs/libmpdclient  
+EAPI=6
+IUSE=+regex doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ambientsound/pms/tarball/8c8918488a4a22924ee04442dc5e5216783d51ff -> pms-0.42_p20170508.tar.gz

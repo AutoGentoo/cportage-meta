@@ -1,0 +1,8 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= compile install prepare test
+DEPEND=virtual/pkgconfig 
+EAPI=6
+IUSE=hardened 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/coreos/flannel/archive/v0.11.0.tar.gz -> flannel-0.11.0.tar.gz

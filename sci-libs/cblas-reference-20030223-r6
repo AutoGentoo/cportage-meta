@@ -1,0 +1,9 @@
+c1cced305fd65eefd307749e8c3d73d7
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  virtual/blas  app-eselect/eselect-cblas  virtual/pkgconfig 
+RDEPEND=  virtual/blas  app-eselect/eselect-cblas 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ppc ppc64 s390 sparc x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=http://www.netlib.org/blas/blast-forum/cblas.tgz

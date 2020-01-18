@@ -1,0 +1,9 @@
+0d8ee370cd6db9eded07bdd6fe9baada
+DEFINED_PHASES= compile install postinst prepare
+BDEPEND=  sys-devel/bison  sys-devel/flex  virtual/pkgconfig  
+DEPEND=  app-eselect/eselect-audicle  media-libs/freeglut  media-libs/libsndfile  virtual/opengl  virtual/glu  x11-libs/gtk+:2  alsa? ( >=media-libs/alsa-lib-0.9 )  jack? ( virtual/jack )  truetype? (   media-fonts/corefonts   media-libs/ftgl  )  
+EAPI=7
+IUSE=+alsa jack oss truetype 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://audicle.cs.princeton.edu/release/files/audicle-1.0.0.7.tgz

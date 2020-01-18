@@ -1,0 +1,10 @@
+f48ac807a711d50239e7cadfccd73937
+DEFINED_PHASES= config configure install postinst prepare
+DEPEND=  app-shells/bash:0  media-libs/tiff:0  net-libs/libcapi  sys-libs/zlib  virtual/jpeg:0  
+RDEPEND=    app-shells/bash:0  media-libs/tiff:0  net-libs/libcapi  sys-libs/zlib  virtual/jpeg:0   dev-util/dialog  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/capi4hylafax/capi4hylafax_01.03.00.99.svn.300.orig.tar.gz
+	mirror://debian/pool/main/c/capi4hylafax/capi4hylafax_01.03.00.99.svn.300-20.debian.tar.gz

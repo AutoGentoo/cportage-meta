@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=x11-libs/libX11  dev-lang/fpc 
+RDEPEND=x11-libs/libX11 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://wwwhome.cs.utwente.nl/~ptdeboer/ham/puff/puff-20100127.tgz

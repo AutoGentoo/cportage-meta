@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost:=  >=dev-ros/urdf_parser_plugin-1.12.6  dev-ros/class_loader:=  dev-libs/urdfdom_headers  dev-libs/collada-dom:=  >=dev-ros/urdf-1.12.6  dev-ros/rosconsole  dev-libs/console_bridge:=  
+RDEPEND=  dev-libs/boost:=  >=dev-ros/urdf_parser_plugin-1.12.6  dev-ros/class_loader:=  dev-libs/urdfdom_headers  dev-libs/collada-dom:=  >=dev-ros/urdf-1.12.6  dev-ros/rosconsole  dev-libs/console_bridge:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros/collada_urdf/archive/1.12.12.tar.gz -> collada_urdf-1.12.12.tar.gz

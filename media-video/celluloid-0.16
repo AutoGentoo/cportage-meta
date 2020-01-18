@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+DEPEND=>=dev-libs/glib-2.44  >=x11-libs/gtk+-3.22.23:3  >=media-video/mpv-0.27[libmpv]  media-libs/libepoxy  dev-util/glib-utils  virtual/pkgconfig 
+RDEPEND=>=dev-libs/glib-2.44  >=x11-libs/gtk+-3.22.23:3  >=media-video/mpv-0.27[libmpv]  media-libs/libepoxy 
+EAPI=6
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://github.com/gnome-mpv/gnome-mpv/releases/download/v0.16/gnome-mpv-0.16.tar.xz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=app-shells/bash  x11-misc/idesk  x11-misc/xdialog 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~hasufell/distfiles/idesk-extras-1.37.tar.xz

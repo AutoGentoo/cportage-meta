@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sci-physics/bullet:=  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/roscpp  media-libs/sdl-image  dev-ros/tf2  >=dev-cpp/yaml-cpp-0.5:=   dev-libs/boost:=   test? ( dev-ros/rostest dev-ros/rospy dev-ros/rosunit )  virtual/pkgconfig 
+RDEPEND=  sci-physics/bullet:=  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/roscpp  media-libs/sdl-image  dev-ros/tf2  >=dev-cpp/yaml-cpp-0.5:=   dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

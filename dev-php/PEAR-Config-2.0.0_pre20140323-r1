@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=test? ( xml? ( dev-php/PEAR-XML_Parser dev-php/PEAR-XML_Util ) ) 
+RDEPEND=xml? ( dev-php/PEAR-XML_Parser dev-php/PEAR-XML_Util ) 
+EAPI=6
+IUSE=test xml 
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/pear/Config/archive/606a24034ad80f9d6ccb5a8b698b702b392e4674.tar.gz -> Config-2.0.0_pre20140323.tar.gz

@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-lang/perl  virtual/libiconv 
+PDEPEND=|| (   app-dicts/mecab-ipadic[unicode=]   app-dicts/mecab-naist-jdic[unicode=]  ) 
+EAPI=6
+IUSE=static-libs unicode 
+KEYWORDS=amd64 arm arm64 hppa ia64 ppc ppc64 s390 sparc x86
+SLOT=0
+SRC_URI=https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mecab/mecab-0.996.tar.gz

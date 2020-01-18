@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+BDEPEND=dev-lang/perl 
+RDEPEND=dev-perl/Algorithm-Diff  sasl? ( dev-perl/Authen-SASL )  dev-perl/IO-Socket-SSL  dev-perl/perl-ldap  dev-perl/TermReadKey  readline? ( dev-perl/Term-ReadLine-Gnu )  dev-perl/Term-Shell  dev-perl/YAML-Syck  virtual/perl-Data-Dumper  virtual/perl-File-Temp  virtual/perl-Getopt-Long  virtual/perl-Digest-MD5 
+EAPI=7
+IUSE=+readline sasl +ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/mahlon/shelldap/downloads/shelldap-1.5.0.tar.gz

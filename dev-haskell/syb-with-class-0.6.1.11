@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  test? ( dev-haskell/hunit )  
+RDEPEND=>=dev-lang/ghc-7.4.1:=  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.6.1.11
+SRC_URI=https://hackage.haskell.org/package/syb-with-class-0.6.1.11/syb-with-class-0.6.1.11.tar.gz

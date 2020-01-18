@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure
+DEPEND=dev-ada/xmlada[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,shared,static-libs]  dev-ada/asis[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?]  dev-ada/gprbuild[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?] 
+RDEPEND=dev-ada/xmlada[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,shared,static-libs] 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5b0819e0c7a447df26c27abd
+	-> aws-gpl-2018-src.tar.gz

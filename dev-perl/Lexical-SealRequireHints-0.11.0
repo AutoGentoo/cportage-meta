@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  !<dev-perl/B-Hooks-OP-Check-0.190.0   dev-perl/Module-Build  test? (   >=virtual/perl-Test-Simple-0.410.0  )  
+RDEPEND=  !<dev-perl/B-Hooks-OP-Check-0.190.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm hppa ppc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Z/ZE/ZEFRAM/Lexical-SealRequireHints-0.011.tar.gz

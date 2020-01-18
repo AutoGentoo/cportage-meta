@@ -1,0 +1,14 @@
+9d31fa68540cc6741d1f5c4cd4b3b840
+DEFINED_PHASES= install prepare setup
+DEPEND=  || (   ( media-libs/mesa[X(+)]    x11-libs/libGLw )   media-libs/mesa[motif,X(+)] )  media-libs/libpng:0=  media-libs/tiff:0  sys-libs/zlib  virtual/glu  virtual/jpeg:0  x11-libs/libXpm  x11-libs/motif:0  x11-apps/xdpyinfo  
+RDEPEND=  || (   ( media-libs/mesa[X(+)]    x11-libs/libGLw )   media-libs/mesa[motif,X(+)] )  media-libs/libpng:0=  media-libs/tiff:0  sys-libs/zlib  virtual/glu  virtual/jpeg:0  x11-libs/libXpm  x11-libs/motif:0  x11-apps/xdpyinfo  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	ftp://ftp.mol.biol.ethz.ch/software/MOLMOL/unix-gzip/molmol-2k.2.0-src.tar.gz
+	ftp://ftp.mol.biol.ethz.ch/software/MOLMOL/unix-gzip/molmol-2k.2.0-doc.tar.gz
+	https://dev.gentoo.org/~soap/distfiles/molmol-patches.tbz2
+	https://dev.gentoo.org/~pacho/molmol/molmol.png
+

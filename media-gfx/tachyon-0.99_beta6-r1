@@ -1,0 +1,9 @@
+e367fb2cef25efffe626ce93914c39b4
+DEFINED_PHASES= compile install prepare setup
+DEPEND=  jpeg? ( virtual/jpeg:0= )  mpi? ( virtual/mpi )  opengl? (   virtual/glu   virtual/opengl   )  png? ( media-libs/libpng:0= )  virtual/pkgconfig 
+RDEPEND=  jpeg? ( virtual/jpeg:0= )  mpi? ( virtual/mpi )  opengl? (   virtual/glu   virtual/opengl   )  png? ( media-libs/libpng:0= ) 
+EAPI=6
+IUSE=doc examples jpeg mpi +opengl png threads 
+KEYWORDS=~amd64 ~ppc ~x86 ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://jedi.ks.uiuc.edu/~johns/raytracer/files/0.99b6/tachyon-0.99b6.tar.gz

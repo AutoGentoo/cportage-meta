@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=    office_implementation_libreoffice? (     || (      app-office/libreoffice[java]      app-office/libreoffice-bin[java]     )    )       office_implementation_openoffice? (     app-office/openoffice-bin[java]    )     app-arch/unzip  
+RDEPEND=    office_implementation_libreoffice? (     || (      app-office/libreoffice[java]      app-office/libreoffice-bin[java]     )    )       office_implementation_openoffice? (     app-office/openoffice-bin[java]    )    
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://ooo2gd.googlecode.com/files/ooo2gd_3.0.0.oxt

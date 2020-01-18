@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile install prepare test
+BDEPEND=>=dev-lang/go-1.12 
+DEPEND=  btrfs? ( sys-fs/btrfs-progs )  device-mapper? ( sys-fs/lvm2:= )  dev-go/go-md2man  test? (   sys-fs/btrfs-progs   sys-fs/lvm2   sys-apps/util-linux  ) 
+RDEPEND=  btrfs? ( sys-fs/btrfs-progs )  device-mapper? ( sys-fs/lvm2:= ) 
+EAPI=7
+IUSE=btrfs +device-mapper test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/containers/storage/archive/v1.15.2.tar.gz -> containers-storage-1.15.2.tar.gz

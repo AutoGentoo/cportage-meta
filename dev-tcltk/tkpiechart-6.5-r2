@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-lang/tk:*  dev-tcltk/tcllib 
+RDEPEND=dev-lang/tk:*  dev-tcltk/tcllib 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://jfontain.free.fr/tkpiechart-6.5.tar.bz2

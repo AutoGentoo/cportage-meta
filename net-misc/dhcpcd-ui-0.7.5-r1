@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= configure install
+DEPEND=  virtual/libintl  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )  gtk3? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:3  )  libnotify? ( x11-libs/libnotify ) 
+RDEPEND=  virtual/libintl  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:2  )  gtk3? (   dev-libs/glib:2   x11-libs/gdk-pixbuf:2   x11-libs/gtk+:3  )  libnotify? ( x11-libs/libnotify )  >=net-misc/dhcpcd-6.4.4 
+EAPI=6
+IUSE=debug gtk gtk3 libnotify 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://roy.marples.name/downloads/dhcpcd/dhcpcd-ui-0.7.5.tar.bz2

@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install prepare
+DEPEND=alsa? ( media-libs/alsa-lib )  jack? (   media-libs/alsa-lib   media-sound/jack-audio-connection-kit  )  pulseaudio? ( media-sound/pulseaudio ) 
+RDEPEND=alsa? ( media-libs/alsa-lib )  jack? (   media-libs/alsa-lib   media-sound/jack-audio-connection-kit  )  pulseaudio? ( media-sound/pulseaudio ) 
+EAPI=6
+IUSE=+alsa doc jack pulseaudio static-libs 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0/6
+SRC_URI=https://www.music.mcgill.ca/~gary/rtaudio/release/rtaudio-5.0.0.tar.gz

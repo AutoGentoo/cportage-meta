@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst postrm
+DEPEND=  dev-libs/boost:=[threads]  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib  
+RDEPEND=  dev-libs/boost:=[threads]  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib   dev-qt/qtsvg:5  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/mp3diags/MP3Diags-unstable-1.5.01.tar.gz

@@ -1,0 +1,9 @@
+b8835b2fe99bcbc73b0dc082379e9240
+DEFINED_PHASES= install prepare test
+DEPEND=  >=sci-biology/bioperl-1.6.9  dev-perl/DBD-mysql  dev-perl/DBI  sci-biology/biosql  dev-perl/Module-Build  test? (   dev-perl/Data-Stag   dev-perl/Sub-Uplevel   dev-perl/Test-Warn   dev-perl/Test-Exception   virtual/perl-Test-Simple  )  
+RDEPEND=  >=sci-biology/bioperl-1.6.9  dev-perl/DBD-mysql  dev-perl/DBI  sci-biology/biosql 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CJ/CJFIELDS/BioPerl-DB-1.006900.tar.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+RDEPEND=>=dev-libs/libbsd-0.7 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/aperezdc/signify/archive/v20.tar.gz -> signify-20.tar.gz

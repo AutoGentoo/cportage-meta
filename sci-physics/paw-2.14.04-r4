@@ -1,0 +1,11 @@
+49ec8418ad129635c4b8f6ca5506f3c0
+DEFINED_PHASES= compile install prepare
+DEPEND=  sci-physics/cernlib  x11-libs/libXaw  >=x11-libs/motif-2.3:0  x11-libs/xbae  dev-lang/cfortran  virtual/latex-base  x11-misc/imake  x11-misc/makedepend 
+RDEPEND=  sci-physics/cernlib  x11-libs/libXaw  >=x11-libs/motif-2.3:0  x11-libs/xbae 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/p/paw/paw_2.14.04.dfsg.2.orig.tar.gz
+	mirror://debian/pool/main/p/paw/paw_2.14.04.dfsg.2-8.debian.tar.gz

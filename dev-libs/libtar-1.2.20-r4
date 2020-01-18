@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install prepare
+DEPEND=  zlib? ( sys-libs/zlib:= )  !zlib? ( app-arch/gzip )  
+RDEPEND=  zlib? ( sys-libs/zlib:= )  !zlib? ( app-arch/gzip )  
+EAPI=6
+IUSE=static-libs zlib 
+KEYWORDS=amd64 ~arm ~arm64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~pinkbyte/distfiles/snapshots/libtar-1.2.20.tar.gz

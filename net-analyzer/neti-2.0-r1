@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=  java? ( || ( >=virtual/jdk-1.2 >=virtual/jre-1.2 ) )  net-libs/libpcap  
+RDEPEND=  java? ( || ( >=virtual/jdk-1.2 >=virtual/jre-1.2 ) )  net-libs/libpcap  
+EAPI=5
+IUSE=zlib java 
+KEYWORDS=~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/neti/neti-2.0.tar.gz

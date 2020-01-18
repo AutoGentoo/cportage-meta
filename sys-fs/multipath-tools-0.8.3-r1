@@ -1,0 +1,10 @@
+e81a00afac30dd3e0ab9b9f9ff2f31b7
+DEFINED_PHASES= compile install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/json-c:=  dev-libs/libaio  dev-libs/userspace-rcu:=  >=sys-fs/lvm2-2.02.45  >=virtual/libudev-232-r3  sys-libs/readline:0=  rbd? ( sys-cluster/ceph )  systemd? ( sys-apps/systemd )  
+RDEPEND=  dev-libs/json-c:=  dev-libs/libaio  dev-libs/userspace-rcu:=  >=sys-fs/lvm2-2.02.45  >=virtual/libudev-232-r3  sys-libs/readline:0=  rbd? ( sys-cluster/ceph )  systemd? ( sys-apps/systemd )  
+EAPI=7
+IUSE=systemd rbd 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://git.opensvc.com/?p=multipath-tools/.git;a=snapshot;h=0.8.3;sf=tgz -> multipath-tools-0.8.3.tar.gz

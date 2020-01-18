@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= compile configure install prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=sci-mathematics/ginac-1.4.1  berkdb? ( sys-libs/db:6.0[cxx] )  mpi? ( virtual/mpi )  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=>=sci-mathematics/ginac-1.4.1  berkdb? ( sys-libs/db:6.0[cxx] )  mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=berkdb doc mpi 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://reduze.hepforge.org/download/reduze-2.2.tar.gz

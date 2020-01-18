@@ -1,0 +1,9 @@
+475ec0af5107d4053dd9f539fef26557
+DEFINED_PHASES= install postinst setup unpack
+RDEPEND=sys-libs/glibc  media-libs/libsdl[abi_x86_32(-)]  media-libs/smpeg[abi_x86_32(-)]  virtual/opengl[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)] 
+EAPI=5
+IUSE=nocd videos 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://lokigames/descent3/descent3-1.4.0a-x86.run
+	mirror://lokigames/descent3/descent3-1.4.0b-x86.run

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=>=media-tv/v4l-utils-1.4 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://linuxtv.org/downloads/dtv-scan-tables/dtv-scan-tables-2019-09-22-f07bde777d4d.tar.bz2

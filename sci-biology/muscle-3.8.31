@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=!sci-libs/libmuscle 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_src.tar.gz

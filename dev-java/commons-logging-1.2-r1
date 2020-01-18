@@ -1,0 +1,9 @@
+273c6575fc8ae01f46fa2dc9121d7c68
+DEFINED_PHASES= install test
+DEPEND=  avalon-framework? ( dev-java/avalon-framework:4.2 )  avalon-logkit? ( dev-java/avalon-logkit:2.0 )  log4j? ( dev-java/log4j:0 )  servletapi? ( java-virtuals/servlet-api:3.1 )  >=virtual/jdk-1.6  test? ( dev-java/ant-junit:0 ) 
+RDEPEND=  avalon-framework? ( dev-java/avalon-framework:4.2 )  avalon-logkit? ( dev-java/avalon-logkit:2.0 )  log4j? ( dev-java/log4j:0 )  servletapi? ( java-virtuals/servlet-api:3.1 )  >=virtual/jre-1.6 
+EAPI=5
+IUSE=avalon-framework avalon-logkit log4j servletapi test 
+KEYWORDS=amd64 ~arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://apache/commons/logging/source/commons-logging-1.2-src.tar.gz

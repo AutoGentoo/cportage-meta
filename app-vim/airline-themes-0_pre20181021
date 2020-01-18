@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=app-vim/airline 
+RDEPEND=app-vim/airline 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~zlogene/distfiles/app-vim/airline-themes/airline-themes-0_pre20181021.tar.xz

@@ -1,0 +1,8 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= install postinst preinst
+RDEPEND=>=app-text/sgml-common-0.6.3-r7 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ~s390 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://www.w3.org/TR/1999/REC-html401-19991224/html40.tgz

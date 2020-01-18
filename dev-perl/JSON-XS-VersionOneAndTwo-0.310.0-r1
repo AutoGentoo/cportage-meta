@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  test? (   dev-perl/JSON-XS   dev-perl/Test-Pod  ) 
+RDEPEND=dev-perl/JSON-XS 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LB/LBROCARD/JSON-XS-VersionOneAndTwo-0.31.tar.gz

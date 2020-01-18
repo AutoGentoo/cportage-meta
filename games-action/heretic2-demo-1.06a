@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= install
+DEPEND=games-util/loki_patch 
+RDEPEND=  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://lokigames/loki_demos/heretic2-demo.run

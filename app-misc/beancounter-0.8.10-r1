@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-perl/Date-Manip  dev-perl/Statistics-Descriptive  dev-perl/Finance-YahooQuote  dev-perl/libwww-perl  mysql? ( dev-perl/DBD-mysql )  sqlite? ( dev-perl/DBD-SQLite )  postgres? ( dev-perl/DBD-Pg ) 
+RDEPEND=dev-perl/Date-Manip  dev-perl/Statistics-Descriptive  dev-perl/Finance-YahooQuote  dev-perl/libwww-perl  mysql? ( dev-perl/DBD-mysql )  sqlite? ( dev-perl/DBD-SQLite )  postgres? ( dev-perl/DBD-Pg ) dev-perl/DBI 
+EAPI=5
+IUSE=mysql postgres sqlite 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://eddelbuettel.com/dirk/code/beancounter/beancounter_0.8.10.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=media-libs/libsdl[X,opengl,video]  virtual/glu  virtual/opengl  x11-libs/libX11  sys-devel/autoconf-archive 
+RDEPEND=media-libs/libsdl[X,opengl,video]  virtual/glu  virtual/opengl  x11-libs/libX11 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/mpcomplete/fireflies/archive/v2.08.tar.gz -> fireflies-2.08.tar.gz

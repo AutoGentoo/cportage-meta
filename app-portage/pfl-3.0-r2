@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6[xml] ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+RDEPEND=    net-misc/curl  sys-apps/portage[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/ssl-fetch-0.4[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+EAPI=7
+IUSE=+network-cron 
+KEYWORDS=amd64 arm hppa ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=http://files.portagefilelist.de/pfl-3.0.tar.bz2

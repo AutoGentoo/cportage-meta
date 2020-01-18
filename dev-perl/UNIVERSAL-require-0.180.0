@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp   virtual/perl-ExtUtils-MakeMaker  test? ( >=virtual/perl-Test-Simple-0.470.0 )  
+RDEPEND=  virtual/perl-Carp  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~ia64 ~ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NE/NEILB/UNIVERSAL-require-0.18.tar.gz

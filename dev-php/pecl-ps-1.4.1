@@ -1,0 +1,10 @@
+0f0314bccd9de70a009fd9c037874232
+DEFINED_PHASES= install prepare test
+BDEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php5-6? ( dev-lang/php:5.6 ) php_targets_php7-1? ( dev-lang/php:7.1 ) php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 ) php_targets_php7-4? ( dev-lang/php:7.4 )  
+DEPEND=  php_targets_php7-1? ( dev-libs/pslib )  php_targets_php7-2? ( dev-libs/pslib )  php_targets_php7-3? ( dev-libs/pslib )  php_targets_php7-4? ( dev-libs/pslib )  
+RDEPEND=  php_targets_php7-1? ( dev-libs/pslib )  php_targets_php7-2? ( dev-libs/pslib )  php_targets_php7-3? ( dev-libs/pslib )  php_targets_php7-4? ( dev-libs/pslib )  php_targets_php5-6? ( dev-php/pecl-ps:0[php_targets_php5-6] ) 
+EAPI=7
+IUSE=examples 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=7
+SRC_URI=https://pecl.php.net/get/ps-1.4.1.tgz

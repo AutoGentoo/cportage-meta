@@ -1,0 +1,9 @@
+ea804abb240a5ba2e60b0745d2ad486b
+DEFINED_PHASES= compile configure install prepare
+DEPEND=dev-libs/boehm-gc[threads]  dev-lang/perl  dev-perl/XML-Parser  || ( dev-lang/opendylan-bin dev-lang/opendylan ) 
+RDEPEND=dev-libs/boehm-gc[threads]  dev-lang/perl  dev-perl/XML-Parser  || ( dev-lang/opendylan-bin dev-lang/opendylan ) 
+EAPI=4
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

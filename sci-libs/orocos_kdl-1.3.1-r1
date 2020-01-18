@@ -1,0 +1,10 @@
+02a15835305f9d6678daf6fdb5df957c
+DEFINED_PHASES= compile configure install test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-cpp/eigen:3  test? ( dev-util/cppunit )  doc? ( app-doc/doxygen ) 
+RDEPEND=dev-cpp/eigen:3 
+EAPI=5
+IUSE=doc test examples models 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/orocos/orocos_kinematics_dynamics/archive/v1.3.1.tar.gz -> orocos_kinematics_dynamics-1.3.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=5
+IUSE=l10n_ja 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/riece/riece-9.0.0.tar.gz

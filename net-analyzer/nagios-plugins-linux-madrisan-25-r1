@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=curl? ( net-misc/curl:0= ) 
+RDEPEND=curl? ( net-misc/curl:0= ) 
+EAPI=7
+IUSE=curl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/madrisan/nagios-plugins-linux/releases/download/v25/nagios-plugins-linux-25.tar.xz -> nagios-plugins-linux-madrisan-25.tar.xz

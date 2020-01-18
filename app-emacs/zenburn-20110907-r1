@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=app-emacs/color-theme 
+RDEPEND=app-emacs/color-theme 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/dbrock/zenburn-el/archive/2b0672b04ef3e95c25f849dceb10d669296a188b.tar.gz -> zenburn-20110907.tar.gz

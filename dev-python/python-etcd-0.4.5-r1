@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/dnspython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/pyopenssl-0.14[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/urllib3-1.7.1[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? (   dev-db/etcd   dev-python/mock[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/nose[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+RDEPEND=dev-python/dnspython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/pyopenssl-0.14[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/urllib3-1.7.1[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://pypi/p/python-etcd/python-etcd-0.4.5.tar.gz

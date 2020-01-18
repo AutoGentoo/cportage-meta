@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install prepare
+DEPEND=>=net-libs/liblockfile-1.03  dev-libs/libbsd  virtual/mta  mail-client/mailx-support 
+RDEPEND=>=net-libs/liblockfile-1.03  dev-libs/libbsd  virtual/mta  mail-client/mailx-support  !mail-client/nail  !net-mail/mailutils 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://http.debian.net/debian/pool/main/b/bsd-mailx/bsd-mailx_8.1.2-0.20160123cvs.orig.tar.bz2
+	http://http.debian.net/debian/pool/main/b/bsd-mailx/bsd-mailx_8.1.2-0.20160123cvs-4.debian.tar.xz

@@ -1,0 +1,8 @@
+80b4985a61148b4f532d6830ce29535b
+DEFINED_PHASES= install nofetch postinst postrm preinst unpack
+RDEPEND=  !bundled-libs? (   dev-libs/libsigc++:2   >=media-libs/libsdl2-2.0.1[X,joystick,opengl,sound,threads,video]   media-libs/openal   media-libs/sdl2-image[png]   media-libs/sdl2-ttf  )  sys-libs/zlib  virtual/opengl 
+EAPI=5
+IUSE=bundled-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ToTheMoon_linux_1389114090.sh

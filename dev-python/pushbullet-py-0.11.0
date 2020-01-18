@@ -1,0 +1,9 @@
+033e7eee641af6aa2530422367960970
+DEFINED_PHASES=-
+DEPEND=  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? (     dev-python/cryptography[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/python-magic[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/requests[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/websocket-client[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]    dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  
+RDEPEND=  dev-python/cryptography[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/python-magic[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/requests[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/websocket-client[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+EAPI=6
+IUSE=examples test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/p/pushbullet-py/pushbullet.py-0.11.0.tar.gz

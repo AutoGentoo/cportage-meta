@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=  virtual/pkgconfig  nls? (   dev-util/intltool   sys-devel/gettext  )  
+DEPEND=  net-misc/networkmanager  net-vpn/wireguard-tools[wg-quick]  glib? ( dev-libs/glib )  gtk? (   app-crypt/libsecret   gnome-extra/nm-applet   x11-libs/gtk+:3  )  
+RDEPEND=  net-misc/networkmanager  net-vpn/wireguard-tools[wg-quick]  glib? ( dev-libs/glib )  gtk? (   app-crypt/libsecret   gnome-extra/nm-applet   x11-libs/gtk+:3  )  
+EAPI=7
+IUSE=+glib +gtk +nls 
+KEYWORDS=
+SLOT=0
+SRC_URI=

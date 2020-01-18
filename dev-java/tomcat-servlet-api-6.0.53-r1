@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ppc64 x86 ~amd64-linux ~x86-linux ~x64-macos ~x64-solaris ~x86-solaris
+SLOT=2.5
+SRC_URI=https://archive.apache.org/dist/tomcat/tomcat-6/v6.0.53/src/apache-tomcat-6.0.53-src.tar.gz

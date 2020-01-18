@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare setup
+DEPEND=dev-util/promu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prometheus/memcached_exporter/archive/v0.5.0.tar.gz -> memcached_exporter-0.5.0.tar.gz

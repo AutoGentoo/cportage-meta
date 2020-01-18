@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/ccrypt/1.11/ccrypt-1.11.tar.gz

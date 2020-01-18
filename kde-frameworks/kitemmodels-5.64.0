@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) doc? ( dev-qt/qthelp:5 ) doc? ( >=app-doc/doxygen-1.8.13-r1 ) >=kde-frameworks/extra-cmake-modules-5.64:5 
+DEPEND=test? ( >=dev-qt/qtwidgets-5.12.3:5 ) 
+RDEPEND= >=kde-frameworks/kf-env-4  doc? ( dev-qt/qt-docs:5 ) dev-qt/qtcore:5 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/kitemmodels-5.64.0.tar.xz

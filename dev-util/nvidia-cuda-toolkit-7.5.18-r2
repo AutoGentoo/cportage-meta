@@ -1,0 +1,8 @@
+e583582c0a2d65ef8c406415a0990784
+DEFINED_PHASES= install postinst prepare setup unpack
+RDEPEND=  >=sys-devel/gcc-4.7[cxx]  <sys-devel/gcc-5[cxx]  >=x11-drivers/nvidia-drivers-352.39[uvm]  debugger? (   sys-libs/libtermcap-compat   sys-libs/ncurses[tinfo]   )  eclipse? ( >=virtual/jre-1.6 )  profiler? ( >=virtual/jre-1.6 ) 
+EAPI=5
+IUSE=debugger doc eclipse profiler 
+KEYWORDS=-* ~amd64 ~amd64-linux
+SLOT=0/7.5.18
+SRC_URI=http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda_7.5.18_linux.run

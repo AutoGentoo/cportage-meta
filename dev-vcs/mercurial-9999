@@ -1,0 +1,9 @@
+9cd1be511f579cc2a7f940aca48db19e
+DEFINED_PHASES= postinst postrm test
+DEPEND=emacs? ( >=app-editors/emacs-23.1:* )  test? ( app-arch/unzip   dev-python/pygments[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  dev-python/docutils[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=bugzilla? ( dev-python/mysql-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  gpg? ( app-crypt/gnupg )  tk? ( dev-lang/tk )  zsh-completion? ( app-shells/zsh )  app-misc/ca-certificates 
+EAPI=5
+IUSE=+chg bugzilla emacs gpg test tk zsh-completion 
+KEYWORDS=
+SLOT=0
+SRC_URI=

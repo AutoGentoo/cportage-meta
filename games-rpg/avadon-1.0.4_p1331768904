@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install nofetch postinst postrm preinst unpack
+DEPEND=app-arch/unzip 
+RDEPEND=media-libs/libsdl[opengl,video]  media-libs/openal 
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=avadon-linux-1331768904-bin.txt

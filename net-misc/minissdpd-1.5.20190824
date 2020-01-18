@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=net-libs/libnfnetlink 
+RDEPEND=net-libs/libnfnetlink  || ( net-misc/miniupnpd net-libs/miniupnpc ) 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://miniupnp.free.fr/files/minissdpd-1.5.20190824.tar.gz

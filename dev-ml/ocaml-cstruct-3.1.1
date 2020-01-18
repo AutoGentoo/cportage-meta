@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile install test
+DEPEND=  dev-ml/jbuilder  test? (   dev-ml/ounit   ppx? ( dev-ml/ppx_driver dev-ml/ppx_sexp_conv )  )    async? (   dev-ml/async_kernel:=   dev-ml/async_unix:=   dev-ml/core_kernel:=  )  lwt? ( dev-ml/lwt:= )  ppx? (   dev-ml/ppx_tools:=   dev-ml/ocaml-migrate-parsetree:=   >=dev-ml/ppx_tools_versioned-5.0.1:=  )  dev-ml/ocplib-endian:=  dev-ml/sexplib:=  dev-ml/type-conv:=   
+RDEPEND=  async? (   dev-ml/async_kernel:=   dev-ml/async_unix:=   dev-ml/core_kernel:=  )  lwt? ( dev-ml/lwt:= )  ppx? (   dev-ml/ppx_tools:=   dev-ml/ocaml-migrate-parsetree:=   >=dev-ml/ppx_tools_versioned-5.0.1:=  )  dev-ml/ocplib-endian:=  dev-ml/sexplib:=  dev-ml/type-conv:=  
+EAPI=5
+IUSE=async +lwt +ppx test 
+KEYWORDS=~amd64
+SLOT=0/3.1.1
+SRC_URI=https://github.com/mirage/ocaml-cstruct/archive/v3.1.1.tar.gz -> ocaml-cstruct-3.1.1.tar.gz

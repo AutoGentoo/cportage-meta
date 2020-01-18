@@ -1,0 +1,9 @@
+abfd4f5b3e2393e99cecbfae5477322c
+DEFINED_PHASES= configure install postinst prerm setup
+DEPEND=  sys-libs/libcap-ng  
+RDEPEND=    sys-libs/libcap-ng   dev-util/shadowman  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~x86
+SLOT=0
+SRC_URI=ftp://ftp.suse.com/pub/projects/icecream/icecc-1.0.0.tar.bz2

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=media-video/vdr-1.7.41   >=net-libs/c-client-2002e-r1 
+RDEPEND=>=media-video/vdr-1.7.41   >=net-libs/c-client-2002e-r1 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://alex.vdr-developer.org/download/vdr-mailbox-0.7.0.tgz

@@ -1,0 +1,9 @@
+a1f221f72a5a6e34f43d69a4013a35c4
+DEFINED_PHASES= compile install
+DEPEND=  >=virtual/jdk-1.6    dev-java/antlr:0  dev-java/antlr:3  dev-java/fontbox:1.7  dev-java/jempbox:1.7  dev-java/log4j:0  dev-java/spin:0  dev-java/microba:0  >=dev-java/glazedlists-1.8.0:0   
+RDEPEND=  >=virtual/jre-1.6    dev-java/antlr:0  dev-java/antlr:3  dev-java/fontbox:1.7  dev-java/jempbox:1.7  dev-java/log4j:0  dev-java/spin:0  dev-java/microba:0  >=dev-java/glazedlists-1.8.0:0   
+EAPI=5
+IUSE=doc 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/jabref/JabRef-2.10-src.tar.bz2

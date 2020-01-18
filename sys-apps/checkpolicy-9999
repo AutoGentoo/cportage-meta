@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile install postinst
+DEPEND=>=sys-libs/libsepol-9999  >=sys-libs/libsemanage-9999  sys-devel/flex  sys-devel/bison 
+RDEPEND=>=sys-libs/libsemanage-9999 
+EAPI=6
+IUSE=debug 
+KEYWORDS=
+SLOT=0
+SRC_URI=

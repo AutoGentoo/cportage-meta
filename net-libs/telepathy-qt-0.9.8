@@ -1,0 +1,10 @@
+8f95e84971f9800b8c24d2b6ebd90f7b
+DEFINED_PHASES= configure setup test
+BDEPEND=|| ( dev-lang/python:3.7 dev-lang/python:3.6 )  virtual/pkgconfig  test? (   dev-libs/glib:2   || ( ( dev-lang/python:3.7     dev-python/dbus-python[python_targets_python3_7(-),python_single_target_python3_7(+)]    ) ( dev-lang/python:3.6     dev-python/dbus-python[python_targets_python3_6(-),python_single_target_python3_6(+)]    ) )  )  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtxml:5  farstream? (   >=net-libs/telepathy-farstream-0.2.2   >=net-libs/telepathy-glib-0.18.0  )   test? (   dev-libs/dbus-glib   dev-qt/qttest:5  )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtxml:5  farstream? (   >=net-libs/telepathy-farstream-0.2.2   >=net-libs/telepathy-glib-0.18.0  )  
+EAPI=7
+IUSE=debug farstream test 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=0
+SRC_URI=https://telepathy.freedesktop.org/releases/telepathy-qt/telepathy-qt-0.9.8.tar.gz

@@ -1,0 +1,9 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= compile install prepare
+DEPEND=net-analyzer/rrdtool[graph]  dev-lang/perl 
+RDEPEND=net-analyzer/rrdtool[graph]  dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~hppa ~x86
+SLOT=0
+SRC_URI=ftp://ftp.uglypunk.com/uglygs/current/uglygs-rc11.tar.gz

@@ -1,0 +1,9 @@
+474bacb609b7a0fe1c64d5d71d4b2ef8
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  gmp? ( dev-libs/gmp:0= )  mpi? ( virtual/mpi )  zlib? ( sys-libs/zlib )  devref? ( dev-texlive/texlive-latex )  doc? ( dev-texlive/texlive-latex )  doxygen? ( app-doc/doxygen ) 
+RDEPEND=  gmp? ( dev-libs/gmp:0= )  mpi? ( virtual/mpi )  zlib? ( sys-libs/zlib ) 
+EAPI=5
+IUSE=devref doc doxygen gmp mpi threads zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/vermaseren/form/releases/download/v4.2.0/form-4.2.0.tar.gz

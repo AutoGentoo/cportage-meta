@@ -1,0 +1,16 @@
+5b678b98e4ca0db763846ad05cd21f8d
+DEFINED_PHASES= compile configure install postinst postrm prepare unpack
+DEPEND=>=sys-libs/zlib-1.1.4  >=sys-libs/ncurses-5.2-r2  nls? ( sys-devel/gettext )  >=sys-devel/gcc-config-1.8-r1  !<sys-apps/portage-2.2.14  fortran? (   >=dev-libs/gmp-4.2.1   >=dev-libs/mpfr-2.2.0_p10  )  >=sys-apps/texinfo-4.2-r4  >=sys-devel/bison-1.875  sys-devel/binutils-apple  >=dev-libs/mpfr-2.2.0_p10 
+RDEPEND=>=sys-libs/zlib-1.1.4  >=sys-libs/ncurses-5.2-r2  nls? ( sys-devel/gettext )  >=sys-devel/gcc-config-1.8-r1  !<sys-apps/portage-2.2.14  fortran? (   >=dev-libs/gmp-4.2.1   >=dev-libs/mpfr-2.2.0_p10  ) 
+PDEPEND=sys-libs/csu 
+EAPI=5
+IUSE=bootstrap fortran nls +openmp objc objc++ +cxx 
+KEYWORDS=~ppc-macos ~x64-macos ~x86-macos
+SLOT=42
+SRC_URI=http://www.opensource.apple.com/darwinsource/tarballs/other/gcc-5666.3.tar.gz
+		http://www.opensource.apple.com/darwinsource/tarballs/other/libstdcxx-16.tar.gz
+		http://www.opensource.apple.com/darwinsource/tarballs/other/libstdcxx-39.tar.gz
+		fortran? (
+			mirror://gnu/gcc/gcc-4.2.4/gcc-fortran-4.2.4.tar.bz2
+			https://dev.gentoo.org/~grobian/distfiles/gcc-apple-4.2.1_p5646-gfortran.patch
+		)

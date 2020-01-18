@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+DEPEND=    dev-java/ant-core:0  dev-java/maven-bin:3.6  >=virtual/jdk-1.8 
+RDEPEND=    dev-java/ant-core:0  dev-java/maven-bin:3.6  >=virtual/jre-1.8 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86 ~x86-linux
+SLOT=1.10
+SRC_URI=https://github.com/clojure/clojure/tarball/clojure-1.10.0 -> clojure-1.10.0.tar.gz

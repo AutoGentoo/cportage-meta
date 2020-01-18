@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  app-text/poppler[cairo]  dev-libs/atk  dev-libs/glib  gnome-base/libgnomecanvas  media-libs/freetype  media-libs/fontconfig  sys-libs/zlib  x11-libs/cairo  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  x11-libs/pango   virtual/pkgconfig  
+RDEPEND=  app-text/poppler[cairo]  dev-libs/atk  dev-libs/glib  gnome-base/libgnomecanvas  media-libs/freetype  media-libs/fontconfig  sys-libs/zlib  x11-libs/cairo  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  x11-libs/pango   pdf? ( app-text/poppler[utils] app-text/ghostscript-gpl )  
+EAPI=6
+IUSE=+pdf 
+KEYWORDS=
+SLOT=0
+SRC_URI=

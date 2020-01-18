@@ -1,0 +1,10 @@
+9e7708c0f60087e145eab5efc2c5a610
+DEFINED_PHASES= compile configure install postinst postrm prepare test unpack
+DEPEND=  >=sys-devel/binutils-config-3  sys-libs/zlib   doc? ( sys-apps/texinfo )  test? ( dev-util/dejagnu )  nls? ( sys-devel/gettext )  sys-devel/flex  virtual/yacc  
+RDEPEND=  >=sys-devel/binutils-config-3  sys-libs/zlib  
+EAPI=6
+IUSE=+cxx default-gold doc +gold multitarget +nls +plugins static-libs test 
+KEYWORDS=-* hppa
+SLOT=2.32
+SRC_URI=mirror://gnu/binutils/binutils-2.32.tar.xz
+	https://dev.gentoo.org/~dilfridge/distfiles/binutils-2.32-patches-2.tar.xz

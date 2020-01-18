@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-base/xorg-proto  x11-libs/libICE  x11-libs/libXt 
+RDEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm 
+EAPI=7
+IUSE=+suid 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wmping/wmping-0.2.1.tar.gz

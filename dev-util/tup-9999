@@ -1,0 +1,10 @@
+07908d05ab0fdfaa559f26c101102fbf
+DEFINED_PHASES= compile configure install prepare test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  dev-db/sqlite:=  dev-libs/libpcre:=  sys-fs/fuse:=  
+RDEPEND=  dev-db/sqlite:=  dev-libs/libpcre:=  sys-fs/fuse:=  
+EAPI=7
+IUSE=kernel_linux 
+KEYWORDS=
+SLOT=0
+SRC_URI=

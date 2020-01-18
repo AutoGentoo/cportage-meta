@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=virtual/perl-Test-Simple  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=virtual/perl-Test-Simple 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RG/RGARCIA/Test-LongString-0.17.tar.gz

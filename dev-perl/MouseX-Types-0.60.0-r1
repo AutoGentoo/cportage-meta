@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=dev-perl/Any-Moose-0.150.0  >=dev-perl/Mouse-0.770.0   >=virtual/perl-ExtUtils-MakeMaker-6.420.0  test? (   dev-perl/Test-Exception   virtual/perl-Test-Simple  )  
+RDEPEND=  >=dev-perl/Any-Moose-0.150.0  >=dev-perl/Mouse-0.770.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GF/GFUJI/MouseX-Types-0.06.tar.gz

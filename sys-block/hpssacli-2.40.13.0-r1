@@ -1,0 +1,10 @@
+70869abff28b71184b27589e6850749c
+DEFINED_PHASES= install prepare unpack
+RDEPEND=elibc_glibc? ( >sys-libs/glibc-2.14 )  >=sys-libs/libunwind-0.99  >=sys-process/procps-3.3.6 
+EAPI=6
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=
+	amd64? ( https://downloads.linux.hpe.com/SDR/repo/spp/RHEL/6/x86_64/current/hpssacli-2.40-13.0.x86_64.rpm )
+	x86? ( https://downloads.linux.hpe.com/SDR/repo/spp/RHEL/6/i686/current/hpssacli-2.40-13.0.i386.rpm )

@@ -1,0 +1,9 @@
+29ad2a0289c3a04d026bf193c0f47e4c
+DEFINED_PHASES= install
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=
+	amd64? ( http://apt.puppetlabs.com/pool/stretch/puppet/p/pdk/pdk_1.8.0.0-1stretch_amd64.deb )
+

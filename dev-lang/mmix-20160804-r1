@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=virtual/tex-base  doc? ( dev-texlive/texlive-plaingeneric ) 
+RDEPEND=!!media-sound/mmix 
+EAPI=7
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://mmix.cs.hm.edu/src/mmix-20160804.tgz

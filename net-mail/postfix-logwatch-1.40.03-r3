@@ -1,0 +1,8 @@
+033e7eee641af6aa2530422367960970
+DEFINED_PHASES= compile install prepare
+RDEPEND=dev-lang/perl 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/logreporters/postfix-logwatch-1.40.03.tgz

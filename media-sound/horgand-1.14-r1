@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/fltk:1  x11-libs/libXpm  media-libs/libsndfile  media-libs/alsa-lib  media-sound/alsa-utils  media-sound/jack-audio-connection-kit  virtual/pkgconfig 
+RDEPEND=x11-libs/fltk:1  x11-libs/libXpm  media-libs/libsndfile  media-libs/alsa-lib  media-sound/alsa-utils  media-sound/jack-audio-connection-kit 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/horgand-1.14.tar.gz

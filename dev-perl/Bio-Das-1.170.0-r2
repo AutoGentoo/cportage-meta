@@ -1,0 +1,9 @@
+90fe54a724d51cc4d12aa3fb02921679
+DEFINED_PHASES= test
+DEPEND=>=virtual/perl-IO-Compress-1.0  sci-biology/bioperl  >=dev-perl/HTML-Parser-3  >=dev-perl/libwww-perl-5  >=virtual/perl-MIME-Base64-2.12 
+RDEPEND=>=virtual/perl-IO-Compress-1.0  sci-biology/bioperl  >=dev-perl/HTML-Parser-3  >=dev-perl/libwww-perl-5  >=virtual/perl-MIME-Base64-2.12 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LD/LDS/Bio-Das-1.17.tar.gz

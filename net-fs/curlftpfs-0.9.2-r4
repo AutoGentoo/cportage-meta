@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=>=net-misc/curl-7.17.0  >=sys-fs/fuse-2.2:0=  >=dev-libs/glib-2.0  virtual/pkgconfig 
+RDEPEND=>=net-misc/curl-7.17.0  >=sys-fs/fuse-2.2:0=  >=dev-libs/glib-2.0 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 arm ~arm64 x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/curlftpfs/curlftpfs-0.9.2.tar.gz

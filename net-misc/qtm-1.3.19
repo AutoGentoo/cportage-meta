@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-lang/perl  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  virtual/perl-Digest-MD5  dbus? ( dev-qt/qtdbus:5 )  x11-base/xorg-proto  virtual/pkgconfig 
+RDEPEND=dev-lang/perl  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  virtual/perl-Digest-MD5  dbus? ( dev-qt/qtdbus:5 ) 
+EAPI=6
+IUSE=dbus debug 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://bitbucket.org/IndigoJo/qtm-1.3/downloads/qtm-1.3.19.tar.bz2

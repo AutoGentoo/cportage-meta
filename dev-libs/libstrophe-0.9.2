@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=  expat? ( dev-libs/expat )  !expat? ( dev-libs/libxml2:2 )  libressl? ( dev-libs/libressl:0= )  !libressl? ( dev-libs/openssl:0= )   doc? ( app-doc/doxygen )  
+RDEPEND=  expat? ( dev-libs/expat )  !expat? ( dev-libs/libxml2:2 )  libressl? ( dev-libs/libressl:0= )  !libressl? ( dev-libs/openssl:0= )  
+EAPI=7
+IUSE=doc expat libressl 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/strophe/libstrophe/releases/download/0.9.2/libstrophe-0.9.2.tar.gz

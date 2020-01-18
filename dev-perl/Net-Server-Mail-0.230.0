@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/IO-Socket-SSL-1.831.0  virtual/perl-libnet   virtual/perl-ExtUtils-MakeMaker  test? ( dev-perl/Test-Most )  
+RDEPEND=  >=dev-perl/IO-Socket-SSL-1.831.0  virtual/perl-libnet  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GU/GUIMARD/Net-Server-Mail-0.23.tar.gz

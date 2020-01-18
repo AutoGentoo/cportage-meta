@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-lang/perl-5.6.0 
+RDEPEND=ncurses? ( dev-perl/CursesWidgets ) 
+EAPI=6
+IUSE=ncurses 
+KEYWORDS=amd64 ppc s390 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/quickswitch/quickswitch-1.05.tar.gz

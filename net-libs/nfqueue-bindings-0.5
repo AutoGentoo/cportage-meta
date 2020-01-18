@@ -1,0 +1,10 @@
+4482489682bb6e1fee2471d2af2cc346
+DEFINED_PHASES= install prepare setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  python? (   dev-python/dpkt[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   )  perl? ( dev-lang/perl )  net-libs/libnetfilter_queue  dev-lang/swig 
+RDEPEND=  python? (   dev-python/dpkt[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   ) 
+EAPI=5
+IUSE=perl python examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/chifflier/nfqueue-bindings/archive/nfqueue-bindings-0.5.tar.gz

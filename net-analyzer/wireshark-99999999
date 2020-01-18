@@ -1,0 +1,16 @@
+09647ab1516db495f02d81b697baa8f2
+DEFINED_PHASES= configure install postinst postrm setup test
+BDEPEND=  dev-lang/perl  sys-devel/bison  sys-devel/flex  virtual/pkgconfig  doc? (   app-doc/doxygen   dev-ruby/asciidoctor  )  qt5? (   dev-qt/linguist-tools:5  )  
+DEPEND=    >=dev-libs/glib-2.32:2  >=net-dns/c-ares-1.5  dev-libs/libgcrypt:0  bcg729? ( media-libs/bcg729 )  brotli? ( app-arch/brotli )  ciscodump? ( >=net-libs/libssh-0.6 )  filecaps? ( sys-libs/libcap )  http2? ( net-libs/nghttp2 )  kerberos? ( virtual/krb5 )  libxml2? ( dev-libs/libxml2 )  lua? ( >=dev-lang/lua-5.1:* )  lz4? ( app-arch/lz4 )  maxminddb? ( dev-libs/libmaxminddb )  minizip? ( sys-libs/zlib[minizip] )  netlink? ( dev-libs/libnl:3 )  pcap? ( net-libs/libpcap )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtprintsupport:5   dev-qt/qtwidgets:5   x11-misc/xdg-utils  )  sbc? ( media-libs/sbc )  sdjournal? ( sys-apps/systemd )  smi? ( net-libs/libsmi )  snappy? ( app-arch/snappy )  spandsp? ( media-libs/spandsp )  sshdump? ( >=net-libs/libssh-0.6 )  ssl? ( net-libs/gnutls:= )  zlib? ( sys-libs/zlib )   || ( dev-lang/python:3.7 dev-lang/python:3.6 )  
+RDEPEND=    >=dev-libs/glib-2.32:2  >=net-dns/c-ares-1.5  dev-libs/libgcrypt:0  bcg729? ( media-libs/bcg729 )  brotli? ( app-arch/brotli )  ciscodump? ( >=net-libs/libssh-0.6 )  filecaps? ( sys-libs/libcap )  http2? ( net-libs/nghttp2 )  kerberos? ( virtual/krb5 )  libxml2? ( dev-libs/libxml2 )  lua? ( >=dev-lang/lua-5.1:* )  lz4? ( app-arch/lz4 )  maxminddb? ( dev-libs/libmaxminddb )  minizip? ( sys-libs/zlib[minizip] )  netlink? ( dev-libs/libnl:3 )  pcap? ( net-libs/libpcap )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtprintsupport:5   dev-qt/qtwidgets:5   x11-misc/xdg-utils  )  sbc? ( media-libs/sbc )  sdjournal? ( sys-apps/systemd )  smi? ( net-libs/libsmi )  snappy? ( app-arch/snappy )  spandsp? ( media-libs/spandsp )  sshdump? ( >=net-libs/libssh-0.6 )  ssl? ( net-libs/gnutls:= )  zlib? ( sys-libs/zlib )   qt5? ( virtual/freedesktop-icon-theme )  selinux? ( sec-policy/selinux-wireshark )  
+EAPI=7
+IUSE=
+	androiddump bcg729 brotli +capinfos +captype ciscodump +dftest doc dpauxmon
+	+dumpcap +editcap http2 kerberos libxml2 lua lz4 maxminddb +mergecap
+	+minizip +netlink +plugins plugin-ifdemo +pcap +qt5 +randpkt +randpktdump
+	+reordercap sbc selinux +sharkd smi snappy spandsp sshdump ssl sdjournal
+	+text2pcap tfshark +tshark +udpdump zlib
+ 
+KEYWORDS=
+SLOT=0/99999999
+SRC_URI=

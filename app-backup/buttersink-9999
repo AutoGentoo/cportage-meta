@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES=-
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/boto[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/crcmod[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/psutil[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  sys-fs/btrfs-progs  test? ( dev-python/flake8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/boto[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/crcmod[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/psutil[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  sys-fs/btrfs-progs 
+EAPI=6
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

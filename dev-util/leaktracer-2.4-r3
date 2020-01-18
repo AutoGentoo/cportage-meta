@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=dev-lang/perl  sys-devel/gdb 
+RDEPEND=dev-lang/perl  sys-devel/gdb 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/leaktracer-2.4-gentoo_p2.tbz2

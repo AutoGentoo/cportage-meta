@@ -1,0 +1,10 @@
+d99af6f2725abc4e3bb2576bed910116
+DEFINED_PHASES= install postinst preinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=app-text/asciidoc-8.6.0  app-text/xmlto 
+RDEPEND=dev-lang/perl  net-misc/openssh  pv? ( sys-apps/pv )  >=sys-fs/btrfs-progs-3.18.2 
+EAPI=7
+IUSE=+pv 
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=https://digint.ch/download/btrbk/releases/btrbk-0.27.0.tar.xz

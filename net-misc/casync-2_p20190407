@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=>=dev-util/meson-0.48.2  >=dev-util/ninja-1.7.2 
+DEPEND=  app-arch/xz-utils:=  app-arch/zstd:=  dev-libs/openssl:0=  net-misc/curl:=  virtual/acl:=  fuse? ( sys-fs/fuse:0= )  selinux? ( sys-libs/libselinux:= )  udev? ( virtual/libudev:= )   virtual/pkgconfig  man? ( dev-python/sphinx )  
+RDEPEND=  app-arch/xz-utils:=  app-arch/zstd:=  dev-libs/openssl:0=  net-misc/curl:=  virtual/acl:=  fuse? ( sys-fs/fuse:0= )  selinux? ( sys-libs/libselinux:= )  udev? ( virtual/libudev:= )  
+EAPI=7
+IUSE=+fuse +udev man selinux test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/systemd/casync/archive/6d185a540c54195a919d4b44f9bf28c341da3bf1.tar.gz -> casync-2_p20190407.tar.gz

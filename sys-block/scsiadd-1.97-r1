@@ -1,0 +1,7 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= compile install postinst prepare setup
+EAPI=7
+IUSE=suid 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://llg.cubic.org/tools/scsiadd-1.97.tar.gz

@@ -1,0 +1,7 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= install
+EAPI=5
+IUSE=examples 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://www.ftdichip.com/Drivers/D2XX/Linux/libftd2xx1.1.12.tar.gz

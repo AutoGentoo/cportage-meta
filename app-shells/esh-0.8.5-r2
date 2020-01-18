@@ -1,0 +1,9 @@
+94b4710518b0b3d3bf08c75dda217258
+DEFINED_PHASES= compile install prepare
+DEPEND=>=sys-libs/readline-4.1 
+RDEPEND=>=sys-libs/readline-4.1 
+EAPI=5
+IUSE=debug 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://slon.ttk.ru/esh/esh-0.8.5.tar.gz

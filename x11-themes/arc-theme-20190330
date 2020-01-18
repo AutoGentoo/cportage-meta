@@ -1,0 +1,10 @@
+d34cb53c33556fce7c1a42bbcc9cbfb2
+DEFINED_PHASES= configure prepare
+BDEPEND=  cinnamon? (     dev-lang/sassc   )  gnome-shell? (     dev-lang/sassc   )  gtk2? (     !pre-rendered? (   media-gfx/inkscape   media-gfx/optipng  )   )  gtk3? (     dev-lang/sassc      !pre-rendered? (   media-gfx/inkscape   media-gfx/optipng  )    virtual/pkgconfig   >=x11-libs/gtk+-3.18:3  )  xfce? (     !pre-rendered? (   media-gfx/inkscape   media-gfx/optipng  )   )  
+RDEPEND=  gtk2? (   x11-themes/gnome-themes-standard   x11-themes/gtk-engines-murrine  )  
+EAPI=7
+IUSE=cinnamon gnome-shell +gtk2 +gtk3 mate +pre-rendered xfce 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://github.com/NicoHood/arc-theme/releases/download/20190330/arc-theme-20190330.tar.xz
+	pre-rendered? ( https://dev.gentoo.org/~chewi/distfiles/arc-theme-20190330-pngs.tar.xz )

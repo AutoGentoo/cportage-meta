@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install
+RDEPEND=>=www-apache/mod_security-2.5.1 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/Flameeyes/modsec-flameeyes/archive/20130216.tar.gz -> modsec-flameeyes-20130216.tar.gz

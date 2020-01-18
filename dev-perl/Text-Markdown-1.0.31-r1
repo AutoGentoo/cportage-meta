@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  virtual/perl-Digest-MD5  virtual/perl-Getopt-Long  virtual/perl-Text-Balanced   test? (   virtual/perl-Test-Simple   dev-perl/Text-Diff   dev-perl/List-MoreUtils   dev-perl/Test-Differences   dev-perl/Test-Exception  )  
+RDEPEND=  virtual/perl-Digest-MD5  virtual/perl-Getopt-Long  virtual/perl-Text-Balanced  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BO/BOBTFISH/Text-Markdown-1.000031.tar.gz

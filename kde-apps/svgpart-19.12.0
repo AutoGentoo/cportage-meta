@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.63.0:5 
+DEPEND=  >=kde-frameworks/kconfigwidgets-5.63.0:5  >=kde-frameworks/kcoreaddons-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5  >=kde-frameworks/kparts-5.63.0:5  >=kde-frameworks/kxmlgui-5.63.0:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtsvg-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  
+RDEPEND=  >=kde-frameworks/kconfigwidgets-5.63.0:5  >=kde-frameworks/kcoreaddons-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5  >=kde-frameworks/kparts-5.63.0:5  >=kde-frameworks/kxmlgui-5.63.0:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtsvg-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=5
+SRC_URI=mirror://kde/stable/release-service/19.12.0/src/svgpart-19.12.0.tar.xz

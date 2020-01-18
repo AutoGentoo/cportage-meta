@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=acct-group/gamestat  media-fonts/font-misc-misc  gtk? ( x11-libs/gtk+:2 )  !gtk? ( x11-libs/libXaw ) 
+RDEPEND=acct-group/gamestat  media-fonts/font-misc-misc  gtk? ( x11-libs/gtk+:2 )  !gtk? ( x11-libs/libXaw ) 
+EAPI=7
+IUSE=gtk 
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.xbill.org/download/xbill-2.1.tar.gz

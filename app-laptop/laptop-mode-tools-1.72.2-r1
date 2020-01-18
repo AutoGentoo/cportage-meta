@@ -1,0 +1,9 @@
+8f0991b85a28f8f9d0e9e258ed7bd365
+DEFINED_PHASES= compile install postinst prepare
+BDEPEND=virtual/pkgconfig 
+RDEPEND=sys-apps/iproute2  sys-apps/ethtool  sys-apps/which  || (   sys-apps/sdparm   sys-apps/hdparm  )  acpi? ( sys-power/acpid )  apm? ( sys-apps/apmd )  bluetooth? ( net-wireless/bluez:= ) 
+EAPI=7
+IUSE=+acpi apm bluetooth 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/rickysarraf/laptop-mode-tools/releases/download/1.72.2/laptop-mode-tools_1.72.2.tar.gz

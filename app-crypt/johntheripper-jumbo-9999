@@ -1,0 +1,10 @@
+23bfd662d37ff60cd2c42d2a066bcc46
+DEFINED_PHASES= compile configure install prepare setup test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=>=dev-libs/openssl-1.0.1:0  mpi? ( virtual/mpi )  opencl? ( virtual/opencl )  kerberos? ( virtual/krb5 )  pcap? ( net-libs/libpcap )  dev-libs/gmp:*  sys-libs/zlib  app-arch/bzip2 
+RDEPEND=>=dev-libs/openssl-1.0.1:0  mpi? ( virtual/mpi )  opencl? ( virtual/opencl )  kerberos? ( virtual/krb5 )  pcap? ( net-libs/libpcap )  dev-libs/gmp:*  sys-libs/zlib  app-arch/bzip2   !app-crypt/johntheripper 
+EAPI=7
+IUSE=custom-cflags kerberos mpi opencl openmp pcap 
+KEYWORDS=
+SLOT=0
+SRC_URI=

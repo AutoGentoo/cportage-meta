@@ -1,0 +1,10 @@
+d3664b0023311487f0ff458d9ff661ed
+DEFINED_PHASES= install postinst prepare
+BDEPEND=>=dev-util/patchelf-0.10 
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info  
+RDEPEND=  dev-libs/nss  dev-python/dbus-python  dev-python/pygobject:3  libnotify? ( x11-libs/libnotify )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  media-libs/alsa-lib  media-libs/fontconfig  media-libs/harfbuzz  media-libs/mesa[X(+)]  net-misc/curl[ssl]  net-print/cups[ssl]  || ( media-sound/pulseaudio media-sound/apulse )  systray? ( gnome-extra/gnome-integration-spotify )  x11-libs/gtk+:2  x11-libs/libXScrnSaver  x11-libs/libXtst  
+EAPI=7
+IUSE=libnotify libressl systray pax_kernel 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://repository.spotify.com/pool/non-free/s/spotify-client/spotify-client_1.1.10.546.ge08ef575-19_amd64.deb

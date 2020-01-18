@@ -1,0 +1,9 @@
+8552934260845c06263abda2471bd025
+DEFINED_PHASES= compile install
+DEPEND=nls? ( virtual/libintl )  nls? ( sys-devel/gettext ) 
+RDEPEND=nls? ( virtual/libintl ) 
+EAPI=7
+IUSE=nls 
+KEYWORDS=~ppc-aix ~x64-cygwin ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://frodo.looijaard.name/system/files/software/getopt/getopt-1.1.6.tar.gz

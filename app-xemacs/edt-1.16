@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=app-editors/xemacs 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/edt-1.16-pkg.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+DEPEND=games-fps/ut2003  app-arch/unzip 
+RDEPEND=games-fps/ut2003 
+EAPI=5
+IUSE=
+KEYWORDS=~x86
+SLOT=1
+SRC_URI=https://downloads.unrealadmin.org/UT2003/BonusPack/cbp2003.zip

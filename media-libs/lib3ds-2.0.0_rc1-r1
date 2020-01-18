@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=app-arch/unzip 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=~amd64 ~arm64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://lib3ds.googlecode.com/files/lib3ds-20080909.zip

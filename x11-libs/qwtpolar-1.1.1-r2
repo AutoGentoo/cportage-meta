@@ -1,0 +1,9 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  x11-libs/qwt:6=[designer,qt5(+),svg]   dev-qt/qtconcurrent:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  x11-libs/qwt:6=[designer,qt5(+),svg]  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/qwtpolar/qwtpolar-1.1.1.tar.bz2

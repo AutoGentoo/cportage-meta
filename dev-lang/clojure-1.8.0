@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86 ~x86-linux
+SLOT=1.8
+SRC_URI=https://github.com/clojure/clojure/tarball/clojure-1.8.0 -> clojure-1.8.0.tar.gz

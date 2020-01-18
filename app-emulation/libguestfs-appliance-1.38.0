@@ -1,0 +1,9 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= install unpack
+DEPEND=app-arch/xz-utils 
+RDEPEND=!<app-emulation/libguestfs-1.38.0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://libguestfs.org/download/binaries/appliance/appliance-1.38.0.tar.xz

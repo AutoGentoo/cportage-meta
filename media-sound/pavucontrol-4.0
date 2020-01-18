@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  virtual/pkgconfig  nls? (   dev-util/intltool   sys-devel/gettext  )  
+DEPEND=  >=dev-cpp/gtkmm-3.0:3.0[X]  >=dev-libs/libsigc++-2.2:2  >=media-libs/libcanberra-0.16[gtk3]  >=media-sound/pulseaudio-5[glib]  virtual/freedesktop-icon-theme  
+RDEPEND=  >=dev-cpp/gtkmm-3.0:3.0[X]  >=dev-libs/libsigc++-2.2:2  >=media-libs/libcanberra-0.16[gtk3]  >=media-sound/pulseaudio-5[glib]  virtual/freedesktop-icon-theme  
+EAPI=7
+IUSE=nls 
+KEYWORDS=amd64 ~arm64 ~hppa ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://freedesktop.org/software/pulseaudio/pavucontrol/pavucontrol-4.0.tar.xz

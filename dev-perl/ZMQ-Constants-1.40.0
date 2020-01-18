@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  net-libs/zeromq   >=virtual/perl-ExtUtils-MakeMaker-6.360.0  
+RDEPEND=  net-libs/zeromq  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DM/DMAKI/ZMQ-Constants-1.04.tar.gz

@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES=-
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+DEPEND=  >=dev-python/django-1.11[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/python-sqlparse-0.2.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? ( dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )   dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+RDEPEND=  >=dev-python/django-1.11[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/python-sqlparse-0.2.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? ( dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  
+EAPI=7
+IUSE=doc examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/django-debug-toolbar/django-debug-toolbar/archive/2.0.tar.gz -> django-debug-toolbar-2.0.tar.gz

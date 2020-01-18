@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-util/promu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prometheus/prom2json/archive/4a7436442837da72f9e211d99f0145dff3246b66.tar.gz -> prom2json-0.1.0_p20170523.tar.gz

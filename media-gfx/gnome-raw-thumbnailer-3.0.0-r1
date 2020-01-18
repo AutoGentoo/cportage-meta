@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=media-libs/libopenraw-0.1.0[gtk]  >=x11-libs/gdk-pixbuf-2:2  >=dev-libs/glib-2.26:2  !media-gfx/raw-thumbnailer   dev-util/intltool  gnome-base/gnome-common  sys-devel/gettext  virtual/pkgconfig  
+RDEPEND=  >=media-libs/libopenraw-0.1.0[gtk]  >=x11-libs/gdk-pixbuf-2:2  >=dev-libs/glib-2.26:2  !media-gfx/raw-thumbnailer  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://libopenraw.freedesktop.org/download/raw-thumbnailer-3.0.0.tar.bz2

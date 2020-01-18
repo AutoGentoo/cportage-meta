@@ -1,0 +1,7 @@
+3d53c833ebebc48b7d65d2b5ff80a2c4
+DEFINED_PHASES= prepare
+EAPI=6
+IUSE=debug doc examples 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/01org/tbb/archive/2018_U3.tar.gz -> tbb-2018.20180312.tar.gz

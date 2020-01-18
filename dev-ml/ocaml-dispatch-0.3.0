@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  javascript? ( dev-ml/js_of_ocaml:=[ppx,ocamlopt?] )  dev-ml/result:=[ocamlopt?]   test? ( dev-ml/ounit[ocamlopt?] )  
+RDEPEND=  javascript? ( dev-ml/js_of_ocaml:=[ppx,ocamlopt?] )  dev-ml/result:=[ocamlopt?]  
+EAPI=5
+IUSE=javascript 
+KEYWORDS=~amd64
+SLOT=0/0.3.0
+SRC_URI=https://github.com/inhabitedtype/ocaml-dispatch/archive/0.3.0.tar.gz -> ocaml-dispatch-0.3.0.tar.gz

@@ -1,0 +1,10 @@
+756a698647d86b364ec837452633961c
+DEFINED_PHASES= configure
+BDEPEND=  nls? ( >=dev-qt/linguist-tools-5.12.3:5 )  
+DEPEND=  >=kde-frameworks/kcodecs-5.64:5  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/kwindowsystem-5.64:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  dbus? ( dev-libs/libdbusmenu-qt[qt5(+)] )  !phonon? ( media-libs/libcanberra )  phonon? ( media-libs/phonon[qt5(+)] )  speech? ( >=dev-qt/qtspeech-5.12.3:5 )  X? (   >=dev-qt/qtx11extras-5.12.3:5   x11-libs/libX11   x11-libs/libXtst  )   X? ( x11-base/xorg-proto )  
+RDEPEND=  >=kde-frameworks/kcodecs-5.64:5  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/kwindowsystem-5.64:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  dbus? ( dev-libs/libdbusmenu-qt[qt5(+)] )  !phonon? ( media-libs/libcanberra )  phonon? ( media-libs/phonon[qt5(+)] )  speech? ( >=dev-qt/qtspeech-5.12.3:5 )  X? (   >=dev-qt/qtx11extras-5.12.3:5   x11-libs/libX11   x11-libs/libXtst  )  
+EAPI=7
+IUSE=dbus nls phonon speech X 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/knotifications-5.64.0.tar.xz

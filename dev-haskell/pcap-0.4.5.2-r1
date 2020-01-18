@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-haskell/network:=[profile?]   >=dev-lang/ghc-6.12.1:=   net-libs/libpcap   >=dev-haskell/cabal-1.6 
+RDEPEND=dev-haskell/network:=[profile?]   >=dev-lang/ghc-6.12.1:=   net-libs/libpcap 
+EAPI=5
+IUSE=
+KEYWORDS=~alpha amd64 ~ia64 ppc ppc64 sparc x86
+SLOT=0/0.4.5.2
+SRC_URI=https://hackage.haskell.org/package/pcap-0.4.5.2/pcap-0.4.5.2.tar.gz

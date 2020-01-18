@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=  vala? ( || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.42 dev-lang/vala:0.40 dev-lang/vala:0.36 ) )  virtual/pkgconfig  gtk-doc? ( dev-util/gtk-doc )  
+DEPEND=  dev-libs/glib:2  dev-libs/json-glib[introspection?]  introspection? ( dev-libs/gobject-introspection:= )  
+RDEPEND=  dev-libs/glib:2  dev-libs/json-glib[introspection?]  introspection? ( dev-libs/gobject-introspection:= )  
+EAPI=7
+IUSE=gtk-doc +introspection test vala 
+KEYWORDS=amd64 x86
+SLOT=0/1
+SRC_URI=mirror://gnome/sources/jsonrpc-glib/3.32/jsonrpc-glib-3.32.0.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  dev-libs/glib:2  dev-libs/json-glib[introspection?]  net-libs/libsoup:2.4[introspection?]  net-libs/gnome-online-accounts  net-libs/rest:0.7[introspection?]  introspection? ( >=dev-libs/gobject-introspection-1.30:= )   >=dev-util/gtk-doc-am-1.14  virtual/pkgconfig  
+RDEPEND=  dev-libs/glib:2  dev-libs/json-glib[introspection?]  net-libs/libsoup:2.4[introspection?]  net-libs/gnome-online-accounts  net-libs/rest:0.7[introspection?]  introspection? ( >=dev-libs/gobject-introspection-1.30:= )  
+EAPI=5
+IUSE=+introspection 
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0.2
+SRC_URI=mirror://gnome/sources/gfbgraph/0.2/gfbgraph-0.2.3.tar.xz

@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  >=net-libs/libssh-0.7.5-r2  net-print/cups  x11-libs/libXpm  ldap? ( net-nds/openldap )  dev-qt/linguist-tools:5 
+RDEPEND=dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  >=net-libs/libssh-0.7.5-r2  net-print/cups  x11-libs/libXpm  ldap? ( net-nds/openldap )  net-misc/nx 
+EAPI=6
+IUSE=ldap 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://code.x2go.org/releases/source/x2goclient/x2goclient-4.1.2.1.tar.gz

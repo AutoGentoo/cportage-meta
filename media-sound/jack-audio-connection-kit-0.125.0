@@ -1,0 +1,9 @@
+d3a6b61e36257bf2cb39ffbcfc0ea7bd
+DEFINED_PHASES= prepare
+DEPEND=  sys-libs/db:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  sys-libs/readline:0=  >=media-libs/libsndfile-1.0.0  alsa? ( >=media-libs/alsa-lib-1.0.27.2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  >=media-libs/libsamplerate-0.1.8-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  !media-sound/jack-cvs  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=  sys-libs/db:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  sys-libs/readline:0=  >=media-libs/libsndfile-1.0.0  alsa? ( >=media-libs/alsa-lib-1.0.27.2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  >=media-libs/libsamplerate-0.1.8-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  !media-sound/jack-cvs  alsa? ( sys-process/lsof )  pam? ( sys-auth/realtime-base ) 
+EAPI=5
+IUSE=cpu_flags_x86_3dnow altivec alsa coreaudio doc debug examples oss cpu_flags_x86_sse pam 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ppc ppc64 s390 ~sh sparc x86
+SLOT=0
+SRC_URI=http://www.jackaudio.org/downloads/jack-audio-connection-kit-0.125.0.tar.gz

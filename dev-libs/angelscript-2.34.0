@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare setup
+BDEPEND=app-arch/unzip 
+EAPI=7
+IUSE=doc static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0/2.34.0
+SRC_URI=http://www.angelcode.com/angelscript/sdk/files/angelscript_2.34.0.zip

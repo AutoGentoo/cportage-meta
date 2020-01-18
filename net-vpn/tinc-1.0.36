@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  lzo? ( dev-libs/lzo:2 )  zlib? ( sys-libs/zlib ) 
+RDEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  lzo? ( dev-libs/lzo:2 )  zlib? ( sys-libs/zlib )  vde? ( net-misc/vde ) 
+EAPI=7
+IUSE=libressl +lzo uml vde +zlib 
+KEYWORDS=~amd64 ~arm ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.tinc-vpn.org/packages/tinc-1.0.36.tar.gz

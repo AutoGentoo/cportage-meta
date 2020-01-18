@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=ncurses? ( sys-libs/ncurses:= ) 
+RDEPEND=ncurses? ( sys-libs/ncurses:= ) 
+EAPI=6
+IUSE=debug ncurses 
+KEYWORDS=x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ald/ald-0.1.7.tar.gz

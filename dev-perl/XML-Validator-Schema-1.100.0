@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/XML-SAX  dev-perl/Tree-DAG_Node  dev-perl/XML-Filter-BufferText 
+RDEPEND=dev-perl/XML-SAX  dev-perl/Tree-DAG_Node  dev-perl/XML-Filter-BufferText 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SAMTREGAR/XML-Validator-Schema-1.10.tar.gz

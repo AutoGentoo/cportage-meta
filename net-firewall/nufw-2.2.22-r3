@@ -1,0 +1,9 @@
+d43b9c8fb956c66f902537f1721ae218
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  dev-libs/cyrus-sasl  dev-libs/glib:2  dev-libs/libgcrypt:0  dev-python/ipy  net-firewall/iptables  net-libs/gnutls  ldap? ( >=net-nds/openldap-2 )  mysql? ( dev-db/mysql-connector-c )  nfconntrack? ( net-libs/libnetfilter_conntrack )  nfqueue? ( net-libs/libnfnetlink net-libs/libnetfilter_queue )  pam? ( sys-libs/pam )  pam_nuauth? ( sys-libs/pam )  postgres? ( dev-db/postgresql:*[server] )  prelude? ( dev-libs/libprelude )  
+RDEPEND=  dev-libs/cyrus-sasl  dev-libs/glib:2  dev-libs/libgcrypt:0  dev-python/ipy  net-firewall/iptables  net-libs/gnutls  ldap? ( >=net-nds/openldap-2 )  mysql? ( dev-db/mysql-connector-c )  nfconntrack? ( net-libs/libnetfilter_conntrack )  nfqueue? ( net-libs/libnfnetlink net-libs/libnetfilter_queue )  pam? ( sys-libs/pam )  pam_nuauth? ( sys-libs/pam )  postgres? ( dev-db/postgresql:*[server] )  prelude? ( dev-libs/libprelude )  
+EAPI=6
+IUSE=debug ldap mysql pam pam_nuauth plaintext postgres prelude unicode nfqueue nfconntrack static syslog test 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=http://www.nufw.org/attachments/download/39/nufw-2.2.22.tar.bz2

@@ -1,0 +1,10 @@
+03adaf78b74c923a08c989d990d03f2e
+DEFINED_PHASES= install postinst postrm prepare
+DEPEND=sys-apps/sed 
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtquickcontrols:5  dev-qt/qtwebkit:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  sys-apps/dbus  !sys-auth/consolekit  
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( https://dl.tvcdn.de/download/linux/version_15x/teamviewer_15.1.3937_amd64.tar.xz )
+		x86? ( https://dl.tvcdn.de/download/linux/version_15x/teamviewer_15.1.3937_i386.tar.xz )

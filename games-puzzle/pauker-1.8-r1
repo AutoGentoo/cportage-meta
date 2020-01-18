@@ -1,0 +1,9 @@
+98fc6dd77cb040d6afb2a8c3b18c0fc7
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-java/browserlauncher2:1.0  dev-java/javahelp  dev-java/lucene:2.4  dev-java/swing-layout:1   >=virtual/jdk-1.5  app-arch/unzip  
+RDEPEND=  dev-java/browserlauncher2:1.0  dev-java/javahelp  dev-java/lucene:2.4  dev-java/swing-layout:1   >=virtual/jre-1.5  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pauker/pauker-1.8.src.jar

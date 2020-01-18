@@ -1,0 +1,9 @@
+3597a99d2016849f0895ff2cd85f776b
+DEFINED_PHASES= configure install postinst prepare setup
+DEPEND=app-text/asciidoc  app-arch/bzip2  app-text/docbook-xml-dtd:4.4  dev-libs/glib:2  dev-libs/libaio  libnet? ( net-libs/libnet:1.1 )  net-misc/curl  net-misc/iputils  || ( net-misc/netkit-telnetd net-misc/telnet-bsd )  dev-libs/libxml2  !<sys-cluster/heartbeat-3.0  doc? (   dev-libs/libxslt   app-text/docbook-xsl-stylesheets   ) 
+RDEPEND=app-text/asciidoc  app-arch/bzip2  app-text/docbook-xml-dtd:4.4  dev-libs/glib:2  dev-libs/libaio  libnet? ( net-libs/libnet:1.1 )  net-misc/curl  net-misc/iputils  || ( net-misc/netkit-telnetd net-misc/telnet-bsd )  dev-libs/libxml2  !<sys-cluster/heartbeat-3.0 
+EAPI=6
+IUSE=doc libnet static-libs 
+KEYWORDS=amd64 hppa x86
+SLOT=0
+SRC_URI=http://hg.linux-ha.org/glue/archive/glue-1.0.12.tar.bz2

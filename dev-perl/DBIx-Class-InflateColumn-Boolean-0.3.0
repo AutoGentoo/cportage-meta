@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=>=dev-perl/DBIx-Class-0.80.0  virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Path-Class   dev-perl/SQL-Translator   virtual/perl-Test-Simple  )  
+RDEPEND=>=dev-perl/DBIx-Class-0.80.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GR/GRAF/DBIx-Class-InflateColumn-Boolean-0.003000.tar.gz

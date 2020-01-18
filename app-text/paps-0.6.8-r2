@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=x11-libs/pango  virtual/pkgconfig 
+RDEPEND=x11-libs/pango 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/paps/paps-0.6.8.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Crypt-Rijndael 
+RDEPEND=dev-perl/Crypt-Rijndael 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JT/JTK/IP-Anonymous-0.04.tar.gz

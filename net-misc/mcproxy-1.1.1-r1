@@ -1,0 +1,9 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-qt/qtcore:5  doc? ( app-doc/doxygen )  
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/mcproxy/mcproxy/archive/v1.1.1.tar.gz -> mcproxy-1.1.1.tar.gz

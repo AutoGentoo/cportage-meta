@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=test? ( dev-cpp/catch:1 ) 
+RDEPEND=x11-misc/dmenu 
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/enkore/j4-dmenu-desktop/archive/r2.17.tar.gz -> j4-dmenu-desktop-2.17.tar.gz

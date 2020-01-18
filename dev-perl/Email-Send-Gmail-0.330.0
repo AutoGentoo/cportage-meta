@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Authen-SASL   dev-perl/Email-Address   dev-perl/Email-Send   dev-perl/Net-SMTP-SSL  test? ( dev-perl/Test-Pod ) 
+RDEPEND=dev-perl/Authen-SASL   dev-perl/Email-Address   dev-perl/Email-Send   dev-perl/Net-SMTP-SSL 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~mips x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LB/LBROCARD/Email-Send-Gmail-0.33.tar.gz

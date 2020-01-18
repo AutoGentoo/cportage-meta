@@ -1,0 +1,10 @@
+50bad4eb69f298cccb30e0d8402df9ae
+DEFINED_PHASES= configure install setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  app-arch/bzip2[abi_x86_32(-)]  app-arch/xz-utils[abi_x86_32(-)]  dev-libs/libaio[abi_x86_32(-)]  dev-libs/libxml2:2[abi_x86_32(-)]  media-libs/alsa-lib[abi_x86_32(-)]  media-libs/libpng:=[abi_x86_32(-)]  media-libs/libsdl2[abi_x86_32(-),haptic,joystick,sound]  media-libs/libsoundtouch[abi_x86_32(-)]  media-libs/portaudio[abi_x86_32(-)]  net-libs/libpcap[abi_x86_32(-)]  sys-libs/zlib[abi_x86_32(-)]  virtual/libudev[abi_x86_32(-)]  virtual/opengl[abi_x86_32(-)]  x11-libs/gtk+:3[abi_x86_32(-)]  x11-libs/libICE[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  >=x11-libs/wxGTK-3.0.4-r301:3.0-gtk3[abi_x86_32(-),X]   dev-cpp/pngpp  dev-cpp/sparsehash  
+RDEPEND=  app-arch/bzip2[abi_x86_32(-)]  app-arch/xz-utils[abi_x86_32(-)]  dev-libs/libaio[abi_x86_32(-)]  dev-libs/libxml2:2[abi_x86_32(-)]  media-libs/alsa-lib[abi_x86_32(-)]  media-libs/libpng:=[abi_x86_32(-)]  media-libs/libsdl2[abi_x86_32(-),haptic,joystick,sound]  media-libs/libsoundtouch[abi_x86_32(-)]  media-libs/portaudio[abi_x86_32(-)]  net-libs/libpcap[abi_x86_32(-)]  sys-libs/zlib[abi_x86_32(-)]  virtual/libudev[abi_x86_32(-)]  virtual/opengl[abi_x86_32(-)]  x11-libs/gtk+:3[abi_x86_32(-)]  x11-libs/libICE[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  >=x11-libs/wxGTK-3.0.4-r301:3.0-gtk3[abi_x86_32(-),X]  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

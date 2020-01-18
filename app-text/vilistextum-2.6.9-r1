@@ -1,0 +1,8 @@
+367efd4def1da508034d37eb54953aa2
+DEFINED_PHASES= configure install prepare test
+DEPEND=virtual/libiconv 
+EAPI=5
+IUSE=unicode 
+KEYWORDS=amd64 ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://bhaak.dyndns.org/vilistextum/vilistextum-2.6.9.tar.bz2

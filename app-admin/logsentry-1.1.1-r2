@@ -1,0 +1,9 @@
+de219ae36f9f6380dac43c52bcc6aa51
+DEFINED_PHASES= compile install postinst
+DEPEND=>=sys-apps/sed-4 
+RDEPEND=virtual/mailx 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm ~mips ppc ~s390 ~sh sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/logsentry-1.1.1.tar.gz

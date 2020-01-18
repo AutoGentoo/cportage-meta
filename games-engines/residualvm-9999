@@ -1,0 +1,10 @@
+284a853fdf263baff503f0489d6a0c97
+DEFINED_PHASES= compile configure install
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  media-libs/glew:0=  media-libs/libsdl2[X,sound,alsa,joystick,opengl,video]  virtual/glu  alsa? ( media-libs/alsa-lib )  jpeg? ( virtual/jpeg:0 )  mp3? ( media-libs/libmad )  mpeg2? ( media-libs/libmpeg2 )  opengl? ( virtual/opengl )  png? ( media-libs/libpng:0= )  truetype? ( media-libs/freetype:2 )  vorbis? ( media-libs/libvorbis )  zlib? ( sys-libs/zlib:= )  
+RDEPEND=  media-libs/glew:0=  media-libs/libsdl2[X,sound,alsa,joystick,opengl,video]  virtual/glu  alsa? ( media-libs/alsa-lib )  jpeg? ( virtual/jpeg:0 )  mp3? ( media-libs/libmad )  mpeg2? ( media-libs/libmpeg2 )  opengl? ( virtual/opengl )  png? ( media-libs/libpng:0= )  truetype? ( media-libs/freetype:2 )  vorbis? ( media-libs/libvorbis )  zlib? ( sys-libs/zlib:= )  
+EAPI=7
+IUSE=alsa debug jpeg mpeg2 mp3 opengl png truetype vorbis zlib 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+bb14d955275c98ed1aeb0ebf37ef95be
+DEFINED_PHASES= install nofetch postinst
+DEPEND=app-arch/unzip 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=kernel_linux? ( http://www.lsi.com/downloads/Public/SATA/SATA%20Common%20Files//CLI_linux-from_the_10.2.2.1_9.5.5.1_codesets.zip )
+		 kernel_FreeBSD? ( http://www.lsi.com/downloads/Public/SATA/SATA%20Common%20Files//CLI_freebsd-from_the_10.2.2.1_9.5.5.1_codesets.zip )
+		 https://gitweb.gentoo.org/repo/gentoo.git/plain/licenses/LSI-tw_cli

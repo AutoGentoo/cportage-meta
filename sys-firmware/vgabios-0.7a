@@ -1,0 +1,9 @@
+c1ce18527ac9ba70dc59f969d9a4d353
+DEFINED_PHASES= compile install prepare
+DEPEND=amd64? ( sys-devel/dev86 )  x86? ( sys-devel/dev86 ) 
+EAPI=4
+IUSE=debug 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://savannah.gnu.org/download/vgabios/vgabios-0.7a.tgz
+	https://dev.gentoo.org/~cardoe/distfiles/vgabios-0.7a-fixes-1.tar.bz2

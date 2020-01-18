@@ -1,0 +1,7 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile install prepare
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tinyscheme/tinyscheme-1.41.tar.gz

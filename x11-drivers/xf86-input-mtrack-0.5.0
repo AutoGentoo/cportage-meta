@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst
+DEPEND=>=sys-libs/mtdev-1.0  x11-base/xorg-server:=  x11-base/xorg-proto 
+RDEPEND=>=sys-libs/mtdev-1.0  x11-base/xorg-server:= 
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://github.com/p2rkw/xf86-input-mtrack/archive/v0.5.0.tar.gz -> xf86-input-mtrack-0.5.0.tar.gz

@@ -1,0 +1,9 @@
+e6c64c8d7e38ad688f02343a5e8bc762
+DEFINED_PHASES= configure install prepare test
+DEPEND=  boost? ( dev-libs/boost:0= )  mpi? ( sys-cluster/ampi:0= )  sparse? ( sci-libs/colpack:0= ) 
+RDEPEND=  boost? ( dev-libs/boost:0= )  mpi? ( sys-cluster/ampi:0= )  sparse? ( sci-libs/colpack:0= ) 
+EAPI=6
+IUSE=+boost mpi sparse static-libs 
+KEYWORDS=
+SLOT=0/2
+SRC_URI=

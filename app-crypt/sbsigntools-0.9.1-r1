@@ -1,0 +1,10 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= prepare
+DEPEND=  dev-libs/openssl:0=  sys-apps/util-linux  sys-apps/help2man  sys-boot/gnu-efi  sys-libs/binutils-libs  virtual/pkgconfig 
+RDEPEND=  dev-libs/openssl:0=  sys-apps/util-linux 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://git.kernel.org/pub/scm/linux/kernel/git/jejb/sbsigntools.git/snapshot/sbsigntools-0.9.1.tar.gz
+	https://dev.gentoo.org/~tamiko/distfiles/sbsigntool-0.8-ccan.tar.gz

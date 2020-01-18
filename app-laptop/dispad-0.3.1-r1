@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-libs/confuse  x11-libs/libX11  x11-libs/libXi 
+RDEPEND=  dev-libs/confuse  x11-libs/libX11  x11-libs/libXi 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/BlueDragonX/dispad/tarball/v0.3.1 -> dispad-0.3.1.tar.gz

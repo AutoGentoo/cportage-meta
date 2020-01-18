@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Data-ObjectDriver-0.06  dev-perl/Module-Build  
+RDEPEND=>=dev-perl/Data-ObjectDriver-0.06 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JF/JFEARN/TheSchwartz-1.12.tar.gz

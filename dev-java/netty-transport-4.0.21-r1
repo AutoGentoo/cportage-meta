@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.7  dev-java/netty-buffer:0  dev-java/netty-common:0 
+RDEPEND=>=virtual/jre-1.7  dev-java/netty-buffer:0  dev-java/netty-common:0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/netty/netty/archive/netty-4.0.21.Final.tar.gz

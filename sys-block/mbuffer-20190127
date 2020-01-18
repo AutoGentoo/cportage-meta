@@ -1,0 +1,9 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= configure postinst prepare test
+DEPEND=ssl? ( dev-libs/openssl:0= )  test? ( dev-libs/openssl:0 ) 
+RDEPEND=ssl? ( dev-libs/openssl:0= ) 
+EAPI=6
+IUSE=debug ssl test 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=http://www.maier-komor.de/software/mbuffer/mbuffer-20190127.tgz

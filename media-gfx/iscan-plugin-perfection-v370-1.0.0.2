@@ -1,0 +1,10 @@
+65c2fd5beef9ab5665c02a6f8890e3e0
+DEFINED_PHASES= compile configure install postinst prerm setup
+DEPEND=>=media-gfx/iscan-2.21.0 
+RDEPEND=>=media-gfx/iscan-2.21.0 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-perfection-v370-1.0.0-2.x86_64.rpm )
+	x86? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-perfection-v370-1.0.0-2.i386.rpm )

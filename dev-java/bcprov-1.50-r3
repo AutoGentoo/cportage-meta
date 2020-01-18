@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install unpack
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip   
+RDEPEND=>=virtual/jre-1.6   
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=http://www.bouncycastle.org/download/bcprov-jdk15on-150.tar.gz

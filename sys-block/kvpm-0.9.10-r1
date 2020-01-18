@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake handbook? ( >=kde-frameworks/kdoctools-5.60.0:5 ) >=kde-frameworks/extra-cmake-modules-5.60.0:5 
+DEPEND=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=kde-frameworks/kconfig-5.60.0:5  >=kde-frameworks/kconfigwidgets-5.60.0:5  >=kde-frameworks/kcoreaddons-5.60.0:5  >=kde-frameworks/ki18n-5.60.0:5  >=kde-frameworks/kdelibs4support-5.60.0:5  >=kde-frameworks/kwidgetsaddons-5.60.0:5  >=kde-frameworks/kxmlgui-5.60.0:5  sys-apps/util-linux  >=sys-block/parted-2.3  >=sys-fs/lvm2-2.02.120  
+RDEPEND=  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=kde-frameworks/kconfig-5.60.0:5  >=kde-frameworks/kconfigwidgets-5.60.0:5  >=kde-frameworks/kcoreaddons-5.60.0:5  >=kde-frameworks/ki18n-5.60.0:5  >=kde-frameworks/kdelibs4support-5.60.0:5  >=kde-frameworks/kwidgetsaddons-5.60.0:5  >=kde-frameworks/kxmlgui-5.60.0:5  sys-apps/util-linux  >=sys-block/parted-2.3  >=sys-fs/lvm2-2.02.120   !sys-block/kvpm:4  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=5
+SRC_URI=mirror://sourceforge/kvpm/kvpm-0.9.10.tar.gz

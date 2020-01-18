@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=media-gfx/sane-backends-1.0.19  dev-perl/ExtUtils-Depends  dev-perl/ExtUtils-PkgConfig  test? ( dev-perl/Test-Pod ) 
+RDEPEND=>=media-gfx/sane-backends-1.0.19 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RA/RATCLIFFE/Sane-0.05.tar.gz

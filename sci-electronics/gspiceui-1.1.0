@@ -1,0 +1,9 @@
+c0a3d0413c504d48d23738634a1b50d6
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=x11-libs/wxGTK:3.0[X]  sci-electronics/electronics-menu 
+RDEPEND=x11-libs/wxGTK:3.0[X]  sci-electronics/electronics-menu  || ( sci-electronics/ngspice sci-electronics/gnucap )  waveform? ( sci-electronics/gwave )  schematics? ( sci-electronics/geda ) 
+EAPI=5
+IUSE=examples schematics waveform 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gspiceui/gspiceui-v1.1.00.tar.gz

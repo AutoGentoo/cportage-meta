@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
+RDEPEND=net-misc/youtube-dl[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=python_targets_python2_7 python_targets_python3_6 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  >=x11-libs/gdk-pixbuf-2:2  >=x11-libs/gtk+-2:2  >=x11-themes/gtk-engines-2.15.3:2  x11-themes/gtk-engines-murrine   >=dev-util/intltool-0.35  sys-devel/gettext  >=sys-devel/autoconf-2.53  >=x11-misc/icon-naming-utils-0.8.7:0  virtual/pkgconfig  
+RDEPEND=  >=x11-libs/gdk-pixbuf-2:2  >=x11-libs/gtk+-2:2  >=x11-themes/gtk-engines-2.15.3:2  x11-themes/gtk-engines-murrine  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0/3.22
+SRC_URI=https://pub.mate-desktop.org/releases/themes/3.22/mate-themes-3.22.19.tar.xz

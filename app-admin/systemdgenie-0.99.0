@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/gettext 
+DEPEND=   >=kde-frameworks/kauth-5.60.0:5   >=kde-frameworks/kconfigwidgets-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/kcrash-5.60.0:5   >=kde-frameworks/ki18n-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=kde-frameworks/kxmlgui-5.60.0:5   >=dev-qt/qtdbus-5.12.3:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5  sys-apps/systemd:=  
+RDEPEND=   >=kde-frameworks/kauth-5.60.0:5   >=kde-frameworks/kconfigwidgets-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/kcrash-5.60.0:5   >=kde-frameworks/ki18n-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=kde-frameworks/kxmlgui-5.60.0:5   >=dev-qt/qtdbus-5.12.3:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5  sys-apps/systemd:=  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=5
+SRC_URI=mirror://kde/unstable/systemdgenie/systemdgenie-0.99.0.tar.xz

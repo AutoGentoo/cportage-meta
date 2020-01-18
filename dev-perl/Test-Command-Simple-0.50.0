@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Module-Build-0.420.0  test? (   virtual/perl-Test-Simple  )  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DM/DMCBRIDE/Test-Command-Simple-0.05.tar.gz

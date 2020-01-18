@@ -1,0 +1,8 @@
+5e81f7d35f1819465b4f9616f8ab8e76
+DEFINED_PHASES= compile install prepare setup test
+BDEPEND=virtual/pkgconfig 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/oliver006/redis_exporter/archive/v1.2.0.tar.gz -> redis_exporter-1.2.0.tar.gz

@@ -1,0 +1,9 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=net-libs/libpcap  net-libs/libnetfilter_queue  ssl? ( dev-libs/openssl:0= ) 
+RDEPEND=net-libs/libpcap  net-libs/libnetfilter_queue  ssl? ( dev-libs/openssl:0= ) 
+EAPI=6
+IUSE=ssl 
+KEYWORDS=
+SLOT=0
+SRC_URI=

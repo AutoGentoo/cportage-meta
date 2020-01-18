@@ -1,0 +1,9 @@
+85fb3cb9c5caae78ca5202db22f683b8
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=dev-lang/perl  virtual/perl-File-Path  virtual/perl-File-Temp  >=dev-vcs/git-1.6.6 
+RDEPEND=dev-lang/perl  virtual/perl-File-Path  virtual/perl-File-Temp  >=dev-vcs/git-1.6.6  !app-vim/gitolite-syntax  !dev-vcs/gitolite-gentoo  selinux? ( sec-policy/selinux-gitosis )  dev-perl/JSON 
+EAPI=6
+IUSE=selinux tools 
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=https://github.com/sitaramc/gitolite/archive/v3.6.11.tar.gz -> gitolite-3.6.11.tar.gz

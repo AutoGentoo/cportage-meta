@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-python/pyhamcrest[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  doc? ( dev-python/sphinx[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  test? (   dev-python/nose[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]   python_targets_python2_7? ( dev-python/unittest2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  )  
+RDEPEND=dev-python/pyhamcrest[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
+EAPI=5
+IUSE=doc test 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://bitbucket.org/DavidVilla/python-doublex/get/v1.8.1.tar.gz -> doublex-1.8.1.tar.gz

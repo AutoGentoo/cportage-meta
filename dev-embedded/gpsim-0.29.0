@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=dev-embedded/gputils-0.12  !dev-embedded/gpsim-lcd  dev-libs/glib:2  dev-libs/popt  sys-libs/readline:0=  gtk? ( >=x11-libs/gtk+extra-2 )  sys-devel/flex  virtual/pkgconfig  virtual/yacc 
+RDEPEND=>=dev-embedded/gputils-0.12  !dev-embedded/gpsim-lcd  dev-libs/glib:2  dev-libs/popt  sys-libs/readline:0=  gtk? ( >=x11-libs/gtk+extra-2 ) 
+EAPI=6
+IUSE=doc gtk static-libs 
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gpsim/gpsim-0.29.0.tar.gz

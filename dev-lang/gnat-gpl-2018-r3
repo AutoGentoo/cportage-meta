@@ -1,0 +1,26 @@
+e12270968ef6d09c358de5ecf1d306d0
+DEFINED_PHASES= compile configure postinst prepare setup unpack
+DEPEND=!sys-devel/gcc:7.3.1  elibc_glibc? ( >=sys-libs/glibc-2.13 )  >=sys-devel/binutils-2.20 
+RDEPEND=!sys-devel/gcc:7.3.1 
+PDEPEND=>=sys-devel/gcc-config-1.7 elibc_glibc? ( >=sys-libs/glibc-2.13 ) 
+EAPI=6
+IUSE=+bootstrap 
+KEYWORDS=amd64 x86
+SLOT=7.3.1
+SRC_URI=mirror://gnu/gcc/gcc-7.3.0/gcc-7.3.0.tar.xz mirror://gentoo/gcc-7.3.0-patches-1.8.tar.bz2 https://dev.gentoo.org/~vapier/dist/gcc-7.3.0-patches-1.8.tar.bz2 https://dev.gentoo.org/~rhill/dist/gcc-7.3.0-patches-1.8.tar.bz2 https://dev.gentoo.org/~zorry/patches/gcc/gcc-7.3.0-patches-1.8.tar.bz2 https://dev.gentoo.org/~blueness/dist/gcc-7.3.0-patches-1.8.tar.bz2 https://dev.gentoo.org/~tamiko/distfiles/gcc-7.3.0-patches-1.8.tar.bz2 https://dev.gentoo.org/~slyfox/distfiles/gcc-7.3.0-patches-1.8.tar.bz2
+	http://mirrors.cdn.adacore.com/art/5b0819dfc7a447df26c27aa5
+		-> gnat-gpl-2018-src.tar.gz
+	http://mirrors.cdn.adacore.com/art/5b0819dfc7a447df26c27aa7
+		-> gcc-7-gpl-2018-src.tar.gz
+	http://mirrors.cdn.adacore.com/art/5b0819dfc7a447df26c27aa6
+		-> gcc-interface-7-gpl-2018-src.tar.gz
+	bootstrap? (
+		amd64? (
+			http://mirrors.cdn.adacore.com/art/564b3ebec8e196b040fbe66c ->
+			gnat-gpl-2014-x86_64-linux-bin.tar.gz
+		)
+		x86? (
+			http://mirrors.cdn.adacore.com/art/564b3e9dc8e196b040fbe248 ->
+			gnat-gpl-2014-x86-linux-bin.tar.gz
+		)
+	)

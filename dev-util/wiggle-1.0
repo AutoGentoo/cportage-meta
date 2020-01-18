@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install prepare test
+DEPEND=  dev-util/diffstat  dev-util/patchutils  sys-apps/diffutils  sys-apps/findutils  virtual/awk  sys-apps/grep  sys-apps/less  sys-apps/sed  sys-apps/coreutils  sys-devel/patch  sys-libs/ncurses:0=    sys-apps/groff  virtual/pkgconfig  test? ( sys-process/time ) 
+RDEPEND=  dev-util/diffstat  dev-util/patchutils  sys-apps/diffutils  sys-apps/findutils  virtual/awk  sys-apps/grep  sys-apps/less  sys-apps/sed  sys-apps/coreutils  sys-devel/patch  sys-libs/ncurses:0=   
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://neil.brown.name/wiggle/wiggle-1.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/ocaml-3.09:=[ocamlopt?]  dev-ml/camlp5:= 
+RDEPEND=>=dev-lang/ocaml-3.09:=[ocamlopt?]  dev-ml/camlp5:= 
+EAPI=5
+IUSE=+ocamlopt 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://pauillac.inria.fr/~ddr/ledit/distrib/src/ledit-2.03.tgz

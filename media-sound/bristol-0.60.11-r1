@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  virtual/jack  x11-libs/libX11  alsa? ( >=media-libs/alsa-lib-1.0.0 )   x11-base/xorg-proto  
+RDEPEND=  virtual/jack  x11-libs/libX11  alsa? ( >=media-libs/alsa-lib-1.0.0 )  
+EAPI=7
+IUSE=alsa oss static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bristol/bristol-0.60.11.tar.gz

@@ -1,0 +1,12 @@
+bdba7052c63e78560e7a53fafe396622
+DEFINED_PHASES= configure install prepare pretend
+BDEPEND==sys-devel/automake-1.11*  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    ~sci-libs/libsc-2.2[mpi=,openmp=,romio=,static-libs=,threads=]  dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio=] )  sys-devel/automake:1.11  virtual/pkgconfig 
+RDEPEND=  ~sci-libs/libsc-2.2[mpi=,openmp=,romio=,static-libs=,threads=]  dev-lang/lua:*  sys-apps/util-linux  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[romio=] ) 
+EAPI=7
+IUSE=debug doc examples mpi openmp romio static-libs threads +vtk-binary 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+		https://github.com/cburstedde/p4est/archive/v2.2.tar.gz -> p4est-2.2.tar.gz
+		https://github.com/cburstedde/libsc/archive/v2.2.tar.gz -> libsc-2.2.tar.gz

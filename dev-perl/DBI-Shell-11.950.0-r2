@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-perl/IO-Tee  dev-perl/Text-Reform  dev-perl/DBI  dev-perl/Text-CSV_XS 
+RDEPEND=dev-perl/IO-Tee  dev-perl/Text-Reform  dev-perl/DBI  dev-perl/Text-CSV_XS 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TL/TLOWERY/DBI-Shell-11.95.tar.gz

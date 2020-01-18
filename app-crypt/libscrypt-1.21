@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile setup
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm ~arm64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/technion/libscrypt/archive/v1.21.tar.gz -> libscrypt-1.21.tar.gz

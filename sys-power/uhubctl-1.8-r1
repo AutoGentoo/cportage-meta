@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=virtual/libusb:1 
+RDEPEND=virtual/libusb:1 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/mvp/uhubctl/archive/v1.8.tar.gz -> uhubctl-1.8.tar.gz

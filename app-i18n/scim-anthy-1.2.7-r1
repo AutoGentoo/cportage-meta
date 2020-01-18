@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install prepare
+DEPEND=>=app-i18n/scim-1.2[gtk3=]  >=app-i18n/anthy-5900  nls? ( virtual/libintl )  gtk3? ( x11-libs/gtk+:3 )  nls? ( sys-devel/gettext )  virtual/pkgconfig 
+RDEPEND=>=app-i18n/scim-1.2[gtk3=]  >=app-i18n/anthy-5900  nls? ( virtual/libintl )  gtk3? ( x11-libs/gtk+:3 )  kasumi? ( app-dicts/kasumi ) 
+EAPI=6
+IUSE=+gtk3 nls kasumi 
+KEYWORDS=alpha amd64 ~arm ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/scim-imengine/37309/scim-anthy-1.2.7.tar.gz
+	gtk3?	( https://dev.gentoo.org/~heroxbd/scim-anthy-1.2.7-patches.tar.xz )

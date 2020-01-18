@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/hidapi  dev-libs/json-c:= 
+RDEPEND=dev-libs/hidapi  dev-libs/json-c:=  !systemd? ( acct-group/plugdev )  systemd? ( sys-apps/systemd[acl] ) 
+EAPI=7
+IUSE=kernel_linux static-libs systemd 
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://developers.yubico.com/libu2f-host/Releases/libu2f-host-1.1.10.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  virtual/perl-Data-Dumper  >=dev-perl/List-MoreUtils-0.70.0  >=dev-perl/Moose-0.420.0  virtual/perl-Scalar-List-Utils  dev-perl/Syntax-Keyword-Junction  >=dev-perl/autobox-2.230.0  dev-perl/namespace-autoclean  virtual/perl-parent   >=dev-perl/Module-Build-Tiny-0.34.0  test? (   virtual/perl-File-Spec   virtual/perl-Module-Metadata   dev-perl/Test-Exception   virtual/perl-Test-Simple  )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-Data-Dumper  >=dev-perl/List-MoreUtils-0.70.0  >=dev-perl/Moose-0.420.0  virtual/perl-Scalar-List-Utils  dev-perl/Syntax-Keyword-Junction  >=dev-perl/autobox-2.230.0  dev-perl/namespace-autoclean  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/Moose-Autobox-0.16.tar.gz

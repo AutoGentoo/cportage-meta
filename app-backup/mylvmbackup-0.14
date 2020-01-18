@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  dev-perl/Config-IniFiles  dev-perl/DBD-mysql  dev-perl/TimeDate  >=sys-fs/lvm2-2.02.06  virtual/mysql 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://lenzg.net/mylvmbackup/mylvmbackup-0.14.tar.gz

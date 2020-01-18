@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install
+RDEPEND=  app-shells/tcsh  dev-lang/perl 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mummer/MUMmer3.23.tar.gz

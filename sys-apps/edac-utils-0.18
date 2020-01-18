@@ -1,0 +1,9 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=sys-fs/sysfsutils 
+RDEPEND=sys-fs/sysfsutils  sys-apps/dmidecode 
+EAPI=5
+IUSE=debug 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://github.com/grondo/edac-utils/archive/0.18.tar.gz -> edac-utils-0.18.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=dev-libs/glib:2  media-libs/libmpdclient  curl? ( net-misc/curl )  !curl? ( net-libs/libsoup:2.4 )  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  media-libs/libmpdclient  curl? ( net-misc/curl )  !curl? ( net-libs/libsoup:2.4 ) 
+EAPI=6
+IUSE=+curl 
+KEYWORDS=amd64 ~hppa ~ppc x86
+SLOT=0
+SRC_URI=https://www.musicpd.org/download/mpdscribble/0.22/mpdscribble-0.22.tar.bz2

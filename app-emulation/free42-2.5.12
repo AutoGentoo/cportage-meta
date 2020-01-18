@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-libs/atk  x11-libs/cairo  x11-libs/gdk-pixbuf  x11-libs/gtk+:3  alsa? ( media-libs/alsa-lib ) 
+RDEPEND=dev-libs/atk  x11-libs/cairo  x11-libs/gdk-pixbuf  x11-libs/gtk+:3  alsa? ( media-libs/alsa-lib ) 
+EAPI=7
+IUSE=+alsa 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://thomasokken.com/free42/upstream/free42-nologo-2.5.12.tgz

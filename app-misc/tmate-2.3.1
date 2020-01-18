@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  sys-libs/zlib[static-libs?]  sys-libs/libutempter[static-libs?]  dev-libs/libevent[static-libs?]  dev-libs/msgpack[static-libs?]  >=net-libs/libssh-0.6.0[static-libs?]  !libressl? ( dev-libs/openssl:0=[static-libs?] )  libressl? ( dev-libs/libressl:0=[static-libs?] )  
+RDEPEND=  sys-libs/zlib[static-libs?]  sys-libs/libutempter[static-libs?]  dev-libs/libevent[static-libs?]  dev-libs/msgpack[static-libs?]  >=net-libs/libssh-0.6.0[static-libs?]  !libressl? ( dev-libs/openssl:0=[static-libs?] )  libressl? ( dev-libs/libressl:0=[static-libs?] )  
+EAPI=7
+IUSE=debug libressl static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/tmate-io/tmate/archive/2.3.1.tar.gz -> tmate-2.3.1.tar.gz

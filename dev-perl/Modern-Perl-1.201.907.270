@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-IO  virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.980.0  )  
+RDEPEND=virtual/perl-IO 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHROMATIC/Modern-Perl-1.20190727.tar.gz

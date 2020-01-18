@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND= =www-servers/apache-2* 
+RDEPEND= =www-servers/apache-2* 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/log-toolkit/log-toolkit-0.9.6.tar.bz2

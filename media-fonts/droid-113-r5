@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= prepare
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm arm64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/droid-113-r1.tar.bz2
+	mirror://gentoo/DroidSansMonoSlashed-112_p1.ttf.bz2
+	mirror://gentoo/DroidSansMonoDotted-112_p1.ttf.bz2

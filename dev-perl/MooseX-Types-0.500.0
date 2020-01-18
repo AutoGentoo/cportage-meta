@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  >=dev-perl/Carp-Clan-6  virtual/perl-Exporter  dev-perl/Module-Runtime  >=dev-perl/Moose-1.60.0  >=virtual/perl-Scalar-List-Utils-1.190.0  dev-perl/Sub-Exporter  >=dev-perl/Sub-Exporter-ForMethods-0.100.52  dev-perl/Sub-Install  dev-perl/Sub-Name  >=dev-perl/namespace-autoclean-0.160.0   >=dev-perl/Module-Build-Tiny-0.34.0  test? (   virtual/perl-File-Spec   virtual/perl-Module-Metadata   dev-perl/Test-Fatal   dev-perl/Test-Requires   >=virtual/perl-Test-Simple-0.880.0   virtual/perl-if  )  
+RDEPEND=  virtual/perl-Carp  >=dev-perl/Carp-Clan-6  virtual/perl-Exporter  dev-perl/Module-Runtime  >=dev-perl/Moose-1.60.0  >=virtual/perl-Scalar-List-Utils-1.190.0  dev-perl/Sub-Exporter  >=dev-perl/Sub-Exporter-ForMethods-0.100.52  dev-perl/Sub-Install  dev-perl/Sub-Name  >=dev-perl/namespace-autoclean-0.160.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ppc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/MooseX-Types-0.50.tar.gz

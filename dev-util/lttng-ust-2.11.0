@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  dev-libs/userspace-rcu:=  numa? ( sys-process/numactl )   
+RDEPEND=  dev-libs/userspace-rcu:=  numa? ( sys-process/numactl )   
+EAPI=7
+IUSE=examples numa 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~x86
+SLOT=0/2.11
+SRC_URI=http://lttng.org/files/lttng-ust/lttng-ust-2.11.0.tar.bz2

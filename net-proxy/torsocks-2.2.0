@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://github.com/dgoulet/torsocks/archive/v2.2.0.tar.gz -> torsocks-2.2.0.tar.gz

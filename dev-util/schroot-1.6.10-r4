@@ -1,0 +1,11 @@
+2f093d81951c73eb900c6f6223f6afd5
+DEFINED_PHASES= compile configure install postinst postrm prepare test unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-libs/boost-1.42.0  >=sys-apps/util-linux-2.16  btrfs? ( >=sys-fs/btrfs-progs-0.19-r2 )  lvm? ( sys-fs/lvm2 )  pam? ( sys-libs/pam )   app-arch/xz-utils  sys-apps/groff  doc? (   app-doc/doxygen   media-gfx/graphviz  )  nls? (   >=app-text/po4a-0.40   sys-devel/gettext  )  test? ( >=dev-util/cppunit-1.10.0 )  
+RDEPEND=  >=dev-libs/boost-1.42.0  >=sys-apps/util-linux-2.16  btrfs? ( >=sys-fs/btrfs-progs-0.19-r2 )  lvm? ( sys-fs/lvm2 )  pam? ( sys-libs/pam )   sys-apps/debianutils  dchroot? ( !sys-apps/dchroot )  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=btrfs +dchroot debug doc lvm nls pam test 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/schroot/schroot_1.6.10.orig.tar.xz
+	mirror://debian/pool/main/s/schroot/schroot_1.6.10-2.debian.tar.xz

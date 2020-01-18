@@ -1,0 +1,8 @@
+2a87e719c4fcd4ef93f9524ae3a987fc
+DEFINED_PHASES= install
+RDEPEND=  ~net-print/hplip-3.19.11  virtual/libusb:0  virtual/udev  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://developers.hp.com/sites/default/files/hplip-3.19.11-plugin.run

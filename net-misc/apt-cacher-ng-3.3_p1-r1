@@ -1,0 +1,12 @@
+d04152ba8362b0db9e534b4ae900b98f
+DEFINED_PHASES= configure install pretend setup
+BDEPEND=    app-arch/bzip2  app-arch/xz-utils  dev-libs/openssl:0=  sys-libs/zlib  systemd? (   sys-apps/systemd  )   dev-util/cmake  >sys-devel/gcc-4.8  virtual/pkgconfig  
+RDEPEND=    app-arch/bzip2  app-arch/xz-utils  dev-libs/openssl:0=  sys-libs/zlib  systemd? (   sys-apps/systemd  )   dev-lang/perl  fuse? ( sys-fs/fuse )  tcpd? ( sys-apps/tcp-wrappers )  
+EAPI=7
+IUSE=doc fuse systemd tcpd 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/a/apt-cacher-ng/apt-cacher-ng_3.3.orig.tar.xz
+	mirror://debian/pool/main/a/apt-cacher-ng/apt-cacher-ng_3.3-1.debian.tar.xz
+

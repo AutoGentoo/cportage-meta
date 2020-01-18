@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=  >=app-emacs/dash-2.14.1  >=app-emacs/graphql-0.1.1  >=app-emacs/treepy-0.0.1   sys-apps/texinfo 
+RDEPEND=  >=app-emacs/dash-2.14.1  >=app-emacs/graphql-0.1.1  >=app-emacs/treepy-0.0.1  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/magit/ghub/archive/v3.2.0.tar.gz -> ghub-3.2.0.tar.gz

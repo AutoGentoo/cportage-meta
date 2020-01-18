@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install prepare
+DEPEND=!sys-cluster/heartbeat  ssl? ( dev-libs/nss )  infiniband? (   sys-fabric/libibverbs   sys-fabric/librdmacm  )  virtual/pkgconfig  doc? ( sys-apps/groff ) 
+RDEPEND=!sys-cluster/heartbeat  ssl? ( dev-libs/nss )  infiniband? (   sys-fabric/libibverbs   sys-fabric/librdmacm  ) 
+EAPI=4
+IUSE=doc infiniband ssl static-libs 
+KEYWORDS=amd64 ~arm64 hppa x86
+SLOT=0
+SRC_URI=http://build.clusterlabs.org/corosync/releases/corosync-1.4.7.tar.gz

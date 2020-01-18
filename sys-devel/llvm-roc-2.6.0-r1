@@ -1,0 +1,12 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install unpack
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=virtual/cblas   dev-libs/rocr-runtime 
+RDEPEND=virtual/cblas   dev-libs/rocr-runtime 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/RadeonOpenCompute/llvm/archive/roc-ocl-2.6.0.tar.gz -> llvm-roc-ocl-2.6.0.tar.gz
+	https://github.com/RadeonOpenCompute/clang/archive/roc-2.6.0.tar.gz -> clang-roc-2.6.0.tar.gz
+	https://github.com/RadeonOpenCompute/lld/archive/roc-ocl-2.6.0.tar.gz -> lld-roc-ocl-2.6.0.tar.gz

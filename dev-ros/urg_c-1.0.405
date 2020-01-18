@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros-drivers/urg_c/archive/1.0.405.tar.gz -> urg_c-1.0.405.tar.gz

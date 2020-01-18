@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-games/physfs  media-libs/libsdl[joystick,video]  media-libs/sdl-image  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  net-libs/enet:0  virtual/glu  virtual/opengl 
+RDEPEND=  dev-games/physfs  media-libs/libsdl[joystick,video]  media-libs/sdl-image  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  net-libs/enet:0  virtual/glu  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/egoboo/egoboo-2.8.1.tar.gz

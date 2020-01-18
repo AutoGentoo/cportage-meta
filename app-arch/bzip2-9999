@@ -1,0 +1,8 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES=-
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=
+SLOT=0/1
+SRC_URI=

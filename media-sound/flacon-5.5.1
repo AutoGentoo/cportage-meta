@@ -1,0 +1,10 @@
+3eefc2d6b8372d1ce3cda1da71fce88d
+DEFINED_PHASES= configure postinst postrm pretend setup test
+BDEPEND=  virtual/pkgconfig  dev-qt/linguist-tools:5  
+DEPEND=  app-i18n/uchardet  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5   dev-qt/qtconcurrent:5  test? (   dev-qt/qttest:5   media-libs/flac   media-sound/mac   media-sound/shntool   media-sound/ttaenc   media-sound/wavpack  )  
+RDEPEND=  app-i18n/uchardet  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/flacon/flacon/archive/v5.5.1.tar.gz -> flacon-5.5.1.tar.gz

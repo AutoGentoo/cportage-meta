@@ -1,0 +1,10 @@
+e44f3c09858d64d4e1cebac4f1c7c3c7
+DEFINED_PHASES= compile configure install prepare unpack
+DEPEND=  dev-db/sqlite:3  dev-lang/perl:*  aff? ( app-forensics/afflib )  ewf? ( app-forensics/libewf:= )  java? (   >=virtual/jdk-1.8:*   >=dev-java/c3p0-0.9.5:0   >=dev-java/jdbc-postgresql-9.4:0  )  zlib? ( sys-libs/zlib )   doc? ( app-doc/doxygen )  test? ( >=dev-util/cppunit-1.2.1 )  
+RDEPEND=  dev-db/sqlite:3  dev-lang/perl:*  aff? ( app-forensics/afflib )  ewf? ( app-forensics/libewf:= )  java? (   >=virtual/jdk-1.8:*   >=dev-java/c3p0-0.9.5:0   >=dev-java/jdbc-postgresql-9.4:0  )  zlib? ( sys-libs/zlib )   java? ( >=virtual/jre-1.8:= )  
+EAPI=6
+IUSE=aff doc ewf java static-libs test +threads zlib 
+KEYWORDS=amd64 hppa ppc x86
+SLOT=0/13
+SRC_URI=https://github.com/sleuthkit/sleuthkit/releases/download/sleuthkit-4.5.0/sleuthkit-4.5.0.tar.gz
+	java? ( http://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.8.11/sqlite-jdbc-3.8.11.jar )

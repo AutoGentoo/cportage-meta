@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=    sys-libs/ncurses:0=   sys-apps/help2man  
+RDEPEND=  sys-libs/ncurses:0=  
+EAPI=5
+IUSE=
+KEYWORDS=ppc ppc64
+SLOT=0
+SRC_URI=mirror://sourceforge/libspe/spu-tools-2.3.0.136.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND==dev-lang/lua-5.1*:=[deprecated] 
+RDEPEND==dev-lang/lua-5.1*:=[deprecated] 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/LuaDist/toluapp/archive/b34075b76835b778bb6b2ce0aa224afd9d182887.tar.gz -> toluapp-1.0.93_p20190513.tar.gz

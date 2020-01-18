@@ -1,0 +1,9 @@
+fbc525eddbfa8c2ca121ff850d69b47d
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=sys-fs/mtools   dev-perl/Crypt-PasswdMD5   dev-perl/Digest-SHA1  dev-lang/nasm  >=sys-boot/gnu-efi-3.0u  virtual/os-headers 
+RDEPEND=sys-fs/mtools   dev-perl/Crypt-PasswdMD5   dev-perl/Digest-SHA1 
+EAPI=5
+IUSE=custom-cflags 
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/utils/boot/syslinux/Testing/6.04/syslinux-6.04-pre1.tar.xz

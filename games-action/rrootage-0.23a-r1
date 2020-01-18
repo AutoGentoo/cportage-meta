@@ -1,0 +1,9 @@
+1fdee0b0bd6228b350f87081857d1b8b
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  >=dev-libs/libbulletml-0.0.3  media-libs/libsdl[video]  media-libs/sdl-mixer[vorbis]  virtual/glu  virtual/opengl 
+RDEPEND=  >=dev-libs/libbulletml-0.0.3  media-libs/libsdl[video]  media-libs/sdl-mixer[vorbis]  virtual/glu  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/rrootage/rRootage-0.23a.tar.gz

@@ -1,0 +1,10 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= compile prepare unpack
+DEPEND=>=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/jmi-1_0-fr-interfaces.zip
+		 mirror://gentoo/mof-1.0.xml.bz2

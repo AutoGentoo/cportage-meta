@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=dev-libs/libpcre  lzma? ( app-arch/xz-utils )  zlib? ( sys-libs/zlib )  virtual/pkgconfig  test? (   dev-util/cram   dev-vcs/git  ) 
+RDEPEND=dev-libs/libpcre  lzma? ( app-arch/xz-utils )  zlib? ( sys-libs/zlib ) 
+EAPI=7
+IUSE=lzma test zlib 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~mips ~ppc ~ppc64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=https://github.com/ggreer/the_silver_searcher/archive/2.2.0.tar.gz -> the_silver_searcher-2.2.0.tar.gz

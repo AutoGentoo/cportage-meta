@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-libs/libical-0.27  >=virtual/gnustep-back-0.20.0  dbus? ( gnustep-libs/dbuskit ) 
+RDEPEND=>=dev-libs/libical-0.27  >=virtual/gnustep-back-0.20.0  dbus? ( gnustep-libs/dbuskit ) 
+EAPI=4
+IUSE=dbus 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://coyote.octets.fr/pub/gnustep/SimpleAgenda-0.43.tar.gz

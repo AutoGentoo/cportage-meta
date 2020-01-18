@@ -1,0 +1,10 @@
+593018bbb8a020406ec5577107934d5b
+DEFINED_PHASES= prepare setup
+DEPEND=sys-libs/zlib:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  !=media-libs/libpng-1.5*  app-arch/xz-utils 
+RDEPEND=sys-libs/zlib:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  !=media-libs/libpng-1.5* 
+EAPI=6
+IUSE=apng neon 
+KEYWORDS=~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris ~x86-winnt
+SLOT=1.5
+SRC_URI=mirror://sourceforge/libpng/libpng-1.5.30.tar.xz
+	apng? ( https://dev.gentoo.org/~polynomial-c/libpng-1.5.30-apng.patch.gz )

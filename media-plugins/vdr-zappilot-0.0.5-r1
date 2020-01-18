@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=media-video/vdr-1.7.34 
+RDEPEND=>=media-video/vdr-1.7.34 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://vdr-developerorg/1318/vdr-zappilot-0.0.5.tgz

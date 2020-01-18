@@ -1,0 +1,8 @@
+a110b370a5e02cacb17b42177b12a538
+DEFINED_PHASES= compile install prepare
+EAPI=7
+IUSE=+man 
+KEYWORDS=~x64-macos
+SLOT=10.13
+SRC_URI=https://opensource.apple.com/tarballs/xnu/xnu-4570.71.2.tar.gz
+	https://opensource.apple.com/tarballs/AvailabilityVersions/AvailabilityVersions-32.60.1.tar.gz

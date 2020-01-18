@@ -1,0 +1,10 @@
+5d82646ebed8ef5e28a43802314b7593
+DEFINED_PHASES= compile configure install postinst postrm prepare test
+DEPEND=!dev-libs/mpatrol  !dev-util/mono-debugger  net-libs/libnsl:0=  readline? ( sys-libs/readline:= )  erlang? ( dev-lang/erlang )  java? ( >=virtual/jdk-1.6:= )  mono? ( dev-lang/mono )  doc? ( sys-apps/texinfo ) 
+RDEPEND=!dev-libs/mpatrol  !dev-util/mono-debugger  net-libs/libnsl:0=  readline? ( sys-libs/readline:= )  erlang? ( dev-lang/erlang )  java? ( >=virtual/jdk-1.6:= )  mono? ( dev-lang/mono )  doc? ( sys-apps/texinfo )  emacs? ( >=app-editors/emacs-23.1:* ) 
+EAPI=5
+IUSE=debug doc emacs erlang examples java mono profile readline threads trail 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://dl.mercurylang.org/release/mercury-srcdist-14.01.1.tar.gz
+	mirror://gentoo/mercury-14.01.1-gentoo-patchset-4.tar.gz

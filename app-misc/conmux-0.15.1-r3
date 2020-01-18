@@ -1,0 +1,8 @@
+b30ea4940998ecf06375bf6b54f9839d
+DEFINED_PHASES= install postinst prepare
+RDEPEND=dev-perl/IO-Multiplex  dev-perl/URI 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~mips x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~hwoarang/distfiles/conmux-0.15.1.tar.gz

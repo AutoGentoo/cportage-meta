@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=  virtual/latex-base  dev-texlive/texlive-pstricks  dev-texlive/texlive-pictures  dev-texlive/texlive-latexextra  dev-texlive/texlive-latexrecommended  emacs? ( >=app-editors/emacs-23.1:* ) 
+RDEPEND=  virtual/latex-base  dev-texlive/texlive-pstricks  dev-texlive/texlive-pictures  dev-texlive/texlive-latexextra  dev-texlive/texlive-latexrecommended  emacs? ( >=app-editors/emacs-23.1:* ) 
+EAPI=5
+IUSE=doc emacs examples 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://mathcs.holycross.edu/~ahwang/epix/epix-1.2.11_withpdf.tar.bz2

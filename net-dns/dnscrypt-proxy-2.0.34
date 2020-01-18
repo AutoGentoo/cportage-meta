@@ -1,0 +1,10 @@
+6c3ba9d56ce6b3efd07a715c4d644182
+DEFINED_PHASES= compile install postinst
+BDEPEND=>=dev-lang/go-1.13 
+DEPEND=filecaps? ( sys-libs/libcap ) 
+RDEPEND=  acct-group/dnscrypt-proxy  acct-user/dnscrypt-proxy  
+EAPI=7
+IUSE=pie 
+KEYWORDS=~amd64 ~arm ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/jedisct1/dnscrypt-proxy/archive/2.0.34.tar.gz -> dnscrypt-proxy-2.0.34.tar.gz

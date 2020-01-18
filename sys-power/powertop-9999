@@ -1,0 +1,10 @@
+ae14edc941bcd2f57ce8e53c6801f579
+DEFINED_PHASES= configure prepare setup
+BDEPEND=  virtual/pkgconfig  sys-devel/gettext  
+DEPEND=  dev-libs/libnl:3  sys-apps/pciutils  sys-libs/ncurses:=[unicode?]  
+RDEPEND=    dev-libs/libnl:3  sys-apps/pciutils  sys-libs/ncurses:=[unicode?]   X? ( x11-apps/xset )  virtual/libintl  
+EAPI=7
+IUSE=nls unicode X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

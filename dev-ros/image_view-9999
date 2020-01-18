@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost:=[threads]  media-libs/opencv:=  x11-libs/gtk+:2  dev-ros/camera_calibration_parsers  >=dev-ros/cv_bridge-1.11.10  dev-ros/image_transport  dev-ros/message_filters  dev-ros/nodelet  dev-ros/rosconsole  dev-libs/console_bridge:=  dev-ros/roscpp  dev-ros/stereo_msgs[ros_messages_cxx(-)]  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_srvs[ros_messages_cxx(-)]  dev-ros/dynamic_reconfigure[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+RDEPEND=  dev-libs/boost:=[threads]  media-libs/opencv:=  x11-libs/gtk+:2  dev-ros/camera_calibration_parsers  >=dev-ros/cv_bridge-1.11.10  dev-ros/image_transport  dev-ros/message_filters  dev-ros/nodelet  dev-ros/rosconsole  dev-libs/console_bridge:=  dev-ros/roscpp  dev-ros/stereo_msgs[ros_messages_cxx(-)]  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_srvs[ros_messages_cxx(-)]  dev-ros/dynamic_reconfigure[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

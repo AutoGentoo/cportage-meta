@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-base/xorg-proto  x11-libs/libXt 
+RDEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=http://tnemeth.free.fr/projets/programmes/wmdiskmon-0.0.2.tar.gz

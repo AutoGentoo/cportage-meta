@@ -1,0 +1,10 @@
+1cfe785a90188c6cf2ec557726d6d74d
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=dev-libs/libtermkey  ncurses? ( sys-libs/ncurses:0= )  tre? ( dev-libs/tre:= ) 
+RDEPEND=dev-libs/libtermkey  ncurses? ( sys-libs/ncurses:0= )  tre? ( dev-libs/tre:= )  app-eselect/eselect-vi 
+EAPI=6
+IUSE=+ncurses selinux test tre 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/martanne/vis/releases/download/v0.5/vis-v0.5.tar.gz -> vis-0.5.tar.gz
+	test? ( https://github.com/martanne/vis-test/releases/download/v0.3/vis-test-0.3.tar.gz -> vis-test-0.3.tar.gz )

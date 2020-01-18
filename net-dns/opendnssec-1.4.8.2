@@ -1,0 +1,9 @@
+4556b3a0920600d7c374ecfd728b131a
+DEFINED_PHASES= compile configure install postinst prepare pretend setup
+DEPEND=  dev-lang/perl  dev-libs/libxml2  dev-libs/libxslt  net-libs/ldns  mysql? (   virtual/mysql   dev-perl/DBD-mysql  )  opensc? ( dev-libs/opensc )  softhsm? ( dev-libs/softhsm:* )  sqlite? (   dev-db/sqlite:3   dev-perl/DBD-SQLite  )   doc? ( app-doc/doxygen )  test? (   app-text/trang  )  
+RDEPEND=  dev-lang/perl  dev-libs/libxml2  dev-libs/libxslt  net-libs/ldns  mysql? (   virtual/mysql   dev-perl/DBD-mysql  )  opensc? ( dev-libs/opensc )  softhsm? ( dev-libs/softhsm:* )  sqlite? (   dev-db/sqlite:3   dev-perl/DBD-SQLite  )  
+EAPI=5
+IUSE=debug doc +mysql +signer sqlite test +softhsm opensc external-hsm 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.opendnssec.org/files/source/opendnssec-1.4.8.2.tar.gz

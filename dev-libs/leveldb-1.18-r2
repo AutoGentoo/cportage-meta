@@ -1,0 +1,9 @@
+5354c74e562fe14ca6f07c7eca1c7d02
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=tcmalloc? ( dev-util/google-perftools )  snappy? (   app-arch/snappy:=   static-libs? ( app-arch/snappy[static-libs] )  ) 
+RDEPEND=tcmalloc? ( dev-util/google-perftools )  snappy? (   app-arch/snappy:=   static-libs? ( app-arch/snappy[static-libs] )  ) 
+EAPI=5
+IUSE=+snappy static-libs +tcmalloc kernel_FreeBSD 
+KEYWORDS=amd64 arm ~arm64 ~mips ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/google/leveldb/archive/v1.18.tar.gz -> leveldb-1.18.tar.gz

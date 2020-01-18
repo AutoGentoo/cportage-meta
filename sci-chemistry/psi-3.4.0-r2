@@ -1,0 +1,9 @@
+ea92815be1f141dd87a1aa56521a3527
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=  !sci-visualization/extrema  virtual/blas  virtual/lapack  >=sci-libs/libint-1.1.4:1  virtual/pkgconfig  dev-util/byacc  test? ( dev-lang/perl ) 
+RDEPEND=  !sci-visualization/extrema  virtual/blas  virtual/lapack  >=sci-libs/libint-1.1.4:1 
+EAPI=4
+IUSE=static-libs test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/psicode/psi-3.4.0.tar.gz

@@ -1,0 +1,9 @@
+298fb736d9911216593f8242f492221f
+DEFINED_PHASES= compile configure install postinst postrm
+DEPEND=  emacs? ( >=app-editors/emacs-23.1:* )  >=dev-libs/librep-0.92.1  >=x11-libs/rep-gtk-0.90.7  x11-libs/pangox-compat  x11-libs/gdk-pixbuf:2[X]  >=x11-libs/gtk+-2.24.0:2  x11-libs/libXtst  kde? ( kde-frameworks/kdelibs4support )  nls? ( sys-devel/gettext )  xinerama? ( x11-libs/libXinerama )   virtual/pkgconfig  
+RDEPEND=  emacs? ( >=app-editors/emacs-23.1:* )  >=dev-libs/librep-0.92.1  >=x11-libs/rep-gtk-0.90.7  x11-libs/pangox-compat  x11-libs/gdk-pixbuf:2[X]  >=x11-libs/gtk+-2.24.0:2  x11-libs/libXtst  kde? ( kde-frameworks/kdelibs4support )  nls? ( sys-devel/gettext )  xinerama? ( x11-libs/libXinerama )  
+EAPI=6
+IUSE=emacs kde nls xinerama 
+KEYWORDS=alpha amd64 ia64 ppc ~ppc64 ~sh sparc x86
+SLOT=0
+SRC_URI=http://download.tuxfamily.org/sawfish/sawfish_1.12.0.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.6  dev-java/commons-collections:0  dev-java/commons-logging:0  java-virtuals/servlet-api:2.5  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.6  dev-java/commons-collections:0  dev-java/commons-logging:0  java-virtuals/servlet-api:2.5 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=1.2
+SRC_URI=mirror://sourceforge/ehcache/ehcache-1.2.4.tgz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=virtual/libstdc++ 
+EAPI=6
+IUSE=
+KEYWORDS=-* ~x86
+SLOT=0
+SRC_URI=http://files.gonnaplay.com/201/MTAServer0_5-linux.tar.gz

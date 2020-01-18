@@ -1,0 +1,10 @@
+1fdee0b0bd6228b350f87081857d1b8b
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-libs/glib-2.6.1  sys-libs/zlib  readline? ( sys-libs/readline:= )   nls? ( >=sys-devel/gettext-0.14.1 )  test? ( app-misc/jq )  
+RDEPEND=  >=dev-libs/glib-2.6.1  sys-libs/zlib  readline? ( sys-libs/readline:= )  
+EAPI=6
+IUSE=darkterm nls readline test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/Dushistov/sdcv/archive/v0.5.2.tar.gz -> sdcv-0.5.2.tar.gz

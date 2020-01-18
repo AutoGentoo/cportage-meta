@@ -1,0 +1,9 @@
+f8afb13433aa9600dc1538d2ee24a34a
+DEFINED_PHASES= compile postinst preinst
+DEPEND=  >=sys-apps/portage-2.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  gnome-base/libglade:2.0  dev-python/pygtksourceview:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  nls? ( virtual/libintl )  nls? ( >=sys-devel/gettext-0.14 ) 
+RDEPEND=  >=sys-apps/portage-2.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  gnome-base/libglade:2.0  dev-python/pygtksourceview:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  nls? ( virtual/libintl ) 
+EAPI=5
+IUSE=nls 
+KEYWORDS=amd64 arm ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/porthole/porthole-0.6.1.tar.bz2

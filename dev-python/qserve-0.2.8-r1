@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/gevent[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  app-arch/unzip  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  test? ( dev-python/pytest[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=dev-python/gevent[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/q/qserve/qserve-0.2.8.zip

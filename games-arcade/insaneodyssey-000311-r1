@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install prepare
+DEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-mixer  media-libs/sdl-image  
+RDEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-mixer  media-libs/sdl-image  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/io000311.tar.gz

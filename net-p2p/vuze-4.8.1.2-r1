@@ -1,0 +1,11 @@
+88591213a8d399460ac4033d2f7910bb
+DEFINED_PHASES= compile install postinst postrm unpack
+DEPEND=  dev-java/json-simple:0  dev-java/bcprov:1.40  >=dev-java/commons-cli-1.0:1  >=dev-java/log4j-1.2.8:0  >=dev-java/swt-3.7.2-r1:3.7[cairo]  >=virtual/jre-1.5  app-arch/unzip  dev-util/desktop-file-utils  >=virtual/jdk-1.5 
+RDEPEND=  dev-java/json-simple:0  dev-java/bcprov:1.40  >=dev-java/commons-cli-1.0:1  >=dev-java/log4j-1.2.8:0  >=dev-java/swt-3.7.2-r1:3.7[cairo]  >=virtual/jre-1.5 
+PDEPEND=~net-p2p/vuze-coreplugins-4.8.1.2 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/azureus/vuze/Vuze_4812/Vuze_4812_source.zip
+	mirror://gentoo/vuze-4.5.0.2-gentoo-patches.tar.bz2

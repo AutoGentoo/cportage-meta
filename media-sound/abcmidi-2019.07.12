@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=app-arch/unzip 
+EAPI=7
+IUSE=examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://ifdo.ca/~seymour/runabc/abcMIDI-2019.07.12.zip

@@ -1,0 +1,8 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+EAPI=7
+IUSE=+args +static 
+KEYWORDS=amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/krallin/tini/archive/v0.18.0.tar.gz -> tini-0.18.0.tar.gz

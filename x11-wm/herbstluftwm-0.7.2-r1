@@ -1,0 +1,10 @@
+94198abf563541e42631077dab6bd2eb
+DEFINED_PHASES= compile install
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  >=dev-libs/glib-2.24:2  x11-libs/libX11  x11-libs/libXext  xinerama? ( x11-libs/libXinerama )  
+RDEPEND=    >=dev-libs/glib-2.24:2  x11-libs/libX11  x11-libs/libXext  xinerama? ( x11-libs/libXinerama )   app-shells/bash  zsh-completion? ( app-shells/zsh )  
+EAPI=7
+IUSE=examples xinerama zsh-completion 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://herbstluftwm.org/tarballs/herbstluftwm-0.7.2.tar.gz

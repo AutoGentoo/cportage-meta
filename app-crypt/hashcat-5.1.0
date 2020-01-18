@@ -1,0 +1,9 @@
+58488154719b1ec4109df9d17fbc0818
+DEFINED_PHASES= compile install prepare test
+DEPEND=virtual/opencl  app-arch/lzma  brain? ( dev-libs/xxhash )  video_cards_nvidia? ( >x11-drivers/nvidia-drivers-367.0 ) 
+RDEPEND=virtual/opencl  app-arch/lzma  brain? ( dev-libs/xxhash )  video_cards_nvidia? ( >x11-drivers/nvidia-drivers-367.0 ) 
+EAPI=6
+IUSE=brain video_cards_nvidia 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/hashcat/hashcat/archive/v5.1.0.tar.gz -> hashcat-5.1.0.tar.gz

@@ -1,0 +1,10 @@
+70fad422a84674f769b7351f05d0c28a
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=!sys-apps/firejail-lts  apparmor? ( sys-libs/libapparmor )  test? ( dev-tcltk/expect ) 
+RDEPEND=apparmor? ( sys-libs/libapparmor ) 
+EAPI=7
+IUSE=apparmor +chroot contrib debug +file-transfer +globalcfg +network +overlayfs +private-home +seccomp +suid test +userns vim-syntax +whitelist x11 
+KEYWORDS=
+SLOT=0
+SRC_URI=

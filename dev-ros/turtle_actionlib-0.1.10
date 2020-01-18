@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/actionlib  dev-ros/actionlib_msgs  dev-ros/angles  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/turtlesim  dev-libs/boost:=  
+RDEPEND=  dev-ros/actionlib  dev-ros/actionlib_msgs  dev-ros/angles  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/turtlesim  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ros/common_tutorials/archive/0.1.10.tar.gz -> common_tutorials-0.1.10.tar.gz

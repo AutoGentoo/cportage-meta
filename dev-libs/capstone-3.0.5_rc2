@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/3
+SRC_URI=https://github.com/aquynh/capstone/archive/3.0.5-rc2.tar.gz -> capstone-3.0.5_rc2.tar.gz

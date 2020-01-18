@@ -1,0 +1,9 @@
+c4aae5a6e17ce192bc5cc4a0e90104a6
+DEFINED_PHASES=-
+DEPEND=sys-apps/portage 
+RDEPEND=sys-apps/portage 
+EAPI=5
+IUSE=l10n_fr l10n_it 
+KEYWORDS=
+SLOT=0
+SRC_URI=

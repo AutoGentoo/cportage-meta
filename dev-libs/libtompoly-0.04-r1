@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=dev-libs/libtommath 
+RDEPEND=dev-libs/libtommath 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/libtom/libtompoly/releases/download/0.04/ltp-0.04.tar.bz2

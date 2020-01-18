@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=media-libs/libsdl[video]  media-libs/sdl-mixer 
+RDEPEND=media-libs/libsdl[video]  media-libs/sdl-mixer 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://icculus.org/cdogs-sdl/files/src/cdogs-sdl-0.4.tar.bz2
+	http://icculus.org/cdogs-sdl/files/data/cdogs-data-2007-07-06.tar.bz2

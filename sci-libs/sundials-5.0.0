@@ -1,0 +1,10 @@
+7fd5be7d0d445cdd6f4063aa6570a547
+DEFINED_PHASES= configure install setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  lapack? ( virtual/lapack )  mpi? ( virtual/mpi sci-libs/hypre:= )  sparse? ( sci-libs/klu:= )  superlumt? ( sci-libs/superlu_mt:= )   virtual/pkgconfig 
+RDEPEND=  lapack? ( virtual/lapack )  mpi? ( virtual/mpi sci-libs/hypre:= )  sparse? ( sci-libs/klu:= )  superlumt? ( sci-libs/superlu_mt:= )  
+EAPI=7
+IUSE=cxx doc examples fortran hypre lapack mpi openmp sparse static-libs superlumt threads 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/5
+SRC_URI=https://computation.llnl.gov/projects/sundials/download/sundials-5.0.0.tar.gz

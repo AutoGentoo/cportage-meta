@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-db/postgresql:* 
+RDEPEND=dev-db/postgresql:*  dev-python/egenix-mx-base[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=examples 
+KEYWORDS=amd64 ia64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pypgsql/pyPgSQL-2.5.1.tar.gz

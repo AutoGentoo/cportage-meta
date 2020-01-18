@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=media-video/vdr-1.5.9 
+RDEPEND=>=media-video/vdr-1.5.9 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI= http://www.vdr.heiligenmann.de/download/vdr-vcd-0.9.tgz

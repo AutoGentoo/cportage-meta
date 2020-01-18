@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= install postinst prepare setup
+RDEPEND=dev-lang/perl  dev-perl/IO-BufferedSelect  sys-apps/coreutils 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/inversepath/tenshi/archive/0.17.tar.gz
+	-> tenshi-0.17.tar.gz

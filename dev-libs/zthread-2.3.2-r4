@@ -1,0 +1,8 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=6
+IUSE=debug doc kernel_linux static-libs 
+KEYWORDS=alpha amd64 arm64 ~hppa ~mips ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/zthread/ZThread-2.3.2.tar.gz

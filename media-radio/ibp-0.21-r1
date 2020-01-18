@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile configure install prepare
+DEPEND=sys-libs/ncurses:0  X? ( x11-libs/libX11  )  X? ( x11-misc/imake ) 
+RDEPEND=sys-libs/ncurses:0  X? ( x11-libs/libX11  ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://wwwhome.cs.utwente.nl/~ptdeboer/ham/ibp-0.21.tgz

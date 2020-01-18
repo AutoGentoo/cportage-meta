@@ -1,0 +1,8 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= configure install postinst setup
+RDEPEND=  net-firewall/iptables[ipv6]  sys-apps/iproute2[-minimal]  sys-apps/net-tools  virtual/modutils  || (   net-misc/wget   net-misc/curl  )  
+EAPI=6
+IUSE=kernel_linux 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://download.sanewall.org/releases/1.1.6/sanewall-1.1.6.tar.xz

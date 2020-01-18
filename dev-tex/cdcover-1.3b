@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=virtual/latex-base  >=sys-apps/texinfo-4.2-r5 
+RDEPEND=virtual/latex-base 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/cdcover-1.3b.tar.gz

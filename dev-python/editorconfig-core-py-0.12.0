@@ -1,0 +1,12 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= prepare test
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  test? (   >dev-util/cmake-3.0  )  !<app-vim/editorconfig-vim-0.3.3-r1 
+RDEPEND=dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=test cli 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/editorconfig/editorconfig-core-py/archive/v0.12.0.tar.gz -> editorconfig-core-py-0.12.0.tar.gz
+	test? (
+		https://github.com/editorconfig/editorconfig-core-test/archive/abb579e00f2deeede91cb485e53512efab9c6474.tar.gz -> editorconfig-core-test-abb579e00f2deeede91cb485e53512efab9c6474.tar.gz
+	)

@@ -1,0 +1,9 @@
+71975e02647ff587bf4bfb28ffc6dcf8
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  ) 
+RDEPEND=    ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  virtual/qmail 
+EAPI=5
+IUSE=libressl +ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.spamdyke.org/releases/spamdyke-5.0.1.tgz

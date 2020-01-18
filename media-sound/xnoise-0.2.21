@@ -1,0 +1,10 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure install
+BDEPEND=  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+DEPEND=  dev-db/sqlite:3=  dev-libs/glib:2  gnome-base/librsvg:2  media-libs/gstreamer:1.0=  media-libs/gst-plugins-base:1.0=  media-libs/libtaginfo:=  media-plugins/gst-plugins-meta:1.0  x11-libs/cairo:=  x11-libs/gtk+:3  x11-libs/libX11  ayatana? ( dev-libs/libappindicator:3= )  lastfm? ( net-libs/libsoup:2.4= )  lyrics? (   net-libs/libsoup:2.4=   dev-libs/libxml2:2=  ) 
+RDEPEND=  dev-db/sqlite:3=  dev-libs/glib:2  gnome-base/librsvg:2  media-libs/gstreamer:1.0=  media-libs/gst-plugins-base:1.0=  media-libs/libtaginfo:=  media-plugins/gst-plugins-meta:1.0  x11-libs/cairo:=  x11-libs/gtk+:3  x11-libs/libX11  ayatana? ( dev-libs/libappindicator:3= )  lastfm? ( net-libs/libsoup:2.4= )  lyrics? (   net-libs/libsoup:2.4=   dev-libs/libxml2:2=  ) 
+EAPI=7
+IUSE=ayatana +lastfm +lyrics 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.bitbucket.org/shuerhaaken/xnoise/downloads/xnoise-0.2.21.tar.gz

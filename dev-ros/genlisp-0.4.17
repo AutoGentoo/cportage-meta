@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-ros/genmsg[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+RDEPEND=dev-ros/genmsg[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0/0.4.17
+SRC_URI=https://github.com/ros/genlisp/archive/0.4.17.tar.gz -> genlisp-0.4.17.tar.gz

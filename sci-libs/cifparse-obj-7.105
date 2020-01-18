@@ -1,0 +1,8 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install prepare
+DEPEND=  sys-devel/bison  sys-devel/flex 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://sw-tools.pdb.org/apps/CIFPARSE-OBJ/source/cifparse-obj-v7.105-prod-src.tar.gz

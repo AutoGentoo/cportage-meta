@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~yngwin/distfiles/powerline-symbols-20150224.tar.xz

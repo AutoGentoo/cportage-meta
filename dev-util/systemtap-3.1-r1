@@ -1,0 +1,9 @@
+b722333550ec30d896b317d38dcd1a53
+DEFINED_PHASES= configure prepare setup
+DEPEND=>=dev-libs/elfutils-0.142  dev-libs/json-c:=  dev-libs/nspr  dev-libs/nss  sys-libs/ncurses:0=  sys-libs/readline:0=  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   libvirt? ( >=app-emulation/libvirt-1.0.2 )  sqlite? ( dev-db/sqlite:3 )  >=sys-devel/gettext-0.18.2 
+RDEPEND=>=dev-libs/elfutils-0.142  dev-libs/json-c:=  dev-libs/nspr  dev-libs/nss  sys-libs/ncurses:0=  sys-libs/readline:0=  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   libvirt? ( >=app-emulation/libvirt-1.0.2 )  sqlite? ( dev-db/sqlite:3 ) 
+EAPI=6
+IUSE=libvirt sqlite 
+KEYWORDS=alpha amd64 arm ~arm64 ia64 ~mips ppc ppc64 s390 ~sparc x86
+SLOT=0
+SRC_URI=https://www.sourceware.org/systemtap/ftp/releases/systemtap-3.1.tar.gz

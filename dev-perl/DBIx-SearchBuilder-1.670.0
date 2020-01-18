@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=dev-perl/Cache-Simple-TimedExpiry-0.210.0  >=dev-perl/capitalization-0.30.0  >=dev-perl/Class-ReturnValue-0.400.0  dev-perl/Class-Accessor  dev-perl/Clone  dev-perl/DBI  dev-perl/DBIx-DBSchema  dev-perl/Want  >=virtual/perl-Encode-1.990.0  virtual/perl-Scalar-List-Utils   >=virtual/perl-ExtUtils-MakeMaker-6.360.0  test? (   >=virtual/perl-Test-Simple-0.520.0   dev-perl/DBD-SQLite   virtual/perl-File-Temp  )  
+RDEPEND=  >=dev-perl/Cache-Simple-TimedExpiry-0.210.0  >=dev-perl/capitalization-0.30.0  >=dev-perl/Class-ReturnValue-0.400.0  dev-perl/Class-Accessor  dev-perl/Clone  dev-perl/DBI  dev-perl/DBIx-DBSchema  dev-perl/Want  >=virtual/perl-Encode-1.990.0  virtual/perl-Scalar-List-Utils  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BP/BPS/DBIx-SearchBuilder-1.67.tar.gz

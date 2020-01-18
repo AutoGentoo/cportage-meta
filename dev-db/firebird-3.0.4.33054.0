@@ -1,0 +1,12 @@
+2e1486ed6add02c3ffb05cd3dfaa9362
+DEFINED_PHASES= configure install prepare pretend setup unpack
+BDEPEND=  >=dev-util/btyacc-3.0-r2  doc? ( app-arch/unzip )  
+DEPEND=  dev-libs/icu:=  dev-libs/libedit  dev-libs/libtommath  
+RDEPEND=  dev-libs/icu:=  dev-libs/libedit  dev-libs/libtommath   xinetd? ( virtual/inetd )  !sys-cluster/ganglia  
+EAPI=7
+IUSE=doc examples +server xinetd 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	https://github.com/FirebirdSQL/firebird/releases/download/R3_0_4/Firebird-3.0.4.33054-0.tar.bz2
+	doc? ( ftp://ftpc.inprise.com/pub/interbase/techpubs/ib_b60_doc.zip )

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=app-arch/unzip 
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=7
+IUSE=doc 
+KEYWORDS=alpha amd64 arm ia64 ~ppc s390 sh sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/EzraSIL251.zip

@@ -1,0 +1,9 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= install prepare
+DEPEND=pam? ( sys-libs/pam )  sys-apps/tcp-wrappers 
+RDEPEND=pam? ( sys-libs/pam )  sys-apps/tcp-wrappers  net-dialup/ppp 
+EAPI=6
+IUSE=pam 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/diald/diald-1.0.tar.gz

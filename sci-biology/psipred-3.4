@@ -1,0 +1,10 @@
+e1dc48fe8764d628056e6b368cd2d8fd
+DEFINED_PHASES= compile install postinst prepare
+RDEPEND=  app-shells/tcsh  sci-biology/ncbi-tools  sci-biology/update-blastdb 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	http://bioinf.cs.ucl.ac.uk/downloads/psipred/psipred3.4.tar.gz
+	test? ( http://bioinfadmin.cs.ucl.ac.uk/downloads/psipred/old/data/tdbdata.tar.gz )

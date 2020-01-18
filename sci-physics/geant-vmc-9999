@@ -1,0 +1,10 @@
+e0d7e6fab4a9698e62a0009065108b0f
+DEFINED_PHASES= compile configure install test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=sci-physics/geant-4.10.03:=[opengl,geant3?]  sci-physics/root:=[c++11,vmc]  vgm? ( >=sci-physics/vgm-4.4:= )  doc? ( app-doc/doxygen ) 
+RDEPEND=  >=sci-physics/geant-4.10.03:=[opengl,geant3?]  sci-physics/root:=[c++11,vmc]  vgm? ( >=sci-physics/vgm-4.4:= ) 
+EAPI=7
+IUSE=doc examples geant3 +g4root +mtroot vgm test 
+KEYWORDS=
+SLOT=4
+SRC_URI=

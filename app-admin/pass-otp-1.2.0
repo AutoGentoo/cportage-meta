@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=test? ( dev-tcltk/expect:* ) 
+RDEPEND=>=app-admin/pass-1.7  sys-auth/oath-toolkit  qrcode? ( media-gfx/qrencode ) 
+EAPI=7
+IUSE=qrcode test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/tadfisher/pass-otp/releases/download/v1.2.0/pass-otp-1.2.0.tar.gz

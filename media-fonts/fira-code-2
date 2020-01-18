@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/tonsky/FiraCode/archive/2.tar.gz -> fira-code-2.tar.gz
+https://github.com/tonsky/FiraCode/files/412440/FiraCode-Regular-Symbol.zip

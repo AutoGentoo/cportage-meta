@@ -1,0 +1,9 @@
+5b14f53507273f6c74d4cfd0ffb1e85f
+DEFINED_PHASES= install test
+DEPEND=  virtual/libffi  >=virtual/jdk-1.6  virtual/pkgconfig  test? (   dev-java/junit:0   dev-java/ant-core:0   dev-java/ant-junit:0  ) 
+RDEPEND=  virtual/libffi  >=virtual/jre-1.6 
+EAPI=5
+IUSE=+awt +nio-buffers 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/twall/jna/tarball/3.4.1 -> jna-3.4.1.tar.gz

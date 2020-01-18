@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure install preinst prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=dev-db/postgresql:*   dev-libs/boost  
+RDEPEND=dev-db/postgresql:*   dev-libs/boost  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://ftp.postgresql.org/pub/pgadmin/pgagent/pgAgent-4.0.0-Source.tar.gz

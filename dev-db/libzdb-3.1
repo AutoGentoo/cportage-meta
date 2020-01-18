@@ -1,0 +1,9 @@
+a2000f058eb906267705000cb21a1cea
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql )  sqlite? ( >=dev-db/sqlite-3.7:3[unlock-notify(+)] )  ssl? ( dev-libs/openssl:0= )  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql )  sqlite? ( >=dev-db/sqlite-3.7:3[unlock-notify(+)] )  ssl? ( dev-libs/openssl:0= ) 
+EAPI=5
+IUSE=debug doc mysql postgres +sqlite ssl static-libs 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.tildeslash.com/libzdb/dist/libzdb-3.1.tar.gz

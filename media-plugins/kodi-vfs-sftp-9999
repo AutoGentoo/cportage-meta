@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  =dev-libs/libplatform-2*  net-libs/libssh[sftp]  ~media-libs/kodi-platform-9999  ~media-tv/kodi-9999   
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

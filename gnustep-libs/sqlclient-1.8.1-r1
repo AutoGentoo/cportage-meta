@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure prepare
+DEPEND=>=gnustep-libs/performance-0.3.2  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  sqlite? ( >=dev-db/sqlite-3 ) 
+RDEPEND=>=gnustep-libs/performance-0.3.2  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  sqlite? ( >=dev-db/sqlite-3 ) 
+EAPI=6
+IUSE=java mysql postgres +sqlite 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=ftp://ftp.gnustep.org/pub/gnustep/libs/SQLClient-1.8.1.tar.gz

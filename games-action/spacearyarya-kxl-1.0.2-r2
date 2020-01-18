@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=dev-games/KXL 
+RDEPEND=dev-games/KXL  media-fonts/font-adobe-100dpi  media-fonts/font-bitstream-100dpi 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/SpaceAryarya-KXL-1.0.2.tar.gz

@@ -1,0 +1,10 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= compile install unpack
+BDEPEND=app-emacs/volume  sys-apps/texinfo 
+RDEPEND=app-emacs/volume 
+EAPI=7
+IUSE=mplayer 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/dbrock/bongo/archive/1.1.tar.gz -> bongo-1.1.tar.gz
+	mplayer? ( mirror://gentoo/bongo-mplayer-20070204.tar.bz2 )

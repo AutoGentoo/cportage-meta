@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=   >=virtual/perl-ExtUtils-MakeMaker-6.640.0  test? (   >=virtual/perl-Test-Simple-0.950.0   dev-perl/Test-utf8  )  
+RDEPEND=  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BD/BDFOY/Test-File-1.443.tar.gz

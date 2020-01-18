@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/CGI-3.630.0  dev-perl/HTTP-Message   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.880.0   >=dev-perl/Test-Requires-0.80.0  )  
+RDEPEND=  >=dev-perl/CGI-3.630.0  dev-perl/HTTP-Message  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TOKUHIROM/CGI-Emulate-PSGI-0.23.tar.gz

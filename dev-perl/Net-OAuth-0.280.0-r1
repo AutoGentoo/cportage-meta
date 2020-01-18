@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Class-Accessor-0.31  >=dev-perl/Class-Data-Inheritable-0.06  dev-perl/Digest-HMAC  dev-perl/URI  virtual/perl-Digest-SHA  >=virtual/perl-Encode-2.35  dev-perl/libwww-perl   dev-perl/Module-Build  test? (   >=virtual/perl-Test-Simple-0.66   >=dev-perl/Test-Warn-0.21  ) 
+RDEPEND=  >=dev-perl/Class-Accessor-0.31  >=dev-perl/Class-Data-Inheritable-0.06  dev-perl/Digest-HMAC  dev-perl/URI  virtual/perl-Digest-SHA  >=virtual/perl-Encode-2.35  dev-perl/libwww-perl  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~x64-macos
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KG/KGRENNAN/Net-OAuth-0.28.tar.gz

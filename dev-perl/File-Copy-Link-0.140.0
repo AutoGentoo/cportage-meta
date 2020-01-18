@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-File-Spec   >=dev-perl/Module-Build-0.380.0  test? (   virtual/perl-File-Temp   virtual/perl-Test-Simple  )  
+RDEPEND=  virtual/perl-File-Spec  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RM/RMBARKER/File-Copy-Link-0.140.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  dev-java/nanoxml:0  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/nanoxml:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=1
+SRC_URI=https://repo1.maven.org/maven2/net/java/dev/laf-plugin/laf-plugin/1.1/laf-plugin-1.1-sources.jar -> laf-plugin-1.1.jar

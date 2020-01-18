@@ -1,0 +1,12 @@
+bbcca0d20fceffb127435db10eadaa05
+DEFINED_PHASES= compile configure install postinst postrm prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  acct-group/epmd  acct-user/epmd  sys-libs/ncurses:0  sys-libs/zlib  emacs? ( >=app-editors/emacs-23.1:* )  java? ( >=virtual/jdk-1.8:* )  odbc? ( dev-db/unixODBC )  sctp? ( net-misc/lksctp-tools )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.7d:0= )   libressl? ( dev-libs/libressl:0= )  )  systemd? ( sys-apps/systemd )  tk? ( dev-lang/tk:0 )  wxwidgets? ( x11-libs/wxGTK:3.0[X,opengl] )   dev-lang/perl  
+RDEPEND=  acct-group/epmd  acct-user/epmd  sys-libs/ncurses:0  sys-libs/zlib  emacs? ( >=app-editors/emacs-23.1:* )  java? ( >=virtual/jdk-1.8:* )  odbc? ( dev-db/unixODBC )  sctp? ( net-misc/lksctp-tools )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.7d:0= )   libressl? ( dev-libs/libressl:0= )  )  systemd? ( sys-apps/systemd )  tk? ( dev-lang/tk:0 )  wxwidgets? ( x11-libs/wxGTK:3.0[X,opengl] )  
+EAPI=7
+IUSE=doc emacs +hipe java +kpoll libressl odbc sctp ssl systemd tk wxwidgets 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris
+SLOT=0/22.1.7
+SRC_URI=https://github.com/erlang/otp/archive/OTP-22.1.7.tar.gz -> erlang-22.1.7.tar.gz
+	http://erlang.org/download/otp_doc_man_22.1.tar.gz -> erlang_doc_man_22.1.tar.gz
+	doc? ( http://erlang.org/download/otp_doc_html_22.1.tar.gz -> erlang_doc_html_22.1.tar.gz )

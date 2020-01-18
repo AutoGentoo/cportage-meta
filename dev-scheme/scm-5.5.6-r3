@@ -1,0 +1,9 @@
+0e8ebe9d045951bf0a89b4bebd88b98f
+DEFINED_PHASES= compile config install postinst test
+DEPEND=app-arch/unzip  >=dev-scheme/slib-3.1.5  dev-util/cproto  ncurses? ( sys-libs/ncurses:0= )  readline? ( sys-libs/libtermcap-compat ) 
+RDEPEND=app-arch/unzip  >=dev-scheme/slib-3.1.5  dev-util/cproto  ncurses? ( sys-libs/ncurses:0= )  readline? ( sys-libs/libtermcap-compat ) 
+EAPI=6
+IUSE=arrays bignums cautious dynamic-linking engineering-notation gsubr inexact ioext libscm macro ncurses posix readline regex sockets unix 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-macos
+SLOT=0
+SRC_URI=http://groups.csail.mit.edu/mac/ftpdir/scm/scm-5e6.zip

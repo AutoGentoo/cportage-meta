@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=virtual/perl-Encode-2.100.0  dev-perl/Try-Tiny   >=virtual/perl-ExtUtils-MakeMaker-6.300.200  >=virtual/perl-ExtUtils-CBuilder-0.270.0  test? (   dev-perl/Test-FailWarnings   >=dev-perl/Test-Most-0.220.0   >=virtual/perl-Test-Simple-0.940.0  )  
+RDEPEND=  >=virtual/perl-Encode-2.100.0  dev-perl/Try-Tiny  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Z/ZW/ZWON/RedisDB-Parser-2.22.tar.gz

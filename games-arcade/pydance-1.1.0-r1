@@ -1,0 +1,10 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= install prepare
+DEPEND=dev-python/pygame  media-libs/libvorbis  media-libs/sdl-mixer 
+RDEPEND=dev-python/pygame  media-libs/libvorbis  media-libs/sdl-mixer 
+PDEPEND=games-arcade/pydance-songs 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.icculus.org/pyddr/pydance-1.1.0.tar.gz

@@ -1,0 +1,9 @@
+0c2120ee62488cb2e256282e3a1a2970
+DEFINED_PHASES= compile configure postinst prepare
+DEPEND=mysql? ( dev-db/mysql-connector-c:0= )  berkdb? ( >=sys-libs/db-3.2.9 ) 
+RDEPEND=mysql? ( dev-db/mysql-connector-c:0= )  berkdb? ( >=sys-libs/db-3.2.9 ) 
+EAPI=7
+IUSE=mysql berkdb 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bmf/bmf-0.9.4.tar.gz

@@ -1,0 +1,9 @@
+179a52f4bf6abb6f7d7d78efe7113bed
+DEFINED_PHASES= compile install prepare setup test unpack
+DEPEND=  ~dev-util/nvidia-cuda-toolkit-7.5.18  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   virtual/mpi   >=x11-drivers/nvidia-drivers-352.39[uvm]   ) 
+RDEPEND=  ~dev-util/nvidia-cuda-toolkit-7.5.18  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   virtual/mpi   >=x11-drivers/nvidia-drivers-352.39[uvm]   ) 
+EAPI=5
+IUSE=debug +doc +examples opencl +cuda 
+KEYWORDS=~amd64 ~amd64-linux
+SLOT=0
+SRC_URI=http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda_7.5.18_linux.run

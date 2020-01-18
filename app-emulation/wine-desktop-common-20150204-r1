@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info  
+RDEPEND=!app-emulation/wine:0 
+PDEPEND=app-eselect/eselect-wine 
+EAPI=7
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=https://github.com/NP-Hardass/wine-desktop-common/archive/20150204.tar.gz -> wine-desktop-common-20150204.tar.gz

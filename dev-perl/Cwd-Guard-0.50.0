@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-File-Spec  virtual/perl-Exporter  virtual/perl-if  virtual/perl-parent   >=dev-perl/Module-Build-0.380.0  test? (   dev-perl/Test-Requires   virtual/perl-Test-Simple   !minimal? (    dev-perl/File-Copy-Link   )  )  
+RDEPEND=  virtual/perl-File-Spec  virtual/perl-Exporter  virtual/perl-if  virtual/perl-parent  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=amd64 hppa ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KAZEBURO/Cwd-Guard-0.05.tar.gz

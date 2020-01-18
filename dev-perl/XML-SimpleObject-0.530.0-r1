@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/XML-Parser-2.30  >=dev-perl/XML-LibXML-1.54 
+RDEPEND=>=dev-perl/XML-Parser-2.30  >=dev-perl/XML-LibXML-1.54 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DB/DBRIAN/XML-SimpleObject-0.53.tar.gz

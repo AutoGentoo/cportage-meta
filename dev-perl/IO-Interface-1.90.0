@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Module-Build-0.420.0  virtual/perl-ExtUtils-CBuilder  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LD/LDS/IO-Interface-1.09.tar.gz

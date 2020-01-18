@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/diagnostic_updater[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/roslib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rospy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/tf[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+RDEPEND=  dev-ros/diagnostic_updater[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/roslib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rospy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/tf[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   app-admin/hddtemp 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros/diagnostics/archive/1.8.10.tar.gz -> diagnostics-1.8.10.tar.gz

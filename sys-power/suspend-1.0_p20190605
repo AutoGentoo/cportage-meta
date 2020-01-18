@@ -1,0 +1,11 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  >=dev-lang/perl-5.10  virtual/pkgconfig 
+DEPEND=  dev-libs/libx86  >=sys-apps/pciutils-2.2.4  crypt? (   >=dev-libs/libgcrypt-1.6.3:0[static-libs]   dev-libs/libgpg-error[static-libs] )  lzo? ( >=dev-libs/lzo-2[static-libs] )  
+RDEPEND=  dev-libs/libx86  >=sys-apps/pciutils-2.2.4  crypt? (   >=dev-libs/libgcrypt-1.6.3:0[static-libs]   dev-libs/libgpg-error[static-libs] )  lzo? ( >=dev-libs/lzo-2[static-libs] )  
+EAPI=7
+IUSE=crypt +lzo threads 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~bircoph/distfiles/suspend-1.0_p20120915.tar.xz
+	https://dev.gentoo.org/~bircoph/patches/suspend-1.0_p20190605.patch.xz

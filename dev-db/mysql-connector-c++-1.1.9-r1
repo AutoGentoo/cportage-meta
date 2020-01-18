@@ -1,0 +1,10 @@
+cbe9f04634d17097b17fdddcc6606f42
+DEFINED_PHASES= configure install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-db/mysql-connector-c:=  dev-libs/boost:=  dev-libs/openssl:0=  !<dev-db/mysql-connector-c-6.1.8 
+RDEPEND=dev-db/mysql-connector-c:=  dev-libs/boost:=  dev-libs/openssl:0=  !<dev-db/mysql-connector-c-6.1.8 
+EAPI=6
+IUSE=debug examples gcov static-libs 
+KEYWORDS=amd64 arm ~arm64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://dev.mysql.com/get/Downloads/Connector-C++/mysql-connector-c++-1.1.9.tar.gz

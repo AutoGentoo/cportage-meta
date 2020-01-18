@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/libpcre  media-libs/libmpdclient  boost? ( dev-libs/boost:= )  taglib? ( media-libs/taglib ) 
+RDEPEND=dev-libs/libpcre  media-libs/libmpdclient  boost? ( dev-libs/boost:= )  taglib? ( media-libs/taglib ) 
+EAPI=7
+IUSE=boost taglib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/boysetsfrog/vimpc/archive/v0.09.2.tar.gz -> vimpc-0.09.2.tar.gz

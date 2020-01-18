@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure postinst preinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=sys-libs/ncurses:0=[unicode?]  geoip? (   !geoipv2? ( dev-libs/geoip )   geoipv2? ( dev-libs/libmaxminddb:0= )  )  !tokyocabinet? ( dev-libs/glib:2 )  tokyocabinet? (   dev-db/tokyocabinet[bzip2?,zlib?]   btree? (    bzip2? ( app-arch/bzip2 )    zlib? ( sys-libs/zlib )   )  )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+RDEPEND=sys-libs/ncurses:0=[unicode?]  geoip? (   !geoipv2? ( dev-libs/geoip )   geoipv2? ( dev-libs/libmaxminddb:0= )  )  !tokyocabinet? ( dev-libs/glib:2 )  tokyocabinet? (   dev-db/tokyocabinet[bzip2?,zlib?]   btree? (    bzip2? ( app-arch/bzip2 )    zlib? ( sys-libs/zlib )   )  )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+EAPI=7
+IUSE=btree bzip2 debug geoip geoipv2 getline libressl tokyocabinet ssl unicode zlib 
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=https://tar.goaccess.io/goaccess-1.3.tar.gz

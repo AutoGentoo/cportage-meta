@@ -1,0 +1,9 @@
+f83a281be0f4211f9a8cbc9dcf732791
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=dev-lang/perl 
+RDEPEND=!dev-lang/tendra 
+EAPI=6
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

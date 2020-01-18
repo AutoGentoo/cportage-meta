@@ -1,0 +1,9 @@
+0de2a0cc661a04ccf344ce3bf9400801
+DEFINED_PHASES= configure install postinst postrm setup
+DEPEND=dev-libs/glib:2  dev-libs/libxml2:2  x11-libs/goocanvas:2.0  x11-libs/gtk+:3  x11-libs/gtksourceview:3.0  || ( dev-lang/python:3.7[threads(+)] dev-lang/python:3.6[threads(+)] )  dev-util/glib-utils  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  dev-libs/libxml2:2  x11-libs/goocanvas:2.0  x11-libs/gtk+:3  x11-libs/gtksourceview:3.0  || ( gnome-base/dconf gnome-base/gconf )  sci-electronics/electronics-menu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/drahnr/oregano/archive/v0.84.40.tar.gz -> drahnr-oregano-0.84.40.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-libs/gmp:= dev-libs/libpcre virtual/libffi dev-libs/boehm-gc[threads?] 
+RDEPEND=dev-libs/gmp:= dev-libs/libpcre virtual/libffi dev-libs/boehm-gc[threads?] 
+EAPI=6
+IUSE=threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.stklos.net/download/stklos-1.10.tar.gz

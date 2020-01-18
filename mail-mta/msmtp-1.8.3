@@ -1,0 +1,10 @@
+4c52f43dc413b10872bb4d751cb85646
+DEFINED_PHASES= compile configure install postinst preinst prepare
+BDEPEND=  gnome-keyring? ( app-crypt/libsecret )  nls? ( virtual/libintl )  sasl? ( virtual/gsasl )  ssl? ( net-libs/gnutls[idn?] )  !ssl? ( idn? ( net-dns/libidn2:= ) )   doc? ( virtual/texi2dvi )  nls? ( sys-devel/gettext )  virtual/pkgconfig  
+DEPEND=  gnome-keyring? ( app-crypt/libsecret )  nls? ( virtual/libintl )  sasl? ( virtual/gsasl )  ssl? ( net-libs/gnutls[idn?] )  !ssl? ( idn? ( net-dns/libidn2:= ) )  
+RDEPEND=  gnome-keyring? ( app-crypt/libsecret )  nls? ( virtual/libintl )  sasl? ( virtual/gsasl )  ssl? ( net-libs/gnutls[idn?] )  !ssl? ( idn? ( net-dns/libidn2:= ) )   net-mail/mailbase  mta? (   !mail-mta/courier   !mail-mta/esmtp   !mail-mta/exim   !mail-mta/mini-qmail   !mail-mta/netqmail   !mail-mta/nullmailer   !mail-mta/postfix   !mail-mta/qmail-ldap   !mail-mta/sendmail   !mail-mta/opensmtpd   !<mail-mta/ssmtp-2.64-r2   !>=mail-mta/ssmtp-2.64-r2[mta]  )  
+EAPI=7
+IUSE=daemon doc gnome-keyring idn +mta nls sasl ssl vim-syntax 
+KEYWORDS=alpha amd64 ~arm ~arm64 ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=https://marlam.de/msmtp/releases/msmtp-1.8.3.tar.xz

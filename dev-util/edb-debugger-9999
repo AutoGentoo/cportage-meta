@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  dev-libs/boost  virtual/pkgconfig    dev-libs/capstone:=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5  graphviz? ( media-gfx/graphviz )   
+RDEPEND=  dev-libs/capstone:=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5  graphviz? ( media-gfx/graphviz )  
+EAPI=7
+IUSE=graphviz jumbo-build 
+KEYWORDS=
+SLOT=0
+SRC_URI=

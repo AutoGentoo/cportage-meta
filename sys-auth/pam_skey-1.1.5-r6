@@ -1,0 +1,11 @@
+faad9bf0393a2d872e2c78b7e2745922
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=net-libs/libnsl:0=  >=sys-libs/pam-0.78-r3  >=sys-auth/skey-1.1.5-r4 
+RDEPEND=net-libs/libnsl:0=  >=sys-libs/pam-0.78-r3  >=sys-auth/skey-1.1.5-r4 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://dkorunic.net/tarballs/pam_skey-1.1.5.tar.gz
+	https://dev.gentoo.org/~ulm/distfiles/pam_skey-1.1.5-patches-6.tar.xz

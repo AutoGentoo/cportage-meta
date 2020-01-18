@@ -1,0 +1,8 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= install postinst
+DEPEND=sys-apps/util-linux  sys-fs/e2fsprogs 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/t/tmpreaper/tmpreaper_1.6.14.tar.gz

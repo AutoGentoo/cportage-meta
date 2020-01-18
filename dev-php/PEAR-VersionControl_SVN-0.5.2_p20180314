@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=test? ( dev-vcs/subversion dev-php/phpunit ) 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/pear/VersionControl_SVN/archive/6c9580df92f0cc77a6eb6fcc216c56913bf308e7.tar.gz -> PEAR-VersionControl_SVN-0.5.2_p20180314.tar.gz

@@ -1,0 +1,9 @@
+1d11f669708d53b358f0357709940152
+DEFINED_PHASES= prepare
+DEPEND=  >=virtual/perl-XSLoader-0.20.0  >=virtual/perl-parent-0.221.0   >=virtual/perl-Devel-PPPort-3.190.0  >=virtual/perl-ExtUtils-MakeMaker-6.590.0  >=virtual/perl-ExtUtils-ParseXS-2.210.0  >=dev-perl/Module-Build-0.400.500  test? (   >=dev-perl/Test-LeakTrace-0.70.0   >=virtual/perl-Test-Simple-0.620.0  )  
+RDEPEND=  >=virtual/perl-XSLoader-0.20.0  >=virtual/perl-parent-0.221.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ppc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GF/GFUJI/Hash-FieldHash-0.15.tar.gz

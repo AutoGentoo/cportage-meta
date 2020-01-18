@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=media-libs/alsa-lib  x11-libs/fltk:1  nls? ( sys-devel/gettext ) 
+RDEPEND=media-libs/alsa-lib  x11-libs/fltk:1 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gmorgan/gmorgan-0.79.tar.gz

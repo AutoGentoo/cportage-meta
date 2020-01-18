@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= install postinst
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  test? ( dev-python/nose[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyyaml[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+EAPI=6
+IUSE=doc libressl test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/cea-hpc/clustershell/archive/v1.7.3.tar.gz -> clustershell-1.7.3.tar.gz

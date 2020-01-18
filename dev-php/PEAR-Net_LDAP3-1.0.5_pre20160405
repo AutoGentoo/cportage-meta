@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  dev-lang/php:*[ldap]  dev-php/PEAR-Net_LDAP2  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm ~hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~pinkbyte/distfiles/snapshots/PEAR-Net_LDAP3-1.0.5_pre20160405.tar.gz

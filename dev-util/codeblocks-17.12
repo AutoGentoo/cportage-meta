@@ -1,0 +1,9 @@
+bcfb70c4aacc500f65e2ecd815b01f63
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=app-arch/zip  x11-libs/wxGTK:3.0[X]  contrib? (   app-text/hunspell   dev-libs/boost:=   dev-libs/libgamin  )  virtual/pkgconfig 
+RDEPEND=app-arch/zip  x11-libs/wxGTK:3.0[X]  contrib? (   app-text/hunspell   dev-libs/boost:=   dev-libs/libgamin  ) 
+EAPI=6
+IUSE=contrib debug fortran pch 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/codeblocks/codeblocks_17.12.tar.xz https://dev.gentoo.org/~leio/distfiles/codeblocks-17.12-fortran.tar.xz

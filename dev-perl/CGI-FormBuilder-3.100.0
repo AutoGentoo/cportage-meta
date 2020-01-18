@@ -1,0 +1,9 @@
+5e81f7d35f1819465b4f9616f8ab8e76
+DEFINED_PHASES= postinst test
+DEPEND=dev-perl/CGI  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=dev-perl/CGI 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BI/BIGPRESH/CGI-FormBuilder-3.10.tar.gz

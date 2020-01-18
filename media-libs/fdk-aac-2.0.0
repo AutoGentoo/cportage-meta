@@ -1,0 +1,7 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= postinst prepare
+EAPI=7
+IUSE=static-libs examples 
+KEYWORDS=amd64 arm arm64 ppc ppc64 x86 ~x64-macos
+SLOT=0/2
+SRC_URI=mirror://sourceforge/opencore-amr/fdk-aac-2.0.0.tar.gz

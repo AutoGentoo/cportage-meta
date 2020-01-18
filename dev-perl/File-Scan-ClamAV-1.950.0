@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=dev-lang/perl  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=app-antivirus/clamav 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ES/ESAYM/File-Scan-ClamAV-1.95.tar.gz

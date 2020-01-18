@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=!dev-util/build:0.3 
+EAPI=6
+IUSE=examples 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://www.codesynthesis.com/download/build/0.3/build-0.3.10.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=app-admin/eselect 
+RDEPEND=app-admin/eselect 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

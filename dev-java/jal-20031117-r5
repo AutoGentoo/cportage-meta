@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= prepare
+DEPEND=  dev-java/ant-core:0  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/ant-core:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~monsieurp/packages/jal-20031117.tar.gz

@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-ros/hardware_interface-0.15  dev-ros/pluginlib   dev-libs/tinyxml2:=  dev-ros/roscpp  dev-libs/boost:=  dev-libs/console_bridge:=  
+RDEPEND=  >=dev-ros/hardware_interface-0.15  dev-ros/pluginlib   dev-libs/tinyxml2:=  dev-ros/roscpp  dev-libs/boost:=  dev-libs/console_bridge:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

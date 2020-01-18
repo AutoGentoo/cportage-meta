@@ -1,0 +1,8 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= install prepare
+RDEPEND=virtual/cdrtools  !app-backup/cdbkup 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cdcatalog/cdcat-0.3.tar.gz

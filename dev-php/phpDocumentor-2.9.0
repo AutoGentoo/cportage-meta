@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+RDEPEND=!dev-php/PEAR-PhpDocumentor  media-gfx/graphviz  dev-lang/php:*[cli,iconv,intl,phar,xmlreader,xslt] 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/phpDocumentor/phpDocumentor2/releases/download/v2.9.0/phpDocumentor.phar -> phpDocumentor-2.9.0.phar

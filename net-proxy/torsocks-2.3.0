@@ -1,0 +1,8 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/dgoulet/torsocks/archive/v2.3.0.tar.gz -> torsocks-2.3.0.tar.gz

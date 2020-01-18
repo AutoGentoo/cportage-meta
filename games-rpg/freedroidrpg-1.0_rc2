@@ -1,0 +1,10 @@
+2ca6ce5477cd8c09060f956275d06a81
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 )  nls? ( sys-devel/gettext )  sanitize? ( || ( sys-devel/gcc[sanitize] sys-devel/clang-runtime[sanitize] ) ) 
+DEPEND=  sys-libs/zlib  virtual/jpeg:0  media-libs/libpng:0  media-libs/libsdl[opengl?,sound?,video]  media-libs/sdl-image[jpeg,png]  >=media-libs/sdl-gfx-2.0.21  nls? ( virtual/libintl )  opengl? ( virtual/opengl )  sound? (   media-libs/libogg   media-libs/libvorbis   media-libs/sdl-mixer[vorbis] )  devtools? ( media-libs/sdl-ttf ) 
+RDEPEND=  sys-libs/zlib  virtual/jpeg:0  media-libs/libpng:0  media-libs/libsdl[opengl?,sound?,video]  media-libs/sdl-image[jpeg,png]  >=media-libs/sdl-gfx-2.0.21  nls? ( virtual/libintl )  opengl? ( virtual/opengl )  sound? (   media-libs/libogg   media-libs/libvorbis   media-libs/sdl-mixer[vorbis] )  devtools? ( media-libs/sdl-ttf ) 
+EAPI=7
+IUSE=debug devtools nls opengl profile sanitize sound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.osuosl.org/pub/freedroid/freedroidRPG-1.0/freedroidRPG-1.0rc2.tar.gz

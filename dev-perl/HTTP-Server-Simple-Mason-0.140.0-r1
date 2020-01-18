@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=  dev-perl/Hook-LexWrap  dev-perl/URI  dev-perl/libwww-perl  >=dev-perl/HTML-Mason-1.250.0  >=dev-perl/HTTP-Server-Simple-0.40.0  
+RDEPEND=  dev-perl/Hook-LexWrap  dev-perl/URI  dev-perl/libwww-perl  >=dev-perl/HTML-Mason-1.250.0  >=dev-perl/HTTP-Server-Simple-0.40.0  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JE/JESSE/HTTP-Server-Simple-Mason-0.14.tar.gz

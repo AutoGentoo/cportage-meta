@@ -1,0 +1,8 @@
+5cb38aaacfdf7fdd6151d1b4254e18a4
+DEFINED_PHASES= compile configure install prepare
+DEPEND=doc? ( virtual/latex-base ) 
+EAPI=4
+IUSE=doc examples 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=ftp://ftp.earth.ox.ac.uk/pub/keith/moldy-2.16e.tar.gz

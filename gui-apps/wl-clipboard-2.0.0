@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-libs/wayland 
+RDEPEND=dev-libs/wayland 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0
+SRC_URI=https://github.com/bugaevc/wl-clipboard/archive/v2.0.0.tar.gz -> wl-clipboard-2.0.0.tar.gz

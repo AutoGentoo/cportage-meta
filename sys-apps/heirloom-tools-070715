@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst
+DEPEND=sys-apps/ed  sys-libs/zlib[static-libs] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://downloads.sourceforge.net/project/heirloom/heirloom/070715/heirloom-070715.tar.bz2

@@ -1,0 +1,10 @@
+bfbe601becd688ba4d1d58fac814baab
+DEFINED_PHASES= compile configure install postinst postrm preinst
+DEPEND=app-arch/unzip 
+RDEPEND=  >=virtual/jre-1.5  x11-libs/gtk+:2  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://dl2.xmind.net/xmind-downloads/xmind-portable-3.5.3.201506180105.zip
+	https://dev.gentoo.org/~creffett/distfiles/xmind-icons.tar.xz

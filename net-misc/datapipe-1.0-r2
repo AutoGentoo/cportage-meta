@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=ftp://ftp.distributed.net/pub/dcti/unsupported/datapipe-1.0.tar.gz http://http.distributed.net/pub/dcti/unsupported/datapipe-1.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=sys-libs/zlib  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  x11-libs/libXmu  x11-libs/libXt 
+RDEPEND=sys-libs/zlib  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  x11-libs/libXmu  x11-libs/libXt  media-libs/netpbm 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=ftp://bourbon.usc.edu/pub/tgif/tgif-QPL-4.2.5.tar.gz

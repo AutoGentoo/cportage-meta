@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= compile install postinst
+DEPEND=  media-libs/alsa-lib  sci-libs/fftw:3.0  virtual/jack 
+RDEPEND=  media-libs/alsa-lib  sci-libs/fftw:3.0  virtual/jack 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://www.ludd.ltu.se/~torger/files/brutefir-1.0k.tar.gz

@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=~amd64 ~arm ~arm64 ppc64 ~x86
+SLOT=0/4
+SRC_URI=mirror://sourceforge/perfmon2/libpfm4/libpfm-4.8.0.tar.gz

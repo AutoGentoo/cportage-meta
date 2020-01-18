@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install prepare test
+DEPEND=>=dev-go/go-sys-0_pre20180816:= 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=dev-libs/popt 
+RDEPEND=dev-libs/popt 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://www.samba.org/ftp/pub/tridge/dbench/dbench-4.0.tar.gz

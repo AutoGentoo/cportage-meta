@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+RDEPEND=!app-emulation/qemu[qemu_user_targets_riscv64] 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~dilfridge/distfiles/qemu-riscv64-bin-3.1.0-r4.tar.xz

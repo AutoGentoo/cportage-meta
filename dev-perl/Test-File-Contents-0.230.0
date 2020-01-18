@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Digest-MD5  virtual/perl-File-Spec  >=virtual/perl-Test-Simple-0.700.0  >=dev-perl/Text-Diff-0.350.0   >=dev-perl/Module-Build-0.300.0  
+RDEPEND=  virtual/perl-Digest-MD5  virtual/perl-File-Spec  >=virtual/perl-Test-Simple-0.700.0  >=dev-perl/Text-Diff-0.350.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DW/DWHEELER/Test-File-Contents-0.23.tar.gz

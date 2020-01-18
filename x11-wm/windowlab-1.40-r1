@@ -1,0 +1,9 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= install postinst setup
+DEPEND=truetype? ( x11-libs/libXft )  x11-libs/libXext  virtual/pkgconfig  x11-base/xorg-proto 
+RDEPEND=truetype? ( x11-libs/libXft )  x11-libs/libXext 
+EAPI=6
+IUSE=truetype 
+KEYWORDS=amd64 ~mips ppc x86
+SLOT=0
+SRC_URI=http://www.nickgravgaard.com/windowlab/windowlab-1.40.tar

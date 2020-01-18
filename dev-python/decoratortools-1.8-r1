@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  app-arch/unzip  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ia64 ppc x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://pypi/D/DecoratorTools/DecoratorTools-1.8.zip

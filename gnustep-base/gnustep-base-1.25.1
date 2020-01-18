@@ -1,0 +1,9 @@
+a06f81e596c1f94c6911c66be899b15f
+DEFINED_PHASES= configure install
+DEPEND=doc? ( virtual/texi2dvi dev-tex/latex2html app-text/texi2html )  >=gnustep-base/gnustep-make-2.6.0  gnutls? ( net-libs/gnutls )  icu? ( >=dev-libs/icu-4.0:= )  !libffi? ( dev-libs/ffcall   gnustep-base/gnustep-make[-native-exceptions] )  libffi? ( virtual/libffi )  >=dev-libs/libxml2-2.6  >=dev-libs/libxslt-1.1  >=dev-libs/gmp-4.1:=  >=sys-libs/zlib-1.2  zeroconf? ( net-dns/avahi )  virtual/pkgconfig 
+RDEPEND=doc? ( virtual/texi2dvi dev-tex/latex2html app-text/texi2html )  >=gnustep-base/gnustep-make-2.6.0  gnutls? ( net-libs/gnutls )  icu? ( >=dev-libs/icu-4.0:= )  !libffi? ( dev-libs/ffcall   gnustep-base/gnustep-make[-native-exceptions] )  libffi? ( virtual/libffi )  >=dev-libs/libxml2-2.6  >=dev-libs/libxslt-1.1  >=dev-libs/gmp-4.1:=  >=sys-libs/zlib-1.2  zeroconf? ( net-dns/avahi ) 
+EAPI=6
+IUSE=+gnutls +icu +libffi zeroconf 
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-base-1.25.1.tar.gz

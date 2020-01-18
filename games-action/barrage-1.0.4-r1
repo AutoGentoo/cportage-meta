@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm
+DEPEND=  >=media-libs/libsdl-1.2[sound,video]  >=media-libs/sdl-mixer-1.2.4 
+RDEPEND=  >=media-libs/libsdl-1.2[sound,video]  >=media-libs/sdl-mixer-1.2.4 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/lgames/barrage-1.0.4.tar.gz

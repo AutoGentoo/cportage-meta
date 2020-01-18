@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= install prepare
+DEPEND=    dev-java/jfreesvg:2.1  >=dev-java/jcommon-1.0.23:1.0  java-virtuals/servlet-api:3.0  test? (   dev-java/ant-junit:0   dev-java/junit:4  )  app-arch/unzip  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/jfreesvg:2.1  >=dev-java/jcommon-1.0.23:1.0  java-virtuals/servlet-api:3.0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=1.0
+SRC_URI=mirror://sourceforge/jfreechart/jfreechart-1.0.19.zip

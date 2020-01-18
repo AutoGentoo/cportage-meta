@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  dev-db/sqlite:=  sys-libs/librtas  
+RDEPEND=    dev-db/sqlite:=  sys-libs/librtas   virtual/logger  
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=ppc ppc64
+SLOT=0
+SRC_URI=mirror://sourceforge/linux-diag/libservicelog-1.1.18.tar.gz

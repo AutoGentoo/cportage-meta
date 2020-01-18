@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare test
+DEPEND=  >=virtual/jdk-1.6  test? (   dev-java/ant-junit:0   dev-java/junit:4  ) 
+RDEPEND=  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~arm64 ppc64 x86 ~x64-macos
+SLOT=1.7
+SRC_URI=https://archive.apache.org/dist/pdfbox/1.7.1/pdfbox-1.7.1-src.zip -> fontbox-1.7.1.zip

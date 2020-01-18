@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+DEPEND=test? ( dev-php/phpunit ) 
+RDEPEND=dev-lang/php:*[pdo,postgres,xml] 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.davical.org/downloads/awl_0.59.orig.tar.xz -> awl-0.59.tar.xz

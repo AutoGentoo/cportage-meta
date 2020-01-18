@@ -1,0 +1,10 @@
+36d185105295bea231681c7dd77a3f88
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-util/intltool-0.40  virtual/pkgconfig 
+DEPEND=consolekit? ( sys-auth/consolekit )  x11-libs/libxcb  gtk3? ( x11-libs/gtk+:3 )  !gtk3? ( x11-libs/gtk+:2 )  nls? ( sys-devel/gettext )  pam? ( sys-libs/pam ) 
+RDEPEND=consolekit? ( sys-auth/consolekit )  x11-libs/libxcb  gtk3? ( x11-libs/gtk+:3 )  !gtk3? ( x11-libs/gtk+:2 )  nls? ( sys-devel/gettext )  pam? ( sys-libs/pam )  elogind? ( sys-auth/elogind[pam] )  systemd? ( sys-apps/systemd[pam] )  
+EAPI=7
+IUSE=consolekit debug elogind +gtk3 nls pam systemd 
+KEYWORDS=amd64 ~arm ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/lxde/lxdm-0.5.3.tar.xz

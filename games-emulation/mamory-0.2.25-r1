@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-libs/expat 
+RDEPEND=dev-libs/expat 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mamory/mamory-0.2.25.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost:=  dev-ros/angles  dev-ros/collada_parser  dev-ros/resource_retriever  dev-ros/rosconsole  dev-ros/urdf  dev-ros/geometric_shapes  media-libs/assimp  dev-libs/collada-dom:=  dev-cpp/eigen:3   dev-ros/cmake_modules  
+RDEPEND=  dev-libs/boost:=  dev-ros/angles  dev-ros/collada_parser  dev-ros/resource_retriever  dev-ros/rosconsole  dev-ros/urdf  dev-ros/geometric_shapes  media-libs/assimp  dev-libs/collada-dom:=  dev-cpp/eigen:3  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

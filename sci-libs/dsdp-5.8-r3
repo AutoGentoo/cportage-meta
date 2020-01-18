@@ -1,0 +1,9 @@
+beea92c3afbd8048b935fd9e8ac20366
+DEFINED_PHASES= compile install prepare test
+DEPEND=virtual/lapack  virtual/pkgconfig 
+RDEPEND=virtual/lapack 
+EAPI=6
+IUSE=doc examples 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://www.mcs.anl.gov/hs/software/DSDP/DSDP5.8.tar.gz

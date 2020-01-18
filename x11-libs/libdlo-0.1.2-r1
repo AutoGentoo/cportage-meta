@@ -1,0 +1,10 @@
+221af2b20e60a4505a06cc930e5c9145
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=virtual/libusb:0= 
+RDEPEND=virtual/libusb:0= 
+EAPI=7
+IUSE=static-libs test-program 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://people.freedesktop.org/~berniet/libdlo-0.1.2.tar.gz

@@ -1,0 +1,9 @@
+432be0ba98149905de5593e519b16d86
+DEFINED_PHASES= configure
+DEPEND=sys-libs/ncurses:0=[unicode?]  >=dev-libs/glib-2:2  ao? ( media-libs/libao )  alsa? ( media-libs/alsa-lib )  http? ( net-misc/curl )  modplug? ( media-libs/libmodplug )  mp3? ( media-libs/libmad   media-libs/libid3tag )  pulseaudio? ( media-sound/pulseaudio )  sndfile? ( media-libs/libsndfile )  vorbis? ( media-libs/libvorbis )  xspf? ( >=media-libs/libxspf-1.2 )  nls? ( sys-devel/gettext )  virtual/pkgconfig 
+RDEPEND=sys-libs/ncurses:0=[unicode?]  >=dev-libs/glib-2:2  ao? ( media-libs/libao )  alsa? ( media-libs/alsa-lib )  http? ( net-misc/curl )  modplug? ( media-libs/libmodplug )  mp3? ( media-libs/libmad   media-libs/libid3tag )  pulseaudio? ( media-sound/pulseaudio )  sndfile? ( media-libs/libsndfile )  vorbis? ( media-libs/libvorbis )  xspf? ( >=media-libs/libxspf-1.2 ) 
+EAPI=6
+IUSE=ao +alsa pulseaudio oss http modplug mp3 sndfile vorbis xspf unicode nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://herrie.info/distfiles/herrie-2.2.tar.bz2

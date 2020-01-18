@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Data-Page-2.0.0  dev-perl/Class-Accessor   dev-perl/Module-Build  test? ( dev-perl/Test-Exception )  
+RDEPEND=  >=dev-perl/Data-Page-2.0.0  dev-perl/Class-Accessor  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHUNZI/Data-Page-Pageset-1.02.tar.gz

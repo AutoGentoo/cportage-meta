@@ -1,0 +1,10 @@
+2f6b2627db53c8fa42533266d358c6dc
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    virtual/opengl  media-libs/freeglut  doc? ( app-doc/doxygen[dot] ) 
+RDEPEND=  virtual/opengl  media-libs/freeglut 
+EAPI=6
+IUSE=+bullet3 doc double-precision examples extras test 
+KEYWORDS=amd64 ~arm ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0/2.86
+SRC_URI=https://github.com/bulletphysics/bullet3/archive/2.86.tar.gz -> bullet-2.86.tar.gz

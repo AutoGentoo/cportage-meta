@@ -1,0 +1,10 @@
+5e953b41d54101f8749b47a1c1b80bde
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/libnl:=  dev-libs/openssl:=  dev-libs/popt  net-libs/libnfnetlink  sys-apps/iproute2  regex? ( >=dev-libs/libpcre2-8 )  dbus? ( sys-apps/dbus dev-libs/glib:2 )  json? ( dev-libs/json-c:= )  snmp? ( net-analyzer/net-snmp )  >=sys-kernel/linux-headers-4.4 
+RDEPEND=dev-libs/libnl:=  dev-libs/openssl:=  dev-libs/popt  net-libs/libnfnetlink  sys-apps/iproute2  regex? ( >=dev-libs/libpcre2-8 )  dbus? ( sys-apps/dbus dev-libs/glib:2 )  json? ( dev-libs/json-c:= )  snmp? ( net-analyzer/net-snmp ) 
+EAPI=7
+IUSE=+bfd dbus debug -json regex snmp 
+KEYWORDS=alpha amd64 ~hppa ia64 ppc ppc64 ~s390 ~sparc x86
+SLOT=0
+SRC_URI=https://www.keepalived.org/software/keepalived-2.0.17.tar.gz

@@ -1,0 +1,10 @@
+0bb9cd8341cb55d5ee9978e9de004ddf
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  !app-editors/yudit  dev-libs/libevent:0=  >=dev-libs/libgcrypt-1.2.3:0  sys-apps/coreutils  >=sys-libs/db-4.2.52:=  sys-libs/tdb  acl? (   sys-apps/attr   sys-apps/acl  )  cracklib? ( sys-libs/cracklib )  dbus? ( sys-apps/dbus dev-libs/dbus-glib )  kerberos? ( virtual/krb5 )  ldap? ( net-nds/openldap )  pam? ( sys-libs/pam )  ssl? ( dev-libs/openssl:0= )  tcpd? ( sys-apps/tcp-wrappers )  tracker? ( app-misc/tracker )  utils? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  zeroconf? ( net-dns/avahi[dbus] )   virtual/yacc  sys-devel/flex 
+RDEPEND=  !app-editors/yudit  dev-libs/libevent:0=  >=dev-libs/libgcrypt-1.2.3:0  sys-apps/coreutils  >=sys-libs/db-4.2.52:=  sys-libs/tdb  acl? (   sys-apps/attr   sys-apps/acl  )  cracklib? ( sys-libs/cracklib )  dbus? ( sys-apps/dbus dev-libs/dbus-glib )  kerberos? ( virtual/krb5 )  ldap? ( net-nds/openldap )  pam? ( sys-libs/pam )  ssl? ( dev-libs/openssl:0= )  tcpd? ( sys-apps/tcp-wrappers )  tracker? ( app-misc/tracker )  utils? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  zeroconf? ( net-dns/avahi[dbus] )   utils? (   dev-lang/perl   dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ) 
+EAPI=7
+IUSE=acl cracklib dbus debug kerberos ldap pam pgp quota samba +shadow ssl static-libs tracker tcpd +utils zeroconf 
+KEYWORDS=amd64 arm ~ppc ~ppc64 x86
+SLOT=0/18.0
+SRC_URI=mirror://sourceforge/project/netatalk/netatalk/3.1.12/netatalk-3.1.12.tar.bz2

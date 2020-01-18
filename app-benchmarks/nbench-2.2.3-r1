@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 arm hppa ~mips ppc ppc64 sh sparc x86
+SLOT=0
+SRC_URI=http://www.tux.org/~mayer/linux/nbench-byte-2.2.3.tar.gz

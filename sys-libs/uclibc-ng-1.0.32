@@ -1,0 +1,8 @@
+7024f1ba89827d119a10bf64a3df5788
+DEFINED_PHASES= compile configure install postinst prepare setup test
+RDEPEND=  !!sys-libs/uclibc  iconv? ( dev-libs/libiconv ) 
+EAPI=7
+IUSE=debug hardened iconv ipv6 symlink-compat headers-only 
+KEYWORDS=-* amd64 ~arm ~mips ppc x86
+SLOT=0
+SRC_URI=https://downloads.uclibc-ng.org/releases/1.0.32/uClibc-ng-1.0.32.tar.bz2

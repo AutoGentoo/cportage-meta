@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=test? ( dev-php/PEAR-PEAR ) 
+RDEPEND=!minimal? ( >=dev-php/PEAR-MDB2-2.4.1    >=dev-php/PEAR-DB-1.7.11 ) 
+EAPI=6
+IUSE=minimal test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/HTTP_Session2-0.7.3.tgz

@@ -1,0 +1,9 @@
+1f2fb67861d604c05be171735737291e
+DEFINED_PHASES= install nofetch postinst postrm preinst unpack
+DEPEND=app-arch/unzip 
+RDEPEND=  >=media-libs/freetype-2.5.0.1[abi_x86_32(-)]  >=media-libs/libsdl-1.2.15-r5[abi_x86_32(-)]  >=media-libs/openal-1.15.1[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  virtual/opengl[abi_x86_32(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=dearesther-linux-06082013-bin

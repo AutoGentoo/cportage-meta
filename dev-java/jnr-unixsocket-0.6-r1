@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-java/jnr-constants:0  dev-java/jnr-enxio:0  dev-java/jnr-posix:3.0  dev-java/jnr-ffi:2  >=virtual/jdk-1.7 
+RDEPEND=dev-java/jnr-constants:0  dev-java/jnr-enxio:0  dev-java/jnr-posix:3.0  dev-java/jnr-ffi:2  >=virtual/jre-1.7 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/jnr/jnr-unixsocket/archive/0.6.tar.gz -> jnr-unixsocket-0.6.tar.gz

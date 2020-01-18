@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+RDEPEND=dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ildar-shaimordanov/logmerge/archive/v0.5.2b.tar.gz -> logmerge-0.5.2b.tar.gz

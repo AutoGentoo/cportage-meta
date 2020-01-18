@@ -1,0 +1,9 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= compile install prepare
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

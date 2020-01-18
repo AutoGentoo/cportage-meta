@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=dev-libs/gf-complete 
+RDEPEND=dev-libs/gf-complete 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~prometheanfire/dist/jerasure-2.0.0.tar.gz

@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install prepare
+BDEPEND=  app-text/asciidoc  virtual/pkgconfig 
+DEPEND=  dev-libs/json-c:=  >=sys-auth/libyubikey-1.6  virtual/libusb:1 
+RDEPEND=  dev-libs/json-c:=  >=sys-auth/libyubikey-1.6  virtual/libusb:1  consolekit? ( sys-auth/consolekit[acl] )  
+EAPI=7
+IUSE=consolekit static-libs 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/Yubico/yubikey-personalization/archive/v1.19.3.tar.gz -> ykpers-1.19.3.tar.gz

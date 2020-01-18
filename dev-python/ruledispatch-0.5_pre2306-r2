@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES=-
+DEPEND=>=dev-python/pyprotocols-1.0_pre2306[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=>=dev-python/pyprotocols-1.0_pre2306[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://gentoo/RuleDispatch-0.5a0.dev-r2306.tar.gz

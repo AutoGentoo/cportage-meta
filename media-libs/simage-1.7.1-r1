@@ -1,0 +1,10 @@
+6083beb448dfaff00fa4fc917bb8fe14
+DEFINED_PHASES= configure
+BDEPEND=  app-arch/unzip  
+DEPEND=    gif? ( media-libs/giflib )  jpeg? ( virtual/jpeg:0= )  png? ( media-libs/libpng:0= )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5  )  sndfile? ( media-libs/libsndfile )  tiff? ( media-libs/tiff:0= )  vorbis? (   media-libs/libogg   media-libs/libvorbis  )   test? ( media-libs/libsndfile )  
+RDEPEND=  gif? ( media-libs/giflib )  jpeg? ( virtual/jpeg:0= )  png? ( media-libs/libpng:0= )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5  )  sndfile? ( media-libs/libsndfile )  tiff? ( media-libs/tiff:0= )  vorbis? (   media-libs/libogg   media-libs/libvorbis  )  
+EAPI=7
+IUSE=debug gif jpeg png qt5 sndfile test tiff vorbis 
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/Coin3D/simage/downloads/simage-1.7.1-src.zip

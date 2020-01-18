@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure prepare
+DEPEND=media-sound/lame  media-libs/libvorbis  media-libs/libsndfile  media-libs/libogg  media-libs/libshout  media-libs/libsamplerate  gtk? ( x11-libs/gtk+:2 )  jack? ( media-sound/jack-audio-connection-kit )  ncurses? ( sys-libs/ncurses:0= )  portaudio? ( media-libs/portaudio )   virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=media-sound/lame  media-libs/libvorbis  media-libs/libsndfile  media-libs/libogg  media-libs/libshout  media-libs/libsamplerate  gtk? ( x11-libs/gtk+:2 )  jack? ( media-sound/jack-audio-connection-kit )  ncurses? ( sys-libs/ncurses:0= )  portaudio? ( media-libs/portaudio )  
+EAPI=6
+IUSE=doc gtk jack ncurses portaudio 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~soap/distfiles/muse-0.9.2_p20161002.tar.gz

@@ -1,0 +1,9 @@
+756a698647d86b364ec837452633961c
+DEFINED_PHASES= configure postinst test
+DEPEND=zlib? ( >=sys-libs/zlib-1.1 )  dev-ml/zarith:= 
+RDEPEND=zlib? ( >=sys-libs/zlib-1.1 )  dev-ml/zarith:= 
+EAPI=5
+IUSE=zlib 
+KEYWORDS=~amd64 ~ppc
+SLOT=0/1.12
+SRC_URI=https://github.com/xavierleroy/cryptokit/archive/release112.tar.gz -> cryptokit-1.12.tar.gz

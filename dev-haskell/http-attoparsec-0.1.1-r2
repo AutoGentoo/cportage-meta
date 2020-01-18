@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=dev-haskell/attoparsec-0.10.4.0:=[profile?]  >=dev-haskell/http-types-0.8.0:=[profile?] <dev-haskell/http-types-0.9:=[profile?]  >=dev-lang/ghc-6.12.1:=   >=dev-haskell/cabal-1.8.0.2  
+RDEPEND=>=dev-haskell/attoparsec-0.10.4.0:=[profile?]  >=dev-haskell/http-types-0.8.0:=[profile?] <dev-haskell/http-types-0.9:=[profile?]  >=dev-lang/ghc-6.12.1:=  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0/0.1.1
+SRC_URI=https://hackage.haskell.org/package/http-attoparsec-0.1.1/http-attoparsec-0.1.1.tar.gz

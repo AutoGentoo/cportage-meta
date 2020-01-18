@@ -1,0 +1,9 @@
+e6c64c8d7e38ad688f02343a5e8bc762
+DEFINED_PHASES= test
+DEPEND=>=virtual/jdk-1.6  test? ( dev-java/junit:4 ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/cowtowncoder/java-classmate/archive/classmate-0.9.0.tar.gz

@@ -1,0 +1,10 @@
+950302b274fc8cc5bce4a81ee0872837
+DEFINED_PHASES= configure install postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5  >=media-libs/libsndfile-1.0.18  alsa? ( media-libs/alsa-lib )  archive? ( app-arch/libarchive )  !archive? ( >=dev-libs/libtar-1.2.11-r3 )  jack? ( virtual/jack )  ladspa? ( media-libs/liblrdf )  lash? ( media-sound/lash )  osc? ( media-libs/liblo )  portaudio? ( media-libs/portaudio )  portmidi? ( media-libs/portmidi )  pulseaudio? ( media-sound/pulseaudio )   virtual/pkgconfig  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5  >=media-libs/libsndfile-1.0.18  alsa? ( media-libs/alsa-lib )  archive? ( app-arch/libarchive )  !archive? ( >=dev-libs/libtar-1.2.11-r3 )  jack? ( virtual/jack )  ladspa? ( media-libs/liblrdf )  lash? ( media-sound/lash )  osc? ( media-libs/liblo )  portaudio? ( media-libs/portaudio )  portmidi? ( media-libs/portmidi )  pulseaudio? ( media-sound/pulseaudio )  
+EAPI=6
+IUSE=alsa +archive jack ladspa lash osc oss portaudio portmidi pulseaudio 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/hydrogen-music/hydrogen/archive/1a477ffe380f153c5d9fb3495d9874df7f75334f.tar.gz -> hydrogen-1.0.0_pre20180301.tar.gz

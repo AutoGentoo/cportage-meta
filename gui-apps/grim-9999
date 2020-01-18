@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]man? ( ~app-text/scdoc-9999 ) 
+DEPEND=  >=dev-libs/wayland-protocols-1.14  dev-libs/wayland  jpeg? ( virtual/jpeg )  x11-libs/cairo 
+RDEPEND=  >=dev-libs/wayland-protocols-1.14  dev-libs/wayland  jpeg? ( virtual/jpeg )  x11-libs/cairo 
+EAPI=7
+IUSE=+man jpeg 
+KEYWORDS=
+SLOT=0
+SRC_URI=

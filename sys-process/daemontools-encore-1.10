@@ -1,0 +1,8 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile install postinst
+RDEPEND=selinux? ( sec-policy/selinux-daemontools )  !sys-process/daemontools  !app-doc/daemontools-man 
+EAPI=5
+IUSE=selinux static 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://untroubled.org/daemontools-encore/daemontools-encore-1.10.tar.gz

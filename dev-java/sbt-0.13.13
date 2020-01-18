@@ -1,0 +1,18 @@
+eef1a7d377ec5ac6abeda9103970394e
+DEFINED_PHASES= compile install prepare test unpack
+DEPEND=  >=virtual/jdk-1.8  dev-lang/scala 
+RDEPEND=  >=virtual/jre-1.8  dev-lang/scala 
+EAPI=6
+IUSE=binary 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	!binary? (
+		https://dev.gentoo.org/~gienah/snapshots/sbt-0.13.13-src.tar.xz
+		https://dev.gentoo.org/~gienah/snapshots/sbt-0.13.13-ivy2-deps.tar.xz
+		https://dev.gentoo.org/~gienah/snapshots/sbt-0.13.13-sbt-deps.tar.xz
+		http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt-launch/0.13.13/sbt-launch.jar -> sbt-launch-0.13.13.jar
+	)
+	binary? (
+		https://dev.gentoo.org/~gienah/files/dist/sbt-0.13.13-gentoo-binary.tar.xz
+	)

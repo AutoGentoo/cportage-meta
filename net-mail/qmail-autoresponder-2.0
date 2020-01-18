@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=>=dev-libs/bglibs-2.04  mysql? ( dev-db/mysql-connector-c:0= ) 
+RDEPEND=>=dev-libs/bglibs-2.04  mysql? ( dev-db/mysql-connector-c:0= )  virtual/qmail  mysql? ( virtual/mysql ) 
+EAPI=7
+IUSE=mysql 
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://untroubled.org/qmail-autoresponder/archive/qmail-autoresponder-2.0.tar.gz

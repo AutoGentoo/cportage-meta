@@ -1,0 +1,10 @@
+832e3529d6f75f6ed3f5e995a4b25dcd
+DEFINED_PHASES= config configure install postinst prepare
+DEPEND=acl? ( virtual/acl )  mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql )  selinux? ( sys-libs/libselinux )  tokyocabinet? ( dev-db/tokyocabinet )  qdbm? ( dev-db/qdbm )  libvirt? ( app-emulation/libvirt )  xml? ( dev-libs/libxml2:2  )  dev-libs/openssl  dev-libs/libpcre  net-libs/libnsl 
+RDEPEND=acl? ( virtual/acl )  mysql? ( virtual/mysql )  postgres? ( dev-db/postgresql )  selinux? ( sys-libs/libselinux )  tokyocabinet? ( dev-db/tokyocabinet )  qdbm? ( dev-db/qdbm )  libvirt? ( app-emulation/libvirt )  xml? ( dev-libs/libxml2:2  )  dev-libs/openssl  dev-libs/libpcre  net-libs/libnsl 
+PDEPEND=vim-syntax? ( app-vim/cfengine-syntax ) 
+EAPI=5
+IUSE=acl examples libvirt mysql postgres +qdbm selinux tokyocabinet vim-syntax xml 
+KEYWORDS=~amd64 ~arm ~ppc ~s390 ~sparc ~x86
+SLOT=3
+SRC_URI=http://cfengine.com/source-code/download?file=cfengine-3.5.3.tar.gz -> cfengine-3.5.3.tar.gz

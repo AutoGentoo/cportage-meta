@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install postinst postrm
+DEPEND=>=dev-lang/ocaml-3.12:=[ocamlopt?] dev-ml/ocamlbuild 
+RDEPEND=>=dev-lang/ocaml-3.12:=[ocamlopt?]  dev-texlive/texlive-latexextra 
+EAPI=5
+IUSE=+ocamlopt 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://hevea.inria.fr/distri/hevea-2.31.tar.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=dev-lang/perl 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://www.red-bean.com/cvsutils/releases/cvsutils-0.2.5.tar.gz

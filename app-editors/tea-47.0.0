@@ -1,0 +1,10 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install
+BDEPEND=  hunspell? ( virtual/pkgconfig )  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  sys-libs/zlib  aspell? ( app-text/aspell )  djvu? ( app-text/djvu )  hunspell? ( app-text/hunspell:= )  pdf? ( app-text/poppler[qt5] )  qml? ( dev-qt/qtdeclarative:5 )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  sys-libs/zlib  aspell? ( app-text/aspell )  djvu? ( app-text/djvu )  hunspell? ( app-text/hunspell:= )  pdf? ( app-text/poppler[qt5] )  qml? ( dev-qt/qtdeclarative:5 )  
+EAPI=7
+IUSE=aspell djvu hunspell pdf +qml 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://tea.ourproject.org/dloads/tea-47.0.0.tar.bz2

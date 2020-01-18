@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost:=  dev-libs/expat  >=dev-libs/json-c-0.11-r1:=  dev-libs/libgcrypt:0=  dev-libs/yajl  || ( net-misc/curl[curl_ssl_openssl] net-misc/curl[curl_ssl_gnutls] )  sys-libs/binutils-libs:0=  sys-libs/glibc  
+RDEPEND=  dev-libs/boost:=  dev-libs/expat  >=dev-libs/json-c-0.11-r1:=  dev-libs/libgcrypt:0=  dev-libs/yajl  || ( net-misc/curl[curl_ssl_openssl] net-misc/curl[curl_ssl_gnutls] )  sys-libs/binutils-libs:0=  sys-libs/glibc  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/vitalif/grive2/archive/3c90425b8f46b62365ec3d84de628163865dbb1e.tar.gz -> grive-0.5.1_pre20171005.tar.gz

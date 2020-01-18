@@ -1,0 +1,9 @@
+fbdff87709875689d22ef0a27a8f6bbb
+DEFINED_PHASES= compile install prepare setup
+DEPEND=    app-crypt/pesign  sys-libs/zlib  sys-apps/pciutils   dev-libs/elfutils  sys-devel/bison  test? ( dev-util/shellcheck-bin )  
+RDEPEND=  app-crypt/pesign  sys-libs/zlib  sys-apps/pciutils  
+EAPI=7
+IUSE=contrib +kpatch +kpatch-build kmod test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/dynup/kpatch/archive/v0.7.1.tar.gz -> kpatch-0.7.1.tar.gz

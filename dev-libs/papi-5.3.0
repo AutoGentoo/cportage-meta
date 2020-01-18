@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  dev-libs/libpfm[static-libs]  virtual/mpi  
+RDEPEND=  dev-libs/libpfm[static-libs]  virtual/mpi  
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://icl.cs.utk.edu/projects/papi/downloads/papi-5.3.0.tar.gz

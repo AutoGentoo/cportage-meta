@@ -1,0 +1,11 @@
+b942ff113723450fff737b23478aaad8
+DEFINED_PHASES= compile install prepare
+BDEPEND=  app-arch/unzip  virtual/pkgconfig 
+DEPEND=  sys-libs/zlib  jpeg? ( virtual/jpeg:0 )  jpeg2k? ( media-libs/openjpeg:2= )  mng? ( media-libs/libmng:= )  openexr? ( media-libs/openexr:= )  png? ( media-libs/libpng:0= )  raw? ( media-libs/libraw:= )  tiff? (   media-libs/ilmbase:=   media-libs/tiff:0  )  webp? ( media-libs/libwebp:= ) 
+RDEPEND=  sys-libs/zlib  jpeg? ( virtual/jpeg:0 )  jpeg2k? ( media-libs/openjpeg:2= )  mng? ( media-libs/libmng:= )  openexr? ( media-libs/openexr:= )  png? ( media-libs/libpng:0= )  raw? ( media-libs/libraw:= )  tiff? (   media-libs/ilmbase:=   media-libs/tiff:0  )  webp? ( media-libs/libwebp:= ) 
+EAPI=7
+IUSE=jpeg jpeg2k mng openexr png raw static-libs tiff webp 
+KEYWORDS=amd64 ~arm x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/freeimage/FreeImage3180.zip
+	mirror://sourceforge/freeimage/FreeImage3180.pdf

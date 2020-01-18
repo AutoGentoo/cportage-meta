@@ -1,0 +1,9 @@
+2c2885cc4bc96ea9a0169c7bbb1ee7dd
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.7  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=5
+IUSE=examples 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.enterprisedt.com/products/edtftpj/download/edtftpj-2.4.0.zip

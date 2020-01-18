@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=|| (  dev-lang/ruby:2.5 dev-lang/ruby:2.4 ) virtual/rubygems 
+RDEPEND=app-eselect/eselect-opencl 
+EAPI=7
+IUSE=+khronos-headers 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/OCL-dev/ocl-icd/archive/v2.2.12.tar.gz -> ocl-icd-2.2.12.tar.gz

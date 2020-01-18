@@ -1,0 +1,9 @@
+cbe2a0957599c249bf9c5bd7ad58e7e9
+DEFINED_PHASES= compile install prepare test unpack
+DEPEND=net-print/cups  net-print/foomatic-db-engine  >=net-print/cups-filters-1.0.43-r1[foomatic]  virtual/udev  app-arch/unzip  app-editors/vim  net-misc/wget  sys-apps/ed  sys-devel/bc  test? ( sys-process/time ) 
+RDEPEND=net-print/cups  net-print/foomatic-db-engine  >=net-print/cups-filters-1.0.43-r1[foomatic]  virtual/udev 
+EAPI=5
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

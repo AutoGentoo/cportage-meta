@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  test? ( dev-perl/HTML-Tree ) 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ia64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SAMTREGAR/Class-XPath-1.4.tar.gz

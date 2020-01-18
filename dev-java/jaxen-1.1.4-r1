@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install test
+DEPEND=    dev-java/xom:0  dev-java/jdom:0  dev-java/dom4j:1  test? ( dev-java/ant-junit:0 )  >=virtual/jdk-1.4 
+RDEPEND=    dev-java/xom:0  dev-java/jdom:0  dev-java/dom4j:1  >=virtual/jre-1.4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris
+SLOT=1.1
+SRC_URI=http://dist.codehaus.org/jaxen/distributions/jaxen-1.1.4-src.tar.gz

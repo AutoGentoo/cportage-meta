@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=sys-devel/libtool  virtual/pkgconfig 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~yngwin/distfiles/libvterm-neovim-0.0_pre20150309.tar.xz

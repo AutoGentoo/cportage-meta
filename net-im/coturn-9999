@@ -1,0 +1,10 @@
+58ab02e9ed100e81f1c53507a8c9dddb
+DEFINED_PHASES= configure install postinst
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=acct-group/turnserver   acct-user/turnserver   || ( dev-libs/libevent[-ssl,libressl] dev-libs/libevent[ssl,-libressl] >dev-libs/libevent-2.1.8[ssl,libressl] )   mongodb? ( dev-libs/mongo-c-driver )   mysql?  ( dev-db/mysql-connector-c )   postgres? ( dev-db/postgresql:* )   redis? ( dev-libs/hiredis )   sqlite? ( dev-db/sqlite ) 
+RDEPEND=acct-group/turnserver   acct-user/turnserver   || ( dev-libs/libevent[-ssl,libressl] dev-libs/libevent[ssl,-libressl] >dev-libs/libevent-2.1.8[ssl,libressl] )   mongodb? ( dev-libs/mongo-c-driver )   mysql?  ( dev-db/mysql-connector-c )   postgres? ( dev-db/postgresql:* )   redis? ( dev-libs/hiredis )   sqlite? ( dev-db/sqlite ) 
+EAPI=7
+IUSE=mongodb mysql postgres redis sqlite 
+KEYWORDS=
+SLOT=0
+SRC_URI=

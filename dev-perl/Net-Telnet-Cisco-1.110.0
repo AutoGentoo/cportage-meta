@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=>=dev-perl/Net-Telnet-3.20.0  virtual/perl-ExtUtils-MakeMaker  test? ( dev-perl/TermReadKey )  
+RDEPEND=>=dev-perl/Net-Telnet-3.20.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 hppa ia64 ~mips ~ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/V/VI/VINSWORLD/Net-Telnet-Cisco-1.11.tar.gz

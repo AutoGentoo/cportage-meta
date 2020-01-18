@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-ml/camlp4:= 
+RDEPEND=dev-ml/camlp4:= 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/1.6
+SRC_URI=https://github.com/diml/optcomp/archive/1.6.tar.gz -> optcomp-1.6.tar.gz

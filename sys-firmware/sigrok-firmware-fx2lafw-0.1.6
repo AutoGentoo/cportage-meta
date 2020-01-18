@@ -1,0 +1,9 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= install prepare unpack
+DEPEND=  !binary? ( >=dev-embedded/sdcc-2.9.0[device-lib(+),mcs51(+),sdcpp(+)]  <dev-embedded/sdcc-3.8.6 ) 
+EAPI=6
+IUSE=binary 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=binary? ( https://sigrok.org/download/binary/sigrok-firmware-fx2lafw/sigrok-firmware-fx2lafw-bin-0.1.6.tar.gz )
+		!binary? ( https://sigrok.org/download/source/sigrok-firmware-fx2lafw/sigrok-firmware-fx2lafw-0.1.6.tar.gz )

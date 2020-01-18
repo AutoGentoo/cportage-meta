@@ -1,0 +1,9 @@
+95b2b7ff3daf8247a870496f29d51e94
+DEFINED_PHASES= compile configure install setup test
+DEPEND=dev-libs/libpcre2  mysql? ( virtual/mysql )  sqlite? ( dev-db/sqlite:3 )  postgres? ( dev-db/postgresql:= ) 
+RDEPEND=dev-libs/libpcre2  mysql? ( virtual/mysql )  sqlite? ( dev-db/sqlite:3 )  postgres? ( dev-db/postgresql:= ) 
+EAPI=7
+IUSE=agent hybrid local mysql postgres server sqlite 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ossec/ossec-hids/archive/3.3.0.tar.gz -> ossec-hids-3.3.0.tar.gz

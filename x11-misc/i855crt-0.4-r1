@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  x11-libs/libX11  x11-libs/libXv 
+RDEPEND=  x11-libs/libX11  x11-libs/libXv 
+EAPI=7
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/i855crt/i855crt-0.4.tar.gz

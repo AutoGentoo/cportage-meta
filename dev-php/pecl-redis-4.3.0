@@ -1,0 +1,9 @@
+328930b90cd2e68ff1a645981ab794d2
+DEFINED_PHASES= configure postinst test
+DEPEND=  php_targets_php5-6? ( dev-lang/php:5.6[session?] igbinary? ( dev-php/igbinary[php_targets_php5-6] ) )  php_targets_php7-1? ( dev-lang/php:7.1[session?] igbinary? ( dev-php/igbinary[php_targets_php7-1] ) )  php_targets_php7-2? ( dev-lang/php:7.2[session?] igbinary? ( dev-php/igbinary[php_targets_php7-2] ) )  php_targets_php7-3? ( dev-lang/php:7.3[session?] igbinary? ( dev-php/igbinary[php_targets_php7-3] ) )  
+RDEPEND=  php_targets_php5-6? ( dev-lang/php:5.6[session?] igbinary? ( dev-php/igbinary[php_targets_php5-6] ) )  php_targets_php7-1? ( dev-lang/php:7.1[session?] igbinary? ( dev-php/igbinary[php_targets_php7-1] ) )  php_targets_php7-2? ( dev-lang/php:7.2[session?] igbinary? ( dev-php/igbinary[php_targets_php7-2] ) )  php_targets_php7-3? ( dev-lang/php:7.3[session?] igbinary? ( dev-php/igbinary[php_targets_php7-3] ) )  !dev-php/pecl-redis:7 
+EAPI=6
+IUSE=igbinary +session 
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://pecl.php.net/get/redis-4.3.0.tgz

@@ -1,0 +1,10 @@
+5ebbcb98f2024f946691666a4494e8df
+DEFINED_PHASES= compile configure install postinst prepare
+BDEPEND=  doc? (   app-doc/doxygen   media-gfx/graphviz  )  nls? ( sys-devel/gettext ) 
+DEPEND=  dev-db/sqlite:3  dev-games/irrlicht  dev-lang/luajit:2  dev-libs/gmp:0=  dev-libs/jsoncpp:=  sys-libs/zlib  client? (   app-arch/bzip2   media-libs/libpng:0=   virtual/jpeg:0   virtual/opengl   x11-libs/libX11   x11-libs/libXxf86vm   sound? (    media-libs/libogg    media-libs/libvorbis    media-libs/openal   )   truetype? ( media-libs/freetype:2 )  )  curl? ( net-misc/curl )  leveldb? ( dev-libs/leveldb:= )  ncurses? ( sys-libs/ncurses:0= )  nls? ( virtual/libintl )  postgres? ( >=dev-db/postgresql-9.5:= )  redis? ( dev-libs/hiredis:= )  server? (   acct-group/minetest   acct-user/minetest  )  spatial? ( sci-libs/libspatialindex:= ) 
+RDEPEND=  dev-db/sqlite:3  dev-games/irrlicht  dev-lang/luajit:2  dev-libs/gmp:0=  dev-libs/jsoncpp:=  sys-libs/zlib  client? (   app-arch/bzip2   media-libs/libpng:0=   virtual/jpeg:0   virtual/opengl   x11-libs/libX11   x11-libs/libXxf86vm   sound? (    media-libs/libogg    media-libs/libvorbis    media-libs/openal   )   truetype? ( media-libs/freetype:2 )  )  curl? ( net-misc/curl )  leveldb? ( dev-libs/leveldb:= )  ncurses? ( sys-libs/ncurses:0= )  nls? ( virtual/libintl )  postgres? ( >=dev-db/postgresql-9.5:= )  redis? ( dev-libs/hiredis:= )  server? (   acct-group/minetest   acct-user/minetest  )  spatial? ( sci-libs/libspatialindex:= ) 
+EAPI=7
+IUSE=+client +curl doc +leveldb ncurses nls postgres redis +server +sound spatial +truetype 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/minetest/minetest/archive/5.1.0.tar.gz -> minetest-5.1.0.tar.gz

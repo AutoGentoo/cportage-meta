@@ -1,0 +1,10 @@
+178dfa6c9f0b1041f48a3b9ccad22ee0
+DEFINED_PHASES= configure postinst prepare
+BDEPEND=  dev-qt/linguist-tools:5  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtsql:5[sqlite]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib  virtual/libudev:=  cdda? ( media-sound/cdparanoia )  cddb? ( media-libs/libcddb )  cdio? ( dev-libs/libcdio-paranoia )  mtp? ( media-libs/libmtp )  musicbrainz? ( media-libs/musicbrainz:5= )  replaygain? (   media-libs/libebur128   media-sound/mpg123   libav? ( media-video/libav:= )   !libav? ( media-video/ffmpeg:0= )  )  streaming? ( dev-qt/qtmultimedia:5 )  taglib? (   media-libs/taglib[asf(+),mp4(+)]   udisks? ( sys-fs/udisks:2 )  )  zeroconf? ( net-dns/avahi )   dev-qt/qtconcurrent:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtsql:5[sqlite]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib  virtual/libudev:=  cdda? ( media-sound/cdparanoia )  cddb? ( media-libs/libcddb )  cdio? ( dev-libs/libcdio-paranoia )  mtp? ( media-libs/libmtp )  musicbrainz? ( media-libs/musicbrainz:5= )  replaygain? (   media-libs/libebur128   media-sound/mpg123   libav? ( media-video/libav:= )   !libav? ( media-video/ffmpeg:0= )  )  streaming? ( dev-qt/qtmultimedia:5 )  taglib? (   media-libs/taglib[asf(+),mp4(+)]   udisks? ( sys-fs/udisks:2 )  )  zeroconf? ( net-dns/avahi )   dev-lang/perl[ithreads]  || ( kde-frameworks/breeze-icons:5 kde-frameworks/oxygen-icons:* )  
+EAPI=7
+IUSE=cdda cddb cdio http-server libav mtp musicbrainz replaygain streaming taglib udisks zeroconf 
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/CDrummond/cantata/releases/download/v2.3.3/cantata-2.3.3.tar.bz2

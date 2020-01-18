@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  gasnet? ( >=sys-cluster/gasnet-1.26.4-r1 )  hwloc? ( <sys-apps/hwloc-2 )   
+EAPI=6
+IUSE=gasnet +hwloc test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/StanfordLegion/legion/archive/legion-19.06.0.tar.gz

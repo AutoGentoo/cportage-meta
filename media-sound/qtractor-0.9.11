@@ -1,0 +1,10 @@
+07a4837c2d825464957909eb182cd81e
+DEFINED_PHASES= configure
+BDEPEND=  dev-qt/linguist-tools:5  virtual/pkgconfig  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtx11extras:5  media-libs/alsa-lib  media-libs/ladspa-sdk  media-libs/libsndfile  >=media-libs/lilv-0.16.0  media-libs/lv2  media-libs/suil  virtual/jack  aubio? ( media-libs/aubio )  dssi? ( media-libs/dssi )  libsamplerate? ( media-libs/libsamplerate )  mad? ( media-libs/libmad )  osc? ( media-libs/liblo )  rubberband? ( media-libs/rubberband )  vorbis? ( media-libs/libvorbis )  zlib? ( sys-libs/zlib )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtx11extras:5  media-libs/alsa-lib  media-libs/ladspa-sdk  media-libs/libsndfile  >=media-libs/lilv-0.16.0  media-libs/lv2  media-libs/suil  virtual/jack  aubio? ( media-libs/aubio )  dssi? ( media-libs/dssi )  libsamplerate? ( media-libs/libsamplerate )  mad? ( media-libs/libmad )  osc? ( media-libs/liblo )  rubberband? ( media-libs/rubberband )  vorbis? ( media-libs/libvorbis )  zlib? ( sys-libs/zlib )  
+EAPI=7
+IUSE=aubio cpu_flags_x86_sse debug dssi libsamplerate mad osc rubberband vorbis zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/qtractor/qtractor-0.9.11.tar.gz

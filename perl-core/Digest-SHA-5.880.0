@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSHELOR/Digest-SHA-5.88.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=ftp://ftp.cs.wisc.edu/markhill/DineroIV/d4-7.tar.gz

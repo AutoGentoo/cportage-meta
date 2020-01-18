@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/amadvance/snapraid/releases/download/v10.0/snapraid-10.0.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.63.0:5 
+DEPEND=  >=kde-frameworks/kcoreaddons-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5  >=kde-frameworks/solid-5.63.0:5  >=dev-qt/qtdbus-5.12.3:5  media-libs/phonon[qt5(+)]  alsa? ( media-libs/alsa-lib )  
+RDEPEND=  >=kde-frameworks/kcoreaddons-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5  >=kde-frameworks/solid-5.63.0:5  >=dev-qt/qtdbus-5.12.3:5  media-libs/phonon[qt5(+)]  alsa? ( media-libs/alsa-lib )  
+EAPI=7
+IUSE=alsa 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=5
+SRC_URI=mirror://kde/stable/release-service/19.12.0/src/libkcompactdisc-19.12.0.tar.xz

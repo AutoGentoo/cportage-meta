@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/libsdl[sound?,video]  nls? ( virtual/libintl )   nls? ( sys-devel/gettext )  
+RDEPEND=  media-libs/libsdl[sound?,video]  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls sound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/lgames/lpairs-1.0.4.tar.gz

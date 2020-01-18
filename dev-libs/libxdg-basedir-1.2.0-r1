@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 arm arm64 hppa ppc ppc64 x86 ~amd64-linux ~x64-macos ~x86-solaris
+SLOT=0
+SRC_URI=https://github.com/devnev/libxdg-basedir/archive/libxdg-basedir-1.2.0.tar.gz

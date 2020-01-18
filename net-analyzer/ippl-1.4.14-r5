@@ -1,0 +1,8 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install postinst prepare
+DEPEND=virtual/yacc  >=sys-devel/flex-2.5.4a-r4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://pltplp.net/ippl/archive/ippl-1.4.14.tar.gz

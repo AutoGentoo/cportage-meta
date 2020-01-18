@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile install test
+DEPEND=>=virtual/jdk-1.7  test? ( dev-java/junit:4 ) 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=2
+SRC_URI=https://github.com/FasterXML/jackson-annotations/archive/jackson-annotations-2.9.10.tar.gz

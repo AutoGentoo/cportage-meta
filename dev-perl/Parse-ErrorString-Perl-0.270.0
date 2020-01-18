@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  dev-perl/Class-XSAccessor  virtual/perl-File-Spec  virtual/perl-Pod-Parser  >=dev-perl/Pod-POM-0.270.0   >=virtual/perl-ExtUtils-MakeMaker-6.59  test? (   dev-perl/Test-Differences   >=virtual/perl-Test-Simple-0.470.0  )  
+RDEPEND=  virtual/perl-Carp  dev-perl/Class-XSAccessor  virtual/perl-File-Spec  virtual/perl-Pod-Parser  >=dev-perl/Pod-POM-0.270.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MANWAR/Parse-ErrorString-Perl-0.27.tar.gz

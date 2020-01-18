@@ -1,0 +1,10 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= configure prepare test
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/glib:2   dev-libs/json-c   >=x11-libs/gtk+-3.20:3   >=x11-libs/pango-1.14   libnotify? ( x11-libs/libnotify )   doc? ( app-doc/doxygen )   test? ( dev-libs/check ) 
+RDEPEND=dev-libs/glib:2   dev-libs/json-c   >=x11-libs/gtk+-3.20:3   >=x11-libs/pango-1.14   libnotify? ( x11-libs/libnotify ) 
+EAPI=7
+IUSE=doc libnotify test 
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=https://github.com/pwmt/girara/archive/0.3.3.tar.gz -> girara-0.3.3.tar.gz

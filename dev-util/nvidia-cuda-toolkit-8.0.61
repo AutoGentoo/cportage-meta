@@ -1,0 +1,8 @@
+21672350e5d10f719f2f0e7810c424f0
+DEFINED_PHASES= install postinst prepare setup unpack
+RDEPEND=  >=sys-devel/gcc-4.7[cxx]  <sys-devel/gcc-6[cxx]  >=x11-drivers/nvidia-drivers-375.26[X,uvm]  debugger? (   sys-libs/libtermcap-compat   sys-libs/ncurses-compat:5[tinfo]   )  eclipse? ( >=virtual/jre-1.6 )  profiler? ( >=virtual/jre-1.6 ) 
+EAPI=6
+IUSE=debugger doc eclipse profiler 
+KEYWORDS=-* ~amd64 ~amd64-linux
+SLOT=0/8.0.61
+SRC_URI=https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda_8.0.61_375.26_linux-run -> cuda_8.0.61_375.26_linux.run

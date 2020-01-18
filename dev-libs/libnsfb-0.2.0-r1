@@ -1,0 +1,9 @@
+77fc0b7f2b3c91b6fbb851709d898318
+DEFINED_PHASES= compile install
+DEPEND=sdl? ( >=media-libs/libsdl-1.2.15-r4 )  vnc? ( >=net-libs/libvncserver-0.9.9-r2 )  wayland? ( >=dev-libs/wayland-1.0.6 )  xcb? (   >=x11-libs/libxcb-1.9.1   >=x11-libs/xcb-util-0.3.9-r1   >=x11-libs/xcb-util-image-0.3.9-r1   >=x11-libs/xcb-util-keysyms-0.3.9-r1  )  dev-util/netsurf-buildsystem 
+RDEPEND=sdl? ( >=media-libs/libsdl-1.2.15-r4 )  vnc? ( >=net-libs/libvncserver-0.9.9-r2 )  wayland? ( >=dev-libs/wayland-1.0.6 )  xcb? (   >=x11-libs/libxcb-1.9.1   >=x11-libs/xcb-util-0.3.9-r1   >=x11-libs/xcb-util-image-0.3.9-r1   >=x11-libs/xcb-util-keysyms-0.3.9-r1  ) 
+EAPI=7
+IUSE=sdl test vnc wayland xcb 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64
+SLOT=0/0.2.0
+SRC_URI=https://download.netsurf-browser.org/libs/releases/libnsfb-0.2.0-src.tar.gz

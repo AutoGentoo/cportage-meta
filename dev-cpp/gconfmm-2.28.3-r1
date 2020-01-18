@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  >=gnome-base/gconf-2.4:2  >=dev-cpp/glibmm-2.12:2[doc?]  >=dev-cpp/gtkmm-2.4:2.4   virtual/pkgconfig  
+RDEPEND=  >=gnome-base/gconf-2.4:2  >=dev-cpp/glibmm-2.12:2[doc?]  >=dev-cpp/gtkmm-2.4:2.4  
+EAPI=5
+IUSE=doc 
+KEYWORDS=alpha amd64 arm ia64 ppc ppc64 ~sh sparc x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gconfmm/2.28/gconfmm-2.28.3.tar.bz2

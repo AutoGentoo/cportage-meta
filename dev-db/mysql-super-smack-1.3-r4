@@ -1,0 +1,9 @@
+94a97422e824f29a163fd5c488cbc3b4
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=sys-libs/zlib:=   mysql? ( dev-db/mysql-connector-c:= )   postgres? ( dev-db/postgresql:*[server] ) sys-devel/bison sys-devel/flex 
+RDEPEND=sys-libs/zlib:=   mysql? ( dev-db/mysql-connector-c:= )   postgres? ( dev-db/postgresql:*[server] ) mysql? ( virtual/mysql ) 
+EAPI=6
+IUSE=+mysql postgres 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://gentoo/super-smack-1.3.tar.gz

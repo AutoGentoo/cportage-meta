@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+BDEPEND=  dev-qt/linguist-tools:5  >=dev-util/lxqt-build-tools-0.6.0  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  
+EAPI=7
+IUSE=debug 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=https://downloads.lxqt.org/downloads/qps/1.10.20/qps-1.10.20.tar.xz

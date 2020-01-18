@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+RDEPEND=  dev-ros/interval_intersection  dev-ros/joint_states_settler  dev-ros/laser_cb_detector  dev-ros/monocam_settler  dev-ros/roslaunch  dev-libs/urdfdom  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros-perception/calibration/archive/0.10.13.tar.gz -> calibration-0.10.13.tar.gz

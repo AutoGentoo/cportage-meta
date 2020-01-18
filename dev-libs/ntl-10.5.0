@@ -1,0 +1,9 @@
+756a698647d86b364ec837452633961c
+DEFINED_PHASES= configure install setup
+DEPEND=dev-libs/gmp:0=  >=dev-libs/gf2x-0.9  dev-lang/perl 
+RDEPEND=dev-libs/gmp:0=  >=dev-libs/gf2x-0.9 
+EAPI=6
+IUSE=doc static-libs test threads bindist 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0/35
+SRC_URI=http://www.shoup.net/ntl/ntl-10.5.0.tar.gz

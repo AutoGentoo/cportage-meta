@@ -1,0 +1,13 @@
+a67d87bc54d91b6590714169f9f3567a
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    media-libs/libpng:0=  virtual/jpeg:0  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXrender  truetype? ( x11-libs/libXft )  xinerama? ( x11-libs/libXinerama )   virtual/pkgconfig  
+RDEPEND=  media-libs/libpng:0=  virtual/jpeg:0  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXrender  truetype? ( x11-libs/libXft )  xinerama? ( x11-libs/libXinerama )  
+EAPI=7
+IUSE=contrib debug themes truetype xinerama 
+KEYWORDS=~amd64 ~mips ~ppc ~x86
+SLOT=0
+SRC_URI=
+	https://github.com/pekdon/pekwm/archive/release-0.1.17.tar.gz -> pekwm-0.1.17.tar.gz
+	themes? ( https://dev.gentoo.org/~jer/pekwm-themes.tar.bz2 )
+

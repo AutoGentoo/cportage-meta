@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  x11-libs/libX11  x11-libs/libXext  x11-libs/libXrandr  x11-libs/libXxf86vm  
+EAPI=7
+IUSE=
+KEYWORDS=-* amd64
+SLOT=0
+SRC_URI=https://justgetflux.com/linux/xflux12.tgz -> xflux12-20170103.tar.gz

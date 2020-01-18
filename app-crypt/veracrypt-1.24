@@ -1,0 +1,9 @@
+beba18fa3999d1f0b863ea36c455eb76
+DEFINED_PHASES= compile install postinst setup test
+DEPEND=    sys-fs/lvm2  sys-fs/fuse:0  x11-libs/wxGTK:3.0[X?]  app-admin/sudo  dev-libs/pkcs11-helper   virtual/pkgconfig  asm? ( dev-lang/yasm )  
+RDEPEND=  sys-fs/lvm2  sys-fs/fuse:0  x11-libs/wxGTK:3.0[X?]  app-admin/sudo  dev-libs/pkcs11-helper  
+EAPI=6
+IUSE=+asm cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 cpu_flags_x86_ssse3 doc X 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/veracrypt/VeraCrypt/archive/VeraCrypt_1.24.tar.gz

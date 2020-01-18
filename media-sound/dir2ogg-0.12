@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= install
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   >=media-libs/mutagen-1.11[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  media-sound/vorbis-tools[ogg123]  aac? ( || (   media-libs/faad2   media-video/mplayer ) )  flac? ( || (   media-libs/flac   media-video/mplayer ) )  mac? ( || (   media-sound/mac   media-video/mplayer ) )  mp3? ( || (   media-sound/mpg123   media-sound/lame   media-video/mplayer   media-sound/mpg321 ) )  musepack? ( || (   >=media-sound/musepack-tools-444   media-video/mplayer ) )  wavpack? ( || (   media-sound/wavpack   media-video/mplayer ) )  wma? ( media-video/mplayer ) 
+EAPI=7
+IUSE=aac flac mac mp3 musepack wavpack wma 
+KEYWORDS=amd64 ~ppc sparc x86
+SLOT=0
+SRC_URI=https://jak-linux.org/projects/dir2ogg/0.12/dir2ogg-0.12.tar.gz

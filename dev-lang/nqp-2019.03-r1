@@ -1,0 +1,9 @@
+20fd85e99c05a927c59399c4019f2238
+DEFINED_PHASES= compile configure install prepare pretend test
+DEPEND=java? (   dev-java/asm:4   dev-java/jline:0   dev-java/jna:4  )  moar? ( ~dev-lang/moarvm-2019.03[clang=] )  clang? ( sys-devel/clang )  java? ( >=virtual/jdk-1.8 )  dev-lang/perl 
+RDEPEND=java? (   dev-java/asm:4   dev-java/jline:0   dev-java/jna:4  )  moar? ( ~dev-lang/moarvm-2019.03[clang=] )  java? ( >=virtual/jre-1.8 ) 
+EAPI=6
+IUSE=doc clang java +moar test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/perl6/nqp/releases/download/2019.03/nqp-2019.03.tar.gz -> nqp-2019.03.official.tar.gz

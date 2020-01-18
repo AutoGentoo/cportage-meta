@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install postinst
+DEPEND=  dev-perl/libwww-perl  dev-perl/HTTP-Date  dev-perl/Sys-Syscall  >=dev-perl/Danga-Socket-1.440.0  dev-perl/HTTP-Message  dev-perl/BSD-Resource  dev-perl/IO-AIO  
+RDEPEND=  dev-perl/libwww-perl  dev-perl/HTTP-Date  dev-perl/Sys-Syscall  >=dev-perl/Danga-Socket-1.440.0  dev-perl/HTTP-Message  dev-perl/BSD-Resource  dev-perl/IO-AIO  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DO/DORMANDO/Perlbal-1.80.tar.gz

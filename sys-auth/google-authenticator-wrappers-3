@@ -1,0 +1,10 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= configure preinst pretend
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND= sys-devel/make >=dev-util/cmake-3.9.6 
+RDEPEND=sys-auth/google-authenticator 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/mgorny/google-authenticator-wrappers/archive/v3.tar.gz -> google-authenticator-wrappers-3.tar.gz

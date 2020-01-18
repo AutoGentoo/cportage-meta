@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=>=dev-php/PEAR-HTML_Table-1.5-r1  >=dev-php/PEAR-Numbers_Words-0.13.1-r1 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha amd64 hppa ia64 ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/HTML_Table_Matrix-1.0.10.tgz

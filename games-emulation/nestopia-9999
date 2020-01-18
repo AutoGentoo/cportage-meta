@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure postinst postrm preinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/libarchive:=  media-libs/libao  media-libs/libepoxy  media-libs/libsdl2[sound,joystick,video]  sys-libs/zlib  gui? ( x11-libs/gtk+:3 )  virtual/pkgconfig 
+RDEPEND=  app-arch/libarchive:=  media-libs/libao  media-libs/libepoxy  media-libs/libsdl2[sound,joystick,video]  sys-libs/zlib  gui? ( x11-libs/gtk+:3 ) 
+EAPI=6
+IUSE=doc gui 
+KEYWORDS=
+SLOT=0
+SRC_URI=

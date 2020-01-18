@@ -1,0 +1,9 @@
+9967adebb1821326e1eff7f0c024a757
+DEFINED_PHASES= install prepare unpack
+DEPEND=media-libs/libsdl[video] 
+RDEPEND=media-libs/libsdl[video] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://www.bigorno.net/xrick/xrick-021212.tgz

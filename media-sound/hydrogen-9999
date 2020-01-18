@@ -1,0 +1,10 @@
+de7b88959da5259972bc26be42940b59
+DEFINED_PHASES= compile configure install
+BDEPEND=  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5  >=media-libs/libsndfile-1.0.18  alsa? ( media-libs/alsa-lib )  archive? ( app-arch/libarchive )  !archive? ( >=dev-libs/libtar-1.2.11-r3 )  jack? ( virtual/jack )  ladspa? ( media-libs/liblrdf )  lash? ( media-sound/lash )  osc? ( media-libs/liblo )  portaudio? ( media-libs/portaudio )  portmidi? ( media-libs/portmidi )  pulseaudio? ( media-sound/pulseaudio )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5  >=media-libs/libsndfile-1.0.18  alsa? ( media-libs/alsa-lib )  archive? ( app-arch/libarchive )  !archive? ( >=dev-libs/libtar-1.2.11-r3 )  jack? ( virtual/jack )  ladspa? ( media-libs/liblrdf )  lash? ( media-sound/lash )  osc? ( media-libs/liblo )  portaudio? ( media-libs/portaudio )  portmidi? ( media-libs/portmidi )  pulseaudio? ( media-sound/pulseaudio )  
+EAPI=7
+IUSE=alsa +archive doc jack ladspa lash osc oss portaudio portmidi pulseaudio 
+KEYWORDS=
+SLOT=0
+SRC_URI=

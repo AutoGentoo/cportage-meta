@@ -1,0 +1,9 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= compile install prepare
+BDEPEND=virtual/latex-base  >=sys-apps/texinfo-4.2-r5 
+RDEPEND=virtual/latex-base 
+EAPI=7
+IUSE=examples 
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~dilfridge/distfiles/lgrind-3.67.tgz

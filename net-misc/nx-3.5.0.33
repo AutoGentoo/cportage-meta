@@ -1,0 +1,9 @@
+17045a4212fda7c0f1d4f0bb23baf9c2
+DEFINED_PHASES= compile configure install prepare
+DEPEND=media-libs/freetype:2  >=media-libs/libpng-1.2.8:*  >=sys-libs/zlib-1.2.3  virtual/jpeg:*   x11-base/xorg-proto   x11-libs/libfontenc   x11-misc/gccmakedep   x11-misc/imake 
+RDEPEND=media-libs/freetype:2  >=media-libs/libpng-1.2.8:*  >=sys-libs/zlib-1.2.3  virtual/jpeg:* 
+EAPI=6
+IUSE=elibc_glibc 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://code.x2go.org/releases/source/nx-libs/nx-libs-3.5.0.33-full.tar.gz

@@ -1,0 +1,9 @@
+5a44432359834277ceaaa0d4ba9d1be9
+DEFINED_PHASES= configure pretend setup test
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.7.0-r1 
+DEPEND=  >=sys-devel/llvm-6  clang? ( sys-devel/clang )  test? (   || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/lit[python_targets_python2_7(-),python_single_target_python2_7(+)] ) )   =sys-devel/clang-7.1.0*:7 )  || ( >=dev-lang/python-2.7.5-r2:2.7 ) 
+EAPI=6
+IUSE=+clang test 
+KEYWORDS=amd64 arm arm64 ~ppc64 x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=7.1.0
+SRC_URI=https://releases.llvm.org/7.1.0/compiler-rt-7.1.0.src.tar.xz

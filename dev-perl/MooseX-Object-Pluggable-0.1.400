@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  dev-perl/Module-Pluggable  dev-perl/Module-Runtime  dev-perl/Moose  virtual/perl-Scalar-List-Utils  dev-perl/Try-Tiny  dev-perl/namespace-autoclean   >=dev-perl/Module-Build-Tiny-0.39.0  test? (   virtual/perl-ExtUtils-MakeMaker   virtual/perl-File-Spec   dev-perl/Test-Fatal   >=virtual/perl-Test-Simple-0.880.0  ) 
+RDEPEND=  virtual/perl-Carp  dev-perl/Module-Pluggable  dev-perl/Module-Runtime  dev-perl/Moose  virtual/perl-Scalar-List-Utils  dev-perl/Try-Tiny  dev-perl/namespace-autoclean  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/MooseX-Object-Pluggable-0.0014.tar.gz

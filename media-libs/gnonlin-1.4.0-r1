@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  >=dev-libs/glib-2.32:2  >=media-libs/gstreamer-1.4.0:1.0  >=media-libs/gst-plugins-base-1.4.0:1.0   virtual/pkgconfig  >=dev-util/gtk-doc-am-1.13  test? (   dev-libs/check   >=media-libs/gst-plugins-good-1.4.0:1.0 )  
+RDEPEND=  >=dev-libs/glib-2.32:2  >=media-libs/gstreamer-1.4.0:1.0  >=media-libs/gst-plugins-base-1.4.0:1.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=1.0
+SRC_URI=https://gstreamer.freedesktop.org/src/gnonlin/gnonlin-1.4.0.tar.xz

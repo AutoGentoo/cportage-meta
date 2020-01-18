@@ -1,0 +1,10 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  !dedicated? (   >=media-libs/fontconfig-2.7.0   media-libs/libsdl[X,opengl?]   media-libs/sdl-ttf[X]   >=media-libs/sdl-image-1.2.10[png]   sound? (    >=media-libs/sdl-mixer-1.2.11[vorbis]   )  )  physfs? ( dev-games/physfs[zip] )  !physfs? ( >=dev-libs/libzip-0.9 )   virtual/pkgconfig  nls? ( sys-devel/gettext )  
+RDEPEND=  !dedicated? (   >=media-libs/fontconfig-2.7.0   media-libs/libsdl[X,opengl?]   media-libs/sdl-ttf[X]   >=media-libs/sdl-image-1.2.10[png]   sound? (    >=media-libs/sdl-mixer-1.2.11[vorbis]   )  )  physfs? ( dev-games/physfs[zip] )  !physfs? ( >=dev-libs/libzip-0.9 )  
+EAPI=6
+IUSE=debug dedicated +ipv6 nls opengl physfs +sound 
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/tuxanci-20110429.tar.xz

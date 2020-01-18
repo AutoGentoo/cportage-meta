@@ -1,0 +1,9 @@
+8330c92f3615e95ad42defaed88df58c
+DEFINED_PHASES= install postinst prepare test
+DEPEND=  dev-libs/libev  >=dev-libs/libpcre-3  dns? ( net-libs/udns )  
+RDEPEND=  dev-libs/libev  >=dev-libs/libpcre-3  dns? ( net-libs/udns )  
+EAPI=6
+IUSE=+dns +largefile rfc3339 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/dlundquist/sniproxy/archive/0.5.0.tar.gz -> sniproxy-0.5.0.tar.gz

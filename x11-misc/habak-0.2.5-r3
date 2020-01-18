@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=    media-libs/imlib2[X]  x11-libs/libX11   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  media-libs/imlib2[X]  x11-libs/libX11  
+EAPI=7
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://sourceforge.net/projects/fvwm-crystal/files/habak/0.2.5/habak-0.2.5.tar.gz/download -> habak-0.2.5-sourceforge.tar.gz

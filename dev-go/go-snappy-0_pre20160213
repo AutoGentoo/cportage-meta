@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0_pre20160213
+SRC_URI=https://github.com/golang/snappy/archive/d1d908a252c22fd7afd36190d5cffb144aa8f777.tar.gz -> go-snappy-0_pre20160213.tar.gz

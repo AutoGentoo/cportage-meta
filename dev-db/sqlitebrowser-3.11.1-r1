@@ -1,0 +1,10 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= configure install prepare
+BDEPEND=  dev-qt/linguist-tools:5  test? ( dev-qt/qttest:5 )  
+DEPEND=  app-editors/qhexedit2  dev-cpp/antlr-cpp:2  dev-db/sqlite:3  >=dev-libs/qcustomplot-2.0.0[qt5(+)]  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtwidgets:5  >=x11-libs/qscintilla-2.10.1:=[qt5(+)]  dev-qt/qtprintsupport:5  dev-qt/qtxml:5   
+RDEPEND=  app-editors/qhexedit2  dev-cpp/antlr-cpp:2  dev-db/sqlite:3  >=dev-libs/qcustomplot-2.0.0[qt5(+)]  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtwidgets:5  >=x11-libs/qscintilla-2.10.1:=[qt5(+)]  dev-qt/qtprintsupport:5  dev-qt/qtxml:5    dev-qt/qtsvg:5  
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/sqlitebrowser/sqlitebrowser/archive/v3.11.1.tar.gz -> sqlitebrowser-3.11.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=x11-wm/windowmaker-0.70.0  truetype? ( x11-libs/libXft )  x11-libs/libXmu  x11-libs/libXt  x11-libs/libXpm  pam? ( sys-libs/pam )  sys-devel/gettext 
+RDEPEND=>=x11-wm/windowmaker-0.70.0  truetype? ( x11-libs/libXft )  x11-libs/libXmu  x11-libs/libXt  x11-libs/libXpm  pam? ( sys-libs/pam )  pam? ( >=sys-auth/pambase-20080219.1 ) 
+EAPI=6
+IUSE=pam selinux truetype 
+KEYWORDS=alpha amd64 ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=http://voins.program.ru/wdm/wdm-1.28.tar.bz2

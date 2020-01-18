@@ -1,0 +1,9 @@
+5c926d0a5fe8dc20c5bf559732354099
+DEFINED_PHASES= configure install prepare
+DEPEND=ftdi? ( dev-embedded/libftdi:= )  ftd2xx? ( dev-embedded/libftd2xx )  readline? ( sys-libs/readline:= )  usb? ( virtual/libusb:1 ) 
+RDEPEND=ftdi? ( dev-embedded/libftdi:= )  ftd2xx? ( dev-embedded/libftd2xx )  readline? ( sys-libs/readline:= )  usb? ( virtual/libusb:1 )  !dev-embedded/jtag 
+EAPI=5
+IUSE=ftd2xx ftdi readline static-libs usb 
+KEYWORDS=
+SLOT=0
+SRC_URI=

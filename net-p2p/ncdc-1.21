@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure prepare
+BDEPEND=  dev-util/makeheaders  virtual/pkgconfig  
+DEPEND=  app-arch/bzip2  dev-db/sqlite:3  dev-libs/glib:2  net-libs/gnutls:=  sys-libs/ncurses:0=[unicode]  sys-libs/zlib:=  geoip? ( dev-libs/geoip ) 
+RDEPEND=  app-arch/bzip2  dev-db/sqlite:3  dev-libs/glib:2  net-libs/gnutls:=  sys-libs/ncurses:0=[unicode]  sys-libs/zlib:=  geoip? ( dev-libs/geoip ) 
+EAPI=7
+IUSE=geoip 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://dev.yorhel.nl/download/ncdc-1.21.tar.gz

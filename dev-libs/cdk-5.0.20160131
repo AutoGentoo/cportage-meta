@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure install
+DEPEND=>=sys-libs/ncurses-5.2:0=[unicode?] 
+RDEPEND=>=sys-libs/ncurses-5.2:0=[unicode?] 
+EAPI=6
+IUSE=examples static-libs unicode 
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 ~s390 sparc x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0/6
+SRC_URI=ftp://invisible-island.net/cdk/cdk-5.0-20160131.tgz

@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/libxml2:2  media-gfx/graphviz  x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=  dev-libs/libxml2:2  media-gfx/graphviz  x11-libs/gtk+:2 
+EAPI=5
+IUSE=doc minimal nls 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://debian/pool/main/g/ggobi/ggobi_2.1.10.orig.tar.bz2

@@ -1,0 +1,9 @@
+11a6fceafdc2d6b983e03615e28946b6
+DEFINED_PHASES= compile install test
+DEPEND=dev-java/log4j:0  java-virtuals/interceptor-api:0  java-virtuals/servlet-api:3.0  www-servers/tomcat:7  >=virtual/jdk-1.7  test? (   dev-db/hsqldb:0   dev-java/assertj-core:2   dev-java/junit:4   dev-java/mockito:0   dev-java/objenesis:0  ) 
+RDEPEND=dev-java/log4j:0  java-virtuals/interceptor-api:0  java-virtuals/servlet-api:3.0  www-servers/tomcat:7  >=virtual/jre-1.7  dev-db/hsqldb:0  dev-java/jakarta-oro:2.0 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=2
+SRC_URI=https://github.com/stevensouza/jamonapi/archive/v2_81.tar.gz -> jamonapi-2_81.tar.gz

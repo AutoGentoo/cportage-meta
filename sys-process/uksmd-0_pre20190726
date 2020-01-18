@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=virtual/pkgconfig 
+DEPEND=sys-process/procps:=  sys-kernel/pf-sources:* 
+RDEPEND=sys-process/procps:=  sys-kernel/pf-sources:* 
+EAPI=7
+IUSE=kernel_linux 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://gitlab.com/post-factum/uksmd/-/archive/42f4ff8eb09011bf1a199938aa2afe23040d7faf/uksmd-42f4ff8eb09011bf1a199938aa2afe23040d7faf.tar.bz2 -> uksmd-0_pre20190726.tar.bz2

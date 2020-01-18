@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Module-Build-0.400.500  test? (   virtual/perl-IO-Socket-IP   dev-perl/Test-Requires   dev-perl/Test-SharedFork   >=dev-perl/Test-TCP-2.130.0  )  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KAZUHO/Server-Starter-0.33.tar.gz

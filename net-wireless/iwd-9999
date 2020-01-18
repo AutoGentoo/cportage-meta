@@ -1,0 +1,9 @@
+9fda3f63321ab81ca0f3ef80bca5e5f4
+DEFINED_PHASES= configure install prepare pretend unpack
+DEPEND=sys-apps/dbus  client? ( sys-libs/readline:0= )  virtual/pkgconfig dev-python/docutils 
+RDEPEND=sys-apps/dbus  client? ( sys-libs/readline:0= )  net-wireless/wireless-regdb  crda? ( net-wireless/crda ) 
+EAPI=6
+IUSE=+client +crda +monitor ofono wired cpu_flags_x86_aes cpu_flags_x86_ssse3 
+KEYWORDS=
+SLOT=0
+SRC_URI=

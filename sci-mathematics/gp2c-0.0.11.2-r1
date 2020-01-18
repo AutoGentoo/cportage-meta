@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=dev-lang/perl 
+DEPEND=>=sci-mathematics/pari-2.11.2 
+RDEPEND=>=sci-mathematics/pari-2.11.2 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://pari.math.u-bordeaux.fr/pub/pari/GP2C/gp2c-0.0.11pl2.tar.gz

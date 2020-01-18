@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=~app-leechcraft/lc-core-9999  x11-libs/qwt:6[qt5]  dev-libs/libnl:3  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtdeclarative:5[widgets]   
+RDEPEND=~app-leechcraft/lc-core-9999  x11-libs/qwt:6[qt5]  dev-libs/libnl:3  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  dev-qt/qtdeclarative:5[widgets]    ~virtual/leechcraft-quark-sideprovider-9999 
+EAPI=6
+IUSE=debug 
+KEYWORDS=
+SLOT=0
+SRC_URI=

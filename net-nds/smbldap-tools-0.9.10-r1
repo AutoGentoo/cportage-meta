@@ -1,0 +1,9 @@
+d62b5a7a332422b7eacff1a3f9310d95
+DEFINED_PHASES= install postinst prepare
+DEPEND=  dev-perl/perl-ldap  dev-perl/Crypt-SmbHash  dev-perl/Digest-SHA1  dev-perl/Unicode-MapUTF8  dev-perl/IO-Socket-SSL  net-nds/openldap  net-fs/samba  
+RDEPEND=  dev-perl/perl-ldap  dev-perl/Crypt-SmbHash  dev-perl/Digest-SHA1  dev-perl/Unicode-MapUTF8  dev-perl/IO-Socket-SSL  net-nds/openldap  net-fs/samba  
+EAPI=4
+IUSE=
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86
+SLOT=0
+SRC_URI=http://download.gna.org/smbldap-tools/sources/0.9.10/smbldap-tools-0.9.10.tar.gz

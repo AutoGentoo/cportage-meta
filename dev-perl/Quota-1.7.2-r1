@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=  sys-fs/quota[rpc]  net-libs/libtirpc   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  sys-fs/quota[rpc]  net-libs/libtirpc  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TOMZO/Quota-1.7.2.tar.gz

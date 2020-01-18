@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES=-
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[ncurses]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] 
+RDEPEND=  dev-python/cddb-py[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  dev-python/id3-py[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  dev-python/pyid3lib[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  dev-python/pyvorbis[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  media-libs/flac  media-sound/lame  media-sound/cdparanoia 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://www.home.unix-ag.org/arne/jack/jack-3.1.1.tar.gz

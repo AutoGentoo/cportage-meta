@@ -1,0 +1,9 @@
+f6a32f761fbfcb4c716e5b9832dd5305
+DEFINED_PHASES= compile configure install postinst prepare setup unpack
+DEPEND=virtual/libusb:0  >=dev-libs/libg15-9999  >=dev-libs/libg15render-1.2  perl? (   dev-lang/perl   dev-perl/GDGraph   >=dev-perl/Inline-0.4  )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=virtual/libusb:0  >=dev-libs/libg15-9999  >=dev-libs/libg15render-1.2  perl? (   dev-lang/perl   dev-perl/GDGraph   >=dev-perl/Inline-0.4  )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=5
+IUSE=perl python static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=mirror://sourceforge/g15daemon/g15daemon-1.9.5.3.tar.gz

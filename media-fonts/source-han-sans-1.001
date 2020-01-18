@@ -1,0 +1,11 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= install
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=5
+IUSE=l10n_ja l10n_ko +l10n_zh-CN l10n_zh-TW 
+KEYWORDS=alpha amd64 arm ~arm64 ia64 ppc ppc64 ~sh sparc x86 ~x64-macos
+SLOT=0
+SRC_URI=l10n_ja? ( https://dev.gentoo.org/~jstein/dist/source-han-sans-ja-1.001.tar.xz )
+	l10n_ko? ( https://dev.gentoo.org/~jstein/dist/source-han-sans-ko-1.001.tar.xz )
+	l10n_zh-CN? ( https://dev.gentoo.org/~jstein/dist/source-han-sans-zh_CN-1.001.tar.xz )
+	l10n_zh-TW? ( https://dev.gentoo.org/~jstein/dist/source-han-sans-zh_TW-1.001.tar.xz )

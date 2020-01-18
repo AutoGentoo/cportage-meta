@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-ml/ppx_core:=    dev-ml/stdio:=  dev-ml/ppx_optcomp:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/ocamlbuild:= dev-ml/jbuilder 
+RDEPEND=  dev-ml/ppx_core:=    dev-ml/stdio:=  dev-ml/ppx_optcomp:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/ocamlbuild:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0/0.9.1
+SRC_URI=https://github.com/janestreet/ppx_driver/archive/v0.9.1.tar.gz -> ppx_driver-0.9.1.tar.gz

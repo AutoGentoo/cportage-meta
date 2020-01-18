@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  dev-perl/Module-Build  test? ( >=dev-perl/Test-Unit-Lite-0.120.0 )  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DE/DEXTER/Exception-Base-0.2501.tar.gz

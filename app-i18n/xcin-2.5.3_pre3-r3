@@ -1,0 +1,10 @@
+604ae1094e2a8aa41ef481794ddbf8d1
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=sys-libs/db-4.5  >=app-i18n/libtabe-0.2.6  unicode? ( media-fonts/hkscs-ming   media-fonts/arphicfonts )  app-i18n/libchewing  x11-libs/libX11  nls? ( sys-devel/gettext ) 
+RDEPEND=>=sys-libs/db-4.5  >=app-i18n/libtabe-0.2.6  unicode? ( media-fonts/hkscs-ming   media-fonts/arphicfonts )  app-i18n/libchewing  x11-libs/libX11 
+EAPI=4
+IUSE=debug nls unicode 
+KEYWORDS=~amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/x/xcin/xcin_2.5.2.99.pre2+cvs20030224.orig.tar.gz
+	mirror://debian/pool/main/x/xcin/xcin_2.5.2.99.pre2+cvs20030224-1.4.diff.gz

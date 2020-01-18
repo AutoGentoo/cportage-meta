@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile install
+BDEPEND=  app-text/docbook-xml-dtd:4.2  dev-libs/libxslt  virtual/pkgconfig  
+DEPEND=  dev-libs/libxml2:2  media-gfx/exiv2:=  gtk? ( x11-libs/gtk+:2 )  
+EAPI=7
+IUSE=doc gtk 
+KEYWORDS=~amd64 ~hppa ~x86
+SLOT=0
+SRC_URI=http://freefoote.dview.net/linux/gpscorrelate-1.6.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=virtual/perl-Exporter-5.570.0  virtual/perl-XSLoader   >=dev-perl/Module-Build-0.360.100  test? (   virtual/perl-File-Spec   virtual/perl-IO   virtual/perl-Test-Simple  )  
+RDEPEND=  >=virtual/perl-Exporter-5.570.0  virtual/perl-XSLoader  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LE/LEONT/Thread-SigMask-0.004.tar.gz

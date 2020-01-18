@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install prepare test
+DEPEND=  !luajit? ( >=dev-lang/lua-5.1 )  luajit? ( dev-lang/luajit:2 )  virtual/pkgconfig 
+RDEPEND=  !luajit? ( >=dev-lang/lua-5.1 )  luajit? ( dev-lang/luajit:2 ) 
+EAPI=6
+IUSE=luajit 
+KEYWORDS=amd64 arm ~arm64 ~hppa ~mips ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/keplerproject/luafilesystem/archive/v1_6_3.tar.gz -> luafilesystem-1.6.3.tar.gz

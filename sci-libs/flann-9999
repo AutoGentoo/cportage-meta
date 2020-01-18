@@ -1,0 +1,10 @@
+fb5fb0681c8e3bfe92a176a5319761df
+DEFINED_PHASES= configure install prepare pretend setup
+BDEPEND=  doc? ( dev-tex/latex2html )  
+DEPEND=  app-arch/lz4:=  cuda? ( >=dev-util/nvidia-cuda-toolkit-5.5 )  mpi? (   sci-libs/hdf5[mpi]   dev-libs/boost:=[mpi]  )  !mpi? ( !sci-libs/hdf5[mpi] )  octave? ( >=sci-mathematics/octave-3.6.4-r1 )  
+RDEPEND=  app-arch/lz4:=  cuda? ( >=dev-util/nvidia-cuda-toolkit-5.5 )  mpi? (   sci-libs/hdf5[mpi]   dev-libs/boost:=[mpi]  )  !mpi? ( !sci-libs/hdf5[mpi] )  octave? ( >=sci-mathematics/octave-3.6.4-r1 )  
+EAPI=7
+IUSE=cuda doc examples mpi openmp octave static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

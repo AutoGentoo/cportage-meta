@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND= dev-ml/jbuilder 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0.9.0
+SRC_URI=https://github.com/janestreet/spawn/archive/v0.9.0.tar.gz -> spawn-0.9.0.tar.gz

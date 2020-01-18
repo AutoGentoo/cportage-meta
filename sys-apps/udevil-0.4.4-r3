@@ -1,0 +1,9 @@
+66139bf53535bc83bf8b107fc0c26981
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  acct-group/plugdev  >=app-shells/bash-4.0:*  dev-libs/glib:2  sys-apps/util-linux  virtual/acl  >=virtual/udev-143  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=  acct-group/plugdev  >=app-shells/bash-4.0:*  dev-libs/glib:2  sys-apps/util-linux  virtual/acl  >=virtual/udev-143 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/IgnorantGuru/udevil/archive/0.4.4.tar.gz -> udevil-0.4.4.tar.gz

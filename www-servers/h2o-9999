@@ -1,0 +1,10 @@
+6b90305f5c7725d1b2e0ad70af53c79a
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-lang/perl  sys-libs/zlib  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  mruby? (   || (  dev-lang/ruby:2.5 dev-lang/ruby:2.4 dev-lang/ruby:2.6 ) virtual/rubygems   || (    dev-libs/onigmo    dev-libs/oniguruma   )   sys-devel/bison   virtual/pkgconfig  ) 
+RDEPEND=dev-lang/perl  sys-libs/zlib  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+EAPI=6
+IUSE=libressl +mruby 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES=-
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  test? (   >=dev-python/twisted-16[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/service_identity[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ssl? ( dev-python/pyopenssl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  )  
+RDEPEND=  >=dev-python/twisted-16[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/service_identity[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ssl? ( dev-python/pyopenssl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  
+EAPI=7
+IUSE=doc +ssl test 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://pypi/f/foolscap/foolscap-0.13.1.tar.gz

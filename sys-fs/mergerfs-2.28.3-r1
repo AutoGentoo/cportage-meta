@@ -1,0 +1,10 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= install prepare
+BDEPEND=sys-devel/gettext 
+DEPEND=  xattr? ( sys-apps/attr )  
+RDEPEND=  xattr? ( sys-apps/attr )  
+EAPI=7
+IUSE=+xattr 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/trapexit/mergerfs/archive/2.28.3.tar.gz -> mergerfs-2.28.3.tar.gz

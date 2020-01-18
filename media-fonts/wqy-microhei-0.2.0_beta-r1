@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  )  dev-util/xdelta:3 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wqy/wqy-microhei-0.2.0-beta.tar.gz
+	https://dev.gentoo.org/~dlan/distfiles/wqy-microhei.ttc.xd3

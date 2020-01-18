@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-java/tomcat-servlet-api:3.0  >=virtual/jdk-1.6  source? ( app-arch/zip ) 
+RDEPEND=  dev-java/tomcat-servlet-api:3.0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=2.0
+SRC_URI=https://repo1.maven.org/maven2/javax/portlet/portlet-api/2.0/portlet-api-2.0-sources.jar -> portletapi-2.0.jar

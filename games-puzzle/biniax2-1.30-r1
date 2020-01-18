@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=media-libs/libsdl  media-libs/sdl-image[png]  media-libs/sdl-mixer[mod] 
+RDEPEND=media-libs/libsdl  media-libs/sdl-image[png]  media-libs/sdl-mixer[mod] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://mordred.dir.bg/biniax/biniax2-1.30-fullsrc.tar.gz

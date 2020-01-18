@@ -1,0 +1,10 @@
+096ec3c4ed96c204449b14726b53e47e
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  dump? ( >=net-libs/libpcap-1.0.0 )  ipq? (   >=net-firewall/iptables-1.4.10  dev-libs/libdnet  net-libs/libnetfilter_queue   )  nfq? (   >=net-firewall/iptables-1.4.10  dev-libs/libdnet  net-libs/libnetfilter_queue   )  pcap? ( >=net-libs/libpcap-1.0.0 )  
+RDEPEND=  dump? ( >=net-libs/libpcap-1.0.0 )  ipq? (   >=net-firewall/iptables-1.4.10  dev-libs/libdnet  net-libs/libnetfilter_queue   )  nfq? (   >=net-firewall/iptables-1.4.10  dev-libs/libdnet  net-libs/libnetfilter_queue   )  pcap? ( >=net-libs/libpcap-1.0.0 )  
+EAPI=7
+IUSE=ipv6 +afpacket +dump +pcap nfq ipq static-libs 
+KEYWORDS=amd64 ~arm ~mips ~ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://www.snort.org/downloads/snort/daq-2.0.6.tar.gz

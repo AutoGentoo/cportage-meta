@@ -1,0 +1,10 @@
+369f1ac83ec21ed803f081f8013b0b17
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  qt5? (   virtual/opengl   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   x11-libs/libQGLViewer:=  )   doc? (   app-doc/doxygen   media-gfx/graphviz  )  
+RDEPEND=  qt5? (   virtual/opengl   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5   x11-libs/libQGLViewer:=  )  
+EAPI=5
+IUSE=qt5 dynamicEDT3D doc 
+KEYWORDS=~amd64 ~arm
+SLOT=0/19
+SRC_URI=https://github.com/OctoMap/octomap/archive/v1.9.0.tar.gz -> octomap-1.9.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=ruby? ( || (  dev-lang/ruby:2.5 dev-lang/ruby:2.4 ) virtual/rubygems )  !ruby? ( dev-lang/perl ) 
+RDEPEND=ruby? ( || (  dev-lang/ruby:2.5 dev-lang/ruby:2.4 ) virtual/rubygems )  !ruby? ( dev-lang/perl ) 
+EAPI=5
+IUSE=ruby doc 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://www.kitebird.com/software/xmlformat/xmlformat-1.04.tar.gz

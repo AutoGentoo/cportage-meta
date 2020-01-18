@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=~app-leechcraft/lc-core-9999  crypt? ( dev-libs/openssl:0 )  dev-qt/qtwidgets:5  
+RDEPEND=~app-leechcraft/lc-core-9999  crypt? ( dev-libs/openssl:0 )  dev-qt/qtwidgets:5  
+EAPI=6
+IUSE=debug crypt exposecontents 
+KEYWORDS=
+SLOT=0
+SRC_URI=

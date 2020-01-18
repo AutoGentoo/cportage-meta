@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile configure install postinst postrm preinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtopengl:5  dev-qt/qtxml:5  media-libs/libvorbis  media-libs/openal  virtual/opengl  dev-qt/linguist-tools:5  dev-qt/qttest:5  virtual/pkgconfig 
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtopengl:5  dev-qt/qtxml:5  media-libs/libvorbis  media-libs/openal  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dustrac/dustrac-1.11.0.tar.gz

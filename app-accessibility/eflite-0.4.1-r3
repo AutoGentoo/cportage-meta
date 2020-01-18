@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=>=app-accessibility/flite-1.4 
+RDEPEND=>=app-accessibility/flite-1.4 
+EAPI=5
+IUSE=+16k_voice 
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/eflite/eflite-0.4.1.tar.gz

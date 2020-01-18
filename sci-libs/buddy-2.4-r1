@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND= virtual/fortran 
+RDEPEND= virtual/fortran 
+EAPI=6
+IUSE=doc examples static-libs 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/buddy/buddy-2.4.tar.gz

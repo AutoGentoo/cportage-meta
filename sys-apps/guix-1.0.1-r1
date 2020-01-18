@@ -1,0 +1,15 @@
+139e85d4d7587edcc28f7b3cb5bfb2e0
+DEFINED_PHASES= compile configure install postinst prepare pretend setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/libgcrypt:0=  >=dev-scheme/guile-2.2:=[regex,networking,threads]  dev-scheme/bytestructures  dev-scheme/guile-gcrypt  >=dev-scheme/guile-git-0.2.0  dev-scheme/guile-json  dev-scheme/guile-sqlite3  net-libs/gnutls[guile]  sys-libs/zlib  app-arch/bzip2  dev-db/sqlite   
+RDEPEND=  dev-libs/libgcrypt:0=  >=dev-scheme/guile-2.2:=[regex,networking,threads]  dev-scheme/bytestructures  dev-scheme/guile-gcrypt  >=dev-scheme/guile-git-0.2.0  dev-scheme/guile-json  dev-scheme/guile-sqlite3  net-libs/gnutls[guile]  sys-libs/zlib  app-arch/bzip2  dev-db/sqlite  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnu/guix/guix-1.0.1.tar.gz
+	mirror://gnu-alpha/guix/bootstrap/aarch64-linux/20170217/guile-2.0.14.tar.xz -> guix-bootstrap-aarch64-linux-20170217-guile-2.0.14.tar.xz.bootstrap
+mirror://gnu-alpha/guix/bootstrap/armhf-linux/20150101/guile-2.0.11.tar.xz -> guix-bootstrap-armhf-linux-20150101-guile-2.0.11.tar.xz.bootstrap
+mirror://gnu-alpha/guix/bootstrap/i686-linux/20131110/guile-2.0.9.tar.xz -> guix-bootstrap-i686-linux-20131110-guile-2.0.9.tar.xz.bootstrap
+mirror://gnu-alpha/guix/bootstrap/mips64el-linux/20131110/guile-2.0.9.tar.xz -> guix-bootstrap-mips64el-linux-20131110-guile-2.0.9.tar.xz.bootstrap
+mirror://gnu-alpha/guix/bootstrap/x86_64-linux/20131110/guile-2.0.9.tar.xz -> guix-bootstrap-x86_64-linux-20131110-guile-2.0.9.tar.xz.bootstrap

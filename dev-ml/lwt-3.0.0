@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  dev-libs/libev  >=dev-lang/ocaml-4.02:=  dev-ml/result:=  ppx? ( dev-ml/ppx_tools:= )  camlp4? ( dev-ml/camlp4:= )  dev-ml/cppo 
+RDEPEND=  dev-libs/libev  >=dev-lang/ocaml-4.02:=  dev-ml/result:=  ppx? ( dev-ml/ppx_tools:= )  camlp4? ( dev-ml/camlp4:= )  !<www-servers/ocsigen-1.1 
+EAPI=5
+IUSE=+camlp4 +ppx 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
+SLOT=0/3.0.0
+SRC_URI=https://github.com/ocsigen/lwt/archive/3.0.0.tar.gz -> lwt-3.0.0.tar.gz

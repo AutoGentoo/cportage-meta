@@ -1,0 +1,8 @@
+9c89dc9fc7c0b6bada97a121d48c3a5d
+DEFINED_PHASES= install postinst setup
+RDEPEND=>=dev-lang/perl-5.16.3  virtual/perl-Sys-Syslog  dev-perl/Net-DNS  dev-perl/Net-Server  
+EAPI=5
+IUSE=+tools 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.postfwd.org/postfwd-1.35.tar.gz

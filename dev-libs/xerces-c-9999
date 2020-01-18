@@ -1,0 +1,10 @@
+4eaae7adde7a3cc22421879f1b547b4d
+DEFINED_PHASES= compile configure install setup
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=icu? ( dev-libs/icu:0= )  curl? ( net-misc/curl )  virtual/libiconv  doc? ( app-doc/doxygen )  test? ( dev-lang/perl ) 
+RDEPEND=icu? ( dev-libs/icu:0= )  curl? ( net-misc/curl )  virtual/libiconv 
+EAPI=6
+IUSE=cpu_flags_x86_sse2 curl doc elibc_Darwin elibc_FreeBSD examples iconv icu static-libs test threads 
+KEYWORDS=
+SLOT=0
+SRC_URI=

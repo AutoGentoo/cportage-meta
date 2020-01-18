@@ -1,0 +1,10 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure postinst
+BDEPEND=  >=dev-libs/wayland-protocols-1.14  virtual/pkgconfig  man? ( app-text/scdoc )  
+DEPEND=  dev-libs/wayland  x11-libs/cairo  x11-libs/libxkbcommon  gdk-pixbuf? ( x11-libs/gdk-pixbuf:2 )  pam? ( sys-libs/pam )  
+RDEPEND=    dev-libs/wayland  x11-libs/cairo  x11-libs/libxkbcommon  gdk-pixbuf? ( x11-libs/gdk-pixbuf:2 )  pam? ( sys-libs/pam )   !<=gui-wm/sway-1.0_beta2[swaylock]  
+EAPI=7
+IUSE=fish-completion +gdk-pixbuf +man +pam zsh-completion 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/swaywm/swaylock/archive/1.4.tar.gz -> swaylock-1.4.tar.gz

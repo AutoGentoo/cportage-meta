@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Config-INI  >=dev-perl/Config-MVP-2  dev-perl/Moose  virtual/perl-parent   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  dev-perl/Config-INI  >=dev-perl/Config-MVP-2  dev-perl/Moose  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Config-MVP-Reader-INI-2.101463.tar.gz

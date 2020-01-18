@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=test? ( dev-php/PEAR-PEAR ) 
+RDEPEND=>=dev-php/pear-1.8.1 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/Crypt_HMAC-1.0.1.tgz

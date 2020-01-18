@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure
+DEPEND=  >=app-text/enchant-1.4  app-text/iso-codes  >=dev-cpp/cairomm-1.12  >=dev-cpp/glibmm-2.46:2  >=dev-cpp/gtkmm-3.18:3.0  >=dev-cpp/gstreamermm-1.0:1.0=  >=dev-cpp/libxmlpp-2.40:2.6  dev-libs/glib:2  >=dev-libs/libsigc++-2.6:2  media-libs/gst-plugins-base:1.0[X,pango]  media-libs/gst-plugins-good:1.0  media-libs/gstreamer:1.0  media-plugins/gst-plugins-meta:1.0  x11-libs/gtk+:3  nls? ( virtual/libintl )   >=dev-util/intltool-0.40  virtual/pkgconfig  
+RDEPEND=  >=app-text/enchant-1.4  app-text/iso-codes  >=dev-cpp/cairomm-1.12  >=dev-cpp/glibmm-2.46:2  >=dev-cpp/gtkmm-3.18:3.0  >=dev-cpp/gstreamermm-1.0:1.0=  >=dev-cpp/libxmlpp-2.40:2.6  dev-libs/glib:2  >=dev-libs/libsigc++-2.6:2  media-libs/gst-plugins-base:1.0[X,pango]  media-libs/gst-plugins-good:1.0  media-libs/gstreamer:1.0  media-plugins/gst-plugins-meta:1.0  x11-libs/gtk+:3  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=debug nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/kitone/subtitleeditor/releases/download/0.54.0/subtitleeditor-0.54.0.tar.gz

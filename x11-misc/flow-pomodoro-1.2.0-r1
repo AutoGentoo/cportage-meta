@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtquickcontrols:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtquickcontrols:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/iamsergio/flow-pomodoro/archive/v1.2.0.tar.gz -> flow-pomodoro-1.2.0.tar.gz

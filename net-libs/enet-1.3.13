@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+RDEPEND=!net-libs/enet:0 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=1.3/7
+SRC_URI=http://enet.bespin.org/download/enet-1.3.13.tar.gz

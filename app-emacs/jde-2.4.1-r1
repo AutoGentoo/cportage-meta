@@ -1,0 +1,9 @@
+58db81fa27a02dd98aa43c8d1ce791ae
+DEFINED_PHASES= compile install prepare setup
+DEPEND=>=virtual/jdk-1.3:=  dev-java/bsh:0  dev-java/junit:0  dev-util/checkstyle:0  dev-java/ant-contrib:0 
+RDEPEND=>=virtual/jdk-1.3:=  dev-java/bsh:0  dev-java/junit:0  dev-util/checkstyle:0 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://gentoo/jdee-2.4.1.tar.xz

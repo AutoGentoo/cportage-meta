@@ -1,0 +1,9 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= test
+DEPEND=>=virtual/jdk-1.7  app-arch/unzip  test? ( dev-java/junit:4 ) 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/dr-jts/jts/archive/f67d35c1da06922c8165f66a919490ee94a04649.tar.gz -> jts-1.14.tar.gz

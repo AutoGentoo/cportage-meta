@@ -1,0 +1,9 @@
+9f3563bc81c17d5b447ce54e7998e883
+DEFINED_PHASES= configure install postinst prepare pretend setup
+DEPEND=  dev-libs/libmemcached  net-misc/curl  net-misc/memcached  >=gnustep-libs/sope-4.1.1[ldap]  activesync? ( dev-libs/libwbxml )  gnutls? ( net-libs/gnutls:= )  !gnutls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )   >=gnustep-base/gnustep-make-2.6.3 
+RDEPEND=  dev-libs/libmemcached  net-misc/curl  net-misc/memcached  >=gnustep-libs/sope-4.1.1[ldap]  activesync? ( dev-libs/libwbxml )  gnutls? ( net-libs/gnutls:= )  !gnutls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  
+EAPI=7
+IUSE=activesync gnutls libressl +ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/inverse-inc/sogo/archive/SOGo-4.1.1.tar.gz -> sogo-4.1.1.tar.gz

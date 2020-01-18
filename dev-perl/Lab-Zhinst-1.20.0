@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=sci-electronics/labone  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=sci-electronics/labone 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBA/Lab-Zhinst-1.02.tar.gz

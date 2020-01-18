@@ -1,0 +1,10 @@
+890cf8a2fd801e382d6fb0dc19204d01
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=bladerf? ( net-wireless/bladerf:= )   rtlsdr? ( net-wireless/rtl-sdr:= )   sys-libs/ncurses:=   virtual/libusb:1 
+RDEPEND=bladerf? ( net-wireless/bladerf:= )   rtlsdr? ( net-wireless/rtl-sdr:= )   sys-libs/ncurses:=   virtual/libusb:1 
+EAPI=7
+IUSE=bladerf +rtlsdr 
+KEYWORDS=
+SLOT=0
+SRC_URI=

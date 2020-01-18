@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=virtual/jpeg:0 
+RDEPEND=virtual/jpeg:0 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://www.kokkonen.net/tjko/src/jpeginfo-1.6.1.tar.gz

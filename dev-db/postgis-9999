@@ -1,0 +1,9 @@
+d791822b7ae3369762ab7f8e79424b26
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=   postgres_targets_postgres12? ( dev-db/postgresql:12=[server] ) postgres_targets_postgres11? ( dev-db/postgresql:11=[server] ) postgres_targets_postgres10? ( dev-db/postgresql:10=[server] ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6=[server] ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5=[server] ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4=[server] )  dev-libs/json-c:=  dev-libs/libxml2:2  >=sci-libs/geos-3.5.0  >=sci-libs/proj-4.6.0  >=sci-libs/gdal-1.10.0  address-standardizer? ( dev-libs/libpcre )  gtk? ( x11-libs/gtk+:2 )  mapbox? ( dev-libs/protobuf )    doc? (     app-text/docbook-xsl-stylesheets     app-text/docbook-xml-dtd:4.5     dev-libs/libxslt     virtual/imagemagick-tools[png]   )   virtual/pkgconfig   test? ( dev-util/cunit )  
+RDEPEND=   postgres_targets_postgres12? ( dev-db/postgresql:12=[server] ) postgres_targets_postgres11? ( dev-db/postgresql:11=[server] ) postgres_targets_postgres10? ( dev-db/postgresql:10=[server] ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6=[server] ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5=[server] ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4=[server] )  dev-libs/json-c:=  dev-libs/libxml2:2  >=sci-libs/geos-3.5.0  >=sci-libs/proj-4.6.0  >=sci-libs/gdal-1.10.0  address-standardizer? ( dev-libs/libpcre )  gtk? ( x11-libs/gtk+:2 )  mapbox? ( dev-libs/protobuf )  
+EAPI=6
+IUSE=address-standardizer doc gtk static-libs mapbox test topology 
+KEYWORDS=
+SLOT=0
+SRC_URI=

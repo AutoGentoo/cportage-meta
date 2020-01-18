@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND==x11-libs/gtk+-2*  !x11-wm/oroborus-extras  virtual/pkgconfig 
+RDEPEND==x11-libs/gtk+-2*  !x11-wm/oroborus-extras 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/d//deskmenu//deskmenu_1.4.5.tar.gz

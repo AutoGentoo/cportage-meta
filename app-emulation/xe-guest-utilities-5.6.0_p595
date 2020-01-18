@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= install postinst prepare unpack
+DEPEND=app-arch/rpm2targz 
+RDEPEND=  !xenstore? ( app-emulation/xen-tools )  xenstore? ( !app-emulation/xen-tools ) 
+EAPI=5
+IUSE=xenstore 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://updates.vmd.citrix.com/XenServer/5.6.0/rhel4x/SRPMS/xe-guest-utilities-5.6.0-595.src.rpm

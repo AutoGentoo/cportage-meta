@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-libs/boost-1.48[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=media-gfx/imagemagick-6.9.1   virtual/pkgconfig  
+RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-libs/boost-1.48[python,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=media-gfx/imagemagick-6.9.1  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://imagemagick/python/PythonMagick-0.9.17.tar.xz

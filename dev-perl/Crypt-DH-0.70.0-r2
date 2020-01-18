@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-libs/gmp  dev-perl/Math-BigInt-GMP  >=virtual/perl-Math-BigInt-1.60  dev-perl/Crypt-Random  
+RDEPEND=  dev-libs/gmp  dev-perl/Math-BigInt-GMP  >=virtual/perl-Math-BigInt-1.60  dev-perl/Crypt-Random  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MI/MITHALDU/Crypt-DH-0.07.tar.gz

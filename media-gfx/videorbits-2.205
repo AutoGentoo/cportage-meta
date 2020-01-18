@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=x11-libs/libX11  sys-libs/zlib  media-libs/libpng:0=  virtual/jpeg:0  sci-libs/fftw:2.1  media-libs/netpbm 
+RDEPEND=x11-libs/libX11  sys-libs/zlib  media-libs/libpng:0=  virtual/jpeg:0  sci-libs/fftw:2.1  media-libs/netpbm 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/comparametric/videorbits-2.205.tgz

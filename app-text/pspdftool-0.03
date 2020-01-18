@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=zlib? ( sys-libs/zlib )  
+RDEPEND=zlib? ( sys-libs/zlib )  
+EAPI=4
+IUSE=zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pspdftool/pspdftool-0.03.tar.bz2

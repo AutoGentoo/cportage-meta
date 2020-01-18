@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=net-libs/libpcap 
+RDEPEND=net-libs/libpcap 
+EAPI=5
+IUSE=
+KEYWORDS=alpha ~amd64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ojnk/iplog-2.2.3.tar.gz

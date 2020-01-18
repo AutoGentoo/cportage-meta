@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES=-
+DEPEND=  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  doc? ( >=dev-python/mkdocs-0.14.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  test? ( <dev-python/pytest-4.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  
+RDEPEND=  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/click[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/configobj[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/keyring-0.9.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/python-novaclient[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/rackspace-novaclient[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/six[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+EAPI=5
+IUSE=doc examples test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://pypi/s/supernova/supernova-2.2.0.tar.gz

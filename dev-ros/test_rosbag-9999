@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/message_generation  dev-ros/rosbag[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosunit[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/topic_tools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/xmlrpcpp   test? (   dev-libs/boost[threads]   app-arch/bzip2   dev-ros/rosout   dev-python/nose[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-cpp/gtest  )  
+RDEPEND=  dev-ros/message_generation  dev-ros/rosbag[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosunit[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/topic_tools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/xmlrpcpp  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

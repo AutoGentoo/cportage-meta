@@ -1,0 +1,8 @@
+34e1c73f22cd2a46852e35b6d52acc1d
+DEFINED_PHASES= install postinst prepare setup unpack
+RDEPEND=dev-db/mongodb  dev-java/commons-daemon  sys-apps/lsb-release  sys-apps/util-linux  sys-libs/libcap  virtual/jre:1.8 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dl.ubnt.com/firmwares/ufv/v3.10.10/unifi-video.Ubuntu18.04_amd64.v3.10.10.deb

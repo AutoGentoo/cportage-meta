@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Bit-Vector-7  >=dev-perl/Carp-Clan-5.3 
+RDEPEND=>=dev-perl/Bit-Vector-7  >=dev-perl/Carp-Clan-5.3 
+EAPI=5
+IUSE=
+KEYWORDS=~alpha amd64 ~arm64 ~hppa ~ia64 ~m68k ppc ~ppc64 ~s390 ~sh ~sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/ST/STBEY/Date-Pcalc-6.1.tar.gz

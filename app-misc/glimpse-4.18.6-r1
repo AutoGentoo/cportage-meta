@@ -1,0 +1,8 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= compile configure install prepare
+RDEPEND=!dev-libs/tre  !dev-ruby/amatch  !app-text/agrep 
+EAPI=6
+IUSE=static 
+KEYWORDS=alpha amd64 ia64 ~mips ppc ~ppc64 ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://webglimpse.net/trial/glimpse-4.18.6.tar.gz

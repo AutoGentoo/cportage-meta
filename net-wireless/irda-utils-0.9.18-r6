@@ -1,0 +1,9 @@
+ef6589bf43f7043b95aced56e6609b76
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-libs/glib:2  >=sys-apps/pciutils-2.2.7-r1  sys-process/procps  sys-apps/setserial  sys-apps/grep  virtual/udev   virtual/pkgconfig  !app-laptop/smcinit  
+RDEPEND=  dev-libs/glib:2  >=sys-apps/pciutils-2.2.7-r1  sys-process/procps  sys-apps/setserial  sys-apps/grep  virtual/udev  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ppc ~sh x86
+SLOT=0
+SRC_URI=mirror://sourceforge/irda/irda-utils-0.9.18.tar.gz

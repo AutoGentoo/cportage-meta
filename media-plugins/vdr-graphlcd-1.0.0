@@ -1,0 +1,9 @@
+7f2ac68bb9f75bfc08563b4eefc8c919
+DEFINED_PHASES= install postinst preinst prepare setup
+DEPEND=>=media-video/vdr-1.6  >=app-misc/graphlcd-base-1.0.0 
+RDEPEND=>=media-video/vdr-1.6  >=app-misc/graphlcd-base-1.0.0 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://projects.vdr-developer.org/git/vdr-plugin-graphlcd.git/snapshot/vdr-plugin-graphlcd-1.0.0.tar.bz2

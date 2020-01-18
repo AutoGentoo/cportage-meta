@@ -1,0 +1,9 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/gtk+:2  portaudio? ( media-libs/libvorbis   >=media-libs/portaudio-19_pre1 )  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:2  portaudio? ( media-libs/libvorbis   >=media-libs/portaudio-19_pre1 ) 
+EAPI=6
+IUSE=portaudio 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wordwarvi/wordwarvi-1.00.tar.gz

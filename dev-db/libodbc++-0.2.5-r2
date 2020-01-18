@@ -1,0 +1,9 @@
+a143dc51d9ae4afb116377e524815b3c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=dev-db/unixODBC   sys-libs/ncurses 
+RDEPEND=dev-db/unixODBC   sys-libs/ncurses 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/libodbcxx/libodbc++-0.2.5.tar.bz2

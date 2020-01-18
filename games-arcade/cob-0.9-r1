@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=media-libs/libsdl[joystick,sound,video] 
+RDEPEND=media-libs/libsdl[joystick,sound,video] 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.autismuk.freeserve.co.uk/cob-0.9.tar.gz

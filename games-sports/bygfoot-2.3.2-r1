@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  app-arch/zip  media-libs/freetype:2  x11-libs/gtk+:2  virtual/libintl  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=  app-arch/zip  media-libs/freetype:2  x11-libs/gtk+:2  virtual/libintl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bygfoot/bygfoot-2.3.2.tar.bz2

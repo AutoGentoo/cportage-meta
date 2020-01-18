@@ -1,0 +1,12 @@
+772b13407ff61e98e3a85c54d6d193b8
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=app-arch/unzip  virtual/pkgconfig 
+DEPEND=virtual/latex-base  dev-libs/kpathsea  emacs? ( >=app-editors/emacs-23.1:* ) 
+RDEPEND=virtual/latex-base  dev-libs/kpathsea  emacs? ( >=app-editors/emacs-23.1:* ) 
+EAPI=7
+IUSE=doc emacs 
+KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=ftp://ftp.ffii.org/pub/cjk/cjk-4.8.4.tar.gz
+	mirror://gentoo/cjk-4.8.4-fonts.zip
+	doc? ( ftp://ftp.ffii.org/pub/cjk/cjk-4.8.4-doc.tar.gz )

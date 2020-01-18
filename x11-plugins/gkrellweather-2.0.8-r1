@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=    app-admin/gkrellm:2[X]  dev-lang/perl  net-misc/wget  x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=  app-admin/gkrellm:2[X]  dev-lang/perl  net-misc/wget  x11-libs/gtk+:2 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha amd64 ~ppc ~sparc x86
+SLOT=2
+SRC_URI=https://sites.google.com/site/makovick/projects/gkrellweather-2.0.8.tgz

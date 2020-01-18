@@ -1,0 +1,9 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= compile install test unpack
+DEPEND=>=dev-lang/go-1.10 
+RDEPEND=>=dev-util/envman-1.2.0 >=dev-util/stepman-0.10.0 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/bitrise-io/bitrise/archive/1.19.0.tar.gz -> bitrise-1.19.0.tar.gz

@@ -1,0 +1,10 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sys-libs/zlib  libev? ( dev-libs/libev )  libuv? ( dev-libs/libuv )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )   dev-lang/perl  
+RDEPEND=  sys-libs/zlib  libev? ( dev-libs/libev )  libuv? ( dev-libs/libuv )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  
+EAPI=6
+IUSE=+http2 +ssl client ipv6 libev libressl libuv static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/warmcat/libwebsockets/archive/v2.0.2.tar.gz -> libwebsockets-2.0.2.tar.gz

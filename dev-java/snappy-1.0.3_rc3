@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install test
+DEPEND=>=virtual/jdk-1.6  test? (   dev-java/junit:4   dev-java/xerial-core:0  )  dev-java/osgi-core-api:0  app-arch/snappy 
+RDEPEND=>=virtual/jre-1.6  dev-java/osgi-core-api:0  app-arch/snappy 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=1.0
+SRC_URI=https://github.com/xerial/snappy-java/archive/snappy-java-1.0.3-rc3.tar.gz -> snappy-java-1.0.3_rc3.tar.gz

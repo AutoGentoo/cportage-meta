@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=kernel_linux? (   x11-libs/libdrm[libkms,video_cards_vmware]   media-libs/mesa[xa]  ) 
+RDEPEND=kernel_linux? (   x11-libs/libdrm[libkms,video_cards_vmware]   media-libs/mesa[xa]  ) 
+EAPI=5
+IUSE=kernel_linux 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.x.org/releases/individual/driver/xf86-video-vmware-13.3.0.tar.bz2

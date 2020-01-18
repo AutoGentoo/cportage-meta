@@ -1,0 +1,9 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= configure install postinst postrm preinst
+DEPEND=>=net-misc/curl-7.20.0  >=dev-libs/glib-2.31  gtk? (   x11-libs/gtk+:3   >=app-text/gnome-doc-utils-0.14.0  )  hunspell? ( app-text/hunspell )  nls? ( virtual/libintl )  mecab? ( app-text/mecab )  test? (   app-text/docbook-xml-dtd:4.1.2   app-text/scrollkeeper-dtd  )  gtk? (   x11-themes/gnome-icon-theme-symbolic   >=app-text/gnome-doc-utils-0.14.0  )  nls? ( >=sys-devel/gettext-0.17 )  app-text/rarian  dev-util/intltool  virtual/pkgconfig 
+RDEPEND=>=net-misc/curl-7.20.0  >=dev-libs/glib-2.31  gtk? (   x11-libs/gtk+:3   >=app-text/gnome-doc-utils-0.14.0  )  hunspell? ( app-text/hunspell )  nls? ( virtual/libintl )  mecab? ( app-text/mecab ) 
+EAPI=4
+IUSE=gtk hunspell nls test mecab 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gwaei/gwaei-3.6.2.tar.xz

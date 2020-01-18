@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure postinst postrm prepare
+BDEPEND=  cg? ( media-gfx/nvidia-cg-toolkit )  dev-qt/linguist-tools:5  virtual/pkgconfig 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  media-libs/alsa-lib  virtual/opengl 
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  media-libs/alsa-lib  virtual/opengl 
+EAPI=7
+IUSE=cg 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/punesemu/puNES/archive/v0.105.tar.gz -> punes-0.105.tar.gz

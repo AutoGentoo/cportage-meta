@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=dev-lang/perl 
+RDEPEND=  dev-lang/perl  net-analyzer/mrtg  
+EAPI=5
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=ftp://ftp.pwo.de/pub/pwo/mrtg/mrtg-ping-probe/mrtg-ping-probe-2.2.0.tar.gz

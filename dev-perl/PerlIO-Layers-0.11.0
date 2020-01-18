@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  >=virtual/perl-Exporter-5.570.0  virtual/perl-Scalar-List-Utils  virtual/perl-XSLoader   >=dev-perl/Module-Build-0.360.100  test? (   virtual/perl-Data-Dumper   virtual/perl-File-Spec   >=virtual/perl-Test-Simple-0.820.0  )  
+RDEPEND=  virtual/perl-Carp  >=virtual/perl-Exporter-5.570.0  virtual/perl-Scalar-List-Utils  virtual/perl-XSLoader  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 arm ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LE/LEONT/PerlIO-Layers-0.011.tar.gz

@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile configure install prepare
+DEPEND=    net-analyzer/rrdtool[perl]  net-libs/libpcap  sys-libs/ncurses:=  sys-libs/readline:=  sys-libs/zlib  ft? ( net-analyzer/flow-tools )  geoip? ( dev-libs/geoip )  mysql? ( virtual/mysql )  sasl? ( dev-libs/cyrus-sasl )   sys-devel/bison  sys-devel/flex  virtual/pkgconfig  
+RDEPEND=    net-analyzer/rrdtool[perl]  net-libs/libpcap  sys-libs/ncurses:=  sys-libs/readline:=  sys-libs/zlib  ft? ( net-analyzer/flow-tools )  geoip? ( dev-libs/geoip )  mysql? ( virtual/mysql )  sasl? ( dev-libs/cyrus-sasl )   
+EAPI=5
+IUSE=debug ft geoip mysql sasl tcpd 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://qosient.com/argus/dev/argus-clients-3.0.8.2.tar.gz

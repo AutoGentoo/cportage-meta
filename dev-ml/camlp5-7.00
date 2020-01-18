@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  >=dev-lang/ocaml-3.10:=[ocamlopt?]  <=dev-lang/ocaml-4.6.0  
+RDEPEND=  >=dev-lang/ocaml-3.10:=[ocamlopt?]  <=dev-lang/ocaml-4.6.0  
+EAPI=5
+IUSE=doc +ocamlopt 
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+SLOT=0/7.00
+SRC_URI=https://github.com/camlp5/camlp5/archive/rel700.tar.gz -> camlp5-7.00.tar.gz

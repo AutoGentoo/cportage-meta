@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=>=dev-libs/libmirage-2.0.0:0=  dev-libs/glib:2=  pinentry? ( dev-libs/libassuan:0= )  dev-libs/libassuan  virtual/pkgconfig  test? ( app-arch/xz-utils ) 
+RDEPEND=>=dev-libs/libmirage-2.0.0:0=  dev-libs/glib:2=  pinentry? ( dev-libs/libassuan:0= )  pinentry? ( app-crypt/pinentry ) 
+EAPI=6
+IUSE=pinentry test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

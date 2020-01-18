@@ -1,0 +1,12 @@
+949d7405d0443240e7b1d39d9961e102
+DEFINED_PHASES= compile configure install postinst postrm prepare pretend setup
+DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 ~sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	https://openafs.org/dl/openafs/1.6.22.1/openafs-1.6.22.1-src.tar.bz2
+	https://dev.gentoo.org/~bircoph/afs/openafs-patches-20170822.tar.xz
+

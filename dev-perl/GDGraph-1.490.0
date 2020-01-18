@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/GDTextUtil  dev-perl/GD  media-libs/gd 
+RDEPEND=dev-perl/GDTextUtil  dev-perl/GD  media-libs/gd 
+EAPI=5
+IUSE=
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RU/RUZ/GDGraph-1.49.tar.gz

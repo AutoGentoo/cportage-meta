@@ -1,0 +1,9 @@
+257099a9df661a9b0b8a01c8ef2b12a7
+DEFINED_PHASES= configure install prepare test
+DEPEND=>=dev-libs/libbson-0.98.0  sasl? ( dev-libs/cyrus-sasl )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  test? ( dev-db/mongodb ) 
+RDEPEND=>=dev-libs/libbson-0.98.0  sasl? ( dev-libs/cyrus-sasl )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+EAPI=5
+IUSE=debug examples libressl sasl ssl static-libs test 
+KEYWORDS=~amd64 ~hppa ~s390 ~x86
+SLOT=0
+SRC_URI=https://github.com/mongodb/mongo-c-driver/releases/download/0.98.2/mongo-c-driver-0.98.2.tar.gz

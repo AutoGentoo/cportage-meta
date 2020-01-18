@@ -1,0 +1,8 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure prepare test
+DEPEND=  test? ( valgrind? ( dev-util/valgrind ) )  
+EAPI=5
+IUSE=test valgrind 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://gnu/cssc/CSSC-1.4.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6  dev-java/ant-core 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/hharrison/vecmath/archive/1.6.0-pre12.tar.gz -> vecmath-1.6.0_pre12.tar.gz

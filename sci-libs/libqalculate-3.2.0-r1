@@ -1,0 +1,9 @@
+137028f06553292c2fbe34041601684b
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/gmp:0=  dev-libs/libxml2:2  dev-libs/mpfr:0=  virtual/libiconv  curl? ( net-misc/curl )  icu? ( dev-libs/icu:= )  readline? ( sys-libs/readline:0= )  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=  dev-libs/gmp:0=  dev-libs/libxml2:2  dev-libs/mpfr:0=  virtual/libiconv  curl? ( net-misc/curl )  icu? ( dev-libs/icu:= )  readline? ( sys-libs/readline:0= )  gnuplot? ( >=sci-visualization/gnuplot-3.7 ) 
+EAPI=7
+IUSE=curl icu gnuplot readline static-libs 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0/22
+SRC_URI=https://github.com/Qalculate/libqalculate/releases/download/v3.2.0/libqalculate-3.2.0.tar.gz

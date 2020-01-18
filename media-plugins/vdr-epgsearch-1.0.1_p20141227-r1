@@ -1,0 +1,10 @@
+903198fdaf2138adce7947c7e333285c
+DEFINED_PHASES= compile install prepare
+DEPEND=media-video/vdr  pcre? ( dev-libs/libpcre )  tre? ( dev-libs/tre ) 
+RDEPEND=media-video/vdr  pcre? ( dev-libs/libpcre )  tre? ( dev-libs/tre ) 
+EAPI=6
+IUSE=+conflictcheckonly +epgsearchonly l10n_de pcre +quicksearch tre 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://projects.vdr-developer.org/git/vdr-plugin-epgsearch.git/snapshot/vdr-plugin-epgsearch-a908daa4c5c6edd6c560ed96939358b4352e9b42.tar.gz
+		-> vdr-epgsearch-1.0.1_p20141227.tar.gz

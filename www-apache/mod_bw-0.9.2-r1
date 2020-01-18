@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=sys-devel/libtool =www-servers/apache-2* 
+RDEPEND= =www-servers/apache-2* 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://ivn.cl/files/source/mod_bw-0.92.tgz

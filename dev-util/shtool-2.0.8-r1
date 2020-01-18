@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm hppa ia64 ppc s390 sh sparc x86
+SLOT=0
+SRC_URI=mirror://gnu/shtool/shtool-2.0.8.tar.gz

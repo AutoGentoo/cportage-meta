@@ -1,0 +1,8 @@
+69dca82a945d3ff63eb2d2b737c3fc0a
+DEFINED_PHASES= compile install prepare setup
+RDEPEND=perl? ( dev-lang/perl )  !<net-firewall/iptables-1.6.2-r2[nftables(-)]  !net-misc/ethertypes  
+EAPI=4
+IUSE=+perl static 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ebtables/ebtables-v2.0.10-4.tar.gz

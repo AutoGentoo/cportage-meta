@@ -1,0 +1,8 @@
+8adedfec1c9eaeb03a500293fb2d81d0
+DEFINED_PHASES= configure install prepare setup
+DEPEND=>=sys-apps/sed-4 
+EAPI=6
+IUSE=demo sctp 
+KEYWORDS=alpha amd64 arm64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=ftp://ftp.netperf.org/netperf/netperf-2.7.0.tar.bz2

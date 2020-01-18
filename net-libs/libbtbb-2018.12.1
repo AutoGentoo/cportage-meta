@@ -1,0 +1,10 @@
+b8324b47d7be1cf4bd88199adcdb8ad4
+DEFINED_PHASES= compile configure install prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=extras? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  wireshark-plugins? (   >=net-analyzer/wireshark-1.8.3-r1:=  )   wireshark-plugins? ( dev-libs/glib    virtual/pkgconfig ) 
+RDEPEND=extras? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  wireshark-plugins? (   >=net-analyzer/wireshark-1.8.3-r1:=  )  
+EAPI=6
+IUSE=extras static-libs wireshark-plugins 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/2018.12.1
+SRC_URI=https://github.com/greatscottgadgets/libbtbb/archive/2018-12-R1.tar.gz -> libbtbb-2018-12-R1.tar.gz

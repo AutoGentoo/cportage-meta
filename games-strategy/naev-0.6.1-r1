@@ -1,0 +1,10 @@
+ebd747736c434a6cb6bc9ec63ae23bd4
+DEFINED_PHASES= compile configure install postinst postrm preinst unpack
+DEPEND=  media-libs/libsdl2[X,sound,video]  dev-libs/libzip  dev-libs/libxml2  >=media-libs/freetype-2:2  >=media-libs/libvorbis-1.2.1  >=media-libs/libpng-1.2:0=  virtual/glu  virtual/opengl  dev-lang/lua:0  mixer? ( media-libs/sdl2-mixer )  openal? ( media-libs/openal )   app-arch/unzip  virtual/pkgconfig  
+RDEPEND=  media-libs/libsdl2[X,sound,video]  dev-libs/libzip  dev-libs/libxml2  >=media-libs/freetype-2:2  >=media-libs/libvorbis-1.2.1  >=media-libs/libpng-1.2:0=  virtual/glu  virtual/opengl  dev-lang/lua:0  mixer? ( media-libs/sdl2-mixer )  openal? ( media-libs/openal )  
+EAPI=6
+IUSE=debug +mixer +openal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/naev/naev-0.6.1.tar.bz2
+	mirror://sourceforge/naev/ndata-0.6.1.zip

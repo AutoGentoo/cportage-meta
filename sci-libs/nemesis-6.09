@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sci-libs/exodusii  sci-libs/netcdf 
+RDEPEND=  sci-libs/exodusii  sci-libs/netcdf 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~asturm/distfiles/exodus-6.09.tar.gz

@@ -1,0 +1,10 @@
+845407d8392b7c526fd1ec3030eaca0b
+DEFINED_PHASES= config configure install postinst postrm prepare setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=  ssl? ( net-libs/gnutls:0= )  test? ( sys-apps/ucspi-tcp[ipv6] sys-process/daemontools )  
+RDEPEND=  virtual/logger  virtual/shadow  ssl? ( net-libs/gnutls:0= )  !mail-mta/courier  !mail-mta/esmtp  !mail-mta/exim  !mail-mta/mini-qmail  !mail-mta/msmtp[mta(+)]  !mail-mta/netqmail  !mail-mta/opensmtpd[mta(+)]  !mail-mta/postfix  !mail-mta/qmail-ldap  !mail-mta/sendmail  !mail-mta/ssmtp[mta(+)]  
+EAPI=7
+IUSE=ssl test 
+KEYWORDS=amd64 ~arm ppc x86 ~x64-cygwin
+SLOT=0
+SRC_URI=http://untroubled.org/nullmailer/archive/nullmailer-2.2.tar.gz

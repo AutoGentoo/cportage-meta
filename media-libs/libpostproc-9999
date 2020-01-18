@@ -1,0 +1,9 @@
+0e5041e9710e148a72764e3a6ac41bf0
+DEFINED_PHASES=-
+DEPEND=  >=media-video/libav-0.8.2-r2:0=  !media-video/ffmpeg:0 
+RDEPEND=  >=media-video/libav-0.8.2-r2:0=  !media-video/ffmpeg:0 
+EAPI=5
+IUSE=pic static-libs cpu_flags_x86_3dnow altivec cpu_flags_x86_mmx cpu_flags_x86_mmxext 
+KEYWORDS=
+SLOT=0
+SRC_URI=

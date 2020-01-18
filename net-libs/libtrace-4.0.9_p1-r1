@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    >=net-libs/libpcap-0.8  dev-libs/libyaml  dev-libs/openssl:0=  net-libs/wandio  ncurses? ( sys-libs/ncurses:0= )  numa? ( sys-process/numactl )   app-doc/doxygen[dot]  sys-devel/flex  virtual/os-headers  virtual/pkgconfig  virtual/yacc  
+RDEPEND=  >=net-libs/libpcap-0.8  dev-libs/libyaml  dev-libs/openssl:0=  net-libs/wandio  ncurses? ( sys-libs/ncurses:0= )  numa? ( sys-process/numactl )  
+EAPI=7
+IUSE=doc ncurses numa static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/LibtraceTeam/libtrace/archive//4.0.9-1.tar.gz -> libtrace-4.0.9_p1.tar.gz

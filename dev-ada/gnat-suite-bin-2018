@@ -1,0 +1,8 @@
+71ac60ad0c83607040325a1022b8d6c2
+DEFINED_PHASES= install postinst prepare
+RDEPEND=  sys-devel/binutils  sys-devel/gdb 
+EAPI=7
+IUSE=
+KEYWORDS=amd64
+SLOT=2018
+SRC_URI=https://dev.gentoo.org/~tupone/distfiles/gnat-suite-bin-2018.txz

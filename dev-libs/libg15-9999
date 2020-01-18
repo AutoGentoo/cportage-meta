@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare unpack
+DEPEND==virtual/libusb-0* 
+RDEPEND==virtual/libusb-0* 
+EAPI=4
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

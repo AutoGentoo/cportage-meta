@@ -1,0 +1,9 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  >=dev-libs/nspr-4.6.4  >=dev-libs/nss-3.11.4  sys-apps/sed  virtual/pkgconfig  =www-servers/apache-2* 
+RDEPEND=  >=dev-libs/nspr-4.6.4  >=dev-libs/nss-3.11.4  net-dns/bind-tools  =www-servers/apache-2* 
+EAPI=6
+IUSE=+ecc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://releases.pagure.org/mod_nss/mod_nss-1.0.12.tar.gz

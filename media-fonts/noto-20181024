@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+RDEPEND=cjk? ( media-fonts/noto-cjk ) 
+EAPI=6
+IUSE=cjk 
+KEYWORDS=alpha amd64 arm arm64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/googlei18n/noto-fonts/archive/d7af81e614086435102cca95961b141b3530a027.tar.gz -> noto-20181024.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=ssl? (  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) ) 
+RDEPEND=ssl? (  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) ) 
+EAPI=5
+IUSE=libressl ssl 
+KEYWORDS=~amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://www.nta-monitor.com/ike-scan/download/ike-scan-1.9.tar.gz

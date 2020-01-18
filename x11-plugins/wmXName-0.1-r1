@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+RDEPEND=>=x11-libs/libXpm-3.5.7  >=x11-libs/libX11-1.1.4  >=x11-libs/libXext-1.0.3  >=dev-lang/perl-5.8.8-r5  >=www-client/lynx-2.8.6-r2 
+EAPI=7
+IUSE=
+KEYWORDS=x86
+SLOT=0
+SRC_URI=http://source.xname.org/wmXName-0.01.tgz

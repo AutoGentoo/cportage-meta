@@ -1,0 +1,10 @@
+ff7dcea2a665271023fe68d7e453f1aa
+DEFINED_PHASES= configure install setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=client? ( media-libs/alsa-lib )  flac? ( media-libs/flac )  tremor? ( media-libs/tremor )  vorbis? ( media-libs/libvorbis )  zeroconf? ( net-dns/avahi[dbus] )  >=dev-cpp/aixlog-1.2.1  >=dev-cpp/asio-1.12.1  >=dev-cpp/popl-1.2.0 
+RDEPEND=client? ( media-libs/alsa-lib )  flac? ( media-libs/flac )  tremor? ( media-libs/tremor )  vorbis? ( media-libs/libvorbis )  zeroconf? ( net-dns/avahi[dbus] ) 
+EAPI=6
+IUSE=+client +flac +server static-libs tremor +vorbis +zeroconf 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/badaix/snapcast/archive/v0.15.0.tar.gz -> snapcast-0.15.0.tar.gz

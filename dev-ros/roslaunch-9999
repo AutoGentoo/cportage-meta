@@ -1,0 +1,10 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= install preinst test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/roslib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/rospkg[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosclean[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyyaml[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosgraph_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosparam[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosmaster[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosout   test? (   dev-util/rosdep[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/nose[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-ros/test_rosmaster  ) 
+RDEPEND=  dev-ros/roslib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/rospkg[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosclean[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyyaml[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosgraph_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosparam[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosmaster[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/rosout  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

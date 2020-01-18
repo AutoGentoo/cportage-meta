@@ -1,0 +1,9 @@
+477af6cbd020ebc86cde53a647efcb3b
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=  >=dev-lang/mlton-20180207  doc? (   virtual/latex-base   app-text/texi2html  )  emacs? (   >=app-editors/emacs-23.1:*  ) 
+RDEPEND=  >=dev-lang/mlton-20180207  doc? (   virtual/latex-base   app-text/texi2html  )  emacs? (   >=app-editors/emacs-23.1:*  ) 
+EAPI=6
+IUSE=doc emacs examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0/1.7.1
+SRC_URI=http://twelf.plparty.org/releases/twelf-src-1.7.1.tar.gz

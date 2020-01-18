@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.mesa.nl/pub/mpage/mpage-2.5.6.tgz
+	https://dev.gentoo.org/~mgorny/dist/mpage-2.5.6-gentoo-patchset.tar.bz2

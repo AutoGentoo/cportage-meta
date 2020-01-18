@@ -1,0 +1,8 @@
+d711c523dd43eaf9c61057c916e98ad1
+DEFINED_PHASES= install prepare unpack
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0/7.7
+SRC_URI=https://docs.broadcom.com/docs-and-downloads/raid-controllers/raid-controllers-common-files/007.0709.0000.0000_Unified_StorCLI.zip -> storcli-7.0709.zip

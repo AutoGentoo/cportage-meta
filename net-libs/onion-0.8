@@ -1,0 +1,14 @@
+772ed44ff1cb491d451d67626c077419
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  gnutls? ( net-libs/gnutls dev-libs/libgcrypt:0= )  pam? ( sys-libs/pam )  png? ( media-libs/libpng:0= x11-libs/cairo )  jpeg? ( virtual/jpeg:0 )  xml? ( dev-libs/libxml2:2 sys-libs/zlib )  systemd? ( sys-apps/systemd )  sqlite? ( dev-db/sqlite:3 )  boehm-gc? ( dev-libs/boehm-gc )  libev? ( dev-libs/libev )  !libev? ( libevent? ( dev-libs/libevent ) )  redis? ( dev-libs/hiredis )   test? ( net-misc/curl )  
+RDEPEND=  gnutls? ( net-libs/gnutls dev-libs/libgcrypt:0= )  pam? ( sys-libs/pam )  png? ( media-libs/libpng:0= x11-libs/cairo )  jpeg? ( virtual/jpeg:0 )  xml? ( dev-libs/libxml2:2 sys-libs/zlib )  systemd? ( sys-apps/systemd )  sqlite? ( dev-db/sqlite:3 )  boehm-gc? ( dev-libs/boehm-gc )  libev? ( dev-libs/libev )  !libev? ( libevent? ( dev-libs/libevent ) )  redis? ( dev-libs/hiredis )  
+EAPI=5
+IUSE=
+	gnutls pam png jpeg xml systemd sqlite boehm-gc
+	test examples cxx -libev -libevent
+	redis
+ 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/davidmoreno/onion/archive/v0.8.tar.gz -> onion-0.8.tar.gz

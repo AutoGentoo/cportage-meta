@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=app-emacs/hexrgb  sys-apps/texinfo 
+RDEPEND=app-emacs/hexrgb 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/emacs-jabber/emacs-jabber-0.8.92.tar.xz

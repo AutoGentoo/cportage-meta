@@ -1,0 +1,10 @@
+4c7ab68332b309ce267415b51597d279
+DEFINED_PHASES= install
+DEPEND=    dev-java/commons-imaging:0  dev-java/jcalendar:1.2  dev-java/jchart2d:0  dev-java/jopt-simple:0  >=dev-java/rxtx-2.2_pre2:2  dev-java/swing-layout:1  dev-java/swingx:1.6  dev-java/swingx-ws:bt747   >=virtual/jdk-1.7  app-arch/unzip  
+RDEPEND=    dev-java/commons-imaging:0  dev-java/jcalendar:1.2  dev-java/jchart2d:0  dev-java/jopt-simple:0  >=dev-java/rxtx-2.2_pre2:2  dev-java/swing-layout:1  dev-java/swingx:1.6  dev-java/swingx-ws:bt747   dev-libs/glib:2[dbus]  >=virtual/jre-1.7  
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=1
+SRC_URI=mirror://sourceforge/bt747/Stable/BT747_2.1.7_full.zip
+	https://www.bt747.org/icon/bt747_128x128.gif -> bt747.gif

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= unpack
+DEPEND=dev-java/bcprov:1.45  dev-java/bcmail:1.45  >=virtual/jdk-1.6  app-arch/unzip 
+RDEPEND=dev-java/bcprov:1.45  dev-java/bcmail:1.45  >=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.bouncycastle.org/download/bctsp-jdk15-145.tar.gz

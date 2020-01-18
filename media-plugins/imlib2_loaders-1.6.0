@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=media-libs/imlib2-1.6.0  eet? ( dev-libs/efl[eet] ) 
+RDEPEND=>=media-libs/imlib2-1.6.0  eet? ( dev-libs/efl[eet] ) 
+EAPI=7
+IUSE=eet xcf 
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/enlightenment/imlib2_loaders-1.6.0.tar.gz

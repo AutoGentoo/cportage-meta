@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/libuv:=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+RDEPEND=  dev-libs/libuv:=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+EAPI=7
+IUSE=libressl ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/datastax/cpp-driver/archive/2.11.0.tar.gz -> cpp-driver-2.11.0.tar.gz

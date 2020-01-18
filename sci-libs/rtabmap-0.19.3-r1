@@ -1,0 +1,10 @@
+84c784140a1f4438a1491c3445273139
+DEFINED_PHASES= configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=  media-libs/opencv:=[qt5(-)?]  sci-libs/pcl:=[openni,vtk,qt5(-)?]  sci-libs/vtk:=[qt5(-)?]  sys-libs/zlib  sci-libs/octomap:=  dev-libs/boost:=  ieee1394? ( media-libs/libdc1394 )  openni2? ( dev-libs/OpenNI2 )  qt5? (   dev-qt/qtwidgets:5   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtsvg:5  )  
+RDEPEND=  media-libs/opencv:=[qt5(-)?]  sci-libs/pcl:=[openni,vtk,qt5(-)?]  sci-libs/vtk:=[qt5(-)?]  sys-libs/zlib  sci-libs/octomap:=  dev-libs/boost:=  ieee1394? ( media-libs/libdc1394 )  openni2? ( dev-libs/OpenNI2 )  qt5? (   dev-qt/qtwidgets:5   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtsvg:5  )  
+EAPI=7
+IUSE=examples ieee1394 openni2 qt5 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/introlab/rtabmap/archive/0.19.3.tar.gz -> rtabmap-0.19.3.tar.gz

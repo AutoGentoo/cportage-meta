@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install nofetch
+DEPEND=app-arch/unzip 
+RDEPEND=net-print/cups 
+EAPI=6
+IUSE=l10n_de +l10n_en l10n_es l10n_fr l10n_it l10n_pt 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=Linux_PPDs_KSL8_4.zip

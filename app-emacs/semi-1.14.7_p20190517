@@ -1,0 +1,10 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= compile install
+BDEPEND=>=app-editors/emacs-23.1:* 
+DEPEND=>=app-emacs/apel-10.8  >=app-emacs/flim-1.14.9 
+RDEPEND=>=app-emacs/apel-10.8  >=app-emacs/flim-1.14.9 
+EAPI=7
+IUSE=l10n_ja 
+KEYWORDS=alpha amd64 ~ia64 ppc ~ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/wanderlust/semi/archive/4cf114c95fb49ad75eb6916f678b45b04bad8122.tar.gz -> semi-1.14.7_p20190517.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  media-libs/freeglut  sys-libs/zlib 
+RDEPEND=  media-libs/freeglut  sys-libs/zlib  sci-biology/maq 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/maq/maqview-0.2.5.tar.gz

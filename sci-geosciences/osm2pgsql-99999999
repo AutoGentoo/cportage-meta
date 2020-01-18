@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/bzip2  dev-db/postgresql:=  dev-libs/expat  sci-libs/proj  sys-libs/zlib  lua? ( dev-lang/lua:= )   dev-libs/boost  
+RDEPEND=  app-arch/bzip2  dev-db/postgresql:=  dev-libs/expat  sci-libs/proj  sys-libs/zlib  lua? ( dev-lang/lua:= )   dev-db/postgis  
+EAPI=6
+IUSE=+lua 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/roscpp  dev-ros/rospy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-libs/boost:=  
+RDEPEND=  dev-ros/roscpp  dev-ros/rospy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ros-controls/realtime_tools/archive/1.12.0.tar.gz -> realtime_tools-1.12.0.tar.gz

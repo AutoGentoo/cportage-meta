@@ -1,0 +1,9 @@
+1dba785d3174f748fc0c347cbd618028
+DEFINED_PHASES= install postinst
+DEPEND=>=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=  dev-lang/php[gd,hash(+),mysql?,pdo,postgres?,simplexml,sqlite?,xml]  virtual/httpd-php  uploadprogress? ( dev-php/pecl-uploadprogress )  
+EAPI=6
+IUSE=+mysql postgres sqlite +uploadprogress 
+KEYWORDS=~amd64 ~x86
+SLOT=8.8.1
+SRC_URI=https://ftp.drupal.org/files/projects/drupal-8.8.1.tar.gz

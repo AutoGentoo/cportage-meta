@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=app-arch/unzip 
+DEPEND=dev-libs/elfutils  net-libs/libpcap 
+RDEPEND=dev-libs/elfutils  net-libs/libpcap 
+EAPI=7
+IUSE=ipv6 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/GNS3/dynamips/archive/v0.2.21.tar.gz -> dynamips-0.2.21.tar.gz

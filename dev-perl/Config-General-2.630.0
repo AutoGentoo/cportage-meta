@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-File-Spec  virtual/perl-IO   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-File-Spec  virtual/perl-IO  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm ~arm64 ppc ppc64 x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TL/TLINDEN/Config-General-2.63.tar.gz

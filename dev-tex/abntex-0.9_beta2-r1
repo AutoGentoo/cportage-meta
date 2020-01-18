@@ -1,0 +1,10 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install prepare
+DEPEND=dev-texlive/texlive-latex  dev-texlive/texlive-latexrecommended  lyx? ( app-office/lyx ) 
+RDEPEND=dev-texlive/texlive-latex  dev-texlive/texlive-latexrecommended  lyx? ( app-office/lyx ) 
+EAPI=6
+IUSE=doc examples lyx 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/abntex/abntex-0.9-beta2.tar.gz
+	doc? ( mirror://sourceforge/abntex/abntex-doc-0.9-beta2.tar.gz )

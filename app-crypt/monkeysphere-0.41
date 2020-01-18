@@ -1,0 +1,9 @@
+487c7b7acd86f56cfde29ced54b41505
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=app-crypt/gnupg:0=  net-misc/socat:0=  dev-perl/Crypt-OpenSSL-RSA:0=  dev-perl/Digest-SHA1:0=  app-misc/lockfile-progs:0= 
+RDEPEND=app-crypt/gnupg:0=  net-misc/socat:0=  dev-perl/Crypt-OpenSSL-RSA:0=  dev-perl/Digest-SHA1:0=  app-misc/lockfile-progs:0= 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm x86
+SLOT=0/0
+SRC_URI=mirror://debian/pool/monkeysphere/m/monkeysphere/monkeysphere_0.41.orig.tar.gz http://archive.monkeysphere.info/debian/pool/monkeysphere/m/monkeysphere/monkeysphere_0.41.orig.tar.gz

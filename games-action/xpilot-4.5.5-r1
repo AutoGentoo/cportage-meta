@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/libX11  x11-libs/libXext  app-text/rman  x11-base/xorg-proto  x11-misc/gccmakedep  x11-misc/imake 
+RDEPEND=x11-libs/libX11  x11-libs/libXext 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xpilotgame/xpilot-4.5.5.tar.bz2

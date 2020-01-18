@@ -1,0 +1,16 @@
+8e8d70e9f77dcf6ef1d6869216766d4d
+DEFINED_PHASES= install unpack
+DEPEND=>=games-engines/scummvm-0.13.1  app-arch/unzip  
+RDEPEND=>=games-engines/scummvm-0.13.1 
+EAPI=6
+IUSE=l10n_es l10n_de l10n_fr l10n_it +sound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/scummvm/drascula-1.0.zip
+	https://github.com/scummvm/scummvm/raw/v2.0.0/dists/engine-data/drascula.dat -> drascula-2.0.0.dat
+	sound? ( mirror://sourceforge/scummvm/drascula-audio-2.0.zip )
+	https://salsa.debian.org/games-team/drascula/raw/master/debian/icons/drascula.png
+	l10n_es? ( mirror://sourceforge/scummvm/drascula-int-1.1.zip )
+	l10n_de? ( mirror://sourceforge/scummvm/drascula-int-1.1.zip )
+	l10n_fr? ( mirror://sourceforge/scummvm/drascula-int-1.1.zip )
+	l10n_it? ( mirror://sourceforge/scummvm/drascula-int-1.1.zip )

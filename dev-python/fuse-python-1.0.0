@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=virtual/pkgconfig 
+DEPEND=sys-fs/fuse:0= 
+RDEPEND=sys-fs/fuse:0= 
+EAPI=7
+IUSE=python_targets_pypy3 python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/libfuse/python-fuse/archive/v1.0.0.tar.gz -> fuse-python-1.0.0.tar.gz

@@ -1,0 +1,9 @@
+ba6e5a3a4c508ad24f11ccedb4d37c0b
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=dev-db/mysql-connector-c:0=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= ) 
+RDEPEND=dev-db/mysql-connector-c:0=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= ) 
+EAPI=7
+IUSE=libressl 
+KEYWORDS=amd64 ~hppa x86
+SLOT=0
+SRC_URI=http://policyd.sourceforge.net/policyd-1.82.tar.gz

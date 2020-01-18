@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+BDEPEND=sys-apps/texinfo 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/magnars/dash.el/archive/2.16.0.tar.gz -> dash-2.16.0.tar.gz

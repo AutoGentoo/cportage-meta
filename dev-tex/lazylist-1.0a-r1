@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=virtual/latex-base  >=sys-apps/texinfo-4.2-r5 
+DEPEND=dev-texlive/texlive-publishers 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/lazylist-1.0a.tar.bz2

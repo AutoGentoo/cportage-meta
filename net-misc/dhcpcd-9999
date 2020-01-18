@@ -1,0 +1,10 @@
+2149fca966292ad4493e911ade6f07bd
+DEFINED_PHASES= configure install postinst
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=udev? ( virtual/udev ) 
+RDEPEND=udev? ( virtual/udev ) 
+EAPI=7
+IUSE=debug elibc_glibc +embedded ipv6 kernel_linux +udev 
+KEYWORDS=
+SLOT=0
+SRC_URI=

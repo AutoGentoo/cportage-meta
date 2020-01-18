@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=ssl? ( dev-libs/openssl:0= ) 
+RDEPEND=ssl? ( dev-libs/openssl:0= ) 
+EAPI=6
+IUSE=cxx +server ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/civetweb/civetweb/archive/v1.11.tar.gz -> civetweb-1.11.tar.gz

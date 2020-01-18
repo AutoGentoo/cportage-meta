@@ -1,0 +1,9 @@
+520c8e1f8fdd206f5cf906cf9069cf06
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=doc? ( virtual/texi2dvi dev-tex/latex2html app-text/texi2html )  >=sys-devel/make-3.75  libobjc2? ( gnustep-base/libobjc2   sys-devel/clang )  !libobjc2? ( !!gnustep-base/libobjc2   || (    >=sys-devel/gcc-3.3[objc]    sys-devel/clang   ) ) 
+RDEPEND=doc? ( virtual/texi2dvi dev-tex/latex2html app-text/texi2html )  >=sys-devel/make-3.75  libobjc2? ( gnustep-base/libobjc2   sys-devel/clang )  !libobjc2? ( !!gnustep-base/libobjc2   || (    >=sys-devel/gcc-3.3[objc]    sys-devel/clang   ) ) 
+EAPI=6
+IUSE=libobjc2 native-exceptions 
+KEYWORDS=~alpha ~amd64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=ftp://ftp.gnustep.org/pub/gnustep/core/gnustep-make-2.7.0.tar.gz

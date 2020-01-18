@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=app-i18n/zinnia 
+RDEPEND=app-i18n/zinnia 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/zinnia/zinnia-tomoe-0.6.0-20080911.tar.bz2

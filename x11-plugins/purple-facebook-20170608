@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-libs/json-glib   net-im/pidgin 
+RDEPEND=dev-libs/json-glib   net-im/pidgin 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/dequis/purple-facebook/releases/download/v0.9.4-c9b74a765767/purple-facebook-0.9.4-c9b74a765767.tar.gz -> purple-facebook-20170608.tar.gz

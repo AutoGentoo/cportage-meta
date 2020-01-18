@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=media-libs/jbigkit-2.0-r1:=  >=net-print/cups-1.6  sys-libs/zlib:= 
+RDEPEND=>=media-libs/jbigkit-2.0-r1:=  >=net-print/cups-1.6  sys-libs/zlib:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cupsdriverkodak/files/c2esp-27.tar.gz

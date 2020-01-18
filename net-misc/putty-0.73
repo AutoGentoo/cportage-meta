@@ -1,0 +1,13 @@
+8899393110bc2726ba40ccade44abe75
+DEFINED_PHASES= compile configure install postinst postrm prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    !net-misc/pssh  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf   x11-libs/libX11   x11-libs/pango   gtk2? ( x11-libs/gtk+:2 )   !gtk2? ( x11-libs/gtk+:3[X] )  )  gssapi? ( virtual/krb5 )   dev-lang/perl  virtual/pkgconfig  
+RDEPEND=  !net-misc/pssh  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf   x11-libs/libX11   x11-libs/pango   gtk2? ( x11-libs/gtk+:2 )   !gtk2? ( x11-libs/gtk+:3[X] )  )  gssapi? ( virtual/krb5 )  
+EAPI=7
+IUSE=doc +gtk gtk2 ipv6 gssapi 
+KEYWORDS=~alpha amd64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~jer/putty-icons.tar.bz2
+	https://the.earth.li/~sgtatham/putty/latest/putty-0.73.tar.gz
+

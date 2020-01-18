@@ -1,0 +1,8 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= install prepare
+DEPEND=  sys-devel/bison  sys-devel/flex  
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+8d96273771dd7ebf406e2cfc85668615
+DEFINED_PHASES= compile configure install prepare
+DEPEND=dev-db/sqlite:3  media-libs/libpng:0  x11-libs/cairo[X?]  x11-libs/pango[X?]  virtual/libffi  virtual/jpeg:0  readline? ( dev-libs/libedit )  X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex 
+RDEPEND=dev-db/sqlite:3  media-libs/libpng:0  x11-libs/cairo[X?]  x11-libs/pango[X?]  virtual/libffi  virtual/jpeg:0  readline? ( dev-libs/libedit )  X? ( x11-libs/gtk+[X?] ) !dev-tex/slatex 
+EAPI=7
+IUSE=doc +futures +jit minimal +places +readline +threads +X 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=minimal? ( https://download.racket-lang.org/installers/7.2/racket-minimal-7.2-src-builtpkgs.tgz ) !minimal? ( https://download.racket-lang.org/installers/7.2/racket-7.2-src-builtpkgs.tgz )

@@ -1,0 +1,12 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure install postinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/bzip2  lzma? ( app-arch/xz-utils )  dev-libs/tinyxml  media-libs/freetype:2  media-libs/portaudio  net-misc/curl  sys-libs/zlib  opengl? ( virtual/opengl )  x11-libs/gtk+:2  x11-libs/wxGTK:3.0[X]  !sci-geosciences/opencpn-plugin-wmm   sys-devel/gettext 
+RDEPEND=  app-arch/bzip2  lzma? ( app-arch/xz-utils )  dev-libs/tinyxml  media-libs/freetype:2  media-libs/portaudio  net-misc/curl  sys-libs/zlib  opengl? ( virtual/opengl )  x11-libs/gtk+:2  x11-libs/wxGTK:3.0[X]  !sci-geosciences/opencpn-plugin-wmm  
+EAPI=6
+IUSE=doc lzma opengl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/OpenCPN/OpenCPN/archive/v4.8.8.tar.gz -> opencpn-4.8.8.tar.gz
+doc? ( https://launchpad.net/~opencpn/+archive/ubuntu/opencpn/+files/opencpn-doc_4.8.2.0.orig.tar.xz )
+

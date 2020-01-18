@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install setup
+BDEPEND=virtual/pkgconfig 
+RDEPEND=media-fonts/dejavu  media-libs/freetype  !dev-util/jenkins-bin:lts  >=virtual/jre-1.8.0 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=http://mirrors.jenkins-ci.org/war/2.205/jenkins.war -> jenkins-bin-2.205.war

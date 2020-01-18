@@ -1,0 +1,10 @@
+088e47b3169f9472caf208c6840bae03
+DEFINED_PHASES= configure
+BDEPEND=  virtual/pkgconfig  nls? ( sys-devel/gettext )  
+DEPEND=  gtk? ( x11-libs/gtk+:2 )  plasma? (    >=kde-frameworks/frameworkintegration-5.60.0    >=kde-frameworks/karchive-5.60.0    >=kde-frameworks/kcompletion-5.60.0    >=kde-frameworks/kconfig-5.60.0    >=kde-frameworks/kconfigwidgets-5.60.0    >=kde-frameworks/kcoreaddons-5.60.0    >=kde-frameworks/kdelibs4support-5.60.0    >=kde-frameworks/kguiaddons-5.60.0    >=kde-frameworks/ki18n-5.60.0    >=kde-frameworks/kiconthemes-5.60.0    >=kde-frameworks/kio-5.60.0    >=kde-frameworks/kwidgetsaddons-5.60.0    >=kde-frameworks/kwindowsystem-5.60.0    >=kde-frameworks/kxmlgui-5.60.0    >=dev-qt/qtprintsupport-5.12.3:5  )  qt5? (    >=dev-qt/qtdbus-5.12.3:5    >=dev-qt/qtgui-5.12.3:5    >=dev-qt/qtsvg-5.12.3:5    >=dev-qt/qtwidgets-5.12.3:5   X? (  >=dev-qt/qtx11extras-5.12.3:5 )  )  X? (   x11-libs/libX11   x11-libs/libxcb  )  
+RDEPEND=  gtk? ( x11-libs/gtk+:2 )  plasma? (    >=kde-frameworks/frameworkintegration-5.60.0    >=kde-frameworks/karchive-5.60.0    >=kde-frameworks/kcompletion-5.60.0    >=kde-frameworks/kconfig-5.60.0    >=kde-frameworks/kconfigwidgets-5.60.0    >=kde-frameworks/kcoreaddons-5.60.0    >=kde-frameworks/kdelibs4support-5.60.0    >=kde-frameworks/kguiaddons-5.60.0    >=kde-frameworks/ki18n-5.60.0    >=kde-frameworks/kiconthemes-5.60.0    >=kde-frameworks/kio-5.60.0    >=kde-frameworks/kwidgetsaddons-5.60.0    >=kde-frameworks/kwindowsystem-5.60.0    >=kde-frameworks/kxmlgui-5.60.0    >=dev-qt/qtprintsupport-5.12.3:5  )  qt5? (    >=dev-qt/qtdbus-5.12.3:5    >=dev-qt/qtgui-5.12.3:5    >=dev-qt/qtsvg-5.12.3:5    >=dev-qt/qtwidgets-5.12.3:5   X? (  >=dev-qt/qtx11extras-5.12.3:5 )  )  X? (   x11-libs/libX11   x11-libs/libxcb  )  
+EAPI=7
+IUSE=+X gtk nls plasma +qt5 test 
+KEYWORDS=~alpha amd64 ~hppa ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://github.com/KDE/qtcurve/archive/1.9.0.tar.gz -> qtcurve-1.9.0.tar.gz

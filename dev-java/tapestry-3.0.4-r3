@@ -1,0 +1,9 @@
+c8e14e07cef521448cb77529a58e8a26
+DEFINED_PHASES= compile install prepare
+DEPEND=    dev-java/bsf:2.3  dev-java/commons-beanutils:1.7  dev-java/commons-codec:0  dev-java/commons-digester:0  dev-java/commons-fileupload:0  dev-java/commons-lang:2.1  dev-java/commons-logging:0  dev-java/jakarta-oro:2.0  dev-java/javassist:2  dev-java/ognl:3.0  dev-java/tomcat-servlet-api:2.4   >=virtual/jdk-1.4  
+RDEPEND=    dev-java/bsf:2.3  dev-java/commons-beanutils:1.7  dev-java/commons-codec:0  dev-java/commons-digester:0  dev-java/commons-fileupload:0  dev-java/commons-lang:2.1  dev-java/commons-logging:0  dev-java/jakarta-oro:2.0  dev-java/javassist:2  dev-java/ognl:3.0  dev-java/tomcat-servlet-api:2.4   >=virtual/jre-1.4  
+EAPI=6
+IUSE=doc source 
+KEYWORDS=amd64 x86
+SLOT=3.0
+SRC_URI=mirror://apache/tapestry/Tapestry-3.0.4-src.zip

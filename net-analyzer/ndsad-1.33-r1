@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=net-libs/libpcap-0.8 
+RDEPEND=>=net-libs/libpcap-0.8 
+EAPI=5
+IUSE=
+KEYWORDS=x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ndsad/ndsad-1.33.tgz

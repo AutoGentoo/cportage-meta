@@ -1,0 +1,9 @@
+a4a5c670105aca5569f767e75cbb0765
+DEFINED_PHASES=-
+DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( doc? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( test? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ) test? ( ruby_targets_ruby24? ( >=dev-ruby/railties-4.2.6:4.2[ruby_targets_ruby24] >=dev-ruby/activesupport-4.2.6:4.2[ruby_targets_ruby24] >=dev-ruby/activemodel-4.2.6:4.2[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( dev-ruby/bundler[ruby_targets_ruby24] ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) !dev-ruby/metasploit-model:0 ruby_targets_ruby24? ( >=dev-ruby/railties-4.2.6:4.2[ruby_targets_ruby24] >=dev-ruby/activesupport-4.2.6:4.2[ruby_targets_ruby24] >=dev-ruby/activemodel-4.2.6:4.2[ruby_targets_ruby24] ) 
+EAPI=6
+IUSE= test 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=2.0
+SRC_URI=https://rubygems.org/gems/metasploit-model-2.0.4.gem

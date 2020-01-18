@@ -1,0 +1,9 @@
+e9d9dd9e06b32a3e7c9e2a529de8a617
+DEFINED_PHASES= install postinst preinst
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=!<=sys-kernel/raspberrypi-image-4.19.57_p20190709 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

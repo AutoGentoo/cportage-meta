@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  net-libs/liquid-dsp  x11-libs/wxGTK:3.0-gtk3[opengl]  net-wireless/soapysdr  virtual/opengl  alsa? ( media-libs/alsa-lib )  pulseaudio? ( media-sound/pulseaudio )  
+RDEPEND=  net-libs/liquid-dsp  x11-libs/wxGTK:3.0-gtk3[opengl]  net-wireless/soapysdr  virtual/opengl  alsa? ( media-libs/alsa-lib )  pulseaudio? ( media-sound/pulseaudio )  
+EAPI=6
+IUSE=alsa pulseaudio 
+KEYWORDS=
+SLOT=0
+SRC_URI=

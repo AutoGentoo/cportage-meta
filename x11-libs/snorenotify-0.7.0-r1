@@ -1,0 +1,10 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= configure prepare
+BDEPEND=  dev-qt/linguist-tools:5  
+DEPEND=  dev-qt/qtdbus:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwebsockets:5  dev-qt/qtwidgets:5  sound? ( dev-qt/qtmultimedia:5 )   test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-qt/qtdbus:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwebsockets:5  dev-qt/qtwidgets:5  sound? ( dev-qt/qtmultimedia:5 )  
+EAPI=7
+IUSE=sound test 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=mirror://kde/stable/snorenotify/0.7.0/src/snorenotify-0.7.0.tar.xz

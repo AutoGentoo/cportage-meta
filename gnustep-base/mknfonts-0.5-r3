@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=gnustep-base/gnustep-gui  >=media-libs/freetype-2.1  virtual/pkgconfig 
+RDEPEND=gnustep-base/gnustep-gui  >=media-libs/freetype-2.1 
+EAPI=7
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0
+SRC_URI=mirror://debian/pool/main/m/mknfonts.tool/mknfonts.tool_0.5.orig.tar.gz

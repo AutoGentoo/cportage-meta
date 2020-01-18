@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  media-video/mplayer  media-video/mjpegtools[png]  media-video/dvdauthor  virtual/imagemagick-tools  libav? ( media-video/libav )  !libav? ( media-video/ffmpeg:0 )  
+RDEPEND=  media-video/mplayer  media-video/mjpegtools[png]  media-video/dvdauthor  virtual/imagemagick-tools  libav? ( media-video/libav )  !libav? ( media-video/ffmpeg:0 )   www-client/lynx  app-shells/bash  sys-devel/bc  
+EAPI=5
+IUSE=libav 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/videotrans/videotrans-1.6.1.tar.bz2

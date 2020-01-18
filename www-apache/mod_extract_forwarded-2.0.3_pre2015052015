@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND= =www-servers/apache-2.4* 
+RDEPEND=mod-proxy? ( www-servers/apache[apache2_modules_proxy_connect] ) =www-servers/apache-2.4* 
+EAPI=5
+IUSE=mod-proxy 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~pacho/maintainer-needed/mod_extract_forwarded-2.0.3_pre2015052015.tar.xz

@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/contravariant-0.2.0.1:=[profile?] <dev-haskell/contravariant-1:=[profile?]  >=dev-haskell/distributive-0.2.2:=[profile?] <dev-haskell/distributive-1:=[profile?]  >=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.2:=[profile?]  >=dev-haskell/semigroups-0.8.3.1:=[profile?] <dev-haskell/semigroups-1:=[profile?]  >=dev-haskell/tagged-0.1:=[profile?] <dev-haskell/tagged-1:=[profile?]  >=dev-haskell/transformers-0.2:=[profile?] <dev-haskell/transformers-0.4:=[profile?]  >=dev-lang/ghc-6.12.1:=   >=dev-haskell/cabal-1.10  test? ( test-doctests? ( >=dev-haskell/doctest-0.9.1 ) )  
+RDEPEND=>=dev-haskell/contravariant-0.2.0.1:=[profile?] <dev-haskell/contravariant-1:=[profile?]  >=dev-haskell/distributive-0.2.2:=[profile?] <dev-haskell/distributive-1:=[profile?]  >=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.2:=[profile?]  >=dev-haskell/semigroups-0.8.3.1:=[profile?] <dev-haskell/semigroups-1:=[profile?]  >=dev-haskell/tagged-0.1:=[profile?] <dev-haskell/tagged-1:=[profile?]  >=dev-haskell/transformers-0.2:=[profile?] <dev-haskell/transformers-0.4:=[profile?]  >=dev-lang/ghc-6.12.1:=  
+EAPI=5
+IUSE=+test-doctests 
+KEYWORDS=~amd64 ~x86
+SLOT=0/4.0
+SRC_URI=https://hackage.haskell.org/package/comonad-4.0/comonad-4.0.tar.gz

@@ -1,0 +1,9 @@
+137028f06553292c2fbe34041601684b
+DEFINED_PHASES= compile install prepare setup
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=6
+IUSE=examples 
+KEYWORDS=
+SLOT=0
+SRC_URI=

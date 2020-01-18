@@ -1,0 +1,8 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= install prepare
+DEPEND=>=sys-apps/sed-4 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ia64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/portfwd/portfwd-0.29.tar.gz

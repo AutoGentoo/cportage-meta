@@ -1,0 +1,10 @@
+7c2628d1b12814d61b1e50c06768b45a
+DEFINED_PHASES= install prepare
+DEPEND=media-video/vdr 
+RDEPEND=>=media-tv/gentoo-vdr-scripts-0.4.2  >=app-eselect/eselect-vdr-0.0.2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://projects.vdr-developer.org/git/vdr-plugin-extrecmenu.git/snapshot/vdr-plugin-extrecmenu-77d10faec3c7b0abe25ba3b161dc3b4e2cad042b.tar.gz -> vdr-extrecmenu-1.2.4-r1.tar.gz
+	mirror://gentoo/dvdarchive-2.3-beta.sh.gz

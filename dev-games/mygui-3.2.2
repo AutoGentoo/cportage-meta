@@ -1,0 +1,10 @@
+285f17138cb7b46e2861d1e4a4313eb3
+DEFINED_PHASES= compile configure install postinst setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/freetype:2  ogre? (   dev-games/ogre:=[freeimage,opengl]   samples? ( dev-games/ois )  )  opengl? ( virtual/opengl   media-libs/glew )  tools? ( dev-games/ois )  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=  media-libs/freetype:2  ogre? (   dev-games/ogre:=[freeimage,opengl]   samples? ( dev-games/ois )  )  opengl? ( virtual/opengl   media-libs/glew )  tools? ( dev-games/ois ) 
+EAPI=5
+IUSE=debug doc +ogre -opengl plugins samples static-libs test tools l10n_ru 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/MyGUI/mygui/archive/MyGUI3.2.2.tar.gz

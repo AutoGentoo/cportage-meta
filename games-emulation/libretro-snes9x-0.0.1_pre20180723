@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+EAPI=7
+IUSE=debug 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/libretro/snes9x/archive/d2aefd2f73d9f9241ede79c19598ecaa7079f82a.tar.gz -> libretro-snes9x-0.0.1_pre20180723.tar.gz

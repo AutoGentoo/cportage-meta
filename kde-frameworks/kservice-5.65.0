@@ -1,0 +1,10 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= configure install
+BDEPEND=  sys-devel/bison  sys-devel/flex  man? ( >=kde-frameworks/kdoctools-5.65:5 )  
+DEPEND=  >=kde-frameworks/kconfig-5.65:5  >=kde-frameworks/kcoreaddons-5.65:5  >=kde-frameworks/kcrash-5.65:5  >=kde-frameworks/kdbusaddons-5.65:5  >=kde-frameworks/ki18n-5.65:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtxml-5.12.3:5   test? ( >=dev-qt/qtconcurrent-5.12.3:5 )  
+RDEPEND=  >=kde-frameworks/kconfig-5.65:5  >=kde-frameworks/kcoreaddons-5.65:5  >=kde-frameworks/kcrash-5.65:5  >=kde-frameworks/kdbusaddons-5.65:5  >=kde-frameworks/ki18n-5.65:5  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  
+EAPI=7
+IUSE=+man 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=5/5.65
+SRC_URI=mirror://kde/stable/frameworks/5.65/kservice-5.65.0.tar.xz

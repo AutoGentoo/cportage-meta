@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=!<dev-cpp/catch-1.12.2:0 
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=1
+SRC_URI=

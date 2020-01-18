@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=media-libs/libogg-1.0 
+RDEPEND=>=media-libs/libogg-1.0 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/pyogg-1.3-r1.tar.gz

@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure postinst postrm prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND= sys-devel/make >=dev-util/cmake-3.9.6  dev-cpp/eigen:3  test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  >=sci-libs/avogadrolibs-1.90.0_p20180211[qt5,vtk?]  sci-libs/hdf5:=  rpc? ( sci-chemistry/molequeue )  
+EAPI=6
+IUSE=doc rpc test vtk 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/OpenChemistry/avogadroapp/archive/d5e1f827be7e9d1cc6755fd68a2b42b0b1d2ec32.tar.gz -> avogadro2-1.90.0_p20180211.tar.gz

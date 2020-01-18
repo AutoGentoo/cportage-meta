@@ -1,0 +1,10 @@
+64b288dc36f19842c909a584eade2319
+DEFINED_PHASES= configure
+BDEPEND=virtual/pkgconfig 
+DEPEND=  ~media-libs/x264-9999[interlaced=,threads=]  ffmpeg? (   !libav? ( media-video/ffmpeg:= )   libav? ( media-video/libav:= )  )  ffmpegsource? ( media-libs/ffmpegsource )  mp4? ( >=media-video/gpac-0.5.2:= )  amd64? ( >=dev-lang/nasm-2.13 )  x86? ( >=dev-lang/nasm-2.13 )  x86-fbsd? ( >=dev-lang/nasm-2.13 ) 
+RDEPEND=  ~media-libs/x264-9999[interlaced=,threads=]  ffmpeg? (   !libav? ( media-video/ffmpeg:= )   libav? ( media-video/libav:= )  )  ffmpegsource? ( media-libs/ffmpegsource )  mp4? ( >=media-video/gpac-0.5.2:= ) 
+EAPI=7
+IUSE=avs custom-cflags ffmpeg ffmpegsource +interlaced libav mp4 +threads 
+KEYWORDS=
+SLOT=0
+SRC_URI=

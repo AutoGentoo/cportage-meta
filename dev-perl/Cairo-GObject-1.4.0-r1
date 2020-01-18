@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  x11-libs/cairo[glib]  >=dev-perl/glib-perl-1.224.0  >=dev-perl/Cairo-1.80.0   virtual/perl-ExtUtils-MakeMaker  >=dev-perl/ExtUtils-Depends-0.200.0  >=dev-perl/ExtUtils-PkgConfig-1.0.0  
+RDEPEND=  x11-libs/cairo[glib]  >=dev-perl/glib-perl-1.224.0  >=dev-perl/Cairo-1.80.0  
+EAPI=6
+IUSE= examples 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/X/XA/XAOC/Cairo-GObject-1.004.tar.gz

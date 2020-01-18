@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=    net-libs/libpcap   =net-libs/libnet-1.0*  
+RDEPEND=  net-libs/libpcap  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/nemesis/nemesis-1.4.tar.gz

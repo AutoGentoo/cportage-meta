@@ -1,0 +1,9 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  exif? ( media-libs/libexif )  gif? ( media-libs/giflib:0= )  media-libs/imlib2[X,gif?,jpeg?,png?]  x11-libs/libX11  x11-libs/libXft  
+RDEPEND=  exif? ( media-libs/libexif )  gif? ( media-libs/giflib:0= )  media-libs/imlib2[X,gif?,jpeg?,png?]  x11-libs/libX11  x11-libs/libXft  
+EAPI=6
+IUSE=exif gif +jpeg +png 
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/muennich/sxiv/archive/v25.tar.gz -> sxiv-25.tar.gz

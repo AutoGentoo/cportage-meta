@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/constant-boolean  >=dev-perl/Exception-Base-0.210.0  dev-perl/Module-Build  test? ( virtual/perl-parent   >=dev-perl/Test-Unit-Lite-0.110.0   >=dev-perl/Test-Assert-0.50.0  ) 
+RDEPEND=  dev-perl/constant-boolean  >=dev-perl/Exception-Base-0.210.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DE/DEXTER/Exception-Died-0.06.tar.gz

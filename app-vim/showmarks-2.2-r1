@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+RDEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/showmarks-2.2.tar.bz2
+		https://dev.gentoo.org/~radhermit/vim/showmarks-2.2.tar.bz2

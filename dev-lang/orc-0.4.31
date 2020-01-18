@@ -1,0 +1,8 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES=-
+BDEPEND=>=dev-util/meson-0.48.2  >=dev-util/ninja-1.7.2 
+EAPI=7
+IUSE=static-libs test 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://gstreamer.freedesktop.org/src/orc/orc-0.4.31.tar.xz

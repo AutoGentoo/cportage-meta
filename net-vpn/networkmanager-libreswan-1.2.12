@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  >=dev-libs/glib-2.32:2  >=dev-libs/libnl-3.2.8:3  >=net-misc/networkmanager-1.2.0:=  net-vpn/libreswan  gtk? (   app-crypt/libsecret   >=gnome-extra/nm-applet-1.2.0   >=x11-libs/gtk+-3.4:3  )  !net-misc/networkmanager-openswan   sys-devel/gettext  dev-util/intltool  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.32:2  >=dev-libs/libnl-3.2.8:3  >=net-misc/networkmanager-1.2.0:=  net-vpn/libreswan  gtk? (   app-crypt/libsecret   >=gnome-extra/nm-applet-1.2.0   >=x11-libs/gtk+-3.4:3  )  !net-misc/networkmanager-openswan  
+EAPI=6
+IUSE=gtk 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/NetworkManager-libreswan/1.2/NetworkManager-libreswan-1.2.12.tar.xz

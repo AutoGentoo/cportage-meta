@@ -1,0 +1,10 @@
+89ecd308464ffacecf5bf6689b971f8d
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  virtual/lapack  virtual/mpi  virtual/pkgconfig 
+RDEPEND=  virtual/lapack  virtual/mpi 
+EAPI=6
+IUSE=static-libs test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://www.netlib.org/scalapack//scalapack-2.0.2.tgz

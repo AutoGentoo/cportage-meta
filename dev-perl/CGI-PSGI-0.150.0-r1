@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=dev-perl/CGI-3.330.0   test? (   >=virtual/perl-Test-Simple-0.88  )  
+RDEPEND=  >=dev-perl/CGI-3.330.0  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/CGI-PSGI-0.15.tar.gz

@@ -1,0 +1,10 @@
+f0a303681272ca22b94407c99d4bef0b
+DEFINED_PHASES= config postinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-db/unixODBC[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  <dev-db/mysql-connector-c-8.0:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  !>=dev-db/mariadb-10.2.0[client-libs(+)]  !dev-db/mariadb-connector-c[mysqlcompat(-)]  
+RDEPEND=  dev-db/unixODBC[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  <dev-db/mysql-connector-c-8.0:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  !>=dev-db/mariadb-10.2.0[client-libs(+)]  !dev-db/mariadb-connector-c[mysqlcompat(-)]  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=5.3
+SRC_URI=https://dev.mysql.com/get/Downloads/Connector-ODBC/5.3/mysql-connector-odbc-5.3.10-src.tar.gz

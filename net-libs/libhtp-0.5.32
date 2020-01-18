@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=sys-libs/zlib[static-libs?] 
+RDEPEND=sys-libs/zlib[static-libs?] 
+EAPI=7
+IUSE=debug static-libs 
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~x86
+SLOT=0
+SRC_URI=https://github.com/OISF/libhtp/archive/0.5.32.tar.gz -> libhtp-0.5.32.tar.gz

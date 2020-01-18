@@ -1,0 +1,10 @@
+5ee7eb4fe32cabb83675db7b509ddbaa
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+DEPEND=  >=media-libs/libgig-4.2.0  media-libs/libsndfile[-minimal]  alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack )  lv2? ( media-libs/lv2 )  sqlite? ( >=dev-db/sqlite-3.3 )   media-libs/dssi  media-libs/ladspa-sdk  
+RDEPEND=  >=media-libs/libgig-4.2.0  media-libs/libsndfile[-minimal]  alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack )  lv2? ( media-libs/lv2 )  sqlite? ( >=dev-db/sqlite-3.3 )  
+EAPI=7
+IUSE=alsa doc jack lv2 sf2 sqlite 
+KEYWORDS=
+SLOT=0
+SRC_URI=

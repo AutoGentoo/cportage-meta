@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=sci-visualization/opendx-4.4.4-r2 
+RDEPEND=>=sci-visualization/opendx-4.4.4-r2 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://opendx.sdsc.edu/source/dxsamples-4.4.0.tar.gz
+	mirror://gentoo/opendx-samples-4.4.0-install.patch.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=dev-haskell/binary:=[profile?]   dev-haskell/extensible-exceptions:=[profile?]   >=dev-haskell/haxml-1.22:=[profile?]   <dev-haskell/haxml-1.25:=[profile?]   dev-haskell/mtl:=[profile?]   dev-haskell/regex-compat:=[profile?]   >=dev-lang/ghc-6.10.4:=   >=dev-haskell/cabal-1.6 
+RDEPEND=dev-haskell/binary:=[profile?]   dev-haskell/extensible-exceptions:=[profile?]   >=dev-haskell/haxml-1.22:=[profile?]   <dev-haskell/haxml-1.25:=[profile?]   dev-haskell/mtl:=[profile?]   dev-haskell/regex-compat:=[profile?]   >=dev-lang/ghc-6.10.4:= 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0/0.6.7.2
+SRC_URI=https://hackage.haskell.org/package/encoding-0.6.7.2/encoding-0.6.7.2.tar.gz

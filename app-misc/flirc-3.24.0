@@ -1,0 +1,12 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= install
+BDEPEND=virtual/pkgconfig 
+RDEPEND=virtual/libusb:1  dev-libs/hidapi  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtnetwork:5   dev-qt/qtsvg:5   dev-qt/qtwidgets:5   dev-qt/qtxml:5   dev-qt/qtxmlpatterns:5  ) 
+EAPI=7
+IUSE=+qt5 
+KEYWORDS=-* ~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=
+	amd64? ( https://apt.fury.io/flirc/flirc-3.24.0-amd64 -> flirc-3.24.0_amd64.deb )
+	arm? ( https://apt.fury.io/flirc/flirc-3.24.0-armhf -> flirc-3.24.0_arm.deb )
+	x86? ( https://apt.fury.io/flirc/flirc-3.24.0-i386  -> flirc-3.24.0_x86.deb )

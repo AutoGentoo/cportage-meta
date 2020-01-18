@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= configure prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  doc? ( app-doc/doxygen )  test? (   dev-cpp/gtest   dev-util/valgrind  ) 
+EAPI=7
+IUSE=doc examples test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

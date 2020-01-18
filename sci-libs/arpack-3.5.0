@@ -1,0 +1,14 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[fortran] )  virtual/pkgconfig 
+RDEPEND=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi[fortran] ) 
+EAPI=7
+IUSE=doc examples mpi 
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=
+	https://github.com/opencollab/arpack-ng/archive/3.5.0.tar.gz -> arpack-3.5.0.tar.gz
+	doc? (
+		http://www.caam.rice.edu/software/ARPACK/SRC/ug.ps.gz
+		http://www.caam.rice.edu/software/ARPACK/DOCS/tutorial.ps.gz )

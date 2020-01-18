@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Exporter   >=virtual/perl-ExtUtils-MakeMaker-6.640.0  virtual/perl-File-Spec  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  virtual/perl-Exporter  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BD/BDFOY/Business-ISSN-1.003.tar.gz

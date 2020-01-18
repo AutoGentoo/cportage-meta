@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Class-Accessor-Lite  virtual/perl-Scalar-List-Utils  virtual/perl-parent   dev-perl/Module-Build  test? ( >=virtual/perl-Test-Simple-0.980.0 )  
+RDEPEND=  dev-perl/Class-Accessor-Lite  virtual/perl-Scalar-List-Utils  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TOKUHIROM/Router-Simple-0.17.tar.gz

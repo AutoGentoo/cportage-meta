@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= configure prepare
+DEPEND=>=dev-libs/redland-1.0.6  jack? ( virtual/jack )  media-libs/lv2  || ( >=dev-lang/python-2.7.5-r2:2.7[threads(+)] )  virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+RDEPEND=>=dev-libs/redland-1.0.6  jack? ( virtual/jack )  media-libs/lv2 
+EAPI=5
+IUSE=doc jack 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://download.drobilla.net/slv2-0.6.6.tar.bz2

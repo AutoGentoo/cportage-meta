@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=net-im/pidgin[gtk]  app-text/mathtex  nls? ( virtual/libintl )  virtual/pkgconfig 
+RDEPEND=net-im/pidgin[gtk]  app-text/mathtex  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/Micket/pidgintex/archive/a8f618cf1bf92279b43c7b737010fd7e42c8e5d3.tar.gz -> pidgintex-1.1.2_p20170107.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test unpack
+DEPEND=>=dev-lang/go-1.10 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/bitrise-io/envman/archive/1.2.0.tar.gz -> envman-1.2.0.tar.gz

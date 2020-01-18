@@ -1,0 +1,10 @@
+9846af45cb0ece38394258cf75118491
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=cuda? ( dev-util/nvidia-cuda-toolkit )  hwloc? ( sys-apps/hwloc )  opencl? ( virtual/opencl )  ssl? ( dev-libs/openssl:0= )  webserver? ( net-libs/libmicrohttpd ) 
+RDEPEND=cuda? ( dev-util/nvidia-cuda-toolkit )  hwloc? ( sys-apps/hwloc )  opencl? ( virtual/opencl )  ssl? ( dev-libs/openssl:0= )  webserver? ( net-libs/libmicrohttpd ) 
+EAPI=7
+IUSE=cuda devfee hwloc opencl ssl webserver 
+KEYWORDS=
+SLOT=0
+SRC_URI=

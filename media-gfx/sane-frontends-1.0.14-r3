@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install
+DEPEND=  media-gfx/sane-backends  gimp? ( media-gfx/gimp:2 )  gtk? (   dev-libs/glib:2   x11-libs/gtk+:2  )  
+RDEPEND=  media-gfx/sane-backends  gimp? ( media-gfx/gimp:2 )  gtk? (   dev-libs/glib:2   x11-libs/gtk+:2  )  
+EAPI=6
+IUSE=gimp gtk 
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://alioth.debian.org/frs/download.php/file/1140/sane-frontends-1.0.14.tar.gz

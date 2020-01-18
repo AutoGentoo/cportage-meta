@@ -1,0 +1,9 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= configure install prepare
+DEPEND=sys-libs/ncurses:0 
+RDEPEND=  media-fonts/unifont  media-fonts/font-misc-misc  media-fonts/intlfonts 
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/jfbterm/13501/jfbterm-0.4.7.tar.gz

@@ -1,0 +1,9 @@
+4f712250dd7afbda7a3cb1adca494012
+DEFINED_PHASES= prepare test
+DEPEND=virtual/perl-Digest-MD5  dev-perl/Cache-Cache  dev-perl/GD  elibc_glibc? ( net-libs/libtirpc net-libs/rpcsvc-proto )  
+RDEPEND=virtual/perl-Digest-MD5  dev-perl/Cache-Cache  dev-perl/GD  elibc_glibc? ( net-libs/libtirpc net-libs/rpcsvc-proto )  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LD/LDS/AcePerl-1.92.tar.gz

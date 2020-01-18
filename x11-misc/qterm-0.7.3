@@ -1,0 +1,10 @@
+8f95e84971f9800b8c24d2b6ebd90f7b
+DEFINED_PHASES= configure postinst postrm prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtscript:5[scripttools]  dev-qt/qtwidgets:5  dev-qt/qtxml:5  x11-libs/libX11  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= )  dev-qt/linguist-tools:5  dev-qt/qthelp:5  x11-base/xorg-proto 
+RDEPEND=dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtscript:5[scripttools]  dev-qt/qtwidgets:5  dev-qt/qtxml:5  x11-libs/libX11  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= ) 
+EAPI=6
+IUSE=libressl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/qterm/qterm/archive/0.7.3.tar.gz -> qterm-0.7.3.tar.gz

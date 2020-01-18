@@ -1,0 +1,9 @@
+1a372cbd86143d43a0263cf347c4c557
+DEFINED_PHASES=-
+DEPEND=ncurses? ( dev-python/urwid[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  gtk? (   dev-python/pygobject:3[python_targets_python3_6(-)?,-python_single_target_python3_6(-),cairo]   dev-python/pycairo[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  qt5? (   dev-python/PyQt5[python_targets_python3_6(-)?,-python_single_target_python3_6(-),gui,widgets]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+RDEPEND=sys-process/lsof  inotify? ( dev-python/pyinotify )  ncurses? ( dev-python/urwid[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  gtk? (   dev-python/pygobject:3[python_targets_python3_6(-)?,-python_single_target_python3_6(-),cairo]   dev-python/pycairo[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  qt5? (   dev-python/PyQt5[python_targets_python3_6(-)?,-python_single_target_python3_6(-),gui,widgets]   dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+EAPI=6
+IUSE=+ncurses cli gtk inotify qt5 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/z411/trackma/archive/v0.7.4.tar.gz -> trackma-0.7.4.tar.gz

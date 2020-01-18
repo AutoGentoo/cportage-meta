@@ -1,0 +1,11 @@
+2ff695a27d8d30505ef653408e45aa55
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-games/ois  dev-libs/boost:=  dev-libs/zziplib  media-libs/freetype:2  x11-libs/libX11  x11-libs/libXaw  x11-libs/libXrandr  x11-libs/libXt  cg? ( media-gfx/nvidia-cg-toolkit )  egl? ( media-libs/mesa[egl] )  freeimage? ( media-libs/freeimage )  gles2? ( media-libs/mesa[gles2] )  opengl? (   virtual/glu   virtual/opengl  )  tools? ( dev-libs/tinyxml[stl] )   virtual/pkgconfig  x11-base/xorg-proto  doc? ( app-doc/doxygen ) 
+RDEPEND=  dev-games/ois  dev-libs/boost:=  dev-libs/zziplib  media-libs/freetype:2  x11-libs/libX11  x11-libs/libXaw  x11-libs/libXrandr  x11-libs/libXt  cg? ( media-gfx/nvidia-cg-toolkit )  egl? ( media-libs/mesa[egl] )  freeimage? ( media-libs/freeimage )  gles2? ( media-libs/mesa[gles2] )  opengl? (   virtual/glu   virtual/opengl  )  tools? ( dev-libs/tinyxml[stl] )  
+EAPI=6
+IUSE=+cache cg doc double-precision egl examples experimental +freeimage gles2
+	+opengl profile resman-pedantic resman-strict tools 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/1.10.0
+SRC_URI=https://github.com/OGRECave/ogre/archive/v1.10.12.zip -> ogre-1.10.12.zip

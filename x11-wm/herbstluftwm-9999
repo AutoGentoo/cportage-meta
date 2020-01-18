@@ -1,0 +1,10 @@
+285b2050de53aacd1e87e0356c84d5b3
+DEFINED_PHASES= compile install
+BDEPEND=app-text/asciidoc  virtual/pkgconfig  
+DEPEND=  >=dev-libs/glib-2.24:2  x11-libs/libX11  x11-libs/libXext  xinerama? ( x11-libs/libXinerama )  
+RDEPEND=    >=dev-libs/glib-2.24:2  x11-libs/libX11  x11-libs/libXext  xinerama? ( x11-libs/libXinerama )   app-shells/bash  zsh-completion? ( app-shells/zsh )  
+EAPI=7
+IUSE=examples xinerama zsh-completion 
+KEYWORDS=
+SLOT=0
+SRC_URI=

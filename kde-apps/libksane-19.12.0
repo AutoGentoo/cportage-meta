@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.63.0:5 
+DEPEND=  >=kde-frameworks/ki18n-5.63.0:5  >=kde-frameworks/ktextwidgets-5.63.0:5  >=kde-frameworks/kwidgetsaddons-5.63.0:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  media-gfx/sane-backends  kwallet? ( >=kde-frameworks/kwallet-5.63.0:5 )  
+RDEPEND=  >=kde-frameworks/ki18n-5.63.0:5  >=kde-frameworks/ktextwidgets-5.63.0:5  >=kde-frameworks/kwidgetsaddons-5.63.0:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  media-gfx/sane-backends  kwallet? ( >=kde-frameworks/kwallet-5.63.0:5 )  
+EAPI=7
+IUSE=kwallet 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=5
+SRC_URI=mirror://kde/stable/release-service/19.12.0/src/libksane-19.12.0.tar.xz

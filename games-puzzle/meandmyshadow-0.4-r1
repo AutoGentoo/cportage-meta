@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/libarchive  dev-libs/openssl:0=  media-libs/libsdl[sound,video,X]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  net-misc/curl  x11-libs/libX11  opengl? ( virtual/opengl )  
+RDEPEND=  app-arch/libarchive  dev-libs/openssl:0=  media-libs/libsdl[sound,video,X]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  net-misc/curl  x11-libs/libX11  opengl? ( virtual/opengl )  
+EAPI=6
+IUSE=opengl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/meandmyshadow/0.4/meandmyshadow-0.4-src.tar.gz

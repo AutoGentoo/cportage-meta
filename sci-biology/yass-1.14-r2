@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=dmalloc? ( dev-libs/dmalloc ) 
+RDEPEND=dmalloc? ( dev-libs/dmalloc ) 
+EAPI=6
+IUSE=dmalloc lowmem threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://bioinfo.lifl.fr/yass/files/yass-1.14.tar.gz

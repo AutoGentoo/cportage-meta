@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=sys-libs/gdbm-1.9.1-r2[berkdb]  >=dev-lang/ocaml-3.12:=[ocamlopt] 
+RDEPEND=>=sys-libs/gdbm-1.9.1-r2[berkdb]  >=dev-lang/ocaml-3.12:=[ocamlopt] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ppc x86
+SLOT=0/1.0
+SRC_URI=http://forge.ocamlcore.org/frs/download.php/728/camldbm-1.0.tgz

@@ -1,0 +1,15 @@
+73a94c964f91afa48276de7ffd1eed39
+DEFINED_PHASES= compile configure install prepare setup unpack
+BDEPEND=virtual/pkgconfig 
+DEPEND=    bzip2? ( app-arch/bzip2 )  elf? ( dev-libs/elfutils )  lm-sensors? ( sys-apps/lm-sensors )  mysql? ( dev-db/mysql-connector-c:0= )  netlink? ( dev-libs/libnl:3 )  pcap? ( net-libs/libpcap )  pci? ( sys-apps/pciutils )  perl? ( dev-lang/perl:= )  python? (   dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   )  rpm? (   app-arch/rpm   dev-libs/popt  )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.6d:0= )   libressl? ( dev-libs/libressl:= )  )  tcpd? ( >=sys-apps/tcp-wrappers-7.6 )  zlib? ( >=sys-libs/zlib-1.1.4 )   doc? ( app-doc/doxygen )  
+RDEPEND=    bzip2? ( app-arch/bzip2 )  elf? ( dev-libs/elfutils )  lm-sensors? ( sys-apps/lm-sensors )  mysql? ( dev-db/mysql-connector-c:0= )  netlink? ( dev-libs/libnl:3 )  pcap? ( net-libs/libpcap )  pci? ( sys-apps/pciutils )  perl? ( dev-lang/perl:= )  python? (   dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   )  rpm? (   app-arch/rpm   dev-libs/popt  )  ssl? (   !libressl? ( >=dev-libs/openssl-0.9.6d:0= )   libressl? ( dev-libs/libressl:= )  )  tcpd? ( >=sys-apps/tcp-wrappers-7.6 )  zlib? ( >=sys-libs/zlib-1.1.4 )   perl? (   X? ( dev-perl/Tk )   !minimal? ( dev-perl/TermReadKey )  )  selinux? ( sec-policy/selinux-snmp )  
+EAPI=7
+IUSE=
+	X bzip2 doc elf kmem ipv6 libressl lm-sensors mfd-rewrites minimal mysql
+	netlink pcap pci perl python rpm selinux smux ssl tcpd ucd-compat zlib
+ 
+KEYWORDS=
+SLOT=0/35
+SRC_URI=
+	https://dev.gentoo.org/~jer/net-snmp-5.7.3-patches-3.tar.xz
+

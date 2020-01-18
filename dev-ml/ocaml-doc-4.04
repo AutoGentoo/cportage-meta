@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://caml.inria.fr/pub/distrib/ocaml-4.04/ocaml-4.04-refman-html.tar.gz

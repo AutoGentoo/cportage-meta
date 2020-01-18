@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.60.0:5 
+DEPEND=  dev-util/desktop-file-utils  x11-misc/shared-mime-info  test? ( >=dev-qt/qttest-5.12.3:5 )  >=dev-qt/qtcore-5.12.3:5 
+RDEPEND= || (     >=kde-frameworks/breeze-icons-5.60.0:5     kde-frameworks/oxygen-icons:*    ) >=kde-frameworks/kf-env-4  >=dev-qt/qtcore-5.12.3:5 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=5
+SRC_URI=mirror://kde/unstable/kasync/0.3.0/src/kasync-0.3.0.tar.xz

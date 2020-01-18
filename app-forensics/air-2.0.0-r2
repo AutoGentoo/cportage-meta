@@ -1,0 +1,9 @@
+05ab88fb98453f3a811b785145662131
+DEFINED_PHASES= install
+DEPEND=userland_GNU? ( sys-apps/coreutils )  >=dev-perl/Tk-804.27.0  userland_GNU? ( app-arch/sharutils )  
+RDEPEND=userland_GNU? ( sys-apps/coreutils )  net-analyzer/netcat  app-arch/mt-st  crypt? ( net-analyzer/cryptcat )  
+EAPI=6
+IUSE=crypt 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/air-imager/air-2.0.0.tar.gz

@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile install prepare
+DEPEND=    dev-libs/glib:2  sys-apps/dbus  x11-libs/cairo[X,glib]  x11-libs/gdk-pixbuf  x11-libs/libX11  x11-libs/libXScrnSaver  x11-libs/libXinerama  x11-libs/libXrandr  x11-libs/pango[X]  dunstify? ( x11-libs/libnotify )   dev-lang/perl  virtual/pkgconfig  
+RDEPEND=  dev-libs/glib:2  sys-apps/dbus  x11-libs/cairo[X,glib]  x11-libs/gdk-pixbuf  x11-libs/libX11  x11-libs/libXScrnSaver  x11-libs/libXinerama  x11-libs/libXrandr  x11-libs/pango[X]  dunstify? ( x11-libs/libnotify )  
+EAPI=7
+IUSE=dunstify 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/dunst-project/dunst/archive/v1.4.1.tar.gz -> dunst-1.4.1.tar.gz

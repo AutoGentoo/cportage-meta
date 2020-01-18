@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=app-arch/xz-utils 
+RDEPEND=  >=sys-apps/portage-2.1  >=app-portage/portage-utils-0.55  app-shells/bash  sys-apps/gentoo-functions  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

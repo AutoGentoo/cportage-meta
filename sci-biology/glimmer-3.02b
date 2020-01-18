@@ -1,0 +1,8 @@
+cc744d21e6a00422932ccf3f042617b0
+DEFINED_PHASES= compile install prepare
+RDEPEND=app-shells/tcsh  sci-biology/elph 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://ccb.jhu.edu/software/glimmer/glimmer302b.tar.gz

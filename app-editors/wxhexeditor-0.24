@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare pretend setup
+DEPEND=  app-crypt/mhash  dev-libs/udis86  x11-libs/wxGTK:3.0-gtk3[X] 
+RDEPEND=  app-crypt/mhash  dev-libs/udis86  x11-libs/wxGTK:3.0-gtk3[X] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wxhexeditor/wxHexEditor-v0.24-src.tar.xz

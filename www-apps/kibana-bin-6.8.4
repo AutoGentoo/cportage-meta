@@ -1,0 +1,10 @@
+fbb76f35c444ea74299ceb16246f7d2b
+DEFINED_PHASES= install postinst prepare
+BDEPEND=virtual/pkgconfig 
+RDEPEND=  acct-group/kibana  acct-user/kibana  >=net-libs/nodejs-10.15.2  x-pack? (   dev-libs/expat   dev-libs/nss  ) 
+EAPI=7
+IUSE=x-pack 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=x-pack? ( https://artifacts.elastic.co/downloads/kibana/kibana-6.8.4-linux-x86_64.tar.gz )
+	!x-pack? ( https://artifacts.elastic.co/downloads/kibana/kibana-oss-6.8.4-linux-x86_64.tar.gz )

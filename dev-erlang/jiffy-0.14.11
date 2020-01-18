@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/erlang-17.1 
+RDEPEND=>=dev-lang/erlang-17.1 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~ia64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://github.com/davisp/jiffy/archive/0.14.11.tar.gz
+	-> jiffy-0.14.11.tar.gz

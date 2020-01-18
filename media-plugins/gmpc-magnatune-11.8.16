@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=  virtual/pkgconfig  nls? (   dev-util/intltool   sys-devel/gettext  ) 
+DEPEND=  >=media-sound/gmpc-11.8.16  dev-libs/libxml2:2  dev-db/sqlite:3  >=gnome-base/libglade-2  x11-libs/gdk-pixbuf:2[jpeg]  x11-libs/gtk+:2 
+RDEPEND=  >=media-sound/gmpc-11.8.16  dev-libs/libxml2:2  dev-db/sqlite:3  >=gnome-base/libglade-2  x11-libs/gdk-pixbuf:2[jpeg]  x11-libs/gtk+:2 
+EAPI=7
+IUSE=nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/gmpc-magnatune-11.8.16.tar.gz

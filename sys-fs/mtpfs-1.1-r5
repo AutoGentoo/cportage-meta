@@ -1,0 +1,10 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/glib:2  >=media-libs/libmtp-1.1.2  <sys-fs/fuse-3:0=  mad? (   media-libs/libid3tag   media-libs/libmad  ) 
+RDEPEND=dev-libs/glib:2  >=media-libs/libmtp-1.1.2  <sys-fs/fuse-3:0=  mad? (   media-libs/libid3tag   media-libs/libmad  ) 
+EAPI=7
+IUSE=debug mad 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.adebenham.com/files/mtp/mtpfs-1.1.tar.gz

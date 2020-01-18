@@ -1,0 +1,12 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/glib:2  x11-libs/gtk+:2 
+RDEPEND=  dev-libs/glib:2  x11-libs/gtk+:2 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=
+	mirror://ubuntu/pool/main/u/ubuntulooks/ubuntulooks_0.9.12.orig.tar.gz
+	mirror://ubuntu/pool/main/u/ubuntulooks/ubuntulooks_0.9.12-12.diff.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=alsa? ( media-libs/alsa-lib ) 
+EAPI=5
+IUSE=alsa 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://aepatrakov.narod.ru/olderfiles/1/dcaenc-2.tar.gz

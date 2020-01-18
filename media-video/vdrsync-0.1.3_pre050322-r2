@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=>=dev-lang/perl-5.8.0  media-fonts/corefonts  media-video/mjpegtools  dvdr? (   >=media-libs/gd-2.0.15   >=dev-perl/GD-2.0.7   >=dev-perl/GDTextUtil-0.86   >=media-video/dvdauthor-0.6.8  ) 
+EAPI=7
+IUSE=dvdr 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://vdrsync.vdr-portal.de/releases/vdrsync-050322.tgz

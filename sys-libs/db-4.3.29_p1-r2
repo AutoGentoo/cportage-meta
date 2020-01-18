@@ -1,0 +1,10 @@
+d8582ac45cd5a9dedb4a2f41de0fe3ed
+DEFINED_PHASES= configure install postinst postrm prepare unpack
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=tcl? ( >=dev-lang/tcl-8.4 )  java? ( >=virtual/jdk-1.4 )  >=sys-devel/binutils-2.16.1 
+RDEPEND=tcl? ( dev-lang/tcl )  java? ( >=virtual/jre-1.4 ) 
+EAPI=7
+IUSE=tcl java doc cxx rpc 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ppc ppc64 s390 sh sparc x86
+SLOT=4.3
+SRC_URI=http://download.oracle.com/berkeley-db/db-4.3.29.tar.gz http://www.oracle.com/technology/products/berkeley-db/db/update/4.3.29/patch.4.3.29.1

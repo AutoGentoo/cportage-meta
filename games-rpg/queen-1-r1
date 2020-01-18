@@ -1,0 +1,28 @@
+74de77e95a57c32fac88710a8fda264f
+DEFINED_PHASES= install unpack
+DEPEND=  l10n_de? ( games-engines/scummvm[vorbis] )  l10n_en? ( games-engines/scummvm[mp3?] )  l10n_fr? ( games-engines/scummvm[vorbis] )  l10n_he? ( games-engines/scummvm[vorbis] )  l10n_it? ( games-engines/scummvm[vorbis] )   l10n_de? ( app-arch/unzip )  l10n_en? ( mp3? ( app-arch/unzip ) )  l10n_fr? ( app-arch/unzip )  l10n_he? ( app-arch/unzip )  l10n_it? ( app-arch/unzip )  
+RDEPEND=  l10n_de? ( games-engines/scummvm[vorbis] )  l10n_en? ( games-engines/scummvm[mp3?] )  l10n_fr? ( games-engines/scummvm[vorbis] )  l10n_he? ( games-engines/scummvm[vorbis] )  l10n_it? ( games-engines/scummvm[vorbis] )  
+EAPI=6
+IUSE=mp3 l10n_de +l10n_en l10n_fr l10n_he l10n_it 
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=
+	l10n_de? (
+		mirror://sourceforge/scummvm/FOTAQ_Ger_talkie-1.0.zip
+		http://www.lysator.liu.se/~zino/scummvm/queen/readme.txt -> queen-readme.txt
+	)
+	l10n_en? (
+		mp3? ( mirror://sourceforge/scummvm/FOTAQ_Talkie-1.1.zip )
+		!mp3? (
+			http://www.lysator.liu.se/~zino/scummvm/queen/queen.1.bz2
+			http://www.lysator.liu.se/~zino/scummvm/queen/readme.txt -> queen-readme.txt
+		)
+	)
+	l10n_fr? ( mirror://sourceforge/scummvm/FOTAQ_Fr_Talkie_1.0.zip )
+	l10n_he? (
+		mirror://sourceforge/scummvm/FOTAQ_Heb_talkie.zip
+		http://www.lysator.liu.se/~zino/scummvm/queen/readme.txt -> queen-readme.txt
+	)
+	l10n_it? ( mirror://sourceforge/scummvm/FOTAQ_It_Talkie_1.0.zip )
+	http://www.scummvm.org/images/cat-queen.png
+

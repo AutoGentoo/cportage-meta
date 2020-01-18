@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure prepare
+DEPEND=  app-text/iso-codes  >=dev-libs/glib-2.49.5:2[dbus]  >=x11-libs/gtk+-3.21.6:3  media-libs/libcanberra[gtk3]  >=app-cdr/brasero-2.90  sys-apps/dbus  gnome-base/gsettings-desktop-schemas   >=media-libs/libdiscid-0.4.0  >=media-libs/musicbrainz-5.0.1:5=   media-libs/gstreamer:1.0  media-libs/gst-plugins-base:1.0[vorbis?]  flac? ( media-plugins/gst-plugins-flac:1.0 )   dev-libs/appstream-glib  dev-util/itstool  >=sys-devel/gettext-0.19.6  virtual/pkgconfig  test? ( ~app-text/docbook-xml-dtd-4.3 )  
+RDEPEND=  app-text/iso-codes  >=dev-libs/glib-2.49.5:2[dbus]  >=x11-libs/gtk+-3.21.6:3  media-libs/libcanberra[gtk3]  >=app-cdr/brasero-2.90  sys-apps/dbus  gnome-base/gsettings-desktop-schemas   >=media-libs/libdiscid-0.4.0  >=media-libs/musicbrainz-5.0.1:5=   media-libs/gstreamer:1.0  media-libs/gst-plugins-base:1.0[vorbis?]  flac? ( media-plugins/gst-plugins-flac:1.0 )   gnome-base/gvfs[cdda,udev]  || (   media-plugins/gst-plugins-cdparanoia:1.0   media-plugins/gst-plugins-cdio:1.0 )  media-plugins/gst-plugins-meta:1.0  
+EAPI=6
+IUSE=debug flac test vorbis 
+KEYWORDS=amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/sound-juicer/3.24/sound-juicer-3.24.0.tar.xz

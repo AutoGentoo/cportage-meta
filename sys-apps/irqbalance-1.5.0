@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install prepare setup
+DEPEND=  dev-libs/glib:2  caps? ( sys-libs/libcap-ng )  numa? ( sys-process/numactl )  tui? ( sys-libs/ncurses:0=[unicode] )   virtual/pkgconfig  
+RDEPEND=  dev-libs/glib:2  caps? ( sys-libs/libcap-ng )  numa? ( sys-process/numactl )  tui? ( sys-libs/ncurses:0=[unicode] )   selinux? ( sec-policy/selinux-irqbalance )  
+EAPI=6
+IUSE=caps +numa selinux tui 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/Irqbalance/irqbalance/archive/v1.5.0.tar.gz -> irqbalance-1.5.0.tar.gz

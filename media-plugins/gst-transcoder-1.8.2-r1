@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure
+DEPEND=  dev-libs/gobject-introspection:=  dev-libs/glib:2  >=media-libs/gstreamer-1.8.2:1.0[introspection]  >=media-libs/gst-plugins-base-1.8.2:1.0[introspection]   || ( dev-lang/python:3.6 )  >=dev-util/meson-0.28.0  virtual/pkgconfig  
+RDEPEND=  dev-libs/gobject-introspection:=  dev-libs/glib:2  >=media-libs/gstreamer-1.8.2:1.0[introspection]  >=media-libs/gst-plugins-base-1.8.2:1.0[introspection]  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/pitivi/gst-transcoder/archive/1.8.2.tar.gz -> gst-transcoder-1.8.2.tar.gz

@@ -1,0 +1,7 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= compile install prepare
+EAPI=5
+IUSE=
+KEYWORDS=~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.opensource.apple.com/tarballs/Csu/Csu-79.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  app-crypt/md5deep  app-i18n/pology  app-shells/bash:*  dev-vcs/subversion  kde-apps/poxml  
+RDEPEND=  app-crypt/md5deep  app-i18n/pology  app-shells/bash:*  dev-vcs/subversion  kde-apps/poxml  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

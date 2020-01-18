@@ -1,0 +1,8 @@
+1dac49d9123ac78fad9049c7eede62d5
+DEFINED_PHASES=-
+BDEPEND=abi_x86_32? ( dev-lang/yasm )  abi_x86_64? ( dev-lang/yasm )  abi_x86_x32? ( dev-lang/yasm )  x86-fbsd? ( dev-lang/yasm )  amd64-fbsd? ( dev-lang/yasm )  doc? ( app-doc/doxygen )  
+EAPI=7
+IUSE=doc examples cpu_flags_x86_mmx cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_ssse3 cpu_flags_x86_sse4_1 cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_arm_neon 
+KEYWORDS=
+SLOT=0/0
+SRC_URI=

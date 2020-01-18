@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= compile prepare test
+DEPEND=virtual/opencl 
+RDEPEND=virtual/opencl 
+EAPI=6
+IUSE=custom-cflags video_cards_nvidia 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/hashcat/hashcat/archive/v4.1.0.tar.gz -> hashcat-4.1.0.tar.gz

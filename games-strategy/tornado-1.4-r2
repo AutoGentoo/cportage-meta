@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  nls? ( sys-devel/gettext )  
+RDEPEND=  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/kouya/tornado/archive/v1.4.tar.gz -> tornado-1.4.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja dev-util/cmake 
+EAPI=7
+IUSE=static-libs test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/google/flatbuffers/archive/v1.11.0.tar.gz -> flatbuffers-1.11.0.tar.gz

@@ -1,0 +1,10 @@
+b5c24f569336e58837d9cedc26d4691c
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+RDEPEND=x11-themes/adwaita-icon-theme 
+EAPI=6
+IUSE=+branding 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://gnome-colors.googlecode.com/files/gnome-colors-5.5.1.tar.gz
+	branding? ( https://www.mail-archive.com/tango-artists@lists.freedesktop.org/msg00043/tango-gentoo-v1.1.tar.gz )
+

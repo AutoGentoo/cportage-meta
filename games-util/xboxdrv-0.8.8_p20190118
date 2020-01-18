@@ -1,0 +1,10 @@
+7f11fd388931ec63c8b0039fb6fe9306
+DEFINED_PHASES= compile install postinst prepare
+BDEPEND=  dev-util/glib-utils  virtual/pkgconfig  
+DEPEND=    dev-libs/boost:=  dev-libs/dbus-glib  dev-libs/glib:2  sys-apps/dbus  virtual/libudev:=  virtual/libusb:1  x11-libs/libX11   
+RDEPEND=  dev-libs/boost:=  dev-libs/dbus-glib  dev-libs/glib:2  sys-apps/dbus  virtual/libudev:=  virtual/libusb:1  x11-libs/libX11  
+EAPI=7
+IUSE=kernel_linux 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/chewi/xboxdrv/archive/6e5e8a57628095d8d0c8bbb38187afb0f3a42112.tar.gz -> xboxdrv-0.8.8_p20190118.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=>=sys-libs/readline-5.0-r2 
+RDEPEND=>=sys-libs/readline-5.0-r2 
+EAPI=4
+IUSE=nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/renameutils/renameutils-0.12.0.tar.gz

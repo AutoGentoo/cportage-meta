@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=virtual/pkgconfig 
+RDEPEND=  !<sys-apps/openrc-0.11.8  selinux? ( sec-policy/selinux-entropyd )  
+EAPI=7
+IUSE=selinux static-libs threads 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/jirka-h/haveged/archive/v1.9.8c.tar.gz -> haveged-1.9.8c.tar.gz

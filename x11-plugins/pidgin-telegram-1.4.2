@@ -1,0 +1,10 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure prepare
+BDEPEND=  nls? ( sys-devel/gettext )  virtual/pkgconfig  
+DEPEND=net-im/pidgin  sys-libs/zlib:=  gcrypt? ( dev-libs/libgcrypt:0= )  !gcrypt? (   libressl? ( dev-libs/libressl:0= )   !libressl? ( dev-libs/openssl:0= )  )  webp? ( media-libs/libwebp:= ) 
+RDEPEND=net-im/pidgin  sys-libs/zlib:=  gcrypt? ( dev-libs/libgcrypt:0= )  !gcrypt? (   libressl? ( dev-libs/libressl:0= )   !libressl? ( dev-libs/openssl:0= )  )  webp? ( media-libs/libwebp:= ) 
+EAPI=7
+IUSE=gcrypt libressl +nls +webp 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/majn/telegram-purple/releases/download/v1.4.2/telegram-purple_1.4.2.orig.tar.gz

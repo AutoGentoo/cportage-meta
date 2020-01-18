@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install prepare
+DEPEND=>=sys-libs/slang-2.2.4  >=sys-libs/ncurses-5.7-r7:0=  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=>=sys-libs/slang-2.2.4  >=sys-libs/ncurses-5.7-r7:0= 
+EAPI=5
+IUSE=nls 
+KEYWORDS=amd64 ppc sparc x86 ~x86-linux
+SLOT=0
+SRC_URI=mirror://debian/pool/main/l/lpe/lpe_1.2.6.13-0.1.tar.gz

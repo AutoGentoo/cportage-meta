@@ -1,0 +1,8 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= install postinst
+DEPEND=app-eselect/eselect-timidity 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 arm ~arm64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://5hdumat.samizdat.net/music/eawpats12_full.tar.gz

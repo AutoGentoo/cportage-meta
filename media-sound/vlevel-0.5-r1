@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=media-libs/ladspa-sdk 
+RDEPEND=media-libs/ladspa-sdk 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/vlevel/vlevel-0.5.tar.gz

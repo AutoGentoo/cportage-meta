@@ -1,0 +1,9 @@
+e8c79427326135eaed901377711a5237
+DEFINED_PHASES= configure install test
+DEPEND=  iconv? ( virtual/libiconv )  qt5? ( dev-qt/qtcore:5 )   virtual/pkgconfig  
+RDEPEND=  iconv? ( virtual/libiconv )  qt5? ( dev-qt/qtcore:5 )  
+EAPI=6
+IUSE=iconv qt5 threads working-locale working-c-locale 
+KEYWORDS=amd64 ~x86
+SLOT=0/1.2-5
+SRC_URI=mirror://sourceforge/project/log4cplus/log4cplus-stable/1.2.0/log4cplus-1.2.0.tar.bz2

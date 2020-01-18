@@ -1,0 +1,7 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= configure install prepare
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=http://ftp.barfooze.de/pub/sabotage/tarballs/proxychains-ng-4.14.tar.xz

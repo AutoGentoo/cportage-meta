@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+RDEPEND=>=gnustep-libs/cenonlibrary-4.0.0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.cenon.zone/download/source/Cenon-4.0.2.tar.bz2

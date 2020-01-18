@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm prepare
+DEPEND=  app-text/gtkspell:2  app-text/poppler[cairo]  dev-libs/glib:2  dev-texlive/texlive-latex  dev-texlive/texlive-latexextra  x11-libs/gtk+:2  x11-libs/gtksourceview:2.0  x11-libs/pango 
+RDEPEND=  app-text/gtkspell:2  app-text/poppler[cairo]  dev-libs/glib:2  dev-texlive/texlive-latex  dev-texlive/texlive-latexextra  x11-libs/gtk+:2  x11-libs/gtksourceview:2.0  x11-libs/pango 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0
+SRC_URI=https://github.com/alexandervdm/gummi/archive/0.6.6.tar.gz -> gummi-0.6.6.tar.gz

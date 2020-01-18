@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=7
+IUSE=X 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=http://andreas.vdr-developer.org/fonts/download/vdrsymbols-ttf-20100612.tgz

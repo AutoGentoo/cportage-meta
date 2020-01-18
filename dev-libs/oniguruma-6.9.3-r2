@@ -1,0 +1,7 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES=-
+EAPI=7
+IUSE=crnl-as-line-terminator static-libs 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x86-solaris
+SLOT=0/5
+SRC_URI=https://github.com/kkos/oniguruma/releases/download/v6.9.3/onig-6.9.3.tar.gz

@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure install test
+DEPEND=net-misc/curl  sys-libs/ncurses:0 
+RDEPEND=net-misc/curl  sys-libs/ncurses:0 
+EAPI=6
+IUSE=debug tads2compiler tads3compiler 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.tads.org/frobtads/frobtads-1.2.3.tar.gz

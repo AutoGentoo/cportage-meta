@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= prepare test
+DEPEND=>=dev-perl/Crypt-OpenSSL-RSA-0.24  virtual/perl-Digest-SHA  virtual/perl-MIME-Base64  dev-perl/Net-DNS  dev-perl/MailTools  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=>=dev-perl/Crypt-OpenSSL-RSA-0.24  virtual/perl-Digest-SHA  virtual/perl-MIME-Base64  dev-perl/Net-DNS  dev-perl/MailTools 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MB/MBRADSHAW/Mail-DKIM-0.41.tar.gz

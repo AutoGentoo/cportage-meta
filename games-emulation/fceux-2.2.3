@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= compile install prepare
+DEPEND=  lua? ( dev-lang/lua:0 )  media-libs/libsdl[opengl?,video]  logo? ( media-libs/gd[png] )  opengl? ( virtual/opengl )  gtk? ( x11-libs/gtk+:3 )  sys-libs/zlib[minizip]  
+RDEPEND=  lua? ( dev-lang/lua:0 )  media-libs/libsdl[opengl?,video]  logo? ( media-libs/gd[png] )  opengl? ( virtual/opengl )  gtk? ( x11-libs/gtk+:3 )  sys-libs/zlib[minizip]  
+EAPI=5
+IUSE=gtk logo +lua +opengl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/fceultra/fceux-2.2.3.src.tar.gz

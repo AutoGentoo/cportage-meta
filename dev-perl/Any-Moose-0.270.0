@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-perl/Moose  virtual/perl-version  >=virtual/perl-ExtUtils-MakeMaker-6.31  test? (   dev-perl/Moose   dev-perl/MooseX-Types  )  
+RDEPEND=dev-perl/Moose  virtual/perl-version 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/Any-Moose-0.27.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=    dev-java/xjavac:1  dev-java/xml-commons-resolver:0  dev-java/xml-commons-external:1.4  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/xjavac:1  dev-java/xml-commons-resolver:0  dev-java/xml-commons-external:1.4  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~arm arm64 ppc64 x86
+SLOT=2
+SRC_URI=https://repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-sources.jar -> xerces-2.12.0.jar

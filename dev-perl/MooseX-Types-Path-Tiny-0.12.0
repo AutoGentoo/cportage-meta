@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Moose-2.0.0  dev-perl/MooseX-Getopt  dev-perl/MooseX-Types  dev-perl/MooseX-Types-Stringlike  dev-perl/Path-Tiny  virtual/perl-if  dev-perl/namespace-autoclean   >=dev-perl/Module-Build-Tiny-0.34.0  test? (   virtual/perl-File-Spec   >=virtual/perl-File-Temp-0.180.0   dev-perl/File-pushd   virtual/perl-Module-Metadata   dev-perl/Test-Fatal   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  >=dev-perl/Moose-2.0.0  dev-perl/MooseX-Getopt  dev-perl/MooseX-Types  dev-perl/MooseX-Types-Stringlike  dev-perl/Path-Tiny  virtual/perl-if  dev-perl/namespace-autoclean  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/MooseX-Types-Path-Tiny-0.012.tar.gz

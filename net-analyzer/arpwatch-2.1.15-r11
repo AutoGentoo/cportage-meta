@@ -1,0 +1,12 @@
+7e63c42cda31182a91e96aa671788057
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=  net-libs/libpcap  sys-libs/ncurses:*  
+RDEPEND=    net-libs/libpcap  sys-libs/ncurses:*   selinux? ( sec-policy/selinux-arpwatch )  
+EAPI=6
+IUSE=selinux 
+KEYWORDS=~amd64 ~hppa ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=
+	ftp://ftp.ee.lbl.gov/arpwatch-2.1a15.tar.gz
+	https://dev.gentoo.org/~jer/arpwatch-patchset-0.8.tar.xz
+

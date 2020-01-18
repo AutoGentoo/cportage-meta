@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  >=sys-libs/ncurses-6.1:0=[unicode]  virtual/pkgconfig  
+RDEPEND=>=sys-libs/ncurses-6.1:0=[unicode] 
+EAPI=6
+IUSE=savedconfig 
+KEYWORDS=
+SLOT=0
+SRC_URI=

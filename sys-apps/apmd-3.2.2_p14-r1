@@ -1,0 +1,10 @@
+f5f28357c7cc8d8140809ee01fc22698
+DEFINED_PHASES= compile install prepare
+DEPEND=>=sys-apps/debianutils-1.16  >=sys-power/powermgmt-base-1.31  X? ( x11-libs/libX11   x11-libs/libXaw   x11-libs/libXmu   x11-libs/libSM   x11-libs/libICE   x11-libs/libXt   x11-libs/libXext )  sys-devel/libtool  virtual/os-headers 
+RDEPEND=>=sys-apps/debianutils-1.16  >=sys-power/powermgmt-base-1.31  X? ( x11-libs/libX11   x11-libs/libXaw   x11-libs/libXmu   x11-libs/libSM   x11-libs/libICE   x11-libs/libXt   x11-libs/libXext ) 
+EAPI=5
+IUSE=nls X 
+KEYWORDS=amd64 arm ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/a/apmd/apmd_3.2.2.orig.tar.gz
+	mirror://debian/pool/main/a/apmd/apmd_3.2.2-14.diff.gz

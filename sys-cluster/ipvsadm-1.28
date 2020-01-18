@@ -1,0 +1,9 @@
+5e8c7f58e4c56936fd26f1f414eefd27
+DEFINED_PHASES= compile install postinst prepare pretend
+DEPEND=>=sys-libs/ncurses-5.2:*  dev-libs/libnl:=  >=dev-libs/popt-1.16  virtual/pkgconfig 
+RDEPEND=>=sys-libs/ncurses-5.2:*  dev-libs/libnl:=  >=dev-libs/popt-1.16 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=~amd64 ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86
+SLOT=0
+SRC_URI=https://kernel.org/pub/linux/utils/kernel/ipvsadm/ipvsadm-1.28.tar.xz

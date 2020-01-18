@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm preinst
+DEPEND=sys-fs/udisks:2  >=x11-libs/gtk+-3.8.0:3  gnome-keyring? ( gnome-base/libgnome-keyring )  libnotify? ( >=x11-libs/libnotify-0.7 )  virtual/pkgconfig  virtual/imagemagick-tools[png] 
+RDEPEND=sys-fs/udisks:2  >=x11-libs/gtk+-3.8.0:3  gnome-keyring? ( gnome-base/libgnome-keyring )  libnotify? ( >=x11-libs/libnotify-0.7 ) 
+EAPI=6
+IUSE=gnome-keyring libnotify 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wmudmount/wmudmount-2.2.tar.gz

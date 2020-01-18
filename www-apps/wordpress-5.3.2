@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install
+DEPEND=>=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=virtual/httpd-php  || ( dev-lang/php[mysql] dev-lang/php[mysqli] ) 
+EAPI=7
+IUSE=+akismet examples +themes vhosts 
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~sparc ~x86
+SLOT=5.3.2
+SRC_URI=https://wordpress.org/wordpress-5.3.2.tar.gz

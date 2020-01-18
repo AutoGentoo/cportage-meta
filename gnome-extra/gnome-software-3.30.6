@@ -1,0 +1,9 @@
+a0ec6fd721e0b6d64f280c0a5e8b3b17
+DEFINED_PHASES= configure postinst postrm prepare setup test
+DEPEND=  >=dev-libs/appstream-glib-0.7.14:0  >=x11-libs/gdk-pixbuf-2.32.0:2  >=dev-libs/glib-2.56:2  >=x11-libs/gtk+-3.22.4:3  >=dev-libs/json-glib-1.2.0  app-crypt/libsecret  >=net-libs/libsoup-2.52.0:2.4  gnome? ( >=gnome-base/gnome-desktop-3.18.0:3= )  spell? ( app-text/gspell:= )  sys-auth/polkit  packagekit? ( >=app-admin/packagekit-base-1.1.0 )  firmware? ( >=sys-apps/fwupd-1.0.3 )  udev? ( dev-libs/libgudev )  >=gnome-base/gsettings-desktop-schemas-3.11.5   dev-libs/libxml2:2  >=sys-devel/gettext-0.19.8  virtual/pkgconfig  gtk-doc? (   dev-util/gtk-doc   app-text/docbook-xml-dtd:4.3 )  test? (   || ( >=dev-lang/python-2.7.5-r2:2.7 )   || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-util/dogtail[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) )  
+RDEPEND=  >=dev-libs/appstream-glib-0.7.14:0  >=x11-libs/gdk-pixbuf-2.32.0:2  >=dev-libs/glib-2.56:2  >=x11-libs/gtk+-3.22.4:3  >=dev-libs/json-glib-1.2.0  app-crypt/libsecret  >=net-libs/libsoup-2.52.0:2.4  gnome? ( >=gnome-base/gnome-desktop-3.18.0:3= )  spell? ( app-text/gspell:= )  sys-auth/polkit  packagekit? ( >=app-admin/packagekit-base-1.1.0 )  firmware? ( >=sys-apps/fwupd-1.0.3 )  udev? ( dev-libs/libgudev )  >=gnome-base/gsettings-desktop-schemas-3.11.5  
+EAPI=6
+IUSE=+firmware gnome gtk-doc packagekit spell test udev 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-software/3.30/gnome-software-3.30.6.tar.xz

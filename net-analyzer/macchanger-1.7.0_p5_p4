@@ -1,0 +1,10 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=
+	https://github.com/alobbs/macchanger/releases/download/1.7.0/macchanger-1.7.0.tar.gz
+	mirror://debian/pool/main/m/macchanger/macchanger_1.7.0-5.4.debian.tar.xz
+

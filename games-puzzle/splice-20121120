@@ -1,0 +1,8 @@
+84c784140a1f4438a1491c3445273139
+DEFINED_PHASES= install nofetch prepare
+RDEPEND=  virtual/glu  virtual/opengl  x11-libs/libX11  x11-libs/libXcursor  x11-libs/libXext 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=splice-linux-1353389454.tar.gz

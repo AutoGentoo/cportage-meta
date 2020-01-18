@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND==virtual/libusb-0* 
+RDEPEND==virtual/libusb-0* 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/g15tools/libg15-1.2.7.tar.bz2

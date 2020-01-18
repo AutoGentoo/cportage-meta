@@ -1,0 +1,9 @@
+92bd7ff16b9130c9ff5cffb80db05e60
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.4  dev-java/lucene:1  >=app-arch/unzip-5.50-r1 
+RDEPEND=>=virtual/jre-1.4  dev-java/lucene:1 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=2006
+SRC_URI=mirror://sourceforge/prefuse/prefuse-beta-20071021.zip

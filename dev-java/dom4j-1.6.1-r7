@@ -1,0 +1,12 @@
+090b65d85c728265d40bcb8ab3434437
+DEFINED_PHASES= install prepare test
+DEPEND=    dev-java/xpp2:0  dev-java/xpp3:0  dev-java/xsdlib:0  dev-java/relaxng-datatype:0  test? (   dev-java/xalan:0   dev-java/ant-junit:0   dev-java/junitperf:0  )  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/xpp2:0  dev-java/xpp3:0  dev-java/xsdlib:0  dev-java/relaxng-datatype:0  >=virtual/jre-1.6 
+PDEPEND=dev-java/jaxen:1.1 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=1
+SRC_URI=
+	mirror://sourceforge/dom4j/dom4j-1.6.1.tar.gz
+	mirror://gentoo/dom4j-1.6.1-java5.patch.bz2

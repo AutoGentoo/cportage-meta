@@ -1,0 +1,10 @@
+0fe55a3556546e362bb270d361f58893
+DEFINED_PHASES= install postinst setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND= sys-devel/make >=dev-util/cmake-3.9.6 
+RDEPEND=  dev-lang/perl:=  >=dev-libs/boost-1.42:=  sys-fs/e2fsprogs  sys-process/audit[static-libs(+)]  sys-process/lsof  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~pacho/e4rat/e4rat-0.2.4_pre20141201.tar.xz

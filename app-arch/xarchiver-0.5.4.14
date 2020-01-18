@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=>=dev-libs/glib-2:=  x11-libs/gtk+:3=  !!<app-arch/pigz-2.4[symlink]  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig  doc? (   app-text/docbook-xml-dtd   app-text/docbook-xsl-stylesheets   dev-libs/libxml2   dev-libs/libxslt  ) 
+RDEPEND=>=dev-libs/glib-2:=  x11-libs/gtk+:3=  !!<app-arch/pigz-2.4[symlink] 
+EAPI=6
+IUSE=doc 
+KEYWORDS=alpha amd64 ~arm ~hppa ~ia64 ppc ppc64 ~sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/ib/xarchiver/archive/0.5.4.14.tar.gz -> xarchiver-0.5.4.14.tar.gz

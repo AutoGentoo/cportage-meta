@@ -1,0 +1,10 @@
+ec58abbd445ff99aaf42f074f65d9c11
+DEFINED_PHASES= compile configure install postinst prepare setup
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  >=net-libs/nDPI-3.0:=  dev-db/mysql-connector-c:=  dev-db/sqlite:3  dev-libs/hiredis  dev-libs/json-c:=  dev-libs/libmaxminddb  dev-libs/libsodium:=  dev-libs/openssl  net-analyzer/rrdtool  net-libs/libpcap  net-libs/zeromq:=  net-misc/curl  sys-libs/libcap  sys-libs/zlib  
+RDEPEND=    >=net-libs/nDPI-3.0:=  dev-db/mysql-connector-c:=  dev-db/sqlite:3  dev-libs/hiredis  dev-libs/json-c:=  dev-libs/libmaxminddb  dev-libs/libsodium:=  dev-libs/openssl  net-analyzer/rrdtool  net-libs/libpcap  net-libs/zeromq:=  net-misc/curl  sys-libs/libcap  sys-libs/zlib   dev-db/redis  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ntop/ntopng/archive/3.8.1.tar.gz -> ntopng-3.8.1.tar.gz

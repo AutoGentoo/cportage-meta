@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  virtual/pkgconfig 
+RDEPEND=net-im/pidgin[gtk]  x11-libs/gtk+:2 
+EAPI=6
+IUSE=debug nls 
+KEYWORDS=amd64 hppa ppc sparc x86
+SLOT=0
+SRC_URI=http://downloads.guifications.org/plugins//Guifications2/pidgin-guifications-2.16.tar.bz2

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   >=net-wireless/gnuradio-3.7.0:=  dev-libs/boost:=  net-libs/libiio:=  net-libs/libad9361-iio:=  sys-devel/flex:=  sys-devel/bison:=  dev-util/cppunit:=  dev-lang/swig:0 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   >=net-wireless/gnuradio-3.7.0:=  dev-libs/boost:=  net-libs/libiio:=  net-libs/libad9361-iio:= 
+EAPI=6
+IUSE=+python_targets_python2_7 +python_single_target_python2_7 
+KEYWORDS=
+SLOT=0
+SRC_URI=

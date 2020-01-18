@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+EAPI=6
+IUSE=
+KEYWORDS=amd64 sparc x86
+SLOT=0
+SRC_URI=ftp://atrey.karlin.mff.cuni.cz/pub/local/mj/net/sock-1.1.tar.gz

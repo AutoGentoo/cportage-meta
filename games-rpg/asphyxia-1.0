@@ -1,0 +1,8 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= install nofetch postinst postrm
+RDEPEND=games-engines/renpy:6.99 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=Asphyxia-1.0-linux.tar

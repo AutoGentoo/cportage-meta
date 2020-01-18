@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/yoshiki/yaml-mode/archive/0.0.14.tar.gz -> yaml-mode-0.0.14.tar.gz

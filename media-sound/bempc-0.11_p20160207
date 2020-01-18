@@ -1,0 +1,9 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= install postinst postrm prepare unpack
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-libs/libmpdclient   app-arch/unzip  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-libs/libmpdclient  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://sourceforge.net/code-snapshots/git/b/be/be-mpc/code.git/be-mpc-code-783ea4e61cbfe54250e809498b1496d6cbd5afa1.zip -> bempc-0.11_p20160207.zip

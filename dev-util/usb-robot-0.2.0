@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= compile
+DEPEND=virtual/libusb:0  sys-libs/readline 
+RDEPEND=virtual/libusb:0  sys-libs/readline 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/usb-robot/usb-robot-0.2.0.tar.gz

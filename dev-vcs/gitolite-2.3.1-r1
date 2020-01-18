@@ -1,0 +1,9 @@
+456a4316935732c86fa4028c737e6dd6
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=dev-lang/perl  virtual/perl-File-Path  virtual/perl-File-Temp  >=dev-vcs/git-1.6.6 
+RDEPEND=dev-lang/perl  virtual/perl-File-Path  virtual/perl-File-Temp  >=dev-vcs/git-1.6.6  !dev-vcs/gitolite-gentoo  vim-syntax? ( app-vim/gitolite-syntax ) 
+EAPI=5
+IUSE=contrib vim-syntax 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://milki.github.com/gitolite/gitolite-2.3.1.tar.gz

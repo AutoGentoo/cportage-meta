@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  !<dev-perl/Palm-1.14.0   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=  !<dev-perl/Palm-1.14.0  
+EAPI=6
+IUSE=test examples 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CJ/CJM/Palm-PDB-1.400.tar.gz

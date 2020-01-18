@@ -1,0 +1,10 @@
+faa4955ac4e36141b67613cad9cc614a
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=dev-util/sgb 
+RDEPEND=dev-util/sgb 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.cc.gatech.edu/fac/Ellen.Zegura/gt-itm/gt-itm.tar.gz -> gt-itm-19961004.tar.gz
+		http://www.isi.edu/nsnam/dist/sgb2ns.tar.gz -> sgb2ns-19961004.tar.gz

@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install postinst prepare
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=6
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

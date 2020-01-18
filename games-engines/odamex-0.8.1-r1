@@ -1,0 +1,10 @@
+dfb5fdac1ac4c1ab05f915711c9ee0b5
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=games-util/deutex 
+DEPEND=  client? (   media-libs/libpng:0=   media-libs/libsdl2[joystick,sound,video]   media-libs/sdl2-mixer   odalaunch? ( x11-libs/wxGTK:3.0-gtk3[X] )   portmidi? ( media-libs/portmidi )   X? ( x11-libs/libX11 )  )  server? (   upnp? ( net-libs/miniupnpc:= )  ) 
+RDEPEND=  client? (   media-libs/libpng:0=   media-libs/libsdl2[joystick,sound,video]   media-libs/sdl2-mixer   odalaunch? ( x11-libs/wxGTK:3.0-gtk3[X] )   portmidi? ( media-libs/portmidi )   X? ( x11-libs/libX11 )  )  server? (   upnp? ( net-libs/miniupnpc:= )  ) 
+EAPI=7
+IUSE=+client master +odalaunch portmidi server upnp X 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/odamex/Odamex/0.8.1/odamex-src-0.8.1.tar.bz2

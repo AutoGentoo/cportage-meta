@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=virtual/perl-ExtUtils-MakeMaker  virtual/perl-Exporter  test? ( virtual/perl-Data-Dumper   virtual/perl-Test   virtual/perl-Test-Simple ) 
+RDEPEND=virtual/perl-Carp 
+EAPI=6
+IUSE=test examples 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KR/KRYDE/constant-defer-6.tar.gz

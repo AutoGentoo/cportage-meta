@@ -1,0 +1,8 @@
+63435be65efffa94116afe3fe8bb73a6
+DEFINED_PHASES= install postinst preinst prepare setup
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=6
+IUSE=build kernel_FreeBSD kernel_linux +split-usr 
+KEYWORDS=
+SLOT=0
+SRC_URI=

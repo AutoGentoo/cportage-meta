@@ -1,0 +1,8 @@
+49d371b475243a5866100b93bd229b68
+DEFINED_PHASES= install postinst postrm
+RDEPEND=sys-devel/gcc:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=

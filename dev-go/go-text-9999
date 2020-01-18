@@ -1,0 +1,8 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= compile install test
+DEPEND=>=dev-go/go-tools-0_pre20180817 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

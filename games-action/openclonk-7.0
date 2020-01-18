@@ -1,0 +1,10 @@
+877f33769b66f667bd0f06f974eb08a9
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare pretend setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-libs/boost-1.40:=  dev-libs/tinyxml  net-libs/libupnp  media-libs/libpng:0=  sys-libs/zlib  !dedicated? (   dev-libs/glib:2   media-libs/freealut   media-libs/freetype:2   media-libs/glew   media-libs/libsdl[X,opengl,sound,video]   media-libs/libvorbis   media-libs/openal   media-libs/sdl-mixer[mp3,vorbis,wav]   virtual/jpeg:0=   virtual/opengl   virtual/glu   x11-libs/gdk-pixbuf   x11-libs/gtk+:3   x11-libs/libXrandr   x11-libs/libX11  )  dedicated? ( sys-libs/readline:0= )  || ( >=sys-devel/gcc-4.9 >=sys-devel/clang-3.3 )  virtual/pkgconfig  doc? (   || ( >=dev-lang/python-2.7.5-r2:2.7 )   dev-libs/libxml2[python]   sys-devel/gettext  ) 
+RDEPEND=  >=dev-libs/boost-1.40:=  dev-libs/tinyxml  net-libs/libupnp  media-libs/libpng:0=  sys-libs/zlib  !dedicated? (   dev-libs/glib:2   media-libs/freealut   media-libs/freetype:2   media-libs/glew   media-libs/libsdl[X,opengl,sound,video]   media-libs/libvorbis   media-libs/openal   media-libs/sdl-mixer[mp3,vorbis,wav]   virtual/jpeg:0=   virtual/opengl   virtual/glu   x11-libs/gdk-pixbuf   x11-libs/gtk+:3   x11-libs/libXrandr   x11-libs/libX11  )  dedicated? ( sys-libs/readline:0= ) 
+EAPI=5
+IUSE=dedicated doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.openclonk.org/builds/release/7.0/openclonk-7.0-src.tar.bz2

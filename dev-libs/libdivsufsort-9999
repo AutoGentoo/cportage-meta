@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare pretend setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=6
+IUSE=openmp 
+KEYWORDS=
+SLOT=0
+SRC_URI=

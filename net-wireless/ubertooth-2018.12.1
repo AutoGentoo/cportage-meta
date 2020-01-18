@@ -1,0 +1,10 @@
+095ba3dfb1bc87828fc3451ffc2aa67c
+DEFINED_PHASES= configure install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=bluez? ( net-wireless/bluez:= )  >=net-libs/libbtbb-2018.12.1:=[static-libs?]  static-libs? ( dev-libs/libusb[static-libs] )  virtual/libusb:1= 
+RDEPEND=bluez? ( net-wireless/bluez:= )  >=net-libs/libbtbb-2018.12.1:=[static-libs?]  static-libs? ( dev-libs/libusb[static-libs] )  virtual/libusb:1=  udev? ( virtual/udev ) 
+EAPI=6
+IUSE=+bluez static-libs +ubertooth1-firmware +udev 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/greatscottgadgets/ubertooth/releases/download/2018-12-R1/ubertooth-2018-12-R1.tar.xz

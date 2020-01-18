@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=x11-libs/xosd 
+RDEPEND=x11-libs/xosd 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GO/GOZER/X-Osd-0.7.tar.gz

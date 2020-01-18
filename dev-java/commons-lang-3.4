@@ -1,0 +1,9 @@
+c4aae5a6e17ce192bc5cc4a0e90104a6
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6  !ppc? (   !ppc64? (    test? (     dev-java/ant-junit4     dev-java/commons-io:1     dev-java/easymock:3.2    )   )  ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x64-solaris
+SLOT=3.4
+SRC_URI=mirror://apache/commons/lang/source/commons-lang3-3.4-src.tar.gz

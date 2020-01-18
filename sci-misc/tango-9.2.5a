@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  net-misc/omniORB  mariadb? ( dev-db/mariadb-connector-c )  !mariadb? ( dev-db/mysql-connector-c )  dbserver? (   mariadb? ( dev-db/mariadb[server] )   !mariadb? ( dev-db/mysql[server] )   virtual/mysql[server] )  java? ( virtual/jdk:* )  zeromq? ( net-libs/zeromq )  
+DEPEND=  net-misc/omniORB  mariadb? ( dev-db/mariadb-connector-c )  !mariadb? ( dev-db/mysql-connector-c )  dbserver? (   mariadb? ( dev-db/mariadb[server] )   !mariadb? ( dev-db/mysql[server] )   virtual/mysql[server] )  java? ( virtual/jdk:* )  zeromq? ( net-libs/zeromq )  
+RDEPEND=  net-misc/omniORB  mariadb? ( dev-db/mariadb-connector-c )  !mariadb? ( dev-db/mysql-connector-c )  dbserver? (   mariadb? ( dev-db/mariadb[server] )   !mariadb? ( dev-db/mysql[server] )   virtual/mysql[server] )  java? ( virtual/jdk:* )  zeromq? ( net-libs/zeromq )  
+EAPI=7
+IUSE=+dbserver java +mariadb +zeromq 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tango-cs/tango-9.2.5a.tar.gz

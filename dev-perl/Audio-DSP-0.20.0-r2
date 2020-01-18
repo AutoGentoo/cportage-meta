@@ -1,0 +1,9 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= test
+DEPEND=dev-lang/perl 
+RDEPEND=dev-lang/perl:= 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 sparc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SE/SETHJ/Audio-DSP-0.02.tar.gz

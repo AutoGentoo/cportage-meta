@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile install prepare
+DEPEND=    javamail? ( dev-java/oracle-javamail:0 )  jms? ( java-virtuals/jms:0 )  >=virtual/jdk-1.6 
+RDEPEND=    javamail? ( dev-java/oracle-javamail:0 )  jms? ( java-virtuals/jms:0 )  >=virtual/jre-1.6 
+EAPI=5
+IUSE=javamail jms 
+KEYWORDS=amd64 ~arm ~arm64 ppc64 x86 ~amd64-linux
+SLOT=0
+SRC_URI=mirror://apache/logging/log4j/1.2.17/log4j-1.2.17.tar.gz

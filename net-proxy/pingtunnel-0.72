@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  net-libs/libpcap  selinux? ( sys-libs/libselinux )  
+RDEPEND=  net-libs/libpcap  selinux? ( sys-libs/libselinux )  
+EAPI=5
+IUSE=doc selinux 
+KEYWORDS=~amd64 ~arm ~ppc ~sh ~x86
+SLOT=0
+SRC_URI=https://www.cs.uit.no/~daniels/PingTunnel/PingTunnel-0.72.tar.gz

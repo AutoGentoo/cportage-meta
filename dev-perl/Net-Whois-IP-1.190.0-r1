@@ -1,0 +1,9 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= test
+DEPEND=  dev-perl/Regexp-IPv6   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  dev-perl/Regexp-IPv6  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BS/BSCHMITZ/Net-Whois-IP-1.19.tar.gz

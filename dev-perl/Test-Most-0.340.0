@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Exception-Class-1.140.0  >=dev-perl/Test-Warn-0.230.0  >=dev-perl/Test-Deep-0.106  >=dev-perl/Test-Differences-0.610.0  >=dev-perl/Test-Exception-0.310.0  >=virtual/perl-Test-Harness-3.210.0  >=virtual/perl-Test-Simple-0.88   >=dev-perl/Module-Build-0.400.0  
+RDEPEND=  >=dev-perl/Exception-Class-1.140.0  >=dev-perl/Test-Warn-0.230.0  >=dev-perl/Test-Deep-0.106  >=dev-perl/Test-Differences-0.610.0  >=dev-perl/Test-Exception-0.310.0  >=virtual/perl-Test-Harness-3.210.0  >=virtual/perl-Test-Simple-0.88  
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/O/OV/OVID/Test-Most-0.34.tar.gz

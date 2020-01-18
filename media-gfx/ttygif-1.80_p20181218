@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  x11-apps/xwd  app-misc/ttyrec  media-gfx/imagemagick 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/icholy/ttygif/archive/362bc381c1c2449509e732d68f07656caf46b420.tar.gz -> ttygif-1.80_p20181218.tar.gz

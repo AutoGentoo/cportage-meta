@@ -1,0 +1,9 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-lang/go:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/opsgenie/opsgenie-lamp/archive/062016b.tar.gz -> opsgenie-lamp-2.5.1_p20181102.tar.gz
+	https://dev.gentoo.org/~williamh/dist/opsgenie-lamp-2.5.1_p20181102-vendor.tar.gz

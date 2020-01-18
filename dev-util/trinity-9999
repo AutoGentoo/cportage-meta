@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=sys-kernel/linux-headers-4.8  
+EAPI=7
+IUSE=examples 
+KEYWORDS=
+SLOT=0
+SRC_URI=

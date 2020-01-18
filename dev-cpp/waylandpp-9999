@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=dev-libs/wayland-1.11.0  media-libs/mesa[wayland]  >=dev-libs/pugixml-1.9-r1   doc? (   app-doc/doxygen   media-gfx/graphviz  )   
+RDEPEND=  >=dev-libs/wayland-1.11.0  media-libs/mesa[wayland]  >=dev-libs/pugixml-1.9-r1  
+EAPI=7
+IUSE=doc 
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare setup
+DEPEND=  sci-biology/uchime  mpi? ( virtual/mpi )  app-arch/unzip 
+RDEPEND=  sci-biology/uchime  mpi? ( virtual/mpi ) 
+EAPI=5
+IUSE=mpi +readline 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.mothur.org/w/images/c/cb/Mothur.1.27.0.zip -> mothur-1.27.0.zip

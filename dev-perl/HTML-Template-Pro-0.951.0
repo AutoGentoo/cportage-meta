@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=virtual/perl-File-Path-2.0.0  virtual/perl-File-Spec  >=dev-perl/JSON-2.0.0   virtual/perl-ExtUtils-MakeMaker  dev-libs/libpcre  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  >=virtual/perl-File-Path-2.0.0  virtual/perl-File-Spec  >=dev-perl/JSON-2.0.0  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/V/VI/VIY/HTML-Template-Pro-0.9510.tar.gz

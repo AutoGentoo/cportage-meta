@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=liquid? ( net-libs/liquid-dsp )   wav? ( media-libs/libsndfile )  
+RDEPEND=liquid? ( net-libs/liquid-dsp )   wav? ( media-libs/libsndfile )  
+EAPI=6
+IUSE=+liquid +wav 
+KEYWORDS=
+SLOT=0
+SRC_URI=

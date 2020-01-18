@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=rtlsdr? ( net-wireless/rtl-sdr:= )  soapy? ( net-wireless/soapysdr:= ) 
+RDEPEND=rtlsdr? ( net-wireless/rtl-sdr:= )  soapy? ( net-wireless/soapysdr:= ) 
+EAPI=6
+IUSE=+rtlsdr soapy 
+KEYWORDS=
+SLOT=0
+SRC_URI=

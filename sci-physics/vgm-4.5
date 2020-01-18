@@ -1,0 +1,10 @@
+44f16246f06699c68ddf77360e021669
+DEFINED_PHASES= compile configure install test
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  sci-physics/clhep:=  root? ( sci-physics/root:=[c++11] )  geant4? ( >=sci-physics/geant-4.10.03 )  doc? ( app-doc/doxygen[dot] )  test? ( sci-physics/geant-vmc[g4root] ) 
+RDEPEND=  sci-physics/clhep:=  root? ( sci-physics/root:=[c++11] )  geant4? ( >=sci-physics/geant-4.10.03 ) 
+EAPI=7
+IUSE=doc examples +geant4 +root test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://ivana.home.cern.ch/ivana/vgm.4.5.tar.gz

@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= compile install prepare
+BDEPEND=dev-util/ftjam  virtual/pkgconfig 
+DEPEND=dev-games/physfs  dev-libs/libxml2:2  media-libs/libsdl[sound,joystick,opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  sys-libs/zlib  virtual/opengl 
+RDEPEND=dev-games/physfs  dev-libs/libxml2:2  media-libs/libsdl[sound,joystick,opengl,video]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  sys-libs/zlib  virtual/opengl 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/lincity-ng/lincity-ng/archive/lincity-ng-2.9-beta.tar.gz -> lincity-ng-2.9_beta.tar.gz

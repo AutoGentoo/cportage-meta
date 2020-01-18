@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install
+BDEPEND=app-arch/unzip 
+RDEPEND=  imagemagick? ( virtual/imagemagick-tools )  dev-lang/php[ctype,exif?,gd?,filter,iconv,json,mysqli]  >=virtual/mysql-5.0  virtual/httpd-php 
+EAPI=7
+IUSE=+exif +gd imagemagick 
+KEYWORDS=~amd64 ~x86
+SLOT=2.10.1
+SRC_URI=http://piwigo.org/download/dlcounter.php?code=2.10.1 -> piwigo-2.10.1.zip

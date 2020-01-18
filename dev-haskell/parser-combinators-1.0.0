@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/semigroups-0.18:=[profile?] <dev-haskell/semigroups-0.19:=[profile?]  >=dev-lang/ghc-7.10.1:=   >=dev-haskell/cabal-1.22.2.0  
+RDEPEND=>=dev-haskell/semigroups-0.18:=[profile?] <dev-haskell/semigroups-0.19:=[profile?]  >=dev-lang/ghc-7.10.1:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/1.0.0
+SRC_URI=https://hackage.haskell.org/package/parser-combinators-1.0.0/parser-combinators-1.0.0.tar.gz

@@ -1,0 +1,10 @@
+bc2fe87ee39bb80463a35bb9d121d628
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  dev-util/gperf  virtual/libiconv  virtual/libintl  virtual/pkgconfig  
+DEPEND=  dev-libs/libutf8proc:=  dev-libs/libuv:0=  >=dev-libs/libvterm-0.1  dev-libs/msgpack:0=  dev-lua/lpeg[luajit=]  dev-lua/luv[luajit=]  dev-lua/mpack[luajit=]  net-libs/libnsl  luajit? ( dev-lang/luajit:2 )  !luajit? (   dev-lang/lua:=   dev-lua/LuaBitOp  )  tui? (   dev-libs/libtermkey   >=dev-libs/unibilium-2.0.0:0=  )  
+RDEPEND=    dev-libs/libutf8proc:=  dev-libs/libuv:0=  >=dev-libs/libvterm-0.1  dev-libs/msgpack:0=  dev-lua/lpeg[luajit=]  dev-lua/luv[luajit=]  dev-lua/mpack[luajit=]  net-libs/libnsl  luajit? ( dev-lang/luajit:2 )  !luajit? (   dev-lang/lua:=   dev-lua/LuaBitOp  )  tui? (   dev-libs/libtermkey   >=dev-libs/unibilium-2.0.0:0=  )   app-eselect/eselect-vi  
+EAPI=7
+IUSE=+luajit +nvimpager +tui 
+KEYWORDS=
+SLOT=0
+SRC_URI=

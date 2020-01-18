@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  media-libs/mesa[egl]  dev-libs/glib:2  >=dev-libs/wayland-1.10  gui-libs/libwpe:1.0  
+RDEPEND=  media-libs/mesa[egl]  dev-libs/glib:2  >=dev-libs/wayland-1.10  gui-libs/libwpe:1.0  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~sparc
+SLOT=1.0
+SRC_URI=https://wpewebkit.org/releases/wpebackend-fdo-1.4.0.tar.xz

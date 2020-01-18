@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=6
+IUSE=otf +ttf 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/IBM/plex/archive/v2.0.0.tar.gz -> ibm-plex-2.0.0.tar.gz

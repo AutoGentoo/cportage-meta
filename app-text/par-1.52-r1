@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=!dev-util/par  !app-arch/par 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~mips ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.nicemice.net/par/Par152.tar.gz

@@ -1,0 +1,9 @@
+d8166a2f07d33ebfa60210bf16a33d0f
+DEFINED_PHASES= install postinst unpack
+DEPEND=sys-devel/binutils-config 
+RDEPEND=sys-devel/binutils-config 
+EAPI=6
+IUSE=
+KEYWORDS=~ppc-aix ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=

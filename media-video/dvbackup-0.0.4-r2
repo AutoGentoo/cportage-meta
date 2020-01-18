@@ -1,0 +1,9 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= compile install prepare
+DEPEND=sys-libs/glibc  dev-libs/popt  sys-libs/zlib 
+RDEPEND=sys-libs/glibc  dev-libs/popt  sys-libs/zlib  media-libs/libdv 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dvbackup/dvbackup-0.0.4.tar.gz

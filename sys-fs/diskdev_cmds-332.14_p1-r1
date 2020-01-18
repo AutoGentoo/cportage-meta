@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install
+DEPEND=dev-libs/openssl 
+RDEPEND=dev-libs/openssl 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ppc ppc64 x86
+SLOT=0
+SRC_URI=http://darwinsource.opendarwin.org/tarballs/apsl/diskdev_cmds-332.14.tar.gz
+		 mirror://gentoo/diskdev_cmds-332.14_p1.patch.bz2

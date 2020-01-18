@@ -1,0 +1,13 @@
+ee5b77234891c2906f36bcbd91822ab1
+DEFINED_PHASES= compile install postinst prepare unpack
+DEPEND=>=virtual/jdk-1.7 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	https://github.com/boot-clj/boot/releases/download/2.7.1/boot.jar -> boot-2.7.1.jar
+	https://raw.githubusercontent.com/boot-clj/boot/2.7.1/README.md -> boot-2.7.1-README.md
+	https://raw.githubusercontent.com/boot-clj/boot/2.7.1/CHANGES.md -> boot-2.7.1-CHANGES.md
+

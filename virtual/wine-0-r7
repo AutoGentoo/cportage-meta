@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=  staging? ( || (   app-emulation/wine-staging[staging]  ) )  || (   app-emulation/wine-vanilla[abi_x86_32=,abi_x86_64=]   app-emulation/wine-staging[abi_x86_32=,abi_x86_64=]  )  !app-emulation/wine:0 
+EAPI=7
+IUSE=+abi_x86_32 +abi_x86_64 staging 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=

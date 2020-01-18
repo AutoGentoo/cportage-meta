@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=xspf? ( >=dev-libs/uriparser-0.6.3 ) 
+RDEPEND=xspf? ( >=dev-libs/uriparser-0.6.3 ) 
+EAPI=7
+IUSE=xspf 
+KEYWORDS=amd64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=http://royale.zerezo.com/fapg/fapg-0.42.tar.gz

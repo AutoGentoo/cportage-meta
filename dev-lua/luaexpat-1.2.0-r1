@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= compile install prepare
+DEPEND=>=dev-lang/lua-5.1[deprecated]  dev-libs/expat  virtual/pkgconfig 
+RDEPEND=>=dev-lang/lua-5.1[deprecated]  dev-libs/expat 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~hppa ~mips x86
+SLOT=0
+SRC_URI=http://matthewwild.co.uk/projects/luaexpat/luaexpat-1.2.0.tar.gz

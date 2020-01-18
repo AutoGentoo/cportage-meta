@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=app-i18n/opencc:=  dev-cpp/glog:=  dev-cpp/yaml-cpp:=  dev-libs/boost:=[nls,threads]  dev-libs/leveldb:=  dev-libs/marisa:=  x11-base/xorg-proto  test? ( dev-cpp/gtest ) 
+RDEPEND=app-i18n/opencc:=  dev-cpp/glog:=  dev-cpp/yaml-cpp:=  dev-libs/boost:=[nls,threads]  dev-libs/leveldb:=  dev-libs/marisa:= 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0/1
+SRC_URI=https://github.com/rime/librime/archive/1.4.0.tar.gz -> librime-1.4.0.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-libs/libpo6-0.8  >=dev-libs/libe-0.11 
+RDEPEND=>=dev-libs/libpo6-0.8  >=dev-libs/libe-0.11 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://hyperdex.org/src/busybee-0.7.0.tar.gz

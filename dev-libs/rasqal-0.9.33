@@ -1,0 +1,10 @@
+9846af45cb0ece38394258cf75118491
+DEFINED_PHASES= configure install prepare
+BDEPEND=  >=sys-devel/bison-3  >=sys-devel/flex-2.5.36  virtual/pkgconfig  test? ( dev-perl/XML-DOM )  
+DEPEND=  >=media-libs/raptor-2.0.15  crypt? (   !mhash? ( dev-libs/libgcrypt:0 )   mhash? ( app-crypt/mhash )  )  !gmp? ( dev-libs/mpfr:= )  gmp? ( dev-libs/gmp:= )  kernel_linux? ( >=sys-apps/util-linux-2.19 )  pcre? ( dev-libs/libpcre )  xml? ( dev-libs/libxml2 )  
+RDEPEND=  >=media-libs/raptor-2.0.15  crypt? (   !mhash? ( dev-libs/libgcrypt:0 )   mhash? ( app-crypt/mhash )  )  !gmp? ( dev-libs/mpfr:= )  gmp? ( dev-libs/gmp:= )  kernel_linux? ( >=sys-apps/util-linux-2.19 )  pcre? ( dev-libs/libpcre )  xml? ( dev-libs/libxml2 )  
+EAPI=7
+IUSE=+crypt gmp kernel_linux +mhash pcre static-libs test xml 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://download.librdf.org/source/rasqal-0.9.33.tar.gz

@@ -1,0 +1,8 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/lm1100.1.0.2a.tar.gz
+	mirror://gentoo/lm1100maint.tar.gz

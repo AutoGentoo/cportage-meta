@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ia64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/e/eunuchs/eunuchs_20050320.1.tar.gz

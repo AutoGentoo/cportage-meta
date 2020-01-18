@@ -1,0 +1,10 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  media-libs/taglib  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  media-libs/taglib  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/DOOMer/qtagger/archive/0e74fe022ddbb689f7bae0460a21be303114029b.tar.gz -> qtagger-1.0.1_p20150402.tar.gz

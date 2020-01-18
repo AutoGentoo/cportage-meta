@@ -1,0 +1,10 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-libs/newt  ppp? ( net-dialup/ppp )  >=net-misc/dahdi-2.5.0  !net-misc/zaptel  >=sys-kernel/linux-headers-2.6.35  virtual/libusb:0 
+RDEPEND=dev-libs/newt  ppp? ( net-dialup/ppp )  >=net-misc/dahdi-2.5.0  !net-misc/zaptel  >=sys-kernel/linux-headers-2.6.35  virtual/libusb:0 
+EAPI=5
+IUSE=ppp 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://downloads.asterisk.org/pub/telephony/dahdi-tools/releases/dahdi-tools-2.10.1.tar.gz
+	mirror://gentoo/gentoo-dahdi-tools-patchset-0.4.tar.bz2

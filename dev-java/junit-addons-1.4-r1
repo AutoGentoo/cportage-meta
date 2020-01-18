@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.4   app-arch/unzip     dev-java/junit:0  dev-java/ant-core:0  dev-java/jdom:0  dev-java/jaxen:1.1   
+RDEPEND=>=virtual/jre-1.4    dev-java/junit:0  dev-java/ant-core:0  dev-java/jdom:0  dev-java/jaxen:1.1   
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86 ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/junit-addons/junit-addons-1.4.zip

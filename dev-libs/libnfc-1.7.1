@@ -1,0 +1,9 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= compile configure install
+DEPEND=pcsc-lite? ( sys-apps/pcsc-lite )  readline? ( sys-libs/readline:0 )  usb? ( virtual/libusb:0 )  doc? ( app-doc/doxygen ) 
+RDEPEND=pcsc-lite? ( sys-apps/pcsc-lite )  readline? ( sys-libs/readline:0 )  usb? ( virtual/libusb:0 ) 
+EAPI=5
+IUSE=doc pcsc-lite readline static-libs usb 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/nfc-tools/libnfc/releases/download/libnfc-1.7.1/libnfc-1.7.1.tar.bz2

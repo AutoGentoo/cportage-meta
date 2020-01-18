@@ -1,0 +1,9 @@
+c468c62b2d960eacea35f5e3d209e378
+DEFINED_PHASES= postinst pretend setup
+DEPEND=virtual/pkgconfig 
+RDEPEND=sys-apps/util-linux  >=dev-python/vobject-0.9.6[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/python-dateutil-2.7.3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  bcrypt? ( dev-python/passlib[bcrypt,python_targets_python3_6(-)?,-python_single_target_python3_6(-)] ) 
+EAPI=6
+IUSE=+bcrypt 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://pypi/R/Radicale/Radicale-2.1.11.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=app-arch/unzip 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ~arm64 x86 ~x64-macos
+SLOT=0
+SRC_URI=https://www.marksimonson.com/assets/content/fonts/AnonymousPro-1.002.zip

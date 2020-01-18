@@ -1,0 +1,9 @@
+fdbcba6ec3c6dd6f7053daaf7574f667
+DEFINED_PHASES= compile install postinst prepare setup unpack
+DEPEND=sys-apps/iproute2 
+RDEPEND=sys-apps/iproute2 
+EAPI=5
+IUSE=ipv6 esfq 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/htbinit/htb.init-v0.8.5

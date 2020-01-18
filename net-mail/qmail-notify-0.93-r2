@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst prepare
+RDEPEND=  virtual/cron  virtual/qmail  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~hppa ~ppc sparc x86
+SLOT=0
+SRC_URI=http://untroubled.org/qmail-notify/archive/qmail-notify-0.93.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=test? ( dev-perl/Perl-Critic   dev-perl/Readonly ) 
+RDEPEND=dev-perl/Perl-Critic 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KC/KCOWGILL/Perl-Critic-Nits-v1.0.0.tar.gz

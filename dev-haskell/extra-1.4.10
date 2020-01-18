@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  test? ( dev-haskell/quickcheck )  
+RDEPEND=>=dev-lang/ghc-7.4.1:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=2/1.4.10
+SRC_URI=https://hackage.haskell.org/package/extra-1.4.10/extra-1.4.10.tar.gz

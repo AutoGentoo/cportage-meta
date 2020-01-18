@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= install prepare
+DEPEND=>=x11-libs/gtk+-2.4:2  >=dev-util/intltool-0.27  virtual/pkgconfig  
+RDEPEND=>=x11-libs/gtk+-2.4:2 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gcolor2/gcolor2-0.4.tar.gz
+	https://dev.gentoo.org/~pacho/gnome/gcolor2.svg

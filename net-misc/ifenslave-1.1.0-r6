@@ -1,0 +1,9 @@
+4e1c376d42d2d1950baa72bf7cb15f5a
+DEFINED_PHASES= compile install preinst
+DEPEND=sys-devel/gcc  >=sys-kernel/linux-headers-2.4.22   
+EAPI=4
+IUSE=
+KEYWORDS=~alpha amd64 ~arm ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/i/ifenslave-2.6/ifenslave-2.6_1.1.0.orig.tar.gz
+	mirror://debian/pool/main/i/ifenslave-2.6/ifenslave-2.6_1.1.0-17.debian.tar.gz

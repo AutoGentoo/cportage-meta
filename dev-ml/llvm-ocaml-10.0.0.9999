@@ -1,0 +1,10 @@
+6f87296c94a7832f844eb1b45f763d18
+DEFINED_PHASES= compile configure install prepare setup test
+BDEPEND=  dev-lang/perl  dev-ml/findlib  test? ( dev-ml/ounit )  || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 ) 
+DEPEND=  >=dev-lang/ocaml-4.00.0:0=  dev-ml/ocaml-ctypes:=  ~sys-devel/llvm-10.0.0.9999:=[llvm_targets_AArch64?,llvm_targets_AMDGPU?,llvm_targets_ARM?,llvm_targets_BPF?,llvm_targets_Hexagon?,llvm_targets_Lanai?,llvm_targets_Mips?,llvm_targets_MSP430?,llvm_targets_NVPTX?,llvm_targets_PowerPC?,llvm_targets_RISCV?,llvm_targets_Sparc?,llvm_targets_SystemZ?,llvm_targets_WebAssembly?,llvm_targets_X86?,llvm_targets_XCore?,llvm_targets_ARC?,llvm_targets_AVR?,debug?]  !sys-devel/llvm[ocaml(-)] 
+RDEPEND=  >=dev-lang/ocaml-4.00.0:0=  dev-ml/ocaml-ctypes:=  ~sys-devel/llvm-10.0.0.9999:=[llvm_targets_AArch64?,llvm_targets_AMDGPU?,llvm_targets_ARM?,llvm_targets_BPF?,llvm_targets_Hexagon?,llvm_targets_Lanai?,llvm_targets_Mips?,llvm_targets_MSP430?,llvm_targets_NVPTX?,llvm_targets_PowerPC?,llvm_targets_RISCV?,llvm_targets_Sparc?,llvm_targets_SystemZ?,llvm_targets_WebAssembly?,llvm_targets_X86?,llvm_targets_XCore?,llvm_targets_ARC?,llvm_targets_AVR?,debug?]  !sys-devel/llvm[ocaml(-)] 
+EAPI=7
+IUSE=debug test llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_Mips llvm_targets_MSP430 llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore llvm_targets_ARC llvm_targets_AVR 
+KEYWORDS=
+SLOT=0/10.0.0.9999
+SRC_URI=

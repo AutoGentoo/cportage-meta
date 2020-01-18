@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtwidgets:5  media-libs/flac  media-libs/libmad  media-libs/libvorbis  media-libs/portaudio  media-libs/taglib   virtual/pkgconfig  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtwidgets:5  media-libs/flac  media-libs/libmad  media-libs/libvorbis  media-libs/portaudio  media-libs/taglib  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Tatsh/bpmdetect/archive/b13aac15904c1f821b1739d00445f49432705387.tar.gz -> bpmdetect-0.7.0_pre20170810.tar.gz

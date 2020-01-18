@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-cpp/eigen:3  dev-libs/boost:=  media-libs/qhull  media-libs/assimp  sci-libs/octomap  dev-ros/random_numbers  dev-ros/resource_retriever  dev-ros/eigen_stl_containers  dev-ros/visualization_msgs[ros_messages_cxx(-)]  dev-ros/shape_msgs[ros_messages_cxx(-)]  dev-libs/console_bridge:=   test? ( dev-cpp/gtest dev-ros/rosunit )  
+RDEPEND=  dev-cpp/eigen:3  dev-libs/boost:=  media-libs/qhull  media-libs/assimp  sci-libs/octomap  dev-ros/random_numbers  dev-ros/resource_retriever  dev-ros/eigen_stl_containers  dev-ros/visualization_msgs[ros_messages_cxx(-)]  dev-ros/shape_msgs[ros_messages_cxx(-)]  dev-libs/console_bridge:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

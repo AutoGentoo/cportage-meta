@@ -1,0 +1,8 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= install
+RDEPEND=  app-cdr/cuetools  media-sound/shntool[mac?]  virtual/libiconv  media-libs/flac  enca? ( app-i18n/enca )  flake? ( media-sound/flake )  mp3? ( media-sound/lame || ( media-libs/mutagen media-libs/id3lib ) )  mp4? ( media-libs/faac media-libs/libmp4v2:0[utils] )  ogg? ( media-sound/vorbis-tools )  wavpack? ( media-sound/wavpack )  replaygain? (   mp3? ( media-sound/mp3gain )   ogg? ( media-sound/vorbisgain )  )  imagemagick? ( media-gfx/imagemagick ) 
+EAPI=7
+IUSE=enca flake imagemagick mac mp3 mp4 ogg replaygain wavpack 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/ftrvxmtrx/split2flac/archive/122.tar.gz -> split2flac-122.tar.gz

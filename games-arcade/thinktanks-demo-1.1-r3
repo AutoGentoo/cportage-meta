@@ -1,0 +1,8 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= install
+RDEPEND=  media-libs/libsdl[video,joystick,abi_x86_32(-)]  media-libs/libogg[abi_x86_32(-)]  media-libs/libvorbis[abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ggdev-1.homelan.com/thinktanks/ThinkTanksDemo_v1.1.sh.bin

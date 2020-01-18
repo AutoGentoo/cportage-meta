@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

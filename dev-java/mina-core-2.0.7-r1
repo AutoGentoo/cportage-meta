@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  dev-java/slf4j-api:0  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/slf4j-api:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://apache/mina/mina/2.0.7/apache-mina-2.0.7-src.tar.bz2 -> mina-core-2.0.7.tar.bz2

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Scalar-List-Utils  >=virtual/perl-version-0.77  !<perl-core/CPAN-Meta-2.120.920   
+RDEPEND=  virtual/perl-Scalar-List-Utils  >=virtual/perl-version-0.77  !<perl-core/CPAN-Meta-2.120.920  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.125.tar.gz

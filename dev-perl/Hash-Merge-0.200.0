@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Clone 
+RDEPEND=dev-perl/Clone 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86 ~ppc-aix ~ppc-macos ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RE/REHSACK/Hash-Merge-0.200.tar.gz

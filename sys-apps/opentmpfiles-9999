@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install postinst prepare
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=!<sys-apps/openrc-0.23  selinux? ( sec-policy/selinux-base-policy ) 
+EAPI=6
+IUSE=selinux 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Exporter  virtual/perl-ExtUtils-Manifest  >=virtual/perl-Test-Simple-0.600.0   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-Exporter  virtual/perl-ExtUtils-Manifest  >=virtual/perl-Test-Simple-0.600.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IS/ISHIGAKI/Test-UseAllModules-0.17.tar.gz

@@ -1,0 +1,10 @@
+88469bc77560d96d2a1d2d8a920e33d0
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=  dev-libs/appstream-glib  dev-libs/libxml2:2  dev-util/itstool  >=sys-devel/gettext-0.19.8  >=sys-kernel/linux-headers-2.6.32  virtual/pkgconfig  
+DEPEND=  >=dev-libs/glib-2.44:2  sys-auth/polkit  gtk? ( >=x11-libs/gtk+-3.22.0:3 )  elogind? ( >=sys-auth/elogind-239.3 )  systemd? ( >=sys-apps/systemd-222:0= )  
+RDEPEND=  >=dev-libs/glib-2.44:2  sys-auth/polkit  gtk? ( >=x11-libs/gtk+-3.22.0:3 )  elogind? ( >=sys-auth/elogind-239.3 )  systemd? ( >=sys-apps/systemd-222:0= )  
+EAPI=7
+IUSE=elogind gtk systemd 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/sysprof/3.32/sysprof-3.32.0.tar.xz

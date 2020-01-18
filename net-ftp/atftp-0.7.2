@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= configure install prepare test
+DEPEND=tcpd? ( sys-apps/tcp-wrappers )  readline? ( sys-libs/readline:0= )  pcre? ( dev-libs/libpcre ) 
+RDEPEND=tcpd? ( sys-apps/tcp-wrappers )  readline? ( sys-libs/readline:0= )  pcre? ( dev-libs/libpcre )  !net-ftp/netkit-tftp  !net-ftp/tftp-hpa  !net-ftp/uftpd  selinux? ( sec-policy/selinux-tftp ) 
+EAPI=7
+IUSE=selinux tcpd readline pcre 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~s390 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/atftp/atftp-0.7.2.tar.gz

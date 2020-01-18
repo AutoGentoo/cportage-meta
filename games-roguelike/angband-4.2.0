@@ -1,0 +1,10 @@
+ee2c19fb0166f3af8a0500dc9ee1c2d0
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=X? (   media-fonts/font-misc-misc   x11-libs/libX11  )  ncurses? ( sys-libs/ncurses:0=[unicode] )  sdl? (   !sdl2? (    media-libs/libsdl[video,X]    media-libs/sdl-image    media-libs/sdl-ttf    sound? (     media-libs/libsdl[sound]     media-libs/sdl-mixer[mp3]    )   )   sdl2? (    media-libs/libsdl2[video,X]    media-libs/sdl2-image    media-libs/sdl2-ttf    sound? (     media-libs/libsdl2[sound]     media-libs/sdl2-mixer[mp3]    )   )  ) 
+RDEPEND=X? (   media-fonts/font-misc-misc   x11-libs/libX11  )  ncurses? ( sys-libs/ncurses:0=[unicode] )  sdl? (   !sdl2? (    media-libs/libsdl[video,X]    media-libs/sdl-image    media-libs/sdl-ttf    sound? (     media-libs/libsdl[sound]     media-libs/sdl-mixer[mp3]    )   )   sdl2? (    media-libs/libsdl2[video,X]    media-libs/sdl2-image    media-libs/sdl2-ttf    sound? (     media-libs/libsdl2[sound]     media-libs/sdl2-mixer[mp3]    )   )  ) 
+EAPI=7
+IUSE=+ncurses sdl sdl2 sound +X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://rephial.org/downloads/4.2/angband-4.2.0.tar.gz

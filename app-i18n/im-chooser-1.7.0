@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=app-i18n/imsettings  virtual/libintl  x11-libs/libSM  gtk2? ( x11-libs/gtk+:2 )  !gtk2? ( x11-libs/gtk+:3 )  xfce? ( xfce-base/libxfce4util )  dev-util/intltool  sys-devel/autoconf-archive  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=app-i18n/imsettings  virtual/libintl  x11-libs/libSM  gtk2? ( x11-libs/gtk+:2 )  !gtk2? ( x11-libs/gtk+:3 )  xfce? ( xfce-base/libxfce4util ) 
+EAPI=6
+IUSE=gtk2 xfce 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=https://releases.pagure.org/im-chooser/im-chooser-1.7.0.tar.bz2

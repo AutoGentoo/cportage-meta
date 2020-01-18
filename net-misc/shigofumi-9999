@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  dev-libs/confuse:0=  dev-libs/libxml2:2  sys-libs/readline:0=  >=net-libs/libisds-0.7  xattr? ( sys-apps/attr )   virtual/pkgconfig  doc? (   app-text/docbook-xsl-stylesheets   dev-libs/libxslt  )  nls? ( sys-devel/gettext )  
+RDEPEND=  dev-libs/confuse:0=  dev-libs/libxml2:2  sys-libs/readline:0=  >=net-libs/libisds-0.7  xattr? ( sys-apps/attr )  
+EAPI=6
+IUSE=debug doc nls xattr 
+KEYWORDS=
+SLOT=0
+SRC_URI=

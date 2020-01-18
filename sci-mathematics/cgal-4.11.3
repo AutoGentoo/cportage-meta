@@ -1,0 +1,12 @@
+aaf4bc1c5ab469b44a302e77950a8c3c
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-cpp/eigen  dev-libs/boost:=[threads]  dev-libs/mpfr:0=  sys-libs/zlib:=  x11-libs/libX11:=  virtual/glu:=  virtual/opengl:=  gmp? ( dev-libs/gmp:=[cxx] )  mpfi? ( sci-libs/mpfi )  ntl? ( dev-libs/ntl )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtopengl:5   dev-qt/qtsvg:5   dev-qt/qtwidgets:5  )  app-arch/xz-utils  virtual/pkgconfig 
+RDEPEND=  dev-cpp/eigen  dev-libs/boost:=[threads]  dev-libs/mpfr:0=  sys-libs/zlib:=  x11-libs/libX11:=  virtual/glu:=  virtual/opengl:=  gmp? ( dev-libs/gmp:=[cxx] )  mpfi? ( sci-libs/mpfi )  ntl? ( dev-libs/ntl )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtopengl:5   dev-qt/qtsvg:5   dev-qt/qtwidgets:5  ) 
+EAPI=6
+IUSE=doc examples +gmp mpfi ntl qt5 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0/13
+SRC_URI=
+	https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.11.3/CGAL-4.11.3.tar.xz
+	doc? ( https://github.com/CGAL/cgal/releases/download/releases%2FCGAL-4.11.3/CGAL-4.11.3-doc_html.tar.xz )

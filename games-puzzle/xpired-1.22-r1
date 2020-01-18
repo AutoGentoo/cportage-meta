@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=media-libs/sdl-gfx  media-libs/sdl-image[jpeg]  media-libs/sdl-mixer[mod] 
+RDEPEND=media-libs/sdl-gfx  media-libs/sdl-image[jpeg]  media-libs/sdl-mixer[mod] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xpired/xpired-1.22-linux_source.tar.gz

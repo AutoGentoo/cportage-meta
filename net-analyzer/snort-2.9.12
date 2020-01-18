@@ -1,0 +1,13 @@
+4822a54292d99b136255b44754370d08
+DEFINED_PHASES= configure install postinst prepare setup
+DEPEND=>=net-libs/libpcap-1.3.0  >=net-libs/daq-2.0.2  >=dev-libs/libpcre-8.33  dev-libs/libdnet  net-libs/libnsl:0=  sys-libs/zlib  !libtirpc? ( sys-libs/glibc[rpc(-)] )  libtirpc? ( net-libs/libtirpc )  open-appid? ( dev-lang/luajit:= )  
+RDEPEND=>=net-libs/libpcap-1.3.0  >=net-libs/daq-2.0.2  >=dev-libs/libpcre-8.33  dev-libs/libdnet  net-libs/libnsl:0=  sys-libs/zlib  !libtirpc? ( sys-libs/glibc[rpc(-)] )  libtirpc? ( net-libs/libtirpc )  open-appid? ( dev-lang/luajit:= )   selinux? ( sec-policy/selinux-snort ) 
+EAPI=6
+IUSE=static +gre +ppm +perfprofiling
++non-ether-decoders control-socket file-inspect high-availability
+shared-rep side-channel sourcefire linux-smp-stats inline-init-failopen
++threads debug +active-response reload-error-restart open-appid
++react +flexresp3 large-pcap-64bit selinux +libtirpc 
+KEYWORDS=~amd64 ~arm ~mips ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://www.snort.org/downloads/archive/snort/snort-2.9.12.tar.gz

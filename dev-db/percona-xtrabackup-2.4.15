@@ -1,0 +1,11 @@
+285b2050de53aacd1e87e0356c84d5b3
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make dev-util/cmake 
+DEPEND=  app-arch/lz4:0=  app-editors/vim-core  dev-libs/libaio  dev-libs/libedit  dev-libs/libev  dev-libs/libevent:0=  dev-libs/libgcrypt:0=  dev-libs/libgpg-error  dev-python/sphinx  net-misc/curl  sys-libs/zlib:= 
+RDEPEND=    app-arch/lz4:0=  app-editors/vim-core  dev-libs/libaio  dev-libs/libedit  dev-libs/libev  dev-libs/libevent:0=  dev-libs/libgcrypt:0=  dev-libs/libgpg-error  dev-python/sphinx  net-misc/curl  sys-libs/zlib:=  !dev-db/percona-xtrabackup-bin  dev-perl/DBD-mysql 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.percona.com/downloads/XtraBackup/Percona-XtraBackup-2.4.15/source/tarball/percona-xtrabackup-2.4.15.tar.gz
+	mirror://sourceforge/boost/boost_1_59_0.tar.gz

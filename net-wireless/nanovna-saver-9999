@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=  dev-python/pyserial[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]  dev-python/PyQt5[python_targets_python3_7(-)?,-python_single_target_python3_7(-)]  dev-python/numpy[python_targets_python3_7(-)?,-python_single_target_python3_7(-)] 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

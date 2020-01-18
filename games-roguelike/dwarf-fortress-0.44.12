@@ -1,0 +1,10 @@
+2fb306f96f13f34753ff50f281fc7e77
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=media-libs/glew:0  media-libs/libsdl[joystick,video]  media-libs/sdl-image[png]  media-libs/sdl-ttf  sys-libs/zlib  virtual/glu  x11-libs/gtk+:2  media-libs/libsndfile  media-libs/openal  sys-libs/ncurses-compat:5[unicode]  virtual/pkgconfig 
+RDEPEND=media-libs/glew:0  media-libs/libsdl[joystick,video]  media-libs/sdl-image[png]  media-libs/sdl-ttf  sys-libs/zlib  virtual/glu  x11-libs/gtk+:2 
+EAPI=6
+IUSE=debug 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( http://www.bay12games.com/dwarves/df_44_12_linux.tar.bz2 )
+	x86? ( http://www.bay12games.com/dwarves/df_44_12_linux32.tar.bz2 )

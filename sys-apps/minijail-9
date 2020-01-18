@@ -1,0 +1,9 @@
+95ed66cb55abee7cabb161eb8b2ae390
+DEFINED_PHASES= compile configure install pretend test
+DEPEND=sys-libs/libcap-ng:=  test? (   virtual/pkgconfig   >=dev-cpp/gtest-1.8.0:=  ) 
+RDEPEND=sys-libs/libcap-ng:= 
+EAPI=7
+IUSE=+seccomp test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/google/minijail/archive/linux-v9.tar.gz -> minijail-9.tar.gz

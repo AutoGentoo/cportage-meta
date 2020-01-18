@@ -1,0 +1,10 @@
+8330c92f3615e95ad42defaed88df58c
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=  dev-qt/linguist-tools:5  virtual/pkgconfig  
+DEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5[jpeg?]  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  media-gfx/exiv2:=  opencv? ( >=media-libs/opencv-3.4:= )  raw? ( media-libs/libraw:= )  tiff? (   dev-qt/qtimageformats:5   media-libs/tiff:0  )  zip? ( dev-libs/quazip[qt5(+)] )  
+RDEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5[jpeg?]  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  media-gfx/exiv2:=  opencv? ( >=media-libs/opencv-3.4:= )  raw? ( media-libs/libraw:= )  tiff? (   dev-qt/qtimageformats:5   media-libs/tiff:0  )  zip? ( dev-libs/quazip[qt5(+)] )  
+EAPI=7
+IUSE=+jpeg +opencv raw tiff zip 
+KEYWORDS=amd64 x86 ~amd64-linux
+SLOT=0
+SRC_URI=https://github.com/nomacs/nomacs/archive/3.12.tar.gz -> nomacs-3.12.tar.gz

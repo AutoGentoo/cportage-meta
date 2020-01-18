@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= install prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    app-crypt/gcr[gtk]  dev-libs/glib:2  net-libs/webkit-gtk:4  x11-libs/gtk+:3  x11-libs/libX11   virtual/pkgconfig  
+RDEPEND=  !sci-chemistry/surf    app-crypt/gcr[gtk]  dev-libs/glib:2  net-libs/webkit-gtk:4  x11-libs/gtk+:3  x11-libs/libX11   !savedconfig? (   >=x11-misc/dmenu-4.7   net-misc/curl   x11-apps/xprop   x11-terms/st  )  
+EAPI=7
+IUSE=savedconfig 
+KEYWORDS=
+SLOT=0
+SRC_URI=

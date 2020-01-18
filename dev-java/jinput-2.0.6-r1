@@ -1,0 +1,9 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.4  dev-java/jutils:0 
+RDEPEND=>=virtual/jre-1.4  dev-java/jutils:0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/jinput/jinput/archive/790b666.tar.gz -> jinput-2.0.6.tar.gz

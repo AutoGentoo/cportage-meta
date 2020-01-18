@@ -1,0 +1,9 @@
+b08201aaf6124eac9f47f79bc470d3b5
+DEFINED_PHASES= compile install prepare setup test
+DEPEND=  virtual/blas  virtual/lapack  virtual/pkgconfig 
+RDEPEND=  virtual/blas  virtual/lapack 
+EAPI=5
+IUSE=doc examples openmp static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.coin-or.org/download/source/Csdp/Csdp-6.1.1.tgz

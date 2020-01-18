@@ -1,0 +1,9 @@
+b81d68336ede9a20ec601c0b9882b1b0
+DEFINED_PHASES= compile install prepare
+DEPEND=!binary? ( sys-devel/dev86 ) 
+EAPI=4
+IUSE=binary debug 
+KEYWORDS=~amd64 ~arm64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://savannah.gnu.org/download/vgabios/vgabios-0.7a.tgz
+	https://dev.gentoo.org/~cardoe/distfiles/vgabios-0.7a-fixes-1.tar.bz2

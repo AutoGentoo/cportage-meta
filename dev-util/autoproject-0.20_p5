@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  sys-devel/autoconf:*  sys-devel/automake:*  test? ( sys-apps/texinfo ) 
+RDEPEND=  sys-devel/autoconf:*  sys-devel/automake:* 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/a/autoproject/autoproject_0.20.orig.tar.gz
+	mirror://debian/pool/main/a/autoproject/autoproject_0.20-5.diff.gz

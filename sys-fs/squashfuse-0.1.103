@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= configure install
+DEPEND=  >=sys-fs/fuse-2.8.6:0=  lzma? ( >=app-arch/xz-utils-5.0.4:= )  zlib? ( >=sys-libs/zlib-1.2.5-r2:= )  lzo? ( >=dev-libs/lzo-2.06:= )  lz4? ( >=app-arch/lz4-0_p106:= )  zstd? ( app-arch/zstd:= )   virtual/pkgconfig 
+RDEPEND=  >=sys-fs/fuse-2.8.6:0=  lzma? ( >=app-arch/xz-utils-5.0.4:= )  zlib? ( >=sys-libs/zlib-1.2.5-r2:= )  lzo? ( >=dev-libs/lzo-2.06:= )  lz4? ( >=app-arch/lz4-0_p106:= )  zstd? ( app-arch/zstd:= )  
+EAPI=7
+IUSE=lz4 lzma lzo static-libs +zlib zstd 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/vasi/squashfuse/releases/download/0.1.103/squashfuse-0.1.103.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=sys-apps/systemd-207  virtual/pkgconfig 
+RDEPEND=>=sys-apps/systemd-207  !sys-fs/eudev  !sys-fs/udev 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  media-gfx/graphviz  >=virtual/perl-Carp-1.10.0  >=virtual/perl-Getopt-Long-2.340.0  virtual/perl-IO  >=dev-perl/IPC-Run-0.600.0  >=dev-perl/libwww-perl-6  >=dev-perl/Parse-RecDescent-1.965.1  >=virtual/perl-Time-HiRes-1.510.0  >=dev-perl/XML-Twig-3.520.0  >=dev-perl/XML-XPath-1.130.0   virtual/perl-ExtUtils-MakeMaker  dev-perl/File-Which  test? (   >=virtual/perl-Test-Simple-1.1.2  )  
+RDEPEND=  media-gfx/graphviz  >=virtual/perl-Carp-1.10.0  >=virtual/perl-Getopt-Long-2.340.0  virtual/perl-IO  >=dev-perl/IPC-Run-0.600.0  >=dev-perl/libwww-perl-6  >=dev-perl/Parse-RecDescent-1.965.1  >=virtual/perl-Time-HiRes-1.510.0  >=dev-perl/XML-Twig-3.520.0  >=dev-perl/XML-XPath-1.130.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RS/RSAVAGE/GraphViz-2.24.tgz

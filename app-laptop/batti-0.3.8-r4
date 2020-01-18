@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm preinst prepare
+RDEPEND=  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  sys-power/upower  x11-themes/hicolor-icon-theme  libnotify? ( x11-libs/libnotify )  
+EAPI=6
+IUSE=libnotify 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://batti-gtk.googlecode.com/files/batti-0.3.8.tar.gz

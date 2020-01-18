@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=>=dev-perl/IO-stringy-1.01  dev-perl/XML-LibXML  dev-perl/XML-Simple 
+RDEPEND=>=dev-perl/IO-stringy-1.01  dev-perl/XML-LibXML  dev-perl/XML-Simple 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SR/SREZIC/Image-Info-1.41.tar.gz

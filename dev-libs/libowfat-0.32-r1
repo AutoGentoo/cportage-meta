@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile install setup
+DEPEND=diet? ( >=dev-libs/dietlibc-0.33_pre20090721 )  >=sys-apps/sed-4 
+RDEPEND=diet? ( >=dev-libs/dietlibc-0.33_pre20090721 ) 
+EAPI=7
+IUSE=diet 
+KEYWORDS=amd64 hppa sparc x86
+SLOT=0
+SRC_URI=https://www.fefe.de/libowfat/libowfat-0.32.tar.xz

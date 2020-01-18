@@ -1,0 +1,9 @@
+13c399389c222bb283b50db93cff8e80
+DEFINED_PHASES= configure prepare test
+DEPEND=  >=dev-libs/glib-2.32:2  x11-libs/gdk-pixbuf:2  >=x11-libs/gtk+-3.15.3:3  >=x11-libs/libnotify-0.7.0:=  x11-libs/pango   >=app-admin/packagekit-base-0.9.1  >=media-libs/libcanberra-0.10[gtk3]  >=sys-apps/dbus-1.1.2   media-libs/fontconfig  x11-libs/libX11   systemd? ( >=sys-apps/systemd-42 )  !systemd? ( sys-auth/consolekit )  udev? ( dev-libs/libgudev:= )   app-text/docbook-sgml-utils  dev-libs/appstream-glib  >=dev-util/gtk-doc-am-1.9  dev-libs/libxslt  >=sys-devel/gettext-0.19.7  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.32:2  x11-libs/gdk-pixbuf:2  >=x11-libs/gtk+-3.15.3:3  >=x11-libs/libnotify-0.7.0:=  x11-libs/pango   >=app-admin/packagekit-base-0.9.1  >=media-libs/libcanberra-0.10[gtk3]  >=sys-apps/dbus-1.1.2   media-libs/fontconfig  x11-libs/libX11   systemd? ( >=sys-apps/systemd-42 )  !systemd? ( sys-auth/consolekit )  udev? ( dev-libs/libgudev:= )  
+EAPI=6
+IUSE=systemd udev 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-packagekit/3.24/gnome-packagekit-3.24.0.tar.xz

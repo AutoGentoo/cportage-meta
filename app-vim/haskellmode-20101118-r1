@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= postinst
+DEPEND=  || ( >=app-editors/vim-7.1  >=app-editors/gvim-7.1 ) 
+RDEPEND=  dev-lang/ghc[doc]  net-misc/wget 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://code.haskell.org/~wwolff/haskellmode/haskellmode-20101118.tar.bz2

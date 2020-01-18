@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  !sys-libs/glibc  !sys-libs/uclibc 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=~amd64 ~arm ~mips ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/pullmoll/musl-rpmatch/archive/v1.0.tar.gz -> rpmatch-standalone-1.0.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=>=dev-lang/go-1.10 
+DEPEND=seccomp? ( sys-libs/libseccomp ) 
+RDEPEND=seccomp? ( sys-libs/libseccomp )  app-emulation/runc 
+EAPI=7
+IUSE=seccomp 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/genuinetools/img/archive/v0.5.7.tar.gz -> img-0.5.7.tar.gz

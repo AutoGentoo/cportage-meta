@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=sys-power/acpi_call  dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/teleshoes/tpacpi-bat/archive/v3.0.tar.gz -> tpacpi-bat-3.0.tar.gz

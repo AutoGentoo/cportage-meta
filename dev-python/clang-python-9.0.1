@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=  >=sys-devel/clang-9.0.1:*  !sys-devel/llvm:0[clang(-),python(-)]  !sys-devel/clang:0[python(-)]  python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+RDEPEND=  >=sys-devel/clang-9.0.1:*  !sys-devel/llvm:0[clang(-),python(-)]  !sys-devel/clang:0[python(-)]  python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=
+				https://github.com/llvm/llvm-project/archive/llvmorg-9.0.1.tar.gz

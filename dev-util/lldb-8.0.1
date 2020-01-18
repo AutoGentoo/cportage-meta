@@ -1,0 +1,11 @@
+53a151ffcb111371ff377a98ae47013e
+DEFINED_PHASES= configure install setup test unpack
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.7.0-r1 
+DEPEND=  libedit? ( dev-libs/libedit:0= )  ncurses? ( >=sys-libs/ncurses-5.9-r3:0= )  python? ( dev-python/six[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  ~sys-devel/clang-8.0.1[xml]  ~sys-devel/llvm-8.0.1  !<sys-devel/llvm-4.0  python? ( >=dev-lang/swig-3.0.11 )  test? ( ~dev-python/lit-8.0.1[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] )  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
+RDEPEND=  libedit? ( dev-libs/libedit:0= )  ncurses? ( >=sys-libs/ncurses-5.9-r3:0= )  python? ( dev-python/six[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  ~sys-devel/clang-8.0.1[xml]  ~sys-devel/llvm-8.0.1  !<sys-devel/llvm-4.0 
+EAPI=6
+IUSE=libedit ncurses +python test 
+KEYWORDS=amd64 arm arm64 x86
+SLOT=0
+SRC_URI=https://github.com/llvm/llvm-project/releases/download/llvmorg-8.0.1/lldb-8.0.1.src.tar.xz
+	test? ( https://github.com/llvm/llvm-project/releases/download/llvmorg-8.0.1/llvm-8.0.1.src.tar.xz )

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-File-Spec  virtual/perl-Exporter  virtual/perl-Getopt-Long   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Devel-FindPerl   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  virtual/perl-File-Spec  virtual/perl-Exporter  virtual/perl-Getopt-Long  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NE/NEILB/Module-Path-0.19.tar.gz

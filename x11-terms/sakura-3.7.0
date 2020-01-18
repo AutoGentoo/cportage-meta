@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= postinst postrm prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=    >=dev-libs/glib-2.20:2  >=x11-libs/gtk+-3.20:3[X]  x11-libs/libX11  >=x11-libs/vte-0.50:2.91   >=dev-lang/perl-5.10.1  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.20:2  >=x11-libs/gtk+-3.20:3[X]  x11-libs/libX11  >=x11-libs/vte-0.50:2.91  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x86-linux
+SLOT=0
+SRC_URI=https://launchpad.net/sakura/trunk/3.7.0/+download/sakura-3.7.0.tar.gz

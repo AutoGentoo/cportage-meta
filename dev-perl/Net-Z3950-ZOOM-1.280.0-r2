@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-libs/yaz-2.1.50  dev-perl/MARC-Record  
+RDEPEND=>=dev-libs/yaz-2.1.50  dev-perl/MARC-Record  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MI/MIRK/Net-Z3950-ZOOM-1.28.tar.gz

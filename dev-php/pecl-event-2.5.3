@@ -1,0 +1,10 @@
+0f0314bccd9de70a009fd9c037874232
+DEFINED_PHASES= configure test
+BDEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php7-1? ( dev-lang/php:7.1 ) php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 ) php_targets_php7-4? ( dev-lang/php:7.4 )  
+DEPEND=  >=dev-libs/libevent-2.0.2  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  php_targets_php7-1? ( dev-lang/php:7.1[sockets?] )  php_targets_php7-2? ( dev-lang/php:7.2[sockets?] )  php_targets_php7-3? ( dev-lang/php:7.3[sockets?] )  php_targets_php7-4? ( dev-lang/php:7.4[sockets?] ) 
+RDEPEND=    >=dev-libs/libevent-2.0.2  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  php_targets_php7-1? ( dev-lang/php:7.1[sockets?] )  php_targets_php7-2? ( dev-lang/php:7.2[sockets?] )  php_targets_php7-3? ( dev-lang/php:7.3[sockets?] )  php_targets_php7-4? ( dev-lang/php:7.4[sockets?] )  !dev-php/pecl-libevent 
+EAPI=7
+IUSE=debug examples +extra libressl +sockets +ssl threads 
+KEYWORDS=amd64 ia64 x86
+SLOT=0
+SRC_URI=https://pecl.php.net/get/event-2.5.3.tgz

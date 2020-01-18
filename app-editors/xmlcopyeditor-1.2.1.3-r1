@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  app-text/aspell  dev-libs/libxml2  dev-libs/libxslt  dev-libs/xerces-c[icu]  dev-libs/libpcre  !aqua? ( x11-libs/wxGTK:3.0[X] )  aqua? ( x11-libs/wxGTK:3.0[aqua] )   dev-libs/boost  dev-util/intltool  
+RDEPEND=  app-text/aspell  dev-libs/libxml2  dev-libs/libxslt  dev-libs/xerces-c[icu]  dev-libs/libpcre  !aqua? ( x11-libs/wxGTK:3.0[X] )  aqua? ( x11-libs/wxGTK:3.0[aqua] )  
+EAPI=6
+IUSE=aqua nls 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/xml-copy-editor/xmlcopyeditor-1.2.1.3.tar.gz

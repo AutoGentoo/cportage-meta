@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile configure prepare
+DEPEND=  virtual/pkgconfig    ncurses? ( >=sys-libs/ncurses-5.5:= )  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf   =x11-libs/gtk+-2*  )  >=net-libs/libnet-1.1.2  >=net-libs/libpcap-0.9.4   
+RDEPEND=  ncurses? ( >=sys-libs/ncurses-5.5:= )  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf   =x11-libs/gtk+-2*  )  >=net-libs/libnet-1.1.2  >=net-libs/libpcap-0.9.4  
+EAPI=6
+IUSE=gtk ncurses 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/tomac/yersinia/archive/v0.8.2.tar.gz -> yersinia-0.8.2.tar.gz

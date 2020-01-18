@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=  virtual/blas  virtual/lapack  virtual/pkgconfig  doc? (   virtual/latex-base   dev-texlive/texlive-latexextra  ) 
+RDEPEND=  virtual/blas  virtual/lapack 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/project/mcmc-jags/JAGS/4.x/Source/JAGS-4.1.0.tar.gz

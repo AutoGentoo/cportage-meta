@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=>=dev-lang/lua-5.1:=  virtual/pkgconfig 
+DEPEND=>=dev-lang/lua-5.1:= 
+RDEPEND=>=dev-lang/lua-5.1:=  www-servers/nginx[nginx_modules_http_lua] 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/knyar/nginx-lua-prometheus/archive/0.1-20170610.tar.gz -> nginx-lua-prometheus-0.1_pre20170610.tar.gz

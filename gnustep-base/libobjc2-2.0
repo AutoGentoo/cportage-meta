@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=boehm-gc? ( dev-libs/boehm-gc )  sys-libs/libcxx  sys-devel/clang 
+RDEPEND=boehm-gc? ( dev-libs/boehm-gc )  sys-libs/libcxx 
+EAPI=7
+IUSE=boehm-gc test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/gnustep/libobjc2/archive/v2.0.tar.gz -> libobjc2-2.0.tar.gz

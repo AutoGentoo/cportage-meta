@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= configure prepare
+DEPEND=~dev-python/pypax-9999[ptpax=,xtpax=]  ptpax? ( dev-libs/elfutils )  xtpax? ( sys-apps/attr ) 
+RDEPEND=~dev-python/pypax-9999[ptpax=,xtpax=]  ptpax? ( dev-libs/elfutils )  xtpax? ( sys-apps/attr ) 
+EAPI=6
+IUSE=+ptpax +xtpax 
+KEYWORDS=
+SLOT=0
+SRC_URI=

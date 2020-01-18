@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/glib:2  net-libs/libsoup  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  x11-libs/pango  virtual/pkgconfig 
+RDEPEND=  dev-libs/glib:2  net-libs/libsoup  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  x11-libs/pango 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~hasufell/distfiles/hardinfo-0.5.2_pre20130823.tar.xz

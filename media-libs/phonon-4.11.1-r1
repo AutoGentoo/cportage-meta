@@ -1,0 +1,11 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure install
+BDEPEND=  dev-qt/linguist-tools:5  virtual/pkgconfig  
+DEPEND=  dev-qt/qtgui:5  dev-qt/qtwidgets:5  designer? ( dev-qt/designer:5 )  pulseaudio? (   dev-libs/glib:2   media-sound/pulseaudio[glib]  )  
+RDEPEND=  dev-qt/qtgui:5  dev-qt/qtwidgets:5  designer? ( dev-qt/designer:5 )  pulseaudio? (   dev-libs/glib:2   media-sound/pulseaudio[glib]  )  
+PDEPEND=  gstreamer? ( >=media-libs/phonon-gstreamer-4.9.60 )  vlc? ( >=media-libs/phonon-vlc-0.9.60 )  
+EAPI=7
+IUSE=debug designer gstreamer pulseaudio +vlc 
+KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://kde/stable/phonon/4.11.1/phonon-4.11.1.tar.xz

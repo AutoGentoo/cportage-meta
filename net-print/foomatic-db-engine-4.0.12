@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=net-print/cups  virtual/pkgconfig 
+RDEPEND=  dev-libs/libxml2  >=net-print/cups-filters-1.0.43-r1[foomatic]  
+PDEPEND=net-print/foomatic-db 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86
+SLOT=0
+SRC_URI=http://www.openprinting.org/download/foomatic/foomatic-db-engine-4.0.12.tar.gz

@@ -1,0 +1,9 @@
+7e6e55e77919615ecb18722ed9c19789
+DEFINED_PHASES= config configure install postinst prepare
+DEPEND=  >=sys-process/cronbase-0.3.2  virtual/mta  sys-apps/ucspi-unix  virtual/daemontools   || ( >=dev-lang/python-2.7.5-r2:2.7 )  >=dev-libs/bglibs-1.106  
+RDEPEND=  >=sys-process/cronbase-0.3.2  virtual/mta  sys-apps/ucspi-unix  virtual/daemontools  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://untroubled.org/bcron/archive/bcron-0.10.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  virtual/jpeg  >=sys-libs/zlib-1.1.4 
+RDEPEND=  virtual/jpeg  >=sys-libs/zlib-1.1.4 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/vncsnapshot/vncsnapshot-1.2a-src.tar.bz2

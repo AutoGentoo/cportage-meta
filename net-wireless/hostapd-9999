@@ -1,0 +1,9 @@
+b065c000eb19e1eb9a7ca7278249b07d
+DEFINED_PHASES= compile configure install postinst prepare pretend unpack
+DEPEND=  libressl? ( dev-libs/libressl:0= )  !libressl? (   internal-tls? ( dev-libs/libtommath )   !internal-tls? ( dev-libs/openssl:0=[-bindist] )  )  kernel_linux? (   dev-libs/libnl:3   crda? ( net-wireless/crda )  )  netlink? ( net-libs/libnfnetlink )  sqlite? ( >=dev-db/sqlite-3 ) 
+RDEPEND=  libressl? ( dev-libs/libressl:0= )  !libressl? (   internal-tls? ( dev-libs/libtommath )   !internal-tls? ( dev-libs/openssl:0=[-bindist] )  )  kernel_linux? (   dev-libs/libnl:3   crda? ( net-wireless/crda )  )  netlink? ( net-libs/libnfnetlink )  sqlite? ( >=dev-db/sqlite-3 ) 
+EAPI=6
+IUSE=internal-tls ipv6 libressl logwatch netlink sqlite +wps +crda 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~andrey_utkin/distfiles/net-wireless_hostapd_2.7-r2_extras.tar.xz

@@ -1,0 +1,10 @@
+6092a069c3f16ac76271f4de26ee3256
+DEFINED_PHASES= install prepare setup
+BDEPEND=  app-arch/gzip  sys-apps/help2man  test? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) )  
+DEPEND=dev-lang/perl  >=sys-devel/automake-wrapper-11  >=sys-devel/autoconf-2.69:*  sys-devel/gnuconfig 
+RDEPEND=dev-lang/perl  >=sys-devel/automake-wrapper-11  >=sys-devel/autoconf-2.69:*  sys-devel/gnuconfig 
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=9999
+SRC_URI=

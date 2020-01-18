@@ -1,0 +1,9 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.6  dev-java/osgi-compendium:0  dev-java/osgi-core-api:0 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=mirror://apache/felix/org.apache.felix.gogo.runtime-0.10.0-project.tar.gz

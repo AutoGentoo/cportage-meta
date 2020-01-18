@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm preinst
+DEPEND=app-arch/unzip 
+RDEPEND=>=games-engines/love-0.7.2:0.7   media-libs/devil[png]  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://stabyourself.net/dl.php?file=notpacman-1004/notpacman-linux.zip -> notpacman-1.0.4.zip
+	https://dev.gentoo.org/~chewi/distfiles/notpacman.png

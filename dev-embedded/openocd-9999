@@ -1,0 +1,10 @@
+f0aefbac3b1ab7985fc6bc370d4ca355
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  acct-group/plugdev  >=dev-lang/jimtcl-0.76:0=  cmsis-dap? ( dev-libs/hidapi )  jlink? ( dev-embedded/libjaylink )  usb? (   virtual/libusb:0   virtual/libusb:1  )  ftdi? ( dev-embedded/libftdi:= )  virtual/pkgconfig >=sys-apps/texinfo-5 
+RDEPEND=  acct-group/plugdev  >=dev-lang/jimtcl-0.76:0=  cmsis-dap? ( dev-libs/hidapi )  jlink? ( dev-embedded/libjaylink )  usb? (   virtual/libusb:0   virtual/libusb:1  )  ftdi? ( dev-embedded/libftdi:= ) 
+EAPI=7
+IUSE=+cmsis-dap dummy +ftdi +jlink parport +usb verbose-io 
+KEYWORDS=
+SLOT=0
+SRC_URI=

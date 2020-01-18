@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install pretend
+DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/2.10
+SRC_URI=http://lttng.org/files/lttng-modules/lttng-modules-2.10.12.tar.bz2

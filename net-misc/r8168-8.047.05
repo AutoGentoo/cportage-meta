@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install nofetch setup
+DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=7
+IUSE=kernel_linux  
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=r8168-8.047.05.tar.bz2

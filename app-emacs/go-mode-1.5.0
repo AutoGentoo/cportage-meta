@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/dominikh/go-mode.el/archive/v1.5.0.tar.gz -> go-mode-1.5.0.tar.gz

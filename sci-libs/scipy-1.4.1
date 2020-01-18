@@ -1,0 +1,14 @@
+83144098b2b74443352d99e92a0ced90
+DEFINED_PHASES= postinst unpack
+DEPEND=  >=dev-python/numpy-1.10[lapack,python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  sci-libs/arpack:0=  virtual/cblas  virtual/lapack  sparse? ( sci-libs/umfpack:0= )  dev-lang/swig  >=dev-python/cython-0.29.13[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  >=dev-python/setuptools-36[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  dev-python/pybind11[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  virtual/pkgconfig  doc? ( app-arch/unzip )  test? (   dev-python/nose[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]   dev-python/pytest[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  ) 
+RDEPEND=  >=dev-python/numpy-1.10[lapack,python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  sci-libs/arpack:0=  virtual/cblas  virtual/lapack  sparse? ( sci-libs/umfpack:0= )  dev-python/pillow[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] 
+EAPI=6
+IUSE=doc sparse test 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=
+	mirror://pypi/s/scipy/scipy-1.4.1.tar.gz
+	doc? (
+		https://docs.scipy.org/doc/scipy-1.4.1/scipy-html-1.4.1.zip -> scipy-1.4.1-html.zip
+		https://docs.scipy.org/doc/scipy-1.4.1/scipy-ref-1.4.1.pdf -> scipy-1.4.1-ref.pdf
+	)

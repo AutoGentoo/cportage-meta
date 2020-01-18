@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile configure install prepare
+DEPEND=static? ( sys-libs/ncurses[-gpm] dev-libs/popt[static-libs] )  !static? ( sys-libs/ncurses dev-libs/popt ) 
+RDEPEND=static? ( sys-libs/ncurses[-gpm] dev-libs/popt[static-libs] )  !static? ( sys-libs/ncurses dev-libs/popt ) 
+EAPI=4
+IUSE=static 
+KEYWORDS=amd64 ~arm ~mips ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=ftp://ftp.berlios.de/pub/spew/1.0.8/spew-1.0.8.tgz

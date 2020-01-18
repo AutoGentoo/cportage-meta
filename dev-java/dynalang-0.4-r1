@@ -1,0 +1,9 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6  test? (   dev-java/emma:0   dev-java/junit:0   dev-java/ant-junit:0  ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/dynalang/dynalang/dynalang-mop-0.4.tgz

@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install prepare
+DEPEND=    ~media-libs/ilmbase-2.3.0:=  ~media-libs/openexr-2.3.0:=  virtual/opengl  x11-libs/fltk:1[opengl]  cg? ( media-gfx/nvidia-cg-toolkit )   virtual/pkgconfig  
+RDEPEND=  ~media-libs/ilmbase-2.3.0:=  ~media-libs/openexr-2.3.0:=  virtual/opengl  x11-libs/fltk:1[opengl]  cg? ( media-gfx/nvidia-cg-toolkit )  
+EAPI=6
+IUSE=cg 
+KEYWORDS=~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/openexr/openexr/releases/download/v2.3.0/openexr_viewers-2.3.0.tar.gz

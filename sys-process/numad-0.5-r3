@@ -1,0 +1,8 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= compile install prepare
+BDEPEND=virtual/pkgconfig 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 -arm ~arm64 ~ppc64 -s390 x86
+SLOT=0
+SRC_URI=mirror://gentoo/numad-0.5-334278f.tar.bz2

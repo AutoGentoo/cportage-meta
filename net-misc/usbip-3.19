@@ -1,0 +1,9 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=>=dev-libs/glib-2.6  sys-apps/hwids  >=sys-kernel/linux-headers-3.17  virtual/libudev  tcpd? ( sys-apps/tcp-wrappers )  virtual/pkgconfig 
+RDEPEND=>=dev-libs/glib-2.6  sys-apps/hwids  >=sys-kernel/linux-headers-3.17  virtual/libudev  tcpd? ( sys-apps/tcp-wrappers ) 
+EAPI=5
+IUSE=static-libs tcpd 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.19.tar.xz

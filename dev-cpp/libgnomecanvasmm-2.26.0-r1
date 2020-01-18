@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install prepare
+DEPEND=  >=gnome-base/libgnomecanvas-2.6  >=dev-cpp/gtkmm-2.4:2.4   virtual/pkgconfig  doc? ( app-doc/doxygen )  
+RDEPEND=  >=gnome-base/libgnomecanvas-2.6  >=dev-cpp/gtkmm-2.4:2.4  
+EAPI=5
+IUSE=doc examples 
+KEYWORDS=alpha amd64 arm ia64 ppc ppc64 ~sh sparc x86
+SLOT=2.6
+SRC_URI=mirror://gnome/sources/libgnomecanvasmm/2.26/libgnomecanvasmm-2.26.0.tar.bz2

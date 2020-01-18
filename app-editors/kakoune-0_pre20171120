@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= configure install prepare setup
+DEPEND=  app-text/asciidoc  virtual/pkgconfig    sys-libs/ncurses:0=[unicode]   
+RDEPEND=  sys-libs/ncurses:0=[unicode]  
+EAPI=6
+IUSE=debug static 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/mawww/kakoune/tarball/079b006cdab6f0ae594f80fff18ad61b71b0754d -> kakoune-0_pre20171120.tar.gz

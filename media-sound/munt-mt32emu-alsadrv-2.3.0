@@ -1,0 +1,9 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=media-libs/alsa-lib  media-libs/munt-mt32emu  X? (   x11-libs/libX11   x11-libs/libXpm   x11-libs/libXt  ) 
+RDEPEND=media-libs/alsa-lib  media-libs/munt-mt32emu  X? (   x11-libs/libX11   x11-libs/libXpm   x11-libs/libXt  ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/munt/munt/archive/munt_2_3_0.tar.gz

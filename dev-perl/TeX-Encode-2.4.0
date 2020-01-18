@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  >=virtual/perl-Encode-0.100.0  >=dev-perl/HTML-Parser-3.670.0  >=dev-perl/Pod-LaTeX-0.560.0   >=virtual/perl-CPAN-Meta-Requirements-2.120.620  virtual/perl-ExtUtils-MakeMaker  virtual/perl-Module-Metadata  test? (   virtual/perl-File-Spec   virtual/perl-IO   >=virtual/perl-Test-Simple-0.100.0  )  
+RDEPEND=  virtual/perl-Carp  >=virtual/perl-Encode-0.100.0  >=dev-perl/HTML-Parser-3.670.0  >=dev-perl/Pod-LaTeX-0.560.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AT/ATHREEF/TeX-Encode-2.004.tar.gz

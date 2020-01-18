@@ -1,0 +1,13 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  net-libs/libpcap  sys-libs/db:*  
+RDEPEND=    net-libs/libpcap  sys-libs/db:*   
+EAPI=7
+IUSE=ipv6 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=
+	https://www.frenchfries.net/paul/tcpstat/tcpstat-1.5.tar.gz
+	mirror://debian/pool/main/t/tcpstat/tcpstat_1.5-8.debian.tar.xz
+

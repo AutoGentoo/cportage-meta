@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.60.0:5 
+DEPEND=   >=kde-frameworks/kcodecs-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-apps/kmime-19.04.3:5   >=dev-qt/qtnetwork-5.12.3:5[ssl]  dev-libs/cyrus-sasl:2  
+RDEPEND=   >=kde-frameworks/kcodecs-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-apps/kmime-19.04.3:5   >=dev-qt/qtnetwork-5.12.3:5[ssl]  dev-libs/cyrus-sasl:2  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=5
+SRC_URI=mirror://kde/unstable/kimap2/0.3.0/src/kimap2-0.3.0.tar.xz

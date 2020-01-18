@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=app-arch/unzip 
+EAPI=7
+IUSE=examples 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/fann/FANN-2.2.0-Source.zip

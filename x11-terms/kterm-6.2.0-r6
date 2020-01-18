@@ -1,0 +1,11 @@
+cbe9f04634d17097b17fdddcc6606f42
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=app-text/rman  sys-libs/ncurses:=  x11-libs/libXaw  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libxkbfile  Xaw3d? ( x11-libs/libXaw3d )  x11-misc/gccmakedep  x11-misc/imake 
+RDEPEND=app-text/rman  sys-libs/ncurses:=  x11-libs/libXaw  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libxkbfile  Xaw3d? ( x11-libs/libXaw3d ) 
+EAPI=6
+IUSE=Xaw3d 
+KEYWORDS=-alpha amd64 ~ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://gentoo/kterm-6.2.0.tar.gz
+	mirror://gentoo/kterm-6.2.0-wpi.patch.gz
+	mirror://gentoo/kterm-6.2.0.ext02.patch.gz

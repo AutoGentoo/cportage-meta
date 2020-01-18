@@ -1,0 +1,10 @@
+095ba3dfb1bc87828fc3451ffc2aa67c
+DEFINED_PHASES= configure install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=bluez? ( net-wireless/bluez:= )  >=net-libs/libbtbb-9999:=[static-libs?]  static-libs? ( dev-libs/libusb[static-libs] )  virtual/libusb:1=  udev? ( virtual/udev ) 
+EAPI=6
+IUSE=+bluez static-libs +ubertooth1-firmware +udev 
+KEYWORDS=
+SLOT=0
+SRC_URI=

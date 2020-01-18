@@ -1,0 +1,10 @@
+4aa7acaf30c26a34d5aea2d8b9421e87
+DEFINED_PHASES= configure install preinst prepare setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-lang/perl 
+EAPI=7
+IUSE=authonly examples ipv6 
+KEYWORDS=amd64 ~mips ~ppc x86
+SLOT=0
+SRC_URI=http://www.maradns.org/download/2.0/2.0.16/maradns-2.0.16.tar.bz2

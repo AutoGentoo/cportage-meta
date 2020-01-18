@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=5
+IUSE=
+KEYWORDS=-* ~mips
+SLOT=0
+SRC_URI=ftp://ftp.linux-mips.org/pub/linux/mips/people/skylark/sgibootcd-0.12.tar.bz2

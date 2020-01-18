@@ -1,0 +1,10 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= configure prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/libxml2:2  net-misc/curl  sys-fs/fuse:0  gnutls? ( net-libs/gnutls:= )  nettle? ( dev-libs/nettle:= )  nss? ( dev-libs/nss )  openssl? ( dev-libs/openssl:0= )  
+RDEPEND=  dev-libs/libxml2:2  net-misc/curl  sys-fs/fuse:0  gnutls? ( net-libs/gnutls:= )  nettle? ( dev-libs/nettle:= )  nss? ( dev-libs/nss )  openssl? ( dev-libs/openssl:0= )   app-misc/mime-types  
+EAPI=7
+IUSE=gnutls nettle nss +openssl test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.85.tar.gz -> s3fs-1.85.tar.gz

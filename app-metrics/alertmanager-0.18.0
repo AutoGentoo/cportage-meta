@@ -1,0 +1,8 @@
+0b8b7b9ccc992e1d3f8fa2703ec0fbe0
+DEFINED_PHASES= compile install prepare setup
+DEPEND=>=dev-lang/go-1.11  dev-util/promu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prometheus/alertmanager/archive/v0.18.0.tar.gz -> alertmanager-0.18.0.tar.gz

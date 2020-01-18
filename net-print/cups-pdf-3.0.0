@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  net-print/cups  app-text/ghostscript-gpl  
+RDEPEND=  net-print/cups  app-text/ghostscript-gpl  
+EAPI=6
+IUSE=+ppds 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=https://www.cups-pdf.de/src/cups-pdf_3.0.0.tar.gz

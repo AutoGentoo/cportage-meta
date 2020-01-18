@@ -1,0 +1,14 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile install postinst postrm
+DEPEND=app-arch/unzip 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://argouml-downloads.tigris.org/nonav/argouml-0.34/ArgoUML-0.34.tar.gz
+	http://argouml-downloads.tigris.org/nonav/argouml-db-1.0/dbuml-module-1.0.4.zip
+	doc? (
+		http://argouml-downloads.tigris.org/nonav/argouml-0.34/manual-0.34.pdf
+		http://argouml-downloads.tigris.org/nonav/argouml-0.34/quickguide-0.34.pdf
+	)

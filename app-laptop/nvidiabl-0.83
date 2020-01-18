@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile pretend
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/guillaumezin/nvidiabl/archive/v0.83.tar.gz -> nvidiabl-0.83.tar.gz

@@ -1,0 +1,9 @@
+2b7fd251691fc2e46eef930e0c64e5a5
+DEFINED_PHASES= compile configure install postinst postrm prepare
+DEPEND=x11-libs/libICE  x11-libs/libSM  x11-libs/libXrender  x11-libs/libXmu  imlib? ( media-libs/imlib2[X] )  !imlib? (   gif? ( media-libs/giflib:= )   png? ( >=media-libs/libpng-1.4:0= )  )  truetype? (   x11-libs/libXft   media-libs/fontconfig  )  emacs? ( >=app-editors/emacs-23.1:* )  m17n-lib? (   dev-libs/m17n-lib   fontconfig? ( media-libs/fontconfig )  )  mng? ( media-libs/libmng )  sys-devel/autoconf  x11-base/xorg-proto  x11-libs/libxkbfile  app-text/rman  x11-misc/imake 
+RDEPEND=x11-libs/libICE  x11-libs/libSM  x11-libs/libXrender  x11-libs/libXmu  imlib? ( media-libs/imlib2[X] )  !imlib? (   gif? ( media-libs/giflib:= )   png? ( >=media-libs/libpng-1.4:0= )  )  truetype? (   x11-libs/libXft   media-libs/fontconfig  )  emacs? ( >=app-editors/emacs-23.1:* )  m17n-lib? (   dev-libs/m17n-lib   fontconfig? ( media-libs/fontconfig )  )  mng? ( media-libs/libmng )  contrib? ( dev-lang/perl )  nls? ( sys-devel/gettext )  truetype? ( cjk? ( media-fonts/sazanami ) ) 
+EAPI=5
+IUSE=cjk contrib doc emacs examples fontconfig gif imlib m17n-lib mng nls png truetype 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://sh.wide.ad.jp/WIDE/free-ware/mgp-snap/mgp-snap-20121015.tar.gz

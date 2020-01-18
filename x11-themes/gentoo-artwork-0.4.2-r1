@@ -1,0 +1,28 @@
+e5a5d6b01a3028ce7a0b319f74a036e4
+DEFINED_PHASES= install postinst unpack
+EAPI=5
+IUSE=kde offensive +icons +pixmaps +grub lilo 
+KEYWORDS=alpha amd64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=pixmaps? (
+		mirror://gentoo/gentoo-artwork-0.2.tar.bz2
+		mirror://gentoo/gentoo-artwork-0.3.tar.bz2
+		mirror://gentoo/gentoo-artwork-0.4.tar.bz2
+		mirror://gentoo/gentoo-artwork-0.4.1.tar.bz2
+		mirror://gentoo/gentoo-artwork-0.4.2.tar.bz2
+		icons? ( mirror://gentoo/gentoo-bubble-icons-20060811.tar.gz )
+	)
+	!pixmaps? (
+		icons? (
+			mirror://gentoo/gentoo-artwork-0.2.tar.bz2
+			mirror://gentoo/gentoo-artwork-0.3.tar.bz2
+			mirror://gentoo/gentoo-artwork-0.4.tar.bz2
+			mirror://gentoo/gentoo-artwork-0.4.2.tar.bz2
+			mirror://gentoo/gentoo-bubble-icons-20060811.tar.gz
+		)
+		!icons? (
+			kde? ( mirror://gentoo/gentoo-artwork-0.2.tar.bz2 )
+			!kde? ( grub? ( mirror://gentoo/gentoo-artwork-0.2.tar.bz2 ) )
+			lilo? ( mirror://gentoo/gentoo-artwork-0.4.tar.bz2 )
+		)
+	)

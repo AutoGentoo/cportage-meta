@@ -1,0 +1,9 @@
+e4a8000e54bc66ea7cee6662d613778e
+DEFINED_PHASES= install postinst prepare
+DEPEND=acct-group/gamestat  >=media-libs/libsdl-1.2[sound,joystick,video]  media-libs/libpng:0  media-libs/sdl-mixer[mod]  x11-libs/libX11  x11-libs/libXext  x11-libs/libXxf86dga 
+RDEPEND=acct-group/gamestat  >=media-libs/libsdl-1.2[sound,joystick,video]  media-libs/libpng:0  media-libs/sdl-mixer[mod]  x11-libs/libX11  x11-libs/libXext  x11-libs/libXxf86dga 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://linux.tlk.fr/games/Powermanga/download/powermanga-0.93.1.tgz

@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= prepare test
+DEPEND=  >=dev-perl/Alien-wxWidgets-0.690.0-r1  x11-libs/wxGTK:3.0  >=virtual/perl-File-Spec-0.820.0   >=virtual/perl-ExtUtils-MakeMaker-6.480.0  >=virtual/perl-ExtUtils-ParseXS-3.150.0  >=dev-perl/ExtUtils-XSpp-0.160.200  >=virtual/perl-if-0.30.0  test? (   >=virtual/perl-Test-Harness-2.260.0   >=virtual/perl-Test-Simple-0.430.0  )  
+RDEPEND=  >=dev-perl/Alien-wxWidgets-0.690.0-r1  x11-libs/wxGTK:3.0  >=virtual/perl-File-Spec-0.820.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MD/MDOOTSON/Wx-0.9932.tar.gz

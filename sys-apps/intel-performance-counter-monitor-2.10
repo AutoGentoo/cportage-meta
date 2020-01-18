@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= install postinst prepare
+DEPEND=>=sys-devel/gcc-4:*  sys-apps/sed 
+RDEPEND=>=sys-devel/gcc-4:* 
+EAPI=5
+IUSE=+filecaps 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~idella4/distfiles/IntelPerformanceCounterMonitor-PCM-V2.10.zip

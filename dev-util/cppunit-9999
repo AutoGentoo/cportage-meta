@@ -1,0 +1,8 @@
+d10274b0b06f416f1d721fcdaab00dbc
+DEFINED_PHASES= configure prepare
+DEPEND=  doc? (   app-doc/doxygen[dot]   media-gfx/graphviz  )  
+EAPI=6
+IUSE=doc examples static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

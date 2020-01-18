@@ -1,0 +1,9 @@
+b5afc39fe67f1ccaf04b90f081f20c08
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=  dev-util/diffstat  mail-mta/sendmail  sys-apps/ed  elibc_Darwin? ( app-misc/getopt )  elibc_SunOS? ( app-misc/getopt )  >=sys-apps/coreutils-8.5  graphviz? ( media-gfx/graphviz )  
+EAPI=6
+IUSE=graphviz elibc_Darwin elibc_SunOS 
+KEYWORDS=
+SLOT=0
+SRC_URI=

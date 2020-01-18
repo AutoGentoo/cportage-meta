@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=dev-vcs/git 
+EAPI=4
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

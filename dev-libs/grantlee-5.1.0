@@ -1,0 +1,10 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile configure install prepare test
+BDEPEND=  doc? ( app-doc/doxygen[dot] )  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtscript:5   test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtscript:5  
+EAPI=7
+IUSE=debug doc test 
+KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86
+SLOT=5
+SRC_URI=http://downloads.grantlee.org/grantlee-5.1.0.tar.gz

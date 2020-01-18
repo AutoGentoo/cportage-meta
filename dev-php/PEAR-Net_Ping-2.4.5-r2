@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=dev-lang/php:*  dev-php/PEAR-PEAR 
+EAPI=6
+IUSE=examples 
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://download.pear.php.net/package/Net_Ping-2.4.5.tgz

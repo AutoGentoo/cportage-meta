@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=net-misc/curl  virtual/pkgconfig 
+RDEPEND=net-misc/curl 
+EAPI=6
+IUSE=debug syslog 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://github.com/dirkvdb/lastfmlib/archive/lastfmlib-0.4.0.tar.gz

@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=dev-libs/glib:2  x11-apps/xrandr  x11-misc/colord 
+RDEPEND=dev-libs/glib:2  x11-apps/xrandr  x11-misc/colord 
+EAPI=7
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://github.com/agalakhov/xiccd/archive/v0.3.0.tar.gz -> xiccd-0.3.0.tar.gz

@@ -1,0 +1,9 @@
+948333bfae0e2100022a03dde7843e1e
+DEFINED_PHASES= compile install test
+DEPEND=>=virtual/jdk-1.6    dev-java/slf4j-api:0  log4j? ( dev-java/log4j:0 )  c3p0? ( dev-java/c3p0:0 ) 
+RDEPEND=>=virtual/jre-1.6    dev-java/slf4j-api:0  log4j? ( dev-java/log4j:0 )  c3p0? ( dev-java/c3p0:0 ) 
+EAPI=5
+IUSE=c3p0 log4j 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.26.tar.gz

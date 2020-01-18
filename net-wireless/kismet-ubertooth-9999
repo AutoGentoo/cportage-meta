@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile install postinst
+DEPEND=>=net-wireless/kismet-2011.03.2-r1:=  <net-wireless/kismet-2017.0.0  >=net-wireless/ubertooth-9999:=  >=net-libs/libbtbb-9999:=  virtual/libusb:1 
+RDEPEND=>=net-wireless/kismet-2011.03.2-r1:=  <net-wireless/kismet-2017.0.0  >=net-wireless/ubertooth-9999:=  >=net-libs/libbtbb-9999:=  virtual/libusb:1 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

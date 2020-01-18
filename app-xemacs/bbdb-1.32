@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=app-editors/xemacs 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://ftp.xemacs.org/pub/xemacs/packages/bbdb-1.32-pkg.tar.gz

@@ -1,0 +1,9 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= install prepare test
+DEPEND=  dev-java/junit:0  >=virtual/jdk-1.6  test? ( dev-java/ant-junit:0 ) 
+RDEPEND=  dev-java/junit:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+SLOT=0
+SRC_URI=http://java.net/projects/javacc/downloads/download/javacc-5.0src.tar.gz

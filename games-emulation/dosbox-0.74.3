@@ -1,0 +1,10 @@
+0c2120ee62488cb2e256282e3a1a2970
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=alsa? ( media-libs/alsa-lib )  opengl? ( virtual/glu virtual/opengl )  debug? ( sys-libs/ncurses:0= )  X? ( x11-libs/libX11 )  media-libs/libpng:0=  media-libs/libsdl[joystick,opengl?,video,X?]  media-libs/sdl-net  media-libs/sdl-sound  sys-libs/zlib 
+RDEPEND=alsa? ( media-libs/alsa-lib )  opengl? ( virtual/glu virtual/opengl )  debug? ( sys-libs/ncurses:0= )  X? ( x11-libs/libX11 )  media-libs/libpng:0=  media-libs/libsdl[joystick,opengl?,video,X?]  media-libs/sdl-net  media-libs/sdl-sound  sys-libs/zlib 
+EAPI=7
+IUSE=alsa +core-inline debug hardened opengl X 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dosbox/dosbox-0.74-3.tar.gz

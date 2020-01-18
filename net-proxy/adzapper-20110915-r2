@@ -1,0 +1,8 @@
+8b833da89e75636f108015ad38366377
+DEFINED_PHASES= install postinst prepare
+RDEPEND=dev-lang/perl 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ppc sparc x86
+SLOT=0
+SRC_URI=http://adzapper.sourceforge.net/adzap-20110915.tar.gz

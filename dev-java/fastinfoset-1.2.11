@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.5  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.5 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://search.maven.org/remotecontent?filepath=com/sun/xml/fastinfoset/FastInfoset/1.2.11/FastInfoset-1.2.11-sources.jar

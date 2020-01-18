@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=    >=media-libs/libpng-1.2:0  x11-libs/libX11  x11-libs/libXi  x11-libs/libXtst   x11-base/xorg-proto  
+RDEPEND=  >=media-libs/libpng-1.2:0  x11-libs/libX11  x11-libs/libXi  x11-libs/libXtst  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ppc x86
+SLOT=0
+SRC_URI=https://hoopajoo.net/static/projects/xautomation-1.09.tar.gz

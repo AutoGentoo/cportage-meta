@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile configure install postinst postrm
+BDEPEND=emacs? ( >=app-editors/emacs-23.1:* )  nls? ( virtual/libintl virtual/libiconv )  sys-devel/flex  nls? ( sys-devel/gettext ) 
+RDEPEND=emacs? ( >=app-editors/emacs-23.1:* )  nls? ( virtual/libintl virtual/libiconv ) 
+EAPI=7
+IUSE=debug emacs nls 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://ftp.gnu.org/gnu/cflow/cflow-1.6.tar.bz2

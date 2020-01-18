@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=sys-apps/sed 
+RDEPEND=  sys-apps/sed  !app-vim/ctx 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~mips ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/enhancedcommentify-2.3.tar.bz2
+		https://dev.gentoo.org/~radhermit/vim/enhancedcommentify-2.3.tar.bz2

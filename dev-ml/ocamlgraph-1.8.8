@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/ocaml-3.10.2:=[ocamlopt?]  gtk? ( dev-ml/lablgtk:=[gnomecanvas,ocamlopt?] )  doc? ( dev-tex/hevea dev-ml/ocamlweb ) 
+RDEPEND=>=dev-lang/ocaml-3.10.2:=[ocamlopt?]  gtk? ( dev-ml/lablgtk:=[gnomecanvas,ocamlopt?] ) 
+EAPI=5
+IUSE=doc examples gtk +ocamlopt 
+KEYWORDS=amd64 ~arm ~arm64 ~ppc ~x86
+SLOT=0/1.8.8
+SRC_URI=http://ocamlgraph.lri.fr/download/ocamlgraph-1.8.8.tar.gz

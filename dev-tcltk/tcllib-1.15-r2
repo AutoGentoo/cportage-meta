@@ -1,0 +1,11 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= install prepare test
+DEPEND=dev-lang/tcl:0= 
+RDEPEND=dev-lang/tcl:0= 
+EAPI=5
+IUSE=examples 
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 s390 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~mgorny/dist/tcllib-1.15-patchset.tar.xz
+	mirror://sourceforge/tcllib/tcllib-1.15.tar.bz2

@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/libmix  net-libs/libnsl:0=  net-libs/libpcap  net-libs/libtirpc  net-libs/rpcsvc-proto  X? (   dev-lang/tk:*   x11-libs/libX11  )  
+RDEPEND=  dev-libs/libmix  net-libs/libnsl:0=  net-libs/libpcap  net-libs/libtirpc  net-libs/rpcsvc-proto  X? (   dev-lang/tk:*   x11-libs/libX11  )  
+EAPI=6
+IUSE=X 
+KEYWORDS=~amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/nsat/nsat-1.5.tgz

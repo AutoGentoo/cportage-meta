@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  app-text/asciidoc  
+RDEPEND=  net-misc/curl  sys-apps/file  sys-apps/sed  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+a3c3e070ef7dc40247ae3cd7f7781fff
+DEFINED_PHASES= configure install postinst preinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-db/postgresql:*    x11-libs/wxGTK:3.0 
+RDEPEND=dev-db/postgresql:*    x11-libs/wxGTK:3.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://ftp.postgresql.org/pub/pgadmin3/release/pgagent/pgAgent-3.4.0-Source.tar.gz

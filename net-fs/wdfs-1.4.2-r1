@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=net-libs/neon-0.24.7   >=sys-fs/fuse-2.5   dev-libs/glib:2 
+RDEPEND=>=net-libs/neon-0.24.7   >=sys-fs/fuse-2.5   dev-libs/glib:2 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://noedler.de/projekte/wdfs/wdfs-1.4.2.tar.gz

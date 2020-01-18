@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=test? ( virtual/perl-Test-Simple ) 
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BD/BDFOY/p5-Palm-1.012.tar.gz

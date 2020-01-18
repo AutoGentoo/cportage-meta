@@ -1,0 +1,8 @@
+fc8703fbe1cf4d60d9fc7ad929396c5b
+DEFINED_PHASES= config install postinst postrm unpack
+RDEPEND=  games-fps/ut2003-data  dedicated? ( games-server/ut2003-ded )  !dedicated? ( virtual/opengl[abi_x86_32(-)] )  
+EAPI=5
+IUSE=dedicated 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.infogrames.net/misc/ut2003/ut2003lnx_patch2225.tar.tar

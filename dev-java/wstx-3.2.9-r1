@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= install test
+DEPEND=    dev-java/sax:0  dev-java/msv:0  dev-java/relaxng-datatype:0  test? ( dev-java/ant-junit:0 )  app-arch/unzip  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/sax:0  dev-java/msv:0  dev-java/relaxng-datatype:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ppc64 x86
+SLOT=3.2
+SRC_URI=mirror://gentoo/wstx-src-3.2.9.zip

@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=sys-apps/pcsc-lite-1.6.4  virtual/libusb:0 
+RDEPEND=>=sys-apps/pcsc-lite-1.6.4  virtual/libusb:0 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.linuxunderground.be/ACR38_LINUX_100711_P.tar.bz2

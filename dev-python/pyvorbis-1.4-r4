@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-python/pyogg-1.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=media-libs/libogg-1.0  >=media-libs/libvorbis-1.0 
+RDEPEND=>=dev-python/pyogg-1.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=media-libs/libogg-1.0  >=media-libs/libvorbis-1.0 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://ekyo.nerim.net/software/pyogg/pyvorbis-1.4.tar.gz

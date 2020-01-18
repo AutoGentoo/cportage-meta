@@ -1,0 +1,13 @@
+e0867901be103fc281912ee51289e4aa
+DEFINED_PHASES= postinst postrm
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+DEPEND=  dev-libs/msgpack[cxx]  dev-libs/mmtf-cpp  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pmw:py2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyopengl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/PyQt5[opengl,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-libs/freetype:2  media-libs/glew:0=  media-libs/glm  media-libs/libpng:0=  media-video/mpeg-tools  sys-libs/zlib  !sci-chemistry/pymol-apbs-plugin[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  web? ( !dev-python/webpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=  dev-libs/msgpack[cxx]  dev-libs/mmtf-cpp  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pmw:py2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyopengl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/PyQt5[opengl,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-libs/freetype:2  media-libs/glew:0=  media-libs/glm  media-libs/libpng:0=  media-video/mpeg-tools  sys-libs/zlib  !sci-chemistry/pymol-apbs-plugin[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  web? ( !dev-python/webpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=7
+IUSE=web 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~jlec/distfiles/pymol-1.8.4.0.png.xz
+	https://github.com/schrodinger/pymol-open-source/archive/v2.3.0.tar.gz -> pymol-2.3.0.tar.gz
+	

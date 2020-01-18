@@ -1,0 +1,9 @@
+9a6f679b686ef1d2c65eba2c4279c3f5
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  sys-libs/zlib  X? (   media-libs/freetype:2   media-libs/fontconfig   x11-libs/libX11   opengl? (    virtual/opengl    x11-libs/libXrender   )  )  sound? ( media-libs/alsa-lib )  virtual/pkgconfig  doc? (   app-doc/doxygen   dev-lang/perl   media-gfx/graphviz  ) 
+RDEPEND=  sys-libs/zlib  X? (   media-libs/freetype:2   media-libs/fontconfig   x11-libs/libX11   opengl? (    virtual/opengl    x11-libs/libXrender   )  )  sound? ( media-libs/alsa-lib ) 
+EAPI=6
+IUSE=cpu_flags_x86_sse2 doc examples ipv6 opengl sound static-libs X 
+KEYWORDS=~amd64 ~x86
+SLOT=4.0
+SRC_URI=https://github.com/sphair/ClanLib/archive/v4.0.0.tar.gz -> clanlib-4.0.0.tar.gz

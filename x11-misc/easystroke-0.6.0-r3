@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile install prepare
+DEPEND=    dev-cpp/gtkmm:3.0  dev-libs/boost:=  dev-libs/dbus-glib  dev-libs/glib:2  x11-base/xorg-server  x11-libs/libX11  x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXi  x11-libs/libXtst   dev-util/intltool  sys-devel/gettext  
+RDEPEND=  dev-cpp/gtkmm:3.0  dev-libs/boost:=  dev-libs/dbus-glib  dev-libs/glib:2  x11-base/xorg-server  x11-libs/libX11  x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXi  x11-libs/libXtst  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/project/easystroke/easystroke/0.6.0/easystroke-0.6.0.tar.gz

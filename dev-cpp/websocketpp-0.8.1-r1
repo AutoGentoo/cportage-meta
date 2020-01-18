@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=test? ( dev-libs/boost ) 
+RDEPEND=dev-libs/boost 
+EAPI=7
+IUSE=examples test 
+KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/zaphoyd/websocketpp/archive/0.8.1.tar.gz -> websocketpp-0.8.1.tar.gz

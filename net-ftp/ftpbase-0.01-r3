@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=pam? ( sys-libs/pam )  !<net-ftp/proftpd-1.2.10-r6  !<net-ftp/pure-ftpd-1.0.20-r2  !<net-ftp/vsftpd-2.0.3-r1 
+RDEPEND=  acct-group/ftp  acct-user/ftp 
+EAPI=7
+IUSE=pam 
+KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86
+SLOT=0
+SRC_URI=

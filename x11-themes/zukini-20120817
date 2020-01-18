@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+BDEPEND=app-arch/unzip 
+RDEPEND=>=x11-themes/gtk-engines-murrine-0.98.2  >=x11-themes/gtk-engines-unico-1.0.2 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~sping/distfiles/zukini-20120817.zip

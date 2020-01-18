@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  !minimal? (   dev-perl/Math-Base-Convert   >=virtual/perl-Math-Complex-1.560.0   >=dev-perl/Text-Soundex-3.40.0  )  virtual/perl-Carp  >=dev-perl/Clone-0.300.0  virtual/perl-Data-Dumper  dev-perl/Module-Runtime  >=dev-perl/Params-Util-1.0.0  >=virtual/perl-Scalar-List-Utils-1.0.0  virtual/perl-Text-Balanced   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Math-Base-Convert   >=virtual/perl-Math-Complex-1.560.0   dev-perl/Test-Deep   >=virtual/perl-Test-Simple-0.900.0   >=dev-perl/Text-Soundex-3.40.0  )  
+RDEPEND=  !minimal? (   dev-perl/Math-Base-Convert   >=virtual/perl-Math-Complex-1.560.0   >=dev-perl/Text-Soundex-3.40.0  )  virtual/perl-Carp  >=dev-perl/Clone-0.300.0  virtual/perl-Data-Dumper  dev-perl/Module-Runtime  >=dev-perl/Params-Util-1.0.0  >=virtual/perl-Scalar-List-Utils-1.0.0  virtual/perl-Text-Balanced  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=amd64 ~arm arm64 ppc ppc64 x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RE/REHSACK/SQL-Statement-1.412.tar.gz

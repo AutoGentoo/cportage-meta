@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) >=kde-frameworks/extra-cmake-modules-5.64:5 
+DEPEND=  >=kde-frameworks/karchive-5.64:5  >=dev-qt/qtgui-5.12.3:5  eps? ( >=dev-qt/qtprintsupport-5.12.3:5 )  openexr? (   media-libs/ilmbase:=   media-libs/openexr:=  )  
+RDEPEND=  >=kde-frameworks/karchive-5.64:5  >=dev-qt/qtgui-5.12.3:5  eps? ( >=dev-qt/qtprintsupport-5.12.3:5 )  openexr? (   media-libs/ilmbase:=   media-libs/openexr:=  )  
+EAPI=7
+IUSE=eps openexr 
+KEYWORDS=amd64 ~arm arm64 ~ppc64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/kimageformats-5.64.0.tar.xz

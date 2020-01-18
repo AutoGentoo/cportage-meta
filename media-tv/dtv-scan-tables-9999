@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=>=media-tv/v4l-utils-1.4 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

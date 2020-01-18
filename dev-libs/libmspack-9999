@@ -1,0 +1,8 @@
+d8af03c2beaf51a651358b008077cee0
+DEFINED_PHASES= prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=7
+IUSE=debug doc static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

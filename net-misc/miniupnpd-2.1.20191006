@@ -1,0 +1,9 @@
+70c9b79573233f22978e88af078fe64e
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=  dev-libs/gmp:0=  sys-apps/util-linux:=  dev-libs/openssl:0=  !nftables? (   >=net-firewall/iptables-1.4.6:0=[ipv6?]   net-libs/libnfnetlink:=   net-libs/libmnl:=  )  nftables? (   net-firewall/nftables   net-libs/libnftnl:=   net-libs/libmnl:=  )  sys-apps/lsb-release 
+RDEPEND=  dev-libs/gmp:0=  sys-apps/util-linux:=  dev-libs/openssl:0=  !nftables? (   >=net-firewall/iptables-1.4.6:0=[ipv6?]   net-libs/libnfnetlink:=   net-libs/libmnl:=  )  nftables? (   net-firewall/nftables   net-libs/libnftnl:=   net-libs/libmnl:=  ) 
+EAPI=7
+IUSE=+leasefile igd2 ipv6 nftables pcp-peer portinuse strict 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://miniupnp.free.fr/files/miniupnpd-2.1.20191006.tar.gz

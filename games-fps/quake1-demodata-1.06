@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= install postinst setup unpack
+DEPEND=app-arch/lha  app-arch/unzip 
+RDEPEND=symlink? ( !games-fps/quake1-data ) 
+EAPI=5
+IUSE=symlink 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://idsoftware/quake/quake106.zip

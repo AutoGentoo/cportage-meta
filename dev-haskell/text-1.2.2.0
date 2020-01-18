@@ -1,0 +1,9 @@
+2648d239d3c544169ba9f928a4d5396c
+DEFINED_PHASES= configure prepare
+DEPEND=dev-haskell/binary:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  test? ( >=dev-haskell/hunit-1.2   >=dev-haskell/quickcheck-2.7   dev-haskell/quickcheck-unicode   dev-haskell/random   >=dev-haskell/test-framework-0.4   >=dev-haskell/test-framework-hunit-0.2   >=dev-haskell/test-framework-quickcheck2-0.2 )  
+RDEPEND=dev-haskell/binary:=[profile?]  >=dev-lang/ghc-7.4.1:=  
+EAPI=5
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+SLOT=0/1.2.2.0
+SRC_URI=https://hackage.haskell.org/package/text-1.2.2.0/text-1.2.2.0.tar.gz

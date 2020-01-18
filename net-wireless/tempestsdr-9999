@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=>=virtual/jdk-1.7:*   net-wireless/airspy   net-wireless/uhd:=   net-wireless/rtl-sdr   net-wireless/bladerf:=   net-wireless/hackrf-tools 
+RDEPEND=>=virtual/jdk-1.7:*   net-wireless/airspy   net-wireless/uhd:=   net-wireless/rtl-sdr   net-wireless/bladerf:=   net-wireless/hackrf-tools 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

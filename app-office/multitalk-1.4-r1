@@ -1,0 +1,9 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= install prepare
+DEPEND=>=media-libs/libsdl-1.2.7  >=media-libs/sdl-image-1.2.3  >=media-libs/sdl-ttf-2.0.6  >=media-libs/sdl-gfx-2.0.13 
+RDEPEND=>=media-libs/libsdl-1.2.7  >=media-libs/sdl-image-1.2.3  >=media-libs/sdl-ttf-2.0.6  >=media-libs/sdl-gfx-2.0.13  latex? (   virtual/imagemagick-tools   virtual/latex-base  ) 
+EAPI=5
+IUSE=examples latex 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://www.srcf.ucam.org/~dmi1000/multitalk/multitalk-1.4.tar.gz

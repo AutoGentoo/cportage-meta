@@ -1,0 +1,10 @@
+12badb91fcda5c62334df85993c117ae
+DEFINED_PHASES= compile configure install postinst postrm preinst
+DEPEND=app-arch/unzip 
+RDEPEND=  >=virtual/jre-1.8  x11-libs/gtk+:2  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://dl2.xmind.net/xmind-downloads/xmind-8-update7-linux.zip
+	https://dev.gentoo.org/~creffett/distfiles/xmind-icons.tar.xz

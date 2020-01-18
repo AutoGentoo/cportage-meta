@@ -1,0 +1,9 @@
+8ee2f502ced3efa1937ee855ed61adef
+DEFINED_PHASES= configure install postinst
+DEPEND=  >=app-i18n/scim-0.99.8  >=app-i18n/libhangul-0.0.4  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=  >=app-i18n/scim-0.99.8  >=app-i18n/libhangul-0.0.4  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/scim/scim-hangul-0.4.0.tar.gz

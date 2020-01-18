@@ -1,0 +1,9 @@
+bbbafc44ec1f39bfda8077b97427cd37
+DEFINED_PHASES= compile install prepare
+DEPEND=   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=dev-perl/Archive-Zip  dev-perl/File-Copy-Link  dev-perl/PerlIO-gzip  dev-perl/Quota  dev-perl/TimeDate  dev-perl/URI  dev-perl/UUID-Tiny  dev-perl/XML-Simple  media-gfx/graphicsmagick[perl]  mysql? ( dev-perl/DBD-mysql )  virtual/perl-Module-Load  postgres? ( dev-perl/DBD-Pg )  rcs? ( dev-perl/Rcs )  samba? ( dev-perl/Filesys-SmbClient )  sqlite? ( dev-perl/DBD-SQLite )  dev-perl/CGI  virtual/perl-File-Spec 
+EAPI=4
+IUSE=mysql postgres rcs samba +sqlite +suid 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/webdavcgi/webdavcgi-0.8.3.tar.bz2

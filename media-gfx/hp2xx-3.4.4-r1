@@ -1,0 +1,10 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=sys-apps/texinfo 
+DEPEND=  jpeg? ( virtual/jpeg )  png? (   media-libs/libpng:=   sys-libs/zlib  )  tiff? ( media-libs/tiff:= )  X? ( x11-libs/libX11 ) 
+RDEPEND=  jpeg? ( virtual/jpeg )  png? (   media-libs/libpng:=   sys-libs/zlib  )  tiff? ( media-libs/tiff:= )  X? ( x11-libs/libX11 ) 
+EAPI=7
+IUSE=jpeg png tiff X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnu/hp2xx/hp2xx-3.4.4.tar.gz

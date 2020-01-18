@@ -1,0 +1,10 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile install
+DEPEND=net-dialup/ppp  dev-lang/perl  tk? ( dev-perl/Tk ) 
+RDEPEND=net-dialup/ppp  dev-lang/perl  tk? ( dev-perl/Tk )  sys-apps/iproute2 
+EAPI=7
+IUSE=tk 
+KEYWORDS=alpha amd64 ~arm arm64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pptpclient/pptp-1.10.0.tar.gz
+	https://dev.gentoo.org/~pinkbyte/distfiles/pptpclient/pptp-command-20130515.bz2

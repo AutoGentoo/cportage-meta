@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install test
+DEPEND=  dap? ( net-misc/curl:0= )  hdf? ( sci-libs/hdf:0= sci-libs/hdf5:0= )  hdf5? ( sci-libs/hdf5:0=[hl(+),mpi=,szip=,zlib] ) 
+RDEPEND=  dap? ( net-misc/curl:0= )  hdf? ( sci-libs/hdf:0= sci-libs/hdf5:0= )  hdf5? ( sci-libs/hdf5:0=[hl(+),mpi=,szip=,zlib] ) 
+EAPI=5
+IUSE=+dap examples hdf +hdf5 mpi static-libs szip test tools 
+KEYWORDS=amd64 ~arm ia64 ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0/7
+SRC_URI=ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.3.2.tar.gz

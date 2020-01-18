@@ -1,0 +1,8 @@
+9ef8de04e508cf2ced648ef2de49330f
+DEFINED_PHASES= compile configure install postinst prepare pretend setup
+DEPEND=gnuefi? ( >=sys-boot/gnu-efi-3.0.2 )  !gnuefi? ( >=sys-boot/udk-2018-r1 ) 
+EAPI=7
+IUSE=btrfs +ext2 +ext4 hfs +iso9660 ntfs reiserfs custom-cflags doc gnuefi 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/project/refind/0.11.4/refind-src-0.11.4.tar.gz

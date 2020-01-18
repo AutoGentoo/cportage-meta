@@ -1,0 +1,9 @@
+77a1a45b9cef605605ee0465421198b5
+DEFINED_PHASES= compile install postinst prepare unpack
+DEPEND=X? ( x11-libs/libX11 ) 
+RDEPEND=X? ( x11-libs/libX11 ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://www.astrolog.org/ftp/ast54unx.shr

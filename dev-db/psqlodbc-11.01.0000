@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=dev-db/postgresql:*[ssl?]   !iodbc? ( dev-db/unixODBC )   iodbc? ( dev-db/libiodbc )  
+RDEPEND=dev-db/postgresql:*[ssl?]   !iodbc? ( dev-db/unixODBC )   iodbc? ( dev-db/libiodbc )  
+EAPI=7
+IUSE=doc iodbc ssl threads 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://ftp.postgresql.org/pub/odbc/versions/src/psqlodbc-11.01.0000.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~jer/traceroute-nanog_6.4.2.orig.tar.gz
+	https://dev.gentoo.org/~jer/traceroute-nanog_6.4.2-1.diff.gz
+

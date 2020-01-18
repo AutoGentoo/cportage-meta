@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  >=dev-haskell/cabal-1.16.0  >=dev-haskell/cmdargs-0.10  >=dev-haskell/configurator-0.2  >=dev-haskell/dns-1.4  >=dev-haskell/hdbc-2.4  >=dev-haskell/hdbc-postgresql-2.3  >=dev-haskell/hdbc-sqlite3-2.3  >=dev-haskell/missingh-1.2  >=dev-haskell/tasty-0.8  >=dev-haskell/tasty-hunit-0.8  >=dev-haskell/tasty-quickcheck-0.8  >=dev-lang/ghc-7.6.1  test? ( >=dev-haskell/doctest-0.9   >=dev-haskell/filemanip-0.3.6 )  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://hackage.haskell.org/package/list-remote-forwards-0.0.1/list-remote-forwards-0.0.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/pytest[python_targets_pypy3(-)?,python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-)]  dev-python/pytest-metadata[python_targets_pypy3(-)?,python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-)]  dev-python/setuptools[python_targets_pypy3(-)?,python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-)]  dev-python/setuptools_scm[python_targets_pypy3(-)?,python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-)] 
+RDEPEND=dev-python/pytest[python_targets_pypy3(-)?,python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-)]  dev-python/pytest-metadata[python_targets_pypy3(-)?,python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/p/pytest-html/pytest-html-1.16.0.tar.gz

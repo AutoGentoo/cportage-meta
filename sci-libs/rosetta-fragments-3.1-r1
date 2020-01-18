@@ -1,0 +1,8 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install nofetch prepare
+RDEPEND=  sci-biology/ncbi-tools  sci-biology/update-blastdb  sci-biology/psipred 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=rosetta3.1_fragments.tgz

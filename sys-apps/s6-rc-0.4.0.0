@@ -1,0 +1,9 @@
+931d76fce4c64998109561edf3fb8d3d
+DEFINED_PHASES= configure postinst prepare
+DEPEND=>=sys-devel/make-3.81  static? (   >=dev-lang/execline-2.3.0.4[static-libs]   >=dev-libs/skalibs-2.6.3.0[static-libs]   >=sys-apps/s6-2.6.2.0[static-libs]  )  !static? (   >=dev-lang/execline-2.3.0.4[static=]   >=dev-libs/skalibs-2.6.3.0   >=sys-apps/s6-2.6.2.0[static=]  )  
+RDEPEND=  >=dev-lang/execline-2.3.0.4:=[!static?]  >=sys-apps/s6-2.6.2.0:=[!static?]  !static? (   >=dev-libs/skalibs-2.6.3.0:=  )  
+EAPI=6
+IUSE=static static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.4
+SRC_URI=https://www.skarnet.org/software/s6-rc/s6-rc-0.4.0.0.tar.gz

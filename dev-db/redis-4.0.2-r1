@@ -1,0 +1,9 @@
+7912c6104769f3566f055e4bb2b0d592
+DEFINED_PHASES= compile configure install prepare setup
+DEPEND=virtual/pkgconfig  >=sys-devel/autoconf-2.63  test? ( dev-lang/tcl:0= )  luajit? ( dev-lang/luajit:2 )  !luajit? ( || ( dev-lang/lua:5.1 =dev-lang/lua-5.1*:0 ) )  tcmalloc? ( dev-util/google-perftools )  jemalloc? ( >=dev-libs/jemalloc-3.2 ) 
+RDEPEND=luajit? ( dev-lang/luajit:2 )  !luajit? ( || ( dev-lang/lua:5.1 =dev-lang/lua-5.1*:0 ) )  tcmalloc? ( dev-util/google-perftools )  jemalloc? ( >=dev-libs/jemalloc-3.2 ) 
+EAPI=6
+IUSE=+jemalloc tcmalloc luajit test 
+KEYWORDS=amd64 arm arm64 hppa ppc ppc64 x86 ~amd64-linux ~x86-linux ~x86-macos ~x86-solaris
+SLOT=0
+SRC_URI=http://download.redis.io/releases/redis-4.0.2.tar.gz

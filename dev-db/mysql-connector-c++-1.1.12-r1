@@ -1,0 +1,10 @@
+2526a020edf56eea2ab9bb756159d322
+DEFINED_PHASES= configure install
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=dev-db/mysql-connector-c:=  dev-libs/boost:=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  !<dev-db/mysql-connector-c-6.1.8 
+RDEPEND=dev-db/mysql-connector-c:=  dev-libs/boost:=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  !<dev-db/mysql-connector-c-6.1.8 
+EAPI=7
+IUSE=debug examples gcov libressl static-libs 
+KEYWORDS=amd64 arm ~arm64 ppc ppc64 sparc x86
+SLOT=0/7
+SRC_URI=https://dev.mysql.com/get/Downloads/Connector-C++/mysql-connector-c++-1.1.12.tar.gz

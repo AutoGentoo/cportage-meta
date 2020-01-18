@@ -1,0 +1,10 @@
+d1390939bd1230adea84889a7506b56b
+DEFINED_PHASES= configure install prepare setup
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  mpi? ( virtual/mpi[romio] )  szip? ( virtual/szip )  zlib? ( sys-libs/zlib:0= )  sys-devel/libtool:2  >=sys-devel/autoconf-2.69 
+RDEPEND=  mpi? ( virtual/mpi[romio] )  szip? ( virtual/szip )  zlib? ( sys-libs/zlib:0= ) 
+EAPI=7
+IUSE=cxx debug examples fortran +hl mpi szip threads zlib 
+KEYWORDS=alpha amd64 ~arm arm64 ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0/1.10.5
+SRC_URI=http://www.hdfgroup.org/ftp/HDF5/releases/hdf5-1.10/hdf5-1.10.5/src/hdf5-1.10.5.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install unpack
+DEPEND=sci-libs/libpdb++  app-arch/sharutils 
+RDEPEND=sci-libs/libpdb++ 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://gentoo/ksdssp-040728.shar

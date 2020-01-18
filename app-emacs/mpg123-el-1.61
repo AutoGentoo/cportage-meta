@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=media-sound/mpg123  media-sound/alsa-utils 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/mpg123-el-1.61.tar.xz

@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= compile install prepare
+DEPEND=>=media-libs/jbigkit-2.0-r1  >=net-print/cups-1.4 
+RDEPEND=>=media-libs/jbigkit-2.0-r1  >=net-print/cups-1.4 
+EAPI=5
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cupsdriverkodak/files/c2esp26.tar.gz

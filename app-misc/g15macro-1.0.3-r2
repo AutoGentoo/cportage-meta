@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=app-misc/g15daemon-1.9.0  dev-libs/libg15  dev-libs/libg15render  x11-libs/libX11  x11-libs/libXtst  
+RDEPEND=>=app-misc/g15daemon-1.9.0  dev-libs/libg15  dev-libs/libg15render  x11-libs/libX11  x11-libs/libXtst   sys-libs/zlib  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/g15daemon/g15macro-1.0.3.tar.gz

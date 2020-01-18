@@ -1,0 +1,9 @@
+2bd4d13d91e79bc8256e4a8481cbaa9e
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=app-arch/xz-utils  java? ( >=virtual/jdk-1.6:= ) 
+RDEPEND=app-arch/xz-utils  java? ( >=virtual/jdk-1.6:= ) 
+EAPI=6
+IUSE=examples java static-libs 
+KEYWORDS=amd64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0/3.1
+SRC_URI=mirror://sourceforge/astyle/astyle_3.1_linux.tar.gz

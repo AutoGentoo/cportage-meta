@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-util/desktop-file-utils 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/mgorny/pe-format2/releases/download/v2.1.2/pe-format-2.1.2.tar.bz2

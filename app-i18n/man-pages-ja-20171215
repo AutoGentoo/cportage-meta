@@ -1,0 +1,9 @@
+d7b8e5adfe8cc5928b3ba5a79d620a7e
+DEFINED_PHASES= compile install postinst prepare
+RDEPEND=virtual/man 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ppc ppc64 s390 ~sh sparc x86
+SLOT=0
+SRC_URI=http://linuxjm.osdn.jp/man-pages-ja-20171215.tar.gz
+	https://dev.gentoo.org/~hattya/distfiles/portage-man-pages-ja-20060415.tar.gz

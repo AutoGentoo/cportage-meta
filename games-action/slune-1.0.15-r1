@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=virtual/opengl  >=media-libs/libsdl-1.2.6  >=dev-python/soya-0.9  >=dev-python/py2play-0.1.9  >=dev-python/pyopenal-0.1.3  >=dev-python/pyogg-1.1  >=dev-python/pyvorbis-1.1 
+RDEPEND=virtual/opengl  >=media-libs/libsdl-1.2.6  >=dev-python/soya-0.9  >=dev-python/py2play-0.1.9  >=dev-python/pyopenal-0.1.3  >=dev-python/pyogg-1.1  >=dev-python/pyvorbis-1.1 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.gna.org/slune/Slune-1.0.15.tar.bz2

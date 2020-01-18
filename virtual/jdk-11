@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=|| (   dev-java/openjdk-bin:11[gentoo-vm(+)]   dev-java/openjdk:11[gentoo-vm(+)]   dev-java/oracle-jdk-bin:11[gentoo-vm(+)]  ) 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm64 ~ppc64
+SLOT=11
+SRC_URI=

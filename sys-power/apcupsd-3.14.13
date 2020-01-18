@@ -1,0 +1,9 @@
+fa8f5a6eea7493ffdc9057e1f7dbd937
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=  || ( >=sys-apps/util-linux-2.23[tty-helpers(-)]     sys-freebsd/freebsd-ubin   )  cgi? ( >=media-libs/gd-1.8.4 )  nls? ( sys-devel/gettext )  snmp? ( >=net-analyzer/net-snmp-5.7.2 )  gnome? ( >=x11-libs/gtk+-2.4.0:2   dev-libs/glib:2   >=gnome-base/gconf-2.0 ) 
+RDEPEND=  || ( >=sys-apps/util-linux-2.23[tty-helpers(-)]     sys-freebsd/freebsd-ubin   )  cgi? ( >=media-libs/gd-1.8.4 )  nls? ( sys-devel/gettext )  snmp? ( >=net-analyzer/net-snmp-5.7.2 )  gnome? ( >=x11-libs/gtk+-2.4.0:2   dev-libs/glib:2   >=gnome-base/gconf-2.0 )  sys-apps/openrc  virtual/mailx 
+EAPI=5
+IUSE=snmp +usb cgi nls gnome kernel_linux 
+KEYWORDS=amd64 ~arm ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/apcupsd/apcupsd-3.14.13.tar.gz

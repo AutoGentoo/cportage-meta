@@ -1,0 +1,10 @@
+47bdbc781d2c3f3be233711306f57703
+DEFINED_PHASES= postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  sensord? (   net-analyzer/rrdtool   virtual/logger  )  sys-devel/bison  sys-devel/flex 
+RDEPEND=  sensord? (   net-analyzer/rrdtool   virtual/logger  )  dev-lang/perl  !<sys-apps/openrc-0.36 
+EAPI=7
+IUSE=contrib sensord static-libs 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0/5.0.0
+SRC_URI=https://github.com/lm-sensors/lm-sensors/archive/2c8cca3d6cd60121b401734c1a24cfec7daed4fc.tar.gz -> lm-sensors-3.5.0_p20190505.tar.gz

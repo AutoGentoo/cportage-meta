@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-admin/elektra  media-libs/freetype  media-libs/ftgl  media-libs/libXcm[X]  media-libs/oyranos  media-libs/tiff:0  virtual/jpeg:0  virtual/opengl  x11-libs/fltk[opengl]  x11-libs/libX11  x11-libs/libXinerama  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXxf86vm   sys-devel/gettext  virtual/libintl  virtual/pkgconfig  
+RDEPEND=  app-admin/elektra  media-libs/freetype  media-libs/ftgl  media-libs/libXcm[X]  media-libs/oyranos  media-libs/tiff:0  virtual/jpeg:0  virtual/opengl  x11-libs/fltk[opengl]  x11-libs/libX11  x11-libs/libXinerama  x11-libs/libXpm  x11-libs/libXrandr  x11-libs/libXxf86vm  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/oyranos-cms/icc-examin/tarball/ee9e8cd013766b0df2c5e3b4416f985322b22966 -> icc-examin-0.56_p20171007.tar.gz

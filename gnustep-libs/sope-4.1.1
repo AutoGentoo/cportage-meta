@@ -1,0 +1,9 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= configure pretend
+DEPEND=  sys-libs/zlib  ldap? ( net-nds/openldap )  gnutls? ( net-libs/gnutls:= )  !gnutls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  xml? ( dev-libs/libxml2:2 )  
+RDEPEND=  sys-libs/zlib  ldap? ( net-nds/openldap )  gnutls? ( net-libs/gnutls:= )  !gnutls? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:= )  )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  xml? ( dev-libs/libxml2:2 )  
+EAPI=7
+IUSE=gnutls ldap libressl mysql postgres +ssl +xml 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/inverse-inc/sope/archive/SOPE-4.1.1.tar.gz -> sope-4.1.1.tar.gz

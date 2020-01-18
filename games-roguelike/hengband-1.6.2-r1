@@ -1,0 +1,10 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= configure install prepare
+DEPEND=>=sys-libs/ncurses-5:0  X? ( x11-libs/libX11 )  X? ( x11-libs/libXt ) 
+RDEPEND=>=sys-libs/ncurses-5:0  X? ( x11-libs/libX11 ) 
+EAPI=5
+IUSE=X l10n_ja 
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/hengband/10331/hengband-1.6.2.tar.bz2
+	mirror://gentoo/hengband-1.6.2-mispellings.patch.gz

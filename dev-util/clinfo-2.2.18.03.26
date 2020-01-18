@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=app-eselect/eselect-opencl-1.1.0-r4  virtual/opencl 
+RDEPEND=>=app-eselect/eselect-opencl-1.1.0-r4  virtual/opencl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/Oblomov/clinfo/archive/2.2.18.03.26.tar.gz -> clinfo-2.2.18.03.26.tar.gz

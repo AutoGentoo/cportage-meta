@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=>=app-admin/eselect-1.2 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ppc64 ~sparc x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=0
+SRC_URI=mirror://gentoo/oodict.eselect-20100228.bz2

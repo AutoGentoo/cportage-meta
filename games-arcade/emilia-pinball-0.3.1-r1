@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= compile configure install prepare
+DEPEND=virtual/opengl  x11-libs/libSM  media-libs/libsdl[joystick,opengl,video,X]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  dev-libs/libltdl:0  x11-libs/libXt 
+RDEPEND=virtual/opengl  x11-libs/libSM  media-libs/libsdl[joystick,opengl,video,X]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  dev-libs/libltdl:0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pinball/pinball-0.3.1.tar.gz

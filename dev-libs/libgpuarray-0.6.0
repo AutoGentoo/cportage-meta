@@ -1,0 +1,10 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure install prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  doc? ( app-doc/doxygen )  test? (   cuda? ( amd64? ( >=dev-util/nvidia-cuda-toolkit-7 ) )  opencl? (     virtual/opencl     || ( sci-libs/clblast sci-libs/clblas )  )      dev-libs/check     virtual/pkgconfig  )  
+RDEPEND=  cuda? ( amd64? ( >=dev-util/nvidia-cuda-toolkit-7 ) )  opencl? (     virtual/opencl     || ( sci-libs/clblast sci-libs/clblas )  )  
+EAPI=6
+IUSE=cuda doc opencl static-libs test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/Theano/libgpuarray/archive/v0.6.0.tar.gz -> libgpuarray-0.6.0.tar.gz

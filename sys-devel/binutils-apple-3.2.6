@@ -1,0 +1,13 @@
+d0eb8905dda056fe2bbce0fc9945ccf1
+DEFINED_PHASES= compile configure install postinst prepare test
+DEPEND=sys-devel/binutils-config  test? ( >=dev-lang/perl-5.8.8 ) 
+RDEPEND=sys-devel/binutils-config 
+EAPI=6
+IUSE=test 
+KEYWORDS=~ppc-macos ~x64-macos ~x86-macos
+SLOT=3
+SRC_URI=https://opensource.apple.com/tarballs/ld64/ld64-97.17.tar.gz
+	https://opensource.apple.com/tarballs/cctools/cctools-795.tar.gz
+	http://www.opensource.apple.com/tarballs/libunwind/libunwind-30.tar.gz
+	http://www.opensource.apple.com/tarballs/dyld/dyld-132.13.tar.gz
+	https://dev.gentoo.org/~grobian/distfiles/binutils-apple-patches-3.2.6-r0.tar.bz2

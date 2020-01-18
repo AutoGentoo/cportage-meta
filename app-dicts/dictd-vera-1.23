@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=app-text/dictd-1.5.5 
+RDEPEND=>=app-text/dictd-1.5.5 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://gnu/vera/vera-1.23.tar.gz

@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile configure install prepare
+DEPEND=dev-libs/libbsd  dev-libs/libedit  sys-libs/ncurses 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://debian/pool/main/u/ufsutils/ufsutils_8.2.orig.tar.gz
+	mirror://debian/pool/main/u/ufsutils/ufsutils_8.2-3.debian.tar.gz

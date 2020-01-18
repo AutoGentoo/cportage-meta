@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  dev-libs/libunique:1  dev-perl/Gtk2   dev-perl/glib-perl  dev-perl/ExtUtils-Depends  dev-perl/ExtUtils-PkgConfig  
+RDEPEND=  dev-libs/libunique:1  dev-perl/Gtk2  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PO/POTYL/Gtk2-Unique-0.05.tar.gz

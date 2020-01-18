@@ -1,0 +1,9 @@
+09f4b2eb301d8f25a045bc1a78422fe2
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/libsndfile:=  sys-libs/zlib:=  alsa? ( media-libs/alsa-lib )  audiofile? ( media-libs/audiofile )  flac? ( media-libs/flac )  gtk? ( >=x11-libs/gtk+-2.10:2 )  id3tag? ( media-libs/libid3tag )  jack? ( virtual/jack )  mad? ( media-libs/libmad )  mikmod? ( media-libs/libmikmod:0 )  nas? ( media-libs/nas )  ogg? ( media-libs/libogg )  opengl? ( virtual/opengl )  vorbis? ( media-libs/libvorbis )  xosd? ( x11-libs/xosd )  virtual/pkgconfig  doc? ( app-doc/doxygen )  nls? ( sys-devel/gettext )  oss? ( virtual/os-headers ) 
+RDEPEND=  media-libs/libsndfile:=  sys-libs/zlib:=  alsa? ( media-libs/alsa-lib )  audiofile? ( media-libs/audiofile )  flac? ( media-libs/flac )  gtk? ( >=x11-libs/gtk+-2.10:2 )  id3tag? ( media-libs/libid3tag )  jack? ( virtual/jack )  mad? ( media-libs/libmad )  mikmod? ( media-libs/libmikmod:0 )  nas? ( media-libs/nas )  ogg? ( media-libs/libogg )  opengl? ( virtual/opengl )  vorbis? ( media-libs/libvorbis )  xosd? ( x11-libs/xosd ) 
+EAPI=6
+IUSE=+alsa audiofile doc flac gtk id3tag jack mad mikmod nas nls ogg opengl oss vorbis xosd 
+KEYWORDS=amd64 ~mips ~ppc ~sparc x86
+SLOT=0
+SRC_URI=http://www.alsaplayer.org/alsaplayer-0.99.81.tar.bz2

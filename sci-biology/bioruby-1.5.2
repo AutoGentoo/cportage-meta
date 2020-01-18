@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( doc? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( test? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ) test? ( ruby_targets_ruby24? ( dev-ruby/libxml[ruby_targets_ruby24] ) ) 
+RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby24? ( dev-ruby/libxml[ruby_targets_ruby24] ) 
+EAPI=6
+IUSE= test 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://rubygems.org/gems/bio-1.5.2.gem

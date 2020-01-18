@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= postinst
+DEPEND=>=virtual/udev-208  || ( dev-lang/python:3.6 )  virtual/pkgconfig  
+RDEPEND=>=virtual/udev-208 
+EAPI=7
+IUSE=
+KEYWORDS=~alpha amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ppc ppc64 ~sh ~sparc x86
+SLOT=0
+SRC_URI=https://www.freedesktop.org/software/media-player-info/media-player-info-23.tar.gz

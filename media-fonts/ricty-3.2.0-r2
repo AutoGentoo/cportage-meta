@@ -1,0 +1,8 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile
+DEPEND=media-fonts/inconsolata  >=media-fonts/mix-mplus-ipa-20111002  media-gfx/fontforge 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/yascentur/Ricty/tarball/3.2.0 -> Ricty-3.2.0.tar.gz

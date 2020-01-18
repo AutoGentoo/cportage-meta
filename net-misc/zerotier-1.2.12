@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+DEPEND=  dev-libs/json-glib:=  net-libs/http-parser:=  net-libs/libnatpmp:=  net-libs/miniupnpc:= 
+RDEPEND=  dev-libs/json-glib:=  net-libs/http-parser:=  net-libs/libnatpmp:=  net-libs/miniupnpc:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/zerotier/ZeroTierOne/archive/1.2.12.tar.gz -> zerotier-1.2.12.tar.gz

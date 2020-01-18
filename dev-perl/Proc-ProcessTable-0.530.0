@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=virtual/perl-Storable  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=virtual/perl-Storable 
+EAPI=6
+IUSE=examples 
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JW/JWB/Proc-ProcessTable-0.53.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+EAPI=6
+IUSE=scripts 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	mirror://sourceforge/gaffitter/gaffitter-0.6.0.tar.bz2
+	scripts? ( mirror://sourceforge/gaffitter/scripts/0.1.0/scripts-0.1.0.tar.bz2 )

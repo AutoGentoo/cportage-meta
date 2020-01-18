@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    !dev-libs/boost:0/1.57.0  >=media-libs/libmpdclient-2.1  dev-libs/boost:=[icu,nls,threads]  dev-libs/icu:=  net-misc/curl  sys-libs/ncurses:=[unicode]  sys-libs/readline:*  taglib? ( media-libs/taglib )  visualizer? ( sci-libs/fftw:3.0= )   virtual/pkgconfig  
+RDEPEND=  !dev-libs/boost:0/1.57.0  >=media-libs/libmpdclient-2.1  dev-libs/boost:=[icu,nls,threads]  dev-libs/icu:=  net-misc/curl  sys-libs/ncurses:=[unicode]  sys-libs/readline:*  taglib? ( media-libs/taglib )  visualizer? ( sci-libs/fftw:3.0= )  
+EAPI=7
+IUSE=clock outputs taglib visualizer 
+KEYWORDS=
+SLOT=0
+SRC_URI=

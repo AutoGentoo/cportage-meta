@@ -1,0 +1,9 @@
+1d11f669708d53b358f0357709940152
+DEFINED_PHASES= configure install prepare
+DEPEND=  X? (   >=x11-libs/motif-2.3:0   >=x11-libs/libX11-1.0.0   >=x11-libs/libXt-1.0.0   >=x11-libs/libXext-1.0.0 )  
+RDEPEND=  X? (   >=x11-libs/motif-2.3:0   >=x11-libs/libX11-1.0.0   >=x11-libs/libXt-1.0.0   >=x11-libs/libXext-1.0.0 )  
+EAPI=6
+IUSE=X 
+KEYWORDS=amd64 ~hppa ppc x86 ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/pdv/pdv-1.5.1.tar.gz

@@ -1,0 +1,13 @@
+b4a087e86281d84403d5fca597413e17
+DEFINED_PHASES= compile configure install prepare
+DEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 )  
+RDEPEND=ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 )  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	http://mirrors.cdn.adacore.com/art/5cdf8e8031e87a8f1d425093
+		-> gprbuild-2019-20190517-194D8-src.tar.gz
+	http://mirrors.cdn.adacore.com/art/5cdf916831e87a8f1d4250b5
+		-> xmlada-2019-20190429-19B9D-src.tar.gz

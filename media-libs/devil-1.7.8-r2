@@ -1,0 +1,9 @@
+d0e2db7b4b243d02d66e0a3c94b0c36a
+DEFINED_PHASES= configure install prepare
+DEPEND=  allegro? ( media-libs/allegro:0 )  gif? ( media-libs/giflib:= )  glut? ( media-libs/freeglut )  jpeg? ( virtual/jpeg:0 )  mng? ( media-libs/libmng:= )  nvtt? ( media-gfx/nvidia-texture-tools )  openexr? ( media-libs/openexr:= )  opengl? ( virtual/opengl   virtual/glu )  png? ( media-libs/libpng:0= )  sdl? ( media-libs/libsdl )  tiff? ( media-libs/tiff:0 )  X? ( x11-libs/libXext    x11-libs/libX11    x11-libs/libXrender )  xpm? ( x11-libs/libXpm )  virtual/pkgconfig  X? ( x11-base/xorg-proto ) 
+RDEPEND=  allegro? ( media-libs/allegro:0 )  gif? ( media-libs/giflib:= )  glut? ( media-libs/freeglut )  jpeg? ( virtual/jpeg:0 )  mng? ( media-libs/libmng:= )  nvtt? ( media-gfx/nvidia-texture-tools )  openexr? ( media-libs/openexr:= )  opengl? ( virtual/opengl   virtual/glu )  png? ( media-libs/libpng:0= )  sdl? ( media-libs/libsdl )  tiff? ( media-libs/tiff:0 )  X? ( x11-libs/libXext    x11-libs/libX11    x11-libs/libXrender )  xpm? ( x11-libs/libXpm ) 
+EAPI=6
+IUSE=allegro cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 gif glut jpeg mng nvtt openexr opengl png sdl static-libs tiff X xpm 
+KEYWORDS=amd64 ~arm arm64 ~hppa ~mips ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/openil/DevIL-1.7.8.tar.gz

@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure prepare
+DEPEND=  >=x11-libs/gtk+-3:3  >=gnome-base/libglade-2.3  dev-libs/popt  password? ( dev-libs/openssl:0= )  fam? ( virtual/fam )  x11-libs/libX11  x11-libs/pango  x11-libs/gdk-pixbuf   virtual/pkgconfig  
+RDEPEND=  >=x11-libs/gtk+-3:3  >=gnome-base/libglade-2.3  dev-libs/popt  password? ( dev-libs/openssl:0= )  fam? ( virtual/fam )  x11-libs/libX11  x11-libs/pango  x11-libs/gdk-pixbuf  
+EAPI=6
+IUSE=debug fam nls password 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gnubiff/gnubiff-2.2.17.tar.gz

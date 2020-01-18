@@ -1,0 +1,13 @@
+a6cf4274b148b95606468c7e6099d996
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=dev-vcs/cvs 
+DEPEND=    >=sys-libs/ncurses-5.7-r6:=  media-libs/fontconfig  x11-libs/libX11  x11-libs/libXrender  gdk-pixbuf? ( x11-libs/gdk-pixbuf )  kernel_Darwin? ( dev-perl/Mac-Pasteboard )  perl? ( dev-lang/perl:= )  startup-notification? ( x11-libs/startup-notification )  xft? ( x11-libs/libXft )   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  >=sys-libs/ncurses-5.7-r6:=  media-libs/fontconfig  x11-libs/libX11  x11-libs/libXrender  gdk-pixbuf? ( x11-libs/gdk-pixbuf )  kernel_Darwin? ( dev-perl/Mac-Pasteboard )  perl? ( dev-lang/perl:= )  startup-notification? ( x11-libs/startup-notification )  xft? ( x11-libs/libXft )  
+EAPI=7
+IUSE=
+	256-color blink fading-colors +font-styles gdk-pixbuf iso14755 +mousewheel
+	+perl startup-notification unicode3 +utmp +wtmp xft
+ 
+KEYWORDS=
+SLOT=0
+SRC_URI=

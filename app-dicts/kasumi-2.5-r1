@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=app-i18n/anthy  virtual/libiconv  x11-libs/gtk+:2  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=app-i18n/anthy  virtual/libiconv  x11-libs/gtk+:2  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=alpha amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/kasumi/41436/kasumi-2.5.tar.gz

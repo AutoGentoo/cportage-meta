@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure prepare
+DEPEND=!static? ( >=app-arch/libarchive-2.8:=  >=app-arch/xz-utils-5 )  static? ( >=app-arch/libarchive-2.8:=[static-libs(+)]  >=app-arch/xz-utils-5[static-libs(+)] ) app-text/asciidoc 
+RDEPEND=!static? ( >=app-arch/libarchive-2.8:=  >=app-arch/xz-utils-5 ) 
+EAPI=6
+IUSE=static 
+KEYWORDS=
+SLOT=0
+SRC_URI=

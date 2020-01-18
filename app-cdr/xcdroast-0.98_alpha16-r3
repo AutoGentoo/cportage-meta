@@ -1,0 +1,9 @@
+594b1dd32815e6b6f79ab36a6c9be9c4
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare
+DEPEND=>=x11-libs/gtk+-2:2  app-cdr/cdrtools  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=>=x11-libs/gtk+-2:2  app-cdr/cdrtools 
+EAPI=6
+IUSE=nls suid 
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xcdroast/xcdroast-0.98alpha16.tar.gz

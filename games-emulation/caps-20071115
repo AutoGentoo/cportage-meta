@@ -1,0 +1,11 @@
+367efd4def1da508034d37eb54953aa2
+DEFINED_PHASES= install
+DEPEND=app-arch/unzip 
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/ipfdevlib_linux-20060612.tgz
+	amd64? ( mirror://gentoo/ipflib_linux-amd64-20071115.tgz )
+	doc? ( mirror://gentoo/ipfdoc102a.zip )
+	mirror://gentoo/config_uae_ocs13_512c-512s.zip

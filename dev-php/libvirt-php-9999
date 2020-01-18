@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= install prepare unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=app-emulation/libvirt  dev-libs/libxml2  dev-libs/libxslt  virtual/pkgconfig  doc? ( app-text/xhtml1 ) 
+RDEPEND=app-emulation/libvirt  dev-libs/libxml2 
+EAPI=7
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

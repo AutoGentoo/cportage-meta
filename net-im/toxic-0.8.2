@@ -1,0 +1,10 @@
+1bb15aa0f98ecb6a78a5cb1888e6070e
+DEFINED_PHASES= configure install prepare setup
+DEPEND=  virtual/pkgconfig    net-libs/tox:0/0.2  dev-libs/libconfig  net-misc/curl:0=  sys-libs/ncurses:0=  notification? ( x11-libs/libnotify )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )  )  qrcode? ( media-gfx/qrencode:= )  sound? (   media-libs/openal   media-libs/freealut   net-libs/tox:0/0.2[av]  )  video? (   media-libs/libvpx:=   net-libs/tox:0/0.2[av]   x11-libs/libX11  )   
+RDEPEND=  net-libs/tox:0/0.2  dev-libs/libconfig  net-misc/curl:0=  sys-libs/ncurses:0=  notification? ( x11-libs/libnotify )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )  )  qrcode? ( media-gfx/qrencode:= )  sound? (   media-libs/openal   media-libs/freealut   net-libs/tox:0/0.2[av]  )  video? (   media-libs/libvpx:=   net-libs/tox:0/0.2[av]   x11-libs/libX11  )  
+EAPI=6
+IUSE=+X +sound notification +python +qrcode +video 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/JFreegman/toxic/archive/v0.8.2.tar.gz -> toxic-0.8.2.tar.gz
+	https://github.com/fx-carton/toxic_patches/archive/v0.8.2.tar.gz -> toxic_patches-0.8.2.tar.gz

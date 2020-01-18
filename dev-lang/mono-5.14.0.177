@@ -1,0 +1,9 @@
+7e10306482075a22896b4ff65b25d2c6
+DEFINED_PHASES= prepare pretend setup
+DEPEND=  !minimal? ( >=dev-dotnet/libgdiplus-2.10 )  ia64? ( sys-libs/libunwind )  nls? ( sys-devel/gettext )   sys-devel/bc  virtual/yacc  pax_kernel? ( sys-apps/elfix )  dev-util/cmake  
+RDEPEND=  !minimal? ( >=dev-dotnet/libgdiplus-2.10 )  ia64? ( sys-libs/libunwind )  nls? ( sys-devel/gettext )   || ( www-client/links www-client/lynx )  
+EAPI=6
+IUSE=abi_x86_32 abi_x86_64 abi_x86_x32 abi_mips_n32 abi_mips_n64 abi_mips_o32 abi_riscv_lp64d abi_riscv_lp64 abi_s390_32 abi_s390_64 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=http://download.mono-project.com/sources/mono/mono-5.14.0.177.tar.bz2

@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= prepare
+DEPEND=  libav? ( media-video/libav:= )  !libav? ( media-video/ffmpeg:0= )  x11-libs/wxGTK:3.0[X]   dev-util/intltool  virtual/pkgconfig  >=sys-devel/gcc-4.7  sys-devel/gettext  
+RDEPEND=  libav? ( media-video/libav:= )  !libav? ( media-video/ffmpeg:0= )  x11-libs/wxGTK:3.0[X]  
+EAPI=5
+IUSE=libav 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/alexkay/spek/archive/0.8.3.tar.gz -> spek-0.8.3.tar.gz

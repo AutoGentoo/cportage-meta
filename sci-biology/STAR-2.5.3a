@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install pretend setup
+DEPEND=sci-libs/htslib:=  virtual/pkgconfig 
+RDEPEND=sci-libs/htslib:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/alexdobin/STAR/archive/2.5.3a.tar.gz -> STAR-2.5.3a.tar.gz

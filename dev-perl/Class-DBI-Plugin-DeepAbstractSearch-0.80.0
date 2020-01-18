@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Class-DBI-Plugin-0.03  >=dev-perl/SQL-Abstract-1.60  dev-perl/Class-DBI 
+RDEPEND=>=dev-perl/Class-DBI-Plugin-0.03  >=dev-perl/SQL-Abstract-1.60  dev-perl/Class-DBI 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SR/SRIHA/Class-DBI-Plugin-DeepAbstractSearch-0.08.tar.gz

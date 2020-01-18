@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/cv_bridge  >=media-libs/opencv-4:=  dev-ros/dynamic_reconfigure  dev-ros/camera_info_manager  dev-ros/image_transport  dev-ros/nodelet  dev-libs/console_bridge:=  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-libs/boost:=  
+RDEPEND=  dev-ros/cv_bridge  >=media-libs/opencv-4:=  dev-ros/dynamic_reconfigure  dev-ros/camera_info_manager  dev-ros/image_transport  dev-ros/nodelet  dev-libs/console_bridge:=  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros-perception/image_pipeline/archive/1.13.0.tar.gz -> image_pipeline-1.13.0.tar.gz

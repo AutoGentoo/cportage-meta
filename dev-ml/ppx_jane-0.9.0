@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-ml/ppx_assert:=  dev-ml/ppx_base:=  dev-ml/ppx_bench:=  dev-ml/ppx_bin_prot:=  dev-ml/ppx_custom_printf:=  dev-ml/ppx_driver:=  dev-ml/ppx_expect:=  dev-ml/ppx_fail:=  dev-ml/ppx_fields_conv:=  dev-ml/ppx_here:=  dev-ml/ppx_inline_test:=  dev-ml/ppx_let:=  dev-ml/ppx_optional:=  dev-ml/ppx_pipebang:=  dev-ml/ppx_sexp_message:=  dev-ml/ppx_sexp_value:=  dev-ml/ppx_typerep_conv:=  dev-ml/ppx_type_conv:=  dev-ml/ppx_variants_conv:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/jbuilder 
+RDEPEND=  dev-ml/ppx_assert:=  dev-ml/ppx_base:=  dev-ml/ppx_bench:=  dev-ml/ppx_bin_prot:=  dev-ml/ppx_custom_printf:=  dev-ml/ppx_driver:=  dev-ml/ppx_expect:=  dev-ml/ppx_fail:=  dev-ml/ppx_fields_conv:=  dev-ml/ppx_here:=  dev-ml/ppx_inline_test:=  dev-ml/ppx_let:=  dev-ml/ppx_optional:=  dev-ml/ppx_pipebang:=  dev-ml/ppx_sexp_message:=  dev-ml/ppx_sexp_value:=  dev-ml/ppx_typerep_conv:=  dev-ml/ppx_type_conv:=  dev-ml/ppx_variants_conv:=  dev-ml/ocaml-migrate-parsetree:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0.9.0
+SRC_URI=https://github.com/janestreet/ppx_jane/archive/v0.9.0.tar.gz -> ppx_jane-0.9.0.tar.gz

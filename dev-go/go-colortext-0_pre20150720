@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/daviddengcn/go-colortext/archive/3b18c85.tar.gz -> go-colortext-0_pre20150720.tar.gz

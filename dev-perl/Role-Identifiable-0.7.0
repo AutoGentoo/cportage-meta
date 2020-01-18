@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    dev-perl/Moose   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   virtual/perl-File-Spec   virtual/perl-IO   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  dev-perl/Moose  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Role-Identifiable-0.007.tar.gz

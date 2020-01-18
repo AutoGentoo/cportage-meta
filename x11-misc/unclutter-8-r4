@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=x11-libs/libX11  x11-base/xorg-proto 
+RDEPEND=x11-libs/libX11 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ~mips ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=ftp://ftp.x.org/contrib/utilities/unclutter-8.tar.Z

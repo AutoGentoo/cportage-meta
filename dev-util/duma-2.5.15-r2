@@ -1,0 +1,8 @@
+c6411588025ed755593333267df5262b
+DEFINED_PHASES= compile configure install postinst test
+EAPI=6
+IUSE=examples 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/duma/duma_2_5_15.tar.gz
+	mirror://gentoo/duma-2.5.15-GNUmakefile.patch.bz2

@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install
+DEPEND=  dev-libs/glib:2  media-gfx/transfig  x11-libs/gtk+:2  x11-libs/libX11  x11-libs/pango  emf? ( media-libs/libemf )  virtual/pkgconfig 
+RDEPEND=  dev-libs/glib:2  media-gfx/transfig  x11-libs/gtk+:2  x11-libs/libX11  x11-libs/pango  emf? ( media-libs/libemf ) 
+EAPI=4
+IUSE=emf gnome nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://ruby.chemie.uni-freiburg.de/~martin/chemtool/chemtool-1.6.13.tar.gz

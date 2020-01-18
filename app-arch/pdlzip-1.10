@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~mips ~x86
+SLOT=0
+SRC_URI=https://download.savannah.gnu.org/releases/lzip/pdlzip/pdlzip-1.10.tar.gz

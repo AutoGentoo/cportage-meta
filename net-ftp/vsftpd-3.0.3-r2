@@ -1,0 +1,9 @@
+12e9da7eb49d6f226543c1289f85e037
+DEFINED_PHASES= compile install postinst preinst prepare
+DEPEND=caps? ( >=sys-libs/libcap-2 )  pam? ( sys-libs/pam )  tcpd? ( >=sys-apps/tcp-wrappers-7.6 )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+RDEPEND=caps? ( >=sys-libs/libcap-2 )  pam? ( sys-libs/pam )  tcpd? ( >=sys-apps/tcp-wrappers-7.6 )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  net-ftp/ftpbase  selinux? ( sec-policy/selinux-ftp )  xinetd? ( sys-apps/xinetd ) 
+EAPI=6
+IUSE=caps libressl pam tcpd ssl selinux xinetd 
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86
+SLOT=0
+SRC_URI=http://security.appspot.com/downloads/vsftpd-3.0.3.tar.gz

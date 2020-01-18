@@ -1,0 +1,9 @@
+cd6fc107edd7f774491438e459c3ea2f
+DEFINED_PHASES= configure install postinst preinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+RDEPEND=  dev-lang/perl  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 hppa ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris
+SLOT=0
+SRC_URI=https://gitlab.com/surfraw/Surfraw/-/archive/surfraw-2.3.0/Surfraw-surfraw-2.3.0.tar.bz2

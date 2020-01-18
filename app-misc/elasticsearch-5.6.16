@@ -1,0 +1,9 @@
+9e80975fbd0e778f2d0e91b439c11772
+DEFINED_PHASES= install postinst prepare setup
+BDEPEND=virtual/pkgconfig 
+RDEPEND=virtual/jre:1.8 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.6.16.tar.gz

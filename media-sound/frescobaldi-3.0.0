@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= postinst postrm
+DEPEND=  dev-python/PyQt5[gui,network,printsupport,svg,webkit,widgets,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/python-ly-0.9.4[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/python-poppler-qt5[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=media-sound/lilypond-2.14.2 
+RDEPEND=  dev-python/PyQt5[gui,network,printsupport,svg,webkit,widgets,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/python-ly-0.9.4[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/python-poppler-qt5[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=media-sound/lilypond-2.14.2  x11-themes/tango-icon-theme  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/wbsoft/frescobaldi/releases/download/v3.0.0/frescobaldi-3.0.0.tar.gz

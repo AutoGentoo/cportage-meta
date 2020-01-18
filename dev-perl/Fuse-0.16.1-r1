@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=  virtual/perl-ExtUtils-MakeMaker  test? (   sys-fs/fuse:=  dev-perl/Filesys-Statvfs  dev-perl/Lchown  dev-perl/Unix-Mknod  )  
+DEPEND=sys-fs/fuse 
+RDEPEND=  sys-fs/fuse:=  dev-perl/Filesys-Statvfs  dev-perl/Lchown  dev-perl/Unix-Mknod  
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DP/DPATES/Fuse-0.16.1.tar.gz

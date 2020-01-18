@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+RDEPEND=!<=dev-java/kaffe-1.1.7-r5 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x86-macos ~sparc-solaris
+SLOT=0
+SRC_URI=mirror://nongnu/fastjar/fastjar-0.98.tar.gz

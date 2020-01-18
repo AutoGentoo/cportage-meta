@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-libs/nss   sys-devel/prelink 
+RDEPEND=dev-libs/nss   sys-devel/prelink 
+EAPI=7
+IUSE=+fips 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://releases.pagure.org/hmaccalc/hmaccalc-0.9.14.tar.gz

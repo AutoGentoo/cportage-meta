@@ -1,0 +1,9 @@
+28c7a11661d55b2e9650894a26726613
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=ssl? ( dev-libs/openssl:0= )  X? (   x11-libs/libX11   x11-libs/libXaw   x11-libs/libXmu   x11-libs/libXt  )  ncurses? (   sys-libs/ncurses:=   sys-libs/readline:0=  )  tcl? ( dev-lang/tcl:0 )  X? (   x11-base/xorg-proto   x11-misc/xbitmaps   app-text/rman   >=x11-apps/mkfontscale-1.2.0   x11-apps/bdftopcf  ) 
+RDEPEND=ssl? ( dev-libs/openssl:0= )  X? (   x11-libs/libX11   x11-libs/libXaw   x11-libs/libXmu   x11-libs/libXt  )  ncurses? (   sys-libs/ncurses:=   sys-libs/readline:0=  )  tcl? ( dev-lang/tcl:0 ) 
+EAPI=5
+IUSE=cjk doc ncurses ssl tcl X 
+KEYWORDS=~amd64 ~ppc ~s390 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/x3270/suite3270-3.6ga4-src.tgz

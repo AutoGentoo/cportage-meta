@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=dev-libs/glib:2  dev-libs/libxml2  dev-games/libmaitretarot 
+RDEPEND=dev-libs/glib:2  dev-libs/libxml2  dev-games/libmaitretarot 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/maitretarot/maitretarot.pkg/0.1.98/maitretarot-0.1.98.tar.bz2

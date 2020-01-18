@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Math-Derivative  dev-perl/Math-Spline  >=dev-perl/Statistics-Descriptive-2.6  dev-perl/SVG  >=dev-perl/Tree-DAG_Node-1.04 
+RDEPEND=dev-perl/Math-Derivative  dev-perl/Math-Spline  >=dev-perl/Statistics-Descriptive-2.6  dev-perl/SVG  >=dev-perl/Tree-DAG_Node-1.04 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALLENDAY/SVG-Graph-0.02.tar.gz

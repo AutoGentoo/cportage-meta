@@ -1,0 +1,9 @@
+e2689d6f4e20e53d507b56c99f2940ea
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=dev-lang/perl 
+RDEPEND=!dev-lang/tendra 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=https://download.savannah.gnu.org/releases/tinycc/tcc-0.9.27.tar.bz2

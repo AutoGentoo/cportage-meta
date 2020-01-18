@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=amd64 arm ia64 ppc s390 sh sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/arabeyes/ae_fonts_2.0.tar.bz2

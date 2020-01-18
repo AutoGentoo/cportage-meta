@@ -1,0 +1,7 @@
+6fa7d71a5da33a10a7882aee530758d0
+DEFINED_PHASES= compile configure install setup
+EAPI=7
+IUSE=nls threads unicode headers-only nano 
+KEYWORDS=-* ~arm ~hppa ~m68k ~mips ~ppc ~ppc64 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=ftp://sourceware.org/pub/newlib/newlib-3.1.0.tar.gz

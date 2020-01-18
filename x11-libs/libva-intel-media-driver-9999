@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=media-libs/gmmlib-9999  >=x11-libs/libva-2.3.0  >=x11-libs/libpciaccess-0.13.1-r1:=  
+RDEPEND=>=media-libs/gmmlib-9999  >=x11-libs/libva-2.3.0  >=x11-libs/libpciaccess-0.13.1-r1:=  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

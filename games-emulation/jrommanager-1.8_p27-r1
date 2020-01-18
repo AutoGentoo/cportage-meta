@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/optyfr/JRomManager/releases/download/1.8b27/JRomManager-1.8b27.zip

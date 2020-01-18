@@ -1,0 +1,9 @@
+42104b9de65ba17ca99db14239ee350b
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  dev-libs/libxml2:2  x11-libs/gtk+:2  gnome-base/libglade:2.0  gnome-base/libgnome  >=gnome-base/libgnomeui-2.12  >=gnome-base/libgnomecanvas-2.12  >=x11-libs/cairo-1.2  x11-libs/gtksourceview:2.0  >=dev-util/scons-0.96.1  virtual/pkgconfig 
+RDEPEND=  dev-libs/libxml2:2  x11-libs/gtk+:2  gnome-base/libglade:2.0  gnome-base/libgnome  >=gnome-base/libgnomeui-2.12  >=gnome-base/libgnomecanvas-2.12  >=x11-libs/cairo-1.2  x11-libs/gtksourceview:2.0  sci-electronics/electronics-menu 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/o/oregano/oregano_0.69.1.orig.tar.gz

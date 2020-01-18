@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=|| (  www-servers/apache  www-servers/lighttpd  www-servers/boa  www-servers/bozohttpd  www-servers/cherokee  www-servers/fnord  www-servers/hiawatha  www-servers/monkeyd  www-servers/nginx  www-servers/resin  www-servers/thttpd  www-servers/tomcat  ) 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc x86
+SLOT=0
+SRC_URI=

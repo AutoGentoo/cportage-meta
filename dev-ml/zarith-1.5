@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile configure install test
+DEPEND=  >=dev-lang/ocaml-4:=[ocamlopt?]  !mpir? ( dev-libs/gmp:0= )  mpir? ( sci-libs/mpir ) dev-lang/perl 
+RDEPEND=  >=dev-lang/ocaml-4:=[ocamlopt?]  !mpir? ( dev-libs/gmp:0= )  mpir? ( sci-libs/mpir ) 
+EAPI=5
+IUSE=doc mpir +ocamlopt 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0/1.5
+SRC_URI=https://github.com/ocaml/Zarith/archive/release-1.5.tar.gz -> zarith-1.5.tar.gz

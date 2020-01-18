@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install test unpack
+RDEPEND=  app-crypt/gnupg  sys-fs/fuse   
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/keybase/kbfs/archive/v2.8.0.tar.gz -> kbfs-2.8.0.tar.gz

@@ -1,0 +1,10 @@
+14dde1679b956380fb3ac25a64b5d98f
+DEFINED_PHASES= install prepare test
+DEPEND=!games-misc/wtf  !app-misc/banner  !games-puzzle/hangman  sys-libs/ncurses:0  sys-apps/miscfiles  sys-devel/flex  sys-devel/bison  virtual/pkgconfig 
+RDEPEND=!games-misc/wtf  !app-misc/banner  !games-puzzle/hangman  sys-libs/ncurses:0  sys-apps/miscfiles 
+EAPI=5
+IUSE=
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.polyomino.org.uk/computer/software/bsd-games/bsd-games-2.17.tar.gz
+	mirror://debian/pool/main/b/bsdgames/bsdgames_2.17-22.debian.tar.xz

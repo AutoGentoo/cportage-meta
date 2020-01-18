@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/libogg  media-libs/libvorbis  flac? ( media-libs/flac )  speex? ( media-libs/speex )  virtual/pkgconfig 
+RDEPEND=  media-libs/libogg  media-libs/libvorbis  flac? ( media-libs/flac )  speex? ( media-libs/speex ) 
+EAPI=7
+IUSE=flac speex 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://downloads.xiph.org/releases/libfishsound/libfishsound-1.0.0.tar.gz

@@ -1,0 +1,9 @@
+6b62ed8a9a679d2809027c5d95dfb68e
+DEFINED_PHASES= configure prepare
+DEPEND=>dev-haskell/split-0:=[profile?]  >=dev-haskell/wxdirect-0.90.1.1:3.0=[profile?]  x11-libs/wxGTK:3.0=[X,gstreamer,opengl]  >=dev-lang/ghc-7.6.1:=   >=dev-haskell/cabal-1.16.0  
+RDEPEND=>dev-haskell/split-0:=[profile?]  >=dev-haskell/wxdirect-0.90.1.1:3.0=[profile?]  x11-libs/wxGTK:3.0=[X,gstreamer,opengl]  >=dev-lang/ghc-7.6.1:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=3.0/0.92.2.0
+SRC_URI=https://hackage.haskell.org/package/wxc-0.92.2.0/wxc-0.92.2.0.tar.gz

@@ -1,0 +1,9 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.4  >=virtual/jre-1.4  dev-java/jss:3.4  dev-java/jakarta-oro:2.0 
+RDEPEND=>=virtual/jre-1.4  dev-java/jss:3.4  dev-java/jakarta-oro:2.0 
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 x86
+SLOT=4.1
+SRC_URI=http://www.mozilla.org/directory/ldapsdk_java_20020819.tar.gz

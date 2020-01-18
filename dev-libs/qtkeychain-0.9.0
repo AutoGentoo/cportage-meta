@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  gnome-keyring? ( dev-libs/glib:2 )   dev-qt/linguist-tools:5  gnome-keyring? ( gnome-base/libgnome-keyring )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  gnome-keyring? ( dev-libs/glib:2 )  
+EAPI=6
+IUSE=gnome-keyring 
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0/1
+SRC_URI=https://github.com/frankosterfeld/qtkeychain/archive/v0.9.0.tar.gz -> qtkeychain-0.9.0.tar.gz

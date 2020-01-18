@@ -1,0 +1,10 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install unpack
+DEPEND=X? ( media-gfx/ebdftopcf ) 
+EAPI=6
+IUSE=unicode 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://kldp.net/baekmuk/release/865-baekmuk-bdf-2.2.tar.gz -> baekmuk-bdf-2.2.tar.gz
+	http://kldp.net/baekmuk/release/865-baekmuk-ttf-2.2.tar.gz -> baekmuk-ttf-2.2.tar.gz
+	unicode? ( mirror://gentoo/baekmuk-unicode-bdf-20020418.tar.bz2 )

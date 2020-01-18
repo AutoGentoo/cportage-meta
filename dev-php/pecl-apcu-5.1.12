@@ -1,0 +1,8 @@
+e4181d173d92e520a8f4d4ed91ca975a
+DEFINED_PHASES= configure install postinst prepare
+RDEPEND= php_targets_php5-6? ( dev-php/pecl-apcu:0[php_targets_php5-6] ) 
+EAPI=6
+IUSE=+mmap lock-pthreadmutex +lock-pthreadrw lock-spinlock lock-semaphore  
+KEYWORDS=amd64 x86
+SLOT=7
+SRC_URI=https://pecl.php.net/get/apcu-5.1.12.tgz

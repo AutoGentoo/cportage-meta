@@ -1,0 +1,9 @@
+7563ce6de1717ede146d70aad6cecdb5
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/libpcre  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  
+RDEPEND=    dev-libs/libpcre  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )   !sci-biology/amap  
+EAPI=5
+IUSE=libressl ssl 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://www.thc.org/releases/amap-5.4.tar.gz

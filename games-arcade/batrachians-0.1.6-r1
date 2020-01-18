@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=dev-games/flatzebra-0.1.5  virtual/pkgconfig  
+RDEPEND=>=dev-games/flatzebra-0.1.5 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://perso.b2b2c.ca/~sarrazip/dev/batrachians-0.1.6.tar.gz

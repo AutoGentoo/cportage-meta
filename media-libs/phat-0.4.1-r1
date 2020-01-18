@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=x11-libs/gtk+:2  x11-libs/libX11  gnome-base/libgnomecanvas  virtual/pkgconfig  dev-util/gtk-doc 
+RDEPEND=x11-libs/gtk+:2  x11-libs/libX11  gnome-base/libgnomecanvas 
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/phat.berlios/phat-0.4.1.tar.gz

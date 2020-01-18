@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-Carp  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm hppa ~mips ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MR/MRSAM/Net-CIDR-0.18.tar.gz

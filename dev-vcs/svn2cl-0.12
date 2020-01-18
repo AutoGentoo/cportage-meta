@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+RDEPEND=dev-libs/libxslt  dev-vcs/subversion 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~mips ~ppc x86
+SLOT=0
+SRC_URI=https://arthurdejong.org/svn2cl/svn2cl-0.12.tar.gz

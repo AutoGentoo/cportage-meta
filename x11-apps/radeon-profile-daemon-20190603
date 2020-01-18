@@ -1,0 +1,10 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/marazmista/radeon-profile-daemon/archive/20190603.tar.gz -> radeon-profile-daemon-20190603.tar.gz

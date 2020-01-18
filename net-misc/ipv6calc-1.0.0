@@ -1,0 +1,9 @@
+9652848f660f5d03e3fc7c4f71d79e7a
+DEFINED_PHASES= compile configure install test
+DEPEND=  !libressl? ( dev-libs/openssl:= )  libressl? ( dev-libs/libressl:= )  geoip? ( >=dev-libs/geoip-1.4.7 )   test? ( dev-perl/Digest-SHA1 )  
+RDEPEND=  !libressl? ( dev-libs/openssl:= )  libressl? ( dev-libs/libressl:= )  geoip? ( >=dev-libs/geoip-1.4.7 )  
+EAPI=6
+IUSE=geoip libressl test 
+KEYWORDS=~alpha amd64 hppa ppc sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/pbiering/ipv6calc/archive/1.0.0.tar.gz -> ipv6calc-1.0.0.tar.gz

@@ -1,0 +1,10 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  sys-libs/zlib:=  lz4?     ( app-arch/lz4:= )  lzo?     ( dev-libs/lzo:= )  xz?      ( app-arch/xz-utils:= )  selinux? ( sys-libs/libselinux:= )  zstd?    ( app-arch/zstd:= )  
+RDEPEND=  sys-libs/zlib:=  lz4?     ( app-arch/lz4:= )  lzo?     ( dev-libs/lzo:= )  xz?      ( app-arch/xz-utils:= )  selinux? ( sys-libs/libselinux:= )  zstd?    ( app-arch/zstd:= )  
+EAPI=7
+IUSE=lz4 lzo selinux +tools +xz zstd 
+KEYWORDS=
+SLOT=0
+SRC_URI=

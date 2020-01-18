@@ -1,0 +1,10 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= configure install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=>=dev-libs/jansson-2.4  dev-libs/libdaemon  >=dev-libs/libnl-3.2.19[utils]  dbus? ( sys-apps/dbus )  zmq? ( >=net-libs/zeromq-3.2.0 )   
+RDEPEND=>=dev-libs/jansson-2.4  dev-libs/libdaemon  >=dev-libs/libnl-3.2.19[utils]  dbus? ( sys-apps/dbus )  zmq? ( >=net-libs/zeromq-3.2.0 )    syslog? ( virtual/logger ) 
+EAPI=7
+IUSE=dbus debug examples static-libs +syslog zmq 
+KEYWORDS=
+SLOT=0
+SRC_URI=

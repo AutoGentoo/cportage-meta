@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  ~app-leechcraft/lc-core-9999  net-libs/libtorrent-rasterbar  dev-qt/qtxml:5  dev-qt/qtwidgets:5  
+RDEPEND=  ~app-leechcraft/lc-core-9999  net-libs/libtorrent-rasterbar  dev-qt/qtxml:5  dev-qt/qtwidgets:5   virtual/leechcraft-task-show  geoip? ( dev-libs/geoip )  
+EAPI=6
+IUSE=debug geoip 
+KEYWORDS=
+SLOT=0
+SRC_URI=

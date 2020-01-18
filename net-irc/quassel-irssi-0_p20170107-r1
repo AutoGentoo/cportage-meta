@@ -1,0 +1,9 @@
+c0919e0fe6f325a6d525399f8f9bde37
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=>=net-irc/irssi-1.0.0  net-libs/quasselc 
+RDEPEND=>=net-irc/irssi-1.0.0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/phhusson/quassel-irssi/archive/f23e97a6188129cfae4c52f7e1a75940185454f4.zip -> quassel-irssi-0_p20170107-r1.zip

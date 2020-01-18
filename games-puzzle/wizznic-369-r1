@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libsdl[sound,joystick,opengl,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  virtual/opengl 
+RDEPEND=media-libs/libsdl[sound,joystick,opengl,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wizznic/Wizznic_src_build_369.tar.bz2

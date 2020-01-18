@@ -1,0 +1,10 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= configure install
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost:=  dev-libs/expat  fftw? ( sci-libs/fftw:3.0 )  gsl? ( sci-libs/gsl )  sqlite? ( dev-db/sqlite:3 )  doc? ( >=app-doc/doxygen-1.7.6.1[dot] )  >=app-text/txt2tags-2.5  virtual/pkgconfig 
+RDEPEND=  dev-libs/boost:=  dev-libs/expat  fftw? ( sci-libs/fftw:3.0 )  gsl? ( sci-libs/gsl )  sqlite? ( dev-db/sqlite:3 ) 
+EAPI=6
+IUSE=doc +fftw +gsl sqlite 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/votca/tools/archive/v1.4.1.tar.gz -> votca-tools-1.4.1.tar.gz

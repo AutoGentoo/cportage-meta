@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  x11-libs/libXpm  >=x11-libs/motif-2.3:0  
+RDEPEND=  x11-libs/libXpm  >=x11-libs/motif-2.3:0  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~hppa ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=ftp://ftp.fu-berlin.de/unix/X11/apps/plan/plan-1.10.tar.gz
+	mirror://gentoo/plan-1.10-gentoo.tar.xz

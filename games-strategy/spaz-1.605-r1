@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+BDEPEND=app-arch/unzip 
+RDEPEND=  >=media-libs/openal-1.15.1[alsa?,pulseaudio?,abi_x86_32(-)]  >=media-libs/libsdl-1.2.15-r4[abi_x86_32(-)]  
+EAPI=7
+IUSE=alsa pulseaudio 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=spaz-linux-humblebundle-09182012-bin

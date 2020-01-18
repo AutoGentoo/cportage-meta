@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  x11-libs/libX11  x11-libs/libXpm  x11-libs/libXxf86vm  x11-libs/libXext  media-libs/libpng:0=  sys-libs/zlib   sys-devel/bc  x11-base/xorg-proto  
+RDEPEND=  x11-libs/libX11  x11-libs/libXpm  x11-libs/libXxf86vm  x11-libs/libXext  media-libs/libpng:0=  sys-libs/zlib  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/quadra-game/quadra/archive/v1.2.0.tar.gz -> quadra-1.2.0.tar.gz

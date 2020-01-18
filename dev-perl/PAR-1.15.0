@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Archive-Zip-1.00  >=virtual/perl-AutoLoader-5.660.200  >=virtual/perl-Digest-SHA-5.450.0  >=virtual/perl-File-Temp-0.50.0  >=virtual/perl-IO-Compress-1.300.0  >=dev-perl/PAR-Dist-0.320.0   virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  >=dev-perl/Archive-Zip-1.00  >=virtual/perl-AutoLoader-5.660.200  >=virtual/perl-Digest-SHA-5.450.0  >=virtual/perl-File-Temp-0.50.0  >=virtual/perl-IO-Compress-1.300.0  >=dev-perl/PAR-Dist-0.320.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~ppc x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RS/RSCHUPP/PAR-1.015.tar.gz

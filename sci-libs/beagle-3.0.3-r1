@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  sys-libs/zlib  !app-misc/beagle  !dev-libs/libbeagle  doc? ( app-doc/doxygen ) 
+RDEPEND=  sys-libs/zlib  !app-misc/beagle  !dev-libs/libbeagle 
+EAPI=6
+IUSE=doc examples static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/beagle/beagle-3.0.3.tar.gz

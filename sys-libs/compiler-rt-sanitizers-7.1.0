@@ -1,0 +1,10 @@
+f68feb8d747349441d93d38a99c6fff6
+DEFINED_PHASES= configure prepare pretend setup test unpack
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.7.0-r1 
+DEPEND=  >=sys-devel/llvm-6  clang? ( sys-devel/clang )  elibc_glibc? ( net-libs/libtirpc )  test? (   !<sys-apps/sandbox-2.13   || ( ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-python/lit-5[python_targets_python2_7(-),python_single_target_python2_7(+)] ) )   =sys-devel/clang-7.1.0*:7   sys-libs/compiler-rt:7.1.0 )  || ( >=dev-lang/python-2.7.5-r2:2.7 ) 
+EAPI=6
+IUSE=+clang +libfuzzer +profile +sanitize test +xray elibc_glibc 
+KEYWORDS=amd64 arm arm64 ~ppc64 x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=7.1.0
+SRC_URI=https://releases.llvm.org/7.1.0/compiler-rt-7.1.0.src.tar.xz
+	test? ( https://releases.llvm.org/7.1.0/llvm-7.1.0.src.tar.xz )

@@ -1,0 +1,9 @@
+6fedadb199687ad735ab825fc98b995d
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-libs/boehm-gc:=  sys-libs/ncurses:0=  sys-libs/zlib  X? (   x11-libs/libXdmcp   x11-libs/libXext  )  gdk-pixbuf? ( x11-libs/gdk-pixbuf[X?] )  !gdk-pixbuf? (   imlib? ( media-libs/imlib2[X?] )  )  gpm? ( sys-libs/gpm )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  xface? ( media-libs/compface )  virtual/pkgconfig 
+RDEPEND=dev-libs/boehm-gc:=  sys-libs/ncurses:0=  sys-libs/zlib  X? (   x11-libs/libXdmcp   x11-libs/libXext  )  gdk-pixbuf? ( x11-libs/gdk-pixbuf[X?] )  !gdk-pixbuf? (   imlib? ( media-libs/imlib2[X?] )  )  gpm? ( sys-libs/gpm )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  xface? ( media-libs/compface ) 
+EAPI=6
+IUSE=X fbcon gdk-pixbuf gpm imlib l10n_de l10n_ja libressl lynxkeymap nls nntp ssl unicode xface 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://github.com/tats/w3m/archive/v0.5.3+git20190105.tar.gz -> w3m-0.5.3+git20190105.tar.gz

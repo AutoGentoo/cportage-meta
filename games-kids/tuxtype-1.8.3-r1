@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=acct-group/gamestat  dev-games/t4k-common  media-libs/libsdl[video]  media-libs/sdl-image  media-libs/sdl-mixer  !pango? ( media-libs/sdl-ttf )  pango? ( media-libs/sdl-pango )  svg? ( gnome-base/librsvg:2 ) 
+RDEPEND=acct-group/gamestat  dev-games/t4k-common  media-libs/libsdl[video]  media-libs/sdl-image  media-libs/sdl-mixer  !pango? ( media-libs/sdl-ttf )  pango? ( media-libs/sdl-pango )  svg? ( gnome-base/librsvg:2 ) 
+EAPI=7
+IUSE=+pango svg 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/tux4kids/tuxtype/archive/upstream/1.8.3.tar.gz -> tuxtype-1.8.3.tar.gz

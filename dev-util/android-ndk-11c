@@ -1,0 +1,9 @@
+a2edc918c5f85df1ece412df41f17017
+DEFINED_PHASES= compile configure install pretend setup
+DEPEND=app-arch/p7zip 
+RDEPEND=>=dev-util/android-sdk-update-manager-10  >=sys-devel/make-3.81  sys-libs/ncurses-compat:5 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dl.google.com/android/repository/android-ndk-r11c-linux-x86_64.zip

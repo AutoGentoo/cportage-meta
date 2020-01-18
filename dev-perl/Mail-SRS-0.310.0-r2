@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install postinst test
+DEPEND=  >=dev-perl/Digest-HMAC-1.01-r1  >=dev-perl/MLDBM-2.01  >=virtual/perl-DB_File-1.807  >=virtual/perl-Digest-MD5-2.33  >=virtual/perl-Storable-2.04-r1  test? ( virtual/perl-Test-Simple ) 
+RDEPEND=  >=dev-perl/Digest-HMAC-1.01-r1  >=dev-perl/MLDBM-2.01  >=virtual/perl-DB_File-1.807  >=virtual/perl-Digest-MD5-2.33  >=virtual/perl-Storable-2.04-r1 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SH/SHEVEK/Mail-SRS-0.31.tar.gz

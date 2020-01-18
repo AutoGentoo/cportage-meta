@@ -1,0 +1,7 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= install postinst prepare
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 arm arm64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/jhawthorn/fzy/releases/download/1.0/fzy-1.0.tar.gz

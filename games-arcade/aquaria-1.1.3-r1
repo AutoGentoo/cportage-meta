@@ -1,0 +1,9 @@
+137028f06553292c2fbe34041601684b
+DEFINED_PHASES= install nofetch unpack
+DEPEND=app-arch/unzip 
+RDEPEND=  >=media-libs/libsdl-1.2.15-r4[abi_x86_32(-)]  >=media-libs/openal-1.15.1[abi_x86_32(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=aquaria-lnx-humble-bundle.mojo.run

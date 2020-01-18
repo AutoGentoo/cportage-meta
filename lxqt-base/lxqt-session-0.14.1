@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install
+BDEPEND=  dev-qt/linguist-tools:5  >=dev-util/lxqt-build-tools-0.6.0  
+DEPEND=  >=dev-libs/libqtxdg-3.3.1  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  kde-frameworks/kwindowsystem:5[X]  =lxqt-base/liblxqt-0.14*  x11-libs/libX11  x11-misc/xdg-user-dirs  themes? ( =x11-themes/lxqt-themes-0.14* )  udev? ( virtual/libudev )  
+RDEPEND=  >=dev-libs/libqtxdg-3.3.1  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  kde-frameworks/kwindowsystem:5[X]  =lxqt-base/liblxqt-0.14*  x11-libs/libX11  x11-misc/xdg-user-dirs  themes? ( =x11-themes/lxqt-themes-0.14* )  udev? ( virtual/libudev )   !lxqt-base/lxqt-l10n  
+EAPI=7
+IUSE=+themes +udev 
+KEYWORDS=amd64 ~arm ~arm64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://downloads.lxqt.org/downloads/lxqt-session/0.14.1/lxqt-session-0.14.1.tar.xz

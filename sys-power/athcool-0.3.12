@@ -1,0 +1,8 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= configure install postinst
+DEPEND=sys-apps/pciutils 
+EAPI=6
+IUSE=
+KEYWORDS=-* x86
+SLOT=0
+SRC_URI=http://members.jcom.home.ne.jp/jacobi/linux/files/athcool-0.3.12.tar.gz

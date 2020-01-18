@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install prepare
+BDEPEND=  dev-lang/perl  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+DEPEND=  dev-libs/icu:=  dev-libs/librevenge  dev-libs/libxml2   dev-libs/boost  dev-util/gperf  sys-devel/libtool  test? ( dev-util/cppunit )  
+RDEPEND=  dev-libs/icu:=  dev-libs/librevenge  dev-libs/libxml2  
+EAPI=7
+IUSE=doc static-libs test tools 
+KEYWORDS=
+SLOT=0
+SRC_URI=

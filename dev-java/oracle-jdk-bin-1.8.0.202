@@ -1,0 +1,37 @@
+90bf44893abde6b7b1a42ee4964e8bbb
+DEFINED_PHASES= install nofetch postinst postrm preinst prepare unpack
+DEPEND=app-arch/zip  examples? ( x64-macos? ( app-arch/unzip ) ) 
+RDEPEND=!x64-macos? (   !headless-awt? (    x11-libs/libX11    x11-libs/libXext    x11-libs/libXi    x11-libs/libXrender    x11-libs/libXtst   )   javafx? (    dev-libs/glib:2    dev-libs/libxml2:2    dev-libs/libxslt    media-libs/freetype:2    x11-libs/cairo    x11-libs/gtk+:2    x11-libs/libX11    x11-libs/libXtst    x11-libs/libXxf86vm    x11-libs/pango    virtual/opengl   )  )  alsa? ( media-libs/alsa-lib )  cups? ( net-print/cups )  doc? ( dev-java/java-sdk-docs:1.8 )  fontconfig? ( media-libs/fontconfig:1.0 )  !prefix? ( sys-libs/glibc:* )  selinux? ( sec-policy/selinux-java ) 
+EAPI=6
+IUSE=alsa commercial cups doc examples +fontconfig headless-awt javafx jce nsplugin selinux source visualvm 
+KEYWORDS=-* amd64 ~arm ~arm64 x86 ~amd64-linux ~x86-linux ~x64-macos ~sparc64-solaris ~x64-solaris
+SLOT=1.8
+SRC_URI=
+		amd64? (
+			jdk-8u202-linux-x64.tar.gz
+			examples? ( jdk-8u202-linux-x64-demos.tar.gz )
+		)
+		arm? (
+			jdk-8u202-linux-arm32-vfp-hflt.tar.gz
+			examples? ( jdk-8u202-linux-arm32-vfp-hflt-demos.tar.gz )
+		)
+		arm64? (
+			jdk-8u202-linux-arm64-vfp-hflt.tar.gz
+			examples? ( jdk-8u202-linux-arm64-vfp-hflt-demos.tar.gz )
+		)
+		x86? (
+			jdk-8u202-linux-i586.tar.gz
+			examples? ( jdk-8u202-linux-i586-demos.tar.gz )
+		)
+		x64-macos? (
+			jdk-8u202-macosx-x64.dmg
+			examples? ( jdk-8u202-macosx-x86_64-demos.zip )
+		)
+		sparc64-solaris? (
+			jdk-8u202-solaris-sparcv9.tar.gz
+			examples? ( jdk-8u202-solaris-sparcv9-demos.tar.gz )
+		)
+		x64-solaris? (
+			jdk-8u202-solaris-x64.tar.gz
+			examples? ( jdk-8u202-solaris-x64-demos.tar.gz )
+		)

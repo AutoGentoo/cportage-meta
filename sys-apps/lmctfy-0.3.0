@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  dev-libs/protobuf  dev-cpp/gflags  dev-libs/re2   
+RDEPEND=  dev-libs/protobuf  dev-cpp/gflags  dev-libs/re2   
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/google/lmctfy/archive/0.3.0.tar.gz -> lmctfy-0.3.0.tar.gz

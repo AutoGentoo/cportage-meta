@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=    dev-java/osgi-core-api:0  dev-java/bndlib:0  >=virtual/jdk-1.5  test? ( dev-java/junit:4 ) 
+RDEPEND=    dev-java/osgi-core-api:0  dev-java/bndlib:0  >=virtual/jre-1.5 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/bndtools/bnd/archive/2.1.0.REL.tar.gz -> bndlib-2.1.0.tar.gz

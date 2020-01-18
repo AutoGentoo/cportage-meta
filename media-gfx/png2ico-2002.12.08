@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libpng:0=  sys-libs/zlib:= 
+RDEPEND=media-libs/libpng:0=  sys-libs/zlib:= 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://winterdrache.de/freeware/png2ico/data/png2ico-src-2002-12.08.tar.gz

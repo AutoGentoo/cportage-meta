@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Module-Build-0.28 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ~arm hppa ia64 ~mips ppc ppc64 sparc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RC/RCLAMP/Text-Glob-0.09.tar.gz

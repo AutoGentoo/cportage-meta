@@ -1,0 +1,7 @@
+d3f6319ff250ec73a05792b9dfea89f2
+DEFINED_PHASES= configure install prepare setup
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+7dfdab0b479e8c8e3fff4ee3058b9ba0
+DEFINED_PHASES= compile install prepare setup test unpack
+DEPEND=  ~dev-util/nvidia-cuda-toolkit-9.1.85  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   >=x11-drivers/nvidia-drivers-387.26[uvm]   mpi? ( virtual/mpi )   ) 
+RDEPEND=  ~dev-util/nvidia-cuda-toolkit-9.1.85  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   >=x11-drivers/nvidia-drivers-387.26[uvm]   mpi? ( virtual/mpi )   ) 
+EAPI=6
+IUSE=+cuda debug +doc +examples opencl mpi 
+KEYWORDS=~amd64 ~amd64-linux
+SLOT=0
+SRC_URI=https://developer.nvidia.com/compute/cuda/9.1/Prod2/local_installers/cuda_9.1.85_387.26_linux -> cuda_9.1.85_387.26_linux.run

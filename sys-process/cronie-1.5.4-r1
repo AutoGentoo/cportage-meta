@@ -1,0 +1,10 @@
+c2edc60cf5919d9afbed54d818d426e1
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=  pam? ( sys-libs/pam )  anacron? ( !sys-process/anacron   elibc_musl? ( sys-libs/obstack-standalone )   elibc_uclibc? ( sys-libs/obstack-standalone )  )  
+RDEPEND=  pam? ( sys-libs/pam )  anacron? ( !sys-process/anacron   elibc_musl? ( sys-libs/obstack-standalone )   elibc_uclibc? ( sys-libs/obstack-standalone )  )   sys-apps/debianutils  
+EAPI=7
+IUSE=+anacron +inotify pam selinux 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~riscv ~s390 ~sh sparc x86
+SLOT=0
+SRC_URI=https://github.com/cronie-crond/cronie/archive/cronie-1.5.4.tar.gz

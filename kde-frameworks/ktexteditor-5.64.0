@@ -1,0 +1,10 @@
+4fe5e8f9b608cddc1dc87cf874be3d02
+DEFINED_PHASES= configure
+BDEPEND=  test? ( >=kde-frameworks/kservice-5.64:5 )  
+DEPEND=  >=kde-frameworks/karchive-5.64:5  >=kde-frameworks/kauth-5.64:5  >=kde-frameworks/kcodecs-5.64:5  >=kde-frameworks/kcompletion-5.64:5  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kconfigwidgets-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/kguiaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=kde-frameworks/kiconthemes-5.64:5  >=kde-frameworks/kio-5.64:5  >=kde-frameworks/kitemviews-5.64:5  >=kde-frameworks/kjobwidgets-5.64:5  >=kde-frameworks/kparts-5.64:5  >=kde-frameworks/ktextwidgets-5.64:5  >=kde-frameworks/kwidgetsaddons-5.64:5  >=kde-frameworks/kxmlgui-5.64:5  >=kde-frameworks/sonnet-5.64:5  >=kde-frameworks/syntax-highlighting-5.64:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtprintsupport-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  editorconfig? ( app-text/editorconfig-core-c )  git? ( dev-libs/libgit2:= )  
+RDEPEND=  >=kde-frameworks/karchive-5.64:5  >=kde-frameworks/kauth-5.64:5  >=kde-frameworks/kcodecs-5.64:5  >=kde-frameworks/kcompletion-5.64:5  >=kde-frameworks/kconfig-5.64:5  >=kde-frameworks/kconfigwidgets-5.64:5  >=kde-frameworks/kcoreaddons-5.64:5  >=kde-frameworks/kguiaddons-5.64:5  >=kde-frameworks/ki18n-5.64:5  >=kde-frameworks/kiconthemes-5.64:5  >=kde-frameworks/kio-5.64:5  >=kde-frameworks/kitemviews-5.64:5  >=kde-frameworks/kjobwidgets-5.64:5  >=kde-frameworks/kparts-5.64:5  >=kde-frameworks/ktextwidgets-5.64:5  >=kde-frameworks/kwidgetsaddons-5.64:5  >=kde-frameworks/kxmlgui-5.64:5  >=kde-frameworks/sonnet-5.64:5  >=kde-frameworks/syntax-highlighting-5.64:5  >=dev-qt/qtdeclarative-5.12.3:5  >=dev-qt/qtgui-5.12.3:5  >=dev-qt/qtprintsupport-5.12.3:5  >=dev-qt/qtwidgets-5.12.3:5  >=dev-qt/qtxml-5.12.3:5  editorconfig? ( app-text/editorconfig-core-c )  git? ( dev-libs/libgit2:= )  
+EAPI=7
+IUSE=editorconfig git 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/ktexteditor-5.64.0.tar.xz

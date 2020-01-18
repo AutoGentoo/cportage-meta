@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/message_filters  dev-ros/pluginlib   dev-libs/tinyxml2:=  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/roslib  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-libs/boost:=  dev-libs/console_bridge:=  dev-ros/class_loader:=  
+RDEPEND=  dev-ros/message_filters  dev-ros/pluginlib   dev-libs/tinyxml2:=  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/roslib  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-libs/boost:=  dev-libs/console_bridge:=  dev-ros/class_loader:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

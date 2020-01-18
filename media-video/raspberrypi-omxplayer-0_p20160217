@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= compile install prepare
+DEPEND=dev-libs/libpcre  media-fonts/freefont  || ( media-libs/raspberrypi-userland media-libs/raspberrypi-userland-bin )  sys-apps/dbus  sys-apps/fbset  virtual/ffmpeg  x11-apps/xrefresh  x11-apps/xset  virtual/pkgconfig 
+RDEPEND=dev-libs/libpcre  media-fonts/freefont  || ( media-libs/raspberrypi-userland media-libs/raspberrypi-userland-bin )  sys-apps/dbus  sys-apps/fbset  virtual/ffmpeg  x11-apps/xrefresh  x11-apps/xset 
+EAPI=5
+IUSE=
+KEYWORDS=~arm
+SLOT=0
+SRC_URI=https://github.com/popcornmix/omxplayer/tarball/15a490b -> raspberrypi-omxplayer-0_p20160217.tar.gz

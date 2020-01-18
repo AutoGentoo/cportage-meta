@@ -1,0 +1,8 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile install prepare setup test
+DEPEND=dev-lang/go 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/hashicorp/consul-template/archive/v0.20.0.tar.gz -> consul-template-0.20.0.tar.gz

@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://fermi.pharm.hokudai.ac.jp/olivia/documents/xyza2pipe.tgz -> xyza2pipe-20121001.tgz

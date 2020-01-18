@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= configure install prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/libpng:0=  media-libs/libsdl:=[opengl,video]  media-libs/libvorbis:=  media-libs/openal:=  sys-libs/zlib:=  virtual/glu  virtual/jpeg:0  virtual/opengl  virtual/pkgconfig 
+RDEPEND=  media-libs/libpng:0=  media-libs/libsdl:=[opengl,video]  media-libs/libvorbis:=  media-libs/openal:=  sys-libs/zlib:=  virtual/glu  virtual/jpeg:0  virtual/opengl 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/lugaru-20151204.tar.bz2

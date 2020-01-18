@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? ( dev-ros/rosgraph[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  
+RDEPEND=dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros/ros_comm/archive/1.13.0.tar.gz -> ros_comm-1.13.0.tar.gz

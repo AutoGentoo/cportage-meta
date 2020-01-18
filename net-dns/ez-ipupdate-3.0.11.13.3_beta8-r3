@@ -1,0 +1,8 @@
+c74c780a8b5cc65b862326667e7d98e5
+DEFINED_PHASES= configure install postinst preinst prepare
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/e/ez-ipupdate/ez-ipupdate_3.0.11b8.orig.tar.gz
+	mirror://debian/pool/main/e/ez-ipupdate/ez-ipupdate_3.0.11b8-13.3.diff.gz

@@ -1,0 +1,9 @@
+a1f221f72a5a6e34f43d69a4013a35c4
+DEFINED_PHASES= compile install prepare test unpack
+DEPEND=  dev-java/bcprov:1.50  >=virtual/jdk-1.6  test? ( dev-java/ant-junit:0 ) 
+RDEPEND=  dev-java/bcprov:1.50  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=1.50
+SRC_URI=http://polydistortion.net/bc/download/bcpg-jdk15on-150.tar.gz

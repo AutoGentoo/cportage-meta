@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+EAPI=6
+IUSE=pdf 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=3
+SRC_URI=https://dev.gentoo.org/~monsieurp/packages/diveintopython-3.tar.gz
+	pdf? (
+		https://dev.gentoo.org/~monsieurp/packages/diveintopython-3-pdf.tar.gz
+	)

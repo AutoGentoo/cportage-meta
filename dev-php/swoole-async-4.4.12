@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure test
+BDEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php7-1? ( dev-lang/php:7.1 ) php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 ) php_targets_php7-4? ( dev-lang/php:7.4 )  
+DEPEND=>=dev-php/swoole-4.3 
+RDEPEND=>=dev-php/swoole-4.3 
+EAPI=7
+IUSE=debug 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/swoole/ext-async/archive/v4.4.12.tar.gz -> swoole-async-4.4.12.tar.gz

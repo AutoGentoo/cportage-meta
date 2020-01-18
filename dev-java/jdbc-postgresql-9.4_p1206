@@ -1,0 +1,9 @@
+b49659a622541989d2c748d11a304267
+DEFINED_PHASES= compile install test
+DEPEND=  >=virtual/jdk-1.6  doc? (   dev-libs/libxslt   app-text/docbook-xsl-stylesheets  )  test? (   >=dev-db/postgresql-9.3[server]   dev-java/ant-junit   dev-java/junit:4   dev-java/xml-commons  ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://jdbc.postgresql.org/download/postgresql-jdbc-9.4-1206.src.tar.gz

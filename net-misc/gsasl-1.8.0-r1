@@ -1,0 +1,9 @@
+0bea7a1bb16fc0ec0d2624b4863f39d0
+DEFINED_PHASES= configure install prepare
+DEPEND=  gcrypt? ( dev-libs/libgcrypt:0 )  idn? ( net-dns/libidn )  kerberos? ( virtual/krb5 )  nls? ( >=sys-devel/gettext-0.18.1 )  ntlm? ( net-libs/libntlm )  
+RDEPEND=  gcrypt? ( dev-libs/libgcrypt:0 )  idn? ( net-dns/libidn )  kerberos? ( virtual/krb5 )  nls? ( >=sys-devel/gettext-0.18.1 )  ntlm? ( net-libs/libntlm )  
+EAPI=4
+IUSE=doc gcrypt idn kerberos nls ntlm static-libs +threads 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://gnu/gsasl/gsasl-1.8.0.tar.gz

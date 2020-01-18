@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure install prepare
+DEPEND=    media-libs/freetype  media-libs/imlib2[X]  x11-libs/libX11  x11-libs/libXft  x11-libs/libXinerama  x11-libs/libXrandr   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  media-libs/freetype  media-libs/imlib2[X]  x11-libs/libX11  x11-libs/libXft  x11-libs/libXinerama  x11-libs/libXrandr  
+EAPI=5
+IUSE=+imlib2 +xinerama 
+KEYWORDS=
+SLOT=0
+SRC_URI=

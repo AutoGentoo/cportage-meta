@@ -1,0 +1,10 @@
+198a314255e2d5e4ff568ac3d9e9903f
+DEFINED_PHASES= compile configure install test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    >=dev-cpp/tbb-4.2  sys-libs/glibc  mpi? ( virtual/mpi )    doc? ( app-doc/doxygen )  test? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) )   
+RDEPEND=  >=dev-cpp/tbb-4.2  sys-libs/glibc  mpi? ( virtual/mpi )   
+EAPI=5
+IUSE=doc examples mpi test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/icnc/icnc/archive/v1.0.100.tar.gz -> icnc-1.0.100.tar.gz

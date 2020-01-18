@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=dev-perl/Params-Util-1.60.0  >=dev-perl/Template-Toolkit-2.240.0  
+RDEPEND=  >=dev-perl/Params-Util-1.60.0  >=dev-perl/Template-Toolkit-2.240.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/Template-Plugin-Cycle-1.06.tar.gz

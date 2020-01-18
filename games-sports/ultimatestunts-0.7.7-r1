@@ -1,0 +1,9 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  media-libs/freealut  media-libs/libsdl[joystick,opengl,video]  media-libs/libvorbis  >=media-libs/openal-1  media-libs/sdl-image  virtual/opengl  virtual/glu  nls? ( virtual/libintl )  sys-devel/gettext 
+RDEPEND=  media-libs/freealut  media-libs/libsdl[joystick,opengl,video]  media-libs/libvorbis  >=media-libs/openal-1  media-libs/sdl-image  virtual/opengl  virtual/glu  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ultimatestunts/ultimatestunts-srcdata-0771.tar.gz

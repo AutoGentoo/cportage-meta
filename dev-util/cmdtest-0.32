@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+DEPEND=  dev-python/cliapp[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/markdown[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/ttystatus[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+RDEPEND=  dev-python/cliapp[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/markdown[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/ttystatus[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+EAPI=7
+IUSE=python_targets_python2_7 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sparc x86
+SLOT=0
+SRC_URI=http://git.liw.fi/cmdtest/snapshot/cmdtest-0.32.tar.gz

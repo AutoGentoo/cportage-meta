@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=  virtual/perl-Carp  dev-perl/List-MoreUtils  virtual/perl-Scalar-List-Utils   >=dev-perl/Module-Build-0.360.0  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  virtual/perl-Carp  dev-perl/List-MoreUtils  virtual/perl-Scalar-List-Utils  
+EAPI=6
+IUSE=test examples 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SH/SHLOMIF/Statistics-Descriptive-3.0612.tar.gz

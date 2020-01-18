@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ~s390 x86
+SLOT=0
+SRC_URI=mirror://gentoo/jasmin-1.2.tar.gz

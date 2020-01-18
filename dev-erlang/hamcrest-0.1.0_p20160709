@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=>=dev-lang/erlang-17.1  test? ( >=dev-erlang/proper-1.2 ) 
+RDEPEND=>=dev-lang/erlang-17.1 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm ~ia64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~aidecoe/distfiles/dev-erlang/hamcrest/hamcrest-0.1.0_p20160709.tar.gz

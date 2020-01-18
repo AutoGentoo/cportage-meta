@@ -1,0 +1,10 @@
+77fc0b7f2b3c91b6fbb851709d898318
+DEFINED_PHASES= configure prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtopengl:5   dev-qt/qtwidgets:5   media-libs/freeglut  )   test? ( dev-cpp/gtest )  
+RDEPEND=  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtopengl:5   dev-qt/qtwidgets:5   media-libs/freeglut  )  
+EAPI=6
+IUSE=qt5 static-libs test 
+KEYWORDS=~amd64 ~ia64 ~x86
+SLOT=4
+SRC_URI=https://openmesh.org/media/Releases/7.1/OpenMesh-7.1.tar.bz2

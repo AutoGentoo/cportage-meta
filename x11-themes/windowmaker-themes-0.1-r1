@@ -1,0 +1,8 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= install postinst prepare
+RDEPEND=x11-wm/windowmaker 
+EAPI=7
+IUSE=offensive 
+KEYWORDS=alpha amd64 hppa ppc sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~voyageur/distfiles/windowmaker-themes-0.1.tar.gz

@@ -1,0 +1,10 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= unpack
+BDEPEND=|| ( dev-lang/python:3.7[xml(+)] dev-lang/python:3.6[xml(+)] >=dev-lang/python-2.7.5-r2:2.7[xml(+)] )  virtual/pkgconfig 
+DEPEND=X? ( x11-libs/libX11[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  egl? ( media-libs/mesa[egl,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+RDEPEND=egl? ( media-libs/mesa[egl,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+EAPI=7
+IUSE=+egl test +X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

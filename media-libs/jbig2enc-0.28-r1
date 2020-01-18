@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=media-libs/leptonica[gif?,jpeg?,png?,tiff?,webp?] 
+RDEPEND=media-libs/leptonica[gif?,jpeg?,png?,tiff?,webp?] 
+EAPI=5
+IUSE=gif jpeg png static-libs tiff webp 
+KEYWORDS=amd64 x86 ~ppc-macos
+SLOT=0
+SRC_URI=https://github.com/agl/jbig2enc/archive/0.28.tar.gz -> jbig2enc-0.28.tar.gz

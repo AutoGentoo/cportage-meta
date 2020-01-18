@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install prepare
+DEPEND=>=net-libs/libtirpc-0.2.3:=  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  virtual/pkgconfig 
+RDEPEND=>=net-libs/libtirpc-0.2.3:=  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  selinux? ( sec-policy/selinux-rpcbind ) 
+EAPI=6
+IUSE=debug remotecalls selinux systemd tcpd warmstarts 
+KEYWORDS=
+SLOT=0
+SRC_URI=

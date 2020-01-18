@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+EAPI=6
+IUSE=userland_GNU threads 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://apollo.backplane.com/FreeSrc/cpdup-1.18.tgz

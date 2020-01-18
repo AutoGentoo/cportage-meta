@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=  app-arch/sharutils 
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://gentoo/libpdb++-040728.shar

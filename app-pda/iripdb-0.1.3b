@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  media-libs/taglib  sys-libs/zlib   app-arch/unzip  
+RDEPEND=  media-libs/taglib  sys-libs/zlib  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://www.fataltourist.com/iripdb/iRipDB-0.1.3b.zip

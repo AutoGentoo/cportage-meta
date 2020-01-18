@@ -1,0 +1,10 @@
+455e634d0b61d4ec8ce4eda942fd7e67
+DEFINED_PHASES= configure prepare
+BDEPEND=nls? ( sys-devel/gettext ) 
+DEPEND=    gcrypt? ( dev-libs/libgcrypt:0= )  luks? ( sys-fs/cryptsetup )  openssl? ( dev-libs/openssl:0= )  systemd? ( sys-apps/systemd )  udev? ( virtual/udev )  virtual/libiconv  virtual/libintl   sys-kernel/linux-headers  
+RDEPEND=  gcrypt? ( dev-libs/libgcrypt:0= )  luks? ( sys-fs/cryptsetup )  openssl? ( dev-libs/openssl:0= )  systemd? ( sys-apps/systemd )  udev? ( virtual/udev )  virtual/libiconv  virtual/libintl  
+EAPI=7
+IUSE=argv0switch cswap fsck +gcrypt +largefile mount +nls +luks +openssl selinux systemd udev 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cryptmount/cryptmount-5.3.2.tar.gz

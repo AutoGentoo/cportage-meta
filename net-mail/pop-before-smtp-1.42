@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+RDEPEND=dev-lang/perl[berkdb]  dev-perl/Net-Netmask  dev-perl/TimeDate 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/popbsmtp/pop-before-smtp-1.42.tar.gz

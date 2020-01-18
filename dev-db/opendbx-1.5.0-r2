@@ -1,0 +1,9 @@
+4ee568497b615f4ca3253d87c2d81af3
+DEFINED_PHASES= compile configure install setup
+DEPEND=mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:* )  sqlite? ( dev-db/sqlite:3 )  oracle? ( dev-db/oracle-instantclient-basic )  firebird? ( dev-db/firebird ) app-doc/doxygen app-text/docbook2X 
+RDEPEND=mysql? ( dev-db/mysql-connector-c:0= )  postgres? ( dev-db/postgresql:* )  sqlite? ( dev-db/sqlite:3 )  oracle? ( dev-db/oracle-instantclient-basic )  firebird? ( dev-db/firebird ) 
+EAPI=6
+IUSE=firebird +mysql oracle postgres sqlite 
+KEYWORDS=~x64-solaris
+SLOT=0
+SRC_URI=https://www.linuxnetworks.de/opendbx/download/libopendbx-1.5.0.tar.gz

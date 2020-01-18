@@ -1,0 +1,11 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install
+DEPEND=  media-libs/libsdl  media-libs/sdl-image  media-libs/sdl-mixer  media-libs/sdl-net  media-libs/sdl-ttf  x11-misc/makedepend 
+RDEPEND=  media-libs/libsdl  media-libs/sdl-image  media-libs/sdl-mixer  media-libs/sdl-net  media-libs/sdl-ttf 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	http://wormsofprey.org/download/wop-0.4.3-src.tar.bz2
+	http://wormsofprey.org/download/wopdata-2005-12-21.tar.bz2

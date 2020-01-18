@@ -1,0 +1,8 @@
+ecaa814361418967f4c94e76bcf62a82
+DEFINED_PHASES= compile install postinst prepare setup
+DEPEND=dev-util/promu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/digitalocean/bind_exporter/archive/9289b40af62a455ebd587ed4701dd543f4cc5877.tar.gz -> bind_exporter-0.2.0_p20190226.tar.gz

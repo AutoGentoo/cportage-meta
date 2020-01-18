@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/rgbd_launch  dev-ros/depth_image_proc  dev-ros/image_proc  dev-ros/nodelet  dev-ros/openni2_camera  dev-ros/tf  
+RDEPEND=  dev-ros/rgbd_launch  dev-ros/depth_image_proc  dev-ros/image_proc  dev-ros/nodelet  dev-ros/openni2_camera  dev-ros/tf  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros-drivers/openni2_camera/archive/0.4.0.tar.gz -> openni2_camera-0.4.0.tar.gz

@@ -1,0 +1,9 @@
+ec31e708e637d879997d3ed4b38e0fec
+DEFINED_PHASES= configure prepare
+DEPEND=app-i18n/opencc:0=  >=dev-cpp/glog-0.3.5:0=  dev-cpp/yaml-cpp:0=  dev-libs/boost:0=[nls,threads]  dev-libs/leveldb:0=  dev-libs/marisa:0=  dev-libs/darts  dev-libs/utfcpp  x11-base/xorg-proto  test? ( dev-cpp/gtest ) 
+RDEPEND=app-i18n/opencc:0=  >=dev-cpp/glog-0.3.5:0=  dev-cpp/yaml-cpp:0=  dev-libs/boost:0=[nls,threads]  dev-libs/leveldb:0=  dev-libs/marisa:0= 
+EAPI=7
+IUSE=debug test 
+KEYWORDS=amd64 arm64 ppc ppc64 ~sparc x86
+SLOT=0/1
+SRC_URI=https://github.com/rime/librime/archive/1.5.3.tar.gz -> librime-1.5.3.tar.gz

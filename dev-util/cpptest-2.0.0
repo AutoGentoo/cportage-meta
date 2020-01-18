@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=doc? ( app-doc/doxygen ) 
+RDEPEND=!dev-util/cpptest:0 
+EAPI=7
+IUSE=doc 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=1
+SRC_URI=https://github.com/cpptest/cpptest/releases/download/2.0.0/cpptest-2.0.0.tar.bz2

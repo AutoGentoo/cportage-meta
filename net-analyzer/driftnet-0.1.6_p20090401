@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile install prepare
+DEPEND=net-libs/libpcap  gtk? ( x11-libs/gtk+:2   virtual/jpeg   media-libs/giflib   media-libs/libpng )  virtual/pkgconfig 
+RDEPEND=net-libs/libpcap  gtk? ( x11-libs/gtk+:2   virtual/jpeg   media-libs/giflib   media-libs/libpng )  mp3? ( media-sound/mpg123 ) 
+EAPI=5
+IUSE=gtk mp3 suid 
+KEYWORDS=~amd64 ppc -sparc x86
+SLOT=0
+SRC_URI=https://github.com/downloads/rbu/driftnet/driftnet-0.1.6_p20090401.tar.gz

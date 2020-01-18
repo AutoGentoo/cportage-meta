@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install prepare
+DEPEND=  media-libs/libsdl2  media-libs/sdl2-mixer  media-libs/sdl2-ttf  media-libs/sdl2-image  media-libs/sdl2-net  sys-libs/zlib  virtual/libintl   sys-devel/gettext  
+RDEPEND=  media-libs/libsdl2  media-libs/sdl2-mixer  media-libs/sdl2-ttf  media-libs/sdl2-image  media-libs/sdl2-net  sys-libs/zlib  virtual/libintl  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/blobwars/blobwars-2.00.tar.gz

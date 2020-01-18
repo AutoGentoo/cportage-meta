@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  x11-libs/gtk+:2  media-libs/libmikmod  gnome-base/librsvg:2   virtual/pkgconfig  
+RDEPEND=  x11-libs/gtk+:2  media-libs/libmikmod  gnome-base/librsvg:2  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/gweled/trunk/0.9.1/+download/gweled-0.9.1.tar.gz

@@ -1,0 +1,9 @@
+177778bb3c87f748f96665775f1bf8b4
+DEFINED_PHASES= compile configure install prepare
+DEPEND=x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXaw  x11-libs/libXext  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libXt  !freewnn? ( app-i18n/canna )  freewnn? ( app-i18n/freewnn )  x11-misc/gccmakedep  x11-misc/imake 
+RDEPEND=x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXaw  x11-libs/libXext  x11-libs/libXmu  x11-libs/libXpm  x11-libs/libXt  !freewnn? ( app-i18n/canna )  freewnn? ( app-i18n/freewnn ) 
+EAPI=6
+IUSE=freewnn 
+KEYWORDS=amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=ftp://ftp.sra.co.jp/pub/x11/kinput2/kinput2-v3.1.tar.gz

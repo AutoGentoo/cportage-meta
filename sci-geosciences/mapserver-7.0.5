@@ -1,0 +1,10 @@
+779d3607696c81cd4ab796cdf6ef6f6c
+DEFINED_PHASES= compile configure install postinst prepare prerm setup unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/expat  dev-libs/fcgi  >=media-libs/gd-2.0.12[truetype,jpeg,png,zlib]  media-libs/giflib  net-misc/curl  virtual/jpeg:=  virtual/libiconv  x11-libs/agg  bidi? ( dev-libs/fribidi   media-libs/harfbuzz )  cairo? ( x11-libs/cairo )  gdal? ( >=sci-libs/gdal-1.8.0 )  geos? ( sci-libs/geos )  mysql? ( virtual/mysql )  opengl? (   media-libs/ftgl   media-libs/mesa[X(+)]  )  perl? ( dev-lang/perl:= )  postgis? ( dev-db/postgis )  proj? ( sci-libs/proj net-misc/curl )  tiff? (   media-libs/tiff:=   sci-libs/libgeotiff  )  xml? ( dev-libs/libxml2:2 )  xslt? ( dev-libs/libxslt[crypt] )   perl? ( >=dev-lang/swig-2.0 )  python? ( >=dev-lang/swig-2.0 ) =www-servers/apache-2* 
+RDEPEND=  dev-libs/expat  dev-libs/fcgi  >=media-libs/gd-2.0.12[truetype,jpeg,png,zlib]  media-libs/giflib  net-misc/curl  virtual/jpeg:=  virtual/libiconv  x11-libs/agg  bidi? ( dev-libs/fribidi   media-libs/harfbuzz )  cairo? ( x11-libs/cairo )  gdal? ( >=sci-libs/gdal-1.8.0 )  geos? ( sci-libs/geos )  mysql? ( virtual/mysql )  opengl? (   media-libs/ftgl   media-libs/mesa[X(+)]  )  perl? ( dev-lang/perl:= )  postgis? ( dev-db/postgis )  proj? ( sci-libs/proj net-misc/curl )  tiff? (   media-libs/tiff:=   sci-libs/libgeotiff  )  xml? ( dev-libs/libxml2:2 )  xslt? ( dev-libs/libxslt[crypt] )  =www-servers/apache-2* 
+EAPI=6
+IUSE=bidi cairo gdal geos mysql opengl perl php postgis proj python threads tiff xml xslt 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://download.osgeo.org/mapserver/mapserver-7.0.5.tar.gz

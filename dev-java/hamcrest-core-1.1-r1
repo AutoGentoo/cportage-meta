@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=virtual/jdk-1.6  source? ( app-arch/zip ) 
+RDEPEND=  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ppc64 x86 ~amd64-linux ~x86-macos ~x64-solaris
+SLOT=0
+SRC_URI=https://github.com/hamcrest/JavaHamcrest/archive/hamcrest-java-1.1.zip -> hamcrest-core-1.1.zip

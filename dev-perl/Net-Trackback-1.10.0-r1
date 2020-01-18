@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-lang/perl 
+RDEPEND=>=dev-perl/libwww-perl-5.831.0  >=dev-perl/Class-ErrorHandler-0.10.0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TI/TIMA/Net-Trackback-1.01.tar.gz

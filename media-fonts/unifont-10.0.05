@@ -1,0 +1,9 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= compile install prepare
+DEPEND=  fontforge? (   app-text/bdf2psf   dev-lang/perl   dev-perl/GD[png(-)]   media-gfx/fontforge   x11-apps/bdftopcf  )  
+RDEPEND=  utils? (   dev-lang/perl   dev-perl/GD[png(-)]  )  
+EAPI=6
+IUSE=fontforge utils 
+KEYWORDS=~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://gnu/unifont/unifont-10.0.05/unifont-10.0.05.tar.gz

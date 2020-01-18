@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/XML-Parser-2.29  >=dev-perl/XML-DOM-1.25  >=dev-perl/libwww-perl-5.48 
+RDEPEND=>=dev-perl/XML-Parser-2.29  >=dev-perl/XML-DOM-1.25  >=dev-perl/libwww-perl-5.48 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JS/JSTOWE/XML-XSLT-0.48.tar.gz

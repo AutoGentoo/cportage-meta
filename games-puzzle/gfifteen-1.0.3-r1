@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=x11-libs/gtk+:3  virtual/pkgconfig  
+RDEPEND=x11-libs/gtk+:3 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://frigidcode.com/code/gfifteen/gfifteen-1.0.3.tar.gz

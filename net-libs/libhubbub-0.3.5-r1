@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= compile install prepare test
+DEPEND=  >=dev-libs/libparserutils-0.2.1-r1  !net-libs/hubbub  dev-util/netsurf-buildsystem  virtual/pkgconfig  test? (   dev-lang/perl   <dev-libs/json-c-0.13  ) 
+RDEPEND=  >=dev-libs/libparserutils-0.2.1-r1  !net-libs/hubbub 
+EAPI=7
+IUSE=doc test 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86 ~m68k-mint
+SLOT=0/0.3.5
+SRC_URI=https://download.netsurf-browser.org/libs/releases/libhubbub-0.3.5-src.tar.gz

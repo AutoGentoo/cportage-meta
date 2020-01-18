@@ -1,0 +1,8 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install postinst test
+DEPEND=  app-arch/unzip  dev-lang/perl 
+EAPI=6
+IUSE=debug +jit 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://mattmahoney.net/dc/zpaq715.zip

@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+RDEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://gentoo/vimcommander-0.81.tar.bz2
+		https://dev.gentoo.org/~radhermit/vim/vimcommander-0.81.tar.bz2

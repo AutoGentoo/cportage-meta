@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  sys-apps/systemd:0=   test? ( dev-python/pytest[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  
+RDEPEND=  sys-apps/systemd:0=   !sys-apps/systemd[python(-)]  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 arm ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/systemd/python-systemd/archive/v233.tar.gz -> python-systemd-233.tar.gz

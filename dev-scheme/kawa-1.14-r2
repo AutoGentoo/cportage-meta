@@ -1,0 +1,10 @@
+0dcb82fae7fa069dbdb487b9bdb5568a
+DEFINED_PHASES= compile configure install prepare unpack
+DEPEND=    frontend? ( sys-libs/readline:0 )  sax? ( dev-java/sax:0 )  servlets? ( java-virtuals/servlet-api:3.0 )  >=virtual/jdk-1.6  xqtests? ( app-arch/unzip:0 ) 
+RDEPEND=    frontend? ( sys-libs/readline:0 )  sax? ( dev-java/sax:0 )  servlets? ( java-virtuals/servlet-api:3.0 )  >=virtual/jre-1.6 
+EAPI=6
+IUSE=+awt +frontend jemacs krl +sax servlets +swing +xml xqtests 
+KEYWORDS=x86
+SLOT=0
+SRC_URI=mirror://gnu/kawa/kawa-1.14.tar.gz
+	xqtests? ( http://www.w3.org/XML/Query/test-suite/XQTS_1_0_3.zip )

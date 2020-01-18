@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  
+RDEPEND=>=dev-lang/ghc-7.4.1:=  
+EAPI=5
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+SLOT=0/0.5.4.0
+SRC_URI=https://hackage.haskell.org/package/primitive-0.5.4.0/primitive-0.5.4.0.tar.gz

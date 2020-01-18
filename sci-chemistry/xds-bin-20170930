@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= install postinst unpack
+EAPI=6
+IUSE=smp 
+KEYWORDS=-* ~amd64
+SLOT=0
+SRC_URI=
+	ftp://ftp.mpimf-heidelberg.mpg.de/pub/kabsch/XDS-INTEL64_Linux_x86_64.tar.gz -> XDS-INTEL64_Linux_x86_64-20170930.tar.gz
+	ftp://ftp.mpimf-heidelberg.mpg.de/pub/kabsch/XDS_html_doc.tar.gz -> XDS_html_doc-20170930.tar.gz

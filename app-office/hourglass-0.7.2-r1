@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= install
+DEPEND=  >=virtual/jdk-1.5    dev-java/jdom:0  dev-java/log4j:0  dev-java/ant-core:0  dev-java/jcommon:1.0 
+RDEPEND=  >=virtual/jre-1.5    dev-java/jdom:0  dev-java/log4j:0  dev-java/ant-core:0  dev-java/jcommon:1.0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/hourglass/hourglass-0.7.2-src.tar.gz

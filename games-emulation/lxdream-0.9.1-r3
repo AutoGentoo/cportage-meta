@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure prepare
+DEPEND=  app-misc/lirc   media-libs/alsa-lib  media-libs/libpng:0=  pulseaudio? ( media-sound/pulseaudio )  sdl? ( media-libs/libsdl[sound] )  virtual/opengl  x11-libs/gtk+:2   virtual/pkgconfig  sys-devel/gettext  virtual/os-headers  !!gnustep-base/gnustep-gui 
+RDEPEND=  app-misc/lirc   media-libs/alsa-lib  media-libs/libpng:0=  pulseaudio? ( media-sound/pulseaudio )  sdl? ( media-libs/libsdl[sound] )  virtual/opengl  x11-libs/gtk+:2  
+EAPI=6
+IUSE=debug profile pulseaudio sdl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.lxdream.org/count.php?file=lxdream-0.9.1.tar.gz -> lxdream-0.9.1.tar.gz

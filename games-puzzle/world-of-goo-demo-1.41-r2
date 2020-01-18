@@ -1,0 +1,8 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= install nofetch
+RDEPEND=  media-libs/libsdl[sound,opengl,video]  media-libs/sdl-mixer[vorbis]  sys-libs/glibc  virtual/opengl  virtual/glu  >=sys-devel/gcc-3.4  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=WorldOfGooDemo.1.41.tar.gz

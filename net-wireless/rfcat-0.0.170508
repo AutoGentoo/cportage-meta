@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install postinst
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/atlas0fd00m/rfcat/downloads/rfcat_170508.tgz 		https://bitbucket.org/atlas0fd00m/rfcat/downloads/immeSniff-170508.hex 		https://bitbucket.org/atlas0fd00m/rfcat/downloads/RfCatChronosCCBootloader-170313.hex 		https://bitbucket.org/atlas0fd00m/rfcat/downloads/RfCatDonsCCBootloader-170313.hex 		https://bitbucket.org/atlas0fd00m/rfcat/downloads/RfCatYS1CCBootloader-170313.hex

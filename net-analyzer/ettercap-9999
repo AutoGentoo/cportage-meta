@@ -1,0 +1,10 @@
+16eb0abe009167bfd38258a506477a4e
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/libbsd  dev-libs/libpcre  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  net-libs/libnet:1.1  >=net-libs/libpcap-0.8.1  sys-libs/zlib  gtk? (   >=dev-libs/atk-1.2.4   >=dev-libs/glib-2.2.2:2   media-libs/freetype   x11-libs/cairo   x11-libs/gdk-pixbuf:2   >=x11-libs/gtk+-2.2.2:2   >=x11-libs/pango-1.2.3  )  ncurses? ( >=sys-libs/ncurses-5.3:= )  plugins? ( >=net-misc/curl-7.26.0 )  doc? ( app-text/ghostscript-gpl   sys-apps/groff )  test? ( dev-libs/check )  sys-devel/flex  virtual/yacc 
+RDEPEND=dev-libs/libbsd  dev-libs/libpcre  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  net-libs/libnet:1.1  >=net-libs/libpcap-0.8.1  sys-libs/zlib  gtk? (   >=dev-libs/atk-1.2.4   >=dev-libs/glib-2.2.2:2   media-libs/freetype   x11-libs/cairo   x11-libs/gdk-pixbuf:2   >=x11-libs/gtk+-2.2.2:2   >=x11-libs/pango-1.2.3  )  ncurses? ( >=sys-libs/ncurses-5.3:= )  plugins? ( >=net-misc/curl-7.26.0 ) 
+EAPI=6
+IUSE=doc gtk ipv6 libressl ncurses +plugins test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

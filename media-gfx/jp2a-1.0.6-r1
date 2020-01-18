@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=sys-libs/ncurses  virtual/jpeg  curl? ( net-misc/curl ) 
+RDEPEND=sys-libs/ncurses  virtual/jpeg  curl? ( net-misc/curl ) 
+EAPI=6
+IUSE=curl 
+KEYWORDS=amd64 ~ia64 ppc ppc64 ~sparc x86 ~x64-macos ~x86-macos ~x64-solaris
+SLOT=0
+SRC_URI=mirror://sourceforge/jp2a/jp2a-1.0.6.tar.bz2

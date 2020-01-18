@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  virtual/pkgconfig  doc? ( app-text/pandoc )    sys-libs/ncurses:0=[unicode]  media-libs/libmpdclient   
+RDEPEND=  sys-libs/ncurses:0=[unicode]  media-libs/libmpdclient  
+EAPI=6
+IUSE=+regex doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

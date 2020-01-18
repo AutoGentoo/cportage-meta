@@ -1,0 +1,10 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= configure prepare setup
+BDEPEND=>=dev-util/meson-0.50.0  virtual/pkgconfig 
+DEPEND=|| ( dev-libs/efl[X] dev-libs/efl[wayland] )  >=dev-libs/efl-1.22.0[eet]  clang? ( sys-devel/clang:= )  dev-libs/check 
+RDEPEND=|| ( dev-libs/efl[X] dev-libs/efl[wayland] )  >=dev-libs/efl-1.22.0[eet]  clang? ( sys-devel/clang:= ) 
+EAPI=6
+IUSE=clang 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Enlightenment/edi/archive/v0.7.1.tar.gz -> edi-0.7.1.tar.gz

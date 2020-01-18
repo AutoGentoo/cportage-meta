@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=dev-perl/HTML-Tree  dev-perl/XML-Simple  imagemagick? ( media-gfx/imagemagick )  libwww? ( dev-perl/libwww-perl ) 
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=imagemagick libwww 
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/html2latex/html2latex-1.1.tar.gz

@@ -1,0 +1,10 @@
+9f263cff1e296413b9013942b6fd9b4f
+DEFINED_PHASES= configure postinst postrm prepare
+BDEPEND=  dev-qt/linguist-tools:5  virtual/pkgconfig  
+DEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sci-libs/gdal  sci-libs/proj  sys-libs/zlib  exif? ( media-gfx/exiv2:= )  gps? ( >=sci-geosciences/gpsd-3.17-r2 )  libproxy? ( net-libs/libproxy )  webengine? ( dev-qt/qtwebengine:5[widgets] )  
+RDEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sci-libs/gdal  sci-libs/proj  sys-libs/zlib  exif? ( media-gfx/exiv2:= )  gps? ( >=sci-geosciences/gpsd-3.17-r2 )  libproxy? ( net-libs/libproxy )  webengine? ( dev-qt/qtwebengine:5[widgets] )  
+EAPI=7
+IUSE=debug exif gps libproxy webengine 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/openstreetmap/merkaartor/archive/0.18.3.tar.gz -> merkaartor-0.18.3.tar.gz

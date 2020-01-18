@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=sys-libs/libraw1394-1.1  >=media-libs/libdv-0.103  >=media-libs/libiec61883-1  >=sys-libs/libavc1394-0.5.1  jpeg? ( virtual/jpeg:0 )  quicktime? ( media-libs/libquicktime )  virtual/pkgconfig 
+RDEPEND=>=sys-libs/libraw1394-1.1  >=media-libs/libdv-0.103  >=media-libs/libiec61883-1  >=sys-libs/libavc1394-0.5.1  jpeg? ( virtual/jpeg:0 )  quicktime? ( media-libs/libquicktime ) 
+EAPI=6
+IUSE=jpeg quicktime 
+KEYWORDS=amd64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/kino/dvgrab-3.5.tar.gz

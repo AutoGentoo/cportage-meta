@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+BDEPEND=  dev-libs/appstream-glib  dev-util/itstool  >=sys-devel/gettext-0.19.8  virtual/pkgconfig  
+DEPEND=  >=x11-libs/gtk+-3.15:3  >=dev-libs/glib-2.32:2  >=gnome-base/librsvg-2.36.2:2  dev-libs/libgnome-games-support:1=  >=media-libs/libcanberra-0.26[gtk3]  
+RDEPEND=  >=x11-libs/gtk+-3.15:3  >=dev-libs/glib-2.32:2  >=gnome-base/librsvg-2.36.2:2  dev-libs/libgnome-games-support:1=  >=media-libs/libcanberra-0.26[gtk3]  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-robots/3.32/gnome-robots-3.32.0.tar.xz

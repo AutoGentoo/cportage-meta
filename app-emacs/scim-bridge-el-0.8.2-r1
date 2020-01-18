@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=app-i18n/scim 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/scim-bridge.el/0.8/0.8.2/+download/scim-bridge-el-0.8.2.tar.gz

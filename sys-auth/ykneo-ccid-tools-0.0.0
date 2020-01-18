@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=sys-apps/pcsc-lite  sys-apps/help2man  dev-util/gengetopt 
+RDEPEND=sys-apps/pcsc-lite 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://yubico.github.io/ykneo-ccid-tools/releases/ykneo-ccid-tools-0.0.0.tar.gz

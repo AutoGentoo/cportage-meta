@@ -1,0 +1,10 @@
+31224826c753726b50c05a7975b4ae4c
+DEFINED_PHASES= configure install postinst prepare unpack
+BDEPEND=  >=sys-devel/flex-2.5.2  >=sys-devel/bison-1.22  
+DEPEND=  gtk?       ( x11-libs/gtk+:2 )  postgres?  ( dev-db/postgresql:* )  ssl?       ( dev-libs/openssl:0= )  tcl?       ( dev-lang/tcl:0 )  X?         ( x11-libs/libXt )  
+RDEPEND=  gtk?       ( x11-libs/gtk+:2 )  postgres?  ( dev-db/postgresql:* )  ssl?       ( dev-libs/openssl:0= )  tcl?       ( dev-lang/tcl:0 )  X?         ( x11-libs/libXt )  
+EAPI=7
+IUSE=gtk postgres ssl tcl threads X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

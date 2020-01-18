@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= install nofetch unpack
+DEPEND=  app-arch/cabextract  app-arch/unzip  
+RDEPEND=games-rpg/arx-libertatis 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=arx_demo_english.zip

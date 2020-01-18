@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= configure
+DEPEND=  dev-libs/atk  >=dev-libs/glib-2.50:2  >=dev-libs/libpeas-1.8.0[gtk]  >=dev-libs/libxml2-2:2  gnome-base/dconf  >=mate-base/mate-desktop-1.17.0  sys-libs/zlib  x11-libs/cairo  >=x11-libs/gdk-pixbuf-2.30:2[introspection?,jpeg?,tiff?]  >=x11-libs/gtk+-3.22:3[introspection?]  x11-libs/libX11  >=x11-misc/shared-mime-info-0.20  virtual/libintl  exif? (   >=media-libs/libexif-0.6.14   virtual/jpeg:0  )  introspection? ( >=dev-libs/gobject-introspection-0.9.3:= )  jpeg? ( virtual/jpeg:0 )  lcms? ( media-libs/lcms:2 )  svg? ( >=gnome-base/librsvg-2.36.2:2 )  xmp? ( >=media-libs/exempi-1.99.5:2 )  !!media-gfx/mate-image-viewer  app-text/yelp-tools  dev-util/glib-utils  dev-util/gtk-doc  dev-util/gtk-doc-am  >=dev-util/intltool-0.50.1  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=  dev-libs/atk  >=dev-libs/glib-2.50:2  >=dev-libs/libpeas-1.8.0[gtk]  >=dev-libs/libxml2-2:2  gnome-base/dconf  >=mate-base/mate-desktop-1.17.0  sys-libs/zlib  x11-libs/cairo  >=x11-libs/gdk-pixbuf-2.30:2[introspection?,jpeg?,tiff?]  >=x11-libs/gtk+-3.22:3[introspection?]  x11-libs/libX11  >=x11-misc/shared-mime-info-0.20  virtual/libintl  exif? (   >=media-libs/libexif-0.6.14   virtual/jpeg:0  )  introspection? ( >=dev-libs/gobject-introspection-0.9.3:= )  jpeg? ( virtual/jpeg:0 )  lcms? ( media-libs/lcms:2 )  svg? ( >=gnome-base/librsvg-2.36.2:2 )  xmp? ( >=media-libs/exempi-1.99.5:2 )  !!media-gfx/mate-image-viewer 
+EAPI=6
+IUSE=X debug exif +introspection jpeg lcms svg tiff xmp 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=https://pub.mate-desktop.org/releases/1.22/eom-1.22.0.tar.xz

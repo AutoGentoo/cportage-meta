@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  app-arch/unzip 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://kinemage.biochem.duke.edu/downloads/software/probe/probe.2.13.110909.src.zip

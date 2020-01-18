@@ -1,0 +1,9 @@
+4be73b0d4e2775f7cc8f08735760024c
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  virtual/libusb:1  virtual/libudev  virtual/jpeg:0  dev-libs/tinyxml  opengl? ( media-libs/freeglut !dev-libs/OpenNI2[opengl] )  java? ( >=virtual/jre-1.5 )   doc? ( app-doc/doxygen )  java? ( >=virtual/jdk-1.5 ) 
+RDEPEND=  virtual/libusb:1  virtual/libudev  virtual/jpeg:0  dev-libs/tinyxml  opengl? ( media-libs/freeglut !dev-libs/OpenNI2[opengl] )  java? ( >=virtual/jre-1.5 )  
+EAPI=5
+IUSE=doc java opengl 
+KEYWORDS=
+SLOT=0
+SRC_URI=

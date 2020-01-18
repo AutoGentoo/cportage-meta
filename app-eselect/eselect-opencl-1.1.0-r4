@@ -1,0 +1,17 @@
+6f32d476a8ce36c0a66314eb0ea09949
+DEFINED_PHASES= install postinst
+DEPEND=  app-arch/unzip  app-arch/xz-utils 
+RDEPEND=>=app-admin/eselect-1.2.4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~xarthisius/distfiles/eselect-opencl-1.1.0-r1.tar.xz
+	https://github.com/KhronosGroup/OpenCL-Headers/archive/opencl10.zip
+	https://github.com/KhronosGroup/OpenCL-Headers/archive/opencl11.zip
+	https://github.com/KhronosGroup/OpenCL-Headers/archive/opencl12.zip
+	https://github.com/KhronosGroup/OpenCL-Headers/archive/opencl20.zip
+	https://github.com/KhronosGroup/OpenCL-Headers/archive/opencl21.zip
+	http://packages.gentooexperimental.org/opencl-cpp-headers.tar
+	

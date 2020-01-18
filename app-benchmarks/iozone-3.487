@@ -1,0 +1,7 @@
+af90ef84b5c8e6b3e61520dcc1baa661
+DEFINED_PHASES= compile configure install prepare test
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://www.iozone.org/src/current/iozone3_487.tar

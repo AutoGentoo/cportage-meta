@@ -1,0 +1,9 @@
+13a2f58d39319a1604e577c8ee9499d9
+DEFINED_PHASES= configure install postinst postrm preinst prepare setup
+DEPEND=  app-text/docbook-xml-dtd:4.4  app-text/docbook2X  sys-devel/gettext  X? ( virtual/imagemagick-tools[png,tiff] )  
+RDEPEND=  >=app-misc/ca-certificates-20080809  cuda? (   >=dev-util/nvidia-cuda-toolkit-2.1   >=x11-drivers/nvidia-drivers-180.22  )  net-misc/curl[curl_ssl_gnutls(-)=,curl_ssl_libressl(-)=,-curl_ssl_nss(-),curl_ssl_openssl(-)=,-curl_ssl_axtls(-),-curl_ssl_cyassl(-)]  sys-apps/util-linux  sys-libs/zlib  X? (   dev-db/sqlite:3   media-libs/freeglut   virtual/jpeg:0=   x11-libs/gtk+:3   >=x11-libs/libnotify-0.7   x11-libs/wxGTK:3.0-gtk3[X,opengl,webkit]  )   !app-admin/quickswitch  
+EAPI=6
+IUSE=X cuda curl_ssl_gnutls curl_ssl_libressl +curl_ssl_openssl 
+KEYWORDS=
+SLOT=0
+SRC_URI=X? ( https://boinc.berkeley.edu/logo/boinc_glossy2_512_F.tif -> boinc.tif )

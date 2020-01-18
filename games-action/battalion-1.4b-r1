@@ -1,0 +1,9 @@
+358b716e2b6d1c2b3c9f5066691b109e
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  virtual/glu  virtual/opengl  x11-libs/libX11 
+RDEPEND=  virtual/glu  virtual/opengl  x11-libs/libX11 
+EAPI=6
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=http://evlweb.eecs.uic.edu/aej/BATTALION/battalion1.4b.tar.bz2

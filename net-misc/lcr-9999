@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile configure postinst prepare
+DEPEND=  media-libs/opencore-amr  asterisk? ( net-misc/asterisk )  ssl? ( dev-libs/openssl )  gsm-bs? ( net-wireless/openbsc )  sip? ( net-libs/sofia-sip )  gsm-ms? ( net-wireless/osmocom-bb )  
+RDEPEND=  media-libs/opencore-amr  asterisk? ( net-misc/asterisk )  ssl? ( dev-libs/openssl )  gsm-bs? ( net-wireless/openbsc )  sip? ( net-libs/sofia-sip )  gsm-ms? ( net-wireless/osmocom-bb )  
+EAPI=5
+IUSE=asterisk +ssl +gsm-bs +gsm-ms ss5 +sip gsmhr misdn 
+KEYWORDS=
+SLOT=0
+SRC_URI=

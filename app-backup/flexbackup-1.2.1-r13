@@ -1,0 +1,9 @@
+89873fe0dfd34d3e1701c6e3734856bf
+DEFINED_PHASES= install postinst prepare
+DEPEND=app-arch/mt-st 
+RDEPEND=app-arch/mt-st 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/flexbackup/flexbackup-1.2.1.tar.gz

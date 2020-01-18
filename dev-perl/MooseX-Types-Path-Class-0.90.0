@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/MooseX-Types  >=dev-perl/Path-Class-0.160.0  virtual/perl-if   >=dev-perl/Module-Build-Tiny-0.34.0  test? (   !minimal? ( dev-perl/MooseX-Getopt )   virtual/perl-File-Spec   virtual/perl-Module-Metadata   dev-perl/Moose   dev-perl/Test-Needs   virtual/perl-Test-Simple  )  
+RDEPEND=  dev-perl/MooseX-Types  >=dev-perl/Path-Class-0.160.0  virtual/perl-if  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=~amd64 ~x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/MooseX-Types-Path-Class-0.09.tar.gz

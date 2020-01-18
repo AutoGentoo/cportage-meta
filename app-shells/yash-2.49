@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=sys-libs/ncurses:=  nls? ( virtual/libintl )  nls? ( sys-devel/gettext )  test? ( sys-apps/ed ) 
+RDEPEND=sys-libs/ncurses:=  nls? ( virtual/libintl ) 
+EAPI=7
+IUSE=nls test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/yash/71638/yash-2.49.tar.xz

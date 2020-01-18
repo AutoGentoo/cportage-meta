@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    office_implementation_libreoffice? (     || (      app-office/libreoffice      app-office/libreoffice-bin     )    )       office_implementation_openoffice? (     app-office/openoffice-bin    )     app-arch/unzip  
+RDEPEND=    office_implementation_libreoffice? (     || (      app-office/libreoffice      app-office/libreoffice-bin     )    )       office_implementation_openoffice? (     app-office/openoffice-bin    )    
+EAPI=7
+IUSE= office_implementation_libreoffice office_implementation_openoffice 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://extensions.libreoffice.org/extensions/ct2n-convert-text-to-number-and-dates/1.5/@@download/file/converttexttonumber-1-5.0.oxt

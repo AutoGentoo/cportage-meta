@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=net-nds/openldap  ssl? ( dev-libs/openssl ) =www-servers/apache-2* 
+RDEPEND=net-nds/openldap  ssl? ( dev-libs/openssl )  =www-servers/apache-2*[ldap] =www-servers/apache-2* 
+EAPI=5
+IUSE=ssl 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://horde.net/~jwm/software/mod_ldap_userdir/mod_ldap_userdir-1.1.19.tar.gz

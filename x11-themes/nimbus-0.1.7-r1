@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+BDEPEND=  dev-util/intltool  virtual/pkgconfig  x11-misc/icon-naming-utils  !gtk? ( || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 ) 
+DEPEND=gtk? ( x11-libs/gtk+:2 ) 
+RDEPEND=  gtk? ( x11-libs/gtk+:2 )  !minimal? (   || (    x11-themes/adwaita-icon-theme    x11-themes/tango-icon-theme   )  ) 
+EAPI=7
+IUSE=gtk minimal 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://dlc.sun.com/osol/jds/downloads/extras/nimbus/nimbus-0.1.7.tar.bz2

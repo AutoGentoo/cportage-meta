@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=nls? ( sys-devel/gettext ) 
+DEPEND=sys-libs/readline:0=  curl? ( net-misc/curl ) 
+RDEPEND=sys-libs/readline:0=  curl? ( net-misc/curl ) 
+EAPI=7
+IUSE=curl nls 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://www.divineinvasion.net/authforce/authforce-0.9.9.tar.gz

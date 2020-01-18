@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install postinst prepare test
+BDEPEND=  dev-qt/linguist-tools:5  
+DEPEND=  dev-embedded/libftdi:=  dev-libs/glib:2  dev-qt/qt3d:5[qml]  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5[widgets,qml]  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  media-libs/alsa-lib  media-libs/libmad  media-libs/libsndfile  sci-libs/fftw:3.0  virtual/libusb:0  virtual/libusb:1  virtual/udev   dev-qt/qttest:5  
+RDEPEND=  dev-embedded/libftdi:=  dev-libs/glib:2  dev-qt/qt3d:5[qml]  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5[widgets,qml]  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  media-libs/alsa-lib  media-libs/libmad  media-libs/libsndfile  sci-libs/fftw:3.0  virtual/libusb:0  virtual/libusb:1  virtual/udev  
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://github.com/mcallegari/qlcplus/archive/QLC+_5.0.0_alpha3.tar.gz

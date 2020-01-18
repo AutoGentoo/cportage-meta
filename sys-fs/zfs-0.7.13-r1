@@ -1,0 +1,9 @@
+b0dcf7bb56a51ec5e7b5699704ab22c2
+DEFINED_PHASES= configure install postinst postrm prepare setup
+DEPEND=  net-libs/libtirpc  sys-apps/util-linux[static-libs?]  sys-libs/zlib[static-libs(+)?]  virtual/awk   virtual/pkgconfig  
+RDEPEND=  net-libs/libtirpc  sys-apps/util-linux[static-libs?]  sys-libs/zlib[static-libs(+)?]  virtual/awk   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   ) python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )   !=sys-apps/grep-2.13*  !kernel-builtin? ( =sys-fs/zfs-kmod-0.7.13* )  !sys-fs/zfs-fuse  !prefix? ( virtual/udev )  test-suite? (   sys-apps/util-linux   sys-devel/bc   sys-block/parted   sys-fs/lsscsi   sys-fs/mdadm   sys-process/procps   virtual/modutils   )  rootfs? (   app-arch/cpio   app-misc/pax-utils   !<sys-boot/grub-2.00-r2:2   !<sys-kernel/genkernel-3.5.1.1   !<sys-kernel/genkernel-next-67   !<sys-kernel/bliss-initramfs-7.1.0   !<sys-kernel/dracut-044-r1   )  sys-fs/udev-init-scripts  
+EAPI=5
+IUSE=custom-cflags debug kernel-builtin +rootfs systemd test-suite static-libs 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://github.com/zfsonlinux/zfs/releases/download/zfs-0.7.13/zfs-0.7.13.tar.gz

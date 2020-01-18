@@ -1,0 +1,9 @@
+6384a72fe6c988b42c8e53793a0c1e32
+DEFINED_PHASES= compile configure install postinst prepare setup
+BDEPEND=  dev-lang/perl  virtual/awk  
+RDEPEND=  !sys-fs/zfs-fuse  !sys-kernel/spl  
+EAPI=7
+IUSE=custom-cflags debug +rootfs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

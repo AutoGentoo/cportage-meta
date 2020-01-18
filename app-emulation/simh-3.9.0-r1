@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile install prepare
+DEPEND=net-libs/libpcap  app-arch/unzip 
+RDEPEND=net-libs/libpcap 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ~ppc ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://simh.trailing-edge.com/sources/simhv39-0.zip

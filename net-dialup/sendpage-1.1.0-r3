@@ -1,0 +1,9 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= install setup
+DEPEND=!net-misc/hylafax  >=dev-perl/Device-SerialPort-0.13  >=dev-perl/MailTools-1.44  >=virtual/perl-libnet-1.11  >=dev-perl/Net-SNPP-1.13  dev-perl/DBI 
+RDEPEND=!net-misc/hylafax  >=dev-perl/Device-SerialPort-0.13  >=dev-perl/MailTools-1.44  >=virtual/perl-libnet-1.11  >=dev-perl/Net-SNPP-1.13  dev-perl/DBI 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://www.sendpage.org/download/sendpage-1.001.tar.gz

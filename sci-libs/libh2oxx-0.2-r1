@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=sci-libs/libh2o-0.2:0= 
+RDEPEND=>=sci-libs/libh2o-0.2:0= 
+EAPI=7
+IUSE=debug static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/mgorny/libh2oxx/releases/download/libh2oxx-0.2/libh2oxx-0.2.tar.bz2

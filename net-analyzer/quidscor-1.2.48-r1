@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  >=dev-libs/libxml2-2.4  >=net-misc/curl-7.10  >=net-analyzer/snort-2.0  
+RDEPEND=  >=dev-libs/libxml2-2.4  >=net-misc/curl-7.10  >=net-analyzer/snort-2.0  
+EAPI=5
+IUSE=
+KEYWORDS=~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/quidscor/quidscor-1.2.48-src.tar.gz

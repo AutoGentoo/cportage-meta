@@ -1,0 +1,9 @@
+685b7801fe85ee50d8b53ecd1cb921ad
+DEFINED_PHASES= compile configure install prepare setup unpack
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+RDEPEND=  >=dev-libs/libxml2-2.6:2  >=gnome-base/libglade-2.4:2.0  >=net-print/cups-1.1.17  >=x11-libs/gtk+-2.4:2  
+EAPI=7
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=http://gdlp01.c-wss.com/gds/0/0100009240/02/linux-UFRII-drv-v360-uken.tar.gz

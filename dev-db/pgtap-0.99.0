@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND= postgres_targets_postgres11? ( dev-db/postgresql:11= ) postgres_targets_postgres10? ( dev-db/postgresql:10= ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6= ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5= ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4= )   app-arch/unzip   dev-perl/TAP-Parser-SourceHandler-pgTAP  
+RDEPEND= postgres_targets_postgres11? ( dev-db/postgresql:11= ) postgres_targets_postgres10? ( dev-db/postgresql:10= ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6= ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5= ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4= )   app-arch/unzip   dev-perl/TAP-Parser-SourceHandler-pgTAP  
+EAPI=6
+IUSE=
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://api.pgxn.org/dist/pgtap/0.99.0/pgtap-0.99.0.zip

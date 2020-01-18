@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=test? ( dev-perl/Data-Buffer  dev-perl/Digest-SHA1  virtual/perl-File-Spec  dev-perl/File-Which  virtual/perl-MIME-Base64  >=virtual/perl-Math-BigInt-1.78   dev-perl/Math-BigInt-GMP ) 
+RDEPEND=dev-perl/Data-Buffer  dev-perl/Digest-SHA1  virtual/perl-File-Spec  dev-perl/File-Which  virtual/perl-MIME-Base64  >=virtual/perl-Math-BigInt-1.78 
+EAPI=5
+IUSE=test 
+KEYWORDS=alpha amd64 hppa ppc sparc x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/Crypt-DSA-1.17.tar.gz

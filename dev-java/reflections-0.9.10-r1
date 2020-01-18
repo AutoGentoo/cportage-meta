@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.7  dev-java/commons-vfs:2  dev-java/dom4j:1  dev-java/gson:2.6  dev-java/guava:20  dev-java/javassist:3  dev-java/jsr305:0  dev-java/slf4j-api:0  dev-java/tomcat-servlet-api:3.1  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.7  dev-java/commons-vfs:2  dev-java/dom4j:1  dev-java/gson:2.6  dev-java/guava:20  dev-java/javassist:3  dev-java/jsr305:0  dev-java/slf4j-api:0  dev-java/tomcat-servlet-api:3.1 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://search.maven.org/remotecontent?filepath=org/reflections/reflections/0.9.10/reflections-0.9.10-sources.jar

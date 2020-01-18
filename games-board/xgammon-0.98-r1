@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure postinst
+DEPEND=x11-libs/libXaw  app-text/rman  x11-misc/imake 
+RDEPEND=x11-libs/libXaw 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://fawn.unibw-hamburg.de/steuer/xgammon/Downloads/xgammon-0.98a.tar.gz

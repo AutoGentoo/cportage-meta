@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=  !sys-libs/glibc  !sys-libs/uclibc 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 arm arm64 ~hppa ~mips ppc x86
+SLOT=0
+SRC_URI=

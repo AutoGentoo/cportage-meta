@@ -1,0 +1,10 @@
+6658e63a79b1ee329bdfbd3a64fadcd1
+DEFINED_PHASES= compile configure install postinst prepare test
+BDEPEND=sys-devel/m4 sys-devel/libtool extension? (   php_targets_php5-6? ( dev-lang/php:5.6 ) php_targets_php7-1? ( dev-lang/php:7.1 ) php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 )  ) 
+DEPEND=extension? ( dev-libs/libmaxminddb ) 
+RDEPEND=extension? ( dev-libs/libmaxminddb ) 
+EAPI=7
+IUSE=extension test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/maxmind/MaxMind-DB-Reader-php/archive/v1.4.1.tar.gz -> MaxMind-DB-Reader-php-1.4.1.tar.gz

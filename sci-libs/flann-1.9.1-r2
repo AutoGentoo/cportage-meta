@@ -1,0 +1,10 @@
+227ac63b4ed3538e27fca1087f581dc7
+DEFINED_PHASES= configure install prepare pretend setup
+BDEPEND=  app-arch/unzip  doc? ( dev-tex/latex2html )  
+DEPEND=  cuda? ( >=dev-util/nvidia-cuda-toolkit-5.5 )  mpi? (   sci-libs/hdf5[mpi]   dev-libs/boost:=[mpi]  )  !mpi? ( !sci-libs/hdf5[mpi] )  octave? ( >=sci-mathematics/octave-3.6.4-r1 )  
+RDEPEND=  cuda? ( >=dev-util/nvidia-cuda-toolkit-5.5 )  mpi? (   sci-libs/hdf5[mpi]   dev-libs/boost:=[mpi]  )  !mpi? ( !sci-libs/hdf5[mpi] )  octave? ( >=sci-mathematics/octave-3.6.4-r1 )  
+EAPI=7
+IUSE=cuda doc examples mpi openmp octave static-libs 
+KEYWORDS=amd64 ~arm arm64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/mariusmuja/flann/archive/1.9.1.tar.gz -> flann-1.9.1.tar.gz

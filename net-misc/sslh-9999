@@ -1,0 +1,10 @@
+6b62ed8a9a679d2809027c5d95dfb68e
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=caps? ( sys-libs/libcap )  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  >=dev-libs/libconfig-1.5  dev-util/conf2struct  dev-lang/perl  pcre? ( dev-libs/libpcre:= ) 
+RDEPEND=caps? ( sys-libs/libcap )  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  >=dev-libs/libconfig-1.5 
+EAPI=7
+IUSE=caps pcre systemd tcpd 
+KEYWORDS=
+SLOT=0
+SRC_URI=

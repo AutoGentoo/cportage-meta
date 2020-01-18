@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile install prepare test
+DEPEND=    !luajit? ( >=dev-lang/lua-5.1:= )  luajit? ( dev-lang/luajit:2= )  virtual/pkgconfig 
+RDEPEND=  !luajit? ( >=dev-lang/lua-5.1:= )  luajit? ( dev-lang/luajit:2= ) 
+EAPI=7
+IUSE=debug doc luajit 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~mips ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://www.inf.puc-rio.br/~roberto/lpeg/lpeg-1.0.2.tar.gz

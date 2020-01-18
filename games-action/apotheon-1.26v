@@ -1,0 +1,8 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= install nofetch postinst postrm unpack
+RDEPEND=  dev-lang/mono  media-libs/libsdl2[joystick,opengl,threads,video]  media-libs/openal  media-libs/sdl2-image  media-libs/theoraplay  
+EAPI=7
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=apotheon-12302015-bin

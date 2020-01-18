@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=
+	ftp://ftp.ebi.ac.uk/pub/software/unix/stride/src/stride.tar.gz -> stride-20011129.tar.gz
+	https://dev.gentoo.org/~jlec/distfiles/stride-20060723-update.patch.bz2

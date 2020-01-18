@@ -1,0 +1,8 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure
+DEPEND=sys-apps/texinfo 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~polynomial-c/dist/ed-1.16-rc1.tar.xz

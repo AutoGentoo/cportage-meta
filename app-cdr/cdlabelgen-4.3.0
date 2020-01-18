@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=dev-lang/perl 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=https://www.aczoom.com/pub/tools/cdlabelgen-4.3.0.tgz

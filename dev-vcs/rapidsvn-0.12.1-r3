@@ -1,0 +1,11 @@
+be0ca4c3bc55617d3c1c216440592812
+DEFINED_PHASES= compile configure install postinst postrm prepare test
+DEPEND=  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-libs/apr  dev-libs/apr-util  dev-vcs/subversion  x11-libs/wxGTK:3.0[X]  doc? (   dev-libs/libxslt   app-text/docbook-sgml-utils   app-doc/doxygen   app-text/docbook-xsl-stylesheets   media-gfx/graphviz  ) 
+RDEPEND=  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-libs/apr  dev-libs/apr-util  dev-vcs/subversion  x11-libs/wxGTK:3.0[X] 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 arm ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	http://www.rapidsvn.org/download/release/0.12.1/rapidsvn-0.12.1.tar.gz
+	doc? ( https://dev.gentoo.org/~jlec/distfiles/svncpp.dox.xz )

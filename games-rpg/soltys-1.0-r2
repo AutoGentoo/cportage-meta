@@ -1,0 +1,13 @@
+ba27f31d530e73ebe276ec8b9b4dfc70
+DEFINED_PHASES= install prepare unpack
+DEPEND=app-arch/unzip 
+RDEPEND=>=games-engines/scummvm-1.5 
+EAPI=6
+IUSE=l10n_en l10n_es l10n_pl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=l10n_en? ( mirror://sourceforge/scummvm/soltys-en-v1.0.zip )
+	l10n_es? ( mirror://sourceforge/scummvm/soltys-es-v1.0.zip )
+	l10n_pl? ( mirror://sourceforge/scummvm/soltys-pl-v1.0.zip )
+	!l10n_en? ( !l10n_es? ( !l10n_pl? ( mirror://sourceforge/scummvm/soltys-en-v1.0.zip ) ) )
+	http://www.scummvm.org/images/cat-soltys.png

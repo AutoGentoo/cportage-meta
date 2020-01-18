@@ -1,0 +1,10 @@
+a82612b1a96e6449acf222ffee32f5f1
+DEFINED_PHASES= compile install prepare pretend setup
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  acct-group/gkrellmd  acct-user/gkrellmd  dev-libs/glib:2  hddtemp? ( app-admin/hddtemp )  ssl? (   gnutls? ( net-libs/gnutls )   !gnutls? (    !libressl? ( dev-libs/openssl:0= )    libressl? ( dev-libs/libressl:0= )   )  )  lm-sensors? ( sys-apps/lm-sensors:= )  nls? ( virtual/libintl )  ntlm? ( net-libs/libntlm )  X? (   x11-libs/gdk-pixbuf   x11-libs/gtk+:2   x11-libs/libICE   x11-libs/libSM   x11-libs/libX11   x11-libs/pango   )  nls? ( sys-devel/gettext ) 
+RDEPEND=  acct-group/gkrellmd  acct-user/gkrellmd  dev-libs/glib:2  hddtemp? ( app-admin/hddtemp )  ssl? (   gnutls? ( net-libs/gnutls )   !gnutls? (    !libressl? ( dev-libs/openssl:0= )    libressl? ( dev-libs/libressl:0= )   )  )  lm-sensors? ( sys-apps/lm-sensors:= )  nls? ( virtual/libintl )  ntlm? ( net-libs/libntlm )  X? (   x11-libs/gdk-pixbuf   x11-libs/gtk+:2   x11-libs/libICE   x11-libs/libSM   x11-libs/libX11   x11-libs/pango   ) 
+EAPI=7
+IUSE=gnutls hddtemp libressl lm-sensors nls ntlm ssl kernel_FreeBSD X 
+KEYWORDS=
+SLOT=2
+SRC_URI=

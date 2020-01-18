@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=virtual/opengl  media-libs/libsdl[joystick,opengl,sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer 
+RDEPEND=virtual/opengl  media-libs/libsdl[joystick,opengl,sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/sable-1.0-src.tgz
+	mirror://gentoo/sable.png

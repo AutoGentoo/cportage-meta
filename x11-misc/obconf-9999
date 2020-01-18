@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=x11-libs/gtk+:3  x11-libs/startup-notification  =x11-wm/openbox-9999  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=x11-libs/gtk+:3  x11-libs/startup-notification  =x11-wm/openbox-9999 
+EAPI=6
+IUSE=nls 
+KEYWORDS=
+SLOT=0
+SRC_URI=

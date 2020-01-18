@@ -1,0 +1,12 @@
+924f2237608a3f318c5f80ed1928e55f
+DEFINED_PHASES= install test unpack
+BDEPEND=  test? (   dev-python/bashate   dev-util/checkbashisms   dev-util/shellcheck  )  
+RDEPEND=  app-arch/cabextract  app-arch/p7zip  app-arch/unzip  net-misc/wget  virtual/wine  x11-misc/xdg-utils  gtk? ( gnome-extra/zenity )  kde? ( kde-apps/kdialog )  rar? ( app-arch/unrar )  
+EAPI=7
+IUSE=gtk kde rar test 
+KEYWORDS=
+SLOT=0
+SRC_URI=
+	gtk? ( https://dev.gentoo.org/~chiitoo/distfiles/winetricks-gentoo-2012.11.24.tar.bz2 )
+	kde? ( https://dev.gentoo.org/~chiitoo/distfiles/winetricks-gentoo-2012.11.24.tar.bz2 )
+

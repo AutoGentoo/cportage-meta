@@ -1,0 +1,9 @@
+3bc2bcd693f92c6c7cf932cf6f1aa601
+DEFINED_PHASES= compile install postinst prepare setup
+DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=6
+IUSE=build +kernel-helper 
+KEYWORDS=-* x86
+SLOT=0
+SRC_URI=http://www.arava.co.il/matan/svgalib/svgalib-1.9.25.tar.gz

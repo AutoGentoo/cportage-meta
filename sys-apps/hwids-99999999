@@ -1,0 +1,9 @@
+8d065dd86f07bdc0eccf575d9b1e6c93
+DEFINED_PHASES= compile install postinst prepare setup unpack
+BDEPEND=   net-misc/curl   udev? ( || ( ( dev-lang/python:3.7 dev-python/pyparsing[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-python/pyparsing[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) )   
+RDEPEND=  udev? ( virtual/udev )  !<sys-apps/pciutils-3.1.9-r2  !<sys-apps/usbutils-005-r1  
+EAPI=7
+IUSE=+net +pci +udev +usb 
+KEYWORDS=
+SLOT=0
+SRC_URI=

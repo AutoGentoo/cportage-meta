@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXmu  x11-libs/libXpm 
+RDEPEND=x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXmu  x11-libs/libXpm 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wmsystemtray/wmsystemtray-1.4.tar.gz

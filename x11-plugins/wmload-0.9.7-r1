@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-base/xorg-proto 
+RDEPEND=x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ~sparc x86 ~amd64-linux ~x86-linux ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~voyageur/distfiles/wmload-0.9.7.tar.gz

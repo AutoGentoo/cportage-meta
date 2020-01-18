@@ -1,0 +1,9 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.7 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=http://dsd.lbl.gov/~hoschek/colt-download/releases/colt-1.2.0.tar.gz

@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=virtual/ssh  >=dev-libs/boost-1.34.1 
+RDEPEND=virtual/ssh 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://anyterm.org/download/anyterm-1.1.29.tbz2

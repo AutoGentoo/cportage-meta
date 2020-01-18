@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=  >=virtual/perl-Pod-Simple-3.0.0   dev-perl/Module-Build  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=  >=virtual/perl-Pod-Simple-3.0.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DO/DOMM/Pod-Strip-1.02.tar.gz

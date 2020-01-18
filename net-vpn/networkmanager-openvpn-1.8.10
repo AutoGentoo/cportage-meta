@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= configure prepare setup
+DEPEND=  >=dev-libs/glib-2.32:2  >=net-misc/networkmanager-1.7.0:=  >=net-vpn/openvpn-2.1  gtk? (   >=app-crypt/libsecret-0.18   >=gnome-extra/nm-applet-1.7.0   >=x11-libs/gtk+-3.4:3  )   dev-libs/libxml2:2  sys-devel/gettext  >=dev-util/intltool-0.35  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.32:2  >=net-misc/networkmanager-1.7.0:=  >=net-vpn/openvpn-2.1  gtk? (   >=app-crypt/libsecret-0.18   >=gnome-extra/nm-applet-1.7.0   >=x11-libs/gtk+-3.4:3  )  
+EAPI=6
+IUSE=gtk test 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/NetworkManager-openvpn/1.8/NetworkManager-openvpn-1.8.10.tar.xz

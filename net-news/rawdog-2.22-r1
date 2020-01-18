@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/feedparser[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=dev-python/feedparser[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=python_targets_python2_7 
+KEYWORDS=alpha amd64 hppa ia64 ppc ~s390 sparc x86
+SLOT=0
+SRC_URI=http://offog.org/files/rawdog-2.22.tar.gz

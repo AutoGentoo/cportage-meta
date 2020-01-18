@@ -1,0 +1,10 @@
+6cb8a5607d9ec200eb660bb115663a3f
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=net-libs/libpcap  mysql? ( dev-db/mysql-connector-c:0= )  odbc? ( dev-db/unixODBC )  postgres? ( dev-db/postgresql:*[server] ) 
+RDEPEND=net-libs/libpcap  mysql? ( dev-db/mysql-connector-c:0= )  odbc? ( dev-db/unixODBC )  postgres? ( dev-db/postgresql:*[server] ) 
+EAPI=7
+IUSE=debug gre mpls mysql odbc postgres static 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/firnsy/barnyard2/archive/v2-1.9.tar.gz -> barnyard2-1.9-github.tar.gz

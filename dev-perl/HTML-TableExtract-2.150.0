@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/HTML-Element-Extended-1.160.0  dev-perl/HTML-Parser   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  >=dev-perl/HTML-Element-Extended-1.160.0  dev-perl/HTML-Parser  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 x86 ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSISK/HTML-TableExtract-2.15.tar.gz

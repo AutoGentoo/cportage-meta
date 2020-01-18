@@ -1,0 +1,10 @@
+7caaa18fb92f9706be7f9f7aa1320a83
+DEFINED_PHASES= compile configure install postinst
+DEPEND=dev-libs/apr  dev-libs/apr-util[openssl]  dev-libs/libxml2  dev-libs/libpcre[jit?]  fuzzyhash? ( app-crypt/ssdeep )  json? ( dev-libs/yajl )  lua? ( dev-lang/lua:0 )  mlogc? ( net-misc/curl )  www-servers/apache[apache2_modules_unique_id]  doc? ( app-doc/doxygen ) =www-servers/apache-2* 
+RDEPEND=dev-libs/apr  dev-libs/apr-util[openssl]  dev-libs/libxml2  dev-libs/libpcre[jit?]  fuzzyhash? ( app-crypt/ssdeep )  json? ( dev-libs/yajl )  lua? ( dev-lang/lua:0 )  mlogc? ( net-misc/curl )  www-servers/apache[apache2_modules_unique_id]  geoip? ( dev-libs/geoip )  mlogc? ( dev-lang/perl ) =www-servers/apache-2* 
+PDEPEND=>=www-apache/modsecurity-crs-2.2.6-r1 
+EAPI=5
+IUSE=doc fuzzyhash geoip jit json lua mlogc 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.modsecurity.org/tarball/2.9.1/modsecurity-2.9.1.tar.gz

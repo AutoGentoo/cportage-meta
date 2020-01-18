@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+EAPI=6
+IUSE=
+KEYWORDS=~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=http://www.sentex.net/~mwandel/jhead/jhead-3.00.tar.gz

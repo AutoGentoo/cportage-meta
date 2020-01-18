@@ -1,0 +1,31 @@
+8fbec3b9e351f5f4546fb9c9cc43e4c8
+DEFINED_PHASES= postinst postrm preinst prepare unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]  virtual/pkgconfig 
+RDEPEND=media-libs/libsdl2[opengl,video]  media-libs/sdl2-image[png]  media-libs/sdl2-ttf  virtual/opengl  dev-libs/glib:2 
+EAPI=6
+IUSE=+user-levels 
+KEYWORDS=
+SLOT=0
+SRC_URI=user-levels? (
+	http://numptyphysics.garage.maemo.org/levels/butelo/butelo.npz
+	http://numptyphysics.garage.maemo.org/levels/catalyst/catalyst.npz
+	http://numptyphysics.garage.maemo.org/levels/christeck/christeck.npz
+	http://numptyphysics.garage.maemo.org/levels/dneary/dneary.npz
+	http://numptyphysics.garage.maemo.org/levels/gnuton/gnuton.npz
+	http://numptyphysics.garage.maemo.org/levels/gudger/gudger.npz
+	http://numptyphysics.garage.maemo.org/levels/guile/guile.npz
+	http://numptyphysics.garage.maemo.org/levels/hurd/hurd.npz
+	http://numptyphysics.garage.maemo.org/levels/ioan/ioan.npz
+	http://numptyphysics.garage.maemo.org/levels/jhoff80/jhoff80.npz
+	http://numptyphysics.garage.maemo.org/levels/leonet/leonet.npz
+	http://numptyphysics.garage.maemo.org/levels/melvin/melvin.npz
+	http://numptyphysics.garage.maemo.org/levels/noodleman/noodleman.npz
+	http://numptyphysics.garage.maemo.org/levels/papky/papky.npz
+	http://numptyphysics.garage.maemo.org/levels/perli/perli.npz
+	http://numptyphysics.garage.maemo.org/levels/qole/qole.npz
+	http://numptyphysics.garage.maemo.org/levels/siminz/siminz.npz
+	http://numptyphysics.garage.maemo.org/levels/szymanowski/szymanowski.npz
+	http://numptyphysics.garage.maemo.org/levels/therealbubba/therealbubba.npz
+	http://numptyphysics.garage.maemo.org/levels/werre/werre.npz
+	http://numptyphysics.garage.maemo.org/levels/zeez/zeez.npz
+)

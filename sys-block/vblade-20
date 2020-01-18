@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+RDEPEND=sys-apps/util-linux 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/aoetools/vblade-20.tgz

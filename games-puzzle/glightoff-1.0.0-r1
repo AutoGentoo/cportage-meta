@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  gnome-base/librsvg  media-libs/libpng:0=  >=x11-libs/gtk+-2.6:2   >=dev-util/intltool-0.29  virtual/pkgconfig  
+RDEPEND=  gnome-base/librsvg  media-libs/libpng:0=  >=x11-libs/gtk+-2.6:2  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/glightoff/glightoff-1.0.0.tar.gz

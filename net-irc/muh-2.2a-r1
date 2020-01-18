@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst
+EAPI=6
+IUSE=ipv6 
+KEYWORDS=alpha amd64 ~hppa ~mips ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/muh/muh-2.2a.tar.gz

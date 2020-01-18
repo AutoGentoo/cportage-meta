@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Net-SSLeay  dev-perl/IO-Socket-SSL  virtual/perl-MIME-Base64  dev-perl/Digest-HMAC 
+RDEPEND=dev-perl/Net-SSLeay  dev-perl/IO-Socket-SSL  virtual/perl-MIME-Base64  dev-perl/Digest-HMAC 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AW/AWESTHOLM/Net-SMTP-TLS-0.12.tar.gz

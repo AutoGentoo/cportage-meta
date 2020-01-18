@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=  test? (   dev-python/mock[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]   dev-python/numpy[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]   sci-libs/Shapely[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]  ) doc? ( || ( ( dev-lang/python:3.8     dev-python/sphinx[python_targets_python3_8(-),python_single_target_python3_8(+)]         dev-python/sphinx_rtd_theme[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.7     dev-python/sphinx[python_targets_python3_7(-),python_single_target_python3_7(+)]         dev-python/sphinx_rtd_theme[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6     dev-python/sphinx[python_targets_python3_6(-),python_single_target_python3_6(+)]         dev-python/sphinx_rtd_theme[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) ) test? ( dev-python/pytest[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] >=sci-libs/proj-6.2.0 ) 
+DEPEND=>=sci-libs/proj-6.2.0  dev-python/cython[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] 
+RDEPEND=>=sci-libs/proj-6.2.0 
+EAPI=7
+IUSE=doc doc test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+SLOT=0
+SRC_URI=mirror://pypi/p/pyproj/pyproj-2.4.2.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/XML-Parser  dev-perl/libwww-perl  
+RDEPEND=  dev-perl/XML-Parser  dev-perl/libwww-perl  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KM/KMACLEOD/Frontier-RPC-0.07b4.tar.gz http://perl-xml.sourceforge.net/xml-rpc/Frontier-RPC-0.07b4.tar.gz

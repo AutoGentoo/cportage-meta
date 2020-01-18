@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install unpack
+DEPEND=dev-libs/glib:2  gnome-base/libglade:2.0  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  gnome-base/libglade:2.0 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

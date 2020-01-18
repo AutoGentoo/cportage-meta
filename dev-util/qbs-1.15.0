@@ -1,0 +1,9 @@
+abd1e1236fdcac7d26d73f940272baaf
+DEFINED_PHASES= configure install prepare test
+DEPEND=  dev-qt/qtcore:5=  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  test? ( dev-qt/qttest:5 )   doc? (   dev-qt/qdoc:5   dev-qt/qthelp:5  )  test? (   dev-qt/linguist-tools:5   dev-qt/qtdbus:5   dev-qt/qtdeclarative:5  )  
+RDEPEND=  dev-qt/qtcore:5=  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  test? ( dev-qt/qttest:5 )  
+EAPI=7
+IUSE=doc examples test 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://download.qt.io/official_releases/qbs/1.15.0/qbs-src-1.15.0.tar.gz

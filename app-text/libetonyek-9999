@@ -1,0 +1,10 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+DEPEND=  app-text/liblangtag  dev-libs/librevenge  dev-libs/libxml2  >=dev-util/mdds-1.4.3:1=  sys-libs/zlib   dev-libs/boost  media-libs/glm  sys-devel/libtool  test? ( dev-util/cppunit )  
+RDEPEND=  app-text/liblangtag  dev-libs/librevenge  dev-libs/libxml2  >=dev-util/mdds-1.4.3:1=  sys-libs/zlib  
+EAPI=7
+IUSE=doc static-libs test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

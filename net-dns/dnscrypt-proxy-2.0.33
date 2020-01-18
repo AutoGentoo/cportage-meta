@@ -1,0 +1,10 @@
+90319bdee3a916a91a65c821af92b853
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=dev-lang/go-1.12 
+RDEPEND=  acct-group/dnscrypt-proxy  acct-user/dnscrypt-proxy  
+EAPI=7
+IUSE=pie 
+KEYWORDS=amd64 ~arm ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/jedisct1/dnscrypt-proxy/archive/2.0.33.tar.gz -> dnscrypt-proxy-2.0.33.tar.gz

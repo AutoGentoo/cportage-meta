@@ -1,0 +1,10 @@
+61ffcf170eac323001ffc94bf7e22b02
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=>=dev-libs/elfutils-0.100[static-libs(+)]  selinux? ( sys-libs/libselinux[static-libs(+)] )  !dev-libs/libelf  sys-libs/binutils-libs  >=sys-libs/glibc-2.8 
+RDEPEND=>=dev-libs/elfutils-0.100[static-libs(+)]  selinux? ( sys-libs/libselinux[static-libs(+)] )  !dev-libs/libelf  sys-libs/binutils-libs  >=sys-libs/glibc-2.8  >=sys-devel/binutils-2.18 
+EAPI=5
+IUSE=doc selinux 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://git.yoctoproject.org/cgit/cgit.cgi/prelink-cross/snapshot/prelink-cross-20151030.tar.bz2
+	doc? ( https://people.redhat.com/jakub/prelink/prelink.pdf )

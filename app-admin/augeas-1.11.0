@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure prepare
+DEPEND=  dev-libs/libxml2  sys-libs/readline:=  virtual/pkgconfig  >=app-doc/NaturalDocs-1.40  test? ( dev-lang/ruby ) 
+RDEPEND=  dev-libs/libxml2  sys-libs/readline:= 
+EAPI=6
+IUSE=static-libs test 
+KEYWORDS=alpha amd64 ~arm hppa ia64 ppc ~ppc64 sparc x86
+SLOT=0
+SRC_URI=http://download.augeas.net/augeas-1.11.0.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/go-1.6:=  app-emulation/libvirt:=[qemu,virt-network] 
+RDEPEND=app-emulation/libvirt:=[qemu,virt-network] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/dhiltgen/docker-machine-kvm/archive/v0.10.0.tar.gz -> docker-machine-kvm-0.10.0.tar.gz
+	 https://github.com/docker/machine/archive/v0.10.0.tar.gz -> github.com-docker-machine-v0.10.0.tar.gz https://github.com/libvirt/libvirt-go/archive/c3209e4ba8b8dda65c85ca0ac04302e55895caf7.tar.gz -> github.com-libvirt-libvirt-go-c3209e4ba8b8dda65c85ca0ac04302e55895caf7.tar.gz

@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure prepare
+DEPEND=  virtual/opengl  virtual/glu  media-libs/libsdl[X,sound,video]  media-libs/sdl-image[jpeg,png]  media-libs/libvorbis  media-libs/libtheora  media-libs/ftgl  virtual/libintl   virtual/pkgconfig  nls? ( sys-devel/gettext )  
+RDEPEND=  virtual/opengl  virtual/glu  media-libs/libsdl[X,sound,video]  media-libs/sdl-image[jpeg,png]  media-libs/libvorbis  media-libs/libtheora  media-libs/ftgl  virtual/libintl  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/zaz/zaz-1.0.0.tar.bz2

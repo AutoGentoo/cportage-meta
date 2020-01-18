@@ -1,0 +1,10 @@
+9967adebb1821326e1eff7f0c024a757
+DEFINED_PHASES= configure
+BDEPEND=  doc? ( app-doc/doxygen )  virtual/pkgconfig  
+DEPEND=  bluetooth? ( net-wireless/bluez:= )  usb? ( virtual/libusb:= )  
+RDEPEND=  bluetooth? ( net-wireless/bluez:= )  usb? ( virtual/libusb:= )  
+EAPI=7
+IUSE=bluetooth doc irda usb 
+KEYWORDS=amd64 arm ~hppa ppc ppc64 ~sparc x86
+SLOT=0/2
+SRC_URI=mirror://sourceforge/openobex/1.7.2/openobex-1.7.2-Source.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  nls? ( >=dev-qt/linguist-tools-5.12.3:5 )  
+DEPEND=  >=dev-qt/qtnetwork-5.12.3:5  zeroconf? (   >=dev-qt/qtdbus-5.12.3:5   net-dns/avahi[mdnsresponder-compat]  )  
+RDEPEND=  >=dev-qt/qtnetwork-5.12.3:5  zeroconf? (   >=dev-qt/qtdbus-5.12.3:5   net-dns/avahi[mdnsresponder-compat]  )  
+EAPI=7
+IUSE=nls zeroconf 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/kdnssd-5.64.0.tar.xz

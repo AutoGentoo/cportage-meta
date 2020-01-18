@@ -1,0 +1,9 @@
+cb0343a9f4a83177b01f8d739282c68f
+DEFINED_PHASES= compile install prepare
+DEPEND=>=app-dicts/migemo-dict-200812[unicode=]  dev-lang/perl  || (   net-misc/curl   net-misc/wget   www-client/fetch  )  app-i18n/nkf 
+RDEPEND=>=app-dicts/migemo-dict-200812[unicode=]  dev-lang/perl  || (   net-misc/curl   net-misc/wget   www-client/fetch  )  app-i18n/nkf 
+EAPI=7
+IUSE=unicode vim-syntax 
+KEYWORDS=alpha amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.kaoriya.net/dist/var/cmigemo-1.3c-MIT.tar.bz2

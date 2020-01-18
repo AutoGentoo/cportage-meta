@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=app-arch/unzip 
+RDEPEND=app-arch/unzip 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ros/convex_decomposition/archive/0.1.11.tar.gz -> convex_decomposition-0.1.11.tar.gz

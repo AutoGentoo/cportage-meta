@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/enum  dev-perl/Carp-Assert  dev-perl/Class-Virtual  dev-perl/Class-Data-Inheritable  test? ( >=virtual/perl-Test-Simple-0.82 ) 
+RDEPEND=dev-perl/enum  dev-perl/Carp-Assert  dev-perl/Class-Virtual  dev-perl/Class-Data-Inheritable 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSCHWERN/Tie-Cache-LRU-20150301.tar.gz

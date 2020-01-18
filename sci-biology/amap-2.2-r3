@@ -1,0 +1,9 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= compile install prepare
+DEPEND=java? ( >=virtual/jdk-1.5 ) 
+RDEPEND=java? ( >=virtual/jre-1.5 ) 
+EAPI=6
+IUSE=java 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://baboon.math.berkeley.edu/amap/download/amap.2.2.tar.gz

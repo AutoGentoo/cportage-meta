@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=>=dev-libs/glib-2  >=sys-libs/zlib-1.1.4:=  virtual/pkgconfig 
+RDEPEND=>=dev-libs/glib-2  >=sys-libs/zlib-1.1.4:= 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://xdelta.googlecode.com/files/xdelta-1.1.4.tar.gz

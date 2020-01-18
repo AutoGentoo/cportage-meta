@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= configure prepare
+DEPEND=!sys-apps/firejail   apparmor? ( sys-libs/libapparmor )   test? ( dev-tcltk/expect ) 
+RDEPEND=apparmor? ( sys-libs/libapparmor ) 
+EAPI=7
+IUSE=apparmor +globalcfg +network +seccomp +suid +userns test +whitelist 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/netblue30/firejail/archive/0.9.56.2-LTS.tar.gz -> firejail-lts-0.9.56.2.tar.gz

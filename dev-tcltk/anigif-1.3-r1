@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=app-arch/unzip 
+RDEPEND=dev-lang/tcl:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/anigif-1.3.zip

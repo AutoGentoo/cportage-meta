@@ -1,0 +1,10 @@
+e040a410144a50f755ca139e1bd8d49d
+DEFINED_PHASES= configure install
+DEPEND=  app-text/poppler  dev-qt/linguist:5  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5  app-arch/unzip 
+RDEPEND=  app-text/poppler  dev-qt/linguist:5  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  dev-qt/qtxmlpatterns:5 
+EAPI=7
+IUSE= l10n_cs l10n_de l10n_el l10n_en l10n_en l10n_es l10n_fi l10n_fr l10n_he l10n_id l10n_it l10n_nl l10n_pt-BR l10n_ro l10n_ru l10n_uk l10n_zh-CN 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/dismine/valentina/get/v0.6.1.zip -> valentina-0.6.1.zip
+	https://dev.gentoo.org/~fordfrog/distfiles/valentina-5858.patch.bz2

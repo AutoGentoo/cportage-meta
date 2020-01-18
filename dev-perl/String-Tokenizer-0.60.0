@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=dev-lang/perl:= 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/ST/STEVAN/String-Tokenizer-0.06.tar.gz

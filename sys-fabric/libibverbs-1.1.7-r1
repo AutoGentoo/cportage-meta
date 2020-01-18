@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=  !sys-fabric/openib-userspace !sys-fabric/libibverbs:0 !sys-fabric/libibverbs:3.5 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=~alpha amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux
+SLOT=3.12
+SRC_URI=https://www.openfabrics.org/downloads/OFED/ofed-3.12/OFED-3.12-rc1.tgz

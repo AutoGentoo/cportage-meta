@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  =dev-libs/libplatform-2*  ~media-tv/kodi-9999  virtual/opengl   
+RDEPEND=    =dev-libs/libplatform-2*  ~media-tv/kodi-9999  virtual/opengl     
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

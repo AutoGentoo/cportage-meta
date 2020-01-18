@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install
+DEPEND=dev-libs/libaio  sys-kernel/linux-headers  doc? (   virtual/latex-base   >=app-text/texlive-core-2014  )  
+RDEPEND=dev-libs/libaio 
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 ~arm ppc x86
+SLOT=0
+SRC_URI=http://brick.kernel.dk/snaps/blktrace-1.2.0.tar.bz2

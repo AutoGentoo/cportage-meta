@@ -1,0 +1,11 @@
+0965bd738f3874c02b2ff70d469b3a74
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-cpp/eigen:3  dev-cpp/muParser  dev-qt/qtcore:5  dev-qt/qtopengl:5  dev-qt/qtscript:5  dev-qt/qtxmlpatterns:5  >=media-gfx/jhead-3.00-r2  media-libs/glew:0  media-libs/qhull  =media-libs/lib3ds-1*  media-libs/openctm  sci-libs/levmar  sci-libs/mpir 
+RDEPEND=dev-cpp/eigen:3  dev-cpp/muParser  dev-qt/qtcore:5  dev-qt/qtopengl:5  dev-qt/qtscript:5  dev-qt/qtxmlpatterns:5  >=media-gfx/jhead-3.00-r2  media-libs/glew:0  media-libs/qhull  =media-libs/lib3ds-1*  media-libs/openctm  sci-libs/levmar  sci-libs/mpir 
+EAPI=6
+IUSE=-minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/cnr-isti-vclab/meshlab/archive/v2016.12.tar.gz -> meshlab-2016.12.tar.gz
+	 https://github.com/cnr-isti-vclab/vcglib/archive/v1.0.1.tar.gz -> vcglib-1.0.1.tar.gz
+

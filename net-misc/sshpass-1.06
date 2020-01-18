@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=net-misc/openssh 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 x86 ~x64-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/sshpass/1.06/sshpass-1.06.tar.gz

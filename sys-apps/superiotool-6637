@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+DEPEND=pci? ( sys-apps/pciutils )  app-arch/xz-utils 
+RDEPEND=pci? ( sys-apps/pciutils ) 
+EAPI=6
+IUSE=pci 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/superiotool-6637.tar.xz

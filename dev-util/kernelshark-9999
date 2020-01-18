@@ -1,0 +1,10 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure
+BDEPEND=>=dev-util/cmake-2.8.11  doc? (   media-gfx/graphviz   app-doc/doxygen  )  
+DEPEND=>=dev-util/trace-cmd-2.8.3:=  dev-libs/json-c:=  >=media-libs/freeglut-3.0.0:=  x11-libs/libXmu:=  x11-libs/libXi:=  dev-qt/qtcore:5=  dev-qt/qtwidgets:5=  dev-qt/qtnetwork:5=  
+RDEPEND=>=dev-util/trace-cmd-2.8.3:=  dev-libs/json-c:=  >=media-libs/freeglut-3.0.0:=  x11-libs/libXmu:=  x11-libs/libXi:=  dev-qt/qtcore:5=  dev-qt/qtwidgets:5=  dev-qt/qtnetwork:5=  
+EAPI=7
+IUSE=custom-optimization doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

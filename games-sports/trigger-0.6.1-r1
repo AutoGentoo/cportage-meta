@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile configure install postinst setup
+DEPEND=  dev-games/physfs  media-libs/freealut  media-libs/libsdl  media-libs/openal  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer  virtual/glu  virtual/opengl  dev-util/ftjam 
+RDEPEND=  dev-games/physfs  media-libs/freealut  media-libs/libsdl  media-libs/openal  media-libs/sdl-image[jpeg,png]  media-libs/sdl-mixer  virtual/glu  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/trigger-rally/trigger-rally-0.6.1.tar.bz2

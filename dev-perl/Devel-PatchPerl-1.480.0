@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/File-pushd-1.0.0  virtual/perl-IO  virtual/perl-MIME-Base64  dev-perl/Module-Pluggable   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  >=dev-perl/File-pushd-1.0.0  virtual/perl-IO  virtual/perl-MIME-Base64  dev-perl/Module-Pluggable  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/Devel-PatchPerl-1.48.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=  test? (   dev-perl/Test-Exception  )  
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~ppc-aix
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BR/BRICAS/Math-Base36-0.14.tar.gz

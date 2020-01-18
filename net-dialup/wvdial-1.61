@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst
+DEPEND=>=net-libs/wvstreams-4.4  virtual/pkgconfig  
+RDEPEND=>=net-libs/wvstreams-4.4  net-dialup/ppp:=  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ppc sparc x86
+SLOT=0
+SRC_URI=https://wvstreams.googlecode.com/files/wvdial-1.61.tar.gz

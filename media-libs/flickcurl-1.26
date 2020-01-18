@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=net-misc/curl-7.10.0  >=dev-libs/libxml2-2.6.8:2  raptor? ( media-libs/raptor:2 )  virtual/pkgconfig 
+RDEPEND=>=net-misc/curl-7.10.0  >=dev-libs/libxml2-2.6.8:2  raptor? ( media-libs/raptor:2 ) 
+EAPI=5
+IUSE=doc raptor static-libs 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://download.dajobe.org/flickcurl/flickcurl-1.26.tar.gz

@@ -1,0 +1,10 @@
+033e7eee641af6aa2530422367960970
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/boost 
+PDEPEND=  gtk? ( x11-libs/libyui-gtk:0/6 )  ncurses? ( x11-libs/libyui-ncurses:0/6 )  qt5? ( x11-libs/libyui-qt:0/6 )  
+EAPI=6
+IUSE=gtk ncurses qt5 static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0/6
+SRC_URI=https://github.com/libyui/libyui/archive/v3.3.3.tar.gz -> libyui-3.3.3.tar.gz

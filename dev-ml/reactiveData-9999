@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=dev-ml/react:=  dev-ml/findlib  dev-ml/ocamlbuild  
+RDEPEND=dev-ml/react:= 
+EAPI=5
+IUSE=+ocamlopt 
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

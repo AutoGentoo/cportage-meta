@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=sys-apps/pciutils[-zlib]  gtk? ( x11-libs/gtk+:2 )  X? ( x11-libs/libXi   x11-libs/libXmu   x11-libs/libXxf86vm )  X? ( x11-base/xorg-proto ) 
+RDEPEND=sys-apps/pciutils[-zlib]  gtk? ( x11-libs/gtk+:2 )  X? ( x11-libs/libXi   x11-libs/libXmu   x11-libs/libXxf86vm ) 
+EAPI=6
+IUSE=X gtk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/nv-tv-out/nvtv-0.4.7.tar.gz

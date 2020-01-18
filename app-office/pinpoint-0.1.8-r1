@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install
+DEPEND=  >=media-libs/clutter-1.23.7:1.0  >=media-libs/clutter-gtk-1.6:1.0  >=dev-libs/glib-2.28:2  >=x11-libs/cairo-1.9.4  x11-libs/pango  x11-libs/gdk-pixbuf:2  gstreamer? ( media-libs/clutter-gst:3.0 )  pdf? ( gnome-base/librsvg:2 )   virtual/pkgconfig  
+RDEPEND=  >=media-libs/clutter-1.23.7:1.0  >=media-libs/clutter-gtk-1.6:1.0  >=dev-libs/glib-2.28:2  >=x11-libs/cairo-1.9.4  x11-libs/pango  x11-libs/gdk-pixbuf:2  gstreamer? ( media-libs/clutter-gst:3.0 )  pdf? ( gnome-base/librsvg:2 )  
+EAPI=6
+IUSE=+gstreamer +pdf 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/pinpoint/0.1/pinpoint-0.1.8.tar.xz

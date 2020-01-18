@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  examples? (   dev-perl/Config-Auto   >=virtual/perl-Getopt-Long-2.400.0   >=dev-perl/Try-Tiny-0.240.0  )  virtual/perl-Carp  >=dev-perl/libwww-perl-5.835.0   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.880.0   >=dev-perl/Try-Tiny-0.240.0  )  
+RDEPEND=  examples? (   dev-perl/Config-Auto   >=virtual/perl-Getopt-Long-2.400.0   >=dev-perl/Try-Tiny-0.240.0  )  virtual/perl-Carp  >=dev-perl/libwww-perl-5.835.0  
+EAPI=6
+IUSE=test examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CA/CAPOEIRAB/WWW-Shorten-3.093.tar.gz

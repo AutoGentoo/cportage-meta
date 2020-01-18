@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=dev-libs/openssl-1.1.1:0=  virtual/pkgconfig  test? (   dev-lang/perl  ) 
+RDEPEND=>=dev-libs/openssl-1.1.1:0= 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~hppa
+SLOT=0/1.1.0.3_p20181031
+SRC_URI=https://github.com/gost-engine/engine/archive/e5cc3684f3b3ad40e186e23b00b253d234df92ab.tar.gz -> gost-engine-1.1.0.3_p20181031.tar.gz

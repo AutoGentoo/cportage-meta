@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtserialport:5  dev-qt/qtwidgets:5 
+RDEPEND=dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtserialport:5  dev-qt/qtwidgets:5  net-dialup/lrzsz 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://gitlab.com/cutecom/cutecom/-/archive/v0.51.0/cutecom-v0.51.0.tar.bz2

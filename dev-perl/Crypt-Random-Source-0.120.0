@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Capture-Tiny-0.80.0  virtual/perl-Carp  virtual/perl-File-Spec  >=virtual/perl-IO-1.140.0  dev-perl/Module-Find  dev-perl/Module-Runtime  >=dev-perl/Moo-1.2.0  dev-perl/Sub-Exporter  dev-perl/Type-Tiny  >=dev-perl/namespace-clean-0.110.0   >=dev-perl/Module-Build-Tiny-0.34.0  test? (   virtual/perl-ExtUtils-MakeMaker   dev-perl/Test-Exception   >=virtual/perl-Test-Simple-1.1.10  )  
+RDEPEND=  >=dev-perl/Capture-Tiny-0.80.0  virtual/perl-Carp  virtual/perl-File-Spec  >=virtual/perl-IO-1.140.0  dev-perl/Module-Find  dev-perl/Module-Runtime  >=dev-perl/Moo-1.2.0  dev-perl/Sub-Exporter  dev-perl/Type-Tiny  >=dev-perl/namespace-clean-0.110.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/Crypt-Random-Source-0.12.tar.gz

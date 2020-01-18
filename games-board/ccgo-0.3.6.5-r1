@@ -1,0 +1,9 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= compile configure prepare
+DEPEND=  >=dev-cpp/gconfmm-2.6  >=dev-cpp/gtkmm-2.4:2.4  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=  >=dev-cpp/gconfmm-2.6  >=dev-cpp/gtkmm-2.4:2.4  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://ccdw.org/~cjj/prog/ccgo/src/ccgo-0.3.6.5.tar.gz

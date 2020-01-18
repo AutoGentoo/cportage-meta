@@ -1,0 +1,11 @@
+69dca82a945d3ff63eb2d2b737c3fc0a
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=sys-libs/ncurses  app-arch/sharutils  net-mail/mailbase 
+RDEPEND=app-misc/mime-types  sys-apps/debianutils  !app-misc/run-mailcap 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86
+SLOT=0
+SRC_URI=http://ftp.funet.fi/pub/unix/mail/metamail/mm2.7.tar.Z
+	mirror://debian/pool/main/m/metamail/metamail_2.7-53.diff.gz

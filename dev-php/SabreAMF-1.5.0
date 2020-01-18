@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=dev-php/fedora-autoloader 
+EAPI=7
+IUSE=examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/evert/SabreAMF/archive/1.5.0.tar.gz -> SabreAMF-1.5.0.tar.gz

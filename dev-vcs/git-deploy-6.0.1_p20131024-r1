@@ -1,0 +1,9 @@
+ad540a4cc5c410795131d4d8db7a6d91
+DEFINED_PHASES= install prepare test
+DEPEND=dev-lang/perl  test? (   dev-vcs/git  virtual/perl-File-Spec  virtual/perl-Getopt-Long  virtual/perl-Term-ANSIColor  virtual/perl-Time-HiRes  virtual/perl-Memoize  virtual/perl-Data-Dumper   virtual/perl-File-Temp   ) 
+RDEPEND=dev-lang/perl:= dev-vcs/git  virtual/perl-File-Spec  virtual/perl-Getopt-Long  virtual/perl-Term-ANSIColor  virtual/perl-Time-HiRes  virtual/perl-Memoize  virtual/perl-Data-Dumper 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/git-deploy/git-deploy/archive/e9ef93debd12d85e70676dd79b4bd78ac2b05271.tar.gz -> git-deploy-6.0.1_p20131024.tar.gz

@@ -1,0 +1,9 @@
+b90e2b9970774237e8c9f7028d6a7adb
+DEFINED_PHASES= install postinst
+DEPEND=games-util/loki_patch 
+RDEPEND=sys-libs/glibc  >=virtual/opengl-7.0-r1[abi_x86_32(-)]  >=x11-libs/libX11-1.6.2[abi_x86_32(-)]  >=x11-libs/libXext-1.3.2[abi_x86_32(-)]  alsa? ( media-libs/alsa-oss[abi_x86_32(-)] )  pulseaudio? ( media-sound/pulseaudio[abi_x86_32(-)] ) 
+EAPI=6
+IUSE=alsa pulseaudio 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://lokigames/loki_demos/descent3-demo.run

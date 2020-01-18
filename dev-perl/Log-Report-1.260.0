@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Devel-GlobalDestruction-0.90.0  >=virtual/perl-Encode-2.0.0  >=dev-perl/Log-Report-Optional-1.30.0  virtual/perl-Scalar-List-Utils  >=dev-perl/String-Print-0.910.0  >=virtual/perl-Sys-Syslog-0.270.0   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.860.0  )  
+RDEPEND=  >=dev-perl/Devel-GlobalDestruction-0.90.0  >=virtual/perl-Encode-2.0.0  >=dev-perl/Log-Report-Optional-1.30.0  virtual/perl-Scalar-List-Utils  >=dev-perl/String-Print-0.910.0  >=virtual/perl-Sys-Syslog-0.270.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MARKOV/Log-Report-1.26.tar.gz

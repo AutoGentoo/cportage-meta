@@ -1,0 +1,10 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    gtk? (   dev-libs/glib:2   x11-libs/gtk+:3  )  ncurses? ( sys-libs/ncurses:0= )   sys-devel/autoconf  virtual/pkgconfig  
+RDEPEND=  gtk? (   dev-libs/glib:2   x11-libs/gtk+:3  )  ncurses? ( sys-libs/ncurses:0= )  
+EAPI=7
+IUSE=gtk ipv6 ncurses 
+KEYWORDS=
+SLOT=0
+SRC_URI=

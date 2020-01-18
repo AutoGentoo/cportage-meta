@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install prepare
+DEPEND=media-libs/libsdl[sound,joystick,video]  media-libs/sdl-mixer[vorbis] 
+RDEPEND=media-libs/libsdl[sound,joystick,video]  media-libs/sdl-mixer[vorbis] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://tamentis.com/projects/rezerwar/files/rezerwar-0.4.2.tar.gz

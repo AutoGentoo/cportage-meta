@@ -1,0 +1,7 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= compile install postinst
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.peercast.org/src/peercast-0.1218-src.tgz

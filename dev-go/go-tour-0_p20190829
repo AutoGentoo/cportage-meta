@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile install test
+BDEPEND=>=dev-lang/go-1.10 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/golang/tour/archive/3c9f1af8b2da3b3661a39ee550190917c0cf5208.tar.gz -> go-tour-0_p20190829.tar.gz
+	 https://github.com/golang/tools/archive/7b79afddac434519a8ca775cc575fddb0d162aab.tar.gz -> github.com-golang-tools-7b79afddac434519a8ca775cc575fddb0d162aab.tar.gz https://github.com/golang/net/archive/3b0461eec859c4b73bb64fdc8285971fd33e3938.tar.gz -> github.com-golang-net-3b0461eec859c4b73bb64fdc8285971fd33e3938.tar.gz

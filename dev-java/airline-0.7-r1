@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.7  dev-java/guava:20  dev-java/javax-inject:0  dev-java/jsr305:0 
+RDEPEND=>=virtual/jre-1.7  dev-java/guava:20  dev-java/javax-inject:0  dev-java/jsr305:0 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/airlift/airline/archive/0.7.tar.gz -> dev-java-airline-0.7.tar.gz

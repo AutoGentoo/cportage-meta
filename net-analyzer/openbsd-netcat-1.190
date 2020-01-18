@@ -1,0 +1,10 @@
+88872fd1785c64cb699af9b24373a7a2
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=virtual/pkgconfig 
+RDEPEND=!elibc_Darwin? ( dev-libs/libbsd )  !net-analyzer/netcat  !net-analyzer/netcat6  
+EAPI=7
+IUSE=elibc_Darwin 
+KEYWORDS=amd64 ~arm64 ~ppc64 x86 ~amd64-linux ~x64-macos
+SLOT=0
+SRC_URI=http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd_1.190.orig.tar.gz
+	http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd_1.190-2.debian.tar.xz

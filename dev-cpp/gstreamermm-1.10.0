@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure prepare test
+DEPEND=  >=media-libs/gstreamer-1.10.0:1.0  >=media-libs/gst-plugins-base-1.10.0:1.0  >=dev-cpp/glibmm-2.47.6:2  >=dev-cpp/libxmlpp-2.14:2.6  >=dev-libs/libsigc++-2:2   dev-cpp/mm-common  virtual/pkgconfig  doc? (   app-doc/doxygen   dev-libs/libxslt   media-gfx/graphviz )  test? (   dev-cpp/gtest   >=media-libs/gst-plugins-base-1.10.0:1.0[X,ogg,theora,vorbis]   >=media-libs/gst-plugins-good-1.10.0:1.0   >=media-plugins/gst-plugins-jpeg-1.10.0:1.0 )  
+RDEPEND=  >=media-libs/gstreamer-1.10.0:1.0  >=media-libs/gst-plugins-base-1.10.0:1.0  >=dev-cpp/glibmm-2.47.6:2  >=dev-cpp/libxmlpp-2.14:2.6  >=dev-libs/libsigc++-2:2  
+EAPI=6
+IUSE=doc examples test 
+KEYWORDS=amd64 ~ppc x86
+SLOT=1.0/1
+SRC_URI=mirror://gnome/sources/gstreamermm/1.10/gstreamermm-1.10.0.tar.xz

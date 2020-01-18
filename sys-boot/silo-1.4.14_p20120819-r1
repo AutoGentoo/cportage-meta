@@ -1,0 +1,9 @@
+fc3ae937c5ce658638a8c9e088374337
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=sys-fs/e2fsprogs  sys-apps/sparc-utils 
+EAPI=6
+IUSE=
+KEYWORDS=-* sparc
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/silo/silo_1.4.14+git20120819.orig.tar.gz
+	mirror://debian/pool/main/s/silo/silo_1.4.14+git20120819-1.diff.gz

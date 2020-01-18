@@ -1,0 +1,9 @@
+7c2628d1b12814d61b1e50c06768b45a
+DEFINED_PHASES= install
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] 
+RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/clarkbox/check_multiple/archive/v0.0.1.tar.gz -> nagios-check_multiple-0.0.1.tar.gz

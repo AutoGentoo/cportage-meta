@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=gnutls? ( net-libs/gnutls )  net-dns/c-ares 
+RDEPEND=gnutls? ( net-libs/gnutls )  net-dns/c-ares 
+EAPI=5
+IUSE=gnutls 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sipsak.berlios/sipsak-0.9.6-1.tar.gz

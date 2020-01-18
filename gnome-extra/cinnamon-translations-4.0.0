@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install
+DEPEND=>gnome-extra/cinnamon-settings-daemon-3.6 
+RDEPEND=>gnome-extra/cinnamon-settings-daemon-3.6 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/linuxmint/cinnamon-translations/archive/4.0.0.tar.gz -> cinnamon-translations-4.0.0.tar.gz

@@ -1,0 +1,9 @@
+c9cbb39058bdd1f8ed36c460f8ceb860
+DEFINED_PHASES= configure prepare
+DEPEND=    media-libs/libpng:0  x11-libs/fox:1.6[png,truetype]  x11-libs/libX11  x11-libs/libXft  startup-notification? ( x11-libs/startup-notification )   virtual/pkgconfig  nls? (   dev-util/intltool   sys-devel/gettext  )  
+RDEPEND=  media-libs/libpng:0  x11-libs/fox:1.6[png,truetype]  x11-libs/libX11  x11-libs/libXft  startup-notification? ( x11-libs/startup-notification )  
+EAPI=6
+IUSE=debug nls startup-notification 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xfe/xfe/1.42/xfe-1.42.tar.gz

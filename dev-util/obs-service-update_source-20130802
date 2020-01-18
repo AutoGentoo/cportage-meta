@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=  net-misc/wget  sys-apps/diffutils  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://api.opensuse.org/public/source/openSUSE:Tools/obs-service-update_source/update_source -> update_source-20130802 https://api.opensuse.org/public/source/openSUSE:Tools/obs-service-update_source/update_source.service -> update_source-20130802.service

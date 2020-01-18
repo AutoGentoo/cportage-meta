@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Math-BigInt  virtual/perl-Time-HiRes  
+RDEPEND=  virtual/perl-Math-BigInt  virtual/perl-Time-HiRes  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MW/MWX/Data-Uniqid-0.12.tar.gz

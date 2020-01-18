@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=~app-text/mecab-0.996 
+RDEPEND=~app-text/mecab-0.996 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ia64 ppc64 x86
+SLOT=0
+SRC_URI=https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mecab/mecab-python-0.996.tar.gz

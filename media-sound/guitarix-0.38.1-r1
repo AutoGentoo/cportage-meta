@@ -1,0 +1,9 @@
+902c48558d4c0b7323826432666e9fb4
+DEFINED_PHASES= configure
+DEPEND=dev-cpp/eigen:3  dev-cpp/glibmm:2  dev-cpp/gtkmm:2.4  dev-libs/glib:2  >=media-libs/libsndfile-1.0.17  >=media-libs/zita-convolver-3:=  media-libs/zita-resampler  >=net-misc/curl-7.26.0  >=sci-libs/fftw-3.1.2:3.0=  x11-libs/gtk+:2  lv2? ( media-libs/lv2 )  standalone? (   dev-libs/boost:=   media-libs/liblrdf   media-libs/lilv   virtual/jack   bluetooth? ( net-wireless/bluez )   zeroconf? ( net-dns/avahi )  )   || ( >=dev-lang/python-2.7.5-r2:2.7[threads(+)] )  virtual/pkgconfig  nls? ( dev-util/intltool )  
+RDEPEND=dev-cpp/eigen:3  dev-cpp/glibmm:2  dev-cpp/gtkmm:2.4  dev-libs/glib:2  >=media-libs/libsndfile-1.0.17  >=media-libs/zita-convolver-3:=  media-libs/zita-resampler  >=net-misc/curl-7.26.0  >=sci-libs/fftw-3.1.2:3.0=  x11-libs/gtk+:2  lv2? ( media-libs/lv2 )  standalone? (   dev-libs/boost:=   media-libs/liblrdf   media-libs/lilv   virtual/jack   bluetooth? ( net-wireless/bluez )   zeroconf? ( net-dns/avahi )  )   x11-themes/gtk-engines  standalone? (   media-fonts/roboto  )  
+EAPI=6
+IUSE=bluetooth debug lv2 nls +standalone zeroconf 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/guitarix/guitarix/guitarix2-0.38.1.tar.xz

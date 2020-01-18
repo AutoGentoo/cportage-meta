@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+RDEPEND=  dev-ros/visp_auto_tracker  dev-ros/visp_bridge  dev-ros/visp_camera_calibration  dev-ros/visp_hand2eye_calibration  dev-ros/visp_tracker  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

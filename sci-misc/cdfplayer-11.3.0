@@ -1,0 +1,8 @@
+9580a0af45595d4f02e7e23fc6a598f7
+DEFINED_PHASES= install nofetch unpack
+RDEPEND=  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXau  x11-libs/libXcursor  x11-libs/libXdmcp  x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXi  x11-libs/libXmu  x11-libs/libXrandr  x11-libs/libXrender  x11-libs/libXt  media-libs/alsa-lib  dev-libs/expat  media-libs/fontconfig  dev-libs/icu  x11-libs/libxcb  dev-libs/libxml2  sys-libs/ncurses-compat:5  media-libs/freetype  
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=CDFPlayer_11.3.0_LINUX.sh

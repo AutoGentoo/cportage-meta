@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=  virtual/pkgconfig  app-text/scdoc  
+DEPEND=  dev-libs/wayland  x11-libs/pango  x11-libs/cairo  || (   sys-apps/systemd   sys-auth/elogind  )  sys-apps/dbus[user-session]  icons? (   x11-libs/gtk+:3   x11-libs/gdk-pixbuf  )  
+RDEPEND=    dev-libs/wayland  x11-libs/pango  x11-libs/cairo  || (   sys-apps/systemd   sys-auth/elogind  )  sys-apps/dbus[user-session]  icons? (   x11-libs/gtk+:3   x11-libs/gdk-pixbuf  )   
+EAPI=7
+IUSE=+icons 
+KEYWORDS=
+SLOT=0
+SRC_URI=

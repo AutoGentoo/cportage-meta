@@ -1,0 +1,8 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile install
+RDEPEND=  virtual/perl-Digest-MD5  virtual/perl-Getopt-Long  dev-perl/XML-Parser  dev-perl/TimeDate  app-shells/bash  app-arch/cpio  app-arch/rpm  
+EAPI=5
+IUSE=symlink 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://api.opensuse.org/public/source/openSUSE:Tools/build/obs-build-20151105.tar.gz

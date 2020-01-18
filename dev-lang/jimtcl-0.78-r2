@@ -1,0 +1,8 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile configure install
+DEPEND=  doc? ( app-text/asciidoc )  app-arch/unzip  dev-lang/tcl:0  
+EAPI=7
+IUSE=doc static-libs 
+KEYWORDS=~amd64 ~arm ~arm64 ~m68k ~mips ~s390 ~sh ~x86
+SLOT=0/78
+SRC_URI=https://github.com/msteveb/jimtcl/archive/0.78.tar.gz -> jimtcl-0.78.tar.gz

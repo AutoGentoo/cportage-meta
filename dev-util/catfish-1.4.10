@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= postinst postrm
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
+DEPEND=  dev-python/python-distutils-extra[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  sys-devel/gettext  
+RDEPEND=  dev-libs/gobject-introspection  dev-python/dbus-python[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  dev-python/pexpect[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  dev-python/pygobject:3[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  x11-libs/gdk-pixbuf[introspection]  x11-libs/gtk+:3[introspection]  x11-libs/pango[introspection]  virtual/freedesktop-icon-theme  
+EAPI=7
+IUSE=python_targets_python2_7 python_targets_python3_6 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://archive.xfce.org/src/apps/catfish/1.4/catfish-1.4.10.tar.bz2

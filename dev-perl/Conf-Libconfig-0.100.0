@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-libs/libconfig  virtual/perl-XSLoader  dev-perl/ExtUtils-PkgConfig  test? (   >=dev-perl/Test-Exception-0.430.0   >=dev-perl/Test-Deep-1.127.0   >=dev-perl/Test-Warn-0.320.0  ) 
+RDEPEND=dev-libs/libconfig  virtual/perl-XSLoader 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CN/CNANGEL/Conf-Libconfig-0.100.tar.gz

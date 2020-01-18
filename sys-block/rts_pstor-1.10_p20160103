@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= postinst
+DEPEND=virtual/linux-sources 
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=7
+IUSE=kernel_linux  
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/gexplorer/RTS5209-linux-driver/archive/c8313abffe083ac63bf76d2cc90d3edf5b2d1188.tar.gz -> rts_pstor-1.10_p20160103.tar.gz

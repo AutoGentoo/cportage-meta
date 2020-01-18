@@ -1,0 +1,10 @@
+aa33a5e4c9a71778dcf1276de26d30a9
+DEFINED_PHASES= install nofetch postinst prepare unpack
+DEPEND=cdinstall? ( app-arch/unzip )  !cdinstall? ( app-arch/innoextract ) 
+RDEPEND=!games-action/descent1-demodata 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=cdinstall? ( http://www.dxx-rebirth.com/download/dxx/misc/descent-game-content-10to14a-patch.zip )
+	!cdinstall? ( setup_descent_1.4a_(16596).exe )

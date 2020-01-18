@@ -1,0 +1,10 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= configure install prepare
+BDEPEND=  sys-devel/gettext  doc? ( dev-util/gtk-doc )  introspection? ( dev-libs/gobject-introspection-common )  
+DEPEND=  dev-libs/libxml2  introspection? ( dev-libs/gobject-introspection )   test? ( dev-libs/check )  
+RDEPEND=  dev-libs/libxml2  introspection? ( dev-libs/gobject-introspection )  
+EAPI=7
+IUSE=debug doc introspection static-libs test 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.3.tar.bz2

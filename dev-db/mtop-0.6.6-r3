@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst preinst
+DEPEND=dev-perl/Curses  dev-perl/DBI  dev-perl/DBD-mysql  virtual/perl-libnet 
+RDEPEND=dev-perl/Curses  dev-perl/DBI  dev-perl/DBD-mysql  virtual/perl-libnet 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mtop/mtop-0.6.6.tar.gz

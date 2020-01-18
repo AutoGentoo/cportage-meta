@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES=-
+DEPEND=  app-text/docbook-xml-dtd:4.5  dev-libs/kpathsea  dev-libs/libxslt  dev-libs/libxslt  dev-texlive/texlive-fontutils  dev-texlive/texlive-latex  dev-texlive/texlive-latexextra  dev-texlive/texlive-latexrecommended  dev-texlive/texlive-mathscience  dev-texlive/texlive-pictures  dev-texlive/texlive-xetex  gnome-base/librsvg  media-gfx/imagemagick  media-gfx/transfig  inkscape? ( media-gfx/inkscape )  
+RDEPEND=  app-text/docbook-xml-dtd:4.5  dev-libs/kpathsea  dev-libs/libxslt  dev-libs/libxslt  dev-texlive/texlive-fontutils  dev-texlive/texlive-latex  dev-texlive/texlive-latexextra  dev-texlive/texlive-latexrecommended  dev-texlive/texlive-mathscience  dev-texlive/texlive-pictures  dev-texlive/texlive-xetex  gnome-base/librsvg  media-gfx/imagemagick  media-gfx/transfig  inkscape? ( media-gfx/inkscape )  
+EAPI=6
+IUSE=inkscape 
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dblatex/dblatex-0.3.10.tar.bz2

@@ -1,0 +1,16 @@
+79dbe4a17ec0b3eaea0ddf191313c9e6
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/openssl:0=  tcpd? ( sys-apps/tcp-wrappers ) 
+RDEPEND=  acct-user/stunnel  acct-group/stunnel  dev-libs/openssl:0=  tcpd? ( sys-apps/tcp-wrappers )  stunnel3? ( dev-lang/perl )  selinux? ( sec-policy/selinux-stunnel ) 
+EAPI=7
+IUSE=ipv6 selinux stunnel3 tcpd 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=ftp://ftp.stunnel.org/stunnel/archive/5.x/stunnel-5.56.tar.gz
+	http://www.usenix.org.uk/mirrors/stunnel/archive/5.x/stunnel-5.56.tar.gz
+	http://ftp.nluug.nl/pub/networking/stunnel/archive/5.x/stunnel-5.56.tar.gz
+	http://www.namesdir.com/mirrors/stunnel/archive/5.x/stunnel-5.56.tar.gz
+	http://stunnel.cybermirror.org/archive/5.x/stunnel-5.56.tar.gz
+	http://mirrors.zerg.biz/stunnel/archive/5.x/stunnel-5.56.tar.gz
+	ftp://mirrors.go-parts.com/stunnel/archive/5.x/stunnel-5.56.tar.gz

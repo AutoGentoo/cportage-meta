@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=x11-libs/gtk+:2  x11-libs/libX11  x11-libs/libXres  x11-libs/libXext  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:2  x11-libs/libX11  x11-libs/libXres  x11-libs/libXext 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://www.freedesktop.org/software/wininfo/wininfo-0.7.tar.gz

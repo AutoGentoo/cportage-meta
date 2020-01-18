@@ -1,0 +1,9 @@
+791b9d6d31df5b3dc07677a684be9d8e
+DEFINED_PHASES= compile install prepare
+DEPEND=tbb? ( dev-cpp/tbb )  sci-biology/seqan:1.4  app-arch/unzip 
+RDEPEND=tbb? ( dev-cpp/tbb ) 
+EAPI=6
+IUSE=examples +tbb 
+KEYWORDS=~amd64 ~x86 ~x64-macos
+SLOT=1
+SRC_URI=mirror://sourceforge/bowtie-bio/bowtie-1.1.2-src.zip

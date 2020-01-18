@@ -1,0 +1,9 @@
+ded81f41fb9bb324cac347dbb1eeff62
+DEFINED_PHASES= configure install prepare test
+DEPEND=  gzip? ( dev-libs/boost sys-libs/zlib )  hepmc? ( sci-physics/hepmc:0= ) 
+RDEPEND=  gzip? ( dev-libs/boost sys-libs/zlib )  hepmc? ( sci-physics/hepmc:0= ) 
+EAPI=5
+IUSE=doc examples gzip +hepmc static-libs 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=8
+SRC_URI=http://home.thep.lu.se/~torbjorn/pythia8/pythia8186.tgz

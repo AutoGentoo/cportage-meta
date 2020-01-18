@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=sys-libs/zlib  dev-lang/perl:=  lapack? ( virtual/lapack )  virtual/pkgconfig 
+RDEPEND=sys-libs/zlib  dev-lang/perl:=  lapack? ( virtual/lapack ) 
+EAPI=6
+IUSE=lapack 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/vcftools/vcftools/releases/download/v0.1.14/vcftools-0.1.14.tar.gz

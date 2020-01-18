@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=>=sci-libs/netcdf-4.2:=[hdf5] 
+RDEPEND=>=sci-libs/netcdf-4.2:=[hdf5] 
+EAPI=6
+IUSE=examples static-libs 
+KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
+SLOT=0/1
+SRC_URI=https://github.com/Unidata/netcdf-cxx4/archive/v4.2.1.tar.gz -> netcdf-cxx-4.2.1.tar.gz

@@ -1,0 +1,10 @@
+c9d73cc79c24f8dee09ac1b398ba685b
+DEFINED_PHASES= compile install prepare setup test unpack
+DEPEND=>=virtual/jdk-1.8:*  app-arch/unzip  app-arch/zip 
+RDEPEND=>=virtual/jdk-1.8:* 
+EAPI=7
+IUSE=examples tools 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/bazelbuild/bazel/releases/download/1.2.0/bazel-1.2.0-dist.zip
+	https://raw.githubusercontent.com/clearlinux-pkgs/bazel/adefd9046582cb52f39579033132e6265ef6ddb0/rename-gettid-functions.patch -> bazel-1.2.0-rename-gettid-functions.patch

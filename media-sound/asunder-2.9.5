@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+DEPEND=>=media-libs/libcddb-0.9.5  media-sound/cdparanoia  x11-libs/gtk+:2 
+RDEPEND=>=media-libs/libcddb-0.9.5  media-sound/cdparanoia  x11-libs/gtk+:2  flac? ( media-libs/flac )  mac? ( media-sound/mac )  mp3? ( media-sound/lame )  musepack? ( media-sound/musepack-tools )  opus? ( media-sound/opus-tools )  vorbis? ( media-sound/vorbis-tools )  wavpack? ( media-sound/wavpack ) 
+EAPI=7
+IUSE=flac mac mp3 musepack opus vorbis wavpack 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://littlesvr.ca/asunder/releases/asunder-2.9.5.tar.bz2

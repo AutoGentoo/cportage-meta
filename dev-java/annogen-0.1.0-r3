@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile unpack
+DEPEND=    dev-java/qdox:1.6  dev-java/ant-core:0  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/qdox:1.6  dev-java/ant-core:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://dist.codehaus.org/annogen/distributions/annogen-0.1.0.zip

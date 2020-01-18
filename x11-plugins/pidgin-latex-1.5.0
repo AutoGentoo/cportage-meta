@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= install postinst prepare
+DEPEND=  net-im/pidgin[gtk]  x11-libs/gtk+:2  sys-devel/libtool  virtual/pkgconfig 
+RDEPEND=  net-im/pidgin[gtk]  x11-libs/gtk+:2  virtual/latex-base  app-text/dvipng 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pidgin-latex/pidgin-latex_1.5.0.tar.bz2

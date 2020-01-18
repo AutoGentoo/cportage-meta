@@ -1,0 +1,10 @@
+72d0fa51ddad48f7a266aedf850f1bac
+DEFINED_PHASES= compile install
+DEPEND=ada_target_gnat_2016? ( dev-lang/gnat-gpl:4.9.4 ) ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 )   dev-ada/gprbuild[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,-ada_target_gnat_2018(-),-ada_target_gnat_2019(-)] 
+RDEPEND=ada_target_gnat_2016? ( dev-lang/gnat-gpl:4.9.4 ) ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 )  
+EAPI=7
+IUSE=+shared static-libs static-pic 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/591c45e2c7a447af2deed037
+	-> gnat_util-gpl-2017-src.tar.gz

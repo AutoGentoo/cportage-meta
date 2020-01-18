@@ -1,0 +1,9 @@
+d9f745ae079bd861643fec20cc03d7e0
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=app-crypt/trousers app-crypt/tpm-tools dev-libs/openssl:0=[-bindist] 
+RDEPEND=app-crypt/trousers app-crypt/tpm-tools dev-libs/openssl:0=[-bindist] sys-boot/grub:2 selinux? ( sec-policy/selinux-tboot ) 
+EAPI=6
+IUSE=custom-cflags selinux 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~perfinion/distfiles/tboot-1.9.6_p20171118.tar.gz

@@ -1,0 +1,9 @@
+890cf8a2fd801e382d6fb0dc19204d01
+DEFINED_PHASES= configure install prepare setup
+DEPEND=~net-libs/libtorrent-0.13.7  >=dev-libs/libsigc++-2.2.2:2  >=net-misc/curl-7.19.1  sys-libs/ncurses:0=  xmlrpc? ( dev-libs/xmlrpc-c )  dev-util/cppunit  virtual/pkgconfig 
+RDEPEND=~net-libs/libtorrent-0.13.7  >=dev-libs/libsigc++-2.2.2:2  >=net-misc/curl-7.19.1  sys-libs/ncurses:0=  xmlrpc? ( dev-libs/xmlrpc-c )  daemon? ( app-misc/screen )  selinux? ( sec-policy/selinux-rtorrent )  
+EAPI=6
+IUSE=daemon debug selinux test xmlrpc 
+KEYWORDS=amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris
+SLOT=0
+SRC_URI=http://rtorrent.net/downloads/rtorrent-0.9.7.tar.gz

@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES=-
+BDEPEND=dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+RDEPEND=gost? ( dev-libs/gost-engine:= ) 
+EAPI=7
+IUSE=gost test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+8796105b7e8d4fe0d0e452125f18e58d
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=  libmpeg2? ( media-libs/libmpeg2:= )  ffmpeg? ( virtual/ffmpeg )  imagemagick? ( media-gfx/imagemagick )  !media-plugins/vdr-markad  virtual/pkgconfig 
+RDEPEND=  libmpeg2? ( media-libs/libmpeg2:= )  ffmpeg? ( virtual/ffmpeg )  imagemagick? ( media-gfx/imagemagick )  !media-plugins/vdr-markad 
+EAPI=6
+IUSE=+ffmpeg imagemagick libmpeg2 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://noad.net23.net/noad-0.8.6.tar.bz2

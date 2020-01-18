@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  >=media-sound/gmpc-0.20.0  dev-libs/libxml2:=  || (   x11-libs/gdk-pixbuf:2[jpeg]   x11-libs/gtk+:2[jpeg]  )  virtual/pkgconfig  nls? (   dev-util/intltool   sys-devel/gettext  ) 
+RDEPEND=  >=media-sound/gmpc-0.20.0  dev-libs/libxml2:=  || (   x11-libs/gdk-pixbuf:2[jpeg]   x11-libs/gtk+:2[jpeg]  ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/musicpd/gmpc-mdcover-0.20.0.tar.gz

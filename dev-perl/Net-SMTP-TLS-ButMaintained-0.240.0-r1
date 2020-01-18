@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-IO  virtual/perl-libnet  >=dev-perl/IO-Socket-SSL-1.760.0  dev-perl/Net-SSLeay  virtual/perl-MIME-Base64  dev-perl/Digest-HMAC   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  
+RDEPEND=  virtual/perl-IO  virtual/perl-libnet  >=dev-perl/IO-Socket-SSL-1.760.0  dev-perl/Net-SSLeay  virtual/perl-MIME-Base64  dev-perl/Digest-HMAC  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/F/FA/FAYLAND/Net-SMTP-TLS-ButMaintained-0.24.tar.gz

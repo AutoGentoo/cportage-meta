@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Scope-Guard-0.210.0   virtual/perl-ExtUtils-MakeMaker  test? (   >=dev-perl/IPC-System-Simple-1.250.0  )  
+RDEPEND=  >=dev-perl/Scope-Guard-0.210.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHOCOLATE/autobox-2.86.tar.gz

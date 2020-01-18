@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=sys-libs/pam  doc? ( www-client/lynx ) 
+RDEPEND=sys-libs/pam 
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://0pointer.de/lennart/projects/pam_dotfile/pam_dotfile-0.7.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-util/lxqt-build-tools-0.6.0 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://downloads.lxqt.org/downloads/lxqt-themes/0.14.0/lxqt-themes-0.14.0.tar.xz

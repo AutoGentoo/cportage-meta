@@ -1,0 +1,10 @@
+2ac4a276ac4b3cb4d873977940f3b196
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=  >=dev-libs/glib-2.16  purple? ( net-im/pidgin )  libevent? ( dev-libs/libevent:= )  otr? ( >=net-libs/libotr-4 )  gnutls? ( net-libs/gnutls:= )  !gnutls? (   nss? ( dev-libs/nss )   !nss? (    libressl? ( dev-libs/libressl:= )    !libressl? ( dev-libs/openssl:0= )   )  )   virtual/pkgconfig  selinux? ( sec-policy/selinux-bitlbee )  test? ( dev-libs/check ) 
+RDEPEND=  >=dev-libs/glib-2.16  purple? ( net-im/pidgin )  libevent? ( dev-libs/libevent:= )  otr? ( >=net-libs/libotr-4 )  gnutls? ( net-libs/gnutls:= )  !gnutls? (   nss? ( dev-libs/nss )   !nss? (    libressl? ( dev-libs/libressl:= )    !libressl? ( dev-libs/openssl:0= )   )  )   virtual/logger  xinetd? ( sys-apps/xinetd ) 
+EAPI=6
+IUSE=debug +gnutls ipv6 libevent libressl nss otr +plugins selinux test xinetd
+	msn oscar purple twitter +xmpp 
+KEYWORDS=amd64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://get.bitlbee.org/src/bitlbee-3.5.1.tar.gz

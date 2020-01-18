@@ -1,0 +1,7 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://uazu.net/fidlib/fidlib-0.9.10.tgz

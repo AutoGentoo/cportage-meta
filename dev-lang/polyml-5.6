@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= compile configure prepare test
+DEPEND=X? ( x11-libs/motif:0 )   gmp? ( >=dev-libs/gmp-5 )   elibc_glibc? ( threads? ( >=sys-libs/glibc-2.13 ) )   virtual/libffi 
+RDEPEND=X? ( x11-libs/motif:0 )   gmp? ( >=dev-libs/gmp-5 )   elibc_glibc? ( threads? ( >=sys-libs/glibc-2.13 ) )   virtual/libffi 
+EAPI=6
+IUSE=X elibc_glibc +gmp portable test +threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0/5.6
+SRC_URI=https://codeload.github.com/polyml/polyml/tar.gz/v5.6 -> polyml-5.6.tar.gz

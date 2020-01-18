@@ -1,0 +1,9 @@
+fa2fc1d0b8cbc380b0e3b0842ece4353
+DEFINED_PHASES= compile configure install postinst postrm prepare test
+DEPEND=dev-perl/File-MMagic  emacs? ( >=app-editors/emacs-23.1:* )  l10n_ja? (   app-i18n/nkf   || (    dev-perl/Text-Kakasi    app-i18n/kakasi    app-text/chasen    app-text/mecab   )  )  nls? ( virtual/libintl )  tk? (   dev-lang/tk:0   www-client/lynx  )  nls? ( sys-devel/gettext ) 
+RDEPEND=dev-perl/File-MMagic  emacs? ( >=app-editors/emacs-23.1:* )  l10n_ja? (   app-i18n/nkf   || (    dev-perl/Text-Kakasi    app-i18n/kakasi    app-text/chasen    app-text/mecab   )  )  nls? ( virtual/libintl )  tk? (   dev-lang/tk:0   www-client/lynx  ) 
+EAPI=6
+IUSE=emacs l10n_ja nls static-libs tk 
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=http://www.namazu.org/stable/namazu-2.0.21.tar.gz

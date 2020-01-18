@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  x11-libs/libX11  x11-libs/libXext  x11-libs/libXrandr  x11-libs/libXxf86vm  
+EAPI=7
+IUSE=
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=
+	amd64? ( https://justgetflux.com/linux/xflux64.tgz -> xflux64-20130927.tar.gz )
+	x86? ( https://justgetflux.com/linux/xflux-pre.tgz -> xflux-20130927.tar.gz )
+

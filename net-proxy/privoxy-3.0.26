@@ -1,0 +1,12 @@
+85f2796b7e1a911210a29a90cce7e08b
+DEFINED_PHASES= configure install postinst prepare pretend setup
+DEPEND=  dev-libs/libpcre  zlib? ( sys-libs/zlib )  
+RDEPEND=  dev-libs/libpcre  zlib? ( sys-libs/zlib )   extended-host-patterns? ( dev-lang/perl )  selinux? ( sec-policy/selinux-privoxy )  tools? (   net-misc/curl   dev-lang/perl  )  
+EAPI=6
+IUSE=+acl client-tags compression editor extended-host-patterns
+external-filters +fast-redirects +force graceful-termination
+ie-images +image-blocking ipv6 lfs png-images selinux +stats
++threads toggle tools whitelists +zlib 
+KEYWORDS=alpha amd64 arm ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ijbswa/privoxy-3.0.26-stable-src.tar.gz

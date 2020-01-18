@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  media-libs/libsdl[sound,video,joystick]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-ttf  media-libs/sdl-mixer[vorbis]   virtual/pkgconfig  
+RDEPEND=  media-libs/libsdl[sound,video,joystick]  media-libs/sdl-gfx  media-libs/sdl-image[png]  media-libs/sdl-ttf  media-libs/sdl-mixer[vorbis]  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.zapek.com/software/syobon/syobon_1.0.1_src.tar.gz

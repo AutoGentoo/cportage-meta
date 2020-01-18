@@ -1,0 +1,9 @@
+72d0fa51ddad48f7a266aedf850f1bac
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.5  dev-db/hsqldb:0 
+RDEPEND=>=virtual/jre-1.5  dev-java/squareness-jlf:0  dev-db/hsqldb:0 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://gentoo/entagged-tageditor-0.35.tar.gz

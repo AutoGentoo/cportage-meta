@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Class-Std-0.11.0  virtual/perl-version  virtual/perl-Data-Dumper  virtual/perl-Scalar-List-Utils   dev-perl/Module-Build  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=  >=dev-perl/Class-Std-0.11.0  virtual/perl-version  virtual/perl-Data-Dumper  virtual/perl-Scalar-List-Utils  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AC/ACID/Class-Std-Fast-v0.0.8.tar.gz

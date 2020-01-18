@@ -1,0 +1,8 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= install postinst prepare test
+RDEPEND=app-shells/bash 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ginatrapani/todo.txt-cli/archive/v2.10.tar.gz -> todo-2.10.tar.gz

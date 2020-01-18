@@ -1,0 +1,10 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= install test
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-ada/gnatcoll-bindings[iconv,shared]  dev-python/mako  <dev-python/pyyaml-5  dev-python/enum34  dev-python/funcy  dev-python/docutils  test? ( dev-ada/gnatcoll-bindings[gmp] ) 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-ada/gnatcoll-bindings[iconv,shared]  dev-python/mako  <dev-python/pyyaml-5  dev-python/enum34  dev-python/funcy  dev-python/docutils 
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5cdf8f8a31e87a8f1c967d31
+	-> langkit-2019-20190510-19B8C-src.tar.gz

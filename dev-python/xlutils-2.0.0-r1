@@ -1,0 +1,10 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES=-
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+DEPEND=  >=dev-python/xlwt-1.3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/xlrd-1.2[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? (   >=dev-python/errorhandler-2[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   >=dev-python/manuel-1.9[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/mock[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/nose[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/testfixtures[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+RDEPEND=  >=dev-python/xlwt-1.3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/xlrd-1.2[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://pypi/x/xlutils/xlutils-2.0.0.tar.gz

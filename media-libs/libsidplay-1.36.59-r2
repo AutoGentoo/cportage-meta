@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=1
+SRC_URI=http://critical.ch/distfiles/libsidplay-1.36.59.tgz

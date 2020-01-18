@@ -1,0 +1,9 @@
+595bb365fbb2deda8f44b08ad383bcb8
+DEFINED_PHASES= configure install postinst
+DEPEND=>=dev-libs/glib-2.50:2  virtual/libintl  introspection? ( >=dev-libs/gobject-introspection-0.6.7:= )  >=dev-util/intltool-0.40  sys-devel/gettext:*  virtual/pkgconfig:* 
+RDEPEND=>=dev-libs/glib-2.50:2  virtual/libintl  introspection? ( >=dev-libs/gobject-introspection-0.6.7:= ) 
+EAPI=6
+IUSE=debug +introspection 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-menus-1.22.0.tar.xz

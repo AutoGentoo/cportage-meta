@@ -1,0 +1,8 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure postinst prepare
+DEPEND=nls? ( sys-devel/gettext ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/yasr/yasr-0.6.9.tar.gz

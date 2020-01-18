@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=x11-libs/gtk+-2.12:2  >=dev-libs/glib-2.10:2  >=x11-libs/cairo-1.4   dev-util/glib-utils  dev-util/gtk-doc-am  virtual/pkgconfig  
+RDEPEND=  >=x11-libs/gtk+-2.12:2  >=dev-libs/glib-2.10:2  >=x11-libs/cairo-1.4  
+EAPI=5
+IUSE=examples 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://gnome/sources/goocanvas/1.0/goocanvas-1.0.0.tar.bz2

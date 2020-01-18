@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-ExtUtils-MakeMaker  test? ( >=virtual/perl-Test-Simple-0.940.0 )  
+RDEPEND=dev-lang/perl:= 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PL/PLICEASE/Shell-Guess-0.09.tar.gz

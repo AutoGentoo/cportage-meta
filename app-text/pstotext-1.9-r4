@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=app-arch/ncompress 
+RDEPEND=app-text/ghostscript-gpl 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa ppc ppc64 x86
+SLOT=0
+SRC_URI=ftp://mirror.cs.wisc.edu/pub/mirrors/ghost/contrib/pstotext-1.9.tar.gz

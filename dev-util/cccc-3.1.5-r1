@@ -1,0 +1,8 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install prepare test
+DEPEND=  apidoc? ( app-doc/doxygen[dot] )   
+EAPI=6
+IUSE=apidoc debug doc mfc 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=https://github.com/sarnold/cccc/archive/3.1.5.tar.gz -> cccc-3.1.5.tar.gz

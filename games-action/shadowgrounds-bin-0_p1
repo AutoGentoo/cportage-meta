@@ -1,0 +1,9 @@
+e79b2b68b9dae7afeb12883d93e1d64c
+DEFINED_PHASES= install nofetch unpack
+DEPEND=app-arch/unzip 
+RDEPEND=>=sys-libs/glibc-2.4  >=sys-devel/gcc-4.3.0  !amd64? (   gnome-base/libglade   sys-libs/zlib  )  amd64? (   >=gnome-base/libglade-2.6.4-r1[abi_x86_32(-)]   sys-libs/zlib[abi_x86_32(-)]  ) 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=shadowgroundsUpdate1.run

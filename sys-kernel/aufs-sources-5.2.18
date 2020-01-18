@@ -1,0 +1,15 @@
+3172717a543a90fced6b02442b847fb9
+DEFINED_PHASES= install postinst postrm prepare unpack
+DEPEND=!build? (   sys-apps/sed   >=sys-devel/binutils-2.11.90.0.31  ) 
+RDEPEND=!build? (   dev-lang/perl   sys-devel/bc   sys-devel/bison   sys-devel/flex   sys-devel/make   >=sys-libs/ncurses-5.2   virtual/libelf  ) 
+PDEPEND==sys-fs/aufs-util-4* 
+EAPI=6
+IUSE=experimental module vanilla 
+KEYWORDS=~amd64 ~x86
+SLOT=5.2.18
+SRC_URI=
+	 https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.2.tar.xz
+	
+	https://dev.gentoo.org/~jlec/distfiles/aufs-sources-5.2.5+_p20190909.tar.xz
+	!vanilla? (  https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.2-18.base.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.2-18.base.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.2-18.base.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.2-18.extras.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.2-18.extras.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.2-18.extras.tar.xz experimental? ( https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.2-18.experimental.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.2-18.experimental.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.2-18.experimental.tar.xz ) )
+	

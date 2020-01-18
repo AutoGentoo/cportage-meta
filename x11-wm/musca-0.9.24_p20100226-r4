@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= install prepare
+DEPEND=  x11-libs/libX11  
+RDEPEND=    x11-libs/libX11   >=x11-misc/dmenu-4.4  apis? ( x11-misc/xbindkeys )  
+EAPI=7
+IUSE=apis xlisten 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/musca-0.9.24_p20100226.tgz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= configure
+DEPEND=app-text/mecab[unicode=] 
+EAPI=6
+IUSE=unicode 
+KEYWORDS=amd64 arm arm64 hppa ia64 ppc ppc64 s390 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mecab/mecab-ipadic-2.7.0-20070801.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=app-arch/cpio 
+RDEPEND=app-arch/cpio 
+EAPI=5
+IUSE=examples threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://ypsilon.googlecode.com/files/ypsilon-0.9.6.update3.tar.gz

@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=sci-libs/coinor-osi:=  virtual/pkgconfig  doc? ( app-doc/doxygen[dot] )  test? ( sci-libs/coinor-sample ) 
+RDEPEND=sci-libs/coinor-osi:= 
+EAPI=5
+IUSE=doc examples static-libs test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/1
+SRC_URI=http://www.coin-or.org/download/source/DyLP/DyLP-1.9.4.tgz

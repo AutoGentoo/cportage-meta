@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=media-libs/libmpdclient  iconv? ( virtual/libiconv )  dev-python/sphinx  virtual/pkgconfig  test? ( dev-libs/check ) 
+RDEPEND=media-libs/libmpdclient  iconv? ( virtual/libiconv ) 
+EAPI=6
+IUSE=iconv test 
+KEYWORDS=amd64 arm ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://www.musicpd.org/download/mpc/0/mpc-0.30.tar.xz

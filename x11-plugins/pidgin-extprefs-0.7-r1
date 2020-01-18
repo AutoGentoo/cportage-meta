@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/pkgconfig  net-im/pidgin[gtk] 
+RDEPEND=net-im/pidgin[gtk] 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gaim-extprefs/pidgin-extprefs-0.7.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=test? ( dev-php/phpunit dev-php/PEAR-PEAR ) 
+RDEPEND=>=dev-php/pear-1.8.1 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/pear/Text_Wiki/archive/32fd5f483f34645f4efd96d385d8950ea26d4a2a.tar.gz -> Text_Wiki-1.2.2_p20170904.tar.gz

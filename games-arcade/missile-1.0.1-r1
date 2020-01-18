@@ -1,0 +1,9 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= install postinst postrm preinst prepare
+DEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer  
+RDEPEND=media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer  
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/missile/missile-1.0.1.tar.gz

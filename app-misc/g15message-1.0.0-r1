@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=app-misc/g15daemon-1.9.0  dev-libs/libg15  dev-libs/libg15render  sys-libs/zlib  
+RDEPEND=>=app-misc/g15daemon-1.9.0  dev-libs/libg15  dev-libs/libg15render  sys-libs/zlib  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/g15daemon/g15message-1.0.0.tar.bz2

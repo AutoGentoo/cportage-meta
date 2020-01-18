@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ~mips ~ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/V/VI/VIPUL/Class-Loader-2.03.tar.gz

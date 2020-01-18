@@ -1,0 +1,10 @@
+ad4093a77c9bb6b357e8660e366112a8
+DEFINED_PHASES= compile configure install test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=sci-physics/geant-4.10.03:=[opengl,geant3?]  sci-physics/root:=[-root7]  vgm? ( >=sci-physics/vgm-4.4:= )  doc? ( app-doc/doxygen ) 
+RDEPEND=  >=sci-physics/geant-4.10.03:=[opengl,geant3?]  sci-physics/root:=[-root7]  vgm? ( >=sci-physics/vgm-4.4:= ) 
+EAPI=6
+IUSE=doc examples geant3 +g4root +mtroot vgm test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=4
+SRC_URI=http://root.cern.ch/download/vmc/geant4_vmc.3.6.tar.gz

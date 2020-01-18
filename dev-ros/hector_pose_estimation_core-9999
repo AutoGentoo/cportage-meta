@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/rostime  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/geographic_msgs[ros_messages_cxx(-)]  dev-ros/tf  dev-libs/boost:=   dev-cpp/eigen:3 
+RDEPEND=  dev-ros/rostime  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/geographic_msgs[ros_messages_cxx(-)]  dev-ros/tf  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

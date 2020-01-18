@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND= sys-devel/make >=dev-util/cmake-3.9.6 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/KhronosGroup/Vulkan-Headers/archive/e3f96a9ccab9397481eb81c4d9bce4ea7590dc33.tar.gz -> vulkan-headers-1.1.114.tar.gz

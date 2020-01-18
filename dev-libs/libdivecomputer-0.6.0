@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=virtual/libusb:1  bluetooth? ( net-wireless/bluez ) 
+RDEPEND=virtual/libusb:1  bluetooth? ( net-wireless/bluez ) 
+EAPI=7
+IUSE=bluetooth 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.libdivecomputer.org/releases/libdivecomputer-0.6.0.tar.gz

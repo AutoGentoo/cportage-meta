@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= install postinst
+DEPEND=  dev-perl/Config-Tiny  virtual/perl-File-Path  virtual/perl-File-Spec  dev-perl/Log-Agent  virtual/perl-Memoize  virtual/perl-IO  dev-perl/Path-Tiny  dev-perl/Shell-EnvImporter  virtual/perl-Term-ANSIColor  >=dev-perl/YAML-0.60   virtual/perl-ExtUtils-MakeMaker  test? ( >=virtual/perl-Test-Simple-0.940.0 )  
+RDEPEND=  dev-perl/Config-Tiny  virtual/perl-File-Path  virtual/perl-File-Spec  dev-perl/Log-Agent  virtual/perl-Memoize  virtual/perl-IO  dev-perl/Path-Tiny  dev-perl/Shell-EnvImporter  virtual/perl-Term-ANSIColor  >=dev-perl/YAML-0.60   >=sys-apps/portage-2.0.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

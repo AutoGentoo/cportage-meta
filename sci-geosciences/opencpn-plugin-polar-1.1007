@@ -1,0 +1,12 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  x11-libs/wxGTK:3.0  >=sci-geosciences/opencpn-4.2.0  sys-devel/gettext  
+RDEPEND=  x11-libs/wxGTK:3.0  >=sci-geosciences/opencpn-4.2.0  sys-devel/gettext  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+		https://github.com/ptulp/polar_pi/archive/v1.1007.tar.gz -> opencpn-plugin-polar-1.1007.tar.gz
+	

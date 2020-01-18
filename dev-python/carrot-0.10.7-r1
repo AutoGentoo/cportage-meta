@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=doc? ( dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=dev-python/anyjson[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/amqplib-0.6[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://pypi/c/carrot/carrot-0.10.7.tar.gz

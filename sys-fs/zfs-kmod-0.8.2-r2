@@ -1,0 +1,9 @@
+0d4e05a93fe8204fbf9d19abfc05b189
+DEFINED_PHASES= compile configure install postinst prepare setup
+BDEPEND=  dev-lang/perl  virtual/awk  
+RDEPEND=  !sys-fs/zfs-fuse  !sys-kernel/spl  
+EAPI=7
+IUSE=custom-cflags debug +rootfs 
+KEYWORDS=~amd64 ~arm64 ~ppc64
+SLOT=0
+SRC_URI=https://github.com/zfsonlinux/zfs/releases/download/zfs-0.8.2/zfs-0.8.2.tar.gz

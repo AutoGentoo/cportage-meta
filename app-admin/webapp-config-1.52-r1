@@ -1,0 +1,9 @@
+3b7d540dd61f0deda6741071feef3db0
+DEFINED_PHASES= postinst
+DEPEND=app-text/xmlto  !dev-python/configparser 
+RDEPEND=portage? ( sys-apps/portage[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=5
+IUSE=+portage 
+KEYWORDS=alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~twitch153/webapp-config/webapp-config-1.52.tar.bz2

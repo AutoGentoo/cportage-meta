@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=media-libs/libao  virtual/pkgconfig 
+RDEPEND=media-libs/libao 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://zakalwe.fi/uade/uade2/uade-2.13.tar.bz2

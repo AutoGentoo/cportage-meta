@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm
+BDEPEND=dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+DEPEND=>=x11-libs/gtk+-3.20:3  x11-libs/libX11  >=xfce-base/libxfce4ui-4.14  >=xfce-base/libxfce4util-4.14  >=xfce-base/xfce4-panel-4.14:= 
+RDEPEND=>=x11-libs/gtk+-3.20:3  x11-libs/libX11  >=xfce-base/libxfce4ui-4.14  >=xfce-base/libxfce4util-4.14  >=xfce-base/xfce4-panel-4.14:=  app-laptop/hdapsd  app-laptop/tp_smapi 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://michael.orlitzky.com/code/releases/xfce4-hdaps-1.0.0.tar.xz

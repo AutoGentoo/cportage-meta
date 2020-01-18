@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-lang/perl 
+RDEPEND=!net-mail/mhonarc 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.mhonarc.org/release/MHonArc/tar/MHonArc-2.6.18.tar.bz2

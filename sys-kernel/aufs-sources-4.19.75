@@ -1,0 +1,15 @@
+f52cbce7c0d61eae6cd283111b748ac9
+DEFINED_PHASES= install postinst postrm prepare unpack
+DEPEND=!build? (   sys-apps/sed   >=sys-devel/binutils-2.11.90.0.31  ) 
+RDEPEND=!build? (   dev-lang/perl   sys-devel/bc   sys-devel/bison   sys-devel/flex   sys-devel/make   >=sys-libs/ncurses-5.2   virtual/libelf  ) 
+PDEPEND==sys-fs/aufs-util-4* 
+EAPI=6
+IUSE=experimental module vanilla 
+KEYWORDS=~amd64 ~x86
+SLOT=4.19.75
+SRC_URI=
+	 https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.19.tar.xz
+	
+	https://dev.gentoo.org/~jlec/distfiles/aufs-sources-4.19.63+_p20190909.tar.xz
+	!vanilla? (  https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-4.19-74.base.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-4.19-74.base.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-4.19-74.base.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-4.19-74.extras.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-4.19-74.extras.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-4.19-74.extras.tar.xz experimental? ( https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-4.19-74.experimental.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-4.19-74.experimental.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-4.19-74.experimental.tar.xz ) )
+	

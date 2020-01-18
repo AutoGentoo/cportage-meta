@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= pretend
+DEPEND=>=x11-base/xorg-server-1.6  >=x11-libs/libpciaccess-0.12.901 
+RDEPEND=>=x11-base/xorg-server-1.6  >=x11-libs/libpciaccess-0.12.901 
+EAPI=5
+IUSE=
+KEYWORDS=-* alpha amd64 x86
+SLOT=0
+SRC_URI=https://www.x.org/releases/individual/driver/xf86-video-vesa-2.4.0.tar.bz2

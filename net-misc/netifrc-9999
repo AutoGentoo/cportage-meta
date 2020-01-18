@@ -1,0 +1,9 @@
+de35eb175ce4801366fc1f9ab6563af6
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=kernel_linux? ( virtual/pkgconfig )  !<sys-fs/udev-172 
+RDEPEND=sys-apps/gentoo-functions  >=sys-apps/openrc-0.15  !<sys-fs/udev-init-scripts-27 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

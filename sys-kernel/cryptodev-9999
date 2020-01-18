@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install pretend setup
+DEPEND=virtual/linux-sources 
+RDEPEND= kernel_linux? ( virtual/modutils )  
+EAPI=6
+IUSE=examples 
+KEYWORDS=
+SLOT=0
+SRC_URI=

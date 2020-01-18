@@ -1,0 +1,10 @@
+dc2110a72ea4c6e56d09dd4838120540
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare prerm setup unpack
+DEPEND=  >=dev-lang/perl-5.6.1  >=dev-libs/gmp-5:=  sys-libs/ncurses:0=[unicode]  !ghcmakebinary? ( virtual/libffi:= ) binary? (   !prefix? ( elibc_glibc? ( >=sys-libs/glibc-2.17 ) )  sys-libs/ncurses-compat:5  )  ghcbootstrap? (   doc? ( app-text/docbook-xml-dtd:4.2    app-text/docbook-xml-dtd:4.5    app-text/docbook-xsl-stylesheets    >=dev-libs/libxslt-1.1.2 ) )  !ghcbootstrap? (   !prefix? ( elibc_glibc? ( >=sys-libs/glibc-2.17 ) )  sys-libs/ncurses-compat:5  ) 
+RDEPEND=  >=dev-lang/perl-5.6.1  >=dev-libs/gmp-5:=  sys-libs/ncurses:0=[unicode]  !ghcmakebinary? ( virtual/libffi:= ) binary? (   !prefix? ( elibc_glibc? ( >=sys-libs/glibc-2.17 ) )  sys-libs/ncurses-compat:5  ) 
+PDEPEND=!ghcbootstrap? ( =app-admin/haskell-updater-1.2* ) 
+EAPI=5
+IUSE=doc ghcbootstrap ghcmakebinary +gmp binary elibc_glibc 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0/7.8.4
+SRC_URI=!binary? ( https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-src.tar.bz2 ) !ghcbootstrap? (  alpha? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-7.8.4-alpha.tbz2 ) amd64? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-7.8.4-amd64.tbz2 ) ia64?  ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-7.8.4-ia64.tbz2 ) ppc? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-7.8.4-ppc.tbz2 ) ppc64? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-7.8.4-ppc64.tbz2 ) sparc? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-7.8.4-sparc.tbz2 ) x86? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-7.8.4-x86.tbz2 ) ) https://dev.gentoo.org/~slyfox/distfiles/ghc-7.8.4-ia64-CLOSUREs-regenerated.patch.gz

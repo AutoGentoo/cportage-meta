@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst prepare
+DEPEND=  sys-devel/bin86  test? ( dev-vcs/rcs ) 
+EAPI=6
+IUSE=test 
+KEYWORDS=-alpha amd64 -ppc -sparc x86
+SLOT=0
+SRC_URI=https://www.chiark.greenend.org.uk/~neilt/mbr/mbr-1.1.11.tar.gz

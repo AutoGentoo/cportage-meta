@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  sci-biology/ncbi-tools[X,static-libs]  x11-libs/libXmu 
+RDEPEND=  sci-biology/ncbi-tools[X,static-libs]  x11-libs/libXmu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://pbil.univ-lyon1.fr/pub/mol_phylogeny/njplot/archive/njplot-2.3.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= unpack
+DEPEND=  app-text/psutils  dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyglet[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyserial[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/wxpython:*[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-gfx/cairosvg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=  app-text/psutils  dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyglet[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyserial[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/wxpython:*[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-gfx/cairosvg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~amynka/snap/printrun-gtk3.tar.xz

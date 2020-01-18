@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=sys-libs/readline:*  sys-libs/zlib 
+RDEPEND=sys-libs/readline:*  sys-libs/zlib 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://bitbucket.org/mhulden/foma/downloads/foma-0.9.18.tar.gz

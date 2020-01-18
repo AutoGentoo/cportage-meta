@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=  dev-qt/linguist-tools  
+DEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtsql:5  dev-qt/qtwidgets:5  media-libs/vitamtp:0  ffmpeg? ( media-video/ffmpeg:0 )  x11-libs/libnotify:0  
+RDEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtsql:5  dev-qt/qtwidgets:5  media-libs/vitamtp:0  ffmpeg? ( media-video/ffmpeg:0 )  x11-libs/libnotify:0  
+EAPI=7
+IUSE=+ffmpeg 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/codestation/qcma/archive/65f0eab8ca0640447d2e84cdc5fadc66d2c07efb.tar.gz -> qcma-0.4.2_pre20181227.tar.gz

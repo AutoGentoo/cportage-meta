@@ -1,0 +1,7 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install prepare
+EAPI=4
+IUSE=
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://membled.com/work/mirror/tic98/tic98-1.01.tar.bz2

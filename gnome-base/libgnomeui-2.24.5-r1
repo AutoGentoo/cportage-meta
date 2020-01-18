@@ -1,0 +1,10 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= prepare
+DEPEND=  dev-libs/atk  >=dev-libs/glib-2.16:2  >=dev-libs/libxml2-2.4.20:2  >=dev-libs/popt-1.5  >=gnome-base/gconf-2:2  >=gnome-base/gnome-keyring-0.4  >=gnome-base/gnome-vfs-2.7.3:2  >=gnome-base/libgnome-2.13.7  >=gnome-base/libgnomecanvas-2  gnome-base/libgnome-keyring  >=gnome-base/libbonoboui-2.13.1  >=gnome-base/libglade-2:2.0  media-libs/libart_lgpl  x11-libs/gdk-pixbuf:2  >=x11-libs/gtk+-2.14:2  >=x11-libs/pango-1.1.2  x11-libs/libICE  x11-libs/libSM   dev-util/gtk-doc-am  sys-devel/gettext  virtual/pkgconfig  >=dev-util/intltool-0.40  
+RDEPEND=  dev-libs/atk  >=dev-libs/glib-2.16:2  >=dev-libs/libxml2-2.4.20:2  >=dev-libs/popt-1.5  >=gnome-base/gconf-2:2  >=gnome-base/gnome-keyring-0.4  >=gnome-base/gnome-vfs-2.7.3:2  >=gnome-base/libgnome-2.13.7  >=gnome-base/libgnomecanvas-2  gnome-base/libgnome-keyring  >=gnome-base/libbonoboui-2.13.1  >=gnome-base/libglade-2:2.0  media-libs/libart_lgpl  x11-libs/gdk-pixbuf:2  >=x11-libs/gtk+-2.14:2  >=x11-libs/pango-1.1.2  x11-libs/libICE  x11-libs/libSM  
+PDEPEND=x11-themes/adwaita-icon-theme 
+EAPI=5
+IUSE=test 
+KEYWORDS=alpha amd64 arm ia64 ~mips ppc ppc64 ~sh sparc x86 ~amd64-linux ~x86-linux ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://gnome/sources/libgnomeui/2.24/libgnomeui-2.24.5.tar.bz2

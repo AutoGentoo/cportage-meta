@@ -1,0 +1,9 @@
+eb121ba754f9bd97d9d4a80e485492de
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.4  java-virtuals/servlet-api:2.4 
+RDEPEND=>=virtual/jre-1.4  java-virtuals/servlet-api:2.4 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris
+SLOT=0
+SRC_URI=https://github.com/javaee/javahelp/archive/3ca862d8626096770598a3a256886d205246f4a4.tar.gz -> javahelp-2.0.05_p20170719.tar.gz

@@ -1,0 +1,9 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install
+DEPEND=  mpi? ( virtual/mpi )  gsl? ( sci-libs/gsl:= )  test? ( dev-lang/perl ) 
+RDEPEND=  mpi? ( virtual/mpi )  gsl? ( sci-libs/gsl:= ) 
+EAPI=6
+IUSE=altivec cpu_flags_x86_sse gsl mpi test +threads 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://eddylab.org/software/hmmer3/3.1b2/hmmer-3.1b2.tar.gz

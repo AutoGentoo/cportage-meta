@@ -1,0 +1,8 @@
+5226e33d4c02a8e809b8813154adc46d
+DEFINED_PHASES= install prepare
+RDEPEND=truetype? ( media-fonts/corefonts )  dev-lang/php[gd,truetype?] 
+EAPI=6
+IUSE=truetype examples 
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~grknight/distfiles/jpgraph-4.2.0.tar.gz

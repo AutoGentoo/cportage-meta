@@ -1,0 +1,10 @@
+28eda68d44605b6ff2d3e35af2df00fc
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=doc? ( app-doc/doxygen ) 
+DEPEND=  x11-libs/fox-wrapper  x11-libs/libXcursor  x11-libs/libXrandr  bzip2? ( app-arch/bzip2 )  jpeg? ( virtual/jpeg )  opengl? ( virtual/glu virtual/opengl )  png? ( media-libs/libpng:0= )  tiff? ( media-libs/tiff:0= )  truetype? (   media-libs/freetype:2   x11-libs/libXft  )  zlib? ( sys-libs/zlib )  x11-base/xorg-proto  x11-libs/libXt 
+RDEPEND=  x11-libs/fox-wrapper  x11-libs/libXcursor  x11-libs/libXrandr  bzip2? ( app-arch/bzip2 )  jpeg? ( virtual/jpeg )  opengl? ( virtual/glu virtual/opengl )  png? ( media-libs/libpng:0= )  tiff? ( media-libs/tiff:0= )  truetype? (   media-libs/freetype:2   x11-libs/libXft  )  zlib? ( sys-libs/zlib ) 
+EAPI=7
+IUSE=+bzip2 +jpeg +opengl +png tiff +truetype +zlib debug doc profile 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+SLOT=1.6
+SRC_URI=ftp://ftp.fox-toolkit.org/pub/fox-1.6.57.tar.gz

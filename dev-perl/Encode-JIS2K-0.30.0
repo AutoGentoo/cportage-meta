@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-Encode 
+RDEPEND=virtual/perl-Encode 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DANKOGAI/Encode-JIS2K-0.03.tar.gz

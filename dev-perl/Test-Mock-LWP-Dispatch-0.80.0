@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-Carp  virtual/perl-Data-Dumper  virtual/perl-Exporter  dev-perl/HTTP-Message  dev-perl/libwww-perl  dev-perl/Test-MockObject   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  test? (   virtual/perl-File-Spec   dev-perl/Test-Exception  )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-Data-Dumper  virtual/perl-Exporter  dev-perl/HTTP-Message  dev-perl/libwww-perl  dev-perl/Test-MockObject  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TA/TADAM/Test-Mock-LWP-Dispatch-0.08.tar.gz

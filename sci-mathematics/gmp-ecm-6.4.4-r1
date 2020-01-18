@@ -1,0 +1,9 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/gmp:0=  blas? ( sci-libs/gsl )  openmp? ( sys-devel/gcc:*[openmp] ) 
+RDEPEND=  dev-libs/gmp:0=  blas? ( sci-libs/gsl )  openmp? ( sys-devel/gcc:*[openmp] ) 
+EAPI=5
+IUSE=+blas +custom-tune -openmp static-libs test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://gforge.inria.fr/frs/download.php/32159/gmp-ecm-6.4.4.tar.gz

@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-Digest-MD5  virtual/perl-Exporter  virtual/perl-MIME-Base64  virtual/perl-Socket  virtual/perl-Time-Local  virtual/perl-parent   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-Digest-MD5  virtual/perl-Exporter  virtual/perl-MIME-Base64  virtual/perl-Socket  virtual/perl-Time-Local  virtual/perl-parent  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NE/NEILB/Mail-Sendmail-0.80.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+PDEPEND=net-wireless/gqrx 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/neural75/gqrx-scanner/archive/46c09462c5e296fe1ee9c9ffe1fa6dd69e2ae128.tar.gz -> gqrx-scanner-1.0.1_p20190329.tar.gz

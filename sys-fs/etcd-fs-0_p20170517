@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  dev-db/go-etcd:=  dev-libs/go-fuse:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/xetorthio/etcd-fs/archive/1eeace3bc20b15e4347c631a1cf7b45f3852518a.tar.gz -> etcd-fs-0_p20170517.tar.gz

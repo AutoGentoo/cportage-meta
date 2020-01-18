@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Text-Diff  
+RDEPEND=  dev-perl/Text-Diff  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CA/CADE/Text-Patch-1.8.tar.gz

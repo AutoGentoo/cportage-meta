@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= prepare
+DEPEND=!static? ( !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) )  sys-apps/util-linux  app-crypt/sbsigntools  dev-perl/File-Slurp  static? ( !libressl? ( dev-libs/openssl:0=[static-libs(+)] )  libressl? ( dev-libs/libressl:0=[static-libs(+)] ) )  sys-apps/help2man  sys-boot/gnu-efi  virtual/pkgconfig 
+RDEPEND=!static? ( !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) )  sys-apps/util-linux 
+EAPI=6
+IUSE=libressl static 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://git.kernel.org/pub/scm/linux/kernel/git/jejb/efitools.git/snapshot/efitools-1.8.1.tar.gz

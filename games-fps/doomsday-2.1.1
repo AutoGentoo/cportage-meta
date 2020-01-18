@@ -1,0 +1,11 @@
+fa223cded89b34340f92151663dfb4d2
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 )  virtual/pkgconfig  
+DEPEND=  dev-qt/qtcore:5=  dev-qt/qtgui:5=[-gles2]  dev-qt/qtnetwork:5=  dev-qt/qtopengl:5=  dev-qt/qtwidgets:5=  dev-qt/qtx11extras:5=  media-libs/assimp  net-misc/curl  sys-libs/zlib  fmod? ( media-libs/fmod:1 )  fluidsynth? ( media-sound/fluidsynth:= )  openal? ( media-libs/openal )  tools? ( sys-libs/ncurses:0= )  
+RDEPEND=  dev-qt/qtcore:5=  dev-qt/qtgui:5=[-gles2]  dev-qt/qtnetwork:5=  dev-qt/qtopengl:5=  dev-qt/qtwidgets:5=  dev-qt/qtx11extras:5=  media-libs/assimp  net-misc/curl  sys-libs/zlib  fmod? ( media-libs/fmod:1 )  fluidsynth? ( media-sound/fluidsynth:= )  openal? ( media-libs/openal )  tools? ( sys-libs/ncurses:0= )  
+PDEPEND=  demo? ( games-fps/doom-data )  freedoom? ( games-fps/freedoom )  
+EAPI=7
+IUSE=demo fmod freedoom fluidsynth openal tools 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/project/deng/Doomsday%20Engine/2.1.1/doomsday-2.1.1.tar.gz

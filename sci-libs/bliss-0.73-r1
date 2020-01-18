@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile configure install prepare
+DEPEND=gmp? ( dev-libs/gmp:0= )  app-arch/unzip  doc? ( app-doc/doxygen ) 
+RDEPEND=gmp? ( dev-libs/gmp:0= ) 
+EAPI=6
+IUSE=doc gmp static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/1
+SRC_URI=http://www.tcs.hut.fi/Software/bliss/bliss-0.73.zip

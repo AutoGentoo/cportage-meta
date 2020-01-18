@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-ml/type-conv-108.07.01:=  dev-ml/camlp4:=    test? ( >=dev-ml/ounit-2.0.0[ocamlopt?] dev-ml/ocaml-fileutils[ocamlopt?] ) 
+RDEPEND=>=dev-ml/type-conv-108.07.01:=  dev-ml/camlp4:=   
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.0.11
+SRC_URI=http://forge.ocamlcore.org/frs/download.php/1310/ocaml-data-notation-0.0.11.tar.gz

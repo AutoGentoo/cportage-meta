@@ -1,0 +1,10 @@
+ba98a403d41849933686db88e530cdbd
+DEFINED_PHASES= compile configure install postinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=app-eselect/eselect-cblas  >=virtual/blas-3.6  virtual/pkgconfig 
+RDEPEND=app-eselect/eselect-cblas  >=virtual/blas-3.6  virtual/pkgconfig 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~arm64 ~hppa ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=http://www.netlib.org/lapack/lapack-3.7.0.tgz

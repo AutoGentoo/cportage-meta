@@ -1,0 +1,9 @@
+57c0a768180ad8cf83558bfb8f7fee4e
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare
+DEPEND=  lua? ( dev-lang/lua:0= )  media-libs/libpng:0  net-misc/curl  opengl? ( virtual/opengl   media-libs/freeglut )  sdl? ( media-libs/libsdl[video]   media-libs/sdl-image[png] )  sound? ( media-libs/sdl-mixer[vorbis] )  sys-libs/zlib  x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=  lua? ( dev-lang/lua:0= )  media-libs/libpng:0  net-misc/curl  opengl? ( virtual/opengl   media-libs/freeglut )  sdl? ( media-libs/libsdl[video]   media-libs/sdl-image[png] )  sound? ( media-libs/sdl-mixer[vorbis] )  sys-libs/zlib  x11-libs/gtk+:2 
+EAPI=6
+IUSE=lua opengl sdl sound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/crossfire/crossfire-client-1.71.0.tar.bz2

@@ -1,0 +1,9 @@
+93619c83113e5171a090f40b59827603
+DEFINED_PHASES= install postinst pretend unpack
+DEPEND=games-util/loki_patch 
+RDEPEND=sys-libs/glibc  amd64? ( sys-libs/glibc[multilib] )  virtual/opengl[abi_x86_32(-)]  media-libs/libsdl[X,opengl,sound,abi_x86_32(-)]  x11-libs/libXrender[abi_x86_32(-)]  x11-libs/libXrandr[abi_x86_32(-)]  media-libs/smpeg[abi_x86_32(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://lokigames/sof/sof-1.06a-cdrom-x86.run

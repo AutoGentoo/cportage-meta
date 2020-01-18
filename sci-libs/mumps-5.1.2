@@ -1,0 +1,9 @@
+ea98db8d94553e19b68b8d5d4ff3943e
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=  virtual/blas  metis? ( || ( >=sci-libs/metis-5 >=sci-libs/parmetis-4 )   mpi? ( >=sci-libs/parmetis-4 ) )  scotch? ( <sci-libs/scotch-6[mpi=] )  mpi? ( sci-libs/scalapack )  virtual/pkgconfig 
+RDEPEND=  virtual/blas  metis? ( || ( >=sci-libs/metis-5 >=sci-libs/parmetis-4 )   mpi? ( >=sci-libs/parmetis-4 ) )  scotch? ( <sci-libs/scotch-6[mpi=] )  mpi? ( sci-libs/scalapack ) 
+EAPI=6
+IUSE=doc examples metis mpi +scotch static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://mumps.enseeiht.fr/MUMPS_5.1.2.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=virtual/pkgconfig 
+DEPEND=test? ( >=dev-util/cunit-2.1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~hppa
+SLOT=0/0
+SRC_URI=https://github.com/ngtcp2/nghttp3/archive/51379a041174ad953dc6ad437712f3b279f81919.tar.gz -> nghttp3-0_pre20190912.tar.gz

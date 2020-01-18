@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.5  dev-java/log4j:0  dev-java/slf4j-api:0 
+RDEPEND=>=virtual/jre-1.5  dev-java/log4j:0  dev-java/slf4j-api:0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://spymemcached.googlecode.com/files/spymemcached-2.9.1-sources.jar

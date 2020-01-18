@@ -1,0 +1,9 @@
+64bdbe534f6ad5b210871a6970904329
+DEFINED_PHASES= config configure install postinst
+DEPEND=>=dev-libs/bglibs-2.04  sys-apps/ucspi-unix  sys-process/cronbase  virtual/daemontools  virtual/mta  || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 ) 
+RDEPEND=>=dev-libs/bglibs-2.04  sys-apps/ucspi-unix  sys-process/cronbase  virtual/daemontools  virtual/mta 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://untroubled.org/bcron/archive/bcron-0.11.tar.gz

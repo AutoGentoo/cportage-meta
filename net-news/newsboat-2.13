@@ -1,0 +1,9 @@
+8330c92f3615e95ad42defaed88df58c
+DEFINED_PHASES= compile configure install test
+DEPEND=  >=dev-db/sqlite-3.5:3  >=dev-libs/stfl-0.21  >=net-misc/curl-7.18.0  >=dev-libs/json-c-0.11:=  dev-libs/libxml2  sys-libs/ncurses:0=[unicode]   app-text/asciidoc  virtual/pkgconfig  sys-devel/gettext  
+RDEPEND=  >=dev-db/sqlite-3.5:3  >=dev-libs/stfl-0.21  >=net-misc/curl-7.18.0  >=dev-libs/json-c-0.11:=  dev-libs/libxml2  sys-libs/ncurses:0=[unicode]  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://newsboat.org/releases/2.13/newsboat-2.13.tar.xz

@@ -1,0 +1,9 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= install postinst prepare
+RDEPEND=>=net-dialup/pptpclient-1.7.0  >=net-dialup/ppp-2.4.2 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=http://home.planet.nl/~mcdon001/kpnadsl4linux-1.11.tar.gz
+	http://www.adsl4linux.nl/download/kpnadsl4linux-1.11.tar.gz

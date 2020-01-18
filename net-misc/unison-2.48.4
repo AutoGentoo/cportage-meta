@@ -1,0 +1,11 @@
+4d6a8d00bf3f576cab1eb008001bb3f4
+DEFINED_PHASES= compile install postinst prepare test
+DEPEND=dev-lang/ocaml[ocamlopt?]  gtk? ( dev-ml/lablgtk )  test? ( || ( dev-util/ctags >=app-editors/emacs-23.1:* ) ) 
+RDEPEND=gtk? ( dev-ml/lablgtk  || ( net-misc/x11-ssh-askpass net-misc/ssh-askpass-fullscreen ) )  !net-misc/unison:0  app-eselect/eselect-unison 
+EAPI=5
+IUSE=gtk doc static debug threads +ocamlopt test 
+KEYWORDS=amd64 ~arm ~ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
+SLOT=2.48
+SRC_URI=https://www.seas.upenn.edu/~bcpierce/unison/download/releases/unison-2.48.4/unison-2.48.4.tar.gz
+	doc? ( https://www.seas.upenn.edu/~bcpierce/unison/download/releases/unison-2.48.4/unison-2.48.4-manual.pdf
+		https://www.seas.upenn.edu/~bcpierce/unison/download/releases/unison-2.48.4/unison-2.48.4-manual.html )

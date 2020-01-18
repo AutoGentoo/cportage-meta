@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TODDR/CDB_File-0.99.tar.gz

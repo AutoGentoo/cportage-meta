@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=net-libs/libosmocore net-libs/libosmo-abis 
+RDEPEND=net-libs/libosmocore net-libs/libosmo-abis 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+8330c92f3615e95ad42defaed88df58c
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=  dev-qt/linguist-tools:5  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-sound/fluidsynth:=[jack?,alsa?,pulseaudio?]  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-sound/fluidsynth:=[jack?,alsa?,pulseaudio?]  
+EAPI=7
+IUSE=+alsa debug jack pulseaudio 
+KEYWORDS=
+SLOT=0
+SRC_URI=

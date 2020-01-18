@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install
+DEPEND=virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/IO-CaptureOutput  dev-perl/Spreadsheet-WriteExcel  virtual/perl-File-Temp  sqlite? (   dev-perl/DBD-SQLite   dev-perl/DBI  )   dev-perl/Test-Pod   dev-perl/Test-Strict   virtual/perl-Test-Simple  ) 
+RDEPEND=dev-perl/IO-CaptureOutput  dev-perl/Spreadsheet-WriteExcel  virtual/perl-File-Temp  sqlite? (   dev-perl/DBD-SQLite   dev-perl/DBI  ) 
+EAPI=6
+IUSE=sqlite test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/ninka-2.0_pre1_p20170402.tar.xz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+RDEPEND=>=app-benchmarks/dbench-2.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.tux.org/pub/kernel/people/ck/apps/contest/contest-0.61.tar.bz2

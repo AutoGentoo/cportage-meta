@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-lang/sassc  dev-libs/glib:2  dev-ruby/sass:*  media-gfx/inkscape  x11-libs/gdk-pixbuf:2 
+RDEPEND=dev-lang/sassc  dev-libs/glib:2  dev-ruby/sass:*  media-gfx/inkscape  x11-libs/gdk-pixbuf:2 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/adapta-project/adapta-gtk-theme/archive/3.95.0.11.tar.gz -> adapta-gtk-theme-3.95.0.11.tar.gz

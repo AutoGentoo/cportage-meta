@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+RDEPEND=  !app-vim/vim-latex  !app-vim/automatictexplugin 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/lervag/vimtex/archive/17d809706edcb277f1ee7fa5e33aff3619926fe4.tar.gz -> vimtex-20180324.tar.gz

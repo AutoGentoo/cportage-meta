@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  virtual/perl-Time-HiRes  >=virtual/perl-XSLoader-0.20.0   >=virtual/perl-ExtUtils-MakeMaker-6.590.0  >=virtual/perl-ExtUtils-ParseXS-3.180.0  test? (   >=dev-perl/Test-Fatal-0.6.0   >=dev-perl/Test-Number-Delta-1.60.0   dev-perl/Test-Requires   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-Time-HiRes  >=virtual/perl-XSLoader-0.20.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHANSEN/Time-Moment-0.43.tar.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=|| (   app-i18n/skkserv   app-i18n/dbskkd-cdb   app-i18n/mecab-skkserv   app-i18n/multiskkserv   app-i18n/yaskkserv  ) 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=

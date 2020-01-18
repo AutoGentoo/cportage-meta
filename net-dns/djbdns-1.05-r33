@@ -1,0 +1,10 @@
+09165d8248d064c2434340d08cfd519f
+DEFINED_PHASES= compile install preinst prepare unpack
+RDEPEND=sys-apps/ucspi-tcp  virtual/daemontools  selinux? ( sec-policy/selinux-djbdns ) 
+EAPI=6
+IUSE=ipv6 selinux 
+KEYWORDS=alpha amd64 hppa ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://cr.yp.to/djbdns/djbdns-1.05.tar.gz
+	http://smarden.org/pape/djb/manpages/djbdns-1.05-man.tar.gz
+	ipv6? ( http://www.fefe.de/dns/djbdns-1.05-test28.diff.xz )

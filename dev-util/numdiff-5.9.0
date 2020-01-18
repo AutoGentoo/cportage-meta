@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  gmp? ( dev-libs/gmp:0= )  nls? ( sys-devel/gettext )  !dev-util/ndiff 
+RDEPEND=  gmp? ( dev-libs/gmp:0= )  nls? ( sys-devel/gettext )  !dev-util/ndiff 
+EAPI=6
+IUSE=+nls +gmp 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://savannah.nongnu.org/download/numdiff/numdiff-5.9.0.tar.gz

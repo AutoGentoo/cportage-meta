@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= postinst
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=  dev-util/dialog  >=net-analyzer/netselect-0.4[ipv6(+)]  =dev-python/ssl-fetch-9999[python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)]   
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

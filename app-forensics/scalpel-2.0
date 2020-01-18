@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=dev-libs/tre 
+RDEPEND=dev-libs/tre 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.digitalforensicssolutions.com/Scalpel/scalpel-2.0.tar.gz

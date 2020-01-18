@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=dev-libs/libfmt-5.0.0  
+RDEPEND=  >=dev-libs/libfmt-5.0.0  
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=0/1
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=!<dev-util/vulkan-tools-1.1.124   !<media-libs/vulkan-layers-1.1.125 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

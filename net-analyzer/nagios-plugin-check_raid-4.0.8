@@ -1,0 +1,9 @@
+c11d617db00850dec4a9c01d2910aefc
+DEFINED_PHASES= install postinst prepare
+DEPEND=dev-perl/Monitoring-Plugin   dev-perl/Module-Pluggable 
+RDEPEND=dev-perl/Monitoring-Plugin   dev-perl/Module-Pluggable   sys-apps/smartmontools   sys-fs/lsscsi   3ware? ( sys-block/tw_cli )   aacraid? ( sys-block/arcconf )   dmraid? ( sys-fs/dmraid )   hpa? ( sys-block/hpacucli )   hpsa? ( sys-apps/cciss_vol_status )   megaraid-sas? ( sys-block/megacli )   megaraid-scsi? ( sys-block/megarc )   mpt-sas2? ( sys-block/sas2ircu )   mpt? ( sys-block/mpt-status )    
+EAPI=6
+IUSE=3ware aacraid dmraid hpa hpsa megaraid-sas megaraid-scsi mpt mpt-sas2 
+KEYWORDS=~amd64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/glensc/nagios-plugin-check_raid/archive/4.0.8.tar.gz -> nagios-plugin-check_raid-4.0.8.tar.gz

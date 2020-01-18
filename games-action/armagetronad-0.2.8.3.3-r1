@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install postinst postrm preinst prepare
+DEPEND=  dev-libs/libxml2  !dedicated? (   media-libs/libpng:0=   media-libs/libsdl[X,opengl,video,sound?]   media-libs/sdl-image[jpeg,png]   virtual/glu   virtual/opengl   sound? ( media-libs/sdl-mixer )  ) 
+RDEPEND=  dev-libs/libxml2  !dedicated? (   media-libs/libpng:0=   media-libs/libsdl[X,opengl,video,sound?]   media-libs/sdl-image[jpeg,png]   virtual/glu   virtual/opengl   sound? ( media-libs/sdl-mixer )  ) 
+EAPI=6
+IUSE=dedicated sound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/armagetronad/0.2.8/0.2.8.3.x/+download/armagetronad-0.2.8.3.3.src.tar.bz2

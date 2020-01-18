@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=  net-libs/libesmtp  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= )   sys-devel/flex  
+RDEPEND=  net-libs/libesmtp  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= )   !mail-mta/courier  !mail-mta/exim  !mail-mta/mini-qmail  !mail-mta/msmtp  !mail-mta/netqmail  !mail-mta/nullmailer  !mail-mta/postfix  !mail-mta/qmail-ldap  !mail-mta/sendmail  !mail-mta/ssmtp  !mail-mta/opensmtpd  
+EAPI=5
+IUSE=libressl 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/esmtp/esmtp-1.2.tar.bz2

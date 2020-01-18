@@ -1,0 +1,9 @@
+d3cea090bc6419af2a672b2466a9d9c0
+DEFINED_PHASES= compile install
+DEPEND=doc? ( virtual/texi2dvi ) 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=5
+IUSE=contrib doc odt-schema 
+KEYWORDS=amd64 ppc x86 ~x86-macos
+SLOT=0
+SRC_URI=http://orgmode.org/org-8.3.2.tar.gz

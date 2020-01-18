@@ -1,0 +1,10 @@
+ebc4b50d8c32c3948e1df005e614878a
+DEFINED_PHASES= postinst
+BDEPEND=virtual/pkgconfig test? ( ruby_targets_ruby24? ( dev-ruby/archive-tar-minitar[ruby_targets_ruby24] ) ruby_targets_ruby25? ( dev-ruby/archive-tar-minitar[ruby_targets_ruby25] ) ruby_targets_ruby26? ( dev-ruby/archive-tar-minitar[ruby_targets_ruby26] ) ) ruby_targets_ruby24? ( dev-ruby/rake[ruby_targets_ruby24] doc? ( dev-ruby/rdoc[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( dev-ruby/rake[ruby_targets_ruby25] doc? ( dev-ruby/rdoc[ruby_targets_ruby25] ) ) ruby_targets_ruby26? ( dev-ruby/rake[ruby_targets_ruby26] doc? ( dev-ruby/rdoc[ruby_targets_ruby26] ) ) 
+DEPEND=x11-libs/libX11  xft? ( x11-libs/libXft )  xinerama? ( x11-libs/libXinerama )  xpm? ( x11-libs/libXpm )  xtest? ( x11-libs/libXtst )  xrandr? ( x11-libs/libXrandr ) 
+RDEPEND=x11-libs/libX11  xft? ( x11-libs/libXft )  xinerama? ( x11-libs/libXinerama )  xpm? ( x11-libs/libXpm )  xtest? ( x11-libs/libXtst )  xrandr? ( x11-libs/libXrandr ) ruby_targets_ruby24? ( dev-ruby/archive-tar-minitar[ruby_targets_ruby24] ) ruby_targets_ruby25? ( dev-ruby/archive-tar-minitar[ruby_targets_ruby25] ) ruby_targets_ruby26? ( dev-ruby/archive-tar-minitar[ruby_targets_ruby26] ) 
+EAPI=7
+IUSE=debug doc +xft xinerama xpm +xrandr +xtest test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~radhermit/dist/subtle-0.11.3244.tar.gz

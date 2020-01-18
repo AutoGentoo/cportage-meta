@@ -1,0 +1,8 @@
+4fe5e8f9b608cddc1dc87cf874be3d02
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=sys-fs/e2fsprogs  sys-apps/sparc-utils 
+EAPI=6
+IUSE=
+KEYWORDS=-* sparc
+SLOT=0
+SRC_URI=https://git.kernel.org/pub/scm/linux/kernel/git/davem/silo.git/snapshot/silo-2506051d55dd5cb9fe10b4e978e22fa00363044b.tar.gz -> silo-1.4.14_p20170829.tar.gz

@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile install prepare
+DEPEND=gmp? ( dev-libs/gmp ) 
+RDEPEND=gmp? ( dev-libs/gmp ) 
+EAPI=4
+IUSE=gmp 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://cgm.cs.mcgill.ca/~avis/C/lrslib/lrslib-042c.tar.gz

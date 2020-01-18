@@ -1,0 +1,8 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install prepare
+DEPEND=  sys-apps/sed  cpu_flags_x86_mmx? ( dev-lang/yasm )  
+EAPI=7
+IUSE=cpu_flags_x86_mmx static-libs 
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://www.deb-multimedia.org/pool/main/m/monkeys-audio/monkeys-audio_4.11-u4-b5-s7.orig.tar.gz

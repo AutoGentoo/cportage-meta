@@ -1,0 +1,10 @@
+86e3ece53f57a4e16eb74d1fee17e0b6
+DEFINED_PHASES= configure install postinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=media-libs/alsa-lib-1.1.9  libsamplerate? ( media-libs/libsamplerate )  ncurses? ( >=sys-libs/ncurses-5.7-r7:0= )  bat? ( sci-libs/fftw:= )  doc? ( app-text/xmlto ) 
+RDEPEND=>=media-libs/alsa-lib-1.1.9  libsamplerate? ( media-libs/libsamplerate )  ncurses? ( >=sys-libs/ncurses-5.7-r7:0= )  bat? ( sci-libs/fftw:= )  selinux? ( sec-policy/selinux-alsa ) 
+EAPI=7
+IUSE=bat doc +libsamplerate +ncurses nls selinux 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sh sparc ~x86
+SLOT=0.9
+SRC_URI=https://www.alsa-project.org/files/pub/utils/alsa-utils-1.1.9.tar.bz2

@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install postinst preinst
+DEPEND=virtual/libintl  dev-libs/libpcre  dev-perl/XML-Parser  gnome-base/gconf:2  >=gnome-base/libglade-2.0.1:2.0  gstreamer? ( media-libs/gstreamer:1.0 )  net-libs/gnet:2  x11-libs/gtk+:2  >=x11-libs/vte-0.11:0  virtual/pkgconfig  app-text/rarian  >=dev-util/intltool-0.23  >=sys-devel/gettext-0.11.5 
+RDEPEND=virtual/libintl  dev-libs/libpcre  dev-perl/XML-Parser  gnome-base/gconf:2  >=gnome-base/libglade-2.0.1:2.0  gstreamer? ( media-libs/gstreamer:1.0 )  net-libs/gnet:2  x11-libs/gtk+:2  >=x11-libs/vte-0.11:0 
+EAPI=6
+IUSE=gstreamer 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gnome-mud/0.11/gnome-mud-0.11.2.tar.bz2

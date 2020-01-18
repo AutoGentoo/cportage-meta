@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+EAPI=7
+IUSE=doc ipv6 static-libs 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0/2.7
+SRC_URI=https://www.skarnet.org/software/skalibs/skalibs-2.7.0.0.tar.gz

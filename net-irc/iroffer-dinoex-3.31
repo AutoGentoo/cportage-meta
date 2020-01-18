@@ -1,0 +1,10 @@
+1411dc953bc7d95fcb39bdfb1639601d
+DEFINED_PHASES= compile configure install prepare setup
+DEPEND=chroot? ( dev-libs/nss )  curl? (   net-misc/curl[ssl?]   gnutls? ( net-misc/curl[curl_ssl_gnutls] )   !gnutls? ( ssl? ( net-misc/curl[curl_ssl_openssl] ) )  )  geoip? ( dev-libs/geoip )  gnutls? ( net-libs/gnutls )  ruby? ( dev-lang/ruby:* )  ssl? ( !gnutls? ( dev-libs/openssl:0= ) ) 
+RDEPEND=chroot? ( dev-libs/nss )  curl? (   net-misc/curl[ssl?]   gnutls? ( net-misc/curl[curl_ssl_gnutls] )   !gnutls? ( ssl? ( net-misc/curl[curl_ssl_openssl] ) )  )  geoip? ( dev-libs/geoip )  gnutls? ( net-libs/gnutls )  ruby? ( dev-lang/ruby:* )  ssl? ( !gnutls? ( dev-libs/openssl:0= ) ) 
+EAPI=6
+IUSE=+admin +blowfish +chroot curl debug geoip gnutls +http kqueue +memsave ruby ssl +telnet upnp 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=http://iroffer.dinoex.net/iroffer-dinoex-3.31.tar.gz
+	http://iroffer.dinoex.net/HISTORY/iroffer-dinoex-3.31.tar.gz

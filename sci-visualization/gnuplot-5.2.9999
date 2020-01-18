@@ -1,0 +1,9 @@
+71381e6a08aac936db7bc3f6a0dc81d8
+DEFINED_PHASES= compile configure install postinst postrm prepare test
+DEPEND=  cairo? (   x11-libs/cairo   x11-libs/pango )  gd? ( >=media-libs/gd-2.0.35-r3:2=[png] )  ggi? ( media-libs/libggi )  latex? (   virtual/latex-base   lua? (    dev-tex/pgf    >=dev-texlive/texlive-latexrecommended-2008-r2 ) )  libcaca? ( media-libs/libcaca )  lua? ( dev-lang/lua:0 )  qt5? ( dev-qt/qtcore:5=   dev-qt/qtgui:5=   dev-qt/qtnetwork:5=   dev-qt/qtprintsupport:5=   dev-qt/qtsvg:5=   dev-qt/qtwidgets:5= )  readline? ( sys-libs/readline:0= )  libcerf? ( sci-libs/libcerf )  svga? ( media-libs/svgalib )  wxwidgets? (   x11-libs/wxGTK:3.0[X]   x11-libs/cairo   x11-libs/pango   x11-libs/gtk+:2 )  X? ( x11-libs/libXaw )  virtual/pkgconfig  doc? (   virtual/latex-base   dev-texlive/texlive-latexextra   app-text/ghostscript-gpl )  qt5? ( dev-qt/linguist-tools:5 ) 
+RDEPEND=  cairo? (   x11-libs/cairo   x11-libs/pango )  gd? ( >=media-libs/gd-2.0.35-r3:2=[png] )  ggi? ( media-libs/libggi )  latex? (   virtual/latex-base   lua? (    dev-tex/pgf    >=dev-texlive/texlive-latexrecommended-2008-r2 ) )  libcaca? ( media-libs/libcaca )  lua? ( dev-lang/lua:0 )  qt5? ( dev-qt/qtcore:5=   dev-qt/qtgui:5=   dev-qt/qtnetwork:5=   dev-qt/qtprintsupport:5=   dev-qt/qtsvg:5=   dev-qt/qtwidgets:5= )  readline? ( sys-libs/readline:0= )  libcerf? ( sci-libs/libcerf )  svga? ( media-libs/svgalib )  wxwidgets? (   x11-libs/wxGTK:3.0[X]   x11-libs/cairo   x11-libs/pango   x11-libs/gtk+:2 )  X? ( x11-libs/libXaw ) 
+EAPI=6
+IUSE=aqua bitmap cairo compat doc examples +gd ggi latex libcaca libcerf lua qt5 readline svga wxwidgets X 
+KEYWORDS=
+SLOT=0
+SRC_URI=

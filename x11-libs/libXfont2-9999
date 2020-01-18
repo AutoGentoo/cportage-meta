@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]  ppc-aix? (   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 ) x86-winnt? (   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 )   >=sys-devel/libtool-2.2.6a  sys-devel/m4 >=x11-misc/util-macros-1.18 >=media-fonts/font-util-1.2.0 virtual/pkgconfig doc? (   doc? (   || ( app-text/asciidoc dev-ruby/asciidoctor )   app-text/xmlto   app-doc/doxygen   app-text/docbook-xml-dtd:4.1.2   app-text/docbook-xml-dtd:4.2   app-text/docbook-xml-dtd:4.3  )  ) 
+DEPEND=sys-libs/zlib  x11-base/xorg-proto  x11-libs/libfontenc  bzip2? ( app-arch/bzip2 )  truetype? ( >=media-libs/freetype-2 )  x11-base/xorg-proto  x11-libs/xtrans 
+RDEPEND=sys-libs/zlib  x11-base/xorg-proto  x11-libs/libfontenc  bzip2? ( app-arch/bzip2 )  truetype? ( >=media-libs/freetype-2 ) 
+EAPI=7
+IUSE=bzip2 ipv6 truetype 
+KEYWORDS=
+SLOT=0
+SRC_URI=

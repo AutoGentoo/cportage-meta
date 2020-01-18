@@ -1,0 +1,10 @@
+57367f431d1e26b6f894d3fdeb8b9f0d
+DEFINED_PHASES= configure install prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=test? (   cblas? ( virtual/cblas:= )  cuda? ( dev-libs/cudnn:= )  jpeg? ( virtual/jpeg:0= )  lapack? ( virtual/lapack:= )  mkl? ( sci-libs/mkl:= )  png? ( media-libs/libpng:0= )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  sqlite? ( dev-db/sqlite:3= )  X? ( x11-libs/libX11:= )  ) 
+RDEPEND=  cblas? ( virtual/cblas:= )  cuda? ( dev-libs/cudnn:= )  jpeg? ( virtual/jpeg:0= )  lapack? ( virtual/lapack:= )  mkl? ( sci-libs/mkl:= )  png? ( media-libs/libpng:0= )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  sqlite? ( dev-db/sqlite:3= )  X? ( x11-libs/libX11:= )  
+EAPI=6
+IUSE=cblas debug cuda examples gif jpeg lapack mkl png python sqlite static-libs test X 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/19.9
+SRC_URI=https://github.com/davisking/dlib/archive/v19.9.tar.gz -> dlib-19.9.tar.gz

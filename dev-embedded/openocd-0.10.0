@@ -1,0 +1,9 @@
+1902fb52dc73727c6d63c1f06eea893e
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  acct-group/plugdev  >=dev-lang/jimtcl-0.76  cmsis-dap? ( dev-libs/hidapi )  jlink? ( dev-embedded/libjaylink )  usb? (   virtual/libusb:0   virtual/libusb:1  )  ftdi? ( dev-embedded/libftdi:= )  virtual/pkgconfig 
+RDEPEND=  acct-group/plugdev  >=dev-lang/jimtcl-0.76  cmsis-dap? ( dev-libs/hidapi )  jlink? ( dev-embedded/libjaylink )  usb? (   virtual/libusb:0   virtual/libusb:1  )  ftdi? ( dev-embedded/libftdi:= ) 
+EAPI=5
+IUSE=+cmsis-dap dummy +ftdi +jlink parport +usb verbose-io 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=mirror://sourceforge/project/openocd/openocd/0.10.0/openocd-0.10.0.tar.gz

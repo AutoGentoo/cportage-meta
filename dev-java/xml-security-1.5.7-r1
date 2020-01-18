@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install test
+DEPEND=  dev-java/commons-logging:0  dev-java/xalan:0   test? (   dev-java/ant-junit:0   dev-java/junit:4  )  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/commons-logging:0  dev-java/xalan:0   >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://apache/santuario/java-library/1_5_7/xml-security-bin-1_5_7.zip

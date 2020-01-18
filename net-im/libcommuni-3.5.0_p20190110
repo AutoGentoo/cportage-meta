@@ -1,0 +1,9 @@
+c9d19a31d7a4b98be15548f702fea1e4
+DEFINED_PHASES= configure install prepare test
+DEPEND=    dev-qt/qtcore:5  dev-qt/qtdeclarative:5  examples? ( dev-qt/qtgui:5[xcb] )  uchardet? ( app-i18n/uchardet )  !uchardet? ( dev-libs/icu:= )   test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  examples? ( dev-qt/qtgui:5[xcb] )  uchardet? ( app-i18n/uchardet )  !uchardet? ( dev-libs/icu:= )  
+EAPI=7
+IUSE=examples qml test +uchardet 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/communi/libcommuni/archive/88bb0fcdaab5bdd1176a3b6b485a6415a137ec27.tar.gz -> libcommuni-3.5.0_p20190110.tar.gz

@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  app-text/ghostscript-gpl  dev-lang/tk:0  sys-libs/zlib  x11-libs/libX11  x11-libs/libXt  x11-libs/libXpm  x11-libs/libSM  x11-libs/libICE 
+RDEPEND=  app-text/ghostscript-gpl  dev-lang/tk:0  sys-libs/zlib  x11-libs/libX11  x11-libs/libXt  x11-libs/libXpm  x11-libs/libSM  x11-libs/libICE 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://opencircuitdesign.com/xcircuit/archive/xcircuit-3.8.83.tgz

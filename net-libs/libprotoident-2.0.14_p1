@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  >=net-libs/libtrace-4.0.1  >=net-libs/libflowmanager-3.0.0  
+RDEPEND=    >=net-libs/libtrace-4.0.1  >=net-libs/libflowmanager-3.0.0   
+EAPI=7
+IUSE=static-libs tools 
+KEYWORDS=~amd64 ~x86
+SLOT=0/2
+SRC_URI=https://github.com/wanduow/libprotoident/archive/2.0.14-1.tar.gz

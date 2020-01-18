@@ -1,0 +1,9 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=media-libs/libsdl-1.2.4  media-libs/sdl-image  x11-libs/gtk+:2  nls? ( virtual/libintl )  nls? ( sys-devel/gettext ) 
+RDEPEND=  >=media-libs/libsdl-1.2.4  media-libs/sdl-image  x11-libs/gtk+:2  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/senken-0.3.0.tar.gz

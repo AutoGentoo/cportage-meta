@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  ~media-tv/kodi-9999  ~media-libs/kodi-platform-9999  >=media-libs/libprojectm-3.1.1_rc4:=  >=media-libs/glm-0.9.9.5  virtual/opengl   
+RDEPEND=    ~media-tv/kodi-9999  ~media-libs/kodi-platform-9999  >=media-libs/libprojectm-3.1.1_rc4:=  >=media-libs/glm-0.9.9.5  virtual/opengl     
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

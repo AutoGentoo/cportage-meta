@@ -1,0 +1,9 @@
+20197692cdac129d46bbe49b15d28b1e
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=heartbeat? ( sys-cluster/heartbeat )  pacemaker? ( sys-cluster/pacemaker )  udev? ( virtual/udev )  !!sys-cluster/drbd 
+RDEPEND=heartbeat? ( sys-cluster/heartbeat )  pacemaker? ( sys-cluster/pacemaker )  udev? ( virtual/udev )  !!sys-cluster/drbd 
+EAPI=5
+IUSE=heartbeat pacemaker +udev xen 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://oss.linbit.com/drbd/drbd-utils-8.9.6.tar.gz

@@ -1,0 +1,8 @@
+5073a1fd1d5b36bfc2432a4b9a66dd91
+DEFINED_PHASES= compile install prepare test
+DEPEND=  doc? ( virtual/latex-base ) 
+EAPI=5
+IUSE=doc openmp 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.ebi.ac.uk/~zerbino/velvet/velvet_1.2.10.tgz

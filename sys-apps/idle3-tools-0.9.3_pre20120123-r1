@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= compile
+EAPI=7
+IUSE=
+KEYWORDS=amd64 arm x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~conikost/files/idle3-tools-0.9.3_pre20120123.tar.bz2

@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.63.0:5 
+DEPEND=  >=kde-frameworks/kcodecs-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5  
+RDEPEND=  >=kde-frameworks/kcodecs-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5   !kde-apps/kdepim-l10n  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=5
+SRC_URI=mirror://kde/stable/release-service/19.12.0/src/kmime-19.12.0.tar.xz

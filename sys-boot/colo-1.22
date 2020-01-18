@@ -1,0 +1,7 @@
+27444490ae51a4b95f0c7e5decdc1bd0
+DEFINED_PHASES= compile install postinst prepare
+EAPI=6
+IUSE=
+KEYWORDS=-* ~mips
+SLOT=0
+SRC_URI=http://www.colonel-panic.org/cobalt-mips/colo/colo-1.22.tar.gz

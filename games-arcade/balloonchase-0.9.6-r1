@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=media-libs/libsdl[video] 
+RDEPEND=media-libs/libsdl[video] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://makegho.mbnet.fi/c/bchase/balloonchase-0.9.6.tar.bz2

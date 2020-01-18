@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install preinst
+RDEPEND=  snmp? (   >=dev-perl/Net-SNMP-4.0.1-r2   >=net-analyzer/net-snmp-5.0.6  ) 
+EAPI=6
+IUSE=snmp 
+KEYWORDS=amd64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/fetchlog/fetchlog-1.4.tar.gz

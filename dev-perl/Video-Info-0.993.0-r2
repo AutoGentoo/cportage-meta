@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-perl/Class-MakeMethods  test? (   dev-perl/MP3-Info  )  
+RDEPEND=dev-perl/Class-MakeMethods 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AL/ALLENDAY/Video-Info-0.993.tar.gz

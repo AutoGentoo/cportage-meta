@@ -1,0 +1,9 @@
+7be049034220c5b2ddfdd7ec7bebd6b1
+DEFINED_PHASES= compile install postinst prepare setup test
+DEPEND=>=dev-lang/ocaml-4.0:=  dev-ml/findlib  dev-ml/camlp4  dev-ml/cryptokit:0/1.10  sys-libs/db:5.3 
+RDEPEND=>=dev-lang/ocaml-4.0:=  dev-ml/findlib  dev-ml/camlp4  dev-ml/cryptokit:0/1.10  sys-libs/db:5.3 
+EAPI=6
+IUSE=optimize test 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/skskeyserver/sks-keyserver/downloads/sks-1.1.6.tgz

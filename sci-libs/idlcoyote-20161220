@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=app-arch/unzip 
+RDEPEND=dev-lang/gdl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.idlcoyote.com/programs/zip_files/coyoteprograms.zip -> idlcoyote-20161220.zip

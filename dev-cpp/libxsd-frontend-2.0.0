@@ -1,0 +1,9 @@
+371da9e25181504bd740127dd0000213
+DEFINED_PHASES= compile configure install test
+DEPEND=  >=dev-libs/xerces-c-3.0.0  dev-libs/boost:=[threads]  dev-cpp/libcutl  >=dev-util/build-0.3.10 
+RDEPEND=  >=dev-libs/xerces-c-3.0.0  dev-libs/boost:=[threads]  dev-cpp/libcutl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://www.codesynthesis.com/download/libxsd-frontend/2.0/libxsd-frontend-2.0.0.tar.bz2

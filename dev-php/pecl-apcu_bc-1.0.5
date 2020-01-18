@@ -1,0 +1,10 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= test
+BDEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php7-1? ( dev-lang/php:7.1 ) php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 ) php_targets_php7-4? ( dev-lang/php:7.4 )  
+DEPEND=>=dev-php/pecl-apcu-5.1.18:7[php_targets_php7-1?,php_targets_php7-2?,php_targets_php7-3?,php_targets_php7-4?] 
+RDEPEND=>=dev-php/pecl-apcu-5.1.18:7[php_targets_php7-1?,php_targets_php7-2?,php_targets_php7-3?,php_targets_php7-4?] 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pecl.php.net/get/apcu_bc-1.0.5.tgz

@@ -1,0 +1,9 @@
+35f56374b298048412b2b143f64016b5
+DEFINED_PHASES= prepare
+DEPEND=>=dev-libs/glib-2.44.1-r1:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  >=dev-libs/libIDL-0.8.14-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   dev-util/gtk-doc-am  virtual/pkgconfig  
+RDEPEND=>=dev-libs/glib-2.44.1-r1:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  >=dev-libs/libIDL-0.8.14-r1[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  
+EAPI=5
+IUSE=pic static-libs test 
+KEYWORDS=alpha amd64 arm ~arm64 ia64 ~mips ppc ppc64 ~sh sparc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris ~x86-winnt
+SLOT=2
+SRC_URI=mirror://gnome/sources/ORBit2/2.14/ORBit2-2.14.19.tar.bz2

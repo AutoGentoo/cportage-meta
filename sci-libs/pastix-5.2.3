@@ -1,0 +1,9 @@
+55f7e89b539954a49689a2f31d1befbd
+DEFINED_PHASES= compile configure install prepare test
+DEPEND=  sci-libs/scotch:0=[int64?,mpi?]  sys-apps/hwloc:0=  virtual/blas  mpi? ( virtual/mpi )  starpu? ( dev-libs/starpu:0= )  virtual/pkgconfig 
+RDEPEND=  sci-libs/scotch:0=[int64?,mpi?]  sys-apps/hwloc:0=  virtual/blas  mpi? ( virtual/mpi )  starpu? ( dev-libs/starpu:0= ) 
+EAPI=6
+IUSE=doc int64 mpi +smp starpu static-libs 
+KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://gforge.inria.fr/frs/download.php/latestfile/218/pastix_5.2.3.tar.bz2

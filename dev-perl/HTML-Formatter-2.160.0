@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-Carp  virtual/perl-Data-Dumper  virtual/perl-Encode  dev-perl/Font-AFM  dev-perl/HTML-Tree  virtual/perl-IO  virtual/perl-parent   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/File-Slurper   virtual/perl-File-Spec   >=virtual/perl-Test-Simple-0.960.0   dev-perl/Test-Warnings  )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-Data-Dumper  virtual/perl-Encode  dev-perl/Font-AFM  dev-perl/HTML-Tree  virtual/perl-IO  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NI/NIGELM/HTML-Formatter-2.16.tar.gz

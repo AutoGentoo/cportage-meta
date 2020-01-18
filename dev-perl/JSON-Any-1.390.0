@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  || (   >=dev-perl/JSON-XS-2.3   virtual/perl-JSON-PP   dev-perl/JSON  )   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Data-Dumper   virtual/perl-File-Spec   virtual/perl-Storable   dev-perl/Test-Fatal   virtual/perl-Test-Simple   dev-perl/Test-Requires   >=dev-perl/Test-Warnings-0.9.0   dev-perl/Test-Without-Module  )  
+RDEPEND=  virtual/perl-Carp  || (   >=dev-perl/JSON-XS-2.3   virtual/perl-JSON-PP   dev-perl/JSON  )  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~mips ~x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/JSON-Any-1.39.tar.gz

@@ -1,0 +1,9 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= compile install
+DEPEND=>=dev-libs/libserialport-0.1.1  >=virtual/jdk-1.8 
+RDEPEND=>=dev-libs/libserialport-0.1.1 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/arduino/listSerialPortsC/archive/1.4.0.tar.gz -> arduino-listserialportsc-1.4.0.tar.gz

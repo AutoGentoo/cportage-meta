@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  java-virtuals/servlet-api:3.0  >=virtual/jdk-1.6  app-arch/unzip 
+RDEPEND=  java-virtuals/servlet-api:3.0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=doc source 
+KEYWORDS=amd64 ppc64 x86
+SLOT=4.0
+SRC_URI=http://hessian.caucho.com/download/hessian-4.0.37-src.jar

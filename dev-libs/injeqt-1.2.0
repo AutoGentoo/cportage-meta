@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-qt/qtcore-5.4.2:5   test? ( >=dev-qt/qttest-5.4.2:5 )  
+RDEPEND=  >=dev-qt/qtcore-5.4.2:5  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/vogel/injeqt/archive/1.2.0.tar.gz -> injeqt-1.2.0.tar.gz

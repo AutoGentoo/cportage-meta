@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=app-text/trang 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://libvirt.org/sources/libvirt-5.8.0.tar.xz

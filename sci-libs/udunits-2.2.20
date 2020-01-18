@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=dev-libs/expat 
+RDEPEND=dev-libs/expat 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=ftp://ftp.unidata.ucar.edu/pub/udunits/udunits-2.2.20.tar.gz

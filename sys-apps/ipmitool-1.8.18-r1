@@ -1,0 +1,10 @@
+45decc19f7c2e1dd2ef169b1da7ccbcb
+DEFINED_PHASES= configure install prepare
+DEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sys-libs/readline:0=   openipmi? ( sys-libs/openipmi )   virtual/os-headers 
+RDEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sys-libs/readline:0= 
+EAPI=6
+IUSE=libressl openipmi static 
+KEYWORDS=amd64 hppa ~ia64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ipmitool/ipmitool-1.8.18.tar.gz
+	http://http.debian.net/debian/pool/main/i/ipmitool/ipmitool_1.8.18-1.debian.tar.xz

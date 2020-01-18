@@ -1,0 +1,10 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=  doc? ( app-doc/doxygen )  
+DEPEND=  >=media-libs/tiff-3.9.1:0  >=sci-libs/proj-6.0.0:=  sys-libs/zlib  virtual/jpeg:=  
+RDEPEND=  >=media-libs/tiff-3.9.1:0  >=sci-libs/proj-6.0.0:=  sys-libs/zlib  virtual/jpeg:=  
+EAPI=7
+IUSE=debug doc static-libs 
+KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0/5
+SRC_URI=https://download.osgeo.org/geotiff/libgeotiff/libgeotiff-1.5.1.tar.gz

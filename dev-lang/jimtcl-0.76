@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile configure install prepare unpack
+DEPEND=doc? ( app-text/asciidoc )  app-arch/unzip 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 arm ~arm64 ~m68k ~mips ~s390 ~sh x86
+SLOT=0
+SRC_URI=https://github.com/msteveb/jimtcl/zipball/0.76 -> jimtcl-0.76.zip

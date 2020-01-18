@@ -1,0 +1,7 @@
+667d54bddfbc8089f85515fc33861e51
+DEFINED_PHASES= install postinst
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=

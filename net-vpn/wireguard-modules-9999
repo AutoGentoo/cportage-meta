@@ -1,0 +1,9 @@
+1e6ad1eab3fdef3d2cc642e0d605088b
+DEFINED_PHASES= compile install postinst setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND= !<virtual/wireguard-1 
+EAPI=7
+IUSE=debug +module module-src 
+KEYWORDS=
+SLOT=0
+SRC_URI=

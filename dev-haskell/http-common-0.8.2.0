@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-haskell/base64-bytestring:=[profile?]  dev-haskell/blaze-builder:=[profile?]  dev-haskell/case-insensitive:=[profile?]  dev-haskell/mtl:=[profile?]  dev-haskell/network:=[profile?]  dev-haskell/text:=[profile?]  dev-haskell/transformers:=[profile?]  dev-haskell/unordered-containers:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  
+RDEPEND=dev-haskell/base64-bytestring:=[profile?]  dev-haskell/blaze-builder:=[profile?]  dev-haskell/case-insensitive:=[profile?]  dev-haskell/mtl:=[profile?]  dev-haskell/network:=[profile?]  dev-haskell/text:=[profile?]  dev-haskell/transformers:=[profile?]  dev-haskell/unordered-containers:=[profile?]  >=dev-lang/ghc-7.4.1:=  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0/0.8.2.0
+SRC_URI=https://hackage.haskell.org/package/http-common-0.8.2.0/http-common-0.8.2.0.tar.gz

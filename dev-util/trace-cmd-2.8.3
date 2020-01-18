@@ -1,0 +1,9 @@
+342409bfea114a4d87c501c0433fe6f9
+DEFINED_PHASES= compile configure install setup
+DEPEND=audit? ( sys-process/audit )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  udis86? ( dev-libs/udis86 )  sys-kernel/linux-headers  python? (   virtual/pkgconfig   dev-lang/swig  )   doc? ( app-text/asciidoc ) 
+RDEPEND=audit? ( sys-process/audit )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  udis86? ( dev-libs/udis86 ) 
+EAPI=7
+IUSE=+audit doc python udis86 
+KEYWORDS=amd64 ~x86
+SLOT=0/2.8.3
+SRC_URI=https://git.kernel.org/pub/scm/utils/trace-cmd/trace-cmd.git/snapshot/trace-cmd-v2.8.3.tar.gz

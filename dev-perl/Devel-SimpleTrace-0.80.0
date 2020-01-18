@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Data-Dumper   >=dev-perl/Module-Build-0.360.0  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=  virtual/perl-Data-Dumper  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SAPER/Devel-SimpleTrace-0.08.tar.gz

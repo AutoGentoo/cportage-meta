@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=virtual/mpi 
+RDEPEND=virtual/mpi 
+EAPI=6
+IUSE=mpi_njtree static_pairalign 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://web.bii.a-star.edu.sg/~kuobin/clustalw-mpi/clustalw-mpi-0.13.tar.gz

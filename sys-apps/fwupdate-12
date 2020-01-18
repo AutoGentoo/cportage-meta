@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=    dev-libs/popt  >=sys-libs/efivar-32-r1  >=sys-libs/libsmbios-2.3.3   sys-boot/gnu-efi  
+RDEPEND=  dev-libs/popt  >=sys-libs/efivar-32-r1  >=sys-libs/libsmbios-2.3.3  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/rhinstaller/fwupdate/archive/12.tar.gz -> fwupdate-12.tar.gz

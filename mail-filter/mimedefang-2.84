@@ -1,0 +1,9 @@
+7c58a3fee790dcbbfa34a632cc0ccd9d
+DEFINED_PHASES= configure install postinst prepare setup
+DEPEND=>=dev-perl/MIME-tools-5.412  dev-perl/IO-stringy  virtual/perl-MIME-Base64  dev-perl/Digest-SHA1  dev-perl/MailTools  dev-perl/Unix-Syslog  clamav? ( app-antivirus/clamav )  || ( mail-filter/libmilter mail-mta/sendmail )  test? (   dev-perl/Test-Class   dev-perl/Test-Most  ) 
+RDEPEND=>=dev-perl/MIME-tools-5.412  dev-perl/IO-stringy  virtual/perl-MIME-Base64  dev-perl/Digest-SHA1  dev-perl/MailTools  dev-perl/Unix-Syslog  clamav? ( app-antivirus/clamav )  || ( mail-filter/libmilter mail-mta/sendmail ) 
+EAPI=7
+IUSE=clamav +poll test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.mimedefang.org/static/mimedefang-2.84.tar.gz

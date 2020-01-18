@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=app-editors/emacs-24:* 
+DEPEND=>=app-emacs/dash-2.13.0 sys-apps/texinfo 
+RDEPEND=!!<app-emacs/magit-2.12.1  >=app-emacs/dash-2.13.0 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/magit/magit-popup/archive/v2.13.0.tar.gz -> magit-popup-2.13.0.tar.gz

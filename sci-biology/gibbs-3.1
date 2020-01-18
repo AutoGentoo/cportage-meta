@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  mpi? (   virtual/mpi   sys-cluster/mpe2  ) 
+RDEPEND=  mpi? (   virtual/mpi   sys-cluster/mpe2  ) 
+EAPI=7
+IUSE=mpi 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/gibbs-3.1.tar.gz

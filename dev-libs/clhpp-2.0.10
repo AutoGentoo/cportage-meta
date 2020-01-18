@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare unpack
+BDEPEND=|| ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 ) 
+DEPEND=virtual/opencl 
+RDEPEND=virtual/opencl 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/KhronosGroup/OpenCL-CLHPP/archive/v2.0.10.tar.gz -> clhpp-2.0.10.tar.gz

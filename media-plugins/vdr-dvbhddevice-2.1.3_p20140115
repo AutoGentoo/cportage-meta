@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=media-video/vdr-1.7.39 
+RDEPEND=>=media-video/vdr-1.7.39 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://bitbucket.org/powARman/dvbhddevice/get/60c58ae453d0.tar.gz
+-> dvbhddevice-2.1.3_p20140115.tar.gz

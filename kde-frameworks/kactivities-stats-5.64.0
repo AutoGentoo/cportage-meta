@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=dev-util/ninja dev-util/cmake doc? ( dev-qt/qthelp:5 ) doc? ( >=app-doc/doxygen-1.8.13-r1 ) >=kde-frameworks/extra-cmake-modules-5.64:5 
+DEPEND=  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtsql-5.12.3:5  >=kde-frameworks/kactivities-5.64:5  >=kde-frameworks/kconfig-5.64:5   >=dev-libs/boost-1.54  
+RDEPEND=  >=dev-qt/qtdbus-5.12.3:5  >=dev-qt/qtsql-5.12.3:5  >=kde-frameworks/kactivities-5.64:5  >=kde-frameworks/kconfig-5.64:5  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=5/5.64
+SRC_URI=mirror://kde/stable/frameworks/5.64/kactivities-stats-5.64.0.tar.xz

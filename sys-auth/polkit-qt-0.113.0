@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  >=sys-auth/polkit-0.103  
+RDEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  >=sys-auth/polkit-0.103  
+EAPI=7
+IUSE=debug 
+KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://kde/stable/polkit-qt-1/polkit-qt-1-0.113.0.tar.xz

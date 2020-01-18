@@ -1,0 +1,8 @@
+1a972aab2b66ebc62c91bc3b8da382cb
+DEFINED_PHASES= compile configure install prepare setup unpack
+RDEPEND=  >=dev-libs/libxml2-2.6:2  >=gnome-base/libglade-2.4:2.0  >=net-print/cups-1.1.17  >=x11-libs/gtk+-2.4:2  
+EAPI=7
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=http://gdlp01.c-wss.com/gds/8/0100007658/08/linux-UFRII-drv-v370-uken-05.tar.gz

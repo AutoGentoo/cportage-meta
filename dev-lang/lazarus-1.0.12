@@ -1,0 +1,9 @@
+a0408f55850dac60ab0751cc8fc824cf
+DEFINED_PHASES= compile install prepare
+DEPEND=>=dev-lang/fpc-2.6.0[source]  net-misc/rsync  x11-libs/gtk+:2  >=sys-devel/binutils-2.19.1-r1 
+RDEPEND=>=dev-lang/fpc-2.6.0[source]  net-misc/rsync  x11-libs/gtk+:2  !=gnome-base/librsvg-2.16.1 
+EAPI=5
+IUSE=minimal 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://downloads.sourceforge.net/project/lazarus/Lazarus%20Zip%20_%20GZip/Lazarus%201.0.12/lazarus-1.0.12-0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=    gtk? ( >=x11-libs/gtk+-2.4:2 )  ncurses? ( sys-libs/ncurses )   virtual/pkgconfig  
+RDEPEND=  gtk? ( >=x11-libs/gtk+-2.4:2 )  ncurses? ( sys-libs/ncurses )  
+EAPI=5
+IUSE=gtk ncurses nls 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=http://aa.vslib.cz/silk/projekty/pinger/download/pinger-0.32e.tar.gz

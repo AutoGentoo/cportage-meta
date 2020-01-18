@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= unpack
+DEPEND=>=virtual/jdk-1.6  dev-java/junit:0  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.6  dev-java/junit:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=1.0
+SRC_URI=http://www.jmock.org/downloads/jmock-1.2.0-jars.zip

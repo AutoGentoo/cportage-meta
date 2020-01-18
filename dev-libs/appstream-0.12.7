@@ -1,0 +1,10 @@
+d86707064f4d5f9ec2ac73342e197d15
+DEFINED_PHASES= configure prepare
+BDEPEND=  app-text/docbook-xml-dtd:4.5  dev-libs/appstream-glib  dev-util/itstool  >=dev-util/meson-0.42.0  >=sys-devel/gettext-0.19.8  test? (   dev-qt/linguist-tools:5   qt5? ( dev-qt/qttest:5 )  )  
+DEPEND=  dev-db/lmdb:=  >=dev-libs/glib-2.54:2  dev-libs/libxml2:2  dev-libs/libyaml  dev-libs/snowball-stemmer  introspection? ( >=dev-libs/gobject-introspection-1.56:= )  qt5? ( dev-qt/qtcore:5 )  
+RDEPEND=  dev-db/lmdb:=  >=dev-libs/glib-2.54:2  dev-libs/libxml2:2  dev-libs/libyaml  dev-libs/snowball-stemmer  introspection? ( >=dev-libs/gobject-introspection-1.56:= )  qt5? ( dev-qt/qtcore:5 )  
+EAPI=7
+IUSE=apt +introspection qt5 test 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=0/4
+SRC_URI=https://www.freedesktop.org/software/appstream/releases/AppStream-0.12.7.tar.xz

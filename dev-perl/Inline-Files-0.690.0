@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test )  
+EAPI=5
+IUSE=test 
+KEYWORDS=alpha amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBS/Inline-Files-0.69.tar.gz

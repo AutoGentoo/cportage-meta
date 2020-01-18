@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  app-text/poppler:=[cxx]  pcre? ( dev-libs/libpcre[cxx] )  unac? ( app-text/unac )  virtual/pkgconfig  test? (    dev-texlive/texlive-latex    dev-util/dejagnu   ) 
+RDEPEND=  app-text/poppler:=[cxx]  pcre? ( dev-libs/libpcre[cxx] )  unac? ( app-text/unac ) 
+EAPI=5
+IUSE=+pcre test unac 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://pdfgrep.org/download/pdfgrep-1.4.1.tar.gz

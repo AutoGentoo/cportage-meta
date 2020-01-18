@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=dev-libs/libxslt 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/bodr/bodr-10.tar.bz2

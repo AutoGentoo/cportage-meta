@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= install prepare
+DEPEND=media-tv/gentoo-vdr-scripts 
+RDEPEND=media-tv/gentoo-vdr-scripts  >=media-video/mplayer-0.90_rc4 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/mplay-0.5.3.tgz
+	https://dev.gentoo.org/~zzam/distfiles/mplay-0.5.3.tgz

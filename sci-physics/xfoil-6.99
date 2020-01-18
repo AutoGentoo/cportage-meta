@@ -1,0 +1,11 @@
+41b16884fdfc60084c83f0cd912270e6
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/libX11 
+RDEPEND=x11-libs/libX11 
+EAPI=6
+IUSE=doc examples 
+KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	http://web.mit.edu/drela/Public/web/xfoil/xfoil6.99.tgz
+	doc? ( http://web.mit.edu/drela/Public/web/xfoil/dataflow.pdf )

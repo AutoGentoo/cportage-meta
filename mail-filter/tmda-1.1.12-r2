@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install
+DEPEND=  virtual/mta  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
+RDEPEND=  virtual/mta  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tmda/tmda-1.1.12.tgz

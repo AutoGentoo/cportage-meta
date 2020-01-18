@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=virtual/jpeg:0  >=dev-perl/Tk-800.15.0  >=virtual/perl-ExtUtils-MakeMaker-6.580.0  dev-perl/Devel-CheckLib  
+RDEPEND=virtual/jpeg:0  >=dev-perl/Tk-800.15.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SR/SREZIC/Tk-JPEG-Lite-2.015.tar.gz

@@ -1,0 +1,10 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  man? (   app-text/docbook2X   dev-libs/libxslt  )  test? (   dev-util/cppcheck   dev-util/cppunit  )  
+DEPEND=  dev-libs/boost:=  dev-libs/libxml2  net-misc/curl  
+RDEPEND=  dev-libs/boost:=  dev-libs/libxml2  net-misc/curl  
+EAPI=7
+IUSE=man static-libs test tools 
+KEYWORDS=
+SLOT=0.5
+SRC_URI=

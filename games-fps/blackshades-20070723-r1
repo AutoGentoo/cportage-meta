@@ -1,0 +1,10 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile install prepare
+DEPEND=  media-libs/freealut  media-libs/libsdl  media-libs/libvorbis  media-libs/openal  virtual/glu  virtual/opengl 
+RDEPEND=  media-libs/freealut  media-libs/libsdl  media-libs/libvorbis  media-libs/openal  virtual/glu  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://filesingularity.timedoctor.org/Textures.tar.bz2
+	mirror://gentoo/blackshades-20070723.tar.bz2

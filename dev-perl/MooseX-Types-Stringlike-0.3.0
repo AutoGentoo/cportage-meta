@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/MooseX-Types   >=virtual/perl-ExtUtils-MakeMaker-6.170.0  test? (   virtual/perl-File-Spec   virtual/perl-Scalar-List-Utils   dev-perl/Moose   virtual/perl-File-Temp   >=virtual/perl-Test-Simple-0.960.0   virtual/perl-version  )  
+RDEPEND=  dev-perl/MooseX-Types  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DAGOLDEN/MooseX-Types-Stringlike-0.003.tar.gz

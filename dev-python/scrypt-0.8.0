@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-libs/openssl:0=  dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
+RDEPEND=dev-libs/openssl:0= 
+EAPI=6
+IUSE=test doc 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=mirror://pypi/s/scrypt/scrypt-0.8.0.tar.gz

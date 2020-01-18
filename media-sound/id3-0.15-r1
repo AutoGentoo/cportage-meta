@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=http://lly.org/~rcw/id3/id3_0.15.orig.tar.gz -> id3-0.15.tar.gz

@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install
+DEPEND=emboss? ( sci-biology/emboss ) 
+RDEPEND=emboss? ( sci-biology/emboss ) 
+EAPI=6
+IUSE=emboss minimal 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://gentoo/prints-39.0.tar.bz2

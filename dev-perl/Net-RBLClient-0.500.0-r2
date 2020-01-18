@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+RDEPEND=virtual/perl-Time-HiRes  dev-perl/Net-DNS 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ~ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AB/ABLUM/Net-RBLClient-0.5.tar.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=test? ( >=virtual/perl-Test-Simple-1.1.10 ) 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~x64-macos
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NU/NUFFIN/Tie-ToObject-0.03.tar.gz

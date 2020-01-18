@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+RDEPEND=!minimal? ( dev-php/PEAR-Text_Highlighter ) 
+EAPI=6
+IUSE=minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/PHP_Debug-1.0.3.tgz

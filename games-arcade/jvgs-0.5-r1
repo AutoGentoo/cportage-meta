@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-lang/lua:0  media-libs/libsdl[video]  media-libs/sdl-mixer[vorbis]  media-libs/freetype:2  sys-libs/zlib:=  virtual/opengl  dev-lang/swig 
+RDEPEND=  dev-lang/lua:0  media-libs/libsdl[video]  media-libs/sdl-mixer[vorbis]  media-libs/freetype:2  sys-libs/zlib:=  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jvgs/jvgs-0.5-src.tar.gz

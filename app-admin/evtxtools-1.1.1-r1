@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+DEPEND=app-arch/unzip  dev-perl/DateTime  dev-perl/Digest-CRC  dev-perl/DateTime  dev-perl/Carp-Assert  dev-perl/Data-Hexify 
+RDEPEND=app-arch/unzip  dev-perl/DateTime  dev-perl/Digest-CRC  dev-perl/DateTime  dev-perl/Carp-Assert  dev-perl/Data-Hexify 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://computer.forensikblog.de/files/evtx/Parse-Evtx-1.1.1.zip

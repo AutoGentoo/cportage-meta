@@ -1,0 +1,10 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= compile install
+DEPEND=  dev-ada/gnat_util[ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-)]  dev-ada/gnatcoll-core[ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-),shared]  dev-ada/gprbuild[ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-)] 
+RDEPEND=  dev-ada/gnat_util[ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-)]  dev-ada/gnatcoll-core[ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-),shared] 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5cdf849031e87aa2cdf16b10
+	-> asis-2019-20190517-18AB5-src.tar.gz

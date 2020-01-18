@@ -1,0 +1,9 @@
+a3b35444796c516c8e1e8c97b5b12b8f
+DEFINED_PHASES= compile install prepare setup test unpack
+DEPEND=  ~dev-util/nvidia-cuda-toolkit-8.0.61  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   >=x11-drivers/nvidia-drivers-375.26[uvm]   mpi? ( virtual/mpi )   ) 
+RDEPEND=  ~dev-util/nvidia-cuda-toolkit-8.0.61  media-libs/freeglut  examples? (   media-libs/freeimage   media-libs/glew:0=   >=x11-drivers/nvidia-drivers-375.26[uvm]   mpi? ( virtual/mpi )   ) 
+EAPI=6
+IUSE=+cuda debug +doc +examples opencl mpi 
+KEYWORDS=~amd64 ~amd64-linux
+SLOT=0
+SRC_URI=https://developer.nvidia.com/compute/cuda/8.0/Prod2/local_installers/cuda_8.0.61_375.26_linux-run -> cuda_8.0.61_375.26_linux.run

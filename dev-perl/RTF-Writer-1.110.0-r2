@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/Image-Size 
+RDEPEND=dev-perl/Image-Size 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SB/SBURKE/RTF-Writer-1.11.tar.gz

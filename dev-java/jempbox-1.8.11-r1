@@ -1,0 +1,9 @@
+487c7b7acd86f56cfde29ced54b41505
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.8  app-arch/unzip  test? ( dev-java/junit:4 ) 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 arm64 ppc64 x86
+SLOT=1.8
+SRC_URI=mirror://apache/pdfbox/1.8.11/pdfbox-1.8.11-src.zip

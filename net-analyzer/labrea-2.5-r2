@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst prepare
+DEPEND=net-libs/libpcap  >=dev-libs/libdnet-1.7 
+RDEPEND=net-libs/libpcap  >=dev-libs/libdnet-1.7 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/labrea/labrea-2.5-stable-1.tar.gz

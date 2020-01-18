@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/XML-LibXML-1.69  test? (   dev-perl/Test-Pod   dev-perl/Test-Pod-Coverage  )  
+RDEPEND=>=dev-perl/XML-LibXML-1.69 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PA/PAJAS/XML-CompactTree-XS-0.02.tar.gz

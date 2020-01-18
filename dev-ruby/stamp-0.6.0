@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND= ruby_targets_ruby24? ( doc? ( dev-ruby/redcarpet[ruby_targets_ruby24] ) ) ruby_targets_ruby25? ( doc? ( dev-ruby/redcarpet[ruby_targets_ruby25] ) ) ruby_targets_ruby26? ( doc? ( dev-ruby/redcarpet[ruby_targets_ruby26] ) ) 
+EAPI=5
+IUSE=doc 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/jeremyw/stamp/archive/v0.6.0.tar.gz -> stamp-0.6.0.tar.gz

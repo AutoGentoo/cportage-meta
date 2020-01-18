@@ -1,0 +1,11 @@
+1916f7ee662ba8801c160be346db9c47
+DEFINED_PHASES= compile configure install prepare setup
+BDEPEND=virtual/pkgconfig  doc? (   graph? ( app-doc/doxygen[dot] )   !graph? ( app-doc/doxygen )  ) 
+DEPEND=dev-libs/libbsd  >=dev-libs/libevent-2.0.5:=  sys-libs/readline:0=  snmp? ( net-analyzer/net-snmp[extensible(+)] )  xml? ( dev-libs/libxml2:= )  seccomp? ( sys-libs/libseccomp:= )  zsh-completion? ( app-shells/zsh )  test? ( dev-libs/check ) 
+RDEPEND=dev-libs/libbsd  >=dev-libs/libevent-2.0.5:=  sys-libs/readline:0=  snmp? ( net-analyzer/net-snmp[extensible(+)] )  xml? ( dev-libs/libxml2:= )  seccomp? ( sys-libs/libseccomp:= )  zsh-completion? ( app-shells/zsh ) 
+EAPI=7
+IUSE=cdp doc +dot1 +dot3 edp fdp graph +lldpmed old-kernel sanitizers
+	seccomp sonmp snmp static-libs test readline xml zsh-completion 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://media.luffy.cx/files/lldpd/lldpd-1.0.4.tar.gz

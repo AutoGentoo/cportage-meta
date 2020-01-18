@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install prepare
+DEPEND=virtual/lapack  virtual/pkgconfig 
+RDEPEND=virtual/lapack 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=alpha amd64 ~arm hppa ppc ppc64 sparc x86 ~amd64-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/qrupdate/qrupdate-1.1.2.tar.gz

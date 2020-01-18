@@ -1,0 +1,10 @@
+577aa757afbb3fd5ce60280b8724e61e
+DEFINED_PHASES= compile configure install prepare setup test
+DEPEND=>=dev-libs/nspr-4.10.10  virtual/libffi  sys-libs/readline:0=  >=sys-libs/zlib-1.2.3  system-icu? ( >=dev-libs/icu-51.1:= ) 
+RDEPEND=>=dev-libs/nspr-4.10.10  virtual/libffi  sys-libs/readline:0=  >=sys-libs/zlib-1.2.3  system-icu? ( >=dev-libs/icu-51.1:= ) 
+EAPI=6
+IUSE=debug +jit minimal static-libs +system-icu test 
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh ~sparc x86
+SLOT=38
+SRC_URI=https://archive.mozilla.org/pub/spidermonkey/releases/38.3.0/mozjs-38.3.0sfink2.tar.bz2
+	https://dev.gentoo.org/~axs/distfiles/spidermonkey-slot38-patches-01.tar.xz

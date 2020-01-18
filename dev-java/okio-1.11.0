@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=virtual/jdk-1.7    source? ( app-arch/zip )  dev-java/jmh-core:0  dev-java/junit:4 
+RDEPEND=>=virtual/jre-1.7    source? ( app-arch/zip )  dev-java/jmh-core:0  dev-java/junit:4 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/square/okio/archive/okio-parent-1.11.0.zip -> okio-1.11.0.zip

@@ -1,0 +1,9 @@
+75187401b3b1ce87cbe8806835b2750c
+DEFINED_PHASES= compile install postinst prepare setup
+DEPEND=!minimal? ( dev-lang/lua ) 
+RDEPEND=!minimal? ( dev-lang/lua  dev-lua/luasocket  kernel_linux? ( virtual/udev )  munin? ( net-analyzer/munin ) )  !app-crypt/ekey-egd-linux  virtual/service-manager 
+EAPI=5
+IUSE=kernel_linux munin minimal usb 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://ubuntu/pool/universe/e/ekeyd/ekeyd_1.1.5.orig.tar.gz

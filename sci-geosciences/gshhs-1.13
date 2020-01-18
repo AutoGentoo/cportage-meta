@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=sci-libs/netcdf  sci-libs/gdal  data? ( sci-geosciences/gshhs-data )  virtual/pkgconfig  app-arch/unzip 
+RDEPEND=sci-libs/netcdf  sci-libs/gdal  data? ( sci-geosciences/gshhs-data ) 
+EAPI=5
+IUSE=+data 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=ftp://ftp.soest.hawaii.edu/pwessel/gshhs/gshhs_1.13_src.zip

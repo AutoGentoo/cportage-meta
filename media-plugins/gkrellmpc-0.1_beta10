@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst prepare
+DEPEND=  app-admin/gkrellm:2[X]  net-misc/curl 
+RDEPEND=  app-admin/gkrellm:2[X]  net-misc/curl 
+EAPI=6
+IUSE=threads 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mina.naguib.ca/dist/gkrellmpc-0.1_beta10.tar.gz

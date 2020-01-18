@@ -1,0 +1,9 @@
+87e0ae77270a16b6835559a1ccf2f6ae
+DEFINED_PHASES= compile install postinst prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=     app-emulation/qemu  >=dev-lang/nasm-2.0.7  >=sys-power/iasl-20160729  || ( dev-lang/python:3.7[sqlite] dev-lang/python:3.6[sqlite] >=dev-lang/python-2.7.5-r2:2.7[sqlite] )    
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

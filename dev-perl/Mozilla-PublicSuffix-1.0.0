@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-Exporter  dev-perl/URI   virtual/perl-IO  >=dev-perl/Module-Build-0.280.0  test? (   virtual/perl-Test-Simple   virtual/perl-File-Spec  )  
+RDEPEND=  virtual/perl-Exporter  dev-perl/URI  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RS/RSIMOES/Mozilla-PublicSuffix-v1.0.0.tar.gz

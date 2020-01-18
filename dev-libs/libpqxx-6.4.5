@@ -1,0 +1,9 @@
+9e77a1b67fe2a2a722d4cd5cfac250be
+DEFINED_PHASES= configure install prepare test
+DEPEND=dev-db/postgresql:=  || ( >=dev-lang/python-2.7.5-r2:2.7 )  doc? (   app-doc/doxygen   app-text/xmlto  )  
+RDEPEND=dev-db/postgresql:= 
+EAPI=7
+IUSE=doc static-libs 
+KEYWORDS=alpha amd64 ~hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/jtv/libpqxx/archive/6.4.5.tar.gz -> libpqxx-6.4.5.tar.gz

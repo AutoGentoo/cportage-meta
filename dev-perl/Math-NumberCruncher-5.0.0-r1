@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=virtual/perl-Math-BigInt-1.470.0   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  >=virtual/perl-Math-BigInt-1.470.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SI/SIFUKURT/Math-NumberCruncher-5.00.tar.gz

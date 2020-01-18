@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/Class-Data-Inheritable-0.20.0  >=dev-perl/Carp-Assert-0.100.0  >=dev-perl/Class-ISA-0.31  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=>=dev-perl/Class-Data-Inheritable-0.20.0  >=dev-perl/Carp-Assert-0.100.0  >=dev-perl/Class-ISA-0.31 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ia64 ~ppc sparc x86 ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSCHWERN/Class-Virtual-0.08.tar.gz

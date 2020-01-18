@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Scalar-List-Utils  >=virtual/perl-Storable-2.05   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  virtual/perl-Scalar-List-Utils  >=virtual/perl-Storable-2.05  
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JH/JHI/Graph-0.9704.tar.gz

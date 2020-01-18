@@ -1,0 +1,9 @@
+f86c447d8f4527dbf7509cc296b98488
+DEFINED_PHASES= compile install
+DEPEND=  >=dev-lang/ocaml-3.12:=[ocamlopt?]   camlp4? ( dev-ml/camlp4:= )   dev-ml/cmdliner:=  dev-ml/cppo:=   lwt? ( >=dev-ml/lwt-2.4.4:= )   dev-ml/ocamlbuild:=   dev-ml/ocaml-migrate-parsetree:=  dev-ml/ppx_tools_versioned:=  dev-ml/uchar:=   ppx? ( dev-ml/ppx_tools:= dev-ml/ppx_deriving:= )   xml? ( >=dev-ml/tyxml-4:= dev-ml/reactiveData:= )   dev-ml/jbuilder  dev-ml/opam  test? ( dev-util/patdiff )  
+RDEPEND=  >=dev-lang/ocaml-3.12:=[ocamlopt?]   camlp4? ( dev-ml/camlp4:= )   dev-ml/cmdliner:=  dev-ml/cppo:=   lwt? ( >=dev-ml/lwt-2.4.4:= )   dev-ml/ocamlbuild:=   dev-ml/ocaml-migrate-parsetree:=  dev-ml/ppx_tools_versioned:=  dev-ml/uchar:=   ppx? ( dev-ml/ppx_tools:= dev-ml/ppx_deriving:= )   xml? ( >=dev-ml/tyxml-4:= dev-ml/reactiveData:= )  
+EAPI=5
+IUSE=+ocamlopt +camlp4 +lwt doc +deriving +ppx +xml test 
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

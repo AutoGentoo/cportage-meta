@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=!=sys-apps/usbutils-0.72-r2 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://people.redhat.com/zaitcev/linux//usbmon-6.tar.gz

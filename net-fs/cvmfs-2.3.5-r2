@@ -1,0 +1,10 @@
+e0136e1279555f50c3e76939602c6b14
+DEFINED_PHASES= compile config configure install prepare setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-cpp/gtest  >=dev-cpp/sparsehash-1.12  dev-db/sqlite:3=  dev-libs/leveldb:0=  dev-libs/openssl:0  net-libs/pacparser:0=  net-misc/curl:0[adns]  sys-apps/attr  sys-fs/fuse:0=  sys-libs/libcap:0=  sys-libs/zlib:0=  preload? ( >=dev-cpp/tbb-4.4:0=[debug?] )  server? (   >=dev-cpp/tbb-4.4:0=[debug?]   dev-python/geoip-python  )   virtual/pkgconfig  doc? ( app-doc/doxygen[dot] )  test? (   dev-python/geoip-python   >=dev-cpp/tbb-4.4:0=   || ( sys-devel/gdb dev-util/lldb )  )  
+RDEPEND=  dev-cpp/gtest  >=dev-cpp/sparsehash-1.12  dev-db/sqlite:3=  dev-libs/leveldb:0=  dev-libs/openssl:0  net-libs/pacparser:0=  net-misc/curl:0[adns]  sys-apps/attr  sys-fs/fuse:0=  sys-libs/libcap:0=  sys-libs/zlib:0=  preload? ( >=dev-cpp/tbb-4.4:0=[debug?] )  server? (   >=dev-cpp/tbb-4.4:0=[debug?]   dev-python/geoip-python  )   app-admin/sudo  net-fs/autofs  server? (   aufs? ( sys-kernel/aufs-sources )   www-servers/apache  )  
+EAPI=6
+IUSE=aufs bash-completion debug doc preload server test test-programs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/cvmfs/cvmfs/archive/cvmfs-2.3.5.tar.gz

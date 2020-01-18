@@ -1,0 +1,12 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= install prepare
+DEPEND=    sys-libs/ncurses  sci-libs/fftw:2.1   virtual/pkgconfig  
+RDEPEND=  sys-libs/ncurses  sci-libs/fftw:2.1  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/g/gramofile/gramofile_1.6.orig.tar.gz
+	mirror://debian/pool/main/g/gramofile/gramofile_1.6-9.diff.gz
+

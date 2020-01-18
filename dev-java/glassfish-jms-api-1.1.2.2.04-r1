@@ -1,0 +1,10 @@
+2648d239d3c544169ba9f928a4d5396c
+DEFINED_PHASES= compile install unpack
+BDEPEND=app-arch/unzip 
+DEPEND=>=virtual/jdk-1.4 
+RDEPEND=>=virtual/jre-1.4 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://download.java.net/javaee5/v2ur2/promoted/source/glassfish-v2ur2-b04-src.zip

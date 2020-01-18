@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=virtual/perl-File-Spec 
+RDEPEND=virtual/perl-File-Spec 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHORNY/File-NCopy-0.36.tar.gz

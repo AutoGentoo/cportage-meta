@@ -1,0 +1,7 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= install prepare test
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://lowelab.ucsc.edu/software/tRNAscan-SE.tar.gz -> trnascan-se-1.31.tar.gz

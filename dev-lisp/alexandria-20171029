@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=doc? ( sys-apps/texinfo ) 
+PDEPEND=virtual/commonlisp 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/alexandria-20171029.tar.bz2

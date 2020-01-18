@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure
+BDEPEND=virtual/pkgconfig 
+DEPEND=  x11-libs/gtk+:2  x11-libs/pango  sndfile? ( media-libs/libsndfile:= )  sdl? ( media-libs/libsdl:= )  alsa? ( media-libs/alsa-lib:= )  jack? ( virtual/jack )  libsamplerate? ( media-libs/libsamplerate:= )  ladspa? ( media-libs/ladspa-sdk )  pulseaudio? ( media-sound/pulseaudio )  sox? ( media-sound/sox:= ) 
+RDEPEND=  x11-libs/gtk+:2  x11-libs/pango  sndfile? ( media-libs/libsndfile:= )  sdl? ( media-libs/libsdl:= )  alsa? ( media-libs/alsa-lib:= )  jack? ( virtual/jack )  libsamplerate? ( media-libs/libsamplerate:= )  ladspa? ( media-libs/ladspa-sdk )  pulseaudio? ( media-sound/pulseaudio )  sox? ( media-sound/sox:= ) 
+EAPI=7
+IUSE=alsa jack ladspa libsamplerate nls oss pulseaudio sdl sndfile sox 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/magnush/mhwaveedit/mhwaveedit/mhwaveedit-1.4.23.tar.bz2

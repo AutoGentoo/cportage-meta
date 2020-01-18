@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+RDEPEND=  media-fonts/jsmath  !media-fonts/jsmath-extra-light 
+EAPI=7
+IUSE=X 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/jsmath-extra-dark-1.0.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    !minimal? ( dev-perl/Type-Tiny )   >=virtual/perl-ExtUtils-MakeMaker-6.170.0  test? (   >=virtual/perl-Test-Simple-0.920.0  )  
+RDEPEND=  !minimal? ( dev-perl/Type-Tiny )  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=amd64 hppa ppc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TOBYINK/Type-Tiny-XS-0.012.tar.gz

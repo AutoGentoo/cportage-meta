@@ -1,0 +1,10 @@
+1f387eb75bafefdde07da2c2e7827a51
+DEFINED_PHASES= compile configure install postinst prerm setup
+DEPEND=>=media-gfx/iscan-2.21.0 
+RDEPEND=>=media-gfx/iscan-2.21.0 
+EAPI=4
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-gt-x820-2.2.0-1.x86_64.rpm )
+	x86? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-gt-x820-2.2.0-1.i386.rpm )

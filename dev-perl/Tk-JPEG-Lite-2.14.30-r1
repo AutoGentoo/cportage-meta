@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst prepare
+DEPEND=virtual/jpeg  dev-perl/Tk 
+RDEPEND=virtual/jpeg  dev-perl/Tk 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SR/SREZIC/Tk-JPEG-Lite-2.01403.tar.gz

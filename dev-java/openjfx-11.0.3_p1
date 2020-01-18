@@ -1,0 +1,19 @@
+7f59c1b8f959d6f84f576c90e9ae6ced
+DEFINED_PHASES= compile configure install prepare setup unpack
+DEPEND=  dev-java/swt:4.10[cairo,opengl]  dev-libs/atk  dev-libs/glib:2  dev-libs/libxml2:2  dev-libs/libxslt  media-libs/freetype:2  media-libs/fontconfig:1.0  media-video/ffmpeg:0=  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  x11-libs/gtk+:3  x11-libs/cairo[glib]  x11-libs/libX11  x11-libs/libXtst  x11-libs/libXxf86vm  x11-libs/pango  virtual/jpeg  virtual/opengl  || (   dev-java/openjdk-bin:11[doc?]   dev-java/openjdk:11[doc?]  )   app-arch/unzip  app-arch/zip  >=dev-java/ant-core-1.10.5-r2:0  dev-java/antlr:0  dev-java/antlr:3.5  dev-java/hamcrest-core:0  dev-java/stringtemplate:0  virtual/ttf-fonts  virtual/pkgconfig  
+RDEPEND=  dev-java/swt:4.10[cairo,opengl]  dev-libs/atk  dev-libs/glib:2  dev-libs/libxml2:2  dev-libs/libxslt  media-libs/freetype:2  media-libs/fontconfig:1.0  media-video/ffmpeg:0=  x11-libs/gdk-pixbuf  x11-libs/gtk+:2  x11-libs/gtk+:3  x11-libs/cairo[glib]  x11-libs/libX11  x11-libs/libXtst  x11-libs/libXxf86vm  x11-libs/pango  virtual/jpeg  virtual/opengl  || (   dev-java/openjdk-bin:11[doc?]   dev-java/openjdk:11[doc?]  )  
+EAPI=6
+IUSE=cpu_flags_x86_sse2 debug doc source +media 
+KEYWORDS=-* ~amd64
+SLOT=11
+SRC_URI=https://hg.openjdk.java.net/openjfx/11/rt/archive/11.0.3+1.tar.bz2 -> openjfx-11.0.3_p1.tar.bz2
+	https://downloads.gradle.org/distributions/gradle-4.8-bin.zip
+	https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-sandbox/7.1.0/lucene-sandbox-7.1.0.jar
+	https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-grouping/7.1.0/lucene-grouping-7.1.0.jar
+	https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queryparser/7.1.0/lucene-queryparser-7.1.0.jar
+	https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-queries/7.1.0/lucene-queries-7.1.0.jar
+	https://repo.maven.apache.org/maven2/org/apache/lucene/lucene-core/7.1.0/lucene-core-7.1.0.jar
+	https://repo.maven.apache.org/maven2/org/antlr/gunit/3.5.2/gunit-3.5.2.jar
+	https://repo.maven.apache.org/maven2/org/antlr/antlr-complete/3.5.2/antlr-complete-3.5.2.jar
+	https://repo.maven.apache.org/maven2/org/antlr/ST4/4.0.8/ST4-4.0.8.jar
+

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm64 ~ppc64 x86 ~amd64-linux ~x86-linux ~x64-solaris ~x86-solaris
+SLOT=3.0
+SRC_URI=mirror://apache/tomcat/tomcat-7/v7.0.96/src/apache-tomcat-7.0.96-src.tar.gz

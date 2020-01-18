@@ -1,0 +1,10 @@
+6a4d12812672e54af943a575261a01e6
+DEFINED_PHASES= compile configure install postinst postrm prepare setup test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=bd-xlator? ( sys-fs/lvm2 )  !elibc_glibc? ( sys-libs/argp-standalone )  emacs? ( >=app-editors/emacs-23.1:* )  fuse? ( >=sys-fs/fuse-2.7.0:0 )  georeplication? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  infiniband? ( sys-fabric/libibverbs:* sys-fabric/librdmacm:* )  libtirpc? ( net-libs/libtirpc:= )  !libtirpc? ( elibc_glibc? ( sys-libs/glibc[rpc(-)] ) )  qemu-block? ( dev-libs/glib:2 )  systemtap? ( dev-util/systemtap )  tiering? ( dev-db/sqlite:3 )  xml? ( dev-libs/libxml2 )  sys-libs/readline:=  dev-libs/libaio  !libressl? ( dev-libs/openssl:=[-bindist] )  libressl? ( dev-libs/libressl:= )  dev-libs/userspace-rcu:=  net-libs/rpcsvc-proto  sys-apps/util-linux  virtual/acl  virtual/pkgconfig  sys-devel/bison  sys-devel/flex  test? ( >=dev-util/cmocka-1.0.1   app-benchmarks/dbench   dev-vcs/git   net-fs/nfs-utils   virtual/perl-Test-Harness   dev-libs/yajl   sys-fs/xfsprogs   sys-apps/attr ) 
+RDEPEND=bd-xlator? ( sys-fs/lvm2 )  !elibc_glibc? ( sys-libs/argp-standalone )  emacs? ( >=app-editors/emacs-23.1:* )  fuse? ( >=sys-fs/fuse-2.7.0:0 )  georeplication? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  infiniband? ( sys-fabric/libibverbs:* sys-fabric/librdmacm:* )  libtirpc? ( net-libs/libtirpc:= )  !libtirpc? ( elibc_glibc? ( sys-libs/glibc[rpc(-)] ) )  qemu-block? ( dev-libs/glib:2 )  systemtap? ( dev-util/systemtap )  tiering? ( dev-db/sqlite:3 )  xml? ( dev-libs/libxml2 )  sys-libs/readline:=  dev-libs/libaio  !libressl? ( dev-libs/openssl:=[-bindist] )  libressl? ( dev-libs/libressl:= )  dev-libs/userspace-rcu:=  net-libs/rpcsvc-proto  sys-apps/util-linux 
+EAPI=7
+IUSE=bd-xlator crypt-xlator debug emacs +fuse +georeplication glupy infiniband ipv6 libressl +libtirpc qemu-block rsyslog static-libs +syslog systemtap test +tiering vim-syntax +xml 
+KEYWORDS=
+SLOT=0
+SRC_URI=

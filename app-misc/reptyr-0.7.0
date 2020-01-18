@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~ppc64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/nelhage/reptyr/archive/reptyr-0.7.0.tar.gz

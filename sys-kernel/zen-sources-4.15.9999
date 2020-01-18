@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=!build? (   dev-lang/perl   sys-devel/bc   sys-devel/bison   sys-devel/flex   sys-devel/make   >=sys-libs/ncurses-5.2   virtual/libelf  ) 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=4.15.9999
+SRC_URI=

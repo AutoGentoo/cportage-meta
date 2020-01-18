@@ -1,0 +1,10 @@
+4ce936c5afa87b976b4560aa0b1924dd
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  >=app-emulation/spice-protocol-0.14.0  media-libs/alsa-lib  >=x11-libs/libpciaccess-0.10  x11-libs/libdrm  x11-libs/libXfixes  x11-libs/libXrandr  x11-libs/libX11  x11-libs/libXinerama  consolekit? ( sys-auth/consolekit sys-apps/dbus )  gtk? ( x11-libs/gtk+:3 )  systemd? ( sys-apps/systemd )  virtual/pkgconfig 
+RDEPEND=  >=app-emulation/spice-protocol-0.14.0  media-libs/alsa-lib  >=x11-libs/libpciaccess-0.10  x11-libs/libdrm  x11-libs/libXfixes  x11-libs/libXrandr  x11-libs/libX11  x11-libs/libXinerama  consolekit? ( sys-auth/consolekit sys-apps/dbus )  gtk? ( x11-libs/gtk+:3 )  systemd? ( sys-apps/systemd )  selinux? ( sec-policy/selinux-vdagent ) 
+EAPI=7
+IUSE=consolekit gtk selinux systemd 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.spice-space.org/download/releases/spice-vdagent-0.19.0.tar.bz2

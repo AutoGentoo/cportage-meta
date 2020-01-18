@@ -1,0 +1,10 @@
+66a3289b5895e242696daf959d5ab2a6
+DEFINED_PHASES= compile install postinst preinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=doc? ( >=dev-ruby/asciidoctor-1.5.7 ) 
+RDEPEND=dev-lang/perl  net-misc/openssh  mbuffer? ( >=sys-block/mbuffer-20180505 )  >=sys-fs/btrfs-progs-4.12 
+EAPI=7
+IUSE=+mbuffer +doc 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://digint.ch/download/btrbk/releases/btrbk-0.29.0.tar.xz

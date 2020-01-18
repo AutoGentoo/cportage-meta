@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= compile install postinst
+BDEPEND=  media-gfx/graphviz  dev-lang/perl   >=sys-apps/sed-4  
+RDEPEND=  media-gfx/graphviz  dev-lang/perl  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=http://pasky.or.cz/irc/ircmap.tar.gz -> ircmap-0.99.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+BDEPEND=dev-util/ninja dev-util/cmake >=kde-frameworks/extra-cmake-modules-5.63.0:5 
+DEPEND=  >=kde-frameworks/kcalendarcore-5.63.0:5  >=kde-frameworks/kconfig-5.63.0:5  >=kde-frameworks/kholidays-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5  >=kde-apps/akonadi-19.12.0:5  >=kde-apps/kcalutils-19.12.0:5  >=kde-apps/kidentitymanagement-19.12.0:5  >=dev-qt/qtgui-5.12.3:5   test? ( >=dev-qt/qtdbus-5.12.3:5 )  
+RDEPEND=  >=kde-frameworks/kcalendarcore-5.63.0:5  >=kde-frameworks/kconfig-5.63.0:5  >=kde-frameworks/kholidays-5.63.0:5  >=kde-frameworks/ki18n-5.63.0:5  >=kde-apps/akonadi-19.12.0:5  >=kde-apps/kcalutils-19.12.0:5  >=kde-apps/kidentitymanagement-19.12.0:5  >=dev-qt/qtgui-5.12.3:5   !kde-apps/kdepim-l10n  !<kde-apps/kdepim-runtime-18.03.80  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=5
+SRC_URI=mirror://kde/stable/release-service/19.12.0/src/kalarmcal-19.12.0.tar.xz

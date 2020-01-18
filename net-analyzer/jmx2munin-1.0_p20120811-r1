@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= install unpack
+DEPEND=dev-java/jcommander:0  >=virtual/jdk-1.6 
+RDEPEND=dev-java/jcommander:0  net-analyzer/munin  >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/gentoo/jmx2munin/tarball/jmx2munin-gentoo-1.0_p20120811 -> jmx2munin-gentoo-1.0_p20120811.tar.gz

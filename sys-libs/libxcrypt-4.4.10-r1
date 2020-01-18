@@ -1,0 +1,10 @@
+1fc84865a5425539173a3ee038a7f319
+DEFINED_PHASES= compile configure install prepare setup test
+BDEPEND=sys-apps/findutils  test? (   || ( dev-lang/python:3.7 dev-lang/python:3.6 )   || ( ( dev-lang/python:3.7 dev-python/passlib[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-python/passlib[python_targets_python3_6(-),python_single_target_python3_6(+)] ) )  ) 
+DEPEND=system? (   elibc_glibc? ( sys-libs/glibc[-crypt(+)] )   !sys-libs/musl  ) 
+RDEPEND=system? (   elibc_glibc? ( sys-libs/glibc[-crypt(+)] )   !sys-libs/musl  ) 
+EAPI=7
+IUSE=+compat split-usr static-libs system test 
+KEYWORDS=~amd64 ~x86
+SLOT=0/1
+SRC_URI=https://github.com/besser82/libxcrypt/archive/v4.4.10.tar.gz -> libxcrypt-4.4.10.tar.gz

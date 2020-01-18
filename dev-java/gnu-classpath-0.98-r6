@@ -1,0 +1,9 @@
+07fd5e50d5d8f69acab17219f7eea182
+DEFINED_PHASES= compile configure install
+DEPEND=app-arch/zip   gtk? (    x11-base/xorg-proto    x11-libs/libXrender    >=x11-libs/libXtst-1.1.0   )   >=virtual/jdk-1.5   alsa? ( media-libs/alsa-lib )   dssi? ( >=media-libs/dssi-0.9 )   gconf? ( gnome-base/gconf:2= )   gjdoc? ( >=dev-java/antlr-2.7.7-r7:0 )   gmp? ( >=dev-libs/gmp-4.2.4:0= )   gtk? (     >=x11-libs/gtk+-2.8:2=     dev-libs/glib:2=     media-libs/freetype:2=     >=x11-libs/cairo-1.1.9:=     x11-libs/libICE     x11-libs/libSM     x11-libs/libX11     x11-libs/libXrandr     x11-libs/libXrender     x11-libs/libXtst     x11-libs/pango   )   xml? ( >=dev-libs/libxml2-2.6.8:2= >=dev-libs/libxslt-1.1.11 ) 
+RDEPEND=>=virtual/jre-1.5  alsa? ( media-libs/alsa-lib )   dssi? ( >=media-libs/dssi-0.9 )   gconf? ( gnome-base/gconf:2= )   gjdoc? ( >=dev-java/antlr-2.7.7-r7:0 )   gmp? ( >=dev-libs/gmp-4.2.4:0= )   gtk? (     >=x11-libs/gtk+-2.8:2=     dev-libs/glib:2=     media-libs/freetype:2=     >=x11-libs/cairo-1.1.9:=     x11-libs/libICE     x11-libs/libSM     x11-libs/libX11     x11-libs/libXrandr     x11-libs/libXrender     x11-libs/libXtst     x11-libs/pango   )   xml? ( >=dev-libs/libxml2-2.6.8:2= >=dev-libs/libxslt-1.1.11 ) 
+EAPI=5
+IUSE=alsa debug doc dssi examples gconf +gjdoc gmp gtk xml 
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0.98
+SRC_URI=mirror://gnu/classpath/classpath-0.98.tar.gz

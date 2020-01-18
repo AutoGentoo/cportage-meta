@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=sys-devel/llvm:7[gold]  !sys-devel/llvm:0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm arm64 x86 ~amd64-linux
+SLOT=0
+SRC_URI=

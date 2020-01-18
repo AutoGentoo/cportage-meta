@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/message_filters  dev-ros/resource_retriever  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_msgs[ros_messages_cxx(-)]  dev-ros/visp_bridge  dev-ros/visp_tracker  sci-libs/ViSP:=[dmtx,zbar]  dev-libs/boost:=[threads]  media-libs/opencv:=  
+RDEPEND=  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/message_filters  dev-ros/resource_retriever  dev-ros/roscpp  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/std_msgs[ros_messages_cxx(-)]  dev-ros/visp_bridge  dev-ros/visp_tracker  sci-libs/ViSP:=[dmtx,zbar]  dev-libs/boost:=[threads]  media-libs/opencv:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/lagadic/vision_visp/archive/kinetic-0.11.1.tar.gz -> vision_visp-0.11.1.tar.gz

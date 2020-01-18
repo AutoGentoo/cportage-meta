@@ -1,0 +1,9 @@
+127c6aa122722f570eb512fe270290a7
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=mpi? ( virtual/mpi ) 
+RDEPEND=mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=mpi 
+KEYWORDS=-* ~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos ~x64-solaris
+SLOT=0
+SRC_URI=ftp://sourceware.org/pub/valgrind/valgrind-3.13.0.tar.bz2

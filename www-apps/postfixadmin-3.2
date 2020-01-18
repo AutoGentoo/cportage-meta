@@ -1,0 +1,9 @@
+bbd0427272f7ae6100035e316ad95628
+DEFINED_PHASES= install postinst postrm setup
+DEPEND=  dev-lang/php:*[unicode,imap,postgres?]  vacation? (   dev-perl/DBI   dev-perl/Email-Sender   dev-perl/Email-Valid   dev-perl/Log-Dispatch   dev-perl/Log-Log4perl   dev-perl/MIME-Charset   dev-perl/MIME-EncWords   mysql? ( dev-perl/DBD-mysql )   postgres? ( dev-perl/DBD-Pg )   )    || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=  dev-lang/php:*[unicode,imap,postgres?]  vacation? (   dev-perl/DBI   dev-perl/Email-Sender   dev-perl/Email-Valid   dev-perl/Log-Dispatch   dev-perl/Log-Log4perl   dev-perl/MIME-Charset   dev-perl/MIME-EncWords   mysql? ( dev-perl/DBD-mysql )   postgres? ( dev-perl/DBD-Pg )   )   virtual/httpd-php  mysql? ( || ( dev-lang/php[mysqli] dev-lang/php[mysql] ) ) 
+EAPI=6
+IUSE=+mysql postgres +vacation 
+KEYWORDS=amd64 ~ppc x86
+SLOT=3.2
+SRC_URI=mirror://sourceforge/project/postfixadmin/postfixadmin/postfixadmin-3.2/postfixadmin-3.2.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install postinst postrm
+DEPEND=media-gfx/optipng  sys-apps/findutils  x11-libs/gdk-pixbuf:2  x11-libs/gtk+:3 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/shimmerproject/elementary-xfce/archive/v0.14.tar.gz -> elementary-xfce-0.14.tar.gz

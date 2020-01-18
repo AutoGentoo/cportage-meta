@@ -1,0 +1,9 @@
+a9435349fc061b28af4cb85f0dba58d4
+DEFINED_PHASES= configure install prepare setup test
+DEPEND=  dev-libs/libaio  <sys-apps/hwloc-2  romio? ( net-fs/nfs-utils )  dev-lang/perl  sys-devel/libtool 
+RDEPEND=  dev-libs/libaio  <sys-apps/hwloc-2  romio? ( net-fs/nfs-utils )  !sys-cluster/mpich2  !sys-cluster/openmpi 
+EAPI=5
+IUSE=+cxx doc fortran mpi-threads romio threads 
+KEYWORDS=amd64 hppa ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.mpich.org/static/downloads/3.0.4/mpich-3.0.4.tar.gz

@@ -1,0 +1,10 @@
+9c134b371b4c3f5f6a6965c1463df1fd
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  
+RDEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )   virtual/cron  virtual/mta  selinux? ( sec-policy/selinux-tripwire )  
+PDEPEND=tools? ( app-admin/mktwpol ) 
+EAPI=6
+IUSE=libressl selinux ssl static +tools 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://github.com/Tripwire/tripwire-open-source/archive/2.4.3.7.tar.gz -> tripwire-2.4.3.7.tar.gz

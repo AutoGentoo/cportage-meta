@@ -1,0 +1,9 @@
+309e19a49fa0474e05ead3db36cfee47
+DEFINED_PHASES= compile configure install prepare setup test unpack
+DEPEND=python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  !<dev-libs/boost-1.35.0  !<=dev-util/boost-build-1.35.0-r1  test? (   sys-apps/diffutils   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   ) 
+RDEPEND=python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  !<dev-libs/boost-1.35.0  !<=dev-util/boost-build-1.35.0-r1 
+EAPI=7
+IUSE=examples python test 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 ~sh sparc x86 ~ppc-aix ~x64-cygwin ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://dl.bintray.com/boostorg/release/1.71.0/source/boost_1_71_0.tar.bz2

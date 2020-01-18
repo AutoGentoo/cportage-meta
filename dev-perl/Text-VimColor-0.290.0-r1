@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=app-editors/vim[-minimal]  virtual/perl-Carp  dev-perl/File-ShareDir  virtual/perl-File-Temp  virtual/perl-Getopt-Long  virtual/perl-IO  >=dev-perl/Path-Class-0.40.0  >=virtual/perl-Term-ANSIColor-1.30.0   virtual/perl-ExtUtils-MakeMaker  >=dev-perl/File-ShareDir-Install-0.60.0  test? (   virtual/perl-Exporter   virtual/perl-File-Spec   dev-perl/Test-File-ShareDir   >=virtual/perl-Test-Simple-0.880.0   dev-perl/XML-Parser  )  
+RDEPEND=app-editors/vim[-minimal]  virtual/perl-Carp  dev-perl/File-ShareDir  virtual/perl-File-Temp  virtual/perl-Getopt-Long  virtual/perl-IO  >=dev-perl/Path-Class-0.40.0  >=virtual/perl-Term-ANSIColor-1.30.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RW/RWSTAUNER/Text-VimColor-0.29.tar.gz

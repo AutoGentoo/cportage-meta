@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  virtual/perl-Carp   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-Exception   virtual/perl-Test-Simple  )  
+RDEPEND=  virtual/perl-Carp  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ia64 ~ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KI/KILINRAX/HTML-Strip-2.10.tar.gz

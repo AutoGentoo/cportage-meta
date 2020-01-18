@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile install prepare
+DEPEND=nls? ( sys-devel/gettext ) 
+RDEPEND=net-dialup/ppp  dev-util/dialog  dev-lang/perl 
+EAPI=5
+IUSE=nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/p/pppconfig/pppconfig_2.3.21.tar.gz

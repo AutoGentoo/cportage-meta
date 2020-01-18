@@ -1,0 +1,9 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= configure install prepare
+DEPEND=  ncurses? ( >=sys-libs/ncurses-5.2:0= )  gtk? ( x11-libs/gtk+:2 )  dev-libs/glib:2  nls? ( virtual/libintl )  sdl? (   media-libs/libsdl   media-libs/sdl-mixer  )   virtual/pkgconfig  nls? ( sys-devel/gettext )  
+RDEPEND=  ncurses? ( >=sys-libs/ncurses-5.2:0= )  gtk? ( x11-libs/gtk+:2 )  dev-libs/glib:2  nls? ( virtual/libintl )  sdl? (   media-libs/libsdl   media-libs/sdl-mixer  )  
+EAPI=6
+IUSE=nls ncurses gtk gnome sdl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dopewars/dopewars-1.5.12.tar.gz

@@ -1,0 +1,11 @@
+a3efce6438744c133c063b92989fdc1f
+DEFINED_PHASES= compile configure install postinst postrm preinst
+BDEPEND=  virtual/pkgconfig 
+DEPEND=!dedicated? (   media-libs/libsdl[sound,X,video]   icu? (    dev-libs/icu-layoutex    dev-libs/icu-le-hb    >=dev-libs/icu-58.1:=   )   truetype? (    media-libs/fontconfig    media-libs/freetype:2    sys-libs/zlib:=   )  )  lzo? ( dev-libs/lzo:2 )  iconv? ( virtual/libiconv )  png? (   media-libs/libpng:0   sys-libs/zlib:=  )  zlib? ( sys-libs/zlib:= ) 
+RDEPEND=!dedicated? (   media-libs/libsdl[sound,X,video]   icu? (    dev-libs/icu-layoutex    dev-libs/icu-le-hb    >=dev-libs/icu-58.1:=   )   truetype? (    media-libs/fontconfig    media-libs/freetype:2    sys-libs/zlib:=   )  )  lzo? ( dev-libs/lzo:2 )  iconv? ( virtual/libiconv )  png? (   media-libs/libpng:0   sys-libs/zlib:=  )  zlib? ( sys-libs/zlib:= ) 
+PDEPEND=  !dedicated? (   openmedia? (    games-misc/openmsx    games-misc/opensfx   )   aplaymidi? ( media-sound/alsa-utils )   !aplaymidi? ( timidity? ( media-sound/timidity++ ) )  )  openmedia? ( >=games-misc/opengfx-0.4.7 ) 
+EAPI=7
+IUSE=aplaymidi debug dedicated iconv icu lzo +openmedia +png cpu_flags_x86_sse +timidity +truetype zlib 
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://proxy.binaries.openttd.org/openttd-releases/1.9.1/openttd-1.9.1-source.tar.xz

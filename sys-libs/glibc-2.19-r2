@@ -1,0 +1,10 @@
+afd7b524eddcff4021973be2a3915ffb
+DEFINED_PHASES= compile configure install postinst preinst prepare pretend test unpack
+DEPEND=  nscd? ( selinux? (   audit? ( sys-process/audit )   caps? ( sys-libs/libcap )  ) )  suid? ( caps? ( sys-libs/libcap ) )  selinux? ( sys-libs/libselinux )  systemtap? ( dev-util/systemtap )   >=app-misc/pax-utils-0.1.10  !<sys-devel/bison-2.7  doc? ( sys-apps/texinfo )    >=sys-devel/binutils-2.24   >=sys-devel/gcc-4.9   virtual/os-headers   
+RDEPEND=  nscd? ( selinux? (   audit? ( sys-process/audit )   caps? ( sys-libs/libcap )  ) )  suid? ( caps? ( sys-libs/libcap ) )  selinux? ( sys-libs/libselinux )  systemtap? ( dev-util/systemtap )   sys-apps/gentoo-functions  vanilla? ( !sys-libs/timezone-data ) 
+PDEPEND= !vanilla? ( sys-libs/timezone-data ) 
+EAPI=6
+IUSE=audit caps compile-locales debug doc gd headers-only multilib nscd profile selinux suid systemtap vanilla 
+KEYWORDS=~amd64
+SLOT=2.2
+SRC_URI=mirror://gnu/glibc/glibc-2.19.tar.xz https://dev.gentoo.org/~dilfridge/distfiles/glibc-2.19-patches-9.tar.bz2 multilib? ( https://dev.gentoo.org/~dilfridge/distfiles/gcc-4.7.3-r1-multilib-bootstrap.tar.bz2 )

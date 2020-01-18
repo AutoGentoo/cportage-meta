@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install postinst postrm preinst
+DEPEND=  media-fonts/dejavu  media-libs/quesoglc  media-libs/glpng  virtual/opengl  virtual/glu  x11-libs/libXmu  mixer? ( media-libs/sdl-mixer )  !mixer? (   media-libs/freealut   media-libs/openal  )  nls? ( virtual/libintl )  sdl? (   media-libs/libsdl[X]   media-libs/sdl-image[png]  )  !sdl? ( media-libs/freeglut )  nls? ( sys-devel/gettext ) 
+RDEPEND=  media-fonts/dejavu  media-libs/quesoglc  media-libs/glpng  virtual/opengl  virtual/glu  x11-libs/libXmu  mixer? ( media-libs/sdl-mixer )  !mixer? (   media-libs/freealut   media-libs/openal  )  nls? ( virtual/libintl )  sdl? (   media-libs/libsdl[X]   media-libs/sdl-image[png]  )  !sdl? ( media-libs/freeglut ) 
+EAPI=6
+IUSE=mixer nls +sdl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/chromium-bsu/chromium-bsu-0.9.15.1.tar.gz

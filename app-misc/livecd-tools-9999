@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install setup
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=dev-util/dialog  net-dialup/mingetty  >=sys-apps/baselayout-2  >=sys-apps/openrc-0.8.2-r1  sys-apps/pciutils  sys-apps/gawk  sys-apps/sed  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

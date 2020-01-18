@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+RDEPEND=  app-emulation/docker  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://pypi/e/ebuildtester/ebuildtester-0.1.12.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    virtual/perl-Carp  dev-perl/Params-Util  virtual/perl-Scalar-List-Utils  >=dev-perl/String-Formatter-0.102.81  dev-perl/Sub-Exporter  virtual/perl-Time-Piece  virtual/perl-parent   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/TimeDate   virtual/perl-File-Spec   dev-perl/JSON-MaybeXS   >=virtual/perl-Test-Simple-0.960.0   virtual/perl-autodie  )  
+RDEPEND=  virtual/perl-Carp  dev-perl/Params-Util  virtual/perl-Scalar-List-Utils  >=dev-perl/String-Formatter-0.102.81  dev-perl/Sub-Exporter  virtual/perl-Time-Piece  virtual/perl-parent  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/String-Errf-0.008.tar.gz

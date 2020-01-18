@@ -1,0 +1,9 @@
+ecaa814361418967f4c94e76bcf62a82
+DEFINED_PHASES= configure install prepare
+DEPEND=mpi? ( virtual/mpi ) 
+RDEPEND=mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=mpi static-libs threads 
+KEYWORDS=~amd64
+SLOT=0/1
+SRC_URI=https://gasnet.lbl.gov/download/GASNet-1.26.4.tar.gz

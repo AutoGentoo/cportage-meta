@@ -1,0 +1,10 @@
+2a7e7f9b5bac379e6d09fbe56349cf09
+DEFINED_PHASES= configure install postinst postrm
+BDEPEND=  bpf? ( sys-devel/clang:*[llvm_targets_BPF] )  sys-devel/gettext  virtual/pkgconfig 
+DEPEND=>=media-libs/libv4l-1.16.3[jpeg]  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   opengl? ( dev-qt/qtopengl:5[-gles2(-)] virtual/opengl )   media-libs/alsa-lib  )  virtual/libudev  >=virtual/jpeg-0-r2:0=  bpf? ( virtual/libelf:= )  !media-tv/v4l2-ctl  !<media-tv/ivtv-utils-1.4.0-r2 
+RDEPEND=>=media-libs/libv4l-1.16.3[jpeg]  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   opengl? ( dev-qt/qtopengl:5[-gles2(-)] virtual/opengl )   media-libs/alsa-lib  )  virtual/libudev  >=virtual/jpeg-0-r2:0=  bpf? ( virtual/libelf:= )  !media-tv/v4l2-ctl  !<media-tv/ivtv-utils-1.4.0-r2 
+EAPI=7
+IUSE=+bpf opengl qt5 
+KEYWORDS=amd64 ~arm ~arm64 ~hppa ~ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://linuxtv.org/downloads/v4l-utils/v4l-utils-1.16.3.tar.bz2

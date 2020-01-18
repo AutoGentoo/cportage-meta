@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install prepare
+DEPEND=  x11-libs/libX11  x11-libs/libXt  media-libs/libpng:0=  nls? ( virtual/libintl )   nls? ( sys-devel/gettext )  
+RDEPEND=  x11-libs/libX11  x11-libs/libXt  media-libs/libpng:0=  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.ibiblio.org/pub/mirrors/gnu/ftp/savannah/files/xbubble/xbubble-0.5.8.tar.gz

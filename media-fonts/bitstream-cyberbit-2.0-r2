@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=app-arch/unzip 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=http://freebsd.nsu.ru/distfiles/cyberbit/Cyberbit.ZIP -> bitstream-cyberbit-2.0.zip https://www.minix3.org/distfiles-backup/cyberbit-ttf/Cyberbit.ZIP -> bitstream-cyberbit-2.0.zip http://mirror.uni-c.dk/pub/pkgsrc/distfiles/cyberbit-ttf/Cyberbit.ZIP -> bitstream-cyberbit-2.0.zip

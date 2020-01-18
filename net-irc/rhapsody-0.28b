@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=sys-libs/ncurses-5.0:0= 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/rhapsody/rhapsody_0.28b.tgz

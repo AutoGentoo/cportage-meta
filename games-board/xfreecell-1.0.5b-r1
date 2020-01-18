@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=media-fonts/font-misc-misc  x11-libs/libXext  x11-base/xorg-proto 
+RDEPEND=media-fonts/font-misc-misc  x11-libs/libXext 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://www2.giganet.net/~nakayama/xfreecell-1.0.5b.tgz
+	http://www2.giganet.net/~nakayama/MSNumbers.gz
+	https://dev.gentoo.org/~dilfridge/distfiles/xfreecell-1.0.5b-gcc6.patch.xz

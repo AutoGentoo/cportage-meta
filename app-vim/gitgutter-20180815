@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+RDEPEND=dev-vcs/git 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/airblade/vim-gitgutter/archive/50a7062909d91a290fae04219887b1b45f3138db.tar.gz -> gitgutter-20180815.tar.gz

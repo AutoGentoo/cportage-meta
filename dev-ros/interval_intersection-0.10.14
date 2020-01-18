@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/boost:=[threads]  dev-ros/actionlib  dev-ros/calibration_msgs[ros_messages_cxx(-)]  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/roscpp_serialization  dev-ros/rostime   test? ( dev-cpp/gtest ) 
+RDEPEND=  dev-libs/boost:=[threads]  dev-ros/actionlib  dev-ros/calibration_msgs[ros_messages_cxx(-)]  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/roscpp_serialization  dev-ros/rostime  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros-perception/calibration/archive/0.10.14.tar.gz -> calibration-0.10.14.tar.gz

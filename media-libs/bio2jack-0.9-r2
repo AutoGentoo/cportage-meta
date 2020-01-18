@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  media-libs/libsamplerate  virtual/jack 
+RDEPEND=  media-libs/libsamplerate  virtual/jack 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=alpha amd64 ~arm hppa ~ia64 ppc ppc64 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/bio2jack/bio2jack-0.9.tar.gz

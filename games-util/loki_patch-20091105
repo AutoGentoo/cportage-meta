@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+DEPEND=dev-util/xdelta:0  dev-libs/libxml2  dev-libs/glib:2  virtual/pkgconfig 
+RDEPEND=dev-util/xdelta:0  dev-libs/libxml2  dev-libs/glib:2 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/loki_patch-20091105.tar.bz2
+	mirror://gentoo/loki_setupdb-20091105.tar.bz2

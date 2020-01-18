@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip   
+RDEPEND=>=virtual/jre-1.6   
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~arm64 ppc64 x86 ~amd64-linux ~x86-linux ~x64-macos
+SLOT=1.45
+SRC_URI=http://central.maven.org/maven2/org/bouncycastle/bcprov-jdk16/1.45/bcprov-jdk16-1.45-sources.jar

@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.4  app-arch/unzip:0  dev-java/laf-plugin:0  dev-java/xalan:0 
+RDEPEND=>=virtual/jre-1.4  dev-java/laf-plugin:0  dev-java/xalan:0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://skinlf.dev.java.net/files/documents/66/37801/skinlf-6.7-20060722.zip

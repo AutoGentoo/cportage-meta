@@ -1,0 +1,10 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile configure install prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/boost:=  virtual/pkgconfig  doc? (   app-doc/doxygen   virtual/latex-base  )  test? ( dev-util/cppunit ) 
+RDEPEND=dev-libs/boost:= 
+EAPI=5
+IUSE=doc examples static-libs test 
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=http://people.mech.kuleuven.be/~tdelaet/bfl_tar/orocos-bfl-0.8.0-src.tar.bz2

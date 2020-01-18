@@ -1,0 +1,8 @@
+04f8fd5b64264d837ebc25606b18314f
+DEFINED_PHASES= install nofetch postinst postrm preinst prepare
+RDEPEND=  virtual/glu  virtual/opengl  x11-libs/libX11  x11-libs/libXext  x11-libs/libXi  x11-libs/libXxf86vm  !bundled-libs? (   media-libs/freealut   media-libs/freeglut   media-libs/libogg   media-libs/libvorbis   media-libs/openal   sys-libs/zlib  ) 
+EAPI=5
+IUSE=bundled-libs 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=nightskyhd-linux-1324519044.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install postinst setup
+DEPEND=    net-libs/libpcap  dev-libs/iniparser:=   
+RDEPEND=  net-libs/libpcap  dev-libs/iniparser:=  
+EAPI=6
+IUSE=+filecaps 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/GNS3/ubridge/archive/v0.9.14.tar.gz -> ubridge-0.9.14.tar.gz

@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile install prepare setup
+BDEPEND=>=dev-lang/go-1.10 
+DEPEND=>=dev-lang/go-1.11  dev-util/promu 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prometheus/consul_exporter/archive/v0.4.0.tar.gz -> consul_exporter-0.4.0.tar.gz

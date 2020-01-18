@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/File-Flock-2013.60.0  dev-perl/File-Slurp  virtual/perl-File-Spec  virtual/perl-Getopt-Long  virtual/perl-Text-Tabs+Wrap   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/AnyEvent   dev-perl/Event   dev-perl/Eval-LineNumbers   virtual/perl-Time-HiRes  )  
+RDEPEND=  >=dev-perl/File-Flock-2013.60.0  dev-perl/File-Slurp  virtual/perl-File-Spec  virtual/perl-Getopt-Long  virtual/perl-Text-Tabs+Wrap  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MU/MUIR/modules/Daemon-Generic-0.85.tar.gz

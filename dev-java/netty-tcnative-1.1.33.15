@@ -1,0 +1,9 @@
+3e9ef443e2cfcdfcebd997434a622926
+DEFINED_PHASES= compile configure install
+DEPEND=dev-libs/apr:1=  dev-libs/openssl:0=  >=virtual/jdk-1.7  app-arch/unzip  dev-java/maven-hawtjni-plugin:0 
+RDEPEND=dev-libs/apr:1=  dev-libs/openssl:0=  >=virtual/jre-1.7 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/netty/netty-tcnative/archive/netty-tcnative-1.1.33.Fork15.tar.gz

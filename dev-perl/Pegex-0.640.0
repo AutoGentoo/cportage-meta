@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=   virtual/perl-ExtUtils-MakeMaker  >=dev-perl/File-ShareDir-Install-0.60.0  test? ( dev-perl/YAML-LibYAML )  
+RDEPEND=  
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha amd64 arm ~hppa ~ia64 ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IN/INGY/Pegex-0.64.tar.gz

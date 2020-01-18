@@ -1,0 +1,9 @@
+d323d8ab016b769930311ca8a739be5a
+DEFINED_PHASES= compile prepare
+DEPEND=    dev-java/jdom:0  dev-java/json:0  dev-java/rome:0  dev-java/jtidy:0  dev-java/xerces:2  dev-java/swingx:1.6  dev-java/swing-layout:1  dev-java/swingx-beaninfo:0  dev-java/commons-httpclient:3  dev-java/xml-commons-external:1.4  >=virtual/jdk-1.6  app-arch/unzip 
+RDEPEND=    dev-java/jdom:0  dev-java/json:0  dev-java/rome:0  dev-java/jtidy:0  dev-java/xerces:2  dev-java/swingx:1.6  dev-java/swing-layout:1  dev-java/swingx-beaninfo:0  dev-java/commons-httpclient:3  dev-java/xml-commons-external:1.4  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=bt747
+SRC_URI=mirror://sourceforge/bt747/Development/swingx-ws-2011_05_15-src.zip

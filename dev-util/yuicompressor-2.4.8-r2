@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= install
+DEPEND=    dev-java/jargs:0  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/jargs:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/yui/yuicompressor/archive/v2.4.8.tar.gz -> yuicompressor-2.4.8.tar.gz

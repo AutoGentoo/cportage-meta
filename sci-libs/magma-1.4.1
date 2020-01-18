@@ -1,0 +1,9 @@
+29b57ad64e9effe55493b3b643e4a051
+DEFINED_PHASES= compile configure install prepare setup test
+DEPEND=  dev-util/nvidia-cuda-toolkit  virtual/cblas  virtual/lapack  virtual/pkgconfig  test? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) ) 
+RDEPEND=  dev-util/nvidia-cuda-toolkit  virtual/cblas  virtual/lapack 
+EAPI=5
+IUSE=fermi kepler static-libs test 
+KEYWORDS=~amd64 ~amd64-linux
+SLOT=0
+SRC_URI=http://icl.cs.utk.edu/projectsfiles/magma/downloads/magma-1.4.1.tar.gz

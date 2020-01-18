@@ -1,0 +1,8 @@
+4677c3825604b7da879093b5be457815
+DEFINED_PHASES= postinst
+RDEPEND=  dev-python/twisted-core[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/whisper[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/txAMQP[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://pypi/c/carbon/carbon-0.9.13.tar.gz

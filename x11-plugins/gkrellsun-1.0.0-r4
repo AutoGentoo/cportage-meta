@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=app-admin/gkrellm:2[X]  nls? ( sys-devel/gettext ) 
+RDEPEND=app-admin/gkrellm:2[X] 
+EAPI=6
+IUSE=nls 
+KEYWORDS=alpha amd64 hppa ia64 ppc sparc x86
+SLOT=1
+SRC_URI=mirror://sourceforge/gkrellsun/gkrellsun-1.0.0.tar.gz

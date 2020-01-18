@@ -1,0 +1,8 @@
+0c8a5185edb5a6ad3b68d0e2cdddf507
+DEFINED_PHASES= configure install postinst setup
+DEPEND=  dev-libs/openssl:0=  pam? ( sys-libs/pam ) 
+EAPI=5
+IUSE=+pam 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/shellinabox/shellinabox/archive/v2.20.zip -> shellinabox-2.20.zip

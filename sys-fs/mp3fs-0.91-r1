@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=sys-fs/fuse:0=  media-libs/libid3tag:=  media-libs/flac:=  media-sound/lame  media-libs/libogg 
+RDEPEND=sys-fs/fuse:0=  media-libs/libid3tag:=  media-libs/flac:=  media-sound/lame  media-libs/libogg 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/khenriks/mp3fs/releases/download/v0.91/mp3fs-0.91.tar.gz

@@ -1,0 +1,9 @@
+2c2885cc4bc96ea9a0169c7bbb1ee7dd
+DEFINED_PHASES= compile install
+DEPEND=  dev-libs/expat  media-libs/libsndfile  doc? ( dev-lang/php:* )  jack? (   virtual/jack   x11-libs/cairo[X]  )  ladspa? ( media-libs/ladspa-sdk )  lv2? (   media-libs/lv2   x11-libs/cairo[X]  )  
+RDEPEND=  dev-libs/expat  media-libs/libsndfile  doc? ( dev-lang/php:* )  jack? (   virtual/jack   x11-libs/cairo[X]  )  ladspa? ( media-libs/ladspa-sdk )  lv2? (   media-libs/lv2   x11-libs/cairo[X]  )  
+EAPI=7
+IUSE=doc jack ladspa +lv2 
+KEYWORDS=
+SLOT=0
+SRC_URI=

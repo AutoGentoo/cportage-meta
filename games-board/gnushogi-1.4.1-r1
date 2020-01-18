@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=sys-libs/ncurses:0  X? ( x11-libs/libXaw )  >=sys-devel/bison-1.34  >=sys-devel/flex-2.5 
+RDEPEND=sys-libs/ncurses:0  X? ( x11-libs/libXaw ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gnu/gnushogi/gnushogi-1.4.1.tar.gz

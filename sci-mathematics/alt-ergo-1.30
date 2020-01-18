@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/ocaml-3.12.1[ocamlopt?]  dev-ml/zarith  gtk? ( >=dev-ml/lablgtk-2.14[sourceview,ocamlopt?] )  dev-ml/camlzip  <=dev-ml/ocplib-simplex-0.3 
+RDEPEND=>=dev-lang/ocaml-3.12.1[ocamlopt?]  dev-ml/zarith  gtk? ( >=dev-ml/lablgtk-2.14[sourceview,ocamlopt?] )  dev-ml/camlzip  <=dev-ml/ocplib-simplex-0.3 
+EAPI=6
+IUSE=examples gtk +ocamlopt 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://alt-ergo.ocamlpro.com/http/alt-ergo-1.30/alt-ergo-1.30.tar.gz

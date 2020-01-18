@@ -1,0 +1,10 @@
+2082777ff41e54d09d5268dc293e6cae
+DEFINED_PHASES= compile configure install postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/bzip2  media-libs/libsamplerate  media-libs/libsdl[X,sound,opengl,video]  media-libs/libsndfile  media-libs/sdl-mixer[vorbis]  net-libs/miniupnpc  virtual/libiconv  virtual/opengl   sys-devel/gettext  
+RDEPEND=  app-arch/bzip2  media-libs/libsamplerate  media-libs/libsdl[X,sound,opengl,video]  media-libs/libsndfile  media-libs/sdl-mixer[vorbis]  net-libs/miniupnpc  virtual/libiconv  virtual/opengl  
+EAPI=6
+IUSE=debug 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~hasufell/distfiles/s25rttr-0.8.1.tar.xz

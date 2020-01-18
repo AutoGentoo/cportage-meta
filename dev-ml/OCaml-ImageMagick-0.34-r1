@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=media-gfx/imagemagick-7:=  dev-lang/ocaml:=[ocamlopt] 
+RDEPEND=>=media-gfx/imagemagick-7:=  dev-lang/ocaml:=[ocamlopt] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/70.34
+SRC_URI=http://www.linux-nantes.org/~fmonnier/OCaml/ImageMagick/ImageMagick/OCaml-ImageMagick-0.34.tgz
+	mirror://gentoo/OCaml-ImageMagick-0.34-imagemagick7.patch.bz2
+

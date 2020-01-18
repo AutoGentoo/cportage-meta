@@ -1,0 +1,8 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= install postinst
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygame[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  x11-apps/xrandr  app-text/mupdf  || ( media-fonts/dejavu media-fonts/corefonts ) 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/impressive/Impressive/0.12.0/Impressive-0.12.0.tar.gz

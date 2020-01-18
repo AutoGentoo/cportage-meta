@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/HTML-Parser-3.25  dev-perl/Module-Build  virtual/perl-Test-Simple  dev-perl/Sub-Override 
+RDEPEND=>=dev-perl/HTML-Parser-3.25 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ia64 ppc ~ppc64 sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/O/OV/OVID/HTML-TokeParser-Simple-3.16.tar.gz

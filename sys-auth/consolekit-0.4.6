@@ -1,0 +1,10 @@
+21bc56fc9ae5333c284c6923382b81c5
+DEFINED_PHASES= configure install prepare setup
+DEPEND=>=dev-libs/dbus-glib-0.100:=  >=dev-libs/glib-2.38.2-r1:2=  sys-libs/zlib:=  x11-libs/libX11:=  acl? (   sys-apps/acl:=   >=virtual/udev-200   )  pam? ( sys-libs/pam )  policykit? ( >=sys-auth/polkit-0.110 )  dev-libs/libxslt  virtual/pkgconfig  doc? ( app-text/xmlto )  test? (   app-text/docbook-xml-dtd:4.1.2   app-text/xmlto   ) 
+RDEPEND=>=dev-libs/dbus-glib-0.100:=  >=dev-libs/glib-2.38.2-r1:2=  sys-libs/zlib:=  x11-libs/libX11:=  acl? (   sys-apps/acl:=   >=virtual/udev-200   )  pam? ( sys-libs/pam )  policykit? ( >=sys-auth/polkit-0.110 )  kernel_linux? ( sys-apps/coreutils[acl?] )  selinux? ( sec-policy/selinux-consolekit ) 
+EAPI=5
+IUSE=acl debug doc kernel_linux pam policykit selinux systemd-units test 
+KEYWORDS=alpha amd64 arm ~arm64 ~hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://www.freedesktop.org/software/ConsoleKit/dist/ConsoleKit-0.4.6.tar.xz
+	https://launchpad.net/debian/+archive/primary/+files/consolekit_0.4.6-4.debian.tar.gz

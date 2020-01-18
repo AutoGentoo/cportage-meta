@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=>=dev-lang/go-1.10 
+DEPEND=>=dev-lang/go-1.9:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/outbrain/zookeepercli/archive/v1.0.12.tar.gz -> zookeepercli-1.0.12.tar.gz
+	 https://github.com/outbrain/golib/archive/ab954725f502c2be1491afadbbc66da2f99a45ae.tar.gz -> github.com-outbrain-golib-ab954725f502c2be1491afadbbc66da2f99a45ae.tar.gz https://github.com/samuel/go-zookeeper/archive/c4fab1ac1bec58281ad0667dc3f0907a9476ac47.tar.gz -> github.com-samuel-go-zookeeper-c4fab1ac1bec58281ad0667dc3f0907a9476ac47.tar.gz

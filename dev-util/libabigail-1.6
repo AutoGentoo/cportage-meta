@@ -1,0 +1,10 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= prepare
+BDEPEND=  doc? (   app-doc/doxygen   dev-python/sphinx   sys-apps/texinfo  )  test? ( || ( dev-lang/python:3.8 dev-lang/python:3.7 ) ) 
+DEPEND=  dev-libs/elfutils:=  dev-libs/libxml2:2= 
+RDEPEND=  dev-libs/elfutils:=  dev-libs/libxml2:2= 
+EAPI=7
+IUSE=doc test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://mirrors.kernel.org/sourceware/libabigail/libabigail-1.6.tar.gz

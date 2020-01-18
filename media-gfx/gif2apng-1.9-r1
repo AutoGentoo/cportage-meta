@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=sys-libs/zlib  app-arch/zopfli:=  app-arch/unzip 
+RDEPEND=sys-libs/zlib  app-arch/zopfli:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gif2apng/1.9/gif2apng-1.9-src.zip

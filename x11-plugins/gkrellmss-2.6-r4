@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=  app-admin/gkrellm:2[X]  media-libs/alsa-lib  sci-libs/fftw:3.0= 
+RDEPEND=  app-admin/gkrellm:2[X]  media-libs/alsa-lib  sci-libs/fftw:3.0= 
+EAPI=6
+IUSE=nls 
+KEYWORDS=~alpha amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=http://web.wt.net/~billw/gkrellmss/gkrellmss-2.6.tar.gz

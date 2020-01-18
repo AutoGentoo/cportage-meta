@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=media-libs/imlib2[X]  x11-libs/libX11  x11-libs/libXext  media-fonts/corefonts  >=media-libs/freetype-2 
+RDEPEND=media-libs/imlib2[X]  x11-libs/libX11  x11-libs/libXext  media-fonts/corefonts  >=media-libs/freetype-2 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://www.dockapps.net/download/wmhdplop-0.9.10.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=>=app-antivirus/clamav-0.90 
+RDEPEND=>=app-antivirus/clamav-0.90 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ia64 ~ppc x86
+SLOT=0
+SRC_URI=https://xael.org/norman/python/pyclamav/pyclamav-0.4.1.tar.gz

@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure install setup
+DEPEND=    !>=sys-apps/kbd-2.0.4-r1[pam]  pam? ( sys-libs/pam )  test? ( dev-util/cunit ) 
+RDEPEND=  !>=sys-apps/kbd-2.0.4-r1[pam]  pam? ( sys-libs/pam ) 
+EAPI=6
+IUSE=pam test 
+KEYWORDS=alpha amd64 ~arm hppa ia64 ~mips ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/WorMzy/vlock/archive/f2afd55704bfe0a2d66e6b270d247e9b8a7b1664.tar.gz -> vlock-2.2.3.tar.gz

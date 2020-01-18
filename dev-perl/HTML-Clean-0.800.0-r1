@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=!<app-text/html-xml-utils-5.3 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc ppc64 s390 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/L/LI/LINDNER/HTML-Clean-0.8.tar.gz

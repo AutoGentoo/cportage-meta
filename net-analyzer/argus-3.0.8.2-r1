@@ -1,0 +1,9 @@
+5614ed9fd86e4579ca123509b1e2ae39
+DEFINED_PHASES= compile configure install postinst preinst prepare
+DEPEND=    net-libs/libnsl:=  net-libs/libpcap  sys-libs/zlib  !libtirpc? ( sys-libs/glibc[rpc(-)] )  libtirpc? ( net-libs/libtirpc )  sasl? ( dev-libs/cyrus-sasl )  tcpd? ( >=sys-apps/tcp-wrappers-7.6 )   >=sys-devel/bison-1.28  >=sys-devel/flex-2.4.6  
+RDEPEND=  net-libs/libnsl:=  net-libs/libpcap  sys-libs/zlib  !libtirpc? ( sys-libs/glibc[rpc(-)] )  libtirpc? ( net-libs/libtirpc )  sasl? ( dev-libs/cyrus-sasl )  tcpd? ( >=sys-apps/tcp-wrappers-7.6 )  
+EAPI=5
+IUSE=debug +libtirpc sasl tcpd 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=https://www.qosient.com/argus/dev/argus-3.0.8.2.tar.gz

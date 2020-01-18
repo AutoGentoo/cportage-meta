@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=x11-libs/goocanvas:0  dev-perl/Gtk2  dev-perl/glib-perl  dev-perl/Cairo  dev-perl/ExtUtils-Depends  dev-perl/ExtUtils-PkgConfig 
+RDEPEND=x11-libs/goocanvas:0  dev-perl/Gtk2  dev-perl/glib-perl  dev-perl/Cairo 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Y/YE/YEWENBIN/Goo-Canvas-0.06.tar.gz

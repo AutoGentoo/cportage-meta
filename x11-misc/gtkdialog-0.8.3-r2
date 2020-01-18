@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=    x11-libs/gtk+:2  glade? ( gnome-base/libglade )  vte? ( x11-libs/vte:0= )   virtual/pkgconfig  sys-devel/flex  virtual/yacc  
+RDEPEND=  x11-libs/gtk+:2  glade? ( gnome-base/libglade )  vte? ( x11-libs/vte:0= )  
+EAPI=6
+IUSE=glade vte 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://gtkdialog.googlecode.com/files/gtkdialog-0.8.3.tar.gz

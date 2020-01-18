@@ -1,0 +1,10 @@
+ad7582fec6120357366ebfd2877c681f
+DEFINED_PHASES= configure install prepare
+DEPEND=>=x11-libs/gtk+-2.18:2  >=dev-libs/glib-2.34:2  >=x11-libs/libXrandr-1.2  >=gnome-base/gconf-2:2  >=x11-libs/startup-notification-0.5  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-util/gtk-doc-am  >=dev-util/intltool-0.40  virtual/pkgconfig  >=app-text/gnome-doc-utils-0.3.2  ~app-text/docbook-xml-dtd-4.1.2  x11-base/xorg-proto  
+RDEPEND=>=x11-libs/gtk+-2.18:2  >=dev-libs/glib-2.34:2  >=x11-libs/libXrandr-1.2  >=gnome-base/gconf-2:2  >=x11-libs/startup-notification-0.5  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
+PDEPEND=>=dev-python/pygtk-2.8:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pygobject-2.14:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  license-docs? ( gnome-base/gnome-desktop:3[doc(+)] )  
+EAPI=5
+IUSE=license-docs 
+KEYWORDS=alpha amd64 arm ia64 ppc ppc64 ~sh sparc x86 ~amd64-linux ~x86-linux ~x86-solaris
+SLOT=2
+SRC_URI=mirror://gnome/sources/gnome-desktop/2.32/gnome-desktop-2.32.1.tar.bz2

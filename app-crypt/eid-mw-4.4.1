@@ -1,0 +1,9 @@
+5b326f74eadfe9dfbf7101b405188380
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=>=sys-apps/pcsc-lite-1.2.9  gtk? (   x11-libs/gdk-pixbuf[jpeg]   x11-libs/gtk+:*   dev-libs/libxml2   net-misc/curl[ssl]   net-libs/libproxy   !app-misc/eid-viewer-bin  )  p11-kit? ( app-crypt/p11-kit )  virtual/pkgconfig 
+RDEPEND=>=sys-apps/pcsc-lite-1.2.9  gtk? (   x11-libs/gdk-pixbuf[jpeg]   x11-libs/gtk+:*   dev-libs/libxml2   net-misc/curl[ssl]   net-libs/libproxy   !app-misc/eid-viewer-bin  )  p11-kit? ( app-crypt/p11-kit ) 
+EAPI=6
+IUSE=+dialogs +gtk p11-kit 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://codeload.github.com/fedict/eid-mw/tar.gz/v4.4.1 -> eid-mw-4.4.1.tar.gz

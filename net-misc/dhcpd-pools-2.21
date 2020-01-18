@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= configure
+DEPEND=dev-libs/uthash  doc? ( app-doc/doxygen ) 
+EAPI=5
+IUSE=doc 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/dhcpd-pools/dhcpd-pools-2.21.tar.xz

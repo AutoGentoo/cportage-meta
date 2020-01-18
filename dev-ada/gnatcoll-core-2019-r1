@@ -1,0 +1,10 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-ada/libgpr[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,shared?,static-libs?,static-pic?]  !dev-ada/gnatcoll  dev-ada/gprbuild[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?] 
+RDEPEND=  dev-ada/libgpr[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,shared?,static-libs?,static-pic?]  !dev-ada/gnatcoll 
+EAPI=7
+IUSE=+shared static-libs static-pic 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5cdf8ae231e87a8f1d425052
+	-> gnatcoll-core-2019-20190515-24AD8-src.tar.gz

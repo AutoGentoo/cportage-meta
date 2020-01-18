@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+BDEPEND=dev-lang/perl 
+DEPEND=net-libs/libpcap  dev-perl/IO-Interface 
+RDEPEND=net-libs/libpcap  dev-perl/IO-Interface 
+EAPI=7
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SAPER/Net-Pcap-0.18.tar.gz

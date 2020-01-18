@@ -1,0 +1,11 @@
+af90ef84b5c8e6b3e61520dcc1baa661
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=virtual/jpeg  input-uvc? ( media-libs/libv4l )  input-testpicture? ( media-gfx/imagemagick ) 
+RDEPEND=virtual/jpeg  input-uvc? ( media-libs/libv4l ) 
+EAPI=7
+IUSE=input-testpicture input-control +input-file input-uvc output-file
+	output-udp +output-http output-autofocus output-rtsp
+	www 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~aidecoe/distfiles/media-video/mjpg-streamer/mjpg-streamer-0_pre20120621.tar.bz2

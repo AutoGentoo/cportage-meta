@@ -1,0 +1,10 @@
+a372610cb2882bda56d75cceb4af63b7
+DEFINED_PHASES= configure install postinst
+BDEPEND=  doc? ( app-doc/doxygen )  
+DEPEND=  dev-libs/libbsd:=  dev-libs/libyaml:=  idn? ( net-dns/libidn2:= )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  libev? ( dev-libs/libev:= )  libevent? ( dev-libs/libevent:= )  libuv? ( dev-libs/libuv:= )  unbound? ( >=net-dns/unbound-1.4.16:= )  
+RDEPEND=    dev-libs/libbsd:=  dev-libs/libyaml:=  idn? ( net-dns/libidn2:= )  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  libev? ( dev-libs/libev:= )  libevent? ( dev-libs/libevent:= )  libuv? ( dev-libs/libuv:= )  unbound? ( >=net-dns/unbound-1.4.16:= )   stubby? ( sys-libs/libcap:= )  
+EAPI=7
+IUSE=doc +getdns-query +getdns-server-mon +idn libev libevent libressl libuv static-libs stubby +threads +unbound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://getdnsapi.net/releases/getdns-1-5-1/getdns-1.5.1.tar.gz

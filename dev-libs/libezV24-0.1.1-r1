@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+EAPI=7
+IUSE=
+KEYWORDS=~alpha amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ezv24/libezV24-0.1.1.tar.gz

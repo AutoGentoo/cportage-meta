@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm prepare
+DEPEND=app-i18n/freewnn  x11-libs/gtk+:2  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=app-i18n/freewnn  x11-libs/gtk+:2 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://bonobo.gnome.gr.jp/~nakai/immodule/im-freewnn-0.0.2.tar.gz

@@ -1,0 +1,8 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= install postinst setup
+RDEPEND=  dev-lang/php[apache2,cli,gd,mysql?,postgres?,session,snmp,sockets,wddx]  dev-php/PEAR-PEAR  media-gfx/graphviz  media-libs/gd  net-analyzer/fping  net-analyzer/net-snmp  net-analyzer/nmap  net-analyzer/rrdtool[graph]  sys-apps/diffutils  
+EAPI=6
+IUSE=mysql postgres snmp 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jffnms/jffnms-0.9.4.tgz

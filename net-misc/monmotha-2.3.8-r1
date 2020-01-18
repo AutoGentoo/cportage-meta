@@ -1,0 +1,8 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= install postinst unpack
+RDEPEND=>=net-firewall/iptables-1.2.5 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=http://monmotha.mplug.org/~monmotha/firewall/firewall/2.3/rc.firewall-2.3.8

@@ -1,0 +1,10 @@
+60d9e729834b81fddcbf997e1c4a01fd
+DEFINED_PHASES= configure install setup
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  virtual/fortran  X? ( x11-libs/fltk:1 )  blas? ( virtual/blas virtual/lapack sci-libs/fftw:3.0 )  cgns? ( sci-libs/cgnslib )  jpeg? ( virtual/jpeg:0 )  lua? ( dev-lang/lua:0 )  med? ( sci-libs/med )  opencascade? ( sci-libs/opencascade:* )  png? ( media-libs/libpng:0 )  petsc? ( sci-mathematics/petsc )  zlib? ( sys-libs/zlib )  mpi? ( virtual/mpi[cxx] )  || ( >=dev-lang/python-2.7.5-r2:2.7 )  virtual/pkgconfig  python? ( dev-lang/swig:0 )   
+RDEPEND=  virtual/fortran  X? ( x11-libs/fltk:1 )  blas? ( virtual/blas virtual/lapack sci-libs/fftw:3.0 )  cgns? ( sci-libs/cgnslib )  jpeg? ( virtual/jpeg:0 )  lua? ( dev-lang/lua:0 )  med? ( sci-libs/med )  opencascade? ( sci-libs/opencascade:* )  png? ( media-libs/libpng:0 )  petsc? ( sci-mathematics/petsc )  zlib? ( sys-libs/zlib )  mpi? ( virtual/mpi[cxx] ) 
+EAPI=7
+IUSE=blas cgns examples jpeg lua med metis mpi netgen opencascade petsc png python X zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.geuz.org/gmsh/src/gmsh-4.4.1-source.tgz

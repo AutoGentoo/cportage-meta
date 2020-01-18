@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  >=dev-libs/elfutils-0.158   virtual/pkgconfig  
+RDEPEND=python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  >=dev-libs/elfutils-0.158  
+EAPI=6
+IUSE=python 
+KEYWORDS=amd64 x86
+SLOT=0/3
+SRC_URI=https://github.com/abrt/satyr/archive/0.26/satyr-0.26.tar.gz

@@ -1,0 +1,9 @@
+708a8ffe92bdb050c5f8ac03cac95354
+DEFINED_PHASES= compile configure install
+DEPEND=>=virtual/jdk-1.7  >=dev-java/ant-core-1.7.0:0  >=dev-java/jflex-1.6.1:0 
+RDEPEND=>=virtual/jre-1.7 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://www2.cs.tum.edu/projects/cup/releases/java-cup-src-11b-20151001.tar.gz

@@ -1,0 +1,10 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/freeglut  x11-libs/libXmu  png? ( media-libs/libpng:0= )  zlib? ( sys-libs/zlib )  doc? (   dev-tex/tth   dev-texlive/texlive-latex   dev-texlive/texlive-latexrecommended ) 
+RDEPEND=  media-libs/freeglut  x11-libs/libXmu  png? ( media-libs/libpng:0= )  zlib? ( sys-libs/zlib ) 
+EAPI=6
+IUSE=doc png zlib 
+KEYWORDS=amd64 ~arm hppa ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=http://geuz.org/gl2ps/src/gl2ps-1.3.9.tgz

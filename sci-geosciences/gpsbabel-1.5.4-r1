@@ -1,0 +1,11 @@
+864f6951f0cfbe54c8175ef26556321b
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/expat  dev-qt/qtcore:5  sci-libs/shapelib:=  sys-libs/zlib[minizip]  virtual/libusb:0  gui? (   dev-qt/qtgui:5   dev-qt/qtnetwork:5   dev-qt/qtwebchannel:5   dev-qt/qtwebengine:5[widgets]   dev-qt/qtwidgets:5   dev-qt/qtxml:5  )   doc? (   app-text/docbook-xml-dtd:4.1.2   dev-lang/perl   dev-libs/libxslt  )  gui? ( dev-qt/linguist-tools:5 )  
+RDEPEND=  dev-libs/expat  dev-qt/qtcore:5  sci-libs/shapelib:=  sys-libs/zlib[minizip]  virtual/libusb:0  gui? (   dev-qt/qtgui:5   dev-qt/qtnetwork:5   dev-qt/qtwebchannel:5   dev-qt/qtwebengine:5[widgets]   dev-qt/qtwidgets:5   dev-qt/qtxml:5  )  
+EAPI=6
+IUSE=doc +gui 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~asturm/gpsbabel-1.5.4.tar.gz
+	doc? ( https://www.gpsbabel.org/style3.css -> gpsbabel.org-style3.css )

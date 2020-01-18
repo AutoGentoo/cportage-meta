@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=>=net-analyzer/icinga2-2.4.0  >=www-apps/icingaweb2-2.5.0 
+RDEPEND=>=net-analyzer/icinga2-2.4.0  >=www-apps/icingaweb2-2.5.0 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

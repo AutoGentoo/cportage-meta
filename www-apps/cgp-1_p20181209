@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install postinst
+DEPEND=>=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=  dev-lang/php[json]  net-analyzer/rrdtool[graph]  virtual/httpd-php  
+EAPI=6
+IUSE=vhosts 
+KEYWORDS=amd64 x86
+SLOT=1_p20181209
+SRC_URI=https://github.com/pommi/CGP/archive/72acfcbffd51da1e77a56517618da68252485ed6.tar.gz -> cgp-1_p20181209.tar.gz

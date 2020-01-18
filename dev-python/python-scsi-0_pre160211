@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/rosjat/python-scsi/archive/957e5538d8d441fb792db6fbbdc0a5e8d57d9c7d.zip -> python-scsi-0_pre160211.zip

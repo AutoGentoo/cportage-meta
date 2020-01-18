@@ -1,0 +1,10 @@
+6518ed480c31919fc943085c347d594a
+DEFINED_PHASES= configure
+BDEPEND=virtual/pkgconfig 
+DEPEND=    dev-libs/hidapi:=  virtual/udev  test? ( >=dev-cpp/catch-2.5.0:0 ) 
+RDEPEND=  dev-libs/hidapi:=  virtual/udev 
+EAPI=7
+IUSE=test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

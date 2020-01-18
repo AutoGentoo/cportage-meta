@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  dev-libs/protobuf:=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  >=net-libs/libpcap-1.8.1-r2  
+RDEPEND=  dev-libs/protobuf:=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtscript:5  dev-qt/qtwidgets:5  >=net-libs/libpcap-1.8.1-r2  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=https://github.com/pstavirs/ostinato/archive/9a4e7e7550c6b20a8f0f1393a55036492c1b7703.tar.gz -> ostinato-0.9_p20180522.tar.gz

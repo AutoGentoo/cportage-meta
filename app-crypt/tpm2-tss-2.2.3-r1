@@ -1,0 +1,10 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= configure install setup
+BDEPEND=virtual/pkgconfig  doc? ( app-doc/doxygen ) 
+DEPEND=gcrypt? ( dev-libs/libgcrypt:0= )  openssl? ( dev-libs/openssl:0= )  acct-group/tss  acct-user/tss  test? ( dev-util/cmocka ) 
+RDEPEND=gcrypt? ( dev-libs/libgcrypt:0= )  openssl? ( dev-libs/openssl:0= ) 
+EAPI=7
+IUSE=doc +gcrypt openssl static-libs test 
+KEYWORDS=~amd64
+SLOT=0/0
+SRC_URI=https://github.com/tpm2-software/tpm2-tss/releases/download/2.2.3/tpm2-tss-2.2.3.tar.gz

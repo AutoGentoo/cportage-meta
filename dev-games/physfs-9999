@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES=-
+BDEPEND=doc? ( app-doc/doxygen ) 
+DEPEND=dev-vcs/mercurial 
+EAPI=7
+IUSE=7zip doc grp hog iso mvl qpak slb static-libs vdf wad +zip 
+KEYWORDS=
+SLOT=0
+SRC_URI=

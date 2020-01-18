@@ -1,0 +1,9 @@
+9ed652d5f4a5905a96075181caf39777
+DEFINED_PHASES= compile configure install postinst setup
+DEPEND=idoutils? ( dev-db/libdbi-drivers[mysql?,postgres?] )  perl? ( dev-lang/perl:= )  virtual/mailx  web? (   media-libs/gd[jpeg,png]   lighttpd? ( www-servers/lighttpd )  )  !net-analyzer/nagios-core apache2? ( =www-servers/apache-2* ) 
+RDEPEND=idoutils? ( dev-db/libdbi-drivers[mysql?,postgres?] )  perl? ( dev-lang/perl:= )  virtual/mailx  web? (   media-libs/gd[jpeg,png]   lighttpd? ( www-servers/lighttpd )  )  !net-analyzer/nagios-core  plugins? ( || (   net-analyzer/monitoring-plugins   net-analyzer/nagios-plugins  ) ) apache2? ( =www-servers/apache-2* ) 
+EAPI=6
+IUSE=+apache2 contrib eventhandler +idoutils lighttpd +mysql perl +plugins postgres ssl +vim-syntax +web apache2 
+KEYWORDS=amd64 ~arm ~hppa ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/icinga/icinga-core/archive/v1.14.2/icinga-1.14.2.tar.gz

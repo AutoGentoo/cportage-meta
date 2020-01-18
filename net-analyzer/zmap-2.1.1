@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/gmp:0  net-libs/libpcap  dev-libs/json-c:=  mongo? ( dev-db/mongodb )  redis? ( dev-libs/hiredis )  dev-util/gengetopt  sys-devel/flex  dev-util/byacc 
+RDEPEND=  dev-libs/gmp:0  net-libs/libpcap  dev-libs/json-c:=  mongo? ( dev-db/mongodb )  redis? ( dev-libs/hiredis ) 
+EAPI=6
+IUSE=json mongo redis 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/zmap/zmap/archive/v2.1.1.tar.gz -> zmap-2.1.1.tar.gz

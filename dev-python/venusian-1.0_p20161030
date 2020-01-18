@@ -1,0 +1,9 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES=-
+DEPEND=    dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? ( dev-python/nose[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   >=dev-python/nose-exclude-0.1.9[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )   
+RDEPEND=   
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Pylons/venusian/archive/ec4032596e3aec987ba29b62cac701608ef3b523.zip -> venusian-1.0_p20161030.zip

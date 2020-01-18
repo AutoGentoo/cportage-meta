@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/cv_bridge[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  media-libs/opencv:=  dev-ros/image_transport  dev-ros/rqt_gui[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-ros/rqt_gui_cpp-0.3  dev-ros/sensor_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-qt/qtwidgets:5  dev-libs/boost:=  dev-libs/console_bridge:=  
+RDEPEND=  dev-ros/cv_bridge[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  media-libs/opencv:=  dev-ros/image_transport  dev-ros/rqt_gui[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-ros/rqt_gui_cpp-0.3  dev-ros/sensor_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-qt/qtwidgets:5  dev-libs/boost:=  dev-libs/console_bridge:=  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

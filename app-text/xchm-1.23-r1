@@ -1,0 +1,9 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= install postinst postrm prepare
+DEPEND=>=dev-libs/chmlib-0.36  x11-libs/wxGTK:3.0[X] 
+RDEPEND=>=dev-libs/chmlib-0.36  x11-libs/wxGTK:3.0[X] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/xchm/xchm-1.23.tar.gz

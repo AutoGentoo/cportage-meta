@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install prepare setup
+BDEPEND=>=dev-lang/go-1.10 
+DEPEND=dev-util/promu 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/percona/mongodb_exporter/archive/v0.6.2.tar.gz -> mongodb_exporter-0.6.2.tar.gz

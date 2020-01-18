@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND==dev-lisp/cl-ppcre-2.0.11   dev-lisp/cl-unicode 
+PDEPEND=virtual/commonlisp 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc ~sparc x86
+SLOT=0
+SRC_URI=https://github.com/edicl/cl-ppcre/archive/v2.0.11.tar.gz -> cl-ppcre-2.0.11.tar.gz

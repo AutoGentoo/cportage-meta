@@ -1,0 +1,9 @@
+5c20cb564da57469de7970576479a662
+DEFINED_PHASES= compile configure install prepare setup
+DEPEND=  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  ruby? ( dev-lang/ruby:* )   doc? ( app-doc/doxygen )  python? ( dev-lang/swig:0 )  ruby? ( dev-lang/swig:0 )  
+RDEPEND=  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  ruby? ( dev-lang/ruby:* )  
+EAPI=6
+IUSE=doc python ruby static-libs 
+KEYWORDS=amd64 arm arm64 ia64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris
+SLOT=0
+SRC_URI=http://download.osgeo.org/geos/geos-3.7.2.tar.bz2

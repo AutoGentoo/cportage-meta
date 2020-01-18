@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=dev-vcs/subversion  dev-libs/libpcre  sys-libs/gdbm  dev-libs/apr-util  dev-util/ctags 
+RDEPEND=dev-vcs/subversion  dev-libs/libpcre  sys-libs/gdbm  dev-libs/apr-util  dev-util/ctags 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.fsvs-software.org/fsvs-1.2.5.tar.bz2

@@ -1,0 +1,15 @@
+e6691526fa14cc5044234727f5854d92
+DEFINED_PHASES= install prepare unpack
+DEPEND=app-arch/unzip 
+RDEPEND=>=games-engines/scummvm-1.1 
+EAPI=6
+IUSE=l10n_cs l10n_de l10n_en l10n_pl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	l10n_cs? ( http://www.ucw.cz/draci-historie/binary/dh-cz-2012.zip )
+	l10n_de? ( http://www.ucw.cz/draci-historie/binary/dh-de-2012.zip )
+	l10n_en? ( http://www.ucw.cz/draci-historie/binary/dh-en-2012.zip )
+	l10n_pl? ( http://www.ucw.cz/draci-historie/binary/dh-pl-2012.zip )
+	!l10n_cs? ( !l10n_de? ( !l10n_en? ( !l10n_pl? ( http://www.ucw.cz/draci-historie/binary/dh-en-2012.zip ) ) ) )
+

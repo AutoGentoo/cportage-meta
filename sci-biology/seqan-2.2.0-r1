@@ -1,0 +1,10 @@
+1a90872e13a62904384e54c4a42d857a
+DEFINED_PHASES= compile configure install prepare setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    app-arch/bzip2  sys-libs/zlib  !!sci-biology/seqan:2.0  !!sci-biology/seqan:2.1  !!sci-biology/seqan:2.2  doc? (   || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/sphinx[python_targets_python2_7(-),python_single_target_python2_7(+)] ) )   || ( >=dev-lang/python-2.7.5-r2:2.7 )  )  test? (   || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/nose[python_targets_python2_7(-),python_single_target_python2_7(+)] ) )   || ( >=dev-lang/python-2.7.5-r2:2.7 )  ) 
+RDEPEND=  app-arch/bzip2  sys-libs/zlib  !!sci-biology/seqan:2.0  !!sci-biology/seqan:2.1  !!sci-biology/seqan:2.2 
+EAPI=6
+IUSE=cpu_flags_x86_sse4_1 doc test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://packages.seqan.de/seqan-src/seqan-src-2.2.0.tar.gz

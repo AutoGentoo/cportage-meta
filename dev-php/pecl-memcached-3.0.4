@@ -1,0 +1,9 @@
+5e42bc20f8986c4f1de8e5473b823f43
+DEFINED_PHASES= configure install prepare
+DEPEND=  php_targets_php7-0? (   >=dev-libs/libmemcached-1.0.14[sasl?]  sys-libs/zlib  igbinary? ( dev-php/igbinary[php_targets_php7-0?,php_targets_php7-1?,php_targets_php7-2?] )  dev-lang/php:7.0[session?,json?]  )  php_targets_php7-1? (   >=dev-libs/libmemcached-1.0.14[sasl?]  sys-libs/zlib  igbinary? ( dev-php/igbinary[php_targets_php7-0?,php_targets_php7-1?,php_targets_php7-2?] )  dev-lang/php:7.1[session?,json?]  )  php_targets_php7-2? (   >=dev-libs/libmemcached-1.0.14[sasl?]  sys-libs/zlib  igbinary? ( dev-php/igbinary[php_targets_php7-0?,php_targets_php7-1?,php_targets_php7-2?] )  dev-lang/php:7.2[session?,json?]  ) 
+RDEPEND=  php_targets_php7-0? (   >=dev-libs/libmemcached-1.0.14[sasl?]  sys-libs/zlib  igbinary? ( dev-php/igbinary[php_targets_php7-0?,php_targets_php7-1?,php_targets_php7-2?] )  dev-lang/php:7.0[session?,json?]  )  php_targets_php7-1? (   >=dev-libs/libmemcached-1.0.14[sasl?]  sys-libs/zlib  igbinary? ( dev-php/igbinary[php_targets_php7-0?,php_targets_php7-1?,php_targets_php7-2?] )  dev-lang/php:7.1[session?,json?]  )  php_targets_php7-2? (   >=dev-libs/libmemcached-1.0.14[sasl?]  sys-libs/zlib  igbinary? ( dev-php/igbinary[php_targets_php7-0?,php_targets_php7-1?,php_targets_php7-2?] )  dev-lang/php:7.2[session?,json?]  )  php_targets_php5-6? (   dev-php/pecl-memcached:0[php_targets_php5-6]  ) 
+EAPI=6
+IUSE=examples igbinary json sasl +session  
+KEYWORDS=amd64 x86
+SLOT=7
+SRC_URI=https://pecl.php.net/get/memcached-3.0.4.tgz

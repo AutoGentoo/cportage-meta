@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=virtual/perl-ExtUtils-MakeMaker 
+DEPEND=dev-lang/perl 
+RDEPEND=dev-lang/perl:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IG/IGUTHRIE/Filesys-Statvfs-0.82.tar.gz

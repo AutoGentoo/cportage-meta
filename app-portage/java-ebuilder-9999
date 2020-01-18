@@ -1,0 +1,10 @@
+d1194efbd19be961c0376541dd6191c2
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8  sys-process/parallel  >=dev-java/maven-bin-3 
+EAPI=7
+IUSE=elibc_FreeBSD 
+KEYWORDS=
+SLOT=0
+SRC_URI=

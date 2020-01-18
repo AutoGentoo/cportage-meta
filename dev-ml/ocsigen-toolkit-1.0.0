@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=dev-lang/ocaml:=[ocamlopt?]  >dev-ml/js_of_ocaml-2.7:=  >=dev-ml/eliom-5.1:=[ppx]  dev-ml/ppx_deriving:=  dev-ml/calendar:=  dev-ml/lwt:= 
+RDEPEND=dev-lang/ocaml:=[ocamlopt?]  >dev-ml/js_of_ocaml-2.7:=  >=dev-ml/eliom-5.1:=[ppx]  dev-ml/ppx_deriving:=  dev-ml/calendar:=  dev-ml/lwt:= 
+EAPI=6
+IUSE=+ocamlopt debug 
+KEYWORDS=~amd64
+SLOT=0/1.0.0
+SRC_URI=https://github.com/ocsigen/ocsigen-toolkit/archive/1.0.0.tar.gz -> ocsigen-toolkit-1.0.0.tar.gz

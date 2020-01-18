@@ -1,0 +1,10 @@
+e60c5a4b1afd9d5856a15302c249c82d
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=  sys-devel/flex  virtual/yacc  
+DEPEND=>=sys-apps/util-linux-2.20  dmalloc? ( dev-libs/dmalloc[threads] )  ldap? ( >=net-nds/openldap-2.0   sasl? (    dev-libs/cyrus-sasl    dev-libs/libxml2    virtual/krb5   )  )  systemd? ( sys-apps/systemd )  libtirpc? ( net-libs/libtirpc )  !libtirpc? ( elibc_glibc? ( sys-libs/glibc[rpc(-)] ) )   libtirpc? ( net-libs/rpcsvc-proto )  
+RDEPEND=>=sys-apps/util-linux-2.20  dmalloc? ( dev-libs/dmalloc[threads] )  ldap? ( >=net-nds/openldap-2.0   sasl? (    dev-libs/cyrus-sasl    dev-libs/libxml2    virtual/krb5   )  )  systemd? ( sys-apps/systemd )  libtirpc? ( net-libs/libtirpc )  !libtirpc? ( elibc_glibc? ( sys-libs/glibc[rpc(-)] ) )  
+EAPI=7
+IUSE=-dmalloc ldap +libtirpc mount-locking sasl systemd 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/daemons/autofs/v5/autofs-5.1.6.tar.xz

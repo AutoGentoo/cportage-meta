@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/POE-1.287  >=dev-perl/POE-Test-Loops-1.033 
+RDEPEND=>=dev-perl/POE-1.287  >=dev-perl/POE-Test-Loops-1.033 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TO/TONYC/POE-XS-Loop-EPoll-1.003.tar.gz

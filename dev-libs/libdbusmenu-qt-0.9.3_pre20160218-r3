@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz

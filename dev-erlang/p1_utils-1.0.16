@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/erlang-17.1:= 
+RDEPEND=>=dev-lang/erlang-17.1:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/processone/p1_utils/archive/1.0.16.tar.gz
+	-> p1_utils-1.0.16.tar.gz

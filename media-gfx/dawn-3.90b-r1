@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install prepare
+DEPEND=dev-lang/tk:*  opengl? ( virtual/opengl )  X? ( x11-libs/libX11 )  app-shells/tcsh  doc? ( virtual/latex-base ) 
+RDEPEND=dev-lang/tk:*  opengl? ( virtual/opengl )  X? ( x11-libs/libX11 ) 
+EAPI=6
+IUSE=doc opengl X 
+KEYWORDS=amd64 ~hppa ppc x86
+SLOT=0
+SRC_URI=http://geant4.kek.jp/~tanaka/src/dawn_3_90b.tgz

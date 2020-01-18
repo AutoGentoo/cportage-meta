@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  =media-tv/kodi-18*  =media-libs/kodi-platform-18*  dev-libs/tinyxml   
+RDEPEND=    =media-tv/kodi-18*  =media-libs/kodi-platform-18*  dev-libs/tinyxml     
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/kodi-pvr/pvr.mediaportal.tvserver/archive/3.5.17-Leia.tar.gz -> kodi-pvr-mediaportal-tvserver-3.5.17.tar.gz

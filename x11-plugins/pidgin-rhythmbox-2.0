@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=net-im/pidgin  media-sound/rhythmbox  >=x11-libs/gtk+-2.4:2  dev-libs/dbus-glib 
+RDEPEND=net-im/pidgin  media-sound/rhythmbox  >=x11-libs/gtk+-2.4:2  dev-libs/dbus-glib 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~sparc x86
+SLOT=0
+SRC_URI=http://jon.oberheide.org/pidgin-rhythmbox/downloads/pidgin-rhythmbox-2.0.tar.gz

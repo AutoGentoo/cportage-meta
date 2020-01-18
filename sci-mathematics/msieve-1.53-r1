@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile install prepare
+DEPEND=  ecm? ( sci-mathematics/gmp-ecm )  mpi? ( virtual/mpi )  zlib? ( sys-libs/zlib:= ) 
+RDEPEND=  ecm? ( sci-mathematics/gmp-ecm )  mpi? ( virtual/mpi )  zlib? ( sys-libs/zlib:= ) 
+EAPI=7
+IUSE=zlib +ecm mpi 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/msieve/msieve/Msieve%20v1.53/msieve153_src.tar.gz -> msieve-1.53.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-ExtUtils-Manifest  virtual/perl-File-Spec  >=dev-perl/Module-Manifest-0.70.0  virtual/perl-Test-Simple   >=dev-perl/Module-Build-Tiny-0.39.0  test? (   virtual/perl-ExtUtils-MakeMaker   virtual/perl-if  )  
+RDEPEND=  virtual/perl-ExtUtils-Manifest  virtual/perl-File-Spec  >=dev-perl/Module-Manifest-0.70.0  virtual/perl-Test-Simple  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/Test-DistManifest-1.014.tar.gz

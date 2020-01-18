@@ -1,0 +1,8 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/project/wqy/wqy-zenhei-snapshot/0.9.46-May/wqy-zenhei-0.9.46-May.tar.bz2

@@ -1,0 +1,9 @@
+e73a72eefe343ea1996260349b5dd6ee
+DEFINED_PHASES= configure install prepare test
+DEPEND=  dev-java/jdom:2  app-arch/unzip  dev-java/ant-core:0  test? ( dev-java/junit:4 )  >=virtual/jdk-1.5 
+RDEPEND=  dev-java/jdom:2  >=virtual/jre-1.5 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/htmlcleaner/files/htmlcleaner-2.13-src.zip

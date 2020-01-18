@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/libwww-perl  test? (   dev-perl/Test-Pod   dev-perl/Test-Pod-Coverage  ) 
+RDEPEND=dev-perl/libwww-perl 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~ia64 ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DA/DANKOGAI/HTTP-Response-Encoding-0.06.tar.gz

@@ -1,0 +1,10 @@
+cabf025138e3eb08364bd5ac88981ee6
+DEFINED_PHASES= configure prepare setup
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=>=dev-libs/elfutils-0.142  dev-libs/json-c:=  sys-libs/ncurses:0=  sys-libs/readline:0=  python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )   libvirt? ( >=app-emulation/libvirt-1.0.2 )  selinux? ( sys-libs/libselinux )  sqlite? ( dev-db/sqlite:3 )  ssl? (   dev-libs/nspr   dev-libs/nss  )  zeroconf? ( net-dns/avahi )   app-arch/cpio  app-text/xmlto  >=sys-devel/gettext-0.18.2  libvirt? ( dev-libs/libxml2 )  
+RDEPEND=>=dev-libs/elfutils-0.142  dev-libs/json-c:=  sys-libs/ncurses:0=  sys-libs/readline:0=  python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )   libvirt? ( >=app-emulation/libvirt-1.0.2 )  selinux? ( sys-libs/libselinux )  sqlite? ( dev-db/sqlite:3 )  ssl? (   dev-libs/nspr   dev-libs/nss  )  zeroconf? ( net-dns/avahi )  
+EAPI=7
+IUSE=libvirt selinux sqlite +ssl zeroconf 
+KEYWORDS=alpha amd64 arm arm64 ~ia64 ~mips ppc ppc64 s390 sparc x86
+SLOT=0
+SRC_URI=https://www.sourceware.org/systemtap/ftp/releases/systemtap-4.0.tar.gz

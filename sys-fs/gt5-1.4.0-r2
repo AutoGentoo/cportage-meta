@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=|| ( www-client/links   www-client/elinks   www-client/lynx ) 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gt5/gt5-1.4.0.tar.gz

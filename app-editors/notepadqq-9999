@@ -1,0 +1,10 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    app-i18n/uchardet  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtwebchannel:5  dev-qt/qtwebengine:5  dev-qt/qtwidgets:5   dev-qt/linguist-tools:5  dev-qt/qtsvg:5  dev-qt/qttest:5  
+RDEPEND=  app-i18n/uchardet  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtwebchannel:5  dev-qt/qtwebengine:5  dev-qt/qtwidgets:5  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

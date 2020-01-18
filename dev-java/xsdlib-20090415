@@ -1,0 +1,9 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= compile install
+DEPEND=  dev-java/xerces:2  dev-java/relaxng-datatype:0  >=virtual/jdk-1.4  app-arch/unzip 
+RDEPEND=  dev-java/xerces:2  dev-java/relaxng-datatype:0  >=virtual/jre-1.4 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=http://java.net/downloads/msv/releases/xsdlib.20090415.zip

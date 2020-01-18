@@ -1,0 +1,9 @@
+487c7b7acd86f56cfde29ced54b41505
+DEFINED_PHASES= install setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=  sys-apps/portage  server? (   app-arch/tar[xattr]   app-crypt/md5deep   dev-libs/libcgroup   dev-vcs/git   net-misc/rsync   sys-fs/squashfs-tools   virtual/cdrtools   || (    sys-kernel/genkernel    sys-kernel/genkernel-next   )  ) 
+EAPI=7
+IUSE=server 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~blueness/grs/ISO-1.tar.gz

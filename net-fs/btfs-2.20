@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=>=sys-fs/fuse-2.8.0:0  >=net-misc/curl-7.22.0  dev-libs/boost:=  >=net-libs/libtorrent-rasterbar-0.16.0:=  virtual/pkgconfig 
+RDEPEND=>=sys-fs/fuse-2.8.0:0  >=net-misc/curl-7.22.0  dev-libs/boost:=  >=net-libs/libtorrent-rasterbar-0.16.0:=  python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+EAPI=7
+IUSE=python_targets_python3_6 python_targets_python3_7 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/johang/btfs/archive/v2.20.tar.gz -> btfs-2.20.tar.gz

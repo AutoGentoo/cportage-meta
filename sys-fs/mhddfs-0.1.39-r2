@@ -1,0 +1,9 @@
+92bd7ff16b9130c9ff5cffb80db05e60
+DEFINED_PHASES= compile install postinst
+DEPEND=  dev-libs/glib:2  sys-fs/fuse:0  
+RDEPEND=  dev-libs/glib:2  sys-fs/fuse:0  
+EAPI=7
+IUSE=l10n_ru suid 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=http://mhddfs.uvw.ru/downloads/mhddfs_0.1.39.tar.gz

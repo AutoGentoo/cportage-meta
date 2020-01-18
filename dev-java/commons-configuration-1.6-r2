@@ -1,0 +1,9 @@
+6ea86410111928a34f815ee04ccb6940
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6    >=dev-java/commons-beanutils-1.7.0:1.7  >=dev-java/commons-codec-1.3:0  >=dev-java/commons-collections-3.1:0  >=dev-java/commons-digester-1.8:0  >=dev-java/commons-jxpath-1.2:0  >=dev-java/commons-lang-2.4:2.1  >=dev-java/commons-logging-1.1.1:0  java-virtuals/servlet-api:3.0  dev-java/ant-core:0 
+RDEPEND=>=virtual/jre-1.6    >=dev-java/commons-beanutils-1.7.0:1.7  >=dev-java/commons-codec-1.3:0  >=dev-java/commons-collections-3.1:0  >=dev-java/commons-digester-1.8:0  >=dev-java/commons-jxpath-1.2:0  >=dev-java/commons-lang-2.4:2.1  >=dev-java/commons-logging-1.1.1:0  java-virtuals/servlet-api:3.0  dev-java/ant-core:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://apache/commons/configuration/source/commons-configuration-1.6-src.tar.gz

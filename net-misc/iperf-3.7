@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sctp? ( net-misc/lksctp-tools )  
+RDEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  sctp? ( net-misc/lksctp-tools )  
+EAPI=6
+IUSE=libressl profiling sctp static-libs 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint
+SLOT=3
+SRC_URI=https://github.com/esnet/iperf/archive/3.7.tar.gz -> iperf-3.7.tar.gz

@@ -1,0 +1,9 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= install postinst prepare
+DEPEND=dev-libs/apr-util[ldap] =www-servers/apache-2.4* 
+RDEPEND==www-servers/apache-2.4*[ldap] =www-servers/apache-2.4* 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~mjo/distfiles/mod_vhost_ldap-2.4.0.tar.xz

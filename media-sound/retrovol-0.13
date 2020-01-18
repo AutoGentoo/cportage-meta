@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst
+BDEPEND=  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+DEPEND=x11-libs/gtk+:2 
+RDEPEND=x11-libs/gtk+:2 
+EAPI=7
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.browserloadofcoolness.com/software/puppy/PETget/retrovol-0.13.tar.gz

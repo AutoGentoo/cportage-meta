@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+BDEPEND=>=app-editors/emacs-24:* 
+RDEPEND=>=app-editors/emacs-24:* 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/ahyatt/emacs-websocket/archive/1.10.tar.gz -> websocket-1.10.tar.gz

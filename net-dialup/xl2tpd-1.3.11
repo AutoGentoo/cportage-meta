@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= compile install prepare
+DEPEND=  net-libs/libpcap  >sys-kernel/linux-headers-2.6 
+RDEPEND=    net-libs/libpcap  >sys-kernel/linux-headers-2.6  net-dialup/ppp 
+EAPI=6
+IUSE=dnsretry 
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/xelerance/xl2tpd/archive/v1.3.11.tar.gz -> xl2tpd-1.3.11.tar.gz

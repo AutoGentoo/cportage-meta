@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  media-libs/libsdl[video]  media-libs/sdl-mixer[vorbis]  nls? ( virtual/libintl )   nls? ( sys-devel/gettext )  
+RDEPEND=  media-libs/libsdl[video]  media-libs/sdl-mixer[vorbis]  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/toppler/toppler-1.1.6.tar.gz

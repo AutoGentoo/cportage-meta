@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/URI  dev-perl/Email-Valid  dev-perl/Email-Abstract 
+RDEPEND=dev-perl/URI  dev-perl/Email-Valid  dev-perl/Email-Abstract 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MS/MSTEVENS/Mail-ListDetector-1.04.tar.gz

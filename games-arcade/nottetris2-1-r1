@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=app-arch/unzip 
+RDEPEND=>=games-engines/love-0.7.2:0.7   media-libs/devil[png]  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://stabyourself.net/dl.php?file=nottetris2/nottetris2-linux.zip -> nottetris2-1.zip

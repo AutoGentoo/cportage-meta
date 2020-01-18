@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  media-libs/libpng:0=  media-libs/openjpeg:2= 
+RDEPEND=  media-libs/libpng:0=  media-libs/openjpeg:2= 
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/icns/libicns-0.8.1.tar.gz

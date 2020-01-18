@@ -1,0 +1,10 @@
+c21d2218a477b23c9ef7ec48073c1fa1
+DEFINED_PHASES= compile configure install postinst prepare test
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-lang/tcl  >=dev-lang/go-1.9.4  dev-libs/libuv  dev-libs/protobuf  nls? ( sys-devel/gettext )  test? (   app-misc/jq   net-misc/curl   sys-devel/gettext  )  
+RDEPEND=  daemon? (   app-arch/xz-utils   >=app-emulation/lxc-2.0.7[seccomp]   dev-libs/libuv   dev-libs/lzo   dev-util/xdelta:3   dnsmasq? (    net-dns/dnsmasq[dhcp,ipv6?]   )   net-firewall/ebtables   net-firewall/iptables[ipv6?]   net-libs/libnfnetlink   net-libs/libnsl:0=   net-misc/rsync[xattr]   sys-apps/iproute2[ipv6?]   sys-fs/fuse   sys-fs/lxcfs   sys-fs/squashfs-tools   virtual/acl  )  
+EAPI=7
+IUSE=kernel_linux 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://linuxcontainers.org/downloads/lxd/lxd-3.14.tar.gz

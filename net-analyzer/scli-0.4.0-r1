@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=    dev-libs/glib:2  dev-libs/libxml2  net-libs/gnet  net-libs/gsnmp  sys-libs/ncurses  sys-libs/readline  sys-libs/zlib   virtual/pkgconfig  
+RDEPEND=  dev-libs/glib:2  dev-libs/libxml2  net-libs/gnet  net-libs/gsnmp  sys-libs/ncurses  sys-libs/readline  sys-libs/zlib  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86 ~amd64-linux
+SLOT=0
+SRC_URI=ftp://ftp.ibr.cs.tu-bs.de/pub/local/scli/scli-0.4.0.tar.gz

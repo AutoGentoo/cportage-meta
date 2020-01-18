@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=app-arch/unzip 
+DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
+EAPI=7
+IUSE=X 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://scholarsfonts.net/cardo104.zip

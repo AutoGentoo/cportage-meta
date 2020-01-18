@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    media-libs/fontconfig  x11-libs/libX11  x11-libs/libXft  xinerama? ( x11-libs/libXinerama )   xinerama? ( x11-base/xorg-proto )  
+RDEPEND=  media-libs/fontconfig  x11-libs/libX11  x11-libs/libXft  xinerama? ( x11-libs/libXinerama )  
+EAPI=7
+IUSE=xinerama 
+KEYWORDS=
+SLOT=0
+SRC_URI=

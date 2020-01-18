@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst postrm
+DEPEND=sys-fs/udisks:2  >=x11-libs/gtk+-3.16.0:3  gcr? ( app-crypt/gcr )  libnotify? ( >=x11-libs/libnotify-0.7 )  secret? ( app-crypt/libsecret )  virtual/pkgconfig  virtual/imagemagick-tools[png] 
+RDEPEND=sys-fs/udisks:2  >=x11-libs/gtk+-3.16.0:3  gcr? ( app-crypt/gcr )  libnotify? ( >=x11-libs/libnotify-0.7 )  secret? ( app-crypt/libsecret ) 
+EAPI=6
+IUSE=gcr libnotify secret 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/wmudmount/wmudmount-3.0.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-perl/Capture-Tiny  virtual/perl-Carp  virtual/perl-Exporter  >=virtual/perl-ExtUtils-CBuilder-0.280.220  virtual/perl-File-Spec  virtual/perl-File-Temp  >=virtual/perl-Scalar-List-Utils-1.180.0  virtual/perl-Text-ParseWords   virtual/perl-ExtUtils-MakeMaker  test? ( >=virtual/perl-Test-Simple-0.900.0 )  
+RDEPEND=  dev-perl/Capture-Tiny  virtual/perl-Carp  virtual/perl-Exporter  >=virtual/perl-ExtUtils-CBuilder-0.280.220  virtual/perl-File-Spec  virtual/perl-File-Temp  >=virtual/perl-Scalar-List-Utils-1.180.0  virtual/perl-Text-ParseWords  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RE/REHSACK/Config-AutoConf-0.315.tar.gz

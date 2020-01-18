@@ -1,0 +1,9 @@
+dc30b9fd74f4a1fb685f9c72ecb558f1
+DEFINED_PHASES= compile install prepare test
+DEPEND=  >=virtual/jdk-1.6  app-arch/unzip  test? (   dev-java/ant-junit:0   dev-java/junit:0  ) 
+RDEPEND=  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/jline/jline-1.0.zip

@@ -1,0 +1,9 @@
+ae80c7b432abcdf2325956ff9d3139f9
+DEFINED_PHASES= configure install prepare test
+DEPEND=virtual/libffi  >=virtual/jdk-1.7  x11-libs/libXt  virtual/pkgconfig  test? (   dev-java/ant-junit:0   dev-java/guava:20   dev-java/javassist:3   dev-java/reflections:0  ) 
+RDEPEND=virtual/libffi  >=virtual/jre-1.7 
+EAPI=6
+IUSE=+awt +nio-buffers test 
+KEYWORDS=~amd64 ~x86
+SLOT=4
+SRC_URI=https://github.com/twall/jna/archive/4.2.2.tar.gz -> jna-4.2.2.tar.gz

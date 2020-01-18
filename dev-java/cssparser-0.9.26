@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-java/sac:0  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/sac:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cssparser/cssparser-0.9.26-sources.jar -> cssparser-0.9.26.jar

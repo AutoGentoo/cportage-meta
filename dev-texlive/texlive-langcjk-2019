@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES=-
+BDEPEND=>=app-text/texlive-core-2019  app-arch/xz-utils 
+DEPEND=>=dev-texlive/texlive-basic-2019 >=app-text/texlive-core-2010[cjk] >=dev-texlive/texlive-latex-2011 !<dev-texlive/texlive-basic-2016  
+RDEPEND=>=dev-texlive/texlive-basic-2019 >=app-text/texlive-core-2010[cjk] >=dev-texlive/texlive-latex-2011 !<dev-texlive/texlive-basic-2016   
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI= mirror://gentoo/texlive-module-adobemapping-2019.tar.xz mirror://gentoo/texlive-module-c90-2019.tar.xz mirror://gentoo/texlive-module-cjk-gs-integrate-2019.tar.xz mirror://gentoo/texlive-module-cjkpunct-2019.tar.xz mirror://gentoo/texlive-module-dnp-2019.tar.xz mirror://gentoo/texlive-module-garuda-c90-2019.tar.xz mirror://gentoo/texlive-module-fixjfm-2019.tar.xz mirror://gentoo/texlive-module-jfmutil-2019.tar.xz mirror://gentoo/texlive-module-norasi-c90-2019.tar.xz mirror://gentoo/texlive-module-pxtatescale-2019.tar.xz mirror://gentoo/texlive-module-xcjk2uni-2019.tar.xz mirror://gentoo/texlive-module-zxjafont-2019.tar.xz mirror://gentoo/texlive-module-collection-langcjk-2019.tar.xz doc? ( mirror://gentoo/texlive-module-c90.doc-2019.tar.xz mirror://gentoo/texlive-module-cjk-gs-integrate.doc-2019.tar.xz mirror://gentoo/texlive-module-cjkpunct.doc-2019.tar.xz mirror://gentoo/texlive-module-fixjfm.doc-2019.tar.xz mirror://gentoo/texlive-module-jfmutil.doc-2019.tar.xz mirror://gentoo/texlive-module-pxtatescale.doc-2019.tar.xz mirror://gentoo/texlive-module-xcjk2uni.doc-2019.tar.xz mirror://gentoo/texlive-module-zxjafont.doc-2019.tar.xz ) source? ( mirror://gentoo/texlive-module-c90.source-2019.tar.xz mirror://gentoo/texlive-module-cjk-gs-integrate.source-2019.tar.xz mirror://gentoo/texlive-module-cjkpunct.source-2019.tar.xz mirror://gentoo/texlive-module-garuda-c90.source-2019.tar.xz mirror://gentoo/texlive-module-norasi-c90.source-2019.tar.xz mirror://gentoo/texlive-module-xcjk2uni.source-2019.tar.xz )

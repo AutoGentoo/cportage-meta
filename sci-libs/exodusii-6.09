@@ -1,0 +1,10 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= configure prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=sci-libs/netcdf[hdf5]  test? ( app-shells/tcsh )  
+RDEPEND=sci-libs/netcdf[hdf5] 
+EAPI=6
+IUSE=static-libs test 
+KEYWORDS=amd64 ~arm x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~asturm/distfiles/exodus-6.09.tar.gz

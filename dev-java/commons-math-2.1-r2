@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+DEPEND=  >=virtual/jdk-1.6  test? (   dev-java/ant-junit4   dev-java/hamcrest-core:0  ) 
+RDEPEND=  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=2
+SRC_URI=mirror://apache/commons/math/source/commons-math-2.1-src.tar.gz

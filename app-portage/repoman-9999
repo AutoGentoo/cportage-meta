@@ -1,0 +1,9 @@
+ebd747736c434a6cb6bc9ec63ae23bd4
+DEFINED_PHASES= postinst
+DEPEND=  >=sys-apps/portage-2.3.0_rc[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  >=dev-python/lxml-3.6.0[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  dev-python/pyyaml[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  
+RDEPEND=  >=sys-apps/portage-2.3.0_rc[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  >=dev-python/lxml-3.6.0[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  dev-python/pyyaml[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

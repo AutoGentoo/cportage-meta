@@ -1,0 +1,13 @@
+fe8006dc6dcd94c535f77af025b55154
+DEFINED_PHASES= install postinst unpack
+DEPEND=cdinstall? ( games-fps/quake1-data ) 
+RDEPEND=cdinstall? ( games-fps/quake1-data )   virtual/opengl   x11-libs/libXxf86dga   x11-libs/libXxf86vm 
+EAPI=5
+IUSE=cdinstall 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	amd64? ( mirror://sourceforge/ezquake/ezquake_linux-x86_64.1.9.3.tar.gz
+		mirror://sourceforge/ezquake/ezquake_linux64_2.2.tar.gz )
+	x86? ( mirror://sourceforge/ezquake/ezquake_linux-x86_1.9.3.tar.gz
+		mirror://sourceforge/ezquake/ezquake_linux32_2.2.tar.gz )

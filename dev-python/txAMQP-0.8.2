@@ -1,0 +1,10 @@
+137028f06553292c2fbe34041601684b
+DEFINED_PHASES=-
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml(+)] ) python_targets_python3_6? ( dev-lang/python:3.6[xml(+)] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
+DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  test? (     || (   dev-python/twisted[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]   dev-python/twisted-core[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  )  dev-python/six[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]    net-misc/rabbitmq-server  ) 
+RDEPEND=  || (   dev-python/twisted[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]   dev-python/twisted-core[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  )  dev-python/six[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86 ~x64-solaris
+SLOT=0
+SRC_URI=https://github.com/txamqp/txamqp/archive/0.8.2.tar.gz -> txamqp-0.8.2.tar.gz

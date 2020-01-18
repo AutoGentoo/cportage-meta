@@ -1,0 +1,9 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= install postinst prepare
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=  app-shells/bash  sys-apps/coreutils  sys-apps/gawk  sys-apps/grep  userland_BSD? (   sys-freebsd/freebsd-bin   sys-freebsd/freebsd-ubin  )  userland_GNU? (   sys-apps/util-linux   sys-devel/patch  )  
+EAPI=6
+IUSE=userland_BSD userland_GNU 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=dev-libs/glib-2.26:2  !dedicated? (   >=x11-libs/gtk+-3.4:3   >=x11-libs/libnotify-0.7.4   help? (    app-text/rarian    >=gnome-base/libgnome-2.10   )  )  nls? ( virtual/libintl )  dev-util/gob:2  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=>=dev-libs/glib-2.26:2  !dedicated? (   >=x11-libs/gtk+-3.4:3   >=x11-libs/libnotify-0.7.4   help? (    app-text/rarian    >=gnome-base/libgnome-2.10   )  )  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=dedicated help nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pio/pioneers-15.3.tar.gz

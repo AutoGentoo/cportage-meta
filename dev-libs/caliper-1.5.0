@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  net-misc/curl  sys-libs/libunwind  dev-libs/papi   
+RDEPEND=  net-misc/curl  sys-libs/libunwind  dev-libs/papi   
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/LLNL/caliper/archive/v1.5.0.tar.gz -> caliper-1.5.0.tar.gz

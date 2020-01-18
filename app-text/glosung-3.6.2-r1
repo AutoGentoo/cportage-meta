@@ -1,0 +1,9 @@
+756a698647d86b364ec837452633961c
+DEFINED_PHASES= compile install prepare
+DEPEND=  dev-libs/libxml2  >=gnome-base/gconf-2.0:2  >=gnome-base/libgnome-2  >=gnome-base/libgnomeui-2  net-misc/curl  >=x11-libs/gtk+-2.10:2   >=dev-util/scons-0.93  >=dev-util/intltool-0.22  >=sys-devel/gettext-0.10  virtual/pkgconfig  
+RDEPEND=  dev-libs/libxml2  >=gnome-base/gconf-2.0:2  >=gnome-base/libgnome-2  >=gnome-base/libgnomeui-2  net-misc/curl  >=x11-libs/gtk+-2.10:2  
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/glosung/glosung-3.6.2.tar.bz2

@@ -1,0 +1,9 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure install prepare
+DEPEND=>=dev-libs/glib-2.36  dev-libs/libgudev  mbim? ( >=net-libs/libmbim-1.14.0 )  doc? ( dev-util/gtk-doc )  virtual/pkgconfig dev-util/gtk-doc 
+RDEPEND=>=dev-libs/glib-2.36  dev-libs/libgudev  mbim? ( >=net-libs/libmbim-1.14.0 ) 
+EAPI=6
+IUSE=doc +mbim static-libs 
+KEYWORDS=
+SLOT=0/5.1
+SRC_URI=

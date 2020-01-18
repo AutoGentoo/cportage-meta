@@ -1,0 +1,7 @@
+004dcfb00143110c84fb3927739617de
+DEFINED_PHASES= compile configure install setup
+EAPI=6
+IUSE=nls threads unicode headers-only nano 
+KEYWORDS=-* ~arm ~hppa ~m68k ~mips ~ppc ~ppc64 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=ftp://sourceware.org/pub/newlib/newlib-2.5.0.tar.gz

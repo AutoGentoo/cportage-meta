@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-libs/urdfdom-1:=  dev-libs/tinyxml  dev-libs/boost:=  sci-libs/ignition-math:4=   dev-lang/ruby:*  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/urdfdom-1:=  dev-libs/tinyxml  dev-libs/boost:=  sci-libs/ignition-math:4=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/6
+SRC_URI=http://osrf-distributions.s3.amazonaws.com/sdformat/releases/sdformat-6.0.0.tar.bz2

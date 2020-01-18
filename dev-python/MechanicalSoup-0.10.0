@@ -1,0 +1,10 @@
+5be6554d1d5c22ecf4fc12434ed61e0a
+DEFINED_PHASES=-
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+DEPEND=  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? ( dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  test? (     >=dev-python/beautifulsoup-4.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/requests-2.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/six-1.4[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/lxml[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]    >=dev-python/requests-mock-1.3.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pytest-httpbin[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pytest-mock[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  
+RDEPEND=  >=dev-python/beautifulsoup-4.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/requests-2.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/six-1.4[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/lxml[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+EAPI=7
+IUSE=doc examples test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/MechanicalSoup/MechanicalSoup/archive/v0.10.0.tar.gz -> MechanicalSoup-0.10.0.tar.gz

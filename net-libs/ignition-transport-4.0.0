@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  net-libs/ignition-msgs:1=  dev-libs/protobuf:=  >=net-libs/zeromq-4.2.0:=  sys-apps/util-linux  net-libs/cppzmq   >=dev-util/ignition-cmake-0.4  virtual/pkgconfig 
+RDEPEND=  net-libs/ignition-msgs:1=  dev-libs/protobuf:=  >=net-libs/zeromq-4.2.0:=  sys-apps/util-linux  net-libs/cppzmq  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=4/4
+SRC_URI=http://gazebosim.org/distributions/ign-transport/releases/ignition-transport4-4.0.0.tar.bz2

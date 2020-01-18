@@ -1,0 +1,7 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure install postinst prepare
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dwun/dwun-0.96e.tar.gz

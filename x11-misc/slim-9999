@@ -1,0 +1,11 @@
+013fe64d120b2bf4bb7b11cfb6e400f1
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=x11-libs/libXmu  x11-libs/libX11  x11-libs/libXpm  x11-libs/libXft  x11-libs/libXrandr  media-libs/libpng:0=  virtual/jpeg:=  x11-apps/sessreg  consolekit? ( sys-auth/consolekit   sys-apps/dbus )  pam? ( sys-libs/pam   !x11-misc/slimlock )  virtual/pkgconfig  x11-base/xorg-proto 
+RDEPEND=x11-libs/libXmu  x11-libs/libX11  x11-libs/libXpm  x11-libs/libXft  x11-libs/libXrandr  media-libs/libpng:0=  virtual/jpeg:=  x11-apps/sessreg  consolekit? ( sys-auth/consolekit   sys-apps/dbus )  pam? ( sys-libs/pam   !x11-misc/slimlock ) 
+PDEPEND=branding? ( >=x11-themes/slim-themes-1.2.3a-r3 ) 
+EAPI=6
+IUSE=branding pam consolekit 
+KEYWORDS=
+SLOT=0
+SRC_URI=

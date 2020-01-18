@@ -1,0 +1,8 @@
+e7c02fd8bd9b486759000e6f8542cb09
+DEFINED_PHASES= compile install prepare setup
+DEPEND=dev-util/promu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/justwatchcom/elasticsearch_exporter/archive/v1.0.4rc1.tar.gz -> elasticsearch_exporter-1.0.4_rc1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   vorbis? ( media-sound/vorbis-tools )  mp3? ( || ( media-sound/mpg123   media-sound/mpg321   media-sound/madplay   media-sound/splay ) )  sys-devel/gettext 
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   vorbis? ( media-sound/vorbis-tools )  mp3? ( || ( media-sound/mpg123   media-sound/mpg321   media-sound/madplay   media-sound/splay ) ) 
+EAPI=6
+IUSE=mp3 vorbis 
+KEYWORDS=~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/hukka/cplay/archive/v1.50.tar.gz -> cplay-1.50.tar.gz

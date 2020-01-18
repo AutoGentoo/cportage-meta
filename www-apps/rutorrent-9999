@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= install prepare setup
+DEPEND=  || ( dev-lang/php[xml,gd] dev-lang/php[xml,gd-external] )  
+RDEPEND=virtual/httpd-php 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=9999
+SRC_URI=

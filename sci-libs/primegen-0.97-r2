@@ -1,0 +1,7 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= configure install prepare test
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://cr.yp.to/primegen/primegen-0.97.tar.gz

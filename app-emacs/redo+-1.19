@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/redo+-1.19.el.xz

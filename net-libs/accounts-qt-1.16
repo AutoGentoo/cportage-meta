@@ -1,0 +1,10 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= configure install prepare
+BDEPEND=  doc? ( app-doc/doxygen )  
+DEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtxml:5  >=net-libs/libaccounts-glib-1.23:=   test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtxml:5  >=net-libs/libaccounts-glib-1.23:=  
+EAPI=7
+IUSE=doc test 
+KEYWORDS=amd64 ~arm arm64 x86
+SLOT=0
+SRC_URI=https://gitlab.com/accounts-sso/libaccounts-qt/repository/VERSION_1.16/archive.tar.gz -> accounts-qt-1.16.tar.gz

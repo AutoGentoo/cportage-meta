@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install postinst
+DEPEND=virtual/pkgconfig 
+RDEPEND=dev-libs/libbsd 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x64-macos
+SLOT=0
+SRC_URI=http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd_1.105.orig.tar.gz
+	http://http.debian.net/debian/pool/main/n/netcat-openbsd/netcat-openbsd_1.105-7.debian.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-python/httplib2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  server? (   dev-python/cheetah[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/paste[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/pastedeploy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/pastescript[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  )  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=dev-python/httplib2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  server? (   dev-python/cheetah[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/paste[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/pastedeploy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/pastescript[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ) 
+EAPI=5
+IUSE=server 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://pypi/d/dap/dap-2.2.6.7.tar.gz

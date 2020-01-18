@@ -1,0 +1,9 @@
+0f769de1c9c23e31f124fdcc2544efc7
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=bazaar? ( dev-vcs/bzr[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  test? ( dev-util/bats ) 
+RDEPEND=bazaar? ( dev-vcs/bzr[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  app-portage/portage-utils  cron? ( virtual/cron )  bazaar? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  !bazaar? ( || ( dev-vcs/git  dev-vcs/mercurial  dev-vcs/darcs ) ) 
+EAPI=6
+IUSE=bazaar cron test 
+KEYWORDS=~amd64 ~arm ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://git.joeyh.name/index.cgi/etckeeper.git/snapshot/etckeeper-1.18.8.tar.gz

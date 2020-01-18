@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install postinst postrm
+DEPEND=  emacs? (   app-emacs/pymacs[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   app-emacs/python-mode  ) 
+RDEPEND=  emacs? (   app-emacs/pymacs[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   app-emacs/python-mode  ) 
+EAPI=5
+IUSE=emacs 
+KEYWORDS=amd64 ~ia64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/bicyclerepair/bicyclerepair-0.9.tar.gz

@@ -1,0 +1,10 @@
+c4ad1937db0fe3abd1582963d8e85974
+DEFINED_PHASES= configure install prepare setup test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=dev-libs/boost-1.65.1:=  net-misc/curl:=  >=sys-fs/fuse-2.8.6:0  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= )   || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 )  
+RDEPEND=  >=dev-libs/boost-1.65.1:=  net-misc/curl:=  >=sys-fs/fuse-2.8.6:0  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= )  
+EAPI=7
+IUSE=custom-optimization debug libressl test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

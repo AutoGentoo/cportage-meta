@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= configure prepare
+DEPEND=dev-db/sqlite:3=  sys-libs/zlib:=  inband? ( sys-fabric/libibmad )  ssl? ( dev-libs/openssl:= ) 
+RDEPEND=dev-db/sqlite:3=  sys-libs/zlib:=  inband? ( sys-fabric/libibmad )  ssl? ( dev-libs/openssl:= ) 
+EAPI=6
+IUSE=inband ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Mellanox/mstflint/archive/v4.11.0-5.tar.gz -> mstflint-4.11.0_p5.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  virtual/jack  x11-libs/gtk+:2  
+RDEPEND=  virtual/jack  x11-libs/gtk+:2  
+EAPI=7
+IUSE=doc 
+KEYWORDS=~amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://devel.tlrmx.org/audio/source/bitmeter-1.2.tar.gz

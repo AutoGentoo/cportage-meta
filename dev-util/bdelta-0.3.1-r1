@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=7
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86 ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/jjwhitney/BDelta/archive/v0.3.1.tar.gz -> bdelta-0.3.1.tar.gz

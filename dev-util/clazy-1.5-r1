@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install prepare
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=  sys-devel/clang:=  >=sys-devel/llvm-3.8:=  
+RDEPEND=  sys-devel/clang:=  >=sys-devel/llvm-3.8:=  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://kde/stable/clazy/1.5/src/clazy-1.5.tar.xz

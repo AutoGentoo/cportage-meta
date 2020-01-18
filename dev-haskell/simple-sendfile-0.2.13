@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=dev-haskell/network:=[profile?]  >=dev-lang/ghc-6.10.4:=   >=dev-haskell/cabal-1.10  test? ( dev-haskell/conduit   >=dev-haskell/hspec-1.3   dev-haskell/hunit   dev-haskell/network-conduit )  
+RDEPEND=dev-haskell/network:=[profile?]  >=dev-lang/ghc-6.10.4:=  
+EAPI=5
+IUSE=+allow-bsd 
+KEYWORDS=amd64 x86
+SLOT=0/0.2.13
+SRC_URI=https://hackage.haskell.org/package/simple-sendfile-0.2.13/simple-sendfile-0.2.13.tar.gz

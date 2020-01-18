@@ -1,0 +1,9 @@
+4c13d9311eb425fd606a3951e69f5f5a
+DEFINED_PHASES= compile install prepare test
+BDEPEND=dev-vcs/cvs 
+DEPEND=  test? (   dev-lang/perl   sys-apps/ed  )  
+EAPI=7
+IUSE=lksh static test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

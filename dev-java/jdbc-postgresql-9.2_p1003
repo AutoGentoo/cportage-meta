@@ -1,0 +1,9 @@
+2890b2033e2b978e39a9d08c258d0355
+DEFINED_PHASES= compile install test
+DEPEND=  >=virtual/jdk-1.6  doc? (   dev-libs/libxslt   app-text/docbook-xsl-stylesheets  )  test? (   dev-java/ant-junit   dev-db/postgresql[server]  ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://jdbc.postgresql.org/download/postgresql-jdbc-9.2-1003.src.tar.gz

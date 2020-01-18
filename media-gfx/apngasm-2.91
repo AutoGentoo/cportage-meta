@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libpng:0=[apng]  sys-libs/zlib  zopfli? ( app-arch/zopfli:= )  app-arch/unzip 
+RDEPEND=media-libs/libpng:0=[apng]  sys-libs/zlib  zopfli? ( app-arch/zopfli:= ) 
+EAPI=6
+IUSE=7z zopfli 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/apngasm/2.91/apngasm-2.91-src.zip

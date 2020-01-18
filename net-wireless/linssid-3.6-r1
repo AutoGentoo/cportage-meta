@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure install postinst postrm prepare
+DEPEND=  dev-libs/boost:=  dev-qt/qtcore:5  dev-qt/qtopengl:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  x11-libs/qwt:6[opengl,qt5(+),svg]  
+RDEPEND=    dev-libs/boost:=  dev-qt/qtcore:5  dev-qt/qtopengl:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  x11-libs/qwt:6[opengl,qt5(+),svg]   net-wireless/iw  sys-auth/polkit  x11-libs/libxkbcommon[X]  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/linssid/linssid_3.6.orig.tar.gz

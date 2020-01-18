@@ -1,0 +1,9 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= install prepare
+DEPEND=x11-libs/gtk+:2  dev-lang/perl 
+RDEPEND=x11-libs/gtk+:2 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://mahjong.julianbradfield.org/Source/mj-1.14-src.tar.gz

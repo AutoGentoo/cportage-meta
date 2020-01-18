@@ -1,0 +1,10 @@
+f7f24b3623deb5dd61c0beb8b07d68f4
+DEFINED_PHASES= configure install prepare test
+BDEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php5-6? ( dev-lang/php:5.6 ) php_targets_php7-1? ( dev-lang/php:7.1 ) php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 ) php_targets_php7-4? ( dev-lang/php:7.4 )  
+DEPEND=  php_targets_php7-1? ( net-analyzer/rrdtool[graph] )  php_targets_php7-2? ( net-analyzer/rrdtool[graph] )  php_targets_php7-3? ( net-analyzer/rrdtool[graph] )  php_targets_php7-4? ( net-analyzer/rrdtool[graph] )  
+RDEPEND=  php_targets_php7-1? ( net-analyzer/rrdtool[graph] )  php_targets_php7-2? ( net-analyzer/rrdtool[graph] )  php_targets_php7-3? ( net-analyzer/rrdtool[graph] )  php_targets_php7-4? ( net-analyzer/rrdtool[graph] )  php_targets_php5-6? ( dev-php/pecl-rrd:0 ) 
+EAPI=7
+IUSE= php_targets_php5-6 php_targets_php7-1 php_targets_php7-2 php_targets_php7-3 php_targets_php7-4 
+KEYWORDS=~amd64 ~x86
+SLOT=7
+SRC_URI=https://pecl.php.net/get/rrd-2.0.1.tgz

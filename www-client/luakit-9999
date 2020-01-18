@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install test
+DEPEND=  dev-db/sqlite:3  dev-libs/glib:2  dev-lua/luafilesystem[luajit=]  net-libs/webkit-gtk:4=  x11-libs/gtk+:3  luajit? ( dev-lang/luajit:2 )  !luajit? ( dev-lang/lua:0 )  virtual/pkgconfig  doc? ( app-doc/doxygen )  test? (   dev-lua/luassert[luajit=]   dev-lua/luacheck[luajit=]   x11-base/xorg-server[xvfb]  ) 
+RDEPEND=  dev-db/sqlite:3  dev-libs/glib:2  dev-lua/luafilesystem[luajit=]  net-libs/webkit-gtk:4=  x11-libs/gtk+:3  luajit? ( dev-lang/luajit:2 )  !luajit? ( dev-lang/lua:0 ) 
+EAPI=6
+IUSE=doc luajit test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

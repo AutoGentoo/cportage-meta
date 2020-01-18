@@ -1,0 +1,10 @@
+ce2ad09428b6047c6f2ffdadcaa65e2f
+DEFINED_PHASES= compile install prepare test
+DEPEND=  ~sci-biology/hmmer-2.3.2  app-shells/tcsh  dev-lang/perl  virtual/latex-base 
+RDEPEND=~sci-biology/hmmer-2.3.2 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.ebi.ac.uk/pub/software/wise2/wise2.4.0alpha.tar.gz
+	https://dev.gentoo.org/~mgorny/dist/wise-2.4.0_alpha-patchset.tar.bz2

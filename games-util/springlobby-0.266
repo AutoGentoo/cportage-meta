@@ -1,0 +1,10 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= configure postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=dev-libs/boost-1.35:=  dev-libs/openssl:0=  net-misc/curl  sys-libs/zlib[minizip]  x11-libs/libICE  x11-libs/libSM  x11-libs/libXext  x11-libs/wxGTK:3.0[X]  libnotify? ( x11-libs/libnotify )  sound? ( media-libs/alure   media-libs/openal  )   nls? ( sys-devel/gettext )  
+RDEPEND=  >=dev-libs/boost-1.35:=  dev-libs/openssl:0=  net-misc/curl  sys-libs/zlib[minizip]  x11-libs/libICE  x11-libs/libSM  x11-libs/libXext  x11-libs/wxGTK:3.0[X]  libnotify? ( x11-libs/libnotify )  sound? ( media-libs/alure   media-libs/openal  )  
+EAPI=6
+IUSE=debug +libnotify +nls +sound 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.springlobby.info/tarballs/springlobby-0.266.tar.bz2

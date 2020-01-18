@@ -1,0 +1,9 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  doc? ( app-doc/doxygen )  test? (   dev-cpp/gtest   dev-util/valgrind  ) 
+EAPI=6
+IUSE=doc examples test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/miloyip/rapidjson/archive/v1.1.0.tar.gz -> rapidjson-1.1.0.tar.gz

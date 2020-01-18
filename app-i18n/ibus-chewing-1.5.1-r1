@@ -1,0 +1,10 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= configure postinst postrm preinst test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=app-i18n/ibus  app-i18n/libchewing  dev-libs/glib:2  dev-util/gob:2  x11-libs/gtk+:2  x11-libs/libX11  gconf? ( gnome-base/gconf )  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+RDEPEND=app-i18n/ibus  app-i18n/libchewing  dev-libs/glib:2  dev-util/gob:2  x11-libs/gtk+:2  x11-libs/libX11  gconf? ( gnome-base/gconf )  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=gconf nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/definite/ibus-chewing/releases/download/1.5.1/ibus-chewing-1.5.1-Source.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=  app-arch/xz-utils  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
+DEPEND=  dev-libs/glib:2  net-misc/curl:=  media-libs/libquvi:=  json? ( dev-libs/json-glib:= )  nls? ( virtual/libintl )  xml? ( dev-libs/libxml2:2= ) 
+RDEPEND=  dev-libs/glib:2  net-misc/curl:=  media-libs/libquvi:=  json? ( dev-libs/json-glib:= )  nls? ( virtual/libintl )  xml? ( dev-libs/libxml2:2= ) 
+EAPI=7
+IUSE=json nls xml 
+KEYWORDS=amd64 ~hppa ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/quvi/0.9/quvi-0.9.5.tar.xz

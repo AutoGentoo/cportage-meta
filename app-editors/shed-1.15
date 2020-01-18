@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=virtual/pkgconfig 
+RDEPEND=sys-libs/ncurses:0= 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/shed/shed-1.15.tar.gz

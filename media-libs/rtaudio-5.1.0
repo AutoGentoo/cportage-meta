@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=alsa? ( media-libs/alsa-lib )  jack? (   media-libs/alsa-lib   virtual/jack  )  pulseaudio? ( media-sound/pulseaudio ) 
+RDEPEND=alsa? ( media-libs/alsa-lib )  jack? (   media-libs/alsa-lib   virtual/jack  )  pulseaudio? ( media-sound/pulseaudio ) 
+EAPI=7
+IUSE=+alsa doc jack pulseaudio static-libs 
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0/6
+SRC_URI=https://www.music.mcgill.ca/~gary/rtaudio/release/rtaudio-5.1.0.tar.gz

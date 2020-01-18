@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  x11-libs/gtk+:2  app-text/ghostscript-gpl  media-gfx/pstoedit  dev-lang/perl  virtual/pkgconfig 
+RDEPEND=  x11-libs/gtk+:2  app-text/ghostscript-gpl  media-gfx/pstoedit 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/easychem/easychem-0.6.tar.gz

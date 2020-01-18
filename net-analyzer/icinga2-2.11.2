@@ -1,0 +1,10 @@
+68dbb834b7e074ad80c8ce6133de1559
+DEFINED_PHASES= configure install postinst setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  >=dev-libs/boost-1.66.0:=[context]  console? ( dev-libs/libedit )  mariadb? ( dev-db/mariadb-connector-c:= )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  dev-libs/yajl  sys-devel/bison  >=sys-devel/flex-2.5.35 apache2? ( =www-servers/apache-2* ) 
+RDEPEND=    !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= )  >=dev-libs/boost-1.66.0:=[context]  console? ( dev-libs/libedit )  mariadb? ( dev-db/mariadb-connector-c:= )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  dev-libs/yajl  plugins? ( || (   net-analyzer/monitoring-plugins   net-analyzer/nagios-plugins  ) )  mail? ( virtual/mailx )  classicui? ( net-analyzer/icinga[web] ) apache2? ( =www-servers/apache-2* ) 
+EAPI=6
+IUSE=classicui console libressl lto mail mariadb minimal +mysql nano-syntax +plugins postgres systemd +vim-syntax apache2 
+KEYWORDS=amd64 ~arm64 x86
+SLOT=0
+SRC_URI=https://github.com/Icinga/icinga2/archive/v2.11.2.tar.gz -> icinga2-2.11.2.tar.gz

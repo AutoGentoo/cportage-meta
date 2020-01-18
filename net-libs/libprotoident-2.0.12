@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=net-libs/libtrace-4.0.1  >=net-libs/libflowmanager-3.0.0  
+RDEPEND=    >=net-libs/libtrace-4.0.1  >=net-libs/libflowmanager-3.0.0   
+EAPI=6
+IUSE=static-libs tools 
+KEYWORDS=~amd64 ~x86
+SLOT=0/2
+SRC_URI=https://research.wand.net.nz/software/libprotoident/libprotoident-2.0.12.tar.gz

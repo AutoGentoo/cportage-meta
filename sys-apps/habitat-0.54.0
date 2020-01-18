@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare test
+DEPEND=>=net-libs/zeromq-3.2  virtual/pkgconfig  >=virtual/rust-1.23 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/habitat-sh/habitat/archive/0.54.0.tar.gz -> habitat-0.54.0.tar.gz
+	https://dev.gentoo.org/~mrueg/files/habitat-cargo-0.54.0.tar.xz

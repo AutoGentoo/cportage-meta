@@ -1,0 +1,9 @@
+e5407de78f607c4918920731b030739a
+DEFINED_PHASES= compile configure install prepare test
+DEPEND==sys-devel/automake-1.15*  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+RDEPEND=  mysql? ( dev-db/mysql-connector-c )  mariadb? ( dev-db/mariadb-connector-c )  postgres? ( dev-db/postgresql:* )  odbc? ( dev-db/unixODBC )  re2? ( dev-libs/re2 )  stemmer? ( dev-libs/snowball-stemmer )  xml? ( dev-libs/expat )  virtual/libiconv 
+EAPI=6
+IUSE=debug +id64 mariadb mysql odbc postgres re2 stemmer syslog xml 
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris
+SLOT=0
+SRC_URI=http://sphinxsearch.com/files/sphinx-2.2.11-release.tar.gz

@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=  || (   =dev-libs/leveldb-1.20   =dev-libs/leveldb-1.18-r2   =dev-libs/leveldb-1.18   =dev-libs/leveldb-1.17   =dev-libs/leveldb-1.15.0-r1  ) 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ~arm64 ~mips ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=

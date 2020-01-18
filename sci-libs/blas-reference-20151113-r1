@@ -1,0 +1,10 @@
+268ff652da4e1f3b4ed1468b10dc0bc7
+DEFINED_PHASES= compile configure install postinst prepare test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  app-eselect/eselect-blas  doc? ( app-doc/blas-docs )  virtual/pkgconfig 
+RDEPEND=  app-eselect/eselect-blas  doc? ( app-doc/blas-docs ) 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos
+SLOT=0
+SRC_URI=http://www.netlib.org/lapack/lapack-3.6.0.tgz

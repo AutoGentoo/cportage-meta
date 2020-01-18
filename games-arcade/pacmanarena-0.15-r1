@@ -1,0 +1,10 @@
+0c251a748f0764ad088c6c8e035a95d7
+DEFINED_PHASES= install prepare unpack
+DEPEND=  virtual/opengl  virtual/glu  media-libs/libsdl[sound]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-net   app-arch/unzip  
+RDEPEND=  virtual/opengl  virtual/glu  media-libs/libsdl[sound]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-net  
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pacmanarena/pacman-arena-0.15.tar.bz2
+	mirror://sourceforge/pacmanarena/pacman-data-0.0.zip

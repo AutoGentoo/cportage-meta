@@ -1,0 +1,10 @@
+7c2628d1b12814d61b1e50c06768b45a
+DEFINED_PHASES= compile install prepare test
+DEPEND=dev-libs/expat  doc? ( app-arch/unzip ) 
+RDEPEND=dev-libs/expat 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/neilb/csvfix/get/version-1.6.tar.bz2 -> csvfix-1.6.tar.bz2
+	doc? ( https://bitbucket.org/neilb/csvfix/downloads/csvfix_man_html_160.zip )

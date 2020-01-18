@@ -1,0 +1,9 @@
+1f20fd1569a6b762d0906bbffcb09cd0
+DEFINED_PHASES= install nofetch postinst pretend
+RDEPEND=media-libs/libpng-compat:1.2[abi_x86_32]   x11-libs/libXft[abi_x86_32]   app-arch/bzip2[abi_x86_32]   sys-libs/zlib[abi_x86_32]   sys-libs/glibc[multilib] 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=Quartus-lite-15.1.0.185-linux.tar
+	https://github.com/brendanhoran/gentoo-custom/raw/master/files/libfreetype.so.6

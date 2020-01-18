@@ -1,0 +1,9 @@
+c8e36cb15ced187191feab11973808b7
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare unpack
+DEPEND=  !gtk3? ( x11-libs/gtk+:2 )  gtk3? ( x11-libs/gtk+:3 )  dev-lang/perl  virtual/pkgconfig  doc? ( >=app-doc/halibut-1.2 ) 
+RDEPEND=  !gtk3? ( x11-libs/gtk+:2 )  gtk3? ( x11-libs/gtk+:3 )  x11-misc/xdg-utils 
+EAPI=6
+IUSE=+doc gtk3 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~np-hardass/distfiles/sgt-puzzles/sgt-puzzles-icons-20160315.tar.xz

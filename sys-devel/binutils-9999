@@ -1,0 +1,11 @@
+d469f25ca60f78b1ebc3396b261cf026
+DEFINED_PHASES= compile configure install postinst postrm prepare test unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=sys-devel/binutils-config-3  sys-libs/zlib   doc? ( sys-apps/texinfo )  test? ( dev-util/dejagnu )  nls? ( sys-devel/gettext )  sys-devel/flex  virtual/yacc  
+RDEPEND=  >=sys-devel/binutils-config-3  sys-libs/zlib  
+EAPI=7
+IUSE=default-gold doc +gold multitarget +nls +plugins static-libs test 
+KEYWORDS=
+SLOT=9999
+SRC_URI=
+	https://dev.gentoo.org/~slyfox/distfiles/binutils-9999-patches-5.tar.xz

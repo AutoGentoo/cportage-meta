@@ -1,0 +1,9 @@
+97e733f5f7ea11bb889238c182b3a3bf
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=virtual/udev-172  x11-libs/libxkbcommon  >=dev-libs/libtsm-4.0.0:=  media-libs/mesa[X(+)]  drm? ( x11-libs/libdrm   >=media-libs/mesa-8.0.3[egl,gbm] )  gles2? ( >=media-libs/mesa-8.0.3[gles2] )  systemd? ( sys-apps/systemd )  pango? ( x11-libs/pango dev-libs/glib:2 )  pixman? ( x11-libs/pixman )  virtual/pkgconfig  x11-base/xorg-proto  doc? ( dev-util/gtk-doc ) 
+RDEPEND=  >=virtual/udev-172  x11-libs/libxkbcommon  >=dev-libs/libtsm-4.0.0:=  media-libs/mesa[X(+)]  drm? ( x11-libs/libdrm   >=media-libs/mesa-8.0.3[egl,gbm] )  gles2? ( >=media-libs/mesa-8.0.3[gles2] )  systemd? ( sys-apps/systemd )  pango? ( x11-libs/pango dev-libs/glib:2 )  pixman? ( x11-libs/pixman )  x11-misc/xkeyboard-config 
+EAPI=6
+IUSE=debug doc +drm +fbdev +gles2 +optimizations +pango pixman static-libs systemd +unicode 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/Aetf/kmscon/archive/01dd0a231e2125a40ceba5f59fd945ff29bf2cdc.tar.gz -> kmscon-8_p20180906.tar.gz

@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure postinst prepare
+DEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )   nls? ( sys-devel/gettext ) 
+RDEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )   nls? ( virtual/libintl virtual/libiconv ) 
+EAPI=6
+IUSE=debug libressl nls ssl 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,10 @@
+ae6e30b696443071c2b12199a13fa2af
+DEFINED_PHASES= configure install postinst setup
+BDEPEND=doc? ( app-doc/doxygen ) 
+DEPEND=pcsc-lite? ( >=sys-apps/pcsc-lite-1.7.2-r1:= )  usb? ( virtual/libusb:0 )  dev-libs/libltdl:0= 
+RDEPEND=pcsc-lite? ( >=sys-apps/pcsc-lite-1.7.2-r1:= )  usb? ( virtual/libusb:0 )  dev-libs/libltdl:0= 
+EAPI=7
+IUSE=doc pcsc-lite usb debug 
+KEYWORDS=alpha amd64 arm hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/opensc/openct/openct-0.6.20.tar.gz

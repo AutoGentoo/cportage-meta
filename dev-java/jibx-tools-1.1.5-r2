@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip  dev-java/bcel:0  java-virtuals/stax-api:0  dev-java/jibx:0 
+RDEPEND=>=virtual/jre-1.6  dev-java/bcel:0  java-virtuals/stax-api:0  dev-java/jibx:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jibx/jibx_1_1_5.zip

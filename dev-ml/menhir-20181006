@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=>=dev-lang/ocaml-4.02:=[ocamlopt?]  dev-ml/ocamlbuild 
+RDEPEND=>=dev-lang/ocaml-4.02:=[ocamlopt?] 
+EAPI=7
+IUSE=examples +ocamlopt 
+KEYWORDS=amd64 ~arm ~arm64 ~ppc ~x86
+SLOT=0/20181006
+SRC_URI=http://gallium.inria.fr/~fpottier/menhir/menhir-20181006.tar.gz

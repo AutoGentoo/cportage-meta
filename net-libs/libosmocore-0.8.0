@@ -1,0 +1,9 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= configure install prepare
+DEPEND=embedded? ( sys-libs/talloc )  pcsc-lite? ( sys-apps/pcsc-lite )  app-doc/doxygen 
+RDEPEND=embedded? ( sys-libs/talloc )  pcsc-lite? ( sys-apps/pcsc-lite ) 
+EAPI=5
+IUSE=embedded pcsc-lite 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://cgit.osmocom.org/cgit/libosmocore/snapshot/libosmocore-0.8.0.tar.bz2

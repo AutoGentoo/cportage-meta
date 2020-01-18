@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install prepare
+DEPEND=idn? ( net-dns/libidn )  postgres? ( dev-db/postgresql:* )  ldap? ( net-nds/openldap )  ssl? (   gnutls? ( >=net-libs/gnutls-3.3:= )   !gnutls? ( >=dev-libs/openssl-0.9.7d:= )  )  >=sys-devel/libtool-2 
+RDEPEND=idn? ( net-dns/libidn )  postgres? ( dev-db/postgresql:* )  ldap? ( net-nds/openldap )  ssl? (   gnutls? ( >=net-libs/gnutls-3.3:= )   !gnutls? ( >=dev-libs/openssl-0.9.7d:= )  ) 
+EAPI=5
+IUSE=gnutls http icp idn priority smtp ssl tos postgres ldap 
+KEYWORDS=amd64 ~hppa x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jer/echoping-6.0.2_p434.tar.gz

@@ -1,0 +1,10 @@
+43d9f22c9ad0a3bf5bf6f97c75fcce04
+DEFINED_PHASES= postinst preinst
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=sys-apps/portage[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
+RDEPEND=sys-apps/portage[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  sys-apps/gawk  sys-apps/gentoo-functions 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

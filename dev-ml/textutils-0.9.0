@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-ml/core:=  dev-ml/ppx_driver:=  dev-ml/ppx_jane:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/jbuilder 
+RDEPEND=  dev-ml/core:=  dev-ml/ppx_driver:=  dev-ml/ppx_jane:=  dev-ml/ocaml-migrate-parsetree:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0.9.0
+SRC_URI=https://github.com/janestreet/textutils/archive/v0.9.0.tar.gz -> textutils-0.9.0.tar.gz

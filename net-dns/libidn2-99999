@@ -1,0 +1,10 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= prepare unpack
+BDEPEND=  dev-lang/perl  dev-util/gengetopt  sys-apps/help2man  
+DEPEND=  dev-libs/libunistring[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  
+RDEPEND=  dev-libs/libunistring[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  
+EAPI=7
+IUSE=static-libs 
+KEYWORDS=
+SLOT=0/2
+SRC_URI=mirror://gnu/libunistring/libunistring-0.9.10.tar.gz

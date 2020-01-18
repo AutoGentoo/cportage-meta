@@ -1,0 +1,7 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= configure install
+EAPI=5
+IUSE=cpu_flags_x86_sse pic 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.alasir.com/software/ramspeed/ramsmp-3.5.0.tar.gz

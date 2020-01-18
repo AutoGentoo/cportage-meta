@@ -1,0 +1,12 @@
+5a2b333d0e9acfa1a88e190d8142fee4
+DEFINED_PHASES= compile install prepare
+DEPEND=>=virtual/jdk-1.5  app-arch/xz-utils  virtual/libiconv  dev-java/commons-net:0  X? ( dev-java/browserlauncher2:1.0 ) 
+RDEPEND=>=virtual/jre-1.5  dev-java/commons-net:0  X? ( dev-java/browserlauncher2:1.0 ) 
+EAPI=6
+IUSE=X cpu_flags_x86_mmx cpu_flags_x86_sse 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~billie/distfiles/projectx-0.91.0.10.tar.xz
+	https://dev.gentoo.org/~billie/distfiles/projectx-idctfast.tar.xz
+	https://dev.gentoo.org/~billie/distfiles/xdg-20100731.java.xz
+	https://dev.gentoo.org/~billie/distfiles/projectx-icon.png

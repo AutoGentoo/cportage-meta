@@ -1,0 +1,10 @@
+756a698647d86b364ec837452633961c
+DEFINED_PHASES= configure postinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/ocl-icd  >=dev-util/intel-graphics-compiler-1.0.11  >=media-libs/gmmlib-19.2.4  vaapi? (   x11-libs/libdrm[video_cards_intel]   >=x11-libs/libva-2.0.0  )  media-libs/mesa 
+RDEPEND=dev-libs/ocl-icd  >=dev-util/intel-graphics-compiler-1.0.11  >=media-libs/gmmlib-19.2.4  vaapi? (   x11-libs/libdrm[video_cards_intel]   >=x11-libs/libva-2.0.0  ) 
+EAPI=7
+IUSE=vaapi 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/intel/compute-runtime/archive/19.38.14237.tar.gz -> intel-neo-19.38.14237.tar.gz

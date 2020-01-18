@@ -1,0 +1,9 @@
+c481a5abe7c2dcd4e2c3a4f7912bc109
+DEFINED_PHASES= compile configure install prepare setup test
+DEPEND=  sys-libs/ncurses  sys-libs/readline  curl? ( net-misc/curl )  libxml2? ( dev-libs/libxml2 ) 
+RDEPEND=  sys-libs/ncurses  sys-libs/readline  curl? ( net-misc/curl )  libxml2? ( dev-libs/libxml2 ) 
+EAPI=4
+IUSE=abyss +cgi +curl +cxx +libxml2 static-libs threads test tools 
+KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 s390 sh sparc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~maksbotan/xmlrpc-c-1.32.05.tar.gz

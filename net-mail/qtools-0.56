@@ -1,0 +1,7 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install
+EAPI=7
+IUSE=static 
+KEYWORDS=alpha ~amd64 ~hppa ~mips ppc ~sparc x86
+SLOT=0
+SRC_URI=http://www.superscript.com/qtools/qtools-0.56.tar.gz

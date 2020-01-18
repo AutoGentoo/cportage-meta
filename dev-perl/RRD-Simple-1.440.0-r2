@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=    net-analyzer/rrdtool[perl]   dev-perl/Module-Build  test? (   >=dev-perl/Test-Deep-0.93.0  )  
+RDEPEND=  net-analyzer/rrdtool[perl]  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/N/NI/NICOLAW/RRD-Simple-1.44.tar.gz https://dev.gentoo.org/~kentnl/distfiles/RRD-Simple-1.44-patches-1.tar.xz

@@ -1,0 +1,9 @@
+c47da7ac0896a37a15883bcb56ec936f
+DEFINED_PHASES= install postinst
+DEPEND=app-arch/unzip 
+RDEPEND=net-dialup/ppp 
+EAPI=6
+IUSE=kernel_linux 
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=http://www.speedtouch.com/download/drivers/USB/SpeedTouch330_firmware_3012.zip

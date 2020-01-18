@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  >=dev-perl/Perl-Critic-1.118.0  dev-perl/Readonly   >=dev-perl/Module-Build-0.400.0  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  virtual/perl-Carp  >=dev-perl/Perl-Critic-1.118.0  dev-perl/Readonly  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/T/TH/THALJEF/Perl-Critic-Deprecated-1.119.tar.gz

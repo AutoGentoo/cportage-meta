@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+PDEPEND=app-admin/sagan 
+EAPI=6
+IUSE=+lognorm 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://sagan.quadrantsec.com/rules/sagan-rules-06172014.tar.gz

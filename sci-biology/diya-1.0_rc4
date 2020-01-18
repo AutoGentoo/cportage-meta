@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= install
+DEPEND=sci-biology/bioperl  dev-perl/Data-Utilities  dev-perl/XML-Simple 
+RDEPEND=sci-biology/bioperl  dev-perl/Data-Utilities  dev-perl/XML-Simple  !minimal? (   sci-biology/mummer   sci-biology/glimmer   sci-biology/trnascan-se   sci-biology/infernal ) 
+EAPI=5
+IUSE=-minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/diyg/files/diya/diya-1.0/diya-1.0-rc4.tar.gz

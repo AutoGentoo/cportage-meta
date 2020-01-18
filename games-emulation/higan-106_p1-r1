@@ -1,0 +1,9 @@
+c5a61d011a3b995c668f9f3838569e81
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  x11-libs/gtk+:2  x11-libs/libX11  x11-libs/libXext  icarus? ( x11-libs/gtksourceview:2.0      x11-libs/gtk+:2      x11-libs/pango      dev-libs/atk      x11-libs/cairo      x11-libs/gdk-pixbuf      dev-libs/glib:2      media-libs/fontconfig      media-libs/freetype    )  ao? ( media-libs/libao )  openal? ( media-libs/openal )  alsa? ( media-libs/alsa-lib )  pulseaudio? ( media-sound/pulseaudio )  xv? ( x11-libs/libXv )  opengl? ( virtual/opengl )  sdl? ( media-libs/libsdl[X,joystick,video] )  udev? ( virtual/udev )   app-arch/p7zip  virtual/pkgconfig 
+RDEPEND=  x11-libs/gtk+:2  x11-libs/libX11  x11-libs/libXext  icarus? ( x11-libs/gtksourceview:2.0      x11-libs/gtk+:2      x11-libs/pango      dev-libs/atk      x11-libs/cairo      x11-libs/gdk-pixbuf      dev-libs/glib:2      media-libs/fontconfig      media-libs/freetype    )  ao? ( media-libs/libao )  openal? ( media-libs/openal )  alsa? ( media-libs/alsa-lib )  pulseaudio? ( media-sound/pulseaudio )  xv? ( x11-libs/libXv )  opengl? ( virtual/opengl )  sdl? ( media-libs/libsdl[X,joystick,video] )  udev? ( virtual/udev )  
+EAPI=6
+IUSE=ao +alsa +icarus openal opengl oss pulseaudio +sdl udev xv 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://gitlab.com/higan/higan/repository/41efdba45afa770db99bc7484a8ad340ccc597d2/archive.tar.bz2 -> higan-106_p1.tar.bz2

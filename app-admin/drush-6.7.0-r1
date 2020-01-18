@@ -1,0 +1,8 @@
+faf433797beadc016aa09f6e4e6bbf06
+DEFINED_PHASES= install prepare
+RDEPEND=dev-lang/php[cli,ctype,json,simplexml]  dev-php/PEAR-Console_Table 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/drush-ops/drush/archive/6.7.0.tar.gz -> drush-6.7.0.tar.gz

@@ -1,0 +1,9 @@
+dc025f5d038119b69b988b7f7452474b
+DEFINED_PHASES= compile configure install prepare
+DEPEND=app-arch/unzip  dev-libs/boehm-gc  dev-lang/perl  dev-perl/XML-Parser  || ( dev-lang/opendylan-bin dev-lang/opendylan )  x86? ( <dev-libs/mps-1.108 ) 
+RDEPEND=app-arch/unzip  dev-libs/boehm-gc  dev-lang/perl  dev-perl/XML-Parser  || ( dev-lang/opendylan-bin dev-lang/opendylan )  x86? ( <dev-libs/mps-1.108 ) 
+EAPI=4
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://opendylan.org/downloads/opendylan/2013.1/opendylan-2013.1-sources.tar.bz2

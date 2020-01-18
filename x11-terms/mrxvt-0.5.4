@@ -1,0 +1,10 @@
+95a614f785147669de5dc47349d71e8b
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=png? ( media-libs/libpng )  utempter? ( sys-libs/libutempter )  jpeg? ( virtual/jpeg )  truetype? ( x11-libs/libXft   media-libs/fontconfig   media-libs/freetype   elibc_uclibc? ( dev-libs/libiconv ) )  x11-libs/libX11  x11-libs/libXt  xpm? ( x11-libs/libXpm )  x11-libs/libXrender  x11-base/xorg-proto 
+RDEPEND=png? ( media-libs/libpng )  utempter? ( sys-libs/libutempter )  jpeg? ( virtual/jpeg )  truetype? ( x11-libs/libXft   media-libs/fontconfig   media-libs/freetype   elibc_uclibc? ( dev-libs/libiconv ) )  x11-libs/libX11  x11-libs/libXt  xpm? ( x11-libs/libXpm )  x11-libs/libXrender 
+EAPI=7
+IUSE=debug png jpeg session truetype menubar utempter xpm l10n_el l10n_ja l10n_ko l10n_th l10n_zh-CN l10n_zh-TW 
+KEYWORDS=alpha amd64 ~mips ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/materm/mrxvt-0.5.4.tar.gz

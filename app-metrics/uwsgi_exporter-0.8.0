@@ -1,0 +1,9 @@
+f66a72abd3b837a3ea1d7a43662e522e
+DEFINED_PHASES= compile install prepare setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-util/promu 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/timonwong/uwsgi_exporter/archive/v0.8.0.tar.gz -> uwsgi_exporter-0.8.0.tar.gz

@@ -1,0 +1,12 @@
+fba22c810fc83dc7c3837f4649805fe2
+DEFINED_PHASES= compile install prepare
+BDEPEND=  dev-lang/perl  nls? ( sys-devel/gettext )  
+DEPEND=    !app-text/hd2u  virtual/libintl  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  !app-text/hd2u  virtual/libintl 
+EAPI=7
+IUSE=debug nls test 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris
+SLOT=0
+SRC_URI=
+	http://www.xs4all.nl/~waterlan/dos2unix/dos2unix-7.4.1.tar.gz
+	mirror://sourceforge/dos2unix/dos2unix-7.4.1.tar.gz

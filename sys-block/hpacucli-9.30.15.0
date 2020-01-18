@@ -1,0 +1,10 @@
+83e1e11298c533220f2cfbda00417756
+DEFINED_PHASES= install postinst
+RDEPEND=sys-apps/coreutils  sys-process/procps  >=sys-apps/util-linux-2.20.1 
+EAPI=5
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	amd64? ( ftp://ftp.hp.com/pub/softlib2/software1/pubsw-linux/p1257348637/v77370/hpacucli-9.30-15.0.x86_64.rpm )
+	x86? ( ftp://ftp.hp.com/pub/softlib2/software1/pubsw-linux/p414707558/v77371/hpacucli-9.30-15.0.i386.rpm )

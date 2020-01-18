@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=dev-libs/antlr-c  dev-libs/boost  cln? ( sci-libs/cln )  !cln? ( dev-libs/gmp:= ) 
+RDEPEND=dev-libs/antlr-c  dev-libs/boost  cln? ( sci-libs/cln )  !cln? ( dev-libs/gmp:= ) 
+EAPI=6
+IUSE=+cln 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://cvc4.cs.stanford.edu/downloads/builds/src/cvc4-1.6.tar.gz

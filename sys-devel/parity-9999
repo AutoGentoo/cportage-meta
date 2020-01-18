@@ -1,0 +1,19 @@
+cbe2a0957599c249bf9c5bd7ad58e7e9
+DEFINED_PHASES= configure postinst prepare
+DEPEND=dev-util/confix 
+EAPI=6
+IUSE=+vc_x64
++vc_x86
+vc7_0
+vc7_1
+vc8_0
+vc9_0
++vc10_0
++vc11_0
++vc12_0
++vc14_0
++vc15
++vc16 
+KEYWORDS=
+SLOT=0
+SRC_URI=

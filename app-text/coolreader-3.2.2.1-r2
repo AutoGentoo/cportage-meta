@@ -1,0 +1,10 @@
+fa807d4316ab0972502995138c3eab07
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=sys-libs/zlib  media-libs/libpng:0  virtual/jpeg:0  media-libs/freetype  wxwidgets? ( x11-libs/wxGTK:3.0 )  !wxwidgets? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 )  !wxwidgets? ( dev-qt/linguist-tools:5 ) 
+RDEPEND=sys-libs/zlib  media-libs/libpng:0  virtual/jpeg:0  media-libs/freetype  wxwidgets? ( x11-libs/wxGTK:3.0 )  !wxwidgets? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 )  wxwidgets? ( || ( media-fonts/liberation-fonts media-fonts/corefonts ) ) 
+EAPI=6
+IUSE=wxwidgets l10n_bg l10n_cs l10n_de l10n_es l10n_hu l10n_pl l10n_ru l10n_uk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/buggins/coolreader/archive/cr3.2.2-1.tar.gz -> coolreader-3.2.2.1.tar.gz

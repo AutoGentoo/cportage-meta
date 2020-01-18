@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=net-wireless/b43-fwcutter-015 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=b43
+SRC_URI=http://www.lwfinger.com/b43-firmware/broadcom-wl-5.100.138.tar.bz2

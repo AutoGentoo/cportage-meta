@@ -1,0 +1,10 @@
+8d2d160e8c7f449e5b4dd43d87c8873f
+DEFINED_PHASES= compile install test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=gtk? ( x11-libs/gtk+:2 )  llvm? ( >=sys-devel/llvm-3.0 )  xml? ( dev-libs/libxml2 )  gtk? ( virtual/pkgconfig )  xml? ( virtual/pkgconfig ) 
+RDEPEND=gtk? ( x11-libs/gtk+:2 )  llvm? ( >=sys-devel/llvm-3.0 )  xml? ( dev-libs/libxml2 ) 
+EAPI=7
+IUSE=gtk llvm test xml 
+KEYWORDS=
+SLOT=0
+SRC_URI=

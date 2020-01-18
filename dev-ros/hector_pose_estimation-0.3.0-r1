@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/hector_pose_estimation_core  dev-ros/nodelet  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/tf  dev-ros/message_filters  dev-libs/boost:=  dev-libs/console_bridge:=  
+RDEPEND=  dev-ros/hector_pose_estimation_core  dev-ros/nodelet  dev-ros/sensor_msgs[ros_messages_cxx(-)]  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/tf  dev-ros/message_filters  dev-libs/boost:=  dev-libs/console_bridge:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/tu-darmstadt-ros-pkg/hector_localization/archive/0.3.0.tar.gz -> hector_localization-0.3.0.tar.gz

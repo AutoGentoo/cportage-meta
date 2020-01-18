@@ -1,0 +1,7 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa x86
+SLOT=0
+SRC_URI=http://download.savannah.gnu.org/releases/cardpics/cardpics-0.4.tar.bz2

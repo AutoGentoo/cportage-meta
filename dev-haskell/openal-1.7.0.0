@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure
+DEPEND=>=dev-haskell/objectname-1.1:=[profile?] <dev-haskell/objectname-1.2:=[profile?]  >=dev-haskell/opengl-2.12:=[profile?] <dev-haskell/opengl-2.13:=[profile?]  >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.2:=[profile?]  >=dev-haskell/transformers-0.2:=[profile?] <dev-haskell/transformers-0.5:=[profile?]  >=dev-lang/ghc-7.4.1:=  media-libs/openal   >=dev-haskell/cabal-1.10  
+RDEPEND=>=dev-haskell/objectname-1.1:=[profile?] <dev-haskell/objectname-1.2:=[profile?]  >=dev-haskell/opengl-2.12:=[profile?] <dev-haskell/opengl-2.13:=[profile?]  >=dev-haskell/statevar-1.1:=[profile?] <dev-haskell/statevar-1.2:=[profile?]  >=dev-haskell/transformers-0.2:=[profile?] <dev-haskell/transformers-0.5:=[profile?]  >=dev-lang/ghc-7.4.1:=  media-libs/openal  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~sparc ~x86
+SLOT=0/1.7.0.0
+SRC_URI=https://hackage.haskell.org/package/OpenAL-1.7.0.0/OpenAL-1.7.0.0.tar.gz

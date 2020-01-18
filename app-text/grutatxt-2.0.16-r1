@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=dev-lang/perl:=[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86 ~x86-linux ~ppc-macos ~sparc-solaris
+SLOT=0
+SRC_URI=http://www.triptico.com/download/Grutatxt-2.0.16.tar.gz

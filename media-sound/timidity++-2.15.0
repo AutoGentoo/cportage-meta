@@ -1,0 +1,11 @@
+704ade57dfae414a7af49471156b8042
+DEFINED_PHASES= configure install postinst postrm preinst prepare setup
+BDEPEND=virtual/pkgconfig 
+DEPEND=  alsa? ( media-libs/alsa-lib )  ao? ( >=media-libs/libao-0.8.5 )  emacs? ( >=app-editors/emacs-23.1:* )  flac? ( media-libs/flac )  gtk? ( x11-libs/gtk+:2 )  jack? ( virtual/jack )  motif? ( >=x11-libs/motif-2.3:0 )  nas? ( >=media-libs/nas-1.4 )  ncurses? ( sys-libs/ncurses:0= )  slang? ( sys-libs/slang )  speex? ( media-libs/speex )  tk? ( dev-lang/tk:0= )  vorbis? ( media-libs/libvorbis )  X? (   media-libs/libpng:0=   x11-libs/libXaw   x11-libs/libXext  )  
+RDEPEND=  alsa? ( media-libs/alsa-lib )  ao? ( >=media-libs/libao-0.8.5 )  emacs? ( >=app-editors/emacs-23.1:* )  flac? ( media-libs/flac )  gtk? ( x11-libs/gtk+:2 )  jack? ( virtual/jack )  motif? ( >=x11-libs/motif-2.3:0 )  nas? ( >=media-libs/nas-1.4 )  ncurses? ( sys-libs/ncurses:0= )  slang? ( sys-libs/slang )  speex? ( media-libs/speex )  tk? ( dev-lang/tk:0= )  vorbis? ( media-libs/libvorbis )  X? (   media-libs/libpng:0=   x11-libs/libXaw   x11-libs/libXext  )   app-eselect/eselect-timidity  alsa? ( media-sound/alsa-utils )  selinux? ( sec-policy/selinux-timidity )  
+PDEPEND=|| ( media-sound/timidity-eawpatches media-sound/timidity-freepats ) 
+EAPI=7
+IUSE=alsa ao emacs flac gtk jack motif nas ncurses oss selinux slang speex tk vorbis X 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/timidity/TiMidity++-2.15.0.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=virtual/perl-MIME-Base64  >=www-apache/mod_perl-2 
+RDEPEND=virtual/perl-MIME-Base64  >=www-apache/mod_perl-2 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SP/SPEEVES/Apache2-AuthenNTLM-0.02.tar.gz

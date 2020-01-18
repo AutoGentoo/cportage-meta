@@ -1,0 +1,10 @@
+e4a105f55dfdea35153427cb4edc92b7
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=  dev-util/gdbus-codegen  dev-util/glib-utils  doc? ( dev-util/gtk-doc )  test? ( dev-libs/check )  
+DEPEND=  dev-libs/glib:2  net-libs/signond  introspection? ( dev-libs/gobject-introspection:= )  python? (   python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]   dev-python/pygobject:3[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  )  
+RDEPEND=  dev-libs/glib:2  net-libs/signond  introspection? ( dev-libs/gobject-introspection:= )  python? (   python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]   dev-python/pygobject:3[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  )  
+EAPI=7
+IUSE=debug doc +introspection python test 
+KEYWORDS=amd64 arm64 x86
+SLOT=0
+SRC_URI=https://gitlab.com/accounts-sso/libsignon-glib/-/archive/VERSION_2.1/libsignon-glib-VERSION_2.1.tar.gz -> libsignon-glib-2.1.tar.gz

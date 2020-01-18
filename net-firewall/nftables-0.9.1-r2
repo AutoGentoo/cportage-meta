@@ -1,0 +1,10 @@
+b23201d10d7b99984c547e7a8b0399a2
+DEFINED_PHASES= compile configure install postinst prepare setup
+BDEPEND=  doc? ( app-text/asciidoc )  >=app-text/docbook2X-0.8.8-r4  sys-devel/bison  sys-devel/flex  virtual/pkgconfig  
+DEPEND=  >=net-libs/libmnl-1.0.3:0=  gmp? ( dev-libs/gmp:0= )  json? ( dev-libs/jansson )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  readline? ( sys-libs/readline:0= )  >=net-libs/libnftnl-1.1.3:0=  xtables? ( >=net-firewall/iptables-1.6.1 )  
+RDEPEND=  >=net-libs/libmnl-1.0.3:0=  gmp? ( dev-libs/gmp:0= )  json? ( dev-libs/jansson )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  readline? ( sys-libs/readline:0= )  >=net-libs/libnftnl-1.1.3:0=  xtables? ( >=net-firewall/iptables-1.6.1 )  
+EAPI=7
+IUSE=debug +doc +gmp json +modern-kernel python +readline static-libs xtables 
+KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~x86
+SLOT=0
+SRC_URI=https://netfilter.org/projects/nftables/files/nftables-0.9.1.tar.bz2

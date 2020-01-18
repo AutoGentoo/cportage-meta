@@ -1,0 +1,10 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= postinst postrm
+BDEPEND=  dev-qt/linguist-tools:5  >=dev-util/lxqt-build-tools-0.6.0  
+DEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  =x11-libs/libfm-qt-0.14*  x11-libs/libxcb:=  x11-misc/xdg-utils  virtual/eject  virtual/freedesktop-icon-theme  
+RDEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtdbus:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  dev-qt/qtx11extras:5  =x11-libs/libfm-qt-0.14*  x11-libs/libxcb:=  x11-misc/xdg-utils  virtual/eject  virtual/freedesktop-icon-theme   !lxqt-base/lxqt-l10n  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://downloads.lxqt.org/downloads/pcmanfm-qt/0.14.1/pcmanfm-qt-0.14.1.tar.xz

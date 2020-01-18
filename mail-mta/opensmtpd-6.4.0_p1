@@ -1,0 +1,10 @@
+a3c4dfa46df7b5e9bc95b286f587212d
+DEFINED_PHASES= configure install postinst preinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/libressl   elibc_musl? ( sys-libs/fts-standalone )   sys-libs/zlib   pam? ( sys-libs/pam )   sys-libs/db:=   dev-libs/libevent   app-misc/ca-certificates   net-mail/mailbase   net-libs/libasr   !mail-mta/courier   !mail-mta/esmtp   !mail-mta/exim   !mail-mta/mini-qmail   !mail-mta/msmtp[mta]   !mail-mta/netqmail   !mail-mta/nullmailer   !mail-mta/postfix   !mail-mta/qmail-ldap   !mail-mta/sendmail   !mail-mta/ssmtp[mta]  
+RDEPEND=dev-libs/libressl   elibc_musl? ( sys-libs/fts-standalone )   sys-libs/zlib   pam? ( sys-libs/pam )   sys-libs/db:=   dev-libs/libevent   app-misc/ca-certificates   net-mail/mailbase   net-libs/libasr   !mail-mta/courier   !mail-mta/esmtp   !mail-mta/exim   !mail-mta/mini-qmail   !mail-mta/msmtp[mta]   !mail-mta/netqmail   !mail-mta/nullmailer   !mail-mta/postfix   !mail-mta/qmail-ldap   !mail-mta/sendmail   !mail-mta/ssmtp[mta]  
+EAPI=7
+IUSE=pam +mta 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://www.opensmtpd.org/archives/opensmtpd-6.4.0p1.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Digest-SHA1-2.130.0   >=virtual/perl-ExtUtils-MakeMaker-6.300.0  
+RDEPEND=  >=dev-perl/Digest-SHA1-2.130.0  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IN/INGY/Module-Compile-0.35.tar.gz

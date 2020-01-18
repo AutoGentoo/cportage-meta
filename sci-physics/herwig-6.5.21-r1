@@ -1,0 +1,13 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= configure install prepare unpack
+DEPEND=!sci-physics/cernlib-montecarlo[herwig] 
+RDEPEND=!sci-physics/cernlib-montecarlo[herwig] 
+EAPI=6
+IUSE=doc static-libs 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	https://www.hep.phy.cam.ac.uk/theory/webber/Herwig//herwig6521.f
+	https://www.hep.phy.cam.ac.uk/theory/webber/Herwig//herwig6521.inc
+	https://www.hep.phy.cam.ac.uk/theory/webber/Herwig//HERWIG65.INC
+	doc? ( https://www.hep.phy.cam.ac.uk/theory/webber/Herwig//hw65_manual.pdf )

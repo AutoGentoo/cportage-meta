@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 ~hppa ia64 ~mips ~ppc sparc x86
+SLOT=0
+SRC_URI=http://bard.sytes.net/takcd/takcd-0.10.tar.gz

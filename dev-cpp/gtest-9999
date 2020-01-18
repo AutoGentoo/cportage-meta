@@ -1,0 +1,10 @@
+835f4fb15b09aaa83f6984aefc977359
+DEFINED_PHASES= prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=test? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) ) 
+RDEPEND=!dev-cpp/gmock 
+EAPI=7
+IUSE=doc examples test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

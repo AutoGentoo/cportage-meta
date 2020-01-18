@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  dev-cpp/gtkmm:2.4  dev-libs/libsigc++:2  media-libs/alsa-lib  jack? ( virtual/jack )  lash? ( media-sound/lash )  
+RDEPEND=  dev-cpp/gtkmm:2.4  dev-libs/libsigc++:2  media-libs/alsa-lib  jack? ( virtual/jack )  lash? ( media-sound/lash )  
+EAPI=7
+IUSE=jack lash 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://edge.launchpad.net/seq24/trunk/0.9.3/+download/seq24-0.9.3.tar.bz2

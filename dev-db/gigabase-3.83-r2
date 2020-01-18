@@ -1,0 +1,8 @@
+1c59d20c34b0a3c9b1b21b85ccda9dce
+DEFINED_PHASES= compile configure install postinst test
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=6
+IUSE=doc static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gigabase/gigabase-3.83.tar.gz

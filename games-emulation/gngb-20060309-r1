@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  media-libs/libsdl[sound,joystick,video]  sys-libs/zlib  app-arch/bzip2  opengl? ( virtual/opengl )  
+RDEPEND=  media-libs/libsdl[sound,joystick,video]  sys-libs/zlib  app-arch/bzip2  opengl? ( virtual/opengl )  
+EAPI=6
+IUSE=opengl 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://m.peponas.free.fr/gngb/download/gngb-20060309.tar.gz

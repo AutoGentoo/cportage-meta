@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=>=dev-libs/glib-2.32  doc? ( dev-util/gtk-doc )  virtual/pkgconfig 
+RDEPEND=>=dev-libs/glib-2.32 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=~amd64 ~arm ~mips ~x86
+SLOT=0
+SRC_URI=https://www.freedesktop.org/software/libqmi/libqmi-1.14.0.tar.xz

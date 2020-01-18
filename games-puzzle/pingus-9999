@@ -1,0 +1,10 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= postinst postrm prepare
+BDEPEND=  virtual/pkgconfig 
+DEPEND=  dev-libs/boost:=  dev-libs/jsoncpp  media-libs/libpng:0=  media-libs/libsdl2[joystick,opengl,video]  media-libs/sdl2-image[png]  media-libs/sdl2-mixer[mod]  virtual/opengl  
+RDEPEND=  dev-libs/boost:=  dev-libs/jsoncpp  media-libs/libpng:0=  media-libs/libsdl2[joystick,opengl,video]  media-libs/sdl2-image[png]  media-libs/sdl2-mixer[mod]  virtual/opengl  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

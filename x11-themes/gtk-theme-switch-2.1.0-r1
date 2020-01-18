@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:2 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=mirror://debian/pool/main/g/gtk-theme-switch/gtk-theme-switch_2.1.0.orig.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=sys-libs/ncurses:0  net-libs/libpcap 
+RDEPEND=sys-libs/ncurses:0  net-libs/libpcap 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~x86
+SLOT=0
+SRC_URI=http://dnstop.measurement-factory.com/src/dnstop-20140915.tar.gz

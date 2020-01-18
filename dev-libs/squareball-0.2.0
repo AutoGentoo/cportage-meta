@@ -1,0 +1,8 @@
+8d09b29686408dceb1e5ffd670f43c4f
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  virtual/pkgconfig  test? (   dev-util/cmocka )  doc? (   app-doc/doxygen ) 
+EAPI=6
+IUSE=doc test static-libs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/rafaelmartins/squareball/releases/download/v0.2.0/squareball-0.2.0.tar.xz

@@ -1,0 +1,9 @@
+f7b9419c2b75a2ad4aebc05cd6cfc6c9
+DEFINED_PHASES= compile install prepare
+DEPEND=  virtual/libusb:1  virtual/libudev  virtual/jpeg:0  opengl? ( media-libs/freeglut )  java? ( >=virtual/jre-1.5:* )   doc? ( app-doc/doxygen )  java? ( >=virtual/jdk-1.5:* ) 
+RDEPEND=  virtual/libusb:1  virtual/libudev  virtual/jpeg:0  opengl? ( media-libs/freeglut )  java? ( >=virtual/jre-1.5:* )  
+EAPI=5
+IUSE=doc java neon opengl static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+DEPEND=>=x11-libs/libdockapp-0.7:=  x11-libs/libX11 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 -ppc -sparc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~voyageur/distfiles/wmacpi-2.3.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-python/pyogg-1.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pyvorbis-1.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-libs/freealut  media-libs/openal 
+RDEPEND=>=dev-python/pyogg-1.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pyvorbis-1.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-libs/freealut  media-libs/openal 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://download.gna.org/pyopenal/PyOpenAL-0.1.6.tar.gz

@@ -1,0 +1,9 @@
+c0a3d0413c504d48d23738634a1b50d6
+DEFINED_PHASES= configure install
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5   app-arch/unzip  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/michalmotyczko/qtadb/get/ccbb0c86c9eb.zip -> qtadb-0.8.1.zip

@@ -1,0 +1,10 @@
+c95b83cfe16e23b4e51ac427ef77e473
+DEFINED_PHASES= compile install setup
+DEPEND=python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  ada_target_gnat_2016? ( dev-lang/gnat-gpl:4.9.4 ) ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 )   dev-ada/gnatcoll-core[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,shared?,static-libs?,static-pic?]  gmp? ( dev-libs/gmp:* )  dev-ada/gprbuild[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?] 
+RDEPEND=python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  ada_target_gnat_2016? ( dev-lang/gnat-gpl:4.9.4 ) ada_target_gnat_2017? ( dev-lang/gnat-gpl:6.3.0 ) ada_target_gnat_2018? ( dev-lang/gnat-gpl:7.3.1 ) ada_target_gnat_2019? ( dev-lang/gnat-gpl:8.3.1 )   dev-ada/gnatcoll-core[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,ada_target_gnat_2018(-)?,ada_target_gnat_2019(-)?,shared?,static-libs?,static-pic?]  gmp? ( dev-libs/gmp:* ) 
+EAPI=7
+IUSE=gmp iconv python readline +shared static-libs static-pic syslog 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5cdf8afa31e87a8f1d425054
+	-> gnatcoll-bindings-2019-20190430-1928C-src.tar.gz

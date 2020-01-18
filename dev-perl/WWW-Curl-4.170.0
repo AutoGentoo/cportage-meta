@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=net-misc/curl 
+RDEPEND=net-misc/curl 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SZ/SZBALINT/WWW-Curl-4.17.tar.gz

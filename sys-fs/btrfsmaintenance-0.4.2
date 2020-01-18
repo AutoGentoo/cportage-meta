@@ -1,0 +1,9 @@
+ec2ef5404b16991290b8ef64893a01ef
+DEFINED_PHASES= install postinst prepare prerm
+BDEPEND=virtual/pkgconfig 
+RDEPEND=  sys-fs/btrfs-progs  systemd? ( sys-apps/systemd )  !systemd? ( virtual/cron )  
+EAPI=7
+IUSE=systemd 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/kdave/btrfsmaintenance/archive/v0.4.2.tar.gz -> btrfsmaintenance-0.4.2.tar.gz

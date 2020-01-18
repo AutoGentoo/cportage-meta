@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=  net-analyzer/tcpdump  gnuplot? ( dev-python/gnuplot-py[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  pyx? ( dev-python/pyx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  crypt? ( || ( dev-python/pycryptodome[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]                dev-python/pycrypto[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) )  graphviz? ( media-gfx/graphviz )  imagemagick? ( virtual/imagemagick-tools )  tcpreplay? ( net-analyzer/tcpreplay )  
+EAPI=5
+IUSE=gnuplot pyx crypt graphviz imagemagick tcpreplay 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/secdev/scapy/archive/v2.3.2.tar.gz -> scapy-2.3.2.tar.gz

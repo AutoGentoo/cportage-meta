@@ -1,0 +1,10 @@
+c3c8ee65e947bf46134c501cb58aef0b
+DEFINED_PHASES= configure install test
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=dev-db/qt5-sqlcipher  >=dev-libs/libsodium-1.0.11:=  >=dev-qt/qtcore-5.7.1:5=  >=dev-qt/qtgui-5.7.1:5=  >=dev-qt/qtmultimedia-5.7.1:5=[widgets]  >=dev-qt/qtnetwork-5.7.1:5=[ssl]  >=dev-qt/qtsql-5.7.1:5=[sqlite]  >=dev-qt/qtwidgets-5.7.1:5=  >=media-gfx/qrencode-3.4.4-r1:=  test? ( >=dev-cpp/gtest-1.8.0 ) 
+RDEPEND=dev-db/qt5-sqlcipher  >=dev-libs/libsodium-1.0.11:=  >=dev-qt/qtcore-5.7.1:5=  >=dev-qt/qtgui-5.7.1:5=  >=dev-qt/qtmultimedia-5.7.1:5=[widgets]  >=dev-qt/qtnetwork-5.7.1:5=[ssl]  >=dev-qt/qtsql-5.7.1:5=[sqlite]  >=dev-qt/qtwidgets-5.7.1:5=  >=media-gfx/qrencode-3.4.4-r1:= 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/openmittsu-0.9.13.32.tar.xz

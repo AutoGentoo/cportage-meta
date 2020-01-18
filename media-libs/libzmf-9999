@@ -1,0 +1,9 @@
+6518ed480c31919fc943085c347d594a
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/icu:=  dev-libs/librevenge  media-libs/libpng:0=  sys-libs/zlib   dev-libs/boost  doc? ( app-doc/doxygen )  test? ( dev-util/cppunit )  
+RDEPEND=  dev-libs/icu:=  dev-libs/librevenge  media-libs/libpng:0=  sys-libs/zlib  
+EAPI=6
+IUSE=debug doc test tools 
+KEYWORDS=
+SLOT=0
+SRC_URI=

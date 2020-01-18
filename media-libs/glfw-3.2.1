@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    x11-libs/libxkbcommon  !wayland? (   virtual/opengl   x11-libs/libX11   x11-libs/libXcursor   x11-libs/libXinerama   x11-libs/libXrandr   x11-libs/libXxf86vm  )  wayland? (   dev-libs/wayland   media-libs/mesa[egl,wayland]  )   wayland? (   dev-libs/wayland-protocols   kde-frameworks/extra-cmake-modules  )  
+RDEPEND=  x11-libs/libxkbcommon  !wayland? (   virtual/opengl   x11-libs/libX11   x11-libs/libXcursor   x11-libs/libXinerama   x11-libs/libXrandr   x11-libs/libXxf86vm  )  wayland? (   dev-libs/wayland   media-libs/mesa[egl,wayland]  )  
+EAPI=6
+IUSE=examples wayland 
+KEYWORDS=amd64 ~arm64 ~hppa x86
+SLOT=0
+SRC_URI=mirror://sourceforge/glfw/glfw-3.2.1.tar.bz2

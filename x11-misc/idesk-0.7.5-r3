@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  dev-libs/glib:2  dev-libs/libxml2  media-libs/freetype  >=media-libs/imlib2-1.4[X]  media-libs/libart_lgpl  x11-libs/gtk+:2  x11-libs/pango  x11-libs/startup-notification  virtual/pkgconfig 
+RDEPEND=  dev-libs/glib:2  dev-libs/libxml2  media-libs/freetype  >=media-libs/imlib2-1.4[X]  media-libs/libart_lgpl  x11-libs/gtk+:2  x11-libs/pango  x11-libs/startup-notification 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/idesk/idesk-0.7.5.tar.bz2

@@ -1,0 +1,13 @@
+08cd7ffff1eec784fa273ec9e0367e91
+DEFINED_PHASES= compile config configure install postinst preinst prepare
+DEPEND=  virtual/libintl  fuse? ( sys-fs/fuse:0= )  kerberos? ( virtual/krb5 )  ncurses? ( sys-libs/ncurses:0= )  pam? ( sys-libs/pam )  virtual/yacc  doc? (   app-text/docbook-xsl-stylesheets   dev-libs/libxslt  ) 
+RDEPEND=  virtual/libintl  fuse? ( sys-fs/fuse:0= )  kerberos? ( virtual/krb5 )  ncurses? ( sys-libs/ncurses:0= )  pam? ( sys-libs/pam )  modules? ( ~net-fs/openafs-kernel-1.6.22.1 ) 
+EAPI=6
+IUSE=bitmap-later debug doc fuse kerberos +modules ncurses pam pthreaded-ubik +supergroups 
+KEYWORDS=amd64 ~sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	https://openafs.org/dl/openafs/1.6.22.1/openafs-1.6.22.1-src.tar.bz2
+	https://openafs.org/dl/openafs/1.6.22.1/openafs-1.6.22.1-doc.tar.bz2
+	https://dev.gentoo.org/~bircoph/afs/openafs-patches-20170822.tar.xz
+

@@ -1,0 +1,10 @@
+e656f03e0c0bc1c632d7c8d0001b839d
+DEFINED_PHASES= configure install prepare
+BDEPEND=  dev-cpp/eigen  virtual/pkgconfig  nls? ( sys-devel/gettext )  
+DEPEND=  >=dev-lang/lua-5.1:*  dev-libs/libfmt:=  media-libs/glew:0  media-libs/libpng:0=  virtual/glu  virtual/jpeg:0  virtual/opengl  glut? ( media-libs/freeglut )  gtk? (   x11-libs/gtk+:2   >=x11-libs/gtkglext-1.0   x11-libs/gdk-pixbuf:2   x11-libs/pango  )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5  )  theora? (   media-libs/libogg   media-libs/libtheora  )  
+RDEPEND=  >=dev-lang/lua-5.1:*  dev-libs/libfmt:=  media-libs/glew:0  media-libs/libpng:0=  virtual/glu  virtual/jpeg:0  virtual/opengl  glut? ( media-libs/freeglut )  gtk? (   x11-libs/gtk+:2   >=x11-libs/gtkglext-1.0   x11-libs/gdk-pixbuf:2   x11-libs/pango  )  qt5? (   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtwidgets:5  )  theora? (   media-libs/libogg   media-libs/libtheora  )  
+EAPI=7
+IUSE=glut gtk nls +qt5 theora 
+KEYWORDS=
+SLOT=0
+SRC_URI=

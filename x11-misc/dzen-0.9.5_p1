@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile configure install
+DEPEND=    x11-libs/libX11  xft? ( x11-libs/libXft )  xinerama? ( x11-libs/libXinerama )  xpm? ( x11-libs/libXpm )   virtual/pkgconfig  x11-base/xorg-proto  
+RDEPEND=  x11-libs/libX11  xft? ( x11-libs/libXft )  xinerama? ( x11-libs/libXinerama )  xpm? ( x11-libs/libXpm )  
+EAPI=7
+IUSE=minimal xft xinerama xpm 
+KEYWORDS=~amd64 ~x86
+SLOT=2
+SRC_URI=https://github.com/robm/dzen/tarball/488ab66019f475e35e067646621827c18a879ba1 -> dzen-0.9.5_p1.tar.gz

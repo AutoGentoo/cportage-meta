@@ -1,0 +1,10 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= postinst postrm prepare
+BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyserial[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-libs/libxml2[python] 
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyserial[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-libs/libxml2[python]  dev-python/pygtk[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  radioreference? ( dev-python/suds[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=7
+IUSE=radioreference 
+KEYWORDS=
+SLOT=0
+SRC_URI=

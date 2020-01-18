@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/libpng:0=  sys-libs/zlib:=   app-arch/unzip  virtual/pkgconfig 
+RDEPEND=  media-libs/libpng:0=  sys-libs/zlib:=  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ccextractor/ccextractor-src-nowin.0.85.zip

@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= compile install prepare
+DEPEND=  !sdl? ( x11-libs/libX11 )  sdl? (   media-libs/libsdl[video]   media-libs/sdl-mixer   media-libs/sdl-image  )   !sdl? ( x11-libs/libXt )  
+RDEPEND=  !sdl? ( x11-libs/libX11 )  sdl? (   media-libs/libsdl[video]   media-libs/sdl-mixer   media-libs/sdl-image  )  
+EAPI=6
+IUSE=sdl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.artsoft.org/RELEASES/unix/mirrormagic/mirrormagic-2.0.2.tar.gz

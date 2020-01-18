@@ -1,0 +1,9 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= install postinst
+DEPEND=  dev-libs/glib:2  
+RDEPEND=  dev-libs/glib:2   app-eselect/eselect-gnome-shell-extensions  >=gnome-base/gnome-shell-3.16  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/phocean/TopIcons-plus/archive/v22.tar.gz -> gnome-shell-extensions-topicons-plus-22.tar.gz

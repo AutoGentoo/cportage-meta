@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/roscpp  dev-ros/hector_nav_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/hector_map_tools  dev-ros/tf  dev-libs/boost:=  
+RDEPEND=  dev-ros/roscpp  dev-ros/hector_nav_msgs[ros_messages_cxx(-)]  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/hector_map_tools  dev-ros/tf  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/tu-darmstadt-ros-pkg/hector_slam/archive/0.4.0.tar.gz -> hector_slam-0.4.0.tar.gz

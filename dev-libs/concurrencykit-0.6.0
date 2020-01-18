@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+RDEPEND=!sys-cluster/charm 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://concurrencykit.org/releases/ck-0.6.0.tar.gz -> concurrencykit-0.6.0.tar.gz

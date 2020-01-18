@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install postinst
+DEPEND=>=mail-filter/spamassassin-3.0.0 
+RDEPEND=>=mail-filter/spamassassin-3.0.0 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://people.ucsc.edu/~jrudd/spamassassin/Botnet-0.8.tar

@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install prepare test
+DEPEND=virtual/libusb:0  doc? ( >=app-doc/doxygen-1.3.7 ) 
+RDEPEND=virtual/libusb:0 
+EAPI=7
+IUSE=doc examples static-libs 
+KEYWORDS=amd64 ~ia64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ifp-driver/libifp-1.0.0.2.tar.gz

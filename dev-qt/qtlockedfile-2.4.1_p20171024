@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-qt/qtcore:5 
+RDEPEND=dev-qt/qtcore:5 
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 ~arm ~hppa ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~pesa/distfiles/qt-solutions-20171024.tar.xz

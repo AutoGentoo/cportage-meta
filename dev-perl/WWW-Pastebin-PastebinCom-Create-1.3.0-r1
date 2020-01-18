@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=dev-perl/Moo-1.4.1  >=dev-perl/WWW-Mechanize-1.730.0   dev-perl/Module-Build  test? (   virtual/perl-Test-Simple  )  
+RDEPEND=  >=dev-perl/Moo-1.4.1  >=dev-perl/WWW-Mechanize-1.730.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/Z/ZO/ZOFFIX/WWW-Pastebin-PastebinCom-Create-1.003.tar.gz

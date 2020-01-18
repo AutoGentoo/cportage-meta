@@ -1,0 +1,9 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-db/mysql-connector-c:= 
+RDEPEND=dev-db/mysql-connector-c:= 
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=http://libnss-mysql.sourceforge.net/snapshot/libnss-mysql-20060915.tgz

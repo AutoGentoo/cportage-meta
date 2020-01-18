@@ -1,0 +1,8 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile install prepare
+EAPI=4
+IUSE=static-libs 
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/canlock/canlock_2b.orig.tar.gz
+	mirror://debian/pool/main/c/canlock/canlock_2b-6.diff.gz

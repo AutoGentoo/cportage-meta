@@ -1,0 +1,10 @@
+ad2b24e023589f8b1fd5e20bb45a0039
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  dev-util/gperf  virtual/libiconv  virtual/libintl  virtual/pkgconfig  
+DEPEND=  dev-libs/libuv:0=  >=dev-libs/libvterm-0.1  dev-libs/msgpack:0=  dev-lua/lpeg[luajit=]  dev-lua/luv[luajit=]  dev-lua/mpack[luajit=]  net-libs/libnsl  luajit? ( dev-lang/luajit:2 )  !luajit? (   dev-lang/lua:=   dev-lua/LuaBitOp  )  tui? (   dev-libs/libtermkey   >=dev-libs/unibilium-2.0.0:0=  )  
+RDEPEND=    dev-libs/libuv:0=  >=dev-libs/libvterm-0.1  dev-libs/msgpack:0=  dev-lua/lpeg[luajit=]  dev-lua/luv[luajit=]  dev-lua/mpack[luajit=]  net-libs/libnsl  luajit? ( dev-lang/luajit:2 )  !luajit? (   dev-lang/lua:=   dev-lua/LuaBitOp  )  tui? (   dev-libs/libtermkey   >=dev-libs/unibilium-2.0.0:0=  )   app-eselect/eselect-vi  
+EAPI=7
+IUSE=+luajit +nvimpager +tui 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/neovim/neovim/archive/v0.4.2.tar.gz -> neovim-0.4.2.tar.gz

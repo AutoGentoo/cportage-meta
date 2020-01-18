@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/fangyidong/json-simple/archive/tag_release_1_1_1.tar.gz -> json-simple-1.1.tar.gz

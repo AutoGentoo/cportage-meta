@@ -1,0 +1,9 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= compile test
+DEPEND=dev-perl/Sort-Versions 
+RDEPEND=dev-perl/Sort-Versions 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 hppa ia64 ~mips ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IN/INGY/ExtUtils-AutoInstall-0.64.tar.gz

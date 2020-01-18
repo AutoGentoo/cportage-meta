@@ -1,0 +1,9 @@
+ef7f6de9814ca2c17477419901c0da8b
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-java/gnu-classpath:0.98  || ( dev-java/eclipse-ecj:* dev-java/ecj-gcj:* )  libffi? ( virtual/libffi )  ppc64? ( virtual/libffi )  sparc? ( virtual/libffi ) 
+RDEPEND=dev-java/gnu-classpath:0.98  || ( dev-java/eclipse-ecj:* dev-java/ecj-gcj:* )  libffi? ( virtual/libffi )  ppc64? ( virtual/libffi )  sparc? ( virtual/libffi ) 
+EAPI=5
+IUSE=debug libffi 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jamvm/jamvm-2.0.0.tar.gz

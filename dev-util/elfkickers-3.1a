@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile prepare
+DEPEND=app-misc/pax-utils 
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 arm ~hppa ~mips sparc x86
+SLOT=0
+SRC_URI=http://www.muppetlabs.com/~breadbox/pub/software/ELFkickers-3.1a.tar.gz

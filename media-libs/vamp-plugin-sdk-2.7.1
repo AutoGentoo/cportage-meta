@@ -1,0 +1,10 @@
+7aeba820a095cd021668cc655dd0f453
+DEFINED_PHASES= postinst prepare
+BDEPEND=doc? ( app-doc/doxygen ) 
+DEPEND=media-libs/libsndfile:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] 
+RDEPEND=media-libs/libsndfile:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] 
+EAPI=7
+IUSE=doc 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://code.soundsoftware.ac.uk/attachments/download/2206/vamp-plugin-sdk-2.7.1.tar.gz

@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= install postinst prepare unpack
+DEPEND=app-arch/unshield 
+RDEPEND=games-misc/games-envd 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=

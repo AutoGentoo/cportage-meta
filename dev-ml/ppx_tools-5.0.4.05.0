@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=dev-lang/ocaml-4.05_beta:=[ocamlopt?] 
+RDEPEND=>=dev-lang/ocaml-4.05_beta:=[ocamlopt?] 
+EAPI=5
+IUSE=+ocamlopt 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
+SLOT=0/5.0.4.05.0
+SRC_URI=https://github.com/alainfrisch/ppx_tools/archive/5.0+4.05.0.tar.gz -> ppx_tools-5.0.4.05.0.tar.gz

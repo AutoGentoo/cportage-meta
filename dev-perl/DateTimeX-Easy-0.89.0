@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-perl/DateTime  dev-perl/TimeDate  dev-perl/DateTime-Format-Flexible  dev-perl/DateTime-Format-ICal  dev-perl/DateTime-Format-Natural  virtual/perl-Scalar-List-Utils  >=virtual/perl-ExtUtils-MakeMaker-6.31  test? ( dev-perl/Test-Most ) 
+RDEPEND=dev-perl/DateTime  dev-perl/TimeDate  dev-perl/DateTime-Format-Flexible  dev-perl/DateTime-Format-ICal  dev-perl/DateTime-Format-Natural  virtual/perl-Scalar-List-Utils 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RO/ROKR/DateTimeX-Easy-0.089.tar.gz

@@ -1,0 +1,7 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= install postinst prepare
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

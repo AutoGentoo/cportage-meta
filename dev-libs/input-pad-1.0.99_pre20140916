@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= configure install prepare
+DEPEND=dev-libs/glib:2  dev-libs/libxml2  x11-libs/gtk+:3  x11-libs/libX11  x11-libs/libxkbfile  x11-libs/libxklavier  virtual/libintl  eekboard? ( dev-libs/eekboard )  introspection? ( dev-libs/gobject-introspection )  xtest? ( x11-libs/libXtst )  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  dev-libs/libxml2  x11-libs/gtk+:3  x11-libs/libX11  x11-libs/libxkbfile  x11-libs/libxklavier  virtual/libintl  eekboard? ( dev-libs/eekboard )  introspection? ( dev-libs/gobject-introspection )  xtest? ( x11-libs/libXtst ) 
+EAPI=6
+IUSE=eekboard +introspection static-libs +xtest 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/fujiwarat/input-pad/releases/download/1.0.99.20140916/input-pad-1.0.99.20140916.tar.gz

@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= configure install prepare setup test
+DEPEND=  dev-libs/gmp:=[cxx]   dev-libs/boost  
+RDEPEND=  dev-libs/gmp:=[cxx]  
+EAPI=6
+IUSE=doc extras openmp static-libs 
+KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
+SLOT=0/3
+SRC_URI=https://github.com/Normaliz/Normaliz/archive/v3.3.0.tar.gz -> normaliz-3.3.0.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=sys-block/parted-2.3  >=sys-libs/ncurses-5.7-r7:= 
+RDEPEND=>=sys-block/parted-2.3  >=sys-libs/ncurses-5.7-r7:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/martijnvanbrummelen/nwipe/archive/v0.25.tar.gz -> nwipe-0.25.tar.gz

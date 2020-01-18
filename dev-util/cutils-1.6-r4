@@ -1,0 +1,8 @@
+92bd7ff16b9130c9ff5cffb80db05e60
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=sys-devel/flex 
+EAPI=4
+IUSE=
+KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://www.sigala.it/sandro/files/cutils-1.6.tar.gz

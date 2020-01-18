@@ -1,0 +1,10 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=sys-apps/sed  || (   sys-apps/coreutils   sys-freebsd/freebsd-bin   app-misc/realpath  )  doc? ( dev-python/docutils ) 
+RDEPEND=sys-apps/sed  || (   sys-apps/coreutils   sys-freebsd/freebsd-bin   app-misc/realpath  )  sys-apps/file  sys-libs/ncurses:0 
+PDEPEND=emacs? ( app-emacs/eselect-mode )  vim-syntax? ( app-vim/eselect-syntax ) 
+EAPI=6
+IUSE=doc emacs vim-syntax 
+KEYWORDS=
+SLOT=0
+SRC_URI=

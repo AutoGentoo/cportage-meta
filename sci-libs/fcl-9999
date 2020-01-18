@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sci-libs/octomap  sci-libs/flann  dev-libs/boost:=[threads]  sci-libs/libccd  virtual/pkgconfig 
+RDEPEND=  sci-libs/octomap  sci-libs/flann  dev-libs/boost:=[threads]  sci-libs/libccd 
+EAPI=5
+IUSE=cpu_flags_x86_sse 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:2  dev-scheme/gauche  opengl? (   x11-libs/gtkglext   dev-scheme/gauche-gl  ) 
+EAPI=6
+IUSE=examples glgd nls opengl 
+KEYWORDS=~amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://github.com/shirok/Gauche-gtk2/archive/6fca535f7bb950f81db066bd1afdca9d55e9b460.tar.gz -> Gauche-gtk2-0.6_pre1.tar.gz

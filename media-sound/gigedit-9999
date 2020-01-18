@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=  sys-devel/gettext  >=dev-util/intltool-0.35.0  virtual/pkgconfig  
+RDEPEND=  dev-cpp/gtkmm:2.4  >=media-libs/libgig-3.3.0  >=media-libs/libsndfile-1.0.2  >=media-sound/linuxsampler-0.5.1  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

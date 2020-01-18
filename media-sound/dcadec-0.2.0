@@ -1,0 +1,7 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64 ~mips x86
+SLOT=0
+SRC_URI=https://github.com/foo86/dcadec/archive/v0.2.0.tar.gz -> dcadec-0.2.0.tar.gz

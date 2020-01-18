@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-ml/base:=  dev-ml/ocaml-compiler-libs:=  dev-ml/ppx_ast:=  dev-ml/ppx_traverse_builtins:=  dev-ml/stdio:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/jbuilder 
+RDEPEND=  dev-ml/base:=  dev-ml/ocaml-compiler-libs:=  dev-ml/ppx_ast:=  dev-ml/ppx_traverse_builtins:=  dev-ml/stdio:=  dev-ml/ocaml-migrate-parsetree:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0/0.9.0
+SRC_URI=https://github.com/janestreet/ppx_core/archive/v0.9.0.tar.gz -> ppx_core-0.9.0.tar.gz

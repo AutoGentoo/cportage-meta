@@ -1,0 +1,10 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= configure test
+BDEPEND=test? ( dev-lang/perl ) 
+DEPEND=>=dev-lang/lua-5.1:0 
+RDEPEND=>=dev-lang/lua-5.1:0 
+EAPI=7
+IUSE=+internal-fpconv luajit test +threads 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/openresty/lua-cjson/archive/2.1.0.7.tar.gz -> lua-cjson-2.1.0.7.tar.gz

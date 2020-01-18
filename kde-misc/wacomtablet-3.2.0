@@ -1,0 +1,10 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= test
+BDEPEND=sys-devel/gettext 
+DEPEND=   >=kde-frameworks/kconfig-5.60.0:5   >=kde-frameworks/kconfigwidgets-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/kdbusaddons-5.60.0:5   >=kde-frameworks/kglobalaccel-5.60.0:5   >=kde-frameworks/ki18n-5.60.0:5   >=kde-frameworks/knotifications-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=kde-frameworks/kwindowsystem-5.60.0:5   >=kde-frameworks/kxmlgui-5.60.0:5   >=kde-frameworks/plasma-5.60.0:5   >=dev-qt/qtdbus-5.12.3:5   >=dev-qt/qtdeclarative-5.12.3:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5   >=dev-qt/qtx11extras-5.12.3:5  >=dev-libs/libwacom-0.30  >=x11-drivers/xf86-input-wacom-0.20.0  x11-libs/libXi  x11-libs/libxcb   x11-base/xorg-proto  x11-libs/libX11  
+RDEPEND=   >=kde-frameworks/kconfig-5.60.0:5   >=kde-frameworks/kconfigwidgets-5.60.0:5   >=kde-frameworks/kcoreaddons-5.60.0:5   >=kde-frameworks/kdbusaddons-5.60.0:5   >=kde-frameworks/kglobalaccel-5.60.0:5   >=kde-frameworks/ki18n-5.60.0:5   >=kde-frameworks/knotifications-5.60.0:5   >=kde-frameworks/kwidgetsaddons-5.60.0:5   >=kde-frameworks/kwindowsystem-5.60.0:5   >=kde-frameworks/kxmlgui-5.60.0:5   >=kde-frameworks/plasma-5.60.0:5   >=dev-qt/qtdbus-5.12.3:5   >=dev-qt/qtdeclarative-5.12.3:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5   >=dev-qt/qtx11extras-5.12.3:5  >=dev-libs/libwacom-0.30  >=x11-drivers/xf86-input-wacom-0.20.0  x11-libs/libXi  x11-libs/libxcb  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=5
+SRC_URI=mirror://kde/stable/wacomtablet/3.2.0/wacomtablet-3.2.0.tar.xz

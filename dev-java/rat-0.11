@@ -1,0 +1,11 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= install
+DEPEND=    dev-java/ant-core:0  dev-java/commons-io:1  dev-java/commons-cli:1  dev-java/commons-lang:2.1  dev-java/commons-compress:0  dev-java/commons-collections:0   app-arch/unzip  >=virtual/jdk-1.6 
+RDEPEND=    dev-java/ant-core:0  dev-java/commons-io:1  dev-java/commons-cli:1  dev-java/commons-lang:2.1  dev-java/commons-compress:0  dev-java/commons-collections:0   >=virtual/jre-1.6 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	https://repo1.maven.org/maven2/org/apache/rat/apache-rat-core/0.11/apache-rat-core-0.11-sources.jar
+	https://repo1.maven.org/maven2/org/apache/rat/apache-rat-tasks/0.11/apache-rat-tasks-0.11-sources.jar

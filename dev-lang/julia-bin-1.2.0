@@ -1,0 +1,13 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=!dev-lang/julia 
+RDEPEND=!dev-lang/julia 
+EAPI=7
+IUSE=elibc_glibc elibc_FreeBSD 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	x86? ( https://julialang-s3.julialang.org/bin/linux/x86/1.2/julia-1.2.0-linux-i686.tar.gz )
+	amd64? ( https://julialang-s3.julialang.org/bin/linux/x64/1.2/julia-1.2.0-linux-x86_64.tar.gz )
+	amd64-fbsd? ( https://julialang-s3.julialang.org/bin/freebsd/x64/1.2/julia-1.2.0-freebsd-x86_64.tar.gz )
+

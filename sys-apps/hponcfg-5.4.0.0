@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=elibc_glibc? ( >sys-libs/glibc-2.14 ) 
+EAPI=7
+IUSE=
+KEYWORDS=-* amd64
+SLOT=0
+SRC_URI=amd64? ( https://downloads.linux.hpe.com/SDR/repo/spp/RHEL/7/x86_64/current/hponcfg-5.4.0-0.x86_64.rpm )

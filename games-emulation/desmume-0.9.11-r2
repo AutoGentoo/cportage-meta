@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-libs/zziplib  gnome-base/libglade  media-libs/libsdl[joystick,opengl,video]  sys-libs/zlib  virtual/opengl  x11-libs/agg  >=x11-libs/gtk+-2.8.0:2  dev-util/intltool  virtual/pkgconfig 
+RDEPEND=  dev-libs/zziplib  gnome-base/libglade  media-libs/libsdl[joystick,opengl,video]  sys-libs/zlib  virtual/opengl  x11-libs/agg  >=x11-libs/gtk+-2.8.0:2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/desmume/desmume-0.9.11.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=app-emulation/libvirt-0.10.0[sasl?]  app-emulation/libvirt-glib  >=dev-libs/libxml2-2.6  x11-libs/gtk+:3  spice? ( >=net-misc/spice-gtk-0.35[sasl?,gtk3] )  vnc? ( >=net-libs/gtk-vnc-0.5.0[sasl?,gtk3(+)] )  dev-lang/perl  >=dev-util/intltool-0.35.0  virtual/pkgconfig  spice? ( >=app-emulation/spice-protocol-0.12.10 ) 
+RDEPEND=>=app-emulation/libvirt-0.10.0[sasl?]  app-emulation/libvirt-glib  >=dev-libs/libxml2-2.6  x11-libs/gtk+:3  spice? ( >=net-misc/spice-gtk-0.35[sasl?,gtk3] )  vnc? ( >=net-libs/gtk-vnc-0.5.0[sasl?,gtk3(+)] ) 
+EAPI=6
+IUSE=sasl +spice +vnc 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://virt-manager.org/download/sources/virt-viewer/virt-viewer-7.0.tar.gz

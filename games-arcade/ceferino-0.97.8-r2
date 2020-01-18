@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=  >=media-libs/libsdl-1.2[video]  >=media-libs/sdl-image-1.2  >=media-libs/sdl-mixer-1.2  nls? ( virtual/libintl )   nls? ( sys-devel/gettext )  
+RDEPEND=  >=media-libs/libsdl-1.2[video]  >=media-libs/sdl-image-1.2  >=media-libs/sdl-mixer-1.2  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/c/ceferino/ceferino_0.97.8+svn37.orig.tar.gz

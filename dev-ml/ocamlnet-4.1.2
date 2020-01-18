@@ -1,0 +1,9 @@
+1530a8a8723224618f35c92d0297278a
+DEFINED_PHASES= compile configure prepare
+DEPEND=>=dev-ml/findlib-1.0   pcre? ( >=dev-ml/pcre-ocaml-5:= )   >=dev-lang/ocaml-3.10.2:=[ocamlopt?]   tk? ( dev-ml/labltk:= )   ssl? ( net-libs/gnutls:= )   gtk? ( >=dev-ml/lablgtk-2:= )   kerberos? ( virtual/krb5 )   zip? ( dev-ml/camlzip:= )     virtual/pkgconfig  
+RDEPEND=>=dev-ml/findlib-1.0   pcre? ( >=dev-ml/pcre-ocaml-5:= )   >=dev-lang/ocaml-3.10.2:=[ocamlopt?]   tk? ( dev-ml/labltk:= )   ssl? ( net-libs/gnutls:= )   gtk? ( >=dev-ml/lablgtk-2:= )   kerberos? ( virtual/krb5 )   zip? ( dev-ml/camlzip:= )    
+EAPI=5
+IUSE=gtk kerberos tk httpd +ocamlopt +pcre ssl zip 
+KEYWORDS=amd64 ppc x86
+SLOT=0/4.1.2
+SRC_URI=http://download.camlcity.org/download/ocamlnet-4.1.2.tar.gz

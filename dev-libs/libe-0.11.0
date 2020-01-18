@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/libpo6 
+RDEPEND=dev-libs/libpo6 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=http://hyperdex.org/src/libe-0.11.0.tar.gz

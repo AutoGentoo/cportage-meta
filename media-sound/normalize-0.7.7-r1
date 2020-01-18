@@ -1,0 +1,12 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=  virtual/pkgconfig  nls? ( dev-util/intltool ) 
+DEPEND=  audiofile? ( media-libs/audiofile:= )  mad? ( media-libs/libmad:= ) 
+RDEPEND=  audiofile? ( media-libs/audiofile:= )  mad? ( media-libs/libmad:= ) 
+EAPI=7
+IUSE=audiofile mad nls 
+KEYWORDS=amd64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=
+	https://savannah.nongnu.org/download/normalize/normalize-0.7.7.tar.bz2
+	https://dev.gentoo.org/~radhermit/distfiles/normalize-0.7.7-m4.patch.gz

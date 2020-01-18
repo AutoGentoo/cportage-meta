@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/cv_bridge  media-libs/opencv:=  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/hector_map_tools  dev-ros/image_transport  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/sensor_msgs[ros_messages_cxx(-)]  media-libs/opencv   dev-cpp/eigen:3 
+RDEPEND=  dev-ros/cv_bridge  media-libs/opencv:=  dev-ros/geometry_msgs[ros_messages_cxx(-)]  dev-ros/hector_map_tools  dev-ros/image_transport  dev-ros/nav_msgs[ros_messages_cxx(-)]  dev-ros/sensor_msgs[ros_messages_cxx(-)]  media-libs/opencv  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/tu-darmstadt-ros-pkg/hector_slam/archive/0.4.0.tar.gz -> hector_slam-0.4.0.tar.gz

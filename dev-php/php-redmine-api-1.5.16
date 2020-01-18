@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst test
+BDEPEND=test? ( dev-lang/php:*[curl,json,simplexml] >=dev-php/phpunit-4 ) 
+RDEPEND=dev-lang/php:*[curl,json,simplexml] 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/kbsali/php-redmine-api/archive/v1.5.16.tar.gz -> php-redmine-api-1.5.16.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure postinst
+DEPEND=x11-libs/libX11  xrender? ( x11-libs/libXrender ) 
+RDEPEND=x11-libs/libX11  xrender? ( x11-libs/libXrender ) 
+EAPI=6
+IUSE=+xrender 
+KEYWORDS=amd64 ~mips ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/fbpager-20090221.tar.bz2

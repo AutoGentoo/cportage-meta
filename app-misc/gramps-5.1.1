@@ -1,0 +1,10 @@
+a80aef753d6d01c0cf707430cd39605e
+DEFINED_PHASES= postinst postrm
+BDEPEND=python_single_target_python3_6? (    dev-lang/python:3.6[sqlite]    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?] 
+RDEPEND=  dev-python/bsddb3[python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?]  dev-python/pycairo[python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?]  >=dev-python/pygobject-3.12:3[cairo,python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?]  dev-python/pyicu[python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?]  gnome-base/librsvg:2  >x11-libs/gtk+-3.14.8:3[introspection]  x11-libs/pango[introspection]  x11-misc/xdg-utils  reports? ( media-gfx/graphviz[postscript?] )  exif? ( >=media-libs/gexiv2-0.5[python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?,introspection] )  geo? ( >=sci-geosciences/osm-gps-map-1.1.0 )  spell? ( app-text/gtkspell:3[introspection] )  rcs? ( dev-vcs/rcs )  
+EAPI=7
+IUSE=+rcs +reports exif geo postscript spell 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/gramps-project/gramps/archive/v5.1.1.tar.gz
+	-> gramps-5.1.1.tar.gz

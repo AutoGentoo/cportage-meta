@@ -1,0 +1,9 @@
+e9c91b900aa58d9b4a572f5976762413
+DEFINED_PHASES= setup
+DEPEND=dev-vcs/mercurial  doc? (   app-text/docbook-xsl-stylesheets   dev-libs/libxslt  ) 
+RDEPEND=dev-vcs/mercurial 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://dev.lshift.net/paul/mercurial-server/mercurial-server_1.2.tar.gz

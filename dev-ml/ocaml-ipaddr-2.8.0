@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=dev-ml/sexplib:=  dev-ml/ppx_sexp_conv:=  dev-ml/ppx_core:=  dev-ml/ppx_type_conv:=  dev-lang/ocaml:=[ocamlopt?]   dev-ml/jbuilder  dev-ml/findlib  test? ( dev-ml/ounit )  
+RDEPEND=dev-ml/sexplib:=  dev-ml/ppx_sexp_conv:=  dev-ml/ppx_core:=  dev-ml/ppx_type_conv:=  dev-lang/ocaml:=[ocamlopt?]  
+EAPI=5
+IUSE=+ocamlopt test 
+KEYWORDS=~amd64
+SLOT=0/2.8.0
+SRC_URI=https://github.com/mirage/ocaml-ipaddr/archive/2.8.0.tar.gz -> ocaml-ipaddr-2.8.0.tar.gz

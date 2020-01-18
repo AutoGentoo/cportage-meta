@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+BDEPEND=  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig  
+DEPEND=    app-text/gtkspell:3  app-text/poppler[cairo]  dev-libs/glib:2  dev-texlive/texlive-latex  dev-texlive/texlive-latexextra  x11-libs/gtk+:3  x11-libs/gtksourceview:3.0  x11-libs/pango   
+RDEPEND=  app-text/gtkspell:3  app-text/poppler[cairo]  dev-libs/glib:2  dev-texlive/texlive-latex  dev-texlive/texlive-latexextra  x11-libs/gtk+:3  x11-libs/gtksourceview:3.0  x11-libs/pango  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/alexandervdm/gummi/releases/download/0.8.0/gummi-0.8.0.tar.gz

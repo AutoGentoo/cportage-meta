@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure postinst prepare test
+DEPEND=    gtk? (   dev-libs/glib:2   x11-libs/gtk+:2  )  ncurses? ( sys-libs/ncurses:0= )   sys-devel/autoconf  virtual/pkgconfig  
+RDEPEND=  gtk? (   dev-libs/glib:2   x11-libs/gtk+:2  )  ncurses? ( sys-libs/ncurses:0= )  
+EAPI=6
+IUSE=gtk ipv6 ncurses 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://www.bitwizard.nl/mtr/files/mtr-0.93.tar.gz

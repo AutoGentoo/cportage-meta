@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= prepare test
+DEPEND=test? ( dev-php/PEAR-PEAR ) 
+RDEPEND=>=dev-php/pear-1.8.1 
+EAPI=6
+IUSE=test 
+KEYWORDS=~alpha amd64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/HTTP-1.4.1.tgz

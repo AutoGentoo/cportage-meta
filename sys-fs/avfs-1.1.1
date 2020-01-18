@@ -1,0 +1,10 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= configure install postinst
+BDEPEND=virtual/pkgconfig 
+DEPEND=>=sys-fs/fuse-2.4:0  sys-libs/zlib  app-arch/bzip2  lzma? ( app-arch/xz-utils ) 
+RDEPEND=>=sys-fs/fuse-2.4:0  sys-libs/zlib  app-arch/bzip2  lzma? ( app-arch/xz-utils ) 
+EAPI=7
+IUSE=static-libs +lzma 
+KEYWORDS=amd64 ~arm ~hppa ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/avf/avfs-1.1.1.tar.bz2

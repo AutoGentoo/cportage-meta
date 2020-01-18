@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=sys-apps/pcsc-lite-1.6.0 
+RDEPEND=dev-lang/perl:= 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sh ~sparc ~x86
+SLOT=0
+SRC_URI=http://ludovic.rousseau.free.fr/softwares/pcsc-perl/pcsc-perl-1.4.14.tar.bz2

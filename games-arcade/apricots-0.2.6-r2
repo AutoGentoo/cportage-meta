@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libsdl[sound,video]  media-libs/openal  media-libs/freealut 
+RDEPEND=media-libs/libsdl[sound,video]  media-libs/openal  media-libs/freealut 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.fishies.org.uk/apricots-0.2.6.tar.gz

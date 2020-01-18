@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-cpp/eigen:3  dev-ros/tf2  dev-ros/tf2_ros  dev-python/python_orocos_kdl[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  sci-libs/orocos_kdl:=  dev-ros/tf2_msgs[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/cmake_modules   test? (   dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-cpp/gtest  ) 
+RDEPEND=  dev-cpp/eigen:3  dev-ros/tf2  dev-ros/tf2_ros  dev-python/python_orocos_kdl[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  sci-libs/orocos_kdl:=  dev-ros/tf2_msgs[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/cmake_modules  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros/geometry2/archive/0.6.1.tar.gz -> geometry2-0.6.1.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+DEPEND=!build? (   sys-apps/sed   >=sys-devel/binutils-2.11.90.0.31  ) 
+RDEPEND=!build? (   dev-lang/perl   sys-devel/bc   sys-devel/bison   sys-devel/flex   sys-devel/make   >=sys-libs/ncurses-5.2   virtual/libelf  ) 
+EAPI=6
+IUSE=experimental 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
+SLOT=5.4.7
+SRC_URI= https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz  https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.4-8.base.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.4-8.base.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.4-8.base.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.4-8.extras.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.4-8.extras.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.4-8.extras.tar.xz experimental? ( https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.4-8.experimental.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.4-8.experimental.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.4-8.experimental.tar.xz ) 

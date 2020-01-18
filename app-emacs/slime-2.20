@@ -1,0 +1,9 @@
+aa6567c399af4a829f0cdca2ba5edff7
+DEFINED_PHASES= compile install prepare
+DEPEND=virtual/commonlisp  dev-lisp/asdf  >=sys-apps/texinfo-5.1  doc? ( virtual/texi2dvi ) 
+RDEPEND=virtual/commonlisp  dev-lisp/asdf 
+EAPI=6
+IUSE=doc xref 
+KEYWORDS=amd64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/slime/slime/archive/v2.20.tar.gz -> slime-2.20.tar.gz

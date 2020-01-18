@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=dev-vcs/git 
+RDEPEND=dev-vcs/git 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/AGWA/git-crypt/archive/0.6.0.tar.gz -> git-crypt-0.6.0.tar.gz

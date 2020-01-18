@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=amd64 ~arm ~ia64 x86 ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/mcpp/mcpp-2.7.2.tar.gz

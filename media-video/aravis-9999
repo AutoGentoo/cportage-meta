@@ -1,0 +1,10 @@
+1659df4ab14be60dc7e660b9a0a13443
+DEFINED_PHASES= configure
+BDEPEND=  dev-util/glib-utils  virtual/pkgconfig  gtk-doc? (   dev-util/gtk-doc   app-text/docbook-xml-dtd:4.3  )  introspection? ( dev-libs/gobject-introspection:= )  
+DEPEND=  dev-libs/glib:2[gtk-doc?]  dev-libs/libxml2:2  sys-libs/zlib  gstreamer? (   media-libs/gstreamer:1.0  media-libs/gst-plugins-base:1.0  )  packet-socket? ( sys-process/audit )  usb? ( virtual/libusb:1 )  viewer? (     media-libs/gstreamer:1.0  media-libs/gst-plugins-base:1.0    x11-libs/gtk+:3   x11-libs/libnotify  )  
+RDEPEND=  dev-libs/glib:2[gtk-doc?]  dev-libs/libxml2:2  sys-libs/zlib  gstreamer? (   media-libs/gstreamer:1.0  media-libs/gst-plugins-base:1.0  )  packet-socket? ( sys-process/audit )  usb? ( virtual/libusb:1 )  viewer? (     media-libs/gstreamer:1.0  media-libs/gst-plugins-base:1.0    x11-libs/gtk+:3   x11-libs/libnotify  )  
+EAPI=7
+IUSE=gtk-doc fast-heartbeat gstreamer introspection packet-socket usb viewer 
+KEYWORDS=
+SLOT=0
+SRC_URI=

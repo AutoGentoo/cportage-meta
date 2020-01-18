@@ -1,0 +1,13 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= configure install unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  media-libs/libsdl  sound? (   !fmod? ( media-libs/sdl-mixer[mod,modplug] )   fmod? ( >=media-libs/fmod-4.38.00 )  ) 
+RDEPEND=  media-libs/libsdl  sound? (   !fmod? ( media-libs/sdl-mixer[mod,modplug] )   fmod? ( >=media-libs/fmod-4.38.00 )  ) 
+EAPI=6
+IUSE=fmod sound 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=
+	https://github.com/petarov/savagewheels/archive/1.6.1.tar.gz -> savagewheels-1.6.1.tar.gz
+	https://github.com/petarov/savagewheels/releases/download/v1.4/savagewheels-gamedata.tar.gz -> savagewheels-gamedata-1.4.0.tar.gz
+

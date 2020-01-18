@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=media-libs/gd  zlib? ( sys-libs/zlib )  gif? ( media-libs/giflib )  png? ( media-libs/libpng )  jpeg? ( virtual/jpeg )  truetype? ( media-libs/freetype ) 
+RDEPEND=media-libs/gd  zlib? ( sys-libs/zlib )  gif? ( media-libs/giflib )  png? ( media-libs/libpng )  jpeg? ( virtual/jpeg )  truetype? ( media-libs/freetype ) 
+EAPI=7
+IUSE=gif jpeg nls png truetype zlib 
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=http://www.akhphd.au.dk/~bertho/cvsgraph/release/cvsgraph-1.7.0.tar.gz

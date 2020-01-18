@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare unpack
+DEPEND=app-arch/unzip 
+RDEPEND=>=games-engines/love-0.8.0:0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://stabyourself.net/dl.php?file=orthorobot/orthorobot-source.zip -> orthorobot-0.zip

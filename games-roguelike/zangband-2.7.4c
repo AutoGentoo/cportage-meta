@@ -1,0 +1,9 @@
+ae44e8a1bef939a1fa6c1cc9184302a3
+DEFINED_PHASES= configure install prepare
+DEPEND=  tk? (   dev-lang/tcl:0=   dev-lang/tk:0=   )  x11-libs/libXaw  x11-base/xorg-proto 
+RDEPEND=  tk? (   dev-lang/tcl:0=   dev-lang/tk:0=   )  x11-libs/libXaw 
+EAPI=5
+IUSE=tk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=ftp://ftp.sunet.se/pub/games/Angband/Variant/ZAngband/zangband-2.7.4c.tar.gz

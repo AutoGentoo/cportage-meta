@@ -1,0 +1,10 @@
+a0b9da4ec4cc474edd3eef41d2a97ec4
+DEFINED_PHASES= configure install postinst prepare setup
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=app-eselect/eselect-opencascade  dev-lang/tcl:0=  dev-lang/tk:0=  dev-tcltk/itcl  dev-tcltk/itk  dev-tcltk/tix  media-libs/freetype:2  media-libs/ftgl  virtual/glu  virtual/opengl  x11-libs/libXmu  ffmpeg? ( virtual/ffmpeg )  freeimage? ( media-libs/freeimage )  gl2ps? ( x11-libs/gl2ps )  java? ( >=virtual/jdk-0:= )  tbb? ( dev-cpp/tbb )  vtk? ( sci-libs/vtk[rendering] )   doc? ( app-doc/doxygen )  
+RDEPEND=app-eselect/eselect-opencascade  dev-lang/tcl:0=  dev-lang/tk:0=  dev-tcltk/itcl  dev-tcltk/itk  dev-tcltk/tix  media-libs/freetype:2  media-libs/ftgl  virtual/glu  virtual/opengl  x11-libs/libXmu  ffmpeg? ( virtual/ffmpeg )  freeimage? ( media-libs/freeimage )  gl2ps? ( x11-libs/gl2ps )  java? ( >=virtual/jdk-0:= )  tbb? ( dev-cpp/tbb )  vtk? ( sci-libs/vtk[rendering] )  
+EAPI=6
+IUSE=debug doc examples ffmpeg freeimage gl2ps gles2 java +tbb +vtk 
+KEYWORDS=~amd64 ~x86
+SLOT=7.3.0
+SRC_URI=https://git.dev.opencascade.org/gitweb/?p=occt.git;a=snapshot;h=refs/tags/V7_3_0;sf=tgz -> opencascade-7.3.0.tar.gz

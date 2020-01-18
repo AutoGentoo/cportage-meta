@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=>=dev-util/meson-0.48.2  >=dev-util/ninja-1.7.2man? ( app-text/scdoc ) 
+DEPEND=  >=dev-libs/wayland-protocols-1.14  dev-libs/wayland  x11-libs/cairo 
+RDEPEND=  >=dev-libs/wayland-protocols-1.14  dev-libs/wayland  x11-libs/cairo 
+EAPI=7
+IUSE=+man 
+KEYWORDS=~amd64 ~arm64
+SLOT=0
+SRC_URI=https://github.com/emersion/slurp/archive/v1.2.0.tar.gz -> slurp-1.2.0.tar.gz

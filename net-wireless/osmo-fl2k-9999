@@ -1,0 +1,11 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=virtual/libusb:1 
+RDEPEND=virtual/libusb:1 
+PDEPEND=media-sound/sox  sys-apps/pv 
+EAPI=6
+IUSE=udev 
+KEYWORDS=
+SLOT=0
+SRC_URI=

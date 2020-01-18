@@ -1,0 +1,11 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile install postinst
+DEPEND=virtual/opengl  app-arch/unzip  x11-base/xorg-proto 
+RDEPEND=virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://gentoo/wolfgl-0.93.tbz2
+	mirror://sourceforge/wolfgl/wolfdata.zip
+	mirror://sourceforge/wolfgl/sdmdata.zip

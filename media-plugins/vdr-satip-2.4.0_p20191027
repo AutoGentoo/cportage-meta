@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=media-video/vdr-2.4.0   >=net-misc/curl-7.36   || ( dev-libs/pugixml   dev-libs/tinyxml ) 
+RDEPEND=>=media-video/vdr-2.4.0   >=net-misc/curl-7.36   || ( dev-libs/pugixml   dev-libs/tinyxml ) 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/rofafor/vdr-plugin-satip/archive/19e3057f34d9c097c8c6bad30188b14d80b7a242.tar.gz -> vdr-satip-2.4.0_p20191027.tar.gz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/popt:=  dev-libs/libxml2:=  dev-libs/libxslt:= 
+RDEPEND=  dev-libs/popt:=  dev-libs/libxml2:=  dev-libs/libxslt:= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc x86
+SLOT=0
+SRC_URI=https://www.samba.org/~jelmer/ptabtools/ptabtools-0.5.0.tar.gz

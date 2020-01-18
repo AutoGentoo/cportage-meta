@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=>=dev-lang/ghc-7.4.1:=  dev-libs/libpcre   >=dev-haskell/cabal-1.8.0  virtual/pkgconfig  test? ( >=dev-haskell/hunit-1.2.5.2   >=dev-haskell/mtl-2.1.3.2 )  
+RDEPEND=>=dev-lang/ghc-7.4.1:=  dev-libs/libpcre  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.4.1.0
+SRC_URI=https://hackage.haskell.org/package/pcre-light-0.4.1.0/pcre-light-0.4.1.0.tar.gz

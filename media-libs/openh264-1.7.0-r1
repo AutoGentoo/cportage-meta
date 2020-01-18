@@ -1,0 +1,10 @@
+730a476dd930733c1e3f46ca34607621
+DEFINED_PHASES= postinst prepare
+DEPEND=  abi_x86_32? ( dev-lang/nasm )  abi_x86_64? ( dev-lang/nasm ) 
+RDEPEND=!<www-client/firefox-39 
+EAPI=5
+IUSE=+plugin utils 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://github.com/cisco/openh264/archive/v1.7.0.tar.gz -> openh264-1.7.0.tar.gz
+	https://github.com/mozilla/gmp-api/archive/Firefox39.tar.gz -> gmp-api-Firefox39.tar.gz

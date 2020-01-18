@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Carp  virtual/perl-File-Spec  dev-perl/Log-Dispatch  dev-perl/Log-Dispatch-Array  dev-perl/Params-Util  virtual/perl-Scalar-List-Utils  dev-perl/String-Flogger  dev-perl/Sub-Exporter  >=dev-perl/Sub-Exporter-GlobExporter-0.2.0  >=virtual/perl-Sys-Syslog-0.160.0  >=dev-perl/Try-Tiny-0.40.0   virtual/perl-ExtUtils-MakeMaker  test? (   !minimal? (    >=virtual/perl-CPAN-Meta-2.120.900   )   virtual/perl-File-Temp   dev-perl/Test-Deep   dev-perl/Test-Fatal   >=virtual/perl-Test-Simple-0.960.0  )  
+RDEPEND=  virtual/perl-Carp  virtual/perl-File-Spec  dev-perl/Log-Dispatch  dev-perl/Log-Dispatch-Array  dev-perl/Params-Util  virtual/perl-Scalar-List-Utils  dev-perl/String-Flogger  dev-perl/Sub-Exporter  >=dev-perl/Sub-Exporter-GlobExporter-0.2.0  >=virtual/perl-Sys-Syslog-0.160.0  >=dev-perl/Try-Tiny-0.40.0  
+EAPI=6
+IUSE=test minimal 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Log-Dispatchouli-2.015.tar.gz

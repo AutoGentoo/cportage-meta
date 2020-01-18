@@ -1,0 +1,8 @@
+5526dbb4f1a14f7cbf2445b603d8d432
+DEFINED_PHASES= install nofetch unpack
+DEPEND=app-arch/unzip 
+EAPI=7
+IUSE=iso usb 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=SuperDiag_1.2.0_20190711.zip

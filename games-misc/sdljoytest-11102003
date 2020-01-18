@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libsdl[joystick,opengl,video]  virtual/opengl  media-libs/sdl-image 
+RDEPEND=media-libs/libsdl[joystick,opengl,video]  virtual/opengl  media-libs/sdl-image 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sdljoytest/SDLJoytest-GL-11102003.tar.bz2

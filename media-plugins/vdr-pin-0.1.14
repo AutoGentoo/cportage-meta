@@ -1,0 +1,9 @@
+14c4bdca2946eb6f908f01aa98394bcd
+DEFINED_PHASES= install prepare
+DEPEND=>=media-video/vdr-2.0.2-r1[pinplugin] 
+RDEPEND=>=media-video/vdr-2.0.2-r1[pinplugin] 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://vdr-developerorg/1379/vdr-pin-0.1.14.tgz

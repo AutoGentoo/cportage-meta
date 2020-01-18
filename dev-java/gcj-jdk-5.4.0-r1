@@ -1,0 +1,9 @@
+49f69d34f590613cc5f6adf39415f10e
+DEFINED_PHASES= install postinst
+DEPEND=  dev-java/ecj-gcj:*  dev-lang/perl  ~sys-devel/gcc-5.4.0[awt?,gcj] 
+RDEPEND=  dev-java/ecj-gcj:*  dev-lang/perl  ~sys-devel/gcc-5.4.0[awt?,gcj] 
+EAPI=6
+IUSE=awt 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86 ~x86-linux
+SLOT=0
+SRC_URI=

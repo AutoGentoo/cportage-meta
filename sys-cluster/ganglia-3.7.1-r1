@@ -1,0 +1,9 @@
+21b0f4afe499cbf70a2b5bd47d3b26f8
+DEFINED_PHASES= compile configure install postinst prepare test
+DEPEND=dev-libs/confuse  dev-libs/expat  >=dev-libs/apr-1.0  net-libs/libnsl:0=  !dev-db/firebird  pcre? ( dev-libs/libpcre )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=  dev-libs/confuse  dev-libs/expat  >=dev-libs/apr-1.0  net-libs/libnsl:0=  !dev-db/firebird  pcre? ( dev-libs/libpcre )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  !minimal? ( net-analyzer/rrdtool ) 
+EAPI=5
+IUSE=minimal pcre python examples 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ganglia/ganglia-3.7.1.tar.gz

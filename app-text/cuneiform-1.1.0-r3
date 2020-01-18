@@ -1,0 +1,10 @@
+ad540a4cc5c410795131d4d8db7a6d91
+DEFINED_PHASES= install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  !graphicsmagick? ( media-gfx/imagemagick:= )  graphicsmagick? ( media-gfx/graphicsmagick:= ) 
+RDEPEND=  !graphicsmagick? ( media-gfx/imagemagick:= )  graphicsmagick? ( media-gfx/graphicsmagick:= ) 
+EAPI=6
+IUSE=debug graphicsmagick 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://launchpad.net/cuneiform-linux/1.1/1.1/+download/cuneiform-linux-1.1.0.tar.bz2

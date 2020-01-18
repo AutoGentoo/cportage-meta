@@ -1,0 +1,10 @@
+c4aae5a6e17ce192bc5cc4a0e90104a6
+DEFINED_PHASES= configure install prepare
+DEPEND=zlib? ( sys-libs/zlib )  bzip2? ( app-arch/bzip2 )  sys-devel/flex  sys-devel/bison 
+RDEPEND=zlib? ( sys-libs/zlib )  bzip2? ( app-arch/bzip2 ) 
+EAPI=4
+IUSE=zlib bzip2 gnus 
+KEYWORDS=amd64 ppc x86 ~x86-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/mairix/mairix-0.23.tar.gz
+	gnus? ( mirror://gentoo/mairix-0.23-gnus-marks-propagation.patch.gz )

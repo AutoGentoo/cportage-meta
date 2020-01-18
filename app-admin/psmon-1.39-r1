@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst
+DEPEND=>=dev-lang/perl-5.6.0  dev-perl/Config-General  dev-perl/Proc-ProcessTable  dev-perl/Unix-Syslog  virtual/perl-Getopt-Long 
+RDEPEND=dev-lang/perl[-build(-)] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.psmon.com/psmon-1.39.tar.gz

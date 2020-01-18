@@ -1,0 +1,10 @@
+7ab6f51badfb1fac6cc5e5fd368d476d
+DEFINED_PHASES= install pretend setup
+DEPEND=virtual/linux-sources 
+EAPI=7
+IUSE=kernel_linux  
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=x86? ( https://docs.broadcom.com/docs-and-downloads/docs/linux_sta/hybrid-v35-nodebug-pcoem-6_30_223_271.tar.gz )
+	amd64? ( https://docs.broadcom.com/docs-and-downloads/docs/linux_sta/hybrid-v35_64-nodebug-pcoem-6_30_223_271.tar.gz )
+	https://docs.broadcom.com/docs-and-downloads/docs/linux_sta/README_6.30.223.271.txt -> README-broadcom-sta-6.30.223.271.txt

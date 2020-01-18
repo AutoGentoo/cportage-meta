@@ -1,0 +1,10 @@
+792901b9198cc9f212b53b3a99b566f9
+DEFINED_PHASES= compile configure install
+BDEPEND=virtual/pkgconfig 
+DEPEND=sys-apps/pciutils  !<sys-apps/linux-misc-apps-3.6-r2  !sys-power/cpufrequtils  virtual/os-headers  nls? ( sys-devel/gettext ) 
+RDEPEND=sys-apps/pciutils  !<sys-apps/linux-misc-apps-3.6-r2  !sys-power/cpufrequtils 
+EAPI=7
+IUSE=nls 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~ppc64 ~x86
+SLOT=0/0
+SRC_URI=https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz

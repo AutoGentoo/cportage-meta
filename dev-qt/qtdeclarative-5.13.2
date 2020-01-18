@@ -1,0 +1,10 @@
+b4ba2e897aeec434ad9443ab21868dd6
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 ) 
+DEPEND=  ~dev-qt/qtcore-5.13.2  ~dev-qt/qtgui-5.13.2[gles2=]  ~dev-qt/qtnetwork-5.13.2  ~dev-qt/qttest-5.13.2  localstorage? ( ~dev-qt/qtsql-5.13.2 )  widgets? ( ~dev-qt/qtwidgets-5.13.2[gles2=] )  
+RDEPEND=  ~dev-qt/qtcore-5.13.2  ~dev-qt/qtgui-5.13.2[gles2=]  ~dev-qt/qtnetwork-5.13.2  ~dev-qt/qttest-5.13.2  localstorage? ( ~dev-qt/qtsql-5.13.2 )  widgets? ( ~dev-qt/qtwidgets-5.13.2[gles2=] )   !<dev-qt/qtquickcontrols-5.7:5  
+EAPI=7
+IUSE=gles2 +jit localstorage +widgets 
+KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~x86
+SLOT=5/5.13
+SRC_URI=https://download.qt.io/official_releases/qt/5.13/5.13.2/submodules/qtdeclarative-everywhere-src-5.13.2.tar.xz

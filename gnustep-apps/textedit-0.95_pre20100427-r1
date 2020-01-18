@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= prepare
+DEPEND=>=gnustep-base/gnustep-make-2.0  virtual/gnustep-back 
+RDEPEND=>=gnustep-base/gnustep-make-2.0  virtual/gnustep-back 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://gentoo/textedit-0.95_pre20100427.tar.gz

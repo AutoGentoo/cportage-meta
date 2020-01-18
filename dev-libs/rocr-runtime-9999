@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=sys-process/numactl  >=dev-libs/roct-thunk-interface-9999 
+RDEPEND=sys-process/numactl  nonfree? ( dev-libs/hsa-ext-rocr ) 
+EAPI=7
+IUSE=nonfree 
+KEYWORDS=
+SLOT=0/9999
+SRC_URI=

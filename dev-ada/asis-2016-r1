@@ -1,0 +1,10 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= compile install
+DEPEND=dev-ada/gnat_util[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,-ada_target_gnat_2018(-),-ada_target_gnat_2019(-)]  dev-ada/gnatcoll-core[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,-ada_target_gnat_2018(-),-ada_target_gnat_2019(-),shared]  dev-ada/gprbuild[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,-ada_target_gnat_2018(-),-ada_target_gnat_2019(-)] 
+RDEPEND=dev-ada/gnat_util[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,-ada_target_gnat_2018(-),-ada_target_gnat_2019(-)]  dev-ada/gnatcoll-core[ada_target_gnat_2016(-)?,ada_target_gnat_2017(-)?,-ada_target_gnat_2018(-),-ada_target_gnat_2019(-),shared] 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/57399029c7a447658e0aff71
+	-> asis-gpl-2016-src.tar.gz

@@ -1,0 +1,10 @@
+0fb6d55a3c0ed2dd6216986fd895a15c
+DEFINED_PHASES= configure install test
+BDEPEND=    dev-libs/glib:2=  dev-libs/libgudev:=  bluetooth? ( net-wireless/bluez:= )  curl? ( net-misc/curl:= )  dbi? ( >=dev-db/libdbi-0.8.3:= )  mysql? ( dev-db/mysql-connector-c:= )  odbc? ( dev-db/unixODBC )  postgres? ( dev-db/postgresql:= )  usb? ( virtual/libusb:1= )   irda? ( virtual/os-headers )  nls? ( sys-devel/gettext )  
+DEPEND=  dev-libs/glib:2=  dev-libs/libgudev:=  bluetooth? ( net-wireless/bluez:= )  curl? ( net-misc/curl:= )  dbi? ( >=dev-db/libdbi-0.8.3:= )  mysql? ( dev-db/mysql-connector-c:= )  odbc? ( dev-db/unixODBC )  postgres? ( dev-db/postgresql:= )  usb? ( virtual/libusb:1= )  
+RDEPEND=    dev-libs/glib:2=  dev-libs/libgudev:=  bluetooth? ( net-wireless/bluez:= )  curl? ( net-misc/curl:= )  dbi? ( >=dev-db/libdbi-0.8.3:= )  mysql? ( dev-db/mysql-connector-c:= )  odbc? ( dev-db/unixODBC )  postgres? ( dev-db/postgresql:= )  usb? ( virtual/libusb:1= )   dev-util/dialog  virtual/libiconv  
+EAPI=7
+IUSE=bluetooth curl dbi debug irda mysql nls odbc postgres usb 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dl.cihar.com/gammu/releases/gammu-1.40.0.tar.bz2

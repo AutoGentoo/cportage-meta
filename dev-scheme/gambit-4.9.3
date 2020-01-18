@@ -1,0 +1,10 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= compile configure install postinst postrm
+BDEPEND=emacs? ( >=app-editors/emacs-23.1:* ) 
+DEPEND=  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  
+RDEPEND=ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+EAPI=7
+IUSE=emacs libressl ssl static 
+KEYWORDS=amd64 ~ppc64 x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=0
+SRC_URI=http://www-labs.iro.umontreal.ca/~gambit/download/gambit/v4.9/source/gambit-v4_9_3.tgz

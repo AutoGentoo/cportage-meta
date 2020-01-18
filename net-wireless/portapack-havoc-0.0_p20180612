@@ -1,0 +1,8 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile configure install
+PDEPEND=>=net-wireless/hackrf-tools-2015.07.2-r1  >=app-mobilephone/dfu-util-0.7 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/furrtek/portapack-havoc/archive/609235b19f55d0bf278c0e7c4b9f9b6b15136247.tar.gz -> portapack-havoc-0.0_p20180612.tar.gz

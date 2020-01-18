@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=media-video/vdr-1.6.0 
+RDEPEND=>=media-video/vdr-1.6.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://vdr-developerorg/280/vdr-sudoku-0.3.5.tgz

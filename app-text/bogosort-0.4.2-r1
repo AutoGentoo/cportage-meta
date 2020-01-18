@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 hppa ~mips ppc sparc x86 ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=ftp://ulrik.haugen.se/pub/unix/bogosort/bogosort-0.4.2.tar.gz

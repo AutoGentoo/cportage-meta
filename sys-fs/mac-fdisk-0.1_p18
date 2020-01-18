@@ -1,0 +1,10 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= compile install
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=
+	mirror://debian/pool/main/m/mac-fdisk/mac-fdisk_0.1.orig.tar.gz
+	mirror://debian/pool/main/m/mac-fdisk/mac-fdisk_0.1-18.diff.gz
+

@@ -1,0 +1,8 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= install setup
+RDEPEND=virtual/jre  lame? ( media-sound/lame )  ffmpeg? ( virtual/ffmpeg )  selinux? ( sec-policy/selinux-subsonic ) 
+EAPI=5
+IUSE=ffmpeg lame selinux 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/subsonic/5.2.1/subsonic-5.2.1-standalone.tar.gz

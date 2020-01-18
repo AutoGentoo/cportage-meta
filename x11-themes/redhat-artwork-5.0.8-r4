@@ -1,0 +1,9 @@
+3d8a1f6c7db053704ffb8a521c0267b5
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=  x11-libs/gtk+:2  dev-util/intltool  media-gfx/icon-slicer  virtual/pkgconfig  
+RDEPEND=x11-libs/gtk+:2 
+EAPI=5
+IUSE=audacious cursors gdm icons nautilus 
+KEYWORDS=alpha amd64 ~hppa ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/redhat-artwork-5.0.8-.fc7.src.rpm

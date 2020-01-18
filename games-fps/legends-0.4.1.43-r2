@@ -1,0 +1,9 @@
+1a450202c5c0b66281fb1de7661be0f6
+DEFINED_PHASES= install postinst unpack
+RDEPEND=sys-libs/glibc  amd64? ( sys-libs/glibc[multilib] )  media-fonts/font-adobe-75dpi  media-libs/libsdl[video,sound,opengl,abi_x86_32(-)]  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  media-libs/libogg[abi_x86_32(-)]  media-libs/libvorbis[abi_x86_32(-)]  media-libs/openal[abi_x86_32(-)] 
+EAPI=6
+IUSE=+dedicated 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=http://legendsthegame.net/files/legends_linux-0.4.1.43.run
+	mirror://gentoo/legends.png

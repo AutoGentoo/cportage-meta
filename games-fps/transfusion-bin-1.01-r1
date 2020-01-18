@@ -1,0 +1,11 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= install
+DEPEND=sys-libs/glibc  app-arch/unzip 
+RDEPEND=sys-libs/glibc 
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/blood/transfusion-1.0-linux.i386.zip
+	mirror://sourceforge/blood/transfusion-patch-1.01-linux.i386.zip
+	mirror://gentoo/transfusion.png

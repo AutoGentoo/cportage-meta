@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=sys-libs/zlib  app-text/asciidoc 
+RDEPEND=sys-libs/zlib 
+EAPI=7
+IUSE=
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~x64-solaris ~x86-solaris
+SLOT=3
+SRC_URI=http://www.catb.org/~esr/cvsps/cvsps-3.13.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure setup
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=test? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 ) ) 
+EAPI=7
+IUSE=test 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0/0.29.0
+SRC_URI=https://github.com/commonmark/cmark/archive/0.29.0.tar.gz -> cmark-0.29.0.tar.gz

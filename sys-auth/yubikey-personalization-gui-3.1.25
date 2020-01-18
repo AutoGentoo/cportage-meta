@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= configure install prepare
+DEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  >=sys-auth/libyubikey-1.6  >=sys-auth/ykpers-1.14.0  virtual/libusb:1  virtual/pkgconfig  test? ( dev-qt/qttest:5 ) 
+RDEPEND=  dev-libs/glib:2  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  >=sys-auth/libyubikey-1.6  >=sys-auth/ykpers-1.14.0  virtual/libusb:1 
+EAPI=6
+IUSE=debug test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/Yubico/yubikey-personalization-gui/archive/yubikey-personalization-gui-3.1.25.tar.gz

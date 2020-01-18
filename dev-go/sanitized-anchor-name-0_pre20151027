@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm ~arm64
+SLOT=0
+SRC_URI=https://github.com/shurcooL/sanitized_anchor_name/archive/10ef21a.tar.gz -> sanitized-anchor-name-0_pre20151027.tar.gz

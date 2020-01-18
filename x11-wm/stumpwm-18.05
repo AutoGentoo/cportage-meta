@@ -1,0 +1,10 @@
+6b62ed8a9a679d2809027c5d95dfb68e
+DEFINED_PHASES= compile configure install postinst postrm prepare
+DEPEND=dev-lisp/alexandria   dev-lisp/cl-ppcre   dev-lisp/clx   >=dev-lisp/sbcl-1.3.0   emacs? ( >=app-editors/emacs-23.1:* app-emacs/slime )   sys-apps/texinfo   doc? ( virtual/texi2dvi ) 
+RDEPEND=dev-lisp/alexandria   dev-lisp/cl-ppcre   dev-lisp/clx   >=dev-lisp/sbcl-1.3.0   emacs? ( >=app-editors/emacs-23.1:* app-emacs/slime ) 
+PDEPEND=contrib? ( x11-wm/stumpwm-contrib ) 
+EAPI=6
+IUSE=contrib doc emacs 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/stumpwm/stumpwm/archive/18.05.tar.gz -> stumpwm-18.05.tar.gz

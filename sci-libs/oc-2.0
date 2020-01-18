@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=net-misc/curl 
+RDEPEND=net-misc/curl 
+EAPI=7
+IUSE=doc 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://opendap.org/pub/OC/source/oc-2.0.tar.gz

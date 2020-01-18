@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  media-libs/libpng:0=  sci-libs/hdf5:0=  sys-libs/zlib:0=  hdf? (   sci-libs/hdf:0=   virtual/jpeg:0  ) 
+RDEPEND=  media-libs/libpng:0=  sci-libs/hdf5:0=  sys-libs/zlib:0=  hdf? (   sci-libs/hdf:0=   virtual/jpeg:0  ) 
+EAPI=5
+IUSE=hdf octave 
+KEYWORDS=~amd64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://ab-initio.mit.edu/h5utils/h5utils-1.12.1.tar.gz

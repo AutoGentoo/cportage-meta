@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=x11-libs/gtk+-2.6:2  >=sys-fs/e2fsprogs-1.41.7-r1  virtual/pkgconfig 
+RDEPEND=>=x11-libs/gtk+-2.6:2 
+EAPI=6
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/davl/davl-1.2.4.tar.bz2

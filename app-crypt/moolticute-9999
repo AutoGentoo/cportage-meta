@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=  >=dev-libs/libusb-1.0.20  dev-qt/qtdbus:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qttest:5  dev-qt/qtwebsockets:5  dev-qt/qtwidgets:5   dev-qt/linguist-tools:5  
+RDEPEND=  >=dev-libs/libusb-1.0.20  dev-qt/qtdbus:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qttest:5  dev-qt/qtwebsockets:5  dev-qt/qtwidgets:5  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

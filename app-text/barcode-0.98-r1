@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=app-text/libpaper 
+RDEPEND=app-text/libpaper 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://gnu/barcode/barcode-0.98.tar.gz

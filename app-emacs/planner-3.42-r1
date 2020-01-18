@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+BDEPEND=>=app-emacs/muse-3.02.6a  app-emacs/bbdb  app-emacs/emacs-w3m  sys-apps/texinfo 
+RDEPEND=>=app-emacs/muse-3.02.6a  app-emacs/bbdb  app-emacs/emacs-w3m 
+PDEPEND=app-emacs/remember 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/planner-3.42.tar.gz

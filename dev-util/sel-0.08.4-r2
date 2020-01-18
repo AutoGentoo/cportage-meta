@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+RDEPEND=sys-libs/ncurses:0= 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc s390 sparc x86
+SLOT=0
+SRC_URI=http://www.rninet.de/darkstar/files/sel-0.08.4.tar.gz

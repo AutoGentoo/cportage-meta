@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.6  dev-java/commons-logging:0   dev-java/commons-cli:1   dev-java/oracle-javamail:0   dev-java/java-getopt:1   dev-java/log4j:0 
+RDEPEND=>=virtual/jre-1.6  dev-java/commons-logging:0   dev-java/commons-cli:1   dev-java/oracle-javamail:0   dev-java/java-getopt:1   dev-java/log4j:0 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gnu-hylafax/gnu-hylafax/1.0.3/gnu-hylafax-1.0.3-bin.tar.gz

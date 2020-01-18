@@ -1,0 +1,10 @@
+091566d00827d213cbb0a1f14c174fe2
+DEFINED_PHASES= compile configure install prepare pretend setup test
+BDEPEND=  doc? ( app-doc/doxygen )  python? ( dev-lang/swig )  test? ( dev-libs/unittest++ )  
+DEPEND=  net-libs/cppzmq  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5[widgets]  >=media-libs/libopenshot-audio-0.1.9_pre20190502:0=  imagemagick? ( >=media-gfx/imagemagick-7:0=[cxx] )  libav? ( media-video/libav:0=[encode,x264,xvid,vpx,mp3,theora] )  !libav? ( media-video/ffmpeg:0=[encode,x264,xvid,vpx,mp3,theora] )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )  )  
+RDEPEND=  net-libs/cppzmq  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5[widgets]  >=media-libs/libopenshot-audio-0.1.9_pre20190502:0=  imagemagick? ( >=media-gfx/imagemagick-7:0=[cxx] )  libav? ( media-video/libav:0=[encode,x264,xvid,vpx,mp3,theora] )  !libav? ( media-video/ffmpeg:0=[encode,x264,xvid,vpx,mp3,theora] )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )  )  
+EAPI=7
+IUSE=doc examples +imagemagick libav +python test 
+KEYWORDS=amd64 x86
+SLOT=0/17
+SRC_URI=https://github.com/OpenShot/libopenshot/archive/0d4ea7fe71e88bcee4a7fd1404bd52c8e2169997.tar.gz -> libopenshot-0.2.4_pre20190609.tar.gz

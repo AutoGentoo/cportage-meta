@@ -1,0 +1,10 @@
+f348f5939cbb4ab8f91228e2b5fc451c
+DEFINED_PHASES= configure install prepare
+DEPEND=selinux? ( sys-libs/libselinux )  nls? ( sys-devel/gettext )  virtual/os-headers 
+RDEPEND=selinux? ( sys-libs/libselinux ) 
+EAPI=6
+IUSE=nls selinux static 
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://www.kernel.org/pub/linux/utils/util-linux/v2.28/util-linux-2.28.2.tar.xz
+	http://loop-aes.sourceforge.net/loop-AES/loop-AES-v3.7j.tar.bz2

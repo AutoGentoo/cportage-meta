@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:2  x11-misc/xdg-utils 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc -sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/euler/euler-1.61.0.tgz

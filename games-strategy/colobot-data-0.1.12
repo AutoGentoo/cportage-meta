@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare unpack
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+EAPI=7
+IUSE=+music 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=
+	https://github.com/colobot/colobot-data/archive/colobot-gold-0.1.12-alpha.tar.gz -> colobot-gold-0.1.12-alpha.data.tar.gz
+	music? (
+		https://colobot.info/files/music/colobot-music_ogg_0.1.12-alpha.tar.gz )

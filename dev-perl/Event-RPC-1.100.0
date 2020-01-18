@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=|| ( dev-perl/Event dev-perl/glib-perl dev-perl/AnyEvent )  dev-perl/IO-Socket-SSL  dev-perl/Net-SSLeay  || ( >=dev-perl/Sereal-3.0.0 dev-perl/CBOR-XS >=dev-perl/JSON-XS-3.0.0 )   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Test-Simple   virtual/perl-Storable   virtual/perl-IO  )  
+RDEPEND=|| ( dev-perl/Event dev-perl/glib-perl dev-perl/AnyEvent )  dev-perl/IO-Socket-SSL  dev-perl/Net-SSLeay  || ( >=dev-perl/Sereal-3.0.0 dev-perl/CBOR-XS >=dev-perl/JSON-XS-3.0.0 )  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/J/JR/JRED/Event-RPC-1.10.tar.gz

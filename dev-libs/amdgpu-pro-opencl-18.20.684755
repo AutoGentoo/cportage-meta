@@ -1,0 +1,9 @@
+454e4b265868174aab4b62306dc8a1c8
+DEFINED_PHASES= nofetch postinst unpack
+DEPEND=app-eselect/eselect-opencl  dev-libs/ocl-icd 
+RDEPEND=app-eselect/eselect-opencl  dev-libs/ocl-icd 
+EAPI=7
+IUSE=abi_x86_32 abi_x86_64 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=amdgpu-pro-18.20-684755-ubuntu-16.04.tar.xz

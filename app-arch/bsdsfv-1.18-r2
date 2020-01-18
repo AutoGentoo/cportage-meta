@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=6
+IUSE=
+KEYWORDS=amd64 arm ~hppa ~m68k ppc ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=mirror://sourceforge/bsdsfv/bsdsfv-1.18.tar.gz

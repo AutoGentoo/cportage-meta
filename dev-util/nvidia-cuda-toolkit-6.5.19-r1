@@ -1,0 +1,10 @@
+af53d4b0220b719d740b6b137005654f
+DEFINED_PHASES= install postinst prepare setup unpack
+RDEPEND=  <sys-devel/gcc-4.9[cxx]  debugger? (   sys-libs/libtermcap-compat   sys-libs/ncurses[tinfo]   )  eclipse? ( >=virtual/jre-1.6 )  profiler? ( >=virtual/jre-1.6 )  amd64? ( >=x11-drivers/nvidia-drivers-343.22[uvm] )  x86? ( <x11-drivers/nvidia-drivers-346.35[uvm] )   
+EAPI=5
+IUSE=debugger doc eclipse profiler 
+KEYWORDS=-* ~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/6.5.19
+SRC_URI=
+	amd64? ( http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.19_linux_64.run )
+	x86? ( http://developer.download.nvidia.com/compute/cuda/6_5/rel/installers/cuda_6.5.19_linux_32.run )

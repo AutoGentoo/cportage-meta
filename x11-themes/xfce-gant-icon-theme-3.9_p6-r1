@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst postrm
+DEPEND=x11-themes/hicolor-icon-theme 
+RDEPEND=x11-themes/hicolor-icon-theme 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://overlay.uberpenguin.net/icons-xfce-gant-3.9-6.tar.bz2

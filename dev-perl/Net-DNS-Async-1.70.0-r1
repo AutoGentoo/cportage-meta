@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= test
+DEPEND=dev-perl/Net-DNS 
+RDEPEND=dev-perl/Net-DNS 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SH/SHEVEK/Net-DNS-Async-1.07.tar.gz

@@ -1,0 +1,8 @@
+bc3b9a01e3546c5f1277c2ef7a04d7e9
+DEFINED_PHASES= install postinst setup
+RDEPEND=virtual/opengl 
+EAPI=6
+IUSE=nocd 
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=

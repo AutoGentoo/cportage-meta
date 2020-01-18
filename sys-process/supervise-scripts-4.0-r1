@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=virtual/daemontools 
+RDEPEND=virtual/daemontools 
+EAPI=7
+IUSE=doc 
+KEYWORDS=alpha amd64 ppc sparc x86
+SLOT=0
+SRC_URI=http://untroubled.org/supervise-scripts/archive/supervise-scripts-4.0.tar.gz

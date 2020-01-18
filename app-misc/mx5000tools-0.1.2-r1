@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=  dev-libs/glib:2  media-libs/netpbm:=  
+RDEPEND=  dev-libs/glib:2  media-libs/netpbm:=  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://web.archive.org/web/20170225160711/http://download.gna.org/mx5000tools/mx5000tools-0.1.2.tar.gz

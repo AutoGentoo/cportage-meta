@@ -1,0 +1,12 @@
+81bc7a13c76e5f0f9d05a4930354b285
+DEFINED_PHASES= compile install prepare
+DEPEND=app-arch/xz-utils 
+RDEPEND=  x11-themes/gtk-engines-murrine  gtk3? ( x11-themes/gtk-engines-unico )  
+EAPI=5
+IUSE=gtk3 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=
+	mirror://ubuntu/pool/main/u/ubuntu-themes/ubuntu-themes_16.10+17.04.20170406.orig.tar.gz
+	https://dev.gentoo.org/~pacho/light-themes/Gentoo-Buttons-r1.tar.xz
+

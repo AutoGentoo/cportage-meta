@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=gtk? ( x11-libs/gtk+:2 ) 
+RDEPEND=gtk? ( x11-libs/gtk+:2 ) 
+EAPI=6
+IUSE=gtk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://liquidchile.net/software/gbhed/gBhed-0.17.tar.gz

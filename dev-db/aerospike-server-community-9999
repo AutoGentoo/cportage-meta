@@ -1,0 +1,9 @@
+574b8e5de7b6f353859e44074fa771a8
+DEFINED_PHASES= install prepare setup
+DEPEND=  dev-libs/jansson  dev-libs/jemalloc 
+RDEPEND=  dev-libs/jansson  dev-libs/jemalloc 
+EAPI=5
+IUSE=+tools 
+KEYWORDS=
+SLOT=0
+SRC_URI=

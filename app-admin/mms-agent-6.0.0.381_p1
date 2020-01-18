@@ -1,0 +1,13 @@
+d9875bf9270b1c02d1a7d71d96583746
+DEFINED_PHASES= install postinst setup
+DEPEND=!<dev-db/mongodb-3.0.0[mms-agent] 
+RDEPEND=!<dev-db/mongodb-3.0.0[mms-agent] 
+EAPI=6
+IUSE=+monitoring 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=
+	monitoring? (
+		https://cloud.mongodb.com/download/agent/monitoring/mongodb-mms-monitoring-agent-6.0.0.381-1.linux_x86_64.tar.gz
+	)
+

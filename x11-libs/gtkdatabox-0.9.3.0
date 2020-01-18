@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= configure install prepare
+DEPEND=x11-libs/cairo  x11-libs/gtk+:2  x11-libs/pango  glade? ( gnome-base/libglade ) 
+RDEPEND=x11-libs/cairo  x11-libs/gtk+:2  x11-libs/pango  glade? ( gnome-base/libglade ) 
+EAPI=6
+IUSE=examples +glade static-libs test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gtkdatabox/gtkdatabox-0.9.3.0.tar.gz

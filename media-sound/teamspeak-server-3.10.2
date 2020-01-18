@@ -1,0 +1,12 @@
+d3dd7d1f772672fd6a3050a583d474ac
+DEFINED_PHASES= install postinst unpack
+BDEPEND=virtual/pkgconfig 
+RDEPEND=  acct-group/teamspeak  acct-user/teamspeak  
+EAPI=7
+IUSE=doc mysql tsdns 
+KEYWORDS=-* amd64 x86
+SLOT=0
+SRC_URI=
+	amd64? ( https://files.teamspeak-services.com/releases/server/3.10.2/teamspeak3-server_linux_amd64-3.10.2.tar.bz2 )
+	x86? ( https://files.teamspeak-services.com/releases/server/3.10.2/teamspeak3-server_linux_x86-3.10.2.tar.bz2 )
+

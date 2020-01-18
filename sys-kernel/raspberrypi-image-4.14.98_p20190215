@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=sys-boot/raspberrypi-firmware 
+EAPI=7
+IUSE=
+KEYWORDS=-* ~arm
+SLOT=0
+SRC_URI=https://github.com/raspberrypi/firmware/archive/1.20190215.tar.gz -> raspberrypi-image-4.14.98_p20190215.tar.gz

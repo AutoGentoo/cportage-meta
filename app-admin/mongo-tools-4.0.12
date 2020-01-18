@@ -1,0 +1,8 @@
+d3a9fb23fbe2ab2ef91607968f9a037b
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=dev-lang/go:=  net-libs/libpcap  sasl? ( dev-libs/cyrus-sasl )  ssl? ( dev-libs/openssl:0= ) 
+EAPI=7
+IUSE=sasl ssl 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=https://github.com/mongodb/mongo-tools/archive/r4.0.12.tar.gz -> mongo-tools-4.0.12.tar.gz

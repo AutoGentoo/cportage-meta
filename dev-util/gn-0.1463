@@ -1,0 +1,8 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile configure install setup test
+BDEPEND=  || ( >=dev-lang/python-2.7.5-r2:2.7 )  dev-util/ninja  
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~floppym/dist/gn-0.1463.tar.gz

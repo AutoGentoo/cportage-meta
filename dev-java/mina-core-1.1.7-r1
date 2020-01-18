@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  dev-java/slf4j-api:0  >=virtual/jdk-1.6 
+RDEPEND=  dev-java/slf4j-api:0  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/mina-core-1.1.7.jar

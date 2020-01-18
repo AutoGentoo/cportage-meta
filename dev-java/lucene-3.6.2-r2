@@ -1,0 +1,9 @@
+e96d6a9276d086e7122de36a63124b71
+DEFINED_PHASES= compile install prepare test
+DEPEND=    dev-java/ant-ivy:2  dev-java/ant-junit:0  dev-java/ant-core:0  dev-java/hamcrest-core:0  contrib? (            dev-java/jakarta-regexp:1.4      dev-java/commons-compress:0            dev-java/commons-collections:0            dev-java/commons-digester:0            dev-java/commons-logging:0      dev-java/commons-beanutils:1.7  )  >=virtual/jdk-1.6  test? (   dev-java/junit:4  ) 
+RDEPEND=    dev-java/ant-ivy:2  dev-java/ant-junit:0  dev-java/ant-core:0  dev-java/hamcrest-core:0  contrib? (            dev-java/jakarta-regexp:1.4      dev-java/commons-compress:0            dev-java/commons-collections:0            dev-java/commons-digester:0            dev-java/commons-logging:0      dev-java/commons-beanutils:1.7  )  >=virtual/jre-1.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=3.6
+SRC_URI=mirror://apache/lucene/java/3.6.2/lucene-3.6.2-src.tgz

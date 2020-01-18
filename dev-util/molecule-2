@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=>=dev-util/molecule-core-1.0.2  plugins? ( >=dev-util/molecule-plugins-1.0.2 ) 
+EAPI=6
+IUSE=+plugins 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=

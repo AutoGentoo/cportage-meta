@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  !dev-libs/btparse  virtual/perl-Encode  virtual/perl-Scalar-List-Utils  virtual/perl-Unicode-Normalize   >=dev-perl/Config-AutoConf-0.160.0  >=dev-perl/ExtUtils-LibBuilder-0.20.0  >=virtual/perl-ExtUtils-CBuilder-0.270.0  >=dev-perl/Module-Build-0.360.300  test? (   >=dev-perl/Capture-Tiny-0.60.0  )  
+RDEPEND=  !dev-libs/btparse  virtual/perl-Encode  virtual/perl-Scalar-List-Utils  virtual/perl-Unicode-Normalize  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm ~arm64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/A/AM/AMBS/Text-BibTeX-0.85.tar.gz

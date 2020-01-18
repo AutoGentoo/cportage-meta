@@ -1,0 +1,8 @@
+a4384ee0fd30704047ff80a1787c863d
+DEFINED_PHASES= compile install prepare setup
+DEPEND=>=dev-lang/go-1.11  dev-util/promu  net-analyzer/net-snmp 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prometheus/snmp_exporter/archive/v0.15.0.tar.gz -> snmp_exporter-0.15.0.tar.gz

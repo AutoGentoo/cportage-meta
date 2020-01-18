@@ -1,0 +1,11 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install prepare unpack
+RDEPEND=python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   ) python_single_target_python3_7? (    dev-lang/python:3.7    >=dev-lang/python-exec-2:=[python_targets_python3_7]   )  
+EAPI=7
+IUSE=chrome chromium firefox vivaldi 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	https://github.com/passff/passff-host/releases/download/1.2.1/passff.py -> passff-host-1.2.1.py
+	https://github.com/passff/passff-host/releases/download/1.2.1/passff.json -> passff-host-1.2.1.json
+

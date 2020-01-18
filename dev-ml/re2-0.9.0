@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  dev-ml/core_kernel:=  dev-ml/ppx_driver:=  dev-ml/ppx_jane:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/jbuilder 
+RDEPEND=  dev-ml/core_kernel:=  dev-ml/ppx_driver:=  dev-ml/ppx_jane:=  dev-ml/ocaml-migrate-parsetree:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0/0.9.0
+SRC_URI=https://github.com/janestreet/re2/archive/v0.9.0.tar.gz -> re2-0.9.0.tar.gz

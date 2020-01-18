@@ -1,0 +1,8 @@
+487c7b7acd86f56cfde29ced54b41505
+DEFINED_PHASES= install
+RDEPEND=  sys-libs/glibc  x11-libs/libX11[abi_x86_32(-)]  x11-libs/libXext[abi_x86_32(-)]  x11-libs/libXau[abi_x86_32(-)]  x11-libs/libXdmcp[abi_x86_32(-)]  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://ftp2.za.freebsd.org/pub/FreeBSD/ports/distfiles/majesty_demo.run

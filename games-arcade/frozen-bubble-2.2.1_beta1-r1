@@ -1,0 +1,9 @@
+41320c43811c665b7664eb15d3909d9e
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare
+DEPEND=  >=dev-lang/perl-5.12  dev-libs/glib:2  >=dev-perl/Alien-SDL-1.413  dev-perl/Compress-Bzip2  dev-perl/File-ShareDir  dev-perl/File-Slurp  dev-perl/File-Which  dev-perl/IPC-System-Simple  >=dev-perl/SDL-2.511  media-libs/sdl-image[gif,png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-pango  media-libs/sdl-ttf  virtual/libiconv  virtual/perl-Getopt-Long  virtual/perl-IO   virtual/pkgconfig  dev-perl/Locale-Maketext-Lexicon  virtual/perl-ExtUtils-CBuilder  virtual/perl-ExtUtils-ParseXS  dev-perl/Module-Build  
+RDEPEND=  >=dev-lang/perl-5.12  dev-libs/glib:2  >=dev-perl/Alien-SDL-1.413  dev-perl/Compress-Bzip2  dev-perl/File-ShareDir  dev-perl/File-Slurp  dev-perl/File-Which  dev-perl/IPC-System-Simple  >=dev-perl/SDL-2.511  media-libs/sdl-image[gif,png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-pango  media-libs/sdl-ttf  virtual/libiconv  virtual/perl-Getopt-Long  virtual/perl-IO  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.frozen-bubble.org/data/frozen-bubble-2.2.1-beta1.tar.bz2

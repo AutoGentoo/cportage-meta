@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=x11-libs/fltk  x11-libs/wxGTK:3.0-gtk3  net-wireless/soapysdr:=  virtual/opengl  virtual/libusb:1 
+RDEPEND=x11-libs/fltk  x11-libs/wxGTK:3.0-gtk3  net-wireless/soapysdr:=  virtual/opengl  virtual/libusb:1 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/myriadrf/LimeSuite/archive/v19.04.0.tar.gz -> limesuite-19.04.0.tar.gz

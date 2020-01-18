@@ -1,0 +1,10 @@
+abfd4f5b3e2393e99cecbfae5477322c
+DEFINED_PHASES= configure
+BDEPEND=  media-gfx/graphviz  doc? (   app-doc/doxygen   dev-qt/qthelp:5  )  
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5[widgets]  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5   test? (   dev-qt/qttest:5   dev-qt/qtxmlpatterns:5  )  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5[widgets]  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  
+EAPI=7
+IUSE=doc test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

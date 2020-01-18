@@ -1,0 +1,10 @@
+6edd14c503a5ae8d59ccdd06a62bf069
+DEFINED_PHASES= prepare unpack
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  >=dev-libs/boost-1.62.0:=  media-libs/netpbm  x11-libs/fltk:1[opengl]  app-text/ghostscript-gpl  virtual/glu   sys-apps/groff 
+RDEPEND=  >=dev-libs/boost-1.62.0:=  media-libs/netpbm  x11-libs/fltk:1[opengl]  app-text/ghostscript-gpl  virtual/glu   sci-visualization/gnuplot 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/gsteele13/spyview/archive/710b9ddb6aa00fada1a758d42b57b75f92bb32a7.tar.gz -> spyview-2018.12.24.tgz

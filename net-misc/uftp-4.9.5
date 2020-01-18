@@ -1,0 +1,9 @@
+de66c1bccb4990bbdf1454783a028c2e
+DEFINED_PHASES= compile install postinst
+DEPEND=ssl? ( dev-libs/openssl:0=[-bindist] ) 
+RDEPEND=ssl? ( dev-libs/openssl:0=[-bindist] ) 
+EAPI=6
+IUSE=+server ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/uftp-multicast/uftp-4.9.5.tar.gz

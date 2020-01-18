@@ -1,0 +1,9 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/libdvdread 
+RDEPEND=media-libs/libdvdread  >=media-video/dvdauthor-0.6.9  media-video/streamdvd  media-video/mpgtx 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/lxdvdrip/lxdvdrip-1.77.tgz

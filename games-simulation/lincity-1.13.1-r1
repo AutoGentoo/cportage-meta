@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+DEPEND=media-libs/libpng:0  x11-libs/libSM  x11-libs/libXext  nls? ( virtual/libintl )  nls? ( sys-devel/gettext ) 
+RDEPEND=media-libs/libpng:0  x11-libs/libSM  x11-libs/libXext  nls? ( virtual/libintl ) 
+EAPI=6
+IUSE=nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/lincity/lincity-1.13.1.tar.gz

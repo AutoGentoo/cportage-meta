@@ -1,0 +1,10 @@
+a1e9c68060a49d98d226d336ca068c76
+DEFINED_PHASES= compile configure install pretend setup
+DEPEND=app-arch/p7zip 
+RDEPEND=>=dev-util/android-sdk-update-manager-10  >=sys-devel/make-3.81  sys-libs/ncurses-compat:5 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=x86? ( https://dl.google.com/android/ndk/android-ndk-r10e-linux-x86.bin -> android-ndk-10e-x86.7z )
+	amd64? ( https://dl.google.com/android/ndk/android-ndk-r10e-linux-x86_64.bin -> android-ndk-10e-amd64.7z )

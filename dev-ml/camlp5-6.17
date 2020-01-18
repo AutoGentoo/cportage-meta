@@ -1,0 +1,9 @@
+92230712c4f8cb595bb8898d3e900a95
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  >=dev-lang/ocaml-3.10:=[ocamlopt?]  <=dev-lang/ocaml-4.4.2  
+RDEPEND=  >=dev-lang/ocaml-3.10:=[ocamlopt?]  <=dev-lang/ocaml-4.4.2  
+EAPI=5
+IUSE=doc +ocamlopt 
+KEYWORDS=alpha amd64 ppc x86
+SLOT=0/6.17
+SRC_URI=https://github.com/camlp5/camlp5/archive/rel617.tar.gz -> camlp5-6.17.tar.gz

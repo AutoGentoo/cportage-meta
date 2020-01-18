@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst
+DEPEND=dev-haskell/old-time:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.10  
+RDEPEND=dev-haskell/old-time:=[profile?]  >=dev-lang/ghc-7.4.1:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0/1.8.2
+SRC_URI=https://hackage.haskell.org/package/hsql-1.8.2/hsql-1.8.2.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=net-libs/libnet:1.1 
+RDEPEND=net-libs/libnet:1.1 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/arpoison/arpoison-0.6.tar.gz

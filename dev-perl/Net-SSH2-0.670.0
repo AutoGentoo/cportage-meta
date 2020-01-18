@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  sys-libs/zlib  net-libs/libssh2  !gcrypt? (   !libressl? ( dev-libs/openssl:0 )   libressl? ( dev-libs/libressl )  )  gcrypt? (   dev-libs/libgcrypt:0  )   virtual/perl-ExtUtils-Constant  >=virtual/perl-ExtUtils-MakeMaker-6.50  
+RDEPEND=  sys-libs/zlib  net-libs/libssh2  !gcrypt? (   !libressl? ( dev-libs/openssl:0 )   libressl? ( dev-libs/libressl )  )  gcrypt? (   dev-libs/libgcrypt:0  )  
+EAPI=6
+IUSE=gcrypt libressl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/SA/SALVA/Net-SSH2-0.67.tar.gz

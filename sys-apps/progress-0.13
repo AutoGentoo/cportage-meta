@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  sys-libs/ncurses  virtual/pkgconfig  
+RDEPEND=sys-libs/ncurses 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/Xfennec/progress/archive/v0.13.tar.gz -> progress-0.13.tar.gz

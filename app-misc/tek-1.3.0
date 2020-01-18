@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst prepare
+DEPEND=x11-libs/wxGTK:3.0=[X]  virtual/libusb:1  virtual/udev  app-editors/vim-core 
+RDEPEND=x11-libs/wxGTK:3.0=[X]  virtual/libusb:1  virtual/udev 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/m-ou-se/tek/archive/v1.3.0.tar.gz -> tek-1.3.0.tar.gz

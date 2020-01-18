@@ -1,0 +1,9 @@
+9213221c94f8526b35a4c78e57b35fc3
+DEFINED_PHASES= test
+DEPEND=>=dev-perl/Digest-SHA1-2.10.0  >=virtual/perl-Digest-MD5-2.2  >=dev-perl/DBI-1.30  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=>=dev-perl/Digest-SHA1-2.10.0  >=virtual/perl-Digest-MD5-2.2  >=dev-perl/DBI-1.30 
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/P/PH/PHRED/Apache-DBI-1.12.tar.gz

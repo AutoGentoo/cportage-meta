@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= configure install prepare setup
+DEPEND=dev-lang/perl:=[-build(-)]  perl? (   >=dev-perl/ExtUtils-XSBuilder-0.23   virtual/perl-version   >=www-apache/mod_perl-2  ) =www-servers/apache-2* 
+RDEPEND=dev-lang/perl:=[-build(-)]  perl? (   >=dev-perl/ExtUtils-XSBuilder-0.23   virtual/perl-version   >=www-apache/mod_perl-2  ) =www-servers/apache-2* 
+EAPI=5
+IUSE=perl 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=2
+SRC_URI=mirror://apache/httpd/libapreq/libapreq2-2.13.tar.gz

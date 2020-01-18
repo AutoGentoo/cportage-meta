@@ -1,0 +1,7 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= compile install postinst
+EAPI=6
+IUSE=
+KEYWORDS=~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://www.gentoo.org/~grobian/distfiles/pkill-darwin-1.0.tar.xz

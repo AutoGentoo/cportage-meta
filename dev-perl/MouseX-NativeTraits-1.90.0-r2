@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  >=dev-perl/Mouse-0.820.0   >=dev-perl/Any-Moose-0.130.0  >=virtual/perl-ExtUtils-MakeMaker-6.590.0  test? (   >=dev-perl/Test-Fatal-0.3.0   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  >=dev-perl/Mouse-0.820.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GF/GFUJI/MouseX-NativeTraits-1.09.tar.gz

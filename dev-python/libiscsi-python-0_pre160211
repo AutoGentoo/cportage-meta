@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=net-libs/libiscsi  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
+RDEPEND=net-libs/libiscsi 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/sahlberg/libiscsi-python/archive/a8f548c2700dbe3dadfe048fa2491c7b77cf7846.zip -> libiscsi-python-0_pre160211.zip

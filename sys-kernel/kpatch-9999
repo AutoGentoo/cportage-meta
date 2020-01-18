@@ -1,0 +1,10 @@
+93f0f24c0d0a86813b81a2178964adfc
+DEFINED_PHASES= compile install prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    app-crypt/pesign  sys-libs/zlib  sys-apps/pciutils   dev-libs/elfutils  sys-devel/bison  test? ( dev-util/shellcheck-bin )  
+RDEPEND=  app-crypt/pesign  sys-libs/zlib  sys-apps/pciutils  
+EAPI=7
+IUSE=contrib +kpatch +kpatch-build kmod test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

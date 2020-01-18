@@ -1,0 +1,10 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= compile configure install prepare unpack
+DEPEND=  virtual/opengl  virtual/glu  media-libs/libsdl[sound,video]  media-libs/sdl-mixer[vorbis?]  media-libs/sdl-image[jpeg,png]  x11-libs/gtk+:2  nls? ( virtual/libintl )   virtual/pkgconfig  nls? ( sys-devel/gettext )  
+RDEPEND=  virtual/opengl  virtual/glu  media-libs/libsdl[sound,video]  media-libs/sdl-mixer[vorbis?]  media-libs/sdl-image[jpeg,png]  x11-libs/gtk+:2  nls? ( virtual/libintl )  
+EAPI=6
+IUSE=vorbis nls 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cannonsmash/csmash-0.6.6.tar.gz
+	vorbis? ( http://nan.p.utmc.or.jp/danslatristesse2-48.ogg )

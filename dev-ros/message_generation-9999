@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/genmsg  dev-ros/genlisp  dev-ros/gencpp  dev-ros/genpy  dev-ros/geneus  dev-ros/gennodejs  
+RDEPEND=  dev-ros/genmsg  dev-ros/genlisp  dev-ros/gencpp  dev-ros/genpy  dev-ros/geneus  dev-ros/gennodejs  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

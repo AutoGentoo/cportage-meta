@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=app-admin/gkrellm:2[X] 
+RDEPEND=app-admin/gkrellm:2[X] 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~ppc ~sparc ~x86
+SLOT=2
+SRC_URI=http://gkrellm.luon.net/files/gkrellm-mailwatch-2.4.3.tar.gz

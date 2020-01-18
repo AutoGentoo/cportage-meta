@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+BDEPEND=  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+DEPEND=>=dev-libs/glib-2.16:2 
+RDEPEND=>=dev-libs/glib-2.16:2 
+EAPI=7
+IUSE=doc static-libs 
+KEYWORDS=amd64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://download.sarine.nl/Programs/gmpc/11.8/libmpd-11.8.17.tar.gz

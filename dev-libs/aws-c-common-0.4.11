@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= configure
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/awslabs/aws-c-common/archive/v0.4.11.tar.gz -> aws-c-common-0.4.11.tar.gz

@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= configure install prepare
+DEPEND=net-libs/gnutls  dev-libs/libprelude  dbx? ( dev-libs/libpreludedb )  tcpwrapper? ( sys-apps/tcp-wrappers )  xml? ( dev-libs/libxml2 )  geoip? ( dev-libs/libmaxminddb )  virtual/pkgconfig 
+RDEPEND=net-libs/gnutls  dev-libs/libprelude  dbx? ( dev-libs/libpreludedb )  tcpwrapper? ( sys-apps/tcp-wrappers )  xml? ( dev-libs/libxml2 )  geoip? ( dev-libs/libmaxminddb ) 
+EAPI=6
+IUSE=tcpwrapper xml geoip dbx 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.prelude-siem.org/pkg/src/3.0.0/prelude-manager-3.0.0.tar.gz

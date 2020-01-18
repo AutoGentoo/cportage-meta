@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile install prepare
+DEPEND=X? ( x11-libs/libX11 ) 
+RDEPEND=X? ( x11-libs/libX11 ) 
+EAPI=6
+IUSE=X 
+KEYWORDS=amd64 x86 ~amd64-linux
+SLOT=0
+SRC_URI=mirror://gentoo/aee-2.2.15b.tar.gz

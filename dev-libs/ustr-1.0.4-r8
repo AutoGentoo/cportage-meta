@@ -1,0 +1,7 @@
+c2b210d5cc5e5c8c65b4c68e1f566983
+DEFINED_PHASES= prepare
+EAPI=5
+IUSE=static-libs ustr-import 
+KEYWORDS=amd64 ~arm ~arm64 ~mips x86
+SLOT=0
+SRC_URI=ftp://ftp.and.org/pub/james/ustr/1.0.4/ustr-1.0.4.tar.bz2

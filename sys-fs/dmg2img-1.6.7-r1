@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=app-arch/bzip2  sys-libs/zlib  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+RDEPEND=app-arch/bzip2  sys-libs/zlib  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:0= ) 
+EAPI=6
+IUSE=libressl 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://vu1tur.eu.org/tools/dmg2img-1.6.7.tar.gz

@@ -1,0 +1,9 @@
+f871fcbf6196735d2e40476a5b775ca9
+DEFINED_PHASES= compile install prepare
+DEPEND=>=virtual/jdk-1.8 
+RDEPEND=>=virtual/jre-1.8 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/josm-10966.tar.gz

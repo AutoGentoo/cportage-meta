@@ -1,0 +1,9 @@
+afaeee951d477394000cea7dd857d8d3
+DEFINED_PHASES= compile install prepare
+DEPEND=>=app-accessibility/sphinxbase-0.7[static-libs?,python?,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+RDEPEND=>=app-accessibility/sphinxbase-0.7[static-libs?,python?,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
+EAPI=5
+IUSE=doc python static-libs 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cmusphinx/sphinx3-0.8.tar.gz

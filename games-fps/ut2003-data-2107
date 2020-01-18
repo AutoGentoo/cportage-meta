@@ -1,0 +1,8 @@
+1c2d7380923411565d737fa7389b72ce
+DEFINED_PHASES= install setup unpack
+DEPEND=app-arch/unzip  games-util/uz2unpack 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.factoryunreal.com/mirror/UT2003CrashFix.zip

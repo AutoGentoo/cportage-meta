@@ -1,0 +1,11 @@
+96a75853f49faf9825762c1fd8a8ad58
+DEFINED_PHASES= configure install prepare unpack
+DEPEND=  media-libs/plotutils  opengl? ( virtual/opengl )  gd? ( media-libs/gd[png,jpeg] )  virtual/pkgconfig 
+RDEPEND=  media-libs/plotutils  opengl? ( virtual/opengl )  gd? ( media-libs/gd[png,jpeg] )  X? ( x11-misc/xdg-utils ) 
+EAPI=5
+IUSE=examples gd opengl X 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	ftp://ftp.nist.gov/pub/dataplot/unix/dpsrc_2009_08_21.tar.gz
+	ftp://ftp.nist.gov/pub/dataplot/unix/dplib.2009_07_15.tar.gz

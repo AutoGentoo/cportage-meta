@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=media-video/vdr-1.6.0  >=media-libs/libdvdnav-4.2.0  >=media-libs/a52dec-0.7.4 
+RDEPEND=>=media-video/vdr-1.6.0  >=media-libs/libdvdnav-4.2.0  >=media-libs/a52dec-0.7.4 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/vdr-dvd-cvs-20090106.tar.bz2

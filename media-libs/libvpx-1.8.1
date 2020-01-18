@@ -1,0 +1,9 @@
+0cfa04a6ac03a4d5d4d21124246e17ac
+DEFINED_PHASES= configure
+DEPEND=abi_x86_32? ( dev-lang/yasm )  abi_x86_64? ( dev-lang/yasm )  abi_x86_x32? ( dev-lang/yasm )  x86-fbsd? ( dev-lang/yasm )  amd64-fbsd? ( dev-lang/yasm )  doc? (   app-doc/doxygen   dev-lang/php  )  
+EAPI=7
+IUSE=doc +highbitdepth postproc static-libs svc test +threads 
+KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0/6
+SRC_URI=https://github.com/webmproject/libvpx/archive/v1.8.1.tar.gz -> libvpx-1.8.1.tar.gz
+	test? ( mirror://gentoo/libvpx-testdata-1.8.0.tar.xz )

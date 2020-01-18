@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=  dev-lang/perl  virtual/pkgconfig  
+DEPEND=  ~dev-qt/qtconcurrent-5.12.5  ~dev-qt/qtcore-5.12.5  ~dev-qt/qtgui-5.12.5  ~dev-qt/qtnetwork-5.12.5  >=media-libs/assimp-4.0.0  gamepad? ( ~dev-qt/qtgamepad-5.12.5 )  qml? ( ~dev-qt/qtdeclarative-5.12.5[gles2=] )  
+RDEPEND=  ~dev-qt/qtconcurrent-5.12.5  ~dev-qt/qtcore-5.12.5  ~dev-qt/qtgui-5.12.5  ~dev-qt/qtnetwork-5.12.5  >=media-libs/assimp-4.0.0  gamepad? ( ~dev-qt/qtgamepad-5.12.5 )  qml? ( ~dev-qt/qtdeclarative-5.12.5[gles2=] )  
+EAPI=7
+IUSE=gamepad gles2 qml 
+KEYWORDS=amd64 arm64 ~x86
+SLOT=5/5.12
+SRC_URI=https://download.qt.io/official_releases/qt/5.12/5.12.5/submodules/qt3d-everywhere-src-5.12.5.tar.xz

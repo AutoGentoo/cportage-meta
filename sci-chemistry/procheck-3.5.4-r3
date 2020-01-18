@@ -1,0 +1,11 @@
+ecb1b2c8b348ad68ac4e766d96b444dd
+DEFINED_PHASES= compile install nofetch
+DEPEND=app-shells/tcsh 
+RDEPEND=app-shells/tcsh 
+EAPI=6
+IUSE=doc 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	procheck-3.5.4.tar.gz procheck-3.5.4-README
+	doc? ( procheck-3.5.4-manual.tar.gz )

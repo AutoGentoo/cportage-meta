@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  dev-perl/CGI  >=virtual/perl-Socket-1.940.0   virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  dev-perl/CGI  >=virtual/perl-Socket-1.940.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=alpha amd64 ~arm ia64 ppc ppc64 sparc x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~m68k-mint ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BP/BPS/HTTP-Server-Simple-0.52.tar.gz

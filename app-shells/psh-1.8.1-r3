@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=  readline? (   dev-perl/Term-ReadLine-Gnu   dev-perl/TermReadKey  )   virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  readline? (   dev-perl/Term-ReadLine-Gnu   dev-perl/TermReadKey  )  
+EAPI=6
+IUSE=readline 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/gnp/psh/archive/psh-1.8.1.tar.gz -> psh-1.8.1-r3.tar.gz

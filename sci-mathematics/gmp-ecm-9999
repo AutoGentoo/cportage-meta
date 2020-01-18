@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-libs/gmp:0=  blas? ( sci-libs/gsl )  openmp? ( sys-devel/gcc:*[openmp] ) 
+RDEPEND=  dev-libs/gmp:0=  blas? ( sci-libs/gsl )  openmp? ( sys-devel/gcc:*[openmp] ) 
+EAPI=5
+IUSE=blas -openmp test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

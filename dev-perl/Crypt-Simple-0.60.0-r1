@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=dev-perl/FreezeThaw  virtual/perl-IO-Compress  dev-perl/Crypt-Blowfish  virtual/perl-Digest-MD5  virtual/perl-MIME-Base64  test? ( virtual/perl-Test-Harness ) 
+RDEPEND=dev-perl/FreezeThaw  virtual/perl-IO-Compress  dev-perl/Crypt-Blowfish  virtual/perl-Digest-MD5  virtual/perl-MIME-Base64 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/K/KA/KASEI/Crypt-Simple-0.06.tar.gz

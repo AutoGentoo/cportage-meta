@@ -1,0 +1,13 @@
+54c57d143a3b699cd1c96921a3b3ba15
+DEFINED_PHASES= install postinst prepare
+BDEPEND=  app-arch/p7zip  app-arch/unzip  
+RDEPEND=  !games-fps/ut2004  !games-fps/ut2004-data  games-fps/ut2004-bonuspack-ece  games-fps/ut2004-bonuspack-mega  sys-libs/glibc  
+EAPI=7
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	https://ut2004.ut-files.com/Entire_Server_Download/dedicatedserver3339-bonuspack.zip
+	https://ut2004.ut-files.com/Patches/Linux/ut2004-lnxpatch3369-2.tar.bz2
+	https://dev.gentoo.org/~chewi/distfiles/ut2004-v3369-3-linux-dedicated.7z
+

@@ -1,0 +1,9 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= compile install postinst postrm preinst
+DEPEND=x11-libs/gtk+:3  virtual/pkgconfig  
+RDEPEND=x11-libs/gtk+:3 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://kornelix.squarespace.com/storage/downloads/picpuz-2.5.tar.gz

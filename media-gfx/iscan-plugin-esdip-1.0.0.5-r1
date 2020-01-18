@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install
+DEPEND=>=media-gfx/iscan-2.28.0 
+RDEPEND=>=media-gfx/iscan-2.28.0 
+EAPI=4
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=amd64? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-esdip-1.0.0-5.ltdl7.x86_64.rpm )
+	x86? ( https://dev.gentoo.org/~flameeyes/avasys/iscan-plugin-esdip-1.0.0-5.ltdl7.i386.rpm )

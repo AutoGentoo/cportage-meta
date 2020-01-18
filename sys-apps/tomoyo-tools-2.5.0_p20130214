@@ -1,0 +1,9 @@
+429e325cbf2a211442248cdbb08554cb
+DEFINED_PHASES= config install postinst prepare
+DEPEND=sys-libs/ncurses  virtual/pkgconfig 
+RDEPEND=sys-libs/ncurses  !sys-apps/ccs-tools 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge.jp/tomoyo/53357/tomoyo-tools-2.5.0-20130214.tar.gz

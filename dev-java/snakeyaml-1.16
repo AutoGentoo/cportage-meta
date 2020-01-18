@@ -1,0 +1,9 @@
+afd5ace9654c2fdd8fe0f71c9ff67e02
+DEFINED_PHASES= install test
+DEPEND=>=virtual/jdk-1.6  test? (   dev-java/joda-time:0   dev-java/junit:4 ) 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://bitbucket.org/asomov/snakeyaml/get/v1.16.tar.bz2 -> snakeyaml-1.16.tar.bz2

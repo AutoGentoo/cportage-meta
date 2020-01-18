@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=virtual/perl-Digest 
+RDEPEND=virtual/perl-Digest 
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/G/GA/GAAS/Digest-MD5-2.53.tar.gz

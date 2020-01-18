@@ -1,0 +1,13 @@
+58b6158b0cc315a3a87a02c6cda5255a
+DEFINED_PHASES= compile install prepare
+DEPEND=  media-libs/libmikmod  media-libs/libogg  >=media-libs/libpng-1.4:0=  media-libs/libsdl[X,sound,joystick,video]  media-libs/libvorbis  media-libs/sdl-image[png]  sys-libs/zlib  opengl? ( virtual/opengl )   virtual/pkgconfig  
+RDEPEND=  media-libs/libmikmod  media-libs/libogg  >=media-libs/libpng-1.4:0=  media-libs/libsdl[X,sound,joystick,video]  media-libs/libvorbis  media-libs/sdl-image[png]  sys-libs/zlib  opengl? ( virtual/opengl )  
+EAPI=7
+IUSE=music opengl remix voice 
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sc2/uqm-0.7.0-1-source.tgz
+	mirror://sourceforge/sc2/uqm-0.7.0-content.uqm
+	music? ( mirror://sourceforge/sc2/uqm-0.7.0-3domusic.uqm )
+	voice? ( mirror://sourceforge/sc2/uqm-0.7.0-voice.uqm )
+	remix? ( mirror://sourceforge/sc2/uqm-remix-disc1.uqm 		mirror://sourceforge/sc2/uqm-remix-disc2.uqm 		mirror://sourceforge/sc2/uqm-remix-disc3.uqm 		mirror://sourceforge/sc2/uqm-remix-disc4.uqm )

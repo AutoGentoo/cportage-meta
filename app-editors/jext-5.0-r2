@@ -1,0 +1,9 @@
+8ea2c2d937697e10faa1f0046f5c1275
+DEFINED_PHASES= compile install postinst
+DEPEND=>=virtual/jdk-1.6  dev-java/jython:2.7  dev-java/jgoodies-looks:1.2  dev-java/gnu-regexp:1 
+RDEPEND=>=virtual/jre-1.6  dev-java/jython:2.7  dev-java/jgoodies-looks:1.2  dev-java/gnu-regexp:1 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jext/jext-sources-5.0.tar.gz

@@ -1,0 +1,11 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+EAPI=6
+IUSE=
+KEYWORDS=~alpha amd64 arm ~arm64 ia64 ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://unicode.org/Public/emoji/5.0/emoji-data.txt -> unicode-emoji-data-5.0.txt
+	https://unicode.org/Public/emoji/5.0/emoji-sequences.txt -> unicode-emoji-sequences-5.0.txt
+	https://unicode.org/Public/emoji/5.0/emoji-test.txt -> unicode-emoji-test-5.0.txt
+	https://unicode.org/Public/emoji/5.0/emoji-variation-sequences.txt -> unicode-emoji-variation-sequences-5.0.txt
+	https://unicode.org/Public/emoji/5.0/emoji-zwj-sequences.txt -> unicode-emoji-zwj-sequences-5.0.txt

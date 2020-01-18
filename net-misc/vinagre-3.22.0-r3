@@ -1,0 +1,9 @@
+95ff8f49c724ba049978ee4e1b780d05
+DEFINED_PHASES= configure prepare pretend
+DEPEND=  >=dev-libs/glib-2.32.0:2  >=x11-libs/gtk+-3.9.6:3  app-crypt/libsecret  >=dev-libs/libxml2-2.6.31:2  >=net-libs/gtk-vnc-0.4.3[gtk3(+)]  x11-libs/cairo:=  x11-libs/gdk-pixbuf:2  x11-themes/hicolor-icon-theme   rdp? ( >=net-misc/freerdp-1.1:= )  ssh? ( >=x11-libs/vte-0.20:2.91 )  spice? (   app-emulation/spice-protocol   >=net-misc/spice-gtk-0.5[gtk3(+)] )  telepathy? (   dev-libs/dbus-glib   >=net-libs/telepathy-glib-0.11.6 )  zeroconf? ( >=net-dns/avahi-0.6.26[dbus,gtk3] )   || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.42 dev-lang/vala:0.40 dev-lang/vala:0.36 )  app-text/yelp-tools  dev-libs/appstream-glib  >=dev-util/intltool-0.50  >=sys-devel/gettext-0.17  virtual/pkgconfig   gnome-base/gnome-common  
+RDEPEND=  >=dev-libs/glib-2.32.0:2  >=x11-libs/gtk+-3.9.6:3  app-crypt/libsecret  >=dev-libs/libxml2-2.6.31:2  >=net-libs/gtk-vnc-0.4.3[gtk3(+)]  x11-libs/cairo:=  x11-libs/gdk-pixbuf:2  x11-themes/hicolor-icon-theme   rdp? ( >=net-misc/freerdp-1.1:= )  ssh? ( >=x11-libs/vte-0.20:2.91 )  spice? (   app-emulation/spice-protocol   >=net-misc/spice-gtk-0.5[gtk3(+)] )  telepathy? (   dev-libs/dbus-glib   >=net-libs/telepathy-glib-0.11.6 )  zeroconf? ( >=net-dns/avahi-0.6.26[dbus,gtk3] )  
+EAPI=6
+IUSE=rdp +ssh spice +telepathy zeroconf 
+KEYWORDS=amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/vinagre/3.22/vinagre-3.22.0.tar.xz

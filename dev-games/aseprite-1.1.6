@@ -1,0 +1,10 @@
+1d3b6c943f0aa68b26b648e6109d2e88
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=dev-libs/tinyxml  media-libs/allegro:0[X,png]  media-libs/freetype  media-libs/giflib:=  webp? ( media-libs/libwebp )  media-libs/libpng:0=  net-misc/curl  sys-libs/zlib  virtual/jpeg:0  x11-libs/libX11  x11-libs/pixman  gtk3? ( dev-cpp/gtkmm:3.0 )  kde? (   dev-qt/qtcore:5   kde-frameworks/kio:5 )  app-arch/unzip  gtk3? ( virtual/pkgconfig )  webp? ( virtual/pkgconfig ) 
+RDEPEND=dev-libs/tinyxml  media-libs/allegro:0[X,png]  media-libs/freetype  media-libs/giflib:=  webp? ( media-libs/libwebp )  media-libs/libpng:0=  net-misc/curl  sys-libs/zlib  virtual/jpeg:0  x11-libs/libX11  x11-libs/pixman  gtk3? ( dev-cpp/gtkmm:3.0 )  kde? (   dev-qt/qtcore:5   kde-frameworks/kio:5 ) 
+EAPI=6
+IUSE=debug kde gtk3 test webp 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/aseprite/aseprite/releases/download/v1.1.6/Aseprite-v1.1.6-Source.zip

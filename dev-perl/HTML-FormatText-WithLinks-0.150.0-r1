@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/HTML-Formatter-2  dev-perl/HTML-Tree  dev-perl/URI   >=dev-perl/Module-Build-0.380.0  test? ( virtual/perl-Test-Simple )  
+RDEPEND=  >=dev-perl/HTML-Formatter-2  dev-perl/HTML-Tree  dev-perl/URI  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/S/ST/STRUAN/HTML-FormatText-WithLinks-0.15.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=tcmalloc? ( dev-util/google-perftools:= )  jemalloc? ( >=dev-libs/jemalloc-3.2 ) 
+RDEPEND=tcmalloc? ( dev-util/google-perftools:= )  jemalloc? ( >=dev-libs/jemalloc-3.2 ) 
+EAPI=5
+IUSE=jemalloc static-libs tcmalloc 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://github.com/chriso/bitset/archive/2.8.4.tar.gz -> bitset-2.8.4.tar.gz

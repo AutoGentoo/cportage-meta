@@ -1,0 +1,12 @@
+9f4e5ae254d9bbe7e374bfc82af27ac0
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=>=sys-devel/bin86-0.15.5 
+RDEPEND=device-mapper? ( >=sys-fs/lvm2-2.02.45 ) 
+EAPI=5
+IUSE=static minimal pxeserial device-mapper 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=
+	http://lilo.alioth.debian.org/ftp/sources/lilo-24.1.tar.gz
+	mirror://gentoo/dolilo-0.6.tar.bz2
+

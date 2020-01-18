@@ -1,0 +1,7 @@
+f76334b70ebea035105ff791178860a9
+DEFINED_PHASES= compile configure install prepare
+EAPI=6
+IUSE=static-libs 
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://www.codon.org.uk/~mjg59/libx86/downloads/libx86-1.1.tar.gz

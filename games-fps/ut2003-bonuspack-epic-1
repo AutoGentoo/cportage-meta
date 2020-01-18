@@ -1,0 +1,9 @@
+aaf30ea44aeea8e0493c06a1f7f9859a
+DEFINED_PHASES= config install postinst unpack
+DEPEND=app-arch/unzip 
+RDEPEND=games-fps/ut2003 
+EAPI=5
+IUSE=
+KEYWORDS=~x86
+SLOT=1
+SRC_URI=http://ftp.student.utwente.nl/pub/games/UT2003/BonusPack/UT2003-epicbonuspackone.exe

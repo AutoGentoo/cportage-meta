@@ -1,0 +1,9 @@
+c2a3b4105200c112ff59b86dcca98d1f
+DEFINED_PHASES= compile configure install postinst prepare setup test
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=  !!sys-libs/uclibc  iconv? ( dev-libs/libiconv ) 
+EAPI=7
+IUSE=debug hardened iconv ipv6 symlink-compat headers-only 
+KEYWORDS=
+SLOT=0
+SRC_URI=

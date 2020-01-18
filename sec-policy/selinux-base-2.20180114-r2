@@ -1,0 +1,10 @@
+c42db9aa335258f6aca8127e3053127b
+DEFINED_PHASES= compile configure install prepare
+DEPEND=>=sys-apps/policycoreutils-2.7  virtual/udev  sys-devel/m4  >=sys-apps/checkpolicy-2.7 
+RDEPEND=>=sys-apps/policycoreutils-2.7  virtual/udev 
+EAPI=6
+IUSE=doc +open_perms +peer_perms systemd +ubac +unconfined 
+KEYWORDS=amd64 -arm ~arm64 ~mips x86
+SLOT=0
+SRC_URI=https://raw.githubusercontent.com/wiki/TresysTechnology/refpolicy/files/refpolicy-2.20180114.tar.bz2
+			https://dev.gentoo.org/~perfinion/patches/selinux-base-policy/patchbundle-selinux-base-policy-2.20180114-r2.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=virtual/libintl:0  >=dev-util/intltool-0.40  app-text/yelp-tools  sys-devel/gettext:*  virtual/pkgconfig:*  !!mate-base/mate-desktop[user-guide] 
+RDEPEND=virtual/libintl:0  gnome-extra/yelp 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ~arm x86
+SLOT=0
+SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-user-guide-1.22.0.tar.xz

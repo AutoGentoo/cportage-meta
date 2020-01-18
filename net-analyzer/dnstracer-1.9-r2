@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+EAPI=6
+IUSE=ipv6 
+KEYWORDS=amd64 arm hppa ia64 ~ppc ppc64 ~s390 ~sparc x86 ~amd64-linux
+SLOT=0
+SRC_URI=http://www.mavetju.org/download/dnstracer-1.9.tar.gz

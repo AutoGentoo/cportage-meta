@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=acct-group/gamestat  dev-games/KXL 
+RDEPEND=acct-group/gamestat  dev-games/KXL  media-fonts/font-adobe-100dpi 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/geki2-KXL-2.0.3.tar.gz
+	mirror://gentoo/geki2-KXL.png

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=media-libs/libprojectm-2.1.0  media-libs/libsdl  =media-libs/libvisual-0.4*  virtual/opengl   virtual/pkgconfig 
+RDEPEND=  >=media-libs/libprojectm-2.1.0  media-libs/libsdl  =media-libs/libvisual-0.4*  virtual/opengl  
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/projectm/projectM-complete-2.1.0-Source.tar.gz

@@ -1,0 +1,9 @@
+0b8b7b9ccc992e1d3f8fa2703ec0fbe0
+DEFINED_PHASES= compile install
+DEPEND=>=app-editors/emacs-24:* 
+RDEPEND=>=app-editors/emacs-24:* 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~ulm/distfiles/rudel-0.3_pre20110721.tar.xz

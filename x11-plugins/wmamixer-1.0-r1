@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=media-libs/alsa-lib  x11-libs/libXpm  x11-libs/libXext  x11-libs/libX11  x11-base/xorg-proto 
+RDEPEND=media-libs/alsa-lib  x11-libs/libXpm  x11-libs/libXext  x11-libs/libX11 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/gryf/wmamixer/archive/1.0.tar.gz -> wmamixer-1.0.tar.gz

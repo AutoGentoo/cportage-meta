@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  || ( <=dev-perl/Inline-0.560.0 dev-perl/Inline-C )  media-libs/libogg  media-libs/libvorbis  
+RDEPEND=  || ( <=dev-perl/Inline-0.560.0 dev-perl/Inline-C )  media-libs/libogg  media-libs/libvorbis  
+EAPI=5
+IUSE=
+KEYWORDS=alpha amd64 ia64 ~ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DB/DBP/Ogg-Vorbis-Header-0.03.tar.gz

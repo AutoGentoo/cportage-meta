@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip  dev-java/jgoodies-common:1.8 
+RDEPEND=>=virtual/jre-1.6  dev-java/jgoodies-common:1.8 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=1.8
+SRC_URI=http://www.jgoodies.com/download/libraries/forms/jgoodies-forms-1_8_0.zip

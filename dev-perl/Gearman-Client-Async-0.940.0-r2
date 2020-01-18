@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=>=dev-perl/Gearman-1.07  >=dev-perl/Danga-Socket-1.57  test? ( dev-perl/Gearman-Server )  
+RDEPEND=>=dev-perl/Gearman-1.07  >=dev-perl/Danga-Socket-1.57 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BR/BRADFITZ/Gearman-Client-Async-0.94.tar.gz

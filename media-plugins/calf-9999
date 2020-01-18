@@ -1,0 +1,10 @@
+a0c17f785f4390425c6ea0d5e71ed09a
+DEFINED_PHASES= configure install prepare
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  dev-libs/atk  dev-libs/expat  dev-libs/glib:2  media-sound/fluidsynth:=  gtk? (   x11-libs/cairo   x11-libs/gdk-pixbuf   x11-libs/gtk+:2   x11-libs/pango  )  jack? ( virtual/jack )  lash? ( media-sound/lash )  lv2? ( media-libs/lv2 )  
+RDEPEND=  dev-libs/atk  dev-libs/expat  dev-libs/glib:2  media-sound/fluidsynth:=  gtk? (   x11-libs/cairo   x11-libs/gdk-pixbuf   x11-libs/gtk+:2   x11-libs/pango  )  jack? ( virtual/jack )  lash? ( media-sound/lash )  lv2? ( media-libs/lv2 )  
+EAPI=7
+IUSE=cpu_flags_x86_sse experimental gtk jack lash lv2 static-libs 
+KEYWORDS=
+SLOT=0
+SRC_URI=

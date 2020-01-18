@@ -1,0 +1,9 @@
+425e0a7c9f6b70f8ae99c3c00cd29bbc
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  media-libs/freeglut  media-libs/portaudio  x11-libs/libXi  x11-libs/libXmu  virtual/glu  virtual/opengl 
+RDEPEND=  media-libs/freeglut  media-libs/portaudio  x11-libs/libXi  x11-libs/libXmu  virtual/glu  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/transcend/Transcend_0.3_UnixSource.tar.gz

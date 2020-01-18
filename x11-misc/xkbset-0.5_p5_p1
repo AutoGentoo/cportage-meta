@@ -1,0 +1,12 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= compile install
+DEPEND=    x11-libs/libX11   
+RDEPEND=    x11-libs/libX11   tk? ( dev-perl/Tk )  
+EAPI=6
+IUSE=tk 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=
+	https://faculty.missouri.edu/~stephen/software/xkbset/xkbset-0.5.tar.gz
+	mirror://debian/pool/main/x/xkbset/xkbset_0.5-5.1.diff.gz
+

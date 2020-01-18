@@ -1,0 +1,10 @@
+6c205ea64d46e2203a8c43e82564d666
+DEFINED_PHASES= configure test
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  app-arch/bzip2  dev-libs/expat  media-libs/fontconfig  media-libs/freetype:2  media-libs/simage  sys-libs/zlib  virtual/opengl  virtual/glu  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  javascript? ( dev-lang/spidermonkey:60 )  openal? ( media-libs/openal )   dev-libs/boost:0  x11-base/xorg-proto  doc? (   app-doc/doxygen   qthelp? ( dev-qt/qthelp:5 )  )  
+RDEPEND=  app-arch/bzip2  dev-libs/expat  media-libs/fontconfig  media-libs/freetype:2  media-libs/simage  sys-libs/zlib  virtual/opengl  virtual/glu  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/libXext  javascript? ( dev-lang/spidermonkey:60 )  openal? ( media-libs/openal )  
+EAPI=7
+IUSE=debug doc +exceptions javascript man openal qthelp test threads 
+KEYWORDS=~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~reavertm/Coin3D-coin-a4ce638f43bd.tar.bz2

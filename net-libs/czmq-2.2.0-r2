@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install postinst prepare
+DEPEND=  dev-libs/libsodium:=  sys-apps/util-linux  >=net-libs/zeromq-2.1  <net-libs/zeromq-4   doc? (   app-text/asciidoc   app-text/xmlto  ) 
+RDEPEND=  dev-libs/libsodium:=  sys-apps/util-linux  >=net-libs/zeromq-2.1  <net-libs/zeromq-4  
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 arm hppa x86
+SLOT=0
+SRC_URI=http://download.zeromq.org/czmq-2.2.0.tar.gz

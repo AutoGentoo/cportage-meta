@@ -1,0 +1,7 @@
+86e161d5b780d648d32b3417dbb9736e
+DEFINED_PHASES= compile install postinst prepare
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/cwrapper/cw-1.0.16.tar.bz2

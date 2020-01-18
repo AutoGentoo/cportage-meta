@@ -1,0 +1,10 @@
+c5a2da1f32fb6817539f8fcc1a79ab24
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=sys-libs/readline:0  sync? ( net-libs/gnutls:0= )  elibc_glibc? ( sys-apps/util-linux ) 
+RDEPEND=sys-libs/readline:0  sync? ( net-libs/gnutls:0= )  elibc_glibc? ( sys-apps/util-linux ) 
+EAPI=6
+IUSE=+sync vim-syntax zsh-completion 
+KEYWORDS=amd64 ~arm x86 ~x64-macos
+SLOT=0
+SRC_URI=https://taskwarrior.org/download/task-2.5.1.tar.gz

@@ -1,0 +1,9 @@
+cb6436f978f6396c7f213f0723855c79
+DEFINED_PHASES= configure pretend setup test
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.7.0-r1 
+DEPEND=  >=sys-devel/llvm-6  clang? ( sys-devel/clang )  test? (   || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/lit[python_targets_python2_7(-),python_single_target_python2_7(+)] ) )   =sys-devel/clang-8.0.1*:8 )  || ( >=dev-lang/python-2.7.5-r2:2.7 ) 
+EAPI=6
+IUSE=+clang test 
+KEYWORDS=amd64 arm arm64 ppc64 x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=8.0.1
+SRC_URI=https://github.com/llvm/llvm-project/releases/download/llvmorg-8.0.1/compiler-rt-8.0.1.src.tar.xz

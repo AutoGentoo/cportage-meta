@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=aio? ( dev-libs/libaio )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  dev-lang/luajit:=  dev-libs/concurrencykit  dev-libs/libxslt  sys-devel/libtool  virtual/pkgconfig  test? ( dev-util/cram ) 
+RDEPEND=aio? ( dev-libs/libaio )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  dev-lang/luajit:= 
+EAPI=7
+IUSE=aio mysql postgres test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/akopytov/sysbench/archive/1.0.16.tar.gz -> sysbench-1.0.16.tar.gz

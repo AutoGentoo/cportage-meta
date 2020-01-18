@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  >=x11-misc/util-macros-1.18  x11-base/xorg-proto  
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+8d02909d8f9e7e7d21e3f74c53cee4be
+DEFINED_PHASES= compile configure install preinst prepare
+DEPEND=net-wireless/wireless-tools  kernel_linux? ( sys-libs/libcap    dev-libs/libnl:3    net-libs/libpcap    )  pcre? ( dev-libs/libpcre )  suid? ( sys-libs/libcap )  client? ( sys-libs/ncurses:0= )  !arm? ( speech? ( app-accessibility/flite ) )  plugin-btscan? ( net-wireless/bluez )  plugin-dot15d4? ( virtual/libusb:0 )  plugin-spectools? ( net-wireless/spectools )  plugin-ptw? ( dev-libs/openssl:= )   virtual/pkgconfig  
+RDEPEND=net-wireless/wireless-tools  kernel_linux? ( sys-libs/libcap    dev-libs/libnl:3    net-libs/libpcap    )  pcre? ( dev-libs/libpcre )  suid? ( sys-libs/libcap )  client? ( sys-libs/ncurses:0= )  !arm? ( speech? ( app-accessibility/flite ) )  plugin-btscan? ( net-wireless/bluez )  plugin-dot15d4? ( virtual/libusb:0 )  plugin-spectools? ( net-wireless/spectools )  plugin-ptw? ( dev-libs/openssl:= )   ruby? ( dev-lang/ruby:* )  selinux? ( sec-policy/selinux-kismet )  
+EAPI=6
+IUSE=+client +pcre speech +plugin-autowep +plugin-btscan plugin-dot15d4 +plugin-ptw +plugin-spectools +plugin-syslog +ruby selinux +suid 
+KEYWORDS=amd64 arm ~arm64 ~ppc x86
+SLOT=0/2016.07.1
+SRC_URI=https://www.kismetwireless.net/code/kismet-2016-07-R1.tar.xz

@@ -1,0 +1,9 @@
+dede91bf2ca8cddcd4cccb2fe4c2e608
+DEFINED_PHASES= configure install prepare test
+DEPEND=  virtual/blas  virtual/pkgconfig  test? ( app-shells/tcsh ) 
+RDEPEND=  virtual/blas 
+EAPI=5
+IUSE=doc examples static-libs test 
+KEYWORDS=~alpha amd64 ~arm ~hppa ppc ppc64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://crd-legacy.lbl.gov/~xiaoye/SuperLU//superlu_4.3.tar.gz

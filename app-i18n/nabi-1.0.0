@@ -1,0 +1,9 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= configure install postinst
+DEPEND=>=app-i18n/libhangul-0.1  dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  virtual/libintl  virtual/pkgconfig  sys-devel/gettext 
+RDEPEND=>=app-i18n/libhangul-0.1  dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  virtual/libintl 
+EAPI=6
+IUSE=debug nls 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/nabi/nabi-1.0.0.tar.gz

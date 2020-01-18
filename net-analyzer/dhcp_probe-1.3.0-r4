@@ -1,0 +1,9 @@
+72d0fa51ddad48f7a266aedf850f1bac
+DEFINED_PHASES= configure install
+DEPEND=  net-libs/libpcap  >=net-libs/libnet-1.1.2.1-r2  
+RDEPEND=  net-libs/libpcap  >=net-libs/libnet-1.1.2.1-r2  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://www.net.princeton.edu/software/dhcp_probe/dhcp_probe-1.3.0.tar.gz

@@ -1,0 +1,10 @@
+d36e0d2ac1487806e02aec9728900490
+DEFINED_PHASES= compile configure install postinst postrm prepare
+BDEPEND=>=app-editors/emacs-23.1:* 
+DEPEND=>=app-eselect/eselect-emacs-1.15  X? ( x11-libs/libXau )  X? ( x11-base/xorg-proto ) 
+RDEPEND=>=app-eselect/eselect-emacs-1.15  X? ( x11-libs/libXau ) 
+EAPI=7
+IUSE=X 
+KEYWORDS=amd64 ~ppc x86 ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://meltin.net/hacks/emacs/src/gnuserv-3.12.8.tar.gz

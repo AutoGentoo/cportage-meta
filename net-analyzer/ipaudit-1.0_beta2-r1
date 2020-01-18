@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=net-libs/libpcap   mysql? ( dev-db/mysql-connector-c:0= ) 
+RDEPEND=net-libs/libpcap   mysql? ( dev-db/mysql-connector-c:0= ) 
+EAPI=7
+IUSE=mysql 
+KEYWORDS=~amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ipaudit/ipaudit-1.0BETA2.tar.gz

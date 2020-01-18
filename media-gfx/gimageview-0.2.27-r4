@@ -1,0 +1,9 @@
+be7f414b8043d296c7a323d35ed9d3c0
+DEFINED_PHASES= configure install prepare
+DEPEND=app-arch/bzip2  x11-libs/gtk+:2  >=media-libs/libpng-1.2:0=  x11-libs/libXinerama  wmf? ( >=media-libs/libwmf-0.2.8 )  mng? ( media-libs/libmng:= )  svg? ( gnome-base/librsvg )  mplayer? ( media-video/mplayer )  nls? ( sys-devel/gettext )  virtual/pkgconfig 
+RDEPEND=app-arch/bzip2  x11-libs/gtk+:2  >=media-libs/libpng-1.2:0=  x11-libs/libXinerama  wmf? ( >=media-libs/libwmf-0.2.8 )  mng? ( media-libs/libmng:= )  svg? ( gnome-base/librsvg )  mplayer? ( media-video/mplayer ) 
+EAPI=6
+IUSE=mng nls mplayer svg wmf 
+KEYWORDS=amd64 ~hppa ppc ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gtkmmviewer/gimageview-0.2.27.tar.gz

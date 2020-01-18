@@ -1,0 +1,9 @@
+0c432c46540ff0b7b8b3f7b8697090d5
+DEFINED_PHASES= configure prepare
+DEPEND=    dev-libs/maloc  virtual/glu  x11-libs/libXaw  x11-libs/motif  || (   ( media-libs/mesa[X(+)] x11-libs/libGLw )   media-libs/opengl-apple   )  doc? (   media-gfx/graphviz   app-doc/doxygen   ) 
+RDEPEND=  dev-libs/maloc  virtual/glu  x11-libs/libXaw  x11-libs/motif  || (   ( media-libs/mesa[X(+)] x11-libs/libGLw )   media-libs/opengl-apple   ) 
+EAPI=5
+IUSE=doc static-libs 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.fetk.org/codes/download/sg-1.5.tar.gz

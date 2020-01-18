@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=app-text/sword-1.7.0  dev-cpp/clucene  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtwebchannel:5  dev-qt/qtwebengine:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5   dev-libs/boost  dev-libs/icu:=  dev-qt/linguist-tools:5  dev-qt/qttest:5  net-misc/curl  sys-libs/zlib  
+RDEPEND=  >=app-text/sword-1.7.0  dev-cpp/clucene  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtwebchannel:5  dev-qt/qtwebengine:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  
+EAPI=6
+IUSE=debug 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/bibletime/bibletime/releases/download/v2.11.0/bibletime-2.11.0.tar.xz

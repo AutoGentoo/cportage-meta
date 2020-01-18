@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install unpack
+DEPEND=app-arch/unzip 
+EAPI=5
+IUSE=+xpfast xpsmall +vistafree 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=xpfast? ( mirror://sourceforge/ophcrack/tables_xp_free_fast.zip )
+		 xpsmall? ( mirror://sourceforge/ophcrack/tables_xp_free_small.zip )
+		 vistafree? ( mirror://sourceforge/ophcrack/tables_vista_free.zip )

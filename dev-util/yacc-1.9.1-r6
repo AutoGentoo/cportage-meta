@@ -1,0 +1,7 @@
+e12b0e21ff36253024c9d084540c480a
+DEFINED_PHASES= compile install postrm preinst prepare
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sh sparc x86
+SLOT=0
+SRC_URI=ftp://metalab.unc.edu/pub/Linux/devel/compiler-tools/yacc-1.9.1.tar.Z

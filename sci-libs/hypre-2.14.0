@@ -1,0 +1,10 @@
+69744d38a0a72a8a8867cc718f07fdb8
+DEFINED_PHASES= compile configure install prepare pretend setup test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  sci-libs/superlu:=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi )  virtual/pkgconfig 
+RDEPEND=  sci-libs/superlu:=  virtual/blas  virtual/lapack  mpi? ( virtual/mpi ) 
+EAPI=6
+IUSE=debug doc examples fei fortran int64 openmp mpi 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/2.14.0
+SRC_URI=https://github.com/LLNL/hypre/archive/v2.14.0.tar.gz -> hypre-2.14.0.tar.gz

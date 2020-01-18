@@ -1,0 +1,9 @@
+1fdee0b0bd6228b350f87081857d1b8b
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=dev-libs/glib:2  sys-apps/dbus  virtual/libintl  x11-libs/libX11  x11-libs/libgxim  x11-libs/libnotify  gconf? ( gnome-base/gconf )  gtk2? ( x11-libs/gtk+:2 )  !gtk2? ( x11-libs/gtk+:3 )  introspection? ( dev-libs/gobject-introspection )  xfconf? ( xfce-base/xfconf )  dev-util/glib-utils  dev-util/intltool  sys-devel/autoconf-archive  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  sys-apps/dbus  virtual/libintl  x11-libs/libX11  x11-libs/libgxim  x11-libs/libnotify  gconf? ( gnome-base/gconf )  gtk2? ( x11-libs/gtk+:2 )  !gtk2? ( x11-libs/gtk+:3 )  introspection? ( dev-libs/gobject-introspection )  xfconf? ( xfce-base/xfconf ) 
+EAPI=6
+IUSE=gconf gtk2 qt5 +introspection static-libs xfconf 
+KEYWORDS=amd64 ~x86
+SLOT=0
+SRC_URI=https://bitbucket.org/tagoh/imsettings/downloads/imsettings-1.7.2.tar.bz2

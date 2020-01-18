@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare test
+DEPEND=  test? (     dev-lang/php:*  dev-php/fedora-autoloader  >=dev-php/symfony-dependency-injection-2.1.0   dev-php/phpunit ) 
+RDEPEND=  dev-lang/php:*  dev-php/fedora-autoloader  >=dev-php/symfony-dependency-injection-2.1.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/symfony/event-dispatcher/archive/v2.8.50.tar.gz -> symfony-event-dispatcher-2.8.50.tar.gz

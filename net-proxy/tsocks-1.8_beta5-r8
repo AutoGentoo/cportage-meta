@@ -1,0 +1,9 @@
+a06ed5f11cfd908ecbfaf9f84b359adb
+DEFINED_PHASES= postinst prepare
+DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=5
+IUSE=dns envconf tordns server-lookups 
+KEYWORDS=alpha amd64 arm ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tsocks/tsocks-1.8beta5.tar.gz
+	tordns? ( https://dev.gentoo.org/~bircoph/patches/tsocks-1.8b5-tordns1-gentoo-r3.patch.xz )

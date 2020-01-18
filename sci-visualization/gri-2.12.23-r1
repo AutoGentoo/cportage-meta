@@ -1,0 +1,9 @@
+f05fad765237bcaba75bfce184f9a1c0
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=  app-text/ghostscript-gpl  >=sci-libs/netcdf-4  virtual/latex-base  virtual/imagemagick-tools[png]  emacs? ( >=app-editors/emacs-23.1:* ) 
+RDEPEND=  app-text/ghostscript-gpl  >=sci-libs/netcdf-4  virtual/latex-base  virtual/imagemagick-tools[png]  emacs? ( >=app-editors/emacs-23.1:* ) 
+EAPI=5
+IUSE=doc emacs examples hdf5 
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://sourceforge/gri/gri-2.12.23.tar.gz

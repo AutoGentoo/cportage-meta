@@ -1,0 +1,9 @@
+779b15986a50aa46c72651f5edfc0827
+DEFINED_PHASES= compile install prepare test
+DEPEND=  dev-libs/mpfr  dev-libs/gmp  doc? ( app-doc/doxygen[latex] ) 
+EAPI=4
+IUSE=doc static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://cs.nyu.edu/exact/core/download/core/core-2.1.1.tgz
+	doc? ( http://cs.nyu.edu/exact/core/download/core/core-2.1.doc.tgz )

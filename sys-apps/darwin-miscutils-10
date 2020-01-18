@@ -1,0 +1,11 @@
+ee19e4abe43030ba40a2fa87cf3b7ba1
+DEFINED_PHASES= compile install prepare
+EAPI=6
+IUSE=
+KEYWORDS=~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=http://www.opensource.apple.com/darwinsource/tarballs/other/misc_cmds-31.tar.gz
+	http://www.opensource.apple.com/darwinsource/tarballs/other/shell_cmds-170.tar.gz
+	http://www.opensource.apple.com/darwinsource/tarballs/other/developer_cmds-55.tar.gz
+	http://www.opensource.apple.com/source/adv_cmds/adv_cmds-147/md/md.c?txt -> adv_cmds-md-147.c
+	http://www.opensource.apple.com/source/adv_cmds/adv_cmds-147/md/md.1?txt -> adv_cmds-md-147.1

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm preinst prepare
+DEPEND=sys-libs/zlib  media-libs/libsdl[sound,video]  media-libs/sdl-mixer  music? ( media-libs/sdl-mixer[mod] )  media-libs/sdl-image  
+RDEPEND=sys-libs/zlib  media-libs/libsdl[sound,video]  media-libs/sdl-mixer  music? ( media-libs/sdl-mixer[mod] )  media-libs/sdl-image  
+EAPI=6
+IUSE=+music 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/cuyo/cuyo-2.~-1.1.tar.gz

@@ -1,0 +1,9 @@
+09ce453c15df175371a67bc3d5ebb2ed
+DEFINED_PHASES= configure install prepare
+DEPEND=  gmp? ( dev-libs/gmp:0= )   virtual/pkgconfig  java? ( virtual/jdk )  test-openssl? ( dev-libs/openssl:0 )  
+RDEPEND=  gmp? ( dev-libs/gmp:0= )  
+EAPI=5
+IUSE=+asm ecdh endomorphism experimental gmp java +recovery test test-openssl 
+KEYWORDS=~amd64 ~arm ~arm64 ~mips ~ppc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/bitcoin/secp256k1/archive/8225239f490f79842a5a3b82ad6cc8aa11d5208e.tar.gz -> libsecp256k1-v0.0.0_pre20161213.tgz

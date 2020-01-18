@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=dev-perl/libwww-perl  virtual/perl-Digest-MD5  virtual/perl-Storable  test? (   dev-perl/Test-RequiresInternet   virtual/perl-Test-Simple  ) 
+RDEPEND=dev-perl/libwww-perl  virtual/perl-Digest-MD5  virtual/perl-Storable 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm ia64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MATTIASH/HTTP-Cache-Transparent-1.4.tar.gz

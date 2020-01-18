@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=app-crypt/gnupg 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/mailcrypt/mailcrypt-3.5.9.tar.gz

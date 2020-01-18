@@ -1,0 +1,9 @@
+46536935eedfeeb2f92d4ac64b632965
+DEFINED_PHASES= configure install postinst preinst prepare
+DEPEND=  dev-libs/libbsd  net-libs/libpcap  sys-libs/zlib  
+RDEPEND=    dev-libs/libbsd  net-libs/libpcap  sys-libs/zlib   
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=https://unix4lyfe.org/darkstat/darkstat-3.0.719.tar.bz2

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-libs/libite-1.5  >=dev-libs/libuev-2.2 
+RDEPEND=    >=dev-libs/libite-1.5  >=dev-libs/libuev-2.2  !net-misc/uftp  !net-ftp/atftp 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/troglobit/uftpd/releases/download/v2.10/uftpd-2.10.tar.xz

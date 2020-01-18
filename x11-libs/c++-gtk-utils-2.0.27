@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=    >=dev-libs/glib-2.26  gtk? ( x11-libs/gtk+:3 )   nls? ( sys-devel/gettext )  virtual/pkgconfig  
+RDEPEND=  >=dev-libs/glib-2.26  gtk? ( x11-libs/gtk+:3 )  
+EAPI=5
+IUSE=+gtk nls static-libs 
+KEYWORDS=amd64 ~ppc ~ppc64 x86
+SLOT=3
+SRC_URI=mirror://sourceforge/cxx-gtk-utils/c++-gtk-utils-2.0.27.tar.gz

@@ -1,0 +1,10 @@
+06710219937811334e6735d0b4fae50a
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  >=sci-libs/flann-1.7.1  dev-libs/boost:=[threads]  dev-cpp/eigen:3  opengl? ( virtual/opengl media-libs/freeglut )  openni? ( dev-libs/OpenNI )  openni2? ( dev-libs/OpenNI2 )  pcap? ( net-libs/libpcap )  png? ( media-libs/libpng:0= )  qhull? ( media-libs/qhull )  qt5? (   dev-qt/qtgui:5   dev-qt/qtcore:5   dev-qt/qtconcurrent:5   dev-qt/qtopengl:5  )  usb? ( virtual/libusb:1 )  vtk? ( >=sci-libs/vtk-5.6:=[imaging,rendering] )  cuda? ( >=dev-util/nvidia-cuda-toolkit-4 )   !!dev-cpp/metslib  doc? ( app-doc/doxygen )  tutorials? ( dev-python/sphinx dev-python/sphinxcontrib-doxylink )  test? ( >=dev-cpp/gtest-1.6.0 )  virtual/pkgconfig 
+RDEPEND=  >=sci-libs/flann-1.7.1  dev-libs/boost:=[threads]  dev-cpp/eigen:3  opengl? ( virtual/opengl media-libs/freeglut )  openni? ( dev-libs/OpenNI )  openni2? ( dev-libs/OpenNI2 )  pcap? ( net-libs/libpcap )  png? ( media-libs/libpng:0= )  qhull? ( media-libs/qhull )  qt5? (   dev-qt/qtgui:5   dev-qt/qtcore:5   dev-qt/qtconcurrent:5   dev-qt/qtopengl:5  )  usb? ( virtual/libusb:1 )  vtk? ( >=sci-libs/vtk-5.6:=[imaging,rendering] )  cuda? ( >=dev-util/nvidia-cuda-toolkit-4 )  
+EAPI=5
+IUSE=cuda doc opengl openni openni2 pcap png +qhull qt5 usb vtk cpu_flags_x86_sse test tutorials 
+KEYWORDS=
+SLOT=0/1.9
+SRC_URI=

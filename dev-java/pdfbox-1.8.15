@@ -1,0 +1,10 @@
+27d6814c13875eb83715c4d2461a9fae
+DEFINED_PHASES= compile install prepare test unpack
+DEPEND=dev-java/fontbox:1.8  dev-java/jempbox:1.8  dev-java/bcmail:1.45  dev-java/bcprov:1.45  >=dev-java/commons-logging-1.1.1:0  dev-java/icu4j:55  >=virtual/jdk-1.6  app-arch/unzip  test? ( dev-java/junit:4 ) 
+RDEPEND=dev-java/fontbox:1.8  dev-java/jempbox:1.8  dev-java/bcmail:1.45  dev-java/bcprov:1.45  >=dev-java/commons-logging-1.1.1:0  dev-java/icu4j:55  >=virtual/jre-1.6 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 ~arm64 ppc64 x86
+SLOT=1.8
+SRC_URI=mirror://apache/pdfbox/1.8.15/pdfbox-1.8.15-src.zip
+	http://repo2.maven.org/maven2/com/adobe/pdf/pcfi/2010.08.09/pcfi-2010.08.09.jar

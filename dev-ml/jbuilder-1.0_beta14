@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=  test? ( dev-ml/menhir )  
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
+SLOT=0/1.0_beta14
+SRC_URI=https://github.com/janestreet/jbuilder/archive/1.0+beta14.tar.gz -> jbuilder-1.0-beta14.tar.gz

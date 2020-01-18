@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-lang/perl 
+RDEPEND=app-shells/bash  dmi? ( sys-apps/dmidecode ) 
+EAPI=6
+IUSE=dmi 
+KEYWORDS=amd64 arm hppa ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=https://people.redhat.com/~rjones/virt-what/files/virt-what-1.18.tar.gz

@@ -1,0 +1,14 @@
+015efc9f26126242ee29651676808117
+DEFINED_PHASES= install postinst unpack
+RDEPEND=  >=media-libs/glu-9.0.0-r1[abi_x86_32(-)?,abi_x86_64(-)?]  >=x11-libs/libICE-1.0.8-r1[abi_x86_32(-)?,abi_x86_64(-)?]  >=x11-libs/libSM-1.2.1-r1[abi_x86_32(-)?,abi_x86_64(-)?]  >=x11-libs/libX11-1.6.2[abi_x86_32(-)?,abi_x86_64(-)?]  >=x11-libs/libXext-1.3.2[abi_x86_32(-)?,abi_x86_64(-)?]  >=x11-libs/libXi-1.7.2[abi_x86_32(-)?,abi_x86_64(-)?]  >=x11-libs/libXmu-1.1.1-r1[abi_x86_32(-)?,abi_x86_64(-)?]  >=x11-libs/libXt-1.1.4[abi_x86_32(-)?,abi_x86_64(-)?]  >=virtual/opengl-7.0-r1[abi_x86_32(-)?,abi_x86_64(-)?]  amd64? (   abi_x86_32? (    >=media-libs/freeglut-2.8.1[abi_x86_32(-)]   )  ) 
+EAPI=5
+IUSE=doc examples multilib 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	abi_x86_32? (
+		http://developer.download.nvidia.com/cg/Cg_3.1/Cg-3.1_April2012_x86.tgz
+	)
+	abi_x86_64? (
+		http://developer.download.nvidia.com/cg/Cg_3.1/Cg-3.1_April2012_x86_64.tgz
+	)

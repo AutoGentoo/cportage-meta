@@ -1,0 +1,9 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= compile install
+DEPEND=nls? ( sys-devel/gettext ) 
+RDEPEND=nls? ( sys-devel/gettext )  dev-lang/perl 
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 ~arm ~hppa ~ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x86-solaris
+SLOT=0
+SRC_URI=mirror://debian/pool/main/u/unp/unp_2.0~pre7+nmu1.tar.bz2

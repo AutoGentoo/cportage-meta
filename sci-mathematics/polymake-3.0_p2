@@ -1,0 +1,9 @@
+6a28bcb5df761fa23066f31a6cba715c
+DEFINED_PHASES= configure install postinst pretend
+DEPEND=dev-lang/perl  dev-libs/gmp:0=  dev-libs/mpfr:0  dev-libs/libxml2:2  dev-libs/libxslt  ppl? ( dev-libs/ppl )  cdd? ( sci-libs/cddlib )  lrs? ( >=sci-libs/lrslib-051[gmp] )  bliss? ( sci-libs/bliss[gmp] )  group? ( dev-libs/boost:= )  libnormaliz? ( dev-libs/boost:= )  singular? ( >=sci-mathematics/singular-4.0.1 ) 
+RDEPEND=dev-lang/perl  dev-libs/gmp:0=  dev-libs/mpfr:0  dev-libs/libxml2:2  dev-libs/libxslt  ppl? ( dev-libs/ppl )  cdd? ( sci-libs/cddlib )  lrs? ( >=sci-libs/lrslib-051[gmp] )  bliss? ( sci-libs/bliss[gmp] )  group? ( dev-libs/boost:= )  libnormaliz? ( dev-libs/boost:= )  singular? ( >=sci-mathematics/singular-4.0.1 )  dev-perl/XML-LibXML  dev-perl/XML-LibXSLT  dev-perl/XML-Writer  dev-perl/Term-ReadLine-Gnu 
+EAPI=6
+IUSE=+cdd lrs ppl bliss group +libnormaliz singular libpolymake 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://polymake.org/lib/exe/fetch.php/download/polymake-3.0r2.tar.bz2

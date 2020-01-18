@@ -1,0 +1,10 @@
+d3f38e1d2050bacfeec4e2e47f15d670
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/libltdl:0  >=dev-libs/libxml2-2.9.1-r4  augeas? ( app-admin/augeas )  dbus? ( >=sys-apps/dbus-1.6.18-r1 )  iconv? ( >=virtual/libiconv-0-r1 )  systemd? ( sys-apps/systemd )  uname? ( sys-apps/coreutils )  yajl? ( >=dev-libs/yajl-1.0.11-r1 )   doc? ( app-doc/doxygen )  test? ( >=dev-cpp/gtest-1.7.0 )  
+RDEPEND=  dev-libs/libltdl:0  >=dev-libs/libxml2-2.9.1-r4  augeas? ( app-admin/augeas )  dbus? ( >=sys-apps/dbus-1.6.18-r1 )  iconv? ( >=virtual/libiconv-0-r1 )  systemd? ( sys-apps/systemd )  uname? ( sys-apps/coreutils )  yajl? ( >=dev-libs/yajl-1.0.11-r1 )  
+EAPI=6
+IUSE=dbus doc static-libs test augeas iconv ini simpleini syslog systemd tcl +uname xml yajl 
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.8.20
+SRC_URI=https://www.libelektra.org/ftp/elektra/releases/elektra-0.8.20.tar.gz

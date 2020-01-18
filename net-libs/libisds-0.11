@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= configure install
+DEPEND=  dev-libs/expat  dev-libs/libxml2  curl? ( net-misc/curl[ssl] )  doc? (   app-text/docbook-xsl-stylesheets   dev-libs/libxslt  )  openssl? ( dev-libs/openssl:= )  !openssl? (   app-crypt/gpgme   dev-libs/libgcrypt:=  )   virtual/pkgconfig  nls? ( sys-devel/gettext )  test? ( >=net-libs/gnutls-2.12.0 )  
+RDEPEND=  dev-libs/expat  dev-libs/libxml2  curl? ( net-misc/curl[ssl] )  doc? (   app-text/docbook-xsl-stylesheets   dev-libs/libxslt  )  openssl? ( dev-libs/openssl:= )  !openssl? (   app-crypt/gpgme   dev-libs/libgcrypt:=  )   !openssl? ( >=app-crypt/gnupg-2 )  
+EAPI=7
+IUSE=+curl debug doc nls openssl static-libs test 
+KEYWORDS=~amd64 ~mips ~x86
+SLOT=0
+SRC_URI=http://xpisar.wz.cz/libisds/dist/libisds-0.11.tar.xz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=app-arch/unzip 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://casting-spels-emacs.googlecode.com/files/casting-spels-emacs-v19.zip

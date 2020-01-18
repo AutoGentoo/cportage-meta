@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  dev-perl/B-Hooks-OP-Check  dev-perl/Lexical-SealRequireHints  virtual/perl-XSLoader   virtual/perl-ExtUtils-MakeMaker  dev-perl/ExtUtils-Depends  test? ( >=virtual/perl-Test-Simple-0.880.0 )  
+RDEPEND=  dev-perl/B-Hooks-OP-Check  dev-perl/Lexical-SealRequireHints  virtual/perl-XSLoader  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IL/ILMARI/bareword-filehandles-0.005.tar.gz

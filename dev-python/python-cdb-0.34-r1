@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=|| ( dev-db/cdb dev-db/tinycdb ) 
+RDEPEND=|| ( dev-db/cdb dev-db/tinycdb ) 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 arm ia64 ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://pilcrow.madison.wi.us/python-cdb/python-cdb-0.34.tar.gz

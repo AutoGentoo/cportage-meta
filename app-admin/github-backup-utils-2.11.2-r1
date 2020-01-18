@@ -1,0 +1,9 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile install prepare test
+DEPEND=test? (  dev-util/checkbashisms  sys-apps/moreutils  || ( >=dev-lang/python-2.7.5-r2:2.7 ) ) 
+RDEPEND=net-misc/rsync 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/github/backup-utils/archive/v2.11.2.tar.gz -> github-backup-utils-2.11.2.tar.gz

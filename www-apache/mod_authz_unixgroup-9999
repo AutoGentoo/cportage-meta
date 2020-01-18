@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] =www-servers/apache-2.4* 
+RDEPEND= =www-servers/apache-2.4* 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

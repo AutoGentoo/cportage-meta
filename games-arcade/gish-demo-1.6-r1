@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=  media-libs/libsdl  media-libs/libvorbis  virtual/opengl  x11-libs/libX11  >=media-libs/openal-1.6.372  
+EAPI=6
+IUSE=
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.chroniclogic.com/demos/gishdemo.tar.gz -> gish-demo-1.6.tar.gz

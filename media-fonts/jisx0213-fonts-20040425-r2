@@ -1,0 +1,19 @@
+a059d7a954c53849b393e83908713fa5
+DEFINED_PHASES= postinst
+DEPEND=X? ( media-gfx/ebdftopcf ) 
+EAPI=6
+IUSE=
+KEYWORDS=alpha amd64 arm ia64 ppc s390 sh sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/jiskan16-2004-1.bdf.gz
+	mirror://gentoo/jiskan16-2000-1.bdf.gz
+	mirror://gentoo/jiskan16-2000-2.bdf.gz
+	mirror://gentoo/K14-2004-1.bdf.gz
+	mirror://gentoo/K14-2000-1.bdf.gz
+	mirror://gentoo/K14-2000-2.bdf.gz
+	mirror://gentoo/K12-1.bdf.gz
+	mirror://gentoo/K12-2.bdf.gz
+	mirror://gentoo/A14.bdf.gz
+	mirror://gentoo/A12.bdf.gz
+	mirror://gentoo/jiskan24-2000-1.bdf.gz
+	mirror://gentoo/jiskan24-2000-2.bdf.gz

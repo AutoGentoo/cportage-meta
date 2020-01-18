@@ -1,0 +1,11 @@
+815b77627e0ddb4d81288b6282326f0f
+DEFINED_PHASES= compile configure install postinst prepare pretend test unpack
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  X? (   x11-libs/libX11   x11-libs/libSM   x11-libs/libICE   )  blas? ( virtual/blas )  cuda? ( >=dev-util/nvidia-cuda-toolkit-6.5.14 )  opencl? ( virtual/opencl )  fftw? ( sci-libs/fftw:3.0 )  hwloc? ( sys-apps/hwloc )  lapack? ( virtual/lapack )  lmfit? ( sci-libs/lmfit )  mkl? ( sci-libs/mkl )  mpi? ( virtual/mpi )  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )     virtual/pkgconfig  doc? (   app-doc/doxygen   dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   media-gfx/mscgen   media-gfx/graphviz   dev-texlive/texlive-latex   dev-texlive/texlive-latexextra   media-gfx/imagemagick  ) 
+RDEPEND=  X? (   x11-libs/libX11   x11-libs/libSM   x11-libs/libICE   )  blas? ( virtual/blas )  cuda? ( >=dev-util/nvidia-cuda-toolkit-6.5.14 )  opencl? ( virtual/opencl )  fftw? ( sci-libs/fftw:3.0 )  hwloc? ( sys-apps/hwloc )  lapack? ( virtual/lapack )  lmfit? ( sci-libs/lmfit )  mkl? ( sci-libs/mkl )  mpi? ( virtual/mpi )  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )    
+EAPI=6
+IUSE=X blas cuda +doc -double-precision +fftw +gmxapi +hwloc lapack +lmfit mkl mpi +offensive opencl openmp +single-precision test +threads +tng cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 cpu_flags_x86_fma4 cpu_flags_x86_avx cpu_flags_x86_avx2 
+KEYWORDS=amd64 arm x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0/2019.2
+SRC_URI=ftp://ftp.gromacs.org/pub/gromacs/gromacs-2019.2.tar.gz
+		test? ( http://gerrit.gromacs.org/download/regressiontests-2019.2.tar.gz )

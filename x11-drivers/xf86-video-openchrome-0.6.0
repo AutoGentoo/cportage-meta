@@ -1,0 +1,9 @@
+5c926d0a5fe8dc20c5bf559732354099
+DEFINED_PHASES= configure postinst
+DEPEND=  >=x11-base/xorg-server-1.9  x11-libs/libX11  x11-libs/libXext  x11-libs/libXv  x11-libs/libXvMC  x11-libs/libdrm  
+RDEPEND=>=x11-base/xorg-server-1.9 
+EAPI=5
+IUSE=debug viaregtool 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://www.x.org/releases/individual/driver/xf86-video-openchrome-0.6.0.tar.bz2

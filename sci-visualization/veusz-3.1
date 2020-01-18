@@ -1,0 +1,10 @@
+d0c99c2e3f9256514baf4b6c39841e3b
+DEFINED_PHASES= prepare
+BDEPEND=test? (   !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost  ) 
+DEPEND=dev-python/PyQt5[widgets,svg,printsupport,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/numpy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/sip[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? ( dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] ) 
+RDEPEND=dev-python/PyQt5[widgets,svg,printsupport,python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/numpy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dbus? ( dev-python/dbus-python[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  fits? ( dev-python/astropy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  hdf5? ( dev-python/h5py[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  minuit? ( || ( dev-python/iminuit[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/pyminuit[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] ) ) 
+EAPI=7
+IUSE=dbus doc fits hdf5 minuit 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/veusz/veusz/releases/download/veusz-3.1/veusz-3.1.tar.gz

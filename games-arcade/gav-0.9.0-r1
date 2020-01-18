@@ -1,0 +1,16 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= compile install prepare
+DEPEND=media-libs/sdl-image[jpeg,png]  media-libs/sdl-net  media-libs/libsdl[joystick,video] 
+RDEPEND=media-libs/sdl-image[jpeg,png]  media-libs/sdl-net  media-libs/libsdl[joystick,video] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gav/gav-0.9.0.tar.gz
+	mirror://gentoo/fabeach.tgz
+	mirror://gentoo/florindo.tgz
+	mirror://gentoo/inverted.tgz
+	mirror://gentoo/naive.tgz
+	mirror://gentoo/unnamed.tgz
+	mirror://gentoo/yisus.tgz
+	mirror://gentoo/yisus2.tgz

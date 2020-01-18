@@ -1,0 +1,9 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= compile install prepare test
+DEPEND=>=dev-lang/ocaml-3.10.2:=[ocamlopt] 
+RDEPEND=>=dev-lang/ocaml-3.10.2:=[ocamlopt] 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0/1.05
+SRC_URI=http://caml.inria.fr/distrib/bazar-ocaml/camlidl-1.05.tar.gz

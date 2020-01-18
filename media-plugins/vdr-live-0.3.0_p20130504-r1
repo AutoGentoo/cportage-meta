@@ -1,0 +1,10 @@
+b647ff0b095e5e7dd46bd821dd586415
+DEFINED_PHASES= config configure install postinst prepare
+DEPEND=media-video/vdr  >=dev-libs/tntnet-2.2.1[ssl=]  >=dev-libs/cxxtools-2.2.1  pcre? ( >=dev-libs/libpcre-8.12[cxx] ) 
+RDEPEND=media-video/vdr  >=dev-libs/tntnet-2.2.1[ssl=]  >=dev-libs/cxxtools-2.2.1  pcre? ( >=dev-libs/libpcre-8.12[cxx] ) 
+EAPI=6
+IUSE=pcre ssl 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/vdr-live-0.3.0_p20130504.tar.bz2
+		https://dev.gentoo.org/~hd_brummy/distfiles/vdr-live-0.3.0_p20130504.tar.bz2

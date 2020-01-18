@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=dev-perl/XML-LibXML-1.53  virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/XML-SAX-Writer  )  
+RDEPEND=>=dev-perl/XML-LibXML-1.53 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 hppa ia64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CH/CHOROBA/XML-Filter-DOMFilter-LibXML-0.04.tar.gz

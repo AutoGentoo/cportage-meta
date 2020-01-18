@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  sci-libs/metis  virtual/blas  virtual/pkgconfig 
+RDEPEND=  sci-libs/metis  virtual/blas 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=coinhsl-2014.01.10.tar.gz

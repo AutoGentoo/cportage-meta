@@ -1,0 +1,9 @@
+6698bdbbdfaae9e2b9125881c520b952
+DEFINED_PHASES= compile prepare test
+DEPEND=  dev-lang/ocaml:=[ocamlopt?]  dev-ml/yojson:=  dev-ml/result:=  >=dev-ml/ppx_deriving-4:=  dev-ml/cppo:=   dev-ml/findlib  dev-ml/ocamlbuild  test? ( dev-ml/ounit dev-ml/ppx_import ) 
+RDEPEND=  dev-lang/ocaml:=[ocamlopt?]  dev-ml/yojson:=  dev-ml/result:=  >=dev-ml/ppx_deriving-4:=  dev-ml/cppo:=  
+EAPI=5
+IUSE=+ocamlopt test 
+KEYWORDS=~amd64
+SLOT=0/3.0
+SRC_URI=https://github.com/whitequark/ppx_deriving_yojson/archive/v3.0.tar.gz -> ppx_deriving_yojson-3.0.tar.gz

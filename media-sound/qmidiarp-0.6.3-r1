@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  media-libs/alsa-lib  virtual/jack  lv2? ( media-libs/lv2 )  osc? ( media-libs/liblo )  nls? ( dev-qt/qttranslations:5 )  virtual/pkgconfig 
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  media-libs/alsa-lib  virtual/jack  lv2? ( media-libs/lv2 )  osc? ( media-libs/liblo ) 
+EAPI=6
+IUSE=nls lv2 osc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/qmidiarp/qmidiarp-0.6.3.tar.bz2

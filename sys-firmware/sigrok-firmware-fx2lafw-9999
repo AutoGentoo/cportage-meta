@@ -1,0 +1,8 @@
+4710c3a35ac8b42b3488acd7263e517c
+DEFINED_PHASES= install prepare unpack
+DEPEND=  >=dev-embedded/sdcc-3.4.0[device-lib(+),mcs51(+),sdcpp(+)]  <dev-embedded/sdcc-3.8.6 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

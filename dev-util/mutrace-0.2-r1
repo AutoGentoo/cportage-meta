@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=sys-libs/binutils-libs:= 
+RDEPEND=sys-libs/binutils-libs:= 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://0pointer.de/public/mutrace-0.2.tar.gz

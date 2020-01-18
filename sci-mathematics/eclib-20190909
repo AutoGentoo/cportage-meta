@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install
+DEPEND=sci-mathematics/pari:=  dev-libs/ntl:=  boost? ( dev-libs/boost:= )  flint? ( sci-mathematics/flint:= ) 
+RDEPEND=sci-mathematics/pari:=  dev-libs/ntl:=  boost? ( dev-libs/boost:= )  flint? ( sci-mathematics/flint:= ) 
+EAPI=7
+IUSE=boost flint minimal static-libs test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+SLOT=0/6
+SRC_URI=http://files.sagemath.org/spkg/upstream/eclib/eclib-20190909.tar.bz2

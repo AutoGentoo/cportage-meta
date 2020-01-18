@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+RDEPEND=  >=kde-apps/kdecore-meta-19.12.0:5  kde-plasma/plasma-meta  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~arm64 ~x86
+SLOT=5
+SRC_URI=

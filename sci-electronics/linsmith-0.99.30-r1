@@ -1,0 +1,9 @@
+585377702e17589d26f290084016d86c
+DEFINED_PHASES= install prepare
+DEPEND=  x11-libs/gtk+:2  dev-libs/libxml2:2  dev-libs/glib:2  dev-libs/atk  gnome-base/libgnome  gnome-base/libgnomecanvas  gnome-base/libgnomeui  virtual/pkgconfig 
+RDEPEND=  x11-libs/gtk+:2  dev-libs/libxml2:2  dev-libs/glib:2  dev-libs/atk  gnome-base/libgnome  gnome-base/libgnomecanvas  gnome-base/libgnomeui 
+EAPI=5
+IUSE=doc examples 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/linsmith/linsmith-0.99.30.tar.gz

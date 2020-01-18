@@ -1,0 +1,10 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=    dev-libs/glib:2=  dev-libs/libgudev:=  bluetooth? ( net-wireless/bluez:= )  curl? ( net-misc/curl:= )  dbi? ( >=dev-db/libdbi-0.8.3:= )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  usb? ( virtual/libusb:1= )   irda? ( virtual/os-headers )  nls? ( sys-devel/gettext )  odbc? ( dev-db/unixODBC )  
+RDEPEND=    dev-libs/glib:2=  dev-libs/libgudev:=  bluetooth? ( net-wireless/bluez:= )  curl? ( net-misc/curl:= )  dbi? ( >=dev-db/libdbi-0.8.3:= )  mysql? ( dev-db/mysql-connector-c:= )  postgres? ( dev-db/postgresql:= )  usb? ( virtual/libusb:1= )   dev-util/dialog  virtual/libiconv  
+EAPI=6
+IUSE=bluetooth curl dbi debug irda mysql nls odbc postgres usb 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dl.cihar.com/gammu/releases/gammu-1.39.0.tar.bz2

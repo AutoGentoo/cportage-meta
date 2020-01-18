@@ -1,0 +1,10 @@
+ee0e02f05200f72ef9cbf4796b9ca4e8
+DEFINED_PHASES= compile install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=dev-lang/perl  app-crypt/libmd 
+RDEPEND=dev-lang/perl  app-crypt/libmd  >=app-crypt/gnupg-1.3.92  dev-perl/GnuPG-Interface  dev-perl/Text-Template  dev-perl/MIME-tools  net-mail/qprint  >=dev-perl/MailTools-1.62  dev-perl/Net-IDN-Encode  virtual/mailx  virtual/mta  || (   dev-perl/libintl-perl   dev-perl/Text-Iconv   app-text/recode  ) 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/s/signing-party/signing-party_2.10.orig.tar.gz

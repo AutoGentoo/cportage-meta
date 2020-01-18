@@ -1,0 +1,9 @@
+6d5e1ecf8905840a7799395e6126c958
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=dev-lang/mono  app-arch/unzip  
+RDEPEND=dev-lang/mono  dev-dotnet/libgdiplus[cairo]  
+EAPI=6
+IUSE=aot 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/keepass/KeePass-2.43-Source.zip

@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  )  sys-devel/libtool 
+RDEPEND=ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl:0= )  ) 
+EAPI=6
+IUSE=libressl ssl 
+KEYWORDS=amd64 ~arm ~hppa ~mips ppc x86 ~x64-macos
+SLOT=0
+SRC_URI=http://download.joedog.org/siege/siege-4.0.4.tar.gz

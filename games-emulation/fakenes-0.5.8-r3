@@ -1,0 +1,9 @@
+d98a57d94e0861832640c5b6ffca6c10
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  >=media-libs/allegro-4.4.1.1:0[opengl?]  dev-games/hawknl  openal? (   media-libs/openal   media-libs/freealut  )  zlib? ( sys-libs/zlib )   virtual/pkgconfig  
+RDEPEND=  >=media-libs/allegro-4.4.1.1:0[opengl?]  dev-games/hawknl  openal? (   media-libs/openal   media-libs/freealut  )  zlib? ( sys-libs/zlib )  
+EAPI=6
+IUSE=openal opengl zlib 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/fakenes/fakenes-0.5.8.tar.bz2

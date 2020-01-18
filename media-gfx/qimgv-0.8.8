@@ -1,0 +1,10 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure postinst postrm prepare
+BDEPEND=  virtual/pkgconfig  
+DEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  exif? ( media-gfx/exiv2:= )  kde? ( kde-frameworks/kwindowsystem:5 )  video? ( media-video/mpv[libmpv] )  
+RDEPEND=    dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtwidgets:5  exif? ( media-gfx/exiv2:= )  kde? ( kde-frameworks/kwindowsystem:5 )  video? ( media-video/mpv[libmpv] )   
+EAPI=7
+IUSE=exif kde video 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/easymodo/qimgv/archive/v0.8.8.tar.gz -> qimgv-0.8.8.tar.gz

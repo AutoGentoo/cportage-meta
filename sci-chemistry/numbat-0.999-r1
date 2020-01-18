@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= install prepare
+DEPEND=  gnome-base/libglade:2.0  sci-libs/gsl  x11-libs/gtk+:2  virtual/pkgconfig 
+RDEPEND=  gnome-base/libglade:2.0  sci-libs/gsl  x11-libs/gtk+:2  sci-chemistry/molmol  sci-chemistry/pymol  sci-visualization/gnuplot 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://comp-bio.anu.edu.au/private/downloads/Numbat/Numbat-0.999.tar.gz

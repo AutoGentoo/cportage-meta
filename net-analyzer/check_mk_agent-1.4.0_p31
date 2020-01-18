@@ -1,0 +1,9 @@
+e507f1a280994fb81d922baf60a579e0
+DEFINED_PHASES= install unpack
+DEPEND=!!net-analyzer/check_mk  app-shells/bash:*  xinetd? ( || ( sys-apps/xinetd sys-apps/systemd ) )   
+RDEPEND=!!net-analyzer/check_mk  app-shells/bash:*  xinetd? ( || ( sys-apps/xinetd sys-apps/systemd ) )   
+EAPI=6
+IUSE=apache_status inventory logwatch mysql nfsexports oracle postgres smart +xinetd zypper 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://mathias-kettner.de/support/1.4.0p31/check-mk-raw-1.4.0p31.cre.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=virtual/perl-ExtUtils-MakeMaker 
+RDEPEND=dev-perl/Getopt-ArgvFile   dev-perl/XML-DOM   virtual/perl-Getopt-Long 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://debian/pool/main/g/gcap/gcap_0.1.1.orig.tar.gz -> gcap-0.1.1.tar.gz

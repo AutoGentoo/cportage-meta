@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare test
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=~dev-util/colm-0.13.0.5 
+RDEPEND=~dev-util/colm-0.13.0.5 
+EAPI=7
+IUSE=vim-syntax 
+KEYWORDS=~amd64 ~arm ~arm64 ~ia64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://www.colm.net/files/ragel/ragel-7.0.0.10.tar.gz

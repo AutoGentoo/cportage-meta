@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/pkgconfig  test? ( dev-libs/check )   
+EAPI=5
+IUSE=test static-libs 
+KEYWORDS=amd64 ~arm ~hppa ~ppc ~ppc64 x86 ~amd64-linux
+SLOT=0
+SRC_URI=https://releases.pagure.org/SSSD/ding-libs/ding-libs-0.4.0.tar.gz

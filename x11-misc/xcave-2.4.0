@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+DEPEND=  x11-libs/gtk+:2  dev-libs/libxml2:2 
+RDEPEND=  x11-libs/gtk+:2  dev-libs/libxml2:2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://xcave.free.fr/backbone.php?what=download/xcave-2.4.0.tar.gz

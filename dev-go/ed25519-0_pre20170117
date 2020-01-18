@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=dev-lang/go-1.10 
+DEPEND=test? ( dev-go/go-crypto ) 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=https://github.com/agl/ed25519/archive/5312a61534124124185d41f09206b9fef1d88403.tar.gz -> ed25519-0_pre20170117.tar.gz

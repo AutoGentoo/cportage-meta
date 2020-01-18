@@ -1,0 +1,9 @@
+9a66e4c5272fa65571c0c876057c274d
+DEFINED_PHASES= compile configure install test
+DEPEND=  fits? ( sci-libs/cfitsio:0= )  pgplot? ( sci-libs/pgplot:0= )  sys-devel/flex  virtual/pkgconfig 
+RDEPEND=  fits? ( sci-libs/cfitsio:0= )  pgplot? ( sci-libs/pgplot:0= ) 
+EAPI=6
+IUSE=doc fortran fits pgplot static-libs +tools 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0/5
+SRC_URI=ftp://ftp.atnf.csiro.au/pub/software/wcslib/wcslib-5.16.tar.bz2

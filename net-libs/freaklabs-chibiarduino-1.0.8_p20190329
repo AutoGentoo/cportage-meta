@@ -1,0 +1,8 @@
+abfd4f5b3e2393e99cecbfae5477322c
+DEFINED_PHASES= install postinst prepare
+PDEPEND=dev-embedded/arduino   dev-embedded/freaklabs-boards 
+EAPI=7
+IUSE=+promisc 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/freaklabs/chibiArduino/archive/547ec8155c48b7eaa9aa8f1bd88a55c7ffd55868.tar.gz -> freaklabs-chibiarduino-1.0.8_p20190329.tar.gz

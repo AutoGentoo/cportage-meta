@@ -1,0 +1,9 @@
+e63a9038b91b1cfcf8c086271c222fac
+DEFINED_PHASES= compile install postinst setup
+DEPEND=|| (  app-accessibility/espeak[portaudio]  app-accessibility/espeak[pulseaudio] ) 
+RDEPEND=|| (  app-accessibility/espeak[portaudio]  app-accessibility/espeak[pulseaudio] ) 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/espeakup-0.71.tar.bz2

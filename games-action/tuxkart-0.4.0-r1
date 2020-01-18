@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=>=media-libs/plib-1.8.0  x11-libs/libX11  x11-libs/libICE  x11-libs/libSM  x11-libs/libXext  x11-libs/libXi  x11-libs/libXmu  virtual/opengl  x11-libs/libXt 
+RDEPEND=>=media-libs/plib-1.8.0  x11-libs/libX11  x11-libs/libICE  x11-libs/libSM  x11-libs/libXext  x11-libs/libXi  x11-libs/libXmu  virtual/opengl 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tuxkart/tuxkart-0.4.0.tar.gz

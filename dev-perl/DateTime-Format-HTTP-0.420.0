@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/DateTime-0.170.0  >=dev-perl/HTTP-Date-1.440.0   >=dev-perl/Module-Build-0.380.0  test? ( >=virtual/perl-Test-Simple-0.470.0 )  
+RDEPEND=  >=dev-perl/DateTime-0.170.0  >=dev-perl/HTTP-Date-1.440.0  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CK/CKRAS/DateTime-Format-HTTP-0.42.tar.gz

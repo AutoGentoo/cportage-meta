@@ -1,0 +1,9 @@
+92bd7ff16b9130c9ff5cffb80db05e60
+DEFINED_PHASES= install
+DEPEND=  dev-java/ant-core:0  >=virtual/jdk-1.6  source? ( app-arch/zip ) 
+RDEPEND=  dev-java/ant-core:0  >=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/jtidy/jtidy-r938-sources.zip -> jtidy-1.0.zip

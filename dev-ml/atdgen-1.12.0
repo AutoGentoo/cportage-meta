@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=  dev-lang/ocaml:=[ocamlopt?]  dev-ml/atd:=  dev-ml/biniou:=  dev-ml/yojson:=   dev-ml/jbuilder  dev-ml/opam  
+RDEPEND=  dev-lang/ocaml:=[ocamlopt?]  dev-ml/atd:=  dev-ml/biniou:=  dev-ml/yojson:=  
+EAPI=6
+IUSE=+ocamlopt 
+KEYWORDS=~amd64
+SLOT=0/1.12.0
+SRC_URI=https://github.com/mjambon/atd/archive/v1.12.0.tar.gz -> atd-1.12.0.tar.gz

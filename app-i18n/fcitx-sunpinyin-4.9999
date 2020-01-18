@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst postrm
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=app-i18n/fcitx-4.2.9:4  >=app-i18n/sunpinyin-2.0.4_alpha:=  virtual/libintl  virtual/pkgconfig 
+RDEPEND=>=app-i18n/fcitx-4.2.9:4  >=app-i18n/sunpinyin-2.0.4_alpha:=  virtual/libintl 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=4
+SRC_URI=

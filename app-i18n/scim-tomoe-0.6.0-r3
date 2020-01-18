@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install
+DEPEND=  >=app-i18n/scim-1.2.0  >=app-i18n/tomoe-gtk-0.6.0  >=x11-libs/gtk+-2.4:2   virtual/pkgconfig  >=dev-util/intltool-0.35.0  
+RDEPEND=  >=app-i18n/scim-1.2.0  >=app-i18n/tomoe-gtk-0.6.0  >=x11-libs/gtk+-2.4:2  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tomoe/scim-tomoe-0.6.0.tar.gz

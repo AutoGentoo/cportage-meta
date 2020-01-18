@@ -1,0 +1,7 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://repo.palkeo.com/repositories/mirror7.meh.or.id/Tools/OTHER_TOOLS/ShellCode/dissembler_0.9.tgz

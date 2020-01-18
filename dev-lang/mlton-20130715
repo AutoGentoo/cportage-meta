@@ -1,0 +1,11 @@
+1d51079ed1f15f67b11931d3805d9236
+DEFINED_PHASES= compile install postinst prepare pretend unpack
+DEPEND=dev-libs/gmp:*   doc? ( virtual/latex-base ) 
+RDEPEND=dev-libs/gmp:* 
+EAPI=5
+IUSE=binary doc 
+KEYWORDS=-* ~amd64 ~x86
+SLOT=0/20130715
+SRC_URI=!binary? ( mirror://sourceforge/mlton/mlton-20130715.src.tgz )
+		  binary? ( amd64? ( mirror://sourceforge/mlton/mlton-20130715-1.amd64-linux.tgz )
+					x86?   ( mirror://sourceforge/mlton/mlton-20130715-1.x86-linux.tgz ) )

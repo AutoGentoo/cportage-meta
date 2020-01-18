@@ -1,0 +1,9 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= install postinst
+DEPEND=   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
+RDEPEND=dev-lang/php[gd,hash,iconv,mysql,pdo,session,unicode,xml,zlib]  transcode? ( media-sound/lame   aac? ( || ( media-libs/faad2 media-sound/alac_decoder ) )   flac? ( media-libs/flac )   mp3? ( media-sound/mp3splt )   ogg? ( media-sound/mp3splt media-sound/vorbis-tools )  ) 
+EAPI=6
+IUSE=aac flac mp3 ogg transcode 
+KEYWORDS=amd64 ~ppc ~sparc x86
+SLOT=3.8.3
+SRC_URI=https://github.com/ampache/ampache/archive/3.8.3.tar.gz -> ampache-3.8.3.tar.gz

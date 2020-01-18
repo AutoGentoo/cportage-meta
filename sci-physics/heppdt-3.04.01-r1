@@ -1,0 +1,7 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= configure install prepare test
+EAPI=6
+IUSE=doc examples static-libs 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://lcgapp.cern.ch/project/simu/HepPDT//download/HepPDT-3.04.01.tar.gz

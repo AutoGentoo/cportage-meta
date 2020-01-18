@@ -1,0 +1,9 @@
+ed9ee7888ec4f164ffccd9bece733969
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=     >=dev-libs/glib-2.6  alsa? ( >=media-libs/alsa-lib-1.0 )  macbook? (   sys-apps/pciutils   sys-libs/libsmbios  )   doc? ( app-doc/doxygen )  
+RDEPEND=  >=dev-libs/glib-2.6  alsa? ( >=media-libs/alsa-lib-1.0 )  macbook? (   sys-apps/pciutils   sys-libs/libsmbios  )  
+EAPI=6
+IUSE=acpi alsa doc ibam macbook oss static-libs 
+KEYWORDS=~amd64 ppc ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/pbbuttons/pbbuttonsd-0.8.1a.tar.gz

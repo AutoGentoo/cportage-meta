@@ -1,0 +1,10 @@
+f1481d019140697fb0faade1df920123
+DEFINED_PHASES= configure install postinst postrm preinst prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=>=dev-libs/glib-2.32:2  !gtk3? (   >=x11-libs/gtk+-2.24:2   vte? ( x11-libs/vte:0 )  )  gtk3? (   >=x11-libs/gtk+-3.0:3   vte? ( x11-libs/vte:2.91 )  )  virtual/pkgconfig  dev-util/intltool  sys-devel/gettext 
+RDEPEND=>=dev-libs/glib-2.32:2  !gtk3? (   >=x11-libs/gtk+-2.24:2   vte? ( x11-libs/vte:0 )  )  gtk3? (   >=x11-libs/gtk+-3.0:3   vte? ( x11-libs/vte:2.91 )  ) 
+EAPI=7
+IUSE=+gtk3 +vte 
+KEYWORDS=
+SLOT=0
+SRC_URI=

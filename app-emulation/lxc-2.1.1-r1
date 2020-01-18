@@ -1,0 +1,9 @@
+f3c75efcd70d88339befaa13234c34d2
+DEFINED_PHASES= compile configure install postinst prepare setup
+DEPEND=  net-libs/gnutls  sys-libs/libcap  cgmanager? ( app-admin/cgmanager )  lua? ( >=dev-lang/lua-5.1:= )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  seccomp? ( sys-libs/libseccomp )  selinux? ( sys-libs/libselinux )  app-text/docbook-sgml-utils  >=sys-kernel/linux-headers-3.2 
+RDEPEND=  net-libs/gnutls  sys-libs/libcap  cgmanager? ( app-admin/cgmanager )  lua? ( >=dev-lang/lua-5.1:= )  python? ( python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  seccomp? ( sys-libs/libseccomp )  selinux? ( sys-libs/libselinux )  sys-apps/util-linux  app-misc/pax-utils  virtual/awk 
+EAPI=6
+IUSE=cgmanager examples lua python seccomp selinux 
+KEYWORDS=amd64 ~arm ~arm64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://linuxcontainers.org/downloads/lxc/lxc-2.1.1.tar.gz

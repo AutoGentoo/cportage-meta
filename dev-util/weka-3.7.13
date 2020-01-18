@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.6  app-arch/unzip  >=dev-java/javacup-0.11a_beta20060608:0 
+RDEPEND=>=virtual/jre-1.6  >=dev-java/javacup-0.11a_beta20060608:0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/weka/weka-3-7-13.zip

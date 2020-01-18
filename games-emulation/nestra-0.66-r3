@@ -1,0 +1,10 @@
+1287a93b416f22d81ea8d0f71267fdc6
+DEFINED_PHASES= compile install prepare
+DEPEND=x11-libs/libX11[abi_x86_32(-)] 
+RDEPEND=x11-libs/libX11[abi_x86_32(-)] 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://nestra.linuxgames.com/nestra-0.66.tar.gz
+	mirror://debian/pool/contrib/n/nestra/nestra_0.66-10.diff.gz

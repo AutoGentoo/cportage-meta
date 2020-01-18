@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/kdl_parser  dev-cpp/eigen:3  sci-libs/orocos_kdl:=  dev-ros/roscpp  dev-ros/rosconsole  dev-ros/rostime  dev-ros/tf2_ros  dev-ros/tf2_kdl  dev-ros/kdl_conversions  dev-ros/sensor_msgs  dev-ros/tf  dev-ros/urdf  dev-libs/boost:=   test? ( dev-cpp/gtest dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  
+RDEPEND=  dev-ros/kdl_parser  dev-cpp/eigen:3  sci-libs/orocos_kdl:=  dev-ros/roscpp  dev-ros/rosconsole  dev-ros/rostime  dev-ros/tf2_ros  dev-ros/tf2_kdl  dev-ros/kdl_conversions  dev-ros/sensor_msgs  dev-ros/tf  dev-ros/urdf  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros/robot_state_publisher/archive/1.13.6.tar.gz -> robot_state_publisher-1.13.6.tar.gz

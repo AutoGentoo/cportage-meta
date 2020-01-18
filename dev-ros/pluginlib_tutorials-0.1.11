@@ -1,0 +1,10 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/pluginlib   dev-libs/tinyxml2:=   dev-libs/console_bridge:=  dev-ros/roscpp  dev-libs/boost:=  
+RDEPEND=  dev-ros/pluginlib   dev-libs/tinyxml2:=   dev-libs/console_bridge:=  dev-ros/roscpp  dev-libs/boost:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ros/common_tutorials/archive/0.1.11.tar.gz -> common_tutorials-0.1.11.tar.gz

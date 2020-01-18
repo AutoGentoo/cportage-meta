@@ -1,0 +1,11 @@
+924f2237608a3f318c5f80ed1928e55f
+DEFINED_PHASES= compile install prepare
+RDEPEND=mono? ( >=dev-lang/mono-2.10.5 ) 
+EAPI=7
+IUSE=mono 
+KEYWORDS=~amd64 ~arm ~x86
+SLOT=0
+SRC_URI=http://ftp.disconnected-by-peer.at/irtrans/irserver-src-6.09.04.tar.gz
+	 http://ftp.disconnected-by-peer.at/irtrans/irserver-6.09.04.tar.gz
+	http://www.irtrans.de/download/Server/Linux/irserver-src.tar.gz -> irserver-src-6.09.04.tar.gz
+	http://www.irtrans.de/download/Server/Linux/irserver.tar.gz -> irserver-6.09.04.tar.gz

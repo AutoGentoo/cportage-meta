@@ -1,0 +1,10 @@
+c4aae5a6e17ce192bc5cc4a0e90104a6
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=dev-libs/tre  icu? ( dev-libs/icu:= )  !icu? ( dev-libs/libutf8proc:= )  libuninum? ( dev-libs/libuninum:= ) 
+RDEPEND=dev-libs/tre  icu? ( dev-libs/icu:= )  !icu? ( dev-libs/libutf8proc:= )  libuninum? ( dev-libs/libuninum:= ) 
+EAPI=7
+IUSE=heap +icu +libuninum 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://billposer.org/Software/Downloads/msort-8.53.tar.bz2

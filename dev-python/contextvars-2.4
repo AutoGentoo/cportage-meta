@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] test? ( dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] dev-python/immutables[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] ) 
+RDEPEND=dev-python/immutables[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=7
+IUSE=python_targets_python3_6 test 
+KEYWORDS=~amd64 ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/MagicStack/contextvars/archive/v2.4.tar.gz -> contextvars-2.4.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-ml/camomile:=  test? ( dev-ml/ounit dev-ml/iTeML ) 
+RDEPEND=dev-ml/camomile:= 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0/2.7.0
+SRC_URI=https://github.com/ocaml-batteries-team/batteries-included/archive/v2.7.0.tar.gz -> batteries-2.7.0.tar.gz

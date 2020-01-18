@@ -1,0 +1,9 @@
+75f26349322d23f018c0a20af77d1369
+DEFINED_PHASES= compile install postinst prepare
+DEPEND=  virtual/pkgconfig 
+RDEPEND=  virtual/blas  virtual/lapack  virtual/mpi 
+EAPI=4
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.netlib.org/benchmark/hpl/hpl-2.0.tar.gz

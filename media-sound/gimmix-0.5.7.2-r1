@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+BDEPEND=  virtual/pkgconfig  dev-util/intltool 
+DEPEND=  media-libs/libmpd:=  gnome-base/libglade:=  x11-libs/gtk+:2  cover? (   net-libs/libnxml:=   net-misc/curl:=  )  lyrics? (   net-libs/libnxml:=   net-misc/curl:=  )  taglib? ( media-libs/taglib:= ) 
+RDEPEND=  media-libs/libmpd:=  gnome-base/libglade:=  x11-libs/gtk+:2  cover? (   net-libs/libnxml:=   net-misc/curl:=  )  lyrics? (   net-libs/libnxml:=   net-misc/curl:=  )  taglib? ( media-libs/taglib:= ) 
+EAPI=7
+IUSE=cover lyrics taglib 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://gentoo/gimmix-0.5.7.2.tar.bz2

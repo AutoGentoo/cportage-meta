@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-haskell/monad-control-0.3:=[profile?]  >=dev-haskell/transformers-base-0.4:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  test? ( >=dev-haskell/hunit-1.2.2   >=dev-haskell/monad-control-1.0.0.3   >=dev-haskell/test-framework-0.2.4   >=dev-haskell/test-framework-hunit-0.2.4   >=dev-haskell/transformers-0.3   >=dev-haskell/transformers-base-0.4.4   >=dev-haskell/transformers-compat-0.3 )  
+RDEPEND=>=dev-haskell/monad-control-0.3:=[profile?]  >=dev-haskell/transformers-base-0.4:=[profile?]  >=dev-lang/ghc-7.4.1:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux
+SLOT=0/0.2.3.12
+SRC_URI=https://hackage.haskell.org/package/lifted-base-0.2.3.12/lifted-base-0.2.3.12.tar.gz

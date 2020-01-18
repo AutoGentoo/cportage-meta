@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  >=x11-libs/gtkglext-1  >=dev-libs/libsigc++-2.0  >=dev-cpp/glibmm-2.4:2  >=dev-cpp/gtkmm-2.4:2.4  virtual/opengl   virtual/pkgconfig 
+RDEPEND=  >=x11-libs/gtkglext-1  >=dev-libs/libsigc++-2.0  >=dev-cpp/glibmm-2.4:2  >=dev-cpp/gtkmm-2.4:2.4  virtual/opengl  
+EAPI=5
+IUSE=doc 
+KEYWORDS=amd64 ppc x86
+SLOT=1.0
+SRC_URI=mirror://sourceforge/gtkglext/gtkglextmm-1.2.0.tar.bz2

@@ -1,0 +1,10 @@
+fa9fa7515f27dbf7eb054a10011545e3
+DEFINED_PHASES= compile configure install postinst postrm prepare test unpack
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=    !net-misc/pssh  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf   x11-libs/libX11   x11-libs/pango   gtk2? ( x11-libs/gtk+:2 )   !gtk2? ( x11-libs/gtk+:3[X] )  )  gssapi? ( virtual/krb5 )   app-doc/halibut  dev-lang/perl  virtual/pkgconfig  
+RDEPEND=  !net-misc/pssh  gtk? (   dev-libs/glib:2   x11-libs/gdk-pixbuf   x11-libs/libX11   x11-libs/pango   gtk2? ( x11-libs/gtk+:2 )   !gtk2? ( x11-libs/gtk+:3[X] )  )  gssapi? ( virtual/krb5 )  
+EAPI=7
+IUSE=doc +gtk gtk2 ipv6 gssapi 
+KEYWORDS=
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jer/putty-icons.tar.bz2

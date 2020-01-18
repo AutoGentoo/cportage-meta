@@ -1,0 +1,9 @@
+016f8f9b9a2073d755b1d208bcb34504
+DEFINED_PHASES= configure install setup
+DEPEND=python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )   >=dev-libs/glib-2.37.3:2[dbus]  media-sound/pulseaudio[glib]  >=x11-libs/gdk-pixbuf-2.22:2[introspection?]  >=x11-libs/gtk+-3.3.16:3[introspection?]  >=x11-libs/libXext-1.1  >=x11-libs/libXrandr-1.3  x11-libs/cairo:=[X]  x11-libs/libX11  x11-libs/libxkbfile  x11-misc/xkeyboard-config  >=gnome-base/gsettings-desktop-schemas-3.5.91  introspection? ( >=dev-libs/gobject-introspection-0.9.7:= )  sys-apps/accountsservice   >=dev-util/gtk-doc-am-1.4  >=dev-util/intltool-0.40.6  gnome-base/gnome-common  x11-base/xorg-proto  virtual/pkgconfig  
+RDEPEND=python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )   >=dev-libs/glib-2.37.3:2[dbus]  media-sound/pulseaudio[glib]  >=x11-libs/gdk-pixbuf-2.22:2[introspection?]  >=x11-libs/gtk+-3.3.16:3[introspection?]  >=x11-libs/libXext-1.1  >=x11-libs/libXrandr-1.3  x11-libs/cairo:=[X]  x11-libs/libX11  x11-libs/libxkbfile  x11-misc/xkeyboard-config  >=gnome-base/gsettings-desktop-schemas-3.5.91  introspection? ( >=dev-libs/gobject-introspection-0.9.7:= )  sys-apps/accountsservice   dev-python/pygobject:3[python_targets_python3_6(-)?,-python_single_target_pypy3(-),-python_single_target_python2_7(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python3_6(+)?]  
+EAPI=6
+IUSE=+introspection systemd 
+KEYWORDS=~amd64 ~x86
+SLOT=0/4
+SRC_URI=https://github.com/linuxmint/cinnamon-desktop/archive/3.8.1.tar.gz -> cinnamon-desktop-3.8.1.tar.gz

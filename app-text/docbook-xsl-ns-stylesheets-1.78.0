@@ -1,0 +1,8 @@
+a1bd8d4408f0dc41c5300981ed0d43d7
+DEFINED_PHASES= compile install postinst postrm test
+RDEPEND=>=app-text/build-docbook-catalog-1.4  ruby? ( dev-lang/ruby ) 
+EAPI=5
+IUSE=ruby 
+KEYWORDS=alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 s390 sh sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/docbook/docbook-xsl-ns-1.78.0.tar.bz2

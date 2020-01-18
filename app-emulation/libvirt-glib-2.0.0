@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= configure prepare
+DEPEND=  dev-libs/libxml2:2  >=app-emulation/libvirt-1.2.6:=  >=dev-libs/glib-2.38.0:2  introspection? ( >=dev-libs/gobject-introspection-0.10.8:= )  dev-util/glib-utils  dev-util/gtk-doc-am  >=dev-util/intltool-0.35.0  virtual/pkgconfig  vala? ( || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.42 dev-lang/vala:0.40 dev-lang/vala:0.36 ) ) 
+RDEPEND=  dev-libs/libxml2:2  >=app-emulation/libvirt-1.2.6:=  >=dev-libs/glib-2.38.0:2  introspection? ( >=dev-libs/gobject-introspection-0.10.8:= ) 
+EAPI=6
+IUSE=+introspection nls +vala 
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=ftp://libvirt.org/libvirt/glib/libvirt-glib-2.0.0.tar.gz

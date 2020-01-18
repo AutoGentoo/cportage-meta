@@ -1,0 +1,9 @@
+163a48847bdcd6ee866b0ea4f453948a
+DEFINED_PHASES= compile install postinst postrm preinst prepare
+DEPEND=  app-text/libpaper  dev-libs/fribidi  gnome-base/librsvg:2  >=media-libs/libpng-1.2:0=  >=media-libs/freetype-2:2  media-libs/libsdl  media-libs/sdl-image[png]  media-libs/sdl-mixer  media-libs/sdl-pango  media-libs/sdl-ttf  x11-libs/cairo   nls? ( sys-devel/gettext )  
+RDEPEND=  app-text/libpaper  dev-libs/fribidi  gnome-base/librsvg:2  >=media-libs/libpng-1.2:0=  >=media-libs/freetype-2:2  media-libs/libsdl  media-libs/sdl-image[png]  media-libs/sdl-mixer  media-libs/sdl-pango  media-libs/sdl-ttf  x11-libs/cairo  
+EAPI=6
+IUSE=nls 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/tuxpaint/tuxpaint-0.9.21.tar.gz

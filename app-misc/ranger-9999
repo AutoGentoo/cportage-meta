@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= postinst prepare
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] test? ( dev-python/pytest[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,python_targets_python3_8(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-)] virtual/pager ) 
+RDEPEND=virtual/pager 
+EAPI=7
+IUSE=python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 python_targets_python3_8 test 
+KEYWORDS=
+SLOT=0
+SRC_URI=

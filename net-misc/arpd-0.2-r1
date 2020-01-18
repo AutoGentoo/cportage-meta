@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  >=dev-libs/libdnet-1.4  >=dev-libs/libevent-0.6  net-libs/libpcap  !sys-apps/iproute2 
+RDEPEND=  >=dev-libs/libdnet-1.4  >=dev-libs/libevent-0.6  net-libs/libpcap  !sys-apps/iproute2 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 hppa ppc ~ppc64 sparc x86
+SLOT=0
+SRC_URI=http://www.citi.umich.edu/u/provos/honeyd/arpd-0.2.tar.gz

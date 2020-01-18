@@ -1,0 +1,10 @@
+f65ede2faab814a9b1d8c769a0a06b8b
+DEFINED_PHASES= compile configure install prepare pretend setup test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=net-misc/curl[ssl]  doc? ( app-doc/doxygen )  test? ( dev-cpp/gtest )  
+RDEPEND=net-misc/curl[ssl] 
+EAPI=6
+IUSE=doc openmp s3 test 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/dmlc/dmlc-core/archive/54db57d5d1b2a7b93319053011802888b827a539.tar.gz -> dmlc-core-0_p20170719.tar.gz

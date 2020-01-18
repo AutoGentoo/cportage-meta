@@ -1,0 +1,9 @@
+abd52b82a9f03896546cee5ea31610c1
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=  dev-cpp/glibmm:2  dev-cpp/gtkmm:2.4  dev-libs/libconfig[cxx]  dev-libs/libxml2:2  dev-libs/libsigc++:2  net-misc/curl  gstreamer? (   media-libs/gst-plugins-bad:1.0   media-libs/gstreamer:1.0  )  libsecret? ( app-crypt/libsecret )  rar? ( app-arch/unrar )  ssl? (   gnutls? (    net-libs/gnutls:=    net-misc/curl[curl_ssl_gnutls]   )   !gnutls? (    >=dev-libs/openssl-1.0.0:0=    net-misc/curl[curl_ssl_openssl]   )  )  zip? ( dev-libs/libzip )  
+RDEPEND=    dev-cpp/glibmm:2  dev-cpp/gtkmm:2.4  dev-libs/libconfig[cxx]  dev-libs/libxml2:2  dev-libs/libsigc++:2  net-misc/curl  gstreamer? (   media-libs/gst-plugins-bad:1.0   media-libs/gstreamer:1.0  )  libsecret? ( app-crypt/libsecret )  rar? ( app-arch/unrar )  ssl? (   gnutls? (    net-libs/gnutls:=    net-misc/curl[curl_ssl_gnutls]   )   !gnutls? (    >=dev-libs/openssl-1.0.0:0=    net-misc/curl[curl_ssl_openssl]   )  )  zip? ( dev-libs/libzip )   gstreamer? (   media-libs/gst-plugins-base:1.0[X]   media-libs/gst-plugins-good:1.0   || (    media-plugins/gst-plugins-vpx    media-plugins/gst-plugins-libav   )  )  
+EAPI=6
+IUSE=gnutls +gstreamer libsecret +rar +ssl +zip 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/ahodesuka/ahoviewer/archive/1.6.5.tar.gz -> ahoviewer-1.6.5.tar.gz

@@ -1,0 +1,9 @@
+e7eb53640ad3585be20a080aa07144f2
+DEFINED_PHASES= install
+DEPEND=>=virtual/jdk-1.6  test? ( dev-java/ant-junit:0 )  dev-java/commons-logging:0  dev-java/commons-codec:0 
+RDEPEND=>=virtual/jre-1.6  dev-java/commons-logging:0  dev-java/commons-codec:0 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~x86-macos
+SLOT=3
+SRC_URI=mirror://apache/httpcomponents/commons-httpclient/source/commons-httpclient-3.1-src.tar.gz

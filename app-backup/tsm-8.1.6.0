@@ -1,0 +1,8 @@
+feaca7c43d0294de682f80497edb7df1
+DEFINED_PHASES= install postinst setup unpack
+RDEPEND=  dev-libs/expat  dev-libs/libxml2  sys-fs/fuse:0  acl? ( sys-apps/acl )  java? ( >=virtual/jre-1.7 )  
+EAPI=6
+IUSE=acl java +tsm_cit +tsm_hw 
+KEYWORDS=
+SLOT=0
+SRC_URI=ftp://ftp.software.ibm.com/storage/tivoli-storage-management/maintenance/client/v8r1/Linux/LinuxX86/BA/v816/8.1.6.0-TIV-TSMBAC-LinuxX86.tar

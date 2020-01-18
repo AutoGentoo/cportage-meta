@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare test
+DEPEND=test? ( >=dev-php/PEAR-HTML_Common-1.2.4  !minimal? ( >=dev-php/PEAR-Services_W3C_CSSValidator-0.1.0 ) >=dev-php/phpunit-3.7 ) 
+RDEPEND=>=dev-php/PEAR-HTML_Common-1.2.4  !minimal? ( >=dev-php/PEAR-Services_W3C_CSSValidator-0.1.0 ) 
+EAPI=6
+IUSE=minimal test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pear.php.net/get/HTML_CSS-1.5.4.tgz

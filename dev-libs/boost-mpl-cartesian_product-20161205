@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install test
+DEPEND=dev-libs/boost 
+RDEPEND=dev-libs/boost 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/quinoacomputing/BoostMPLCartesianProduct/archive/aeb0266b3a89f32c390dff51cb73a454d5d7a745.tar.gz -> boost-mpl-cartesian_product-20161205.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile
+DEPEND=app-admin/gkrellm:2[X] 
+RDEPEND=app-admin/gkrellm:2[X] 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://tripie.sweb.cz/gkrellm/xkb/dist/gkrellm-xkb-1.05.tar.gz

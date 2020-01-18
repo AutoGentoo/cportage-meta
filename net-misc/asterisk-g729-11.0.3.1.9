@@ -1,0 +1,17 @@
+45fe680db302f741e2f047c60f42f74f
+DEFINED_PHASES= install postinst prepare
+RDEPEND= =net-misc/asterisk-11* 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=x86? (
+	http://downloads.digium.com/pub/telephony/codec_g729/asterisk-11.0/x86-32/codec_g729a-11.0_3.1.9-x86_32.tar.gz
+	http://downloads.digium.com/pub/register/x86-32/register -> astregister-x86_32
+	http://downloads.digium.com/pub/register/x86-32/asthostid -> asthostid-x86_32
+)
+amd64? (
+	http://downloads.digium.com/pub/telephony/codec_g729/asterisk-11.0/x86-64/codec_g729a-11.0_3.1.9-x86_64.tar.gz
+	http://downloads.digium.com/pub/register/x86-64/register -> astregister-x86_64
+	http://downloads.digium.com/pub/register/x86-64/asthostid -> asthostid-x86_64
+)

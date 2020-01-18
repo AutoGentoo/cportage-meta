@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  >=virtual/perl-version-0.780.0   >=virtual/perl-ExtUtils-MakeMaker-6.640.0  virtual/perl-File-Spec  test? ( >=virtual/perl-Test-Simple-0.940.0 )  
+RDEPEND=  >=virtual/perl-version-0.780.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/B/BD/BDFOY/IO-Interactive-1.022.tar.gz

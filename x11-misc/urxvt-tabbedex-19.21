@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+RDEPEND=>=x11-terms/rxvt-unicode-9.21[perl] 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/mina86/urxvt-tabbedex/archive/v19.21.tar.gz -> urxvt-tabbedex-19.21.tar.gz

@@ -1,0 +1,9 @@
+575702e564dc94f7388e1e198eb3afda
+DEFINED_PHASES= configure install prepare
+DEPEND=  nls? ( sys-devel/gettext )  pam? ( sys-libs/pam ) 
+RDEPEND=  nls? ( sys-devel/gettext )  pam? ( sys-libs/pam ) 
+EAPI=6
+IUSE=nls pam 
+KEYWORDS=~amd64 ~mips ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=ftp://platan.vc.cvut.cz/pub/linux/ncpfs/ncpfs-2.2.6.tar.gz

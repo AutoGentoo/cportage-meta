@@ -1,0 +1,8 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile configure install
+BDEPEND=  dev-lang/perl  doc? (   app-text/ghostscript-gpl   dev-perl/Font-TTF   dev-perl/Sort-Versions   media-fonts/source-pro   virtual/perl-File-Spec  )  
+EAPI=7
+IUSE=doc 
+KEYWORDS=amd64 ~arm64 ~ia64 ~ppc64 x86 ~x64-cygwin ~amd64-linux ~x86-linux ~x64-macos
+SLOT=0
+SRC_URI=https://www.nasm.us/pub/nasm/releasebuilds/2.14.02/nasm-2.14.02.tar.xz

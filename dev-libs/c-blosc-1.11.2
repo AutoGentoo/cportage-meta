@@ -1,0 +1,10 @@
+6bc5d8e5e737c4dd07872b2bcf3ae2dd
+DEFINED_PHASES= configure prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  lz4? ( >=app-arch/lz4-1.7.5:= )  snappy? ( app-arch/snappy )  zlib? ( sys-libs/zlib )  zstd? ( app-arch/zstd ) 
+RDEPEND=  lz4? ( >=app-arch/lz4-1.7.5:= )  snappy? ( app-arch/snappy )  zlib? ( sys-libs/zlib )  zstd? ( app-arch/zstd ) 
+EAPI=6
+IUSE=cpu_flags_x86_avx2 +lz4 +snappy static-libs test zlib zstd 
+KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+SLOT=0/1
+SRC_URI=https://github.com/Blosc/c-blosc/archive/v1.11.2.tar.gz -> c-blosc-1.11.2.tar.gz

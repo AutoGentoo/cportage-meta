@@ -1,0 +1,9 @@
+34284ab8d88e2076add54c828bd5d3a2
+DEFINED_PHASES= compile configure install postinst postrm prepare
+DEPEND=x11-libs/gtk+:2  media-libs/tiff:=  virtual/jpeg:=  media-libs/libpng:=  x11-libs/libXft  x11-libs/libXpm  virtual/pkgconfig 
+RDEPEND=x11-libs/gtk+:2  media-libs/tiff:=  virtual/jpeg:=  media-libs/libpng:=  x11-libs/libXft  x11-libs/libXpm 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc sparc x86
+SLOT=0
+SRC_URI=ftp://ftp.nluug.nl/pub/editors/ted/ted-2.23.src.tar.gz

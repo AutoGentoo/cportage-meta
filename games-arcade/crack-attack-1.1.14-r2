@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  media-libs/freeglut  sdl? ( media-libs/libsdl   media-libs/sdl-mixer )  gtk? ( >=x11-libs/gtk+-2.6:2 )   virtual/pkgconfig  
+RDEPEND=  media-libs/freeglut  sdl? ( media-libs/libsdl   media-libs/sdl-mixer )  gtk? ( >=x11-libs/gtk+-2.6:2 )  
+EAPI=6
+IUSE=gtk sdl 
+KEYWORDS=~amd64 ~arm ~hppa ~x86
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/crack-attack/crack-attack-1.1.14.tar.bz2

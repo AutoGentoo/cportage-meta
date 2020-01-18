@@ -1,0 +1,9 @@
+4797ad87a7d2b8a3e4e693cd64611682
+DEFINED_PHASES= configure install prepare setup
+DEPEND=  dev-libs/boost:=[threads(+)]  dev-libs/openssl:0[-bindist]  logrotate? ( app-admin/logrotate )  upnp? ( net-libs/miniupnpc )  sys-libs/db:4.8[cxx]  >=dev-libs/leveldb-1.18-r1:=   >=app-shells/bash-4.1  sys-apps/sed  
+RDEPEND=  dev-libs/boost:=[threads(+)]  dev-libs/openssl:0[-bindist]  logrotate? ( app-admin/logrotate )  upnp? ( net-libs/miniupnpc )  sys-libs/db:4.8[cxx]  >=dev-libs/leveldb-1.18-r1:=  
+EAPI=5
+IUSE=logrotate upnp +wallet 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/litecoin-project/litecoin/archive/v0.10.4.0.tar.gz -> litecoin-0.10.4.0.tar.gz

@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= prepare
+DEPEND=>=dev-libs/libkpass-6 
+RDEPEND=>=dev-libs/libkpass-6 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://sourceforge/ckpass/ckpass-0.2.tar.gz

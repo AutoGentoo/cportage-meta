@@ -1,0 +1,10 @@
+0971d52e0229e3dc0627a82e4be8d639
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  sys-libs/zlib  gnutls? ( net-libs/gnutls )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl )  )   app-arch/unzip  sys-devel/flex  sys-devel/bison  
+RDEPEND=  sys-libs/zlib  gnutls? ( net-libs/gnutls )  ssl? (   !libressl? ( dev-libs/openssl:0= )   libressl? ( dev-libs/libressl )  )  
+EAPI=7
+IUSE=doc debug examples ipv6 libressl gnutls +ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/gsoap2/gsoap_2.8.93.zip

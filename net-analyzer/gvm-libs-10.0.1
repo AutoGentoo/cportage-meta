@@ -1,0 +1,10 @@
+0ffd6b933d3905e46a36f0e3e510500e
+DEFINED_PHASES= compile configure install prepare setup
+BDEPEND=  sys-devel/bison  sys-devel/flex  virtual/pkgconfig  extras? ( app-doc/doxygen[dot]     app-doc/xmltoman     app-text/htmldoc     dev-perl/CGI     dev-perl/SQL-Translator  ) 
+DEPEND=  app-crypt/gpgme:=  dev-libs/hiredis  dev-libs/libgcrypt:=  dev-perl/UUID  net-libs/gnutls:=  net-libs/libssh:=  sys-libs/zlib  ldap? ( net-nds/openldap )  radius? ( net-dialup/freeradius-client ) 
+RDEPEND=    app-crypt/gpgme:=  dev-libs/hiredis  dev-libs/libgcrypt:=  dev-perl/UUID  net-libs/gnutls:=  net-libs/libssh:=  sys-libs/zlib  ldap? ( net-nds/openldap )  radius? ( net-dialup/freeradius-client ) 
+EAPI=7
+IUSE=extras ldap radius 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/greenbone/gvm-libs/archive/v10.0.1.tar.gz -> gvm-libs-10.0.1.tar.gz

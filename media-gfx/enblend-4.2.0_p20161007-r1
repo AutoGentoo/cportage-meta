@@ -1,0 +1,10 @@
+fe9005ba1fb4ef6af336c85480e509d0
+DEFINED_PHASES= compile configure prepare
+BDEPEND=  sys-apps/help2man  virtual/pkgconfig  doc? (   dev-lang/perl   dev-perl/Readonly   dev-tex/hevea   gnome-base/librsvg   media-gfx/graphviz   media-gfx/transfig   sci-visualization/gnuplot[gd]   virtual/imagemagick-tools   virtual/latex-base  )  
+DEPEND=  media-libs/lcms:2  media-libs/openexr:=  media-libs/tiff:0  media-libs/vigra[openexr]  sci-libs/gsl:=  debug? ( dev-libs/dmalloc )  tcmalloc? ( dev-util/google-perftools )   >=dev-libs/boost-1.62.0  media-libs/libpng:0  virtual/jpeg:0  
+RDEPEND=  media-libs/lcms:2  media-libs/openexr:=  media-libs/tiff:0  media-libs/vigra[openexr]  sci-libs/gsl:=  debug? ( dev-libs/dmalloc )  tcmalloc? ( dev-util/google-perftools )  
+EAPI=7
+IUSE=cpu_flags_x86_sse2 debug doc openmp tcmalloc 
+KEYWORDS=amd64 arm64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~soap/distfiles/enblend-4.2.0_p20161007.tar.xz

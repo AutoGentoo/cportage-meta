@@ -1,0 +1,9 @@
+ac072bd8a431484cf06186ba80d488f2
+DEFINED_PHASES= compile configure install setup
+DEPEND=java? ( >=virtual/jdk-1.4 ) =www-servers/apache-2* 
+RDEPEND= =www-servers/apache-2* 
+EAPI=5
+IUSE=java 
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://apache/tomcat/tomcat-connectors/jk/tomcat-connectors-1.2.42-src.tar.gz

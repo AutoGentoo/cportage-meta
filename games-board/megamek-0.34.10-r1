@@ -1,0 +1,9 @@
+552dacb15f2019c8f3f74c55befa242c
+DEFINED_PHASES= compile install prepare setup
+DEPEND=>=virtual/jdk-1.5  app-arch/unzip 
+RDEPEND=>=virtual/jre-1.5 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/megamek/MegaMek-v0.34.10.zip

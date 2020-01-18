@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-db/sqlite:3  >=dev-libs/glib-2.10:2  net-misc/curl   virtual/pkgconfig  
+RDEPEND=  dev-db/sqlite:3  >=dev-libs/glib-2.10:2  net-misc/curl  
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/sahib/glyr/archive/1.0.10.tar.gz -> glyr-1.0.10.tar.gz

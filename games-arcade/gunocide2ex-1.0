@@ -1,0 +1,9 @@
+323229e646a1a06c2527d827074c4c26
+DEFINED_PHASES= compile install prepare unpack
+DEPEND=media-libs/libsdl[video]  media-libs/sdl-ttf  media-libs/sdl-mixer[vorbis] 
+RDEPEND=media-libs/libsdl[video]  media-libs/sdl-ttf  media-libs/sdl-mixer[vorbis] 
+EAPI=5
+IUSE=
+KEYWORDS=~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/g2ex/g2ex-setup.run

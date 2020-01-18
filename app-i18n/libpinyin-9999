@@ -1,0 +1,10 @@
+3269caa40c6399bee3d10f0771bd6a6d
+DEFINED_PHASES= configure install prepare unpack
+BDEPEND=virtual/pkgconfig 
+DEPEND=dev-libs/glib:2  sys-libs/db:= 
+RDEPEND=dev-libs/glib:2  sys-libs/db:= 
+EAPI=7
+IUSE=
+KEYWORDS=
+SLOT=0/13
+SRC_URI= mirror://sourceforge/libpinyin/models/model17.text.tar.gz -> libpinyin-model17.text.tar.gz

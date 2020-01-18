@@ -1,0 +1,9 @@
+3fda5133b29845b4abbe097400a65eae
+DEFINED_PHASES= configure prepare unpack
+DEPEND=  cairo? ( x11-libs/cairo x11-libs/pango )  gui? (   X? (    x11-libs/cairo[X]    x11-libs/libX11    x11-libs/pango[X]   )   !X? ( >=media-libs/glfw-3.0 )  )  leveldb? ( dev-libs/leveldb )  ncurses? ( sys-libs/ncurses:= )  sqlite? ( dev-db/sqlite:3 )  tokyocabinet? ( dev-db/tokyocabinet )  
+RDEPEND=  cairo? ( x11-libs/cairo x11-libs/pango )  gui? (   X? (    x11-libs/cairo[X]    x11-libs/libX11    x11-libs/pango[X]   )   !X? ( >=media-libs/glfw-3.0 )  )  leveldb? ( dev-libs/leveldb )  ncurses? ( sys-libs/ncurses:= )  sqlite? ( dev-db/sqlite:3 )  tokyocabinet? ( dev-db/tokyocabinet )  
+EAPI=5
+IUSE=cairo gui -leveldb ncurses -sqlite +tokyocabinet X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/zevv/duc/releases/download/1.4.1/duc-1.4.1.tar.gz

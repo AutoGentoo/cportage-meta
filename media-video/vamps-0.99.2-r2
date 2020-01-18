@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=>=media-libs/libdvdread-0.9.4 
+RDEPEND=>=media-libs/libdvdread-0.9.4  >=media-video/dvdauthor-0.6.10 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 ~ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/vamps/vamps-0.99.2.tar.gz

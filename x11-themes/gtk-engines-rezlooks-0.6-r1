@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    >=x11-libs/gtk+-2.8:2   virtual/pkgconfig  
+RDEPEND=  >=x11-libs/gtk+-2.8:2  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://www.gnome-look.org/content/files/39179-rezlooks-0.6.tar.gz

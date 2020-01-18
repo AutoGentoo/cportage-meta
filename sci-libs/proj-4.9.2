@@ -1,0 +1,12 @@
+6518ed480c31919fc943085c347d594a
+DEFINED_PHASES= configure install unpack
+DEPEND=  app-arch/unzip  java? ( >=virtual/jdk-1.5 ) 
+EAPI=5
+IUSE=java static-libs 
+KEYWORDS=amd64 ~arm arm64 ~ia64 ppc ppc64 ~s390 ~sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
+SLOT=0/9
+SRC_URI=
+	http://download.osgeo.org/proj/proj-4.9.2.tar.gz
+	http://download.osgeo.org/proj/proj-datumgrid-1.5.zip
+	http://trac.osgeo.org/proj/export/2647/trunk/proj/src/org_proj4_PJ.h -> proj-4.9.2-org_proj4_PJ.h
+

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install test
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtopengl:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  media-libs/libpng:0=  media-libs/tiff:0  sys-libs/zlib  virtual/jpeg:0  x11-libs/libXrender   dev-libs/boost  dev-qt/linguist-tools:5  !media-gfx/scantailor  
+RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtopengl:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  media-libs/libpng:0=  media-libs/tiff:0  sys-libs/zlib  virtual/jpeg:0  x11-libs/libXrender  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/4lex4/scantailor-advanced/archive/v1.0.14.tar.gz -> scantailor-advanced-1.0.14.tar.gz

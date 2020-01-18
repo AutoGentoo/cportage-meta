@@ -1,0 +1,9 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= postinst prepare
+DEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+RDEPEND=|| ( >=app-editors/vim-7.3  >=app-editors/gvim-7.3 ) 
+EAPI=6
+IUSE=ignore-glep31 
+KEYWORDS=
+SLOT=0
+SRC_URI=

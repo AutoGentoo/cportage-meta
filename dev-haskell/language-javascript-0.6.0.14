@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?]  >=dev-haskell/mtl-1.1:=[profile?]  >=dev-haskell/semigroups-0.16.1:=[profile?]  >=dev-haskell/text-1.2:=[profile?]  >=dev-haskell/utf8-string-0.3.7:=[profile?] <dev-haskell/utf8-string-2:=[profile?]  >=dev-lang/ghc-7.4.1:=   dev-haskell/alex  >=dev-haskell/cabal-1.9.2  >=dev-haskell/happy-1.19.12  test? ( dev-haskell/hspec   >=dev-haskell/quickcheck-2   >=dev-haskell/utf8-light-0.4 )  
+RDEPEND=>=dev-haskell/blaze-builder-0.2:=[profile?]  >=dev-haskell/mtl-1.1:=[profile?]  >=dev-haskell/semigroups-0.16.1:=[profile?]  >=dev-haskell/text-1.2:=[profile?]  >=dev-haskell/utf8-string-0.3.7:=[profile?] <dev-haskell/utf8-string-2:=[profile?]  >=dev-lang/ghc-7.4.1:=  
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.6.0.14
+SRC_URI=https://hackage.haskell.org/package/language-javascript-0.6.0.14/language-javascript-0.6.0.14.tar.gz

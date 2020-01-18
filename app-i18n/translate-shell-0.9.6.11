@@ -1,0 +1,9 @@
+abfd4f5b3e2393e99cecbfae5477322c
+DEFINED_PHASES= install postinst test
+DEPEND=sys-apps/gawk  test? (   app-editors/emacs   app-misc/rlwrap  ) 
+RDEPEND=sys-apps/gawk 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/soimort/translate-shell/archive/v0.9.6.11.tar.gz -> translate-shell-0.9.6.11.tar.gz

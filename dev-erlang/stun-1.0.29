@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-lang/erlang-17.1  >=dev-erlang/fast_tls-1.1.2  >=dev-erlang/p1_utils-1.0.16 
+RDEPEND=>=dev-lang/erlang-17.1  >=dev-erlang/fast_tls-1.1.2  >=dev-erlang/p1_utils-1.0.16 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~sparc ~x86
+SLOT=0
+SRC_URI=https://github.com/processone/stun/archive/1.0.29.tar.gz
+	-> stun-1.0.29.tar.gz

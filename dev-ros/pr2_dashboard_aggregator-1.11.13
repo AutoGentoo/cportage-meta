@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/rospy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/std_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/pr2_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+RDEPEND=  dev-ros/rospy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/std_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-ros/pr2_msgs[ros_messages_python(-),python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/pr2/pr2_common/archive/1.11.13.tar.gz -> pr2_common-1.11.13.tar.gz

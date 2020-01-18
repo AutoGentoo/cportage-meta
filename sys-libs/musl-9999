@@ -1,0 +1,11 @@
+04f7bb14b618c5d9b1253c2e3d638b39
+DEFINED_PHASES= compile configure install postinst setup
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+EAPI=6
+IUSE=headers-only 
+KEYWORDS=
+SLOT=0
+SRC_URI=
+	https://dev.gentoo.org/~blueness/musl-misc/getconf.c
+	https://dev.gentoo.org/~blueness/musl-misc/getent.c
+	https://dev.gentoo.org/~blueness/musl-misc/iconv.c

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? (     dev-python/matplotlib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/numpy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/six[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/ImageHash[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-tex/pgf  ) 
+RDEPEND=  dev-python/matplotlib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/numpy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/six[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/nschloe/matplotlib2tikz/archive/v0.6.18.tar.gz -> matplotlib2tikz-0.6.18.tar.gz

@@ -1,0 +1,10 @@
+230ac5dcfa1bb530c84b1b79eac5f3dd
+DEFINED_PHASES= compile configure install postinst prepare
+DEPEND=sys-libs/ncurses:0=  gtk? ( x11-libs/gtk+:2 )  xforms? ( x11-libs/xforms )  xplanet? ( x11-misc/xplanet[truetype] ) 
+RDEPEND=sys-libs/ncurses:0=  gtk? ( x11-libs/gtk+:2 )  xforms? ( x11-libs/xforms )  xplanet? ( x11-misc/xplanet[truetype] ) 
+EAPI=6
+IUSE=doc gtk nls xforms xplanet 
+KEYWORDS=amd64 ~ppc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=mirror://debian/pool/main/p/predict/predict_2.2.3.orig.tar.gz
+	mirror://debian/pool/main/p/predict/predict_2.2.3-3.1.diff.gz

@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= prepare
+DEPEND=dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyrqlite[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/sqlalchemy[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  test? (   dev-python/pytest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pytest-cov[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/pylint[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/rqlite/sqlalchemy-rqlite/archive/v1.0.tar.gz -> sqlalchemy-rqlite-1.0.tar.gz

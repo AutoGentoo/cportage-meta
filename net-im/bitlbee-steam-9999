@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install prepare
+DEPEND=  dev-libs/glib:2  dev-libs/libgcrypt:0=  >=net-im/bitlbee-3.4[plugins]  virtual/pkgconfig 
+RDEPEND=  dev-libs/glib:2  dev-libs/libgcrypt:0=  >=net-im/bitlbee-3.4[plugins] 
+EAPI=6
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

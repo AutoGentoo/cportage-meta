@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=sys-devel/m4 sys-devel/libtool   php_targets_php7-2? ( dev-lang/php:7.2 ) php_targets_php7-3? ( dev-lang/php:7.3 ) php_targets_php7-4? ( dev-lang/php:7.4 )  
+DEPEND=dev-libs/libmcrypt 
+RDEPEND=dev-libs/libmcrypt 
+EAPI=7
+IUSE= php_targets_php7-2 php_targets_php7-3 php_targets_php7-4 
+KEYWORDS=~amd64 ~arm ~hppa ~sparc
+SLOT=0
+SRC_URI=https://pecl.php.net/get/mcrypt-1.0.3.tgz

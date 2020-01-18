@@ -1,0 +1,10 @@
+2b57969d65409dac2c02874db335daf3
+DEFINED_PHASES= configure install postinst
+DEPEND=sys-apps/groff 
+EAPI=6
+IUSE=
+KEYWORDS=-ppc x86
+SLOT=0
+SRC_URI=
+	https://www.kernel.org/pub/linux/utils/cpu/crusoe/longrun-0.9.tar.bz2
+	mirror://debian/pool/main/l/longrun/longrun_0.9-19.diff.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 x86
+SLOT=0
+SRC_URI=https://github.com/jaalto/project-emacs--folding-mode/archive/a1361aa154b27bd4db2e1cfe6c3b81b4fc1fdc9a.tar.gz -> folding-2019.0524.1621.tar.gz

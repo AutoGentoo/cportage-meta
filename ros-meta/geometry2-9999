@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/test_tf2  dev-ros/tf2  dev-ros/tf2_bullet  dev-ros/tf2_eigen  dev-ros/tf2_geometry_msgs  dev-ros/tf2_kdl  dev-ros/tf2_msgs  dev-ros/tf2_py  dev-ros/tf2_ros  dev-ros/tf2_sensor_msgs  dev-ros/tf2_tools  
+RDEPEND=  dev-ros/test_tf2  dev-ros/tf2  dev-ros/tf2_bullet  dev-ros/tf2_eigen  dev-ros/tf2_geometry_msgs  dev-ros/tf2_kdl  dev-ros/tf2_msgs  dev-ros/tf2_py  dev-ros/tf2_ros  dev-ros/tf2_sensor_msgs  dev-ros/tf2_tools  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

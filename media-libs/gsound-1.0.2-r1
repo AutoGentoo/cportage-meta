@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure prepare
+DEPEND=  >=dev-libs/glib-2.36:2  media-libs/libcanberra  introspection? ( >=dev-libs/gobject-introspection-1.2.9:= )   >=dev-util/gtk-doc-am-1.20  virtual/pkgconfig  vala? ( || ( dev-lang/vala:0.46[vapigen(+)] dev-lang/vala:0.44[vapigen(+)] dev-lang/vala:0.42[vapigen(+)] dev-lang/vala:0.40[vapigen(+)] dev-lang/vala:0.36[vapigen(+)] ) )  
+RDEPEND=  >=dev-libs/glib-2.36:2  media-libs/libcanberra  introspection? ( >=dev-libs/gobject-introspection-1.2.9:= )  
+EAPI=6
+IUSE=+introspection +vala 
+KEYWORDS=amd64 ~arm64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://gnome/sources/gsound/1.0/gsound-1.0.2.tar.xz

@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/cpp_common  dev-ros/rostime  dev-ros/rosunit  dev-libs/boost:=[threads]  log4cxx? ( dev-libs/log4cxx )  !log4cxx? ( glog? ( dev-cpp/glog ) )  
+RDEPEND=  dev-ros/cpp_common  dev-ros/rostime  dev-ros/rosunit  dev-libs/boost:=[threads]  log4cxx? ( dev-libs/log4cxx )  !log4cxx? ( glog? ( dev-cpp/glog ) )  
+EAPI=5
+IUSE=+log4cxx glog 
+KEYWORDS=~amd64 ~arm
+SLOT=0
+SRC_URI=https://github.com/ros/rosconsole/archive/1.13.9.tar.gz -> rosconsole-1.13.9.tar.gz

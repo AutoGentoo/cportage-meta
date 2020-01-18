@@ -1,0 +1,8 @@
+146d9b89bf9429fb2e1789f67f050259
+DEFINED_PHASES= configure prepare
+DEPEND=  doc? (   app-doc/doxygen[dot]   media-gfx/graphviz  )  
+EAPI=6
+IUSE=doc examples static-libs 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://dev-www.libreoffice.org/src/cppunit-1.14.0.tar.gz

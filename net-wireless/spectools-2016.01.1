@@ -1,0 +1,9 @@
+af90ef84b5c8e6b3e61520dcc1baa661
+DEFINED_PHASES= compile install prepare
+DEPEND=  virtual/libusb:0  ncurses? ( sys-libs/ncurses:0= )  gtk? ( x11-libs/gtk+:2   x11-libs/cairo   x11-libs/gdk-pixbuf   x11-libs/pango   dev-libs/glib:= )  virtual/pkgconfig 
+RDEPEND=  virtual/libusb:0  ncurses? ( sys-libs/ncurses:0= )  gtk? ( x11-libs/gtk+:2   x11-libs/cairo   x11-libs/gdk-pixbuf   x11-libs/pango   dev-libs/glib:= ) 
+EAPI=5
+IUSE=debug +ncurses +gtk 
+KEYWORDS=amd64 arm ~arm64 ~ppc x86
+SLOT=0
+SRC_URI=https://www.kismetwireless.net/code/spectools-2016-01-R1.tar.xz

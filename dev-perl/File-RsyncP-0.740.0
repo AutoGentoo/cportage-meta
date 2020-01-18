@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-lang/perl:=[-build(-)] 
+RDEPEND=net-misc/rsync 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ~arm ia64 ~ppc ~ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/C/CB/CBARRATT/File-RsyncP-0.74.tar.gz

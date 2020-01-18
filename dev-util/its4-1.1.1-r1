@@ -1,0 +1,7 @@
+dadc3777c07f6d3cd4166d08d24fc89b
+DEFINED_PHASES= compile configure install prepare
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ppc x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~robbat2/distfiles/its4-1.1.1.tgz

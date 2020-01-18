@@ -1,0 +1,10 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure install prepare unpack
+DEPEND=  dev-games/physfs  media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  net-misc/curl  sys-libs/zlib:=  app-arch/unzip 
+RDEPEND=  dev-games/physfs  media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  net-misc/curl  sys-libs/zlib:= 
+EAPI=6
+IUSE=debug music 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~soap/distfiles/daimonin-client-0.10.8.zip
+	music? ( mirror://sourceforge/daimonin/daimoninMusicLQ20100827.zip )

@@ -1,0 +1,9 @@
+66a41f6d9bd0c859885e1298c1cc33c4
+DEFINED_PHASES= install postinst unpack
+DEPEND=app-arch/unzip  app-admin/chrpath 
+RDEPEND=sys-libs/ncurses-compat:5 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://docs.avagotech.com/docs-and-downloads/raid-controllers/raid-controllers-common-files/8-07-14_MegaCLI.zip

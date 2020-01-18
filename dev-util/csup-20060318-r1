@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=    sys-libs/zlib:0=  dev-libs/openssl:0=  >=sys-devel/bison-2.1 
+RDEPEND=    sys-libs/zlib:0=  dev-libs/openssl:0=  !>=sys-freebsd/freebsd-ubin-6.2_beta1 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://mu.org/~mux/csup-snap-20060318.tgz

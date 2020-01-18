@@ -1,0 +1,11 @@
+2d0aa8f611b06f2aad748291cf9e9ba8
+DEFINED_PHASES= compile install nofetch prepare
+DEPEND=app-shells/tcsh 
+RDEPEND=sci-chemistry/procheck 
+EAPI=6
+IUSE=doc examples 
+KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=
+	aqua3.2.tar.gz
+	doc? ( aqua-3.2-nmr_manual.tar.gz )

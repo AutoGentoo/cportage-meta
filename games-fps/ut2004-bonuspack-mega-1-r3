@@ -1,0 +1,8 @@
+1796fc204be7b3caea151b43f4349b32
+DEFINED_PHASES= install prepare
+BDEPEND=app-arch/unzip 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://ut2004.ut-files.com/BonusPacks/ut2004megapack-linux.tar.bz2

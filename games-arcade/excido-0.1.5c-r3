@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install
+DEPEND=dev-games/physfs  media-libs/libsdl[opengl]  media-libs/sdl-mixer  media-libs/sdl-ttf  media-libs/sdl-image[png]  media-libs/openal  media-libs/freealut 
+RDEPEND=dev-games/physfs  media-libs/libsdl[opengl]  media-libs/sdl-mixer  media-libs/sdl-ttf  media-libs/sdl-image[png]  media-libs/openal  media-libs/freealut 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://icculus.org/excido/excido-0.1.5c-src.tar.bz2

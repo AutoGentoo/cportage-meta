@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=virtual/jdk-1.7    dev-java/asm:4  dev-java/junit:4  dev-java/commons-math:3  dev-java/jopt-simple:4.6 
+RDEPEND=>=virtual/jre-1.7    dev-java/asm:4  dev-java/junit:4  dev-java/commons-math:3  dev-java/jopt-simple:4.6 
+EAPI=6
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://hg.openjdk.java.net/code-tools/jmh/archive/f25ae8584db1.tar.gz -> jmh-core-1.21.tar.gz

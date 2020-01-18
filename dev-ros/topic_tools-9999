@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-ros/cpp_common  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/rostime  dev-ros/xmlrpcpp   test? (   dev-ros/rostest[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-ros/rosunit[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-cpp/gtest   dev-python/nose[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  ) 
+RDEPEND=  dev-ros/cpp_common  dev-ros/rosconsole  dev-ros/roscpp  dev-ros/rostime  dev-ros/xmlrpcpp  
+EAPI=5
+IUSE=
+KEYWORDS=
+SLOT=0
+SRC_URI=

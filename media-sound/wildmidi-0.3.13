@@ -1,0 +1,10 @@
+3d0e4462dae79b9be0252454be8e8fee
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  player? (   alsa? ( media-libs/alsa-lib )   openal? ( media-libs/openal )  )  
+RDEPEND=  player? (   alsa? ( media-libs/alsa-lib )   openal? ( media-libs/openal )  )   media-sound/timidity-freepats  
+EAPI=6
+IUSE=+alsa openal oss +player 
+KEYWORDS=amd64 arm ~hppa ppc ppc64 x86
+SLOT=0
+SRC_URI=https://github.com/Mindwerks/wildmidi/archive/wildmidi-0.3.13.tar.gz

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=>=gnustep-base/gnustep-gui-0.22.0 
+RDEPEND=>=gnustep-base/gnustep-gui-0.22.0 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=ftp://ftp.gnustep.org/pub/gnustep/dev-apps/gorm-1.2.23.tar.gz

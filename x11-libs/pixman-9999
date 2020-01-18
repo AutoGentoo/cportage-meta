@@ -1,0 +1,8 @@
+8d065dd86f07bdc0eccf575d9b1e6c93
+DEFINED_PHASES=-
+BDEPEND=>=dev-util/meson-0.48.2  >=dev-util/ninja-1.7.2 
+EAPI=7
+IUSE=cpu_flags_ppc_altivec cpu_flags_arm_iwmmxt cpu_flags_arm_iwmmxt2 cpu_flags_arm_neon loongson2f cpu_flags_x86_mmxext cpu_flags_x86_sse2 cpu_flags_x86_ssse3 
+KEYWORDS=
+SLOT=0
+SRC_URI=

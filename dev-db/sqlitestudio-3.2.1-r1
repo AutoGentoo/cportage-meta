@@ -1,0 +1,9 @@
+f28a5c7da68e342ea59292a2caa46482
+DEFINED_PHASES= compile configure install prepare
+DEPEND=  dev-db/sqlite:3  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  cli? ( sys-libs/readline:0= )  cups? ( dev-qt/qtprintsupport:5 )  tcl? ( dev-lang/tcl:0= )   dev-qt/designer:5  dev-qt/qtconcurrent:5  test? ( dev-qt/qttest:5 )  
+RDEPEND=  dev-db/sqlite:3  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  cli? ( sys-libs/readline:0= )  cups? ( dev-qt/qtprintsupport:5 )  tcl? ( dev-lang/tcl:0= )  
+EAPI=6
+IUSE=cli cups tcl test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://sqlitestudio.pl/files/sqlitestudio3/complete/tar/sqlitestudio-3.2.1.tar.gz

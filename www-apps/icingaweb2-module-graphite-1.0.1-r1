@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=>=net-analyzer/icinga2-2.4.0  >=www-apps/icingaweb2-2.5.0 
+RDEPEND=>=net-analyzer/icinga2-2.4.0  >=www-apps/icingaweb2-2.5.0 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/Icinga/icingaweb2-module-graphite/archive/v1.0.1.tar.gz -> icingaweb2-module-graphite-1.0.1.tar.gz

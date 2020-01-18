@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=doc? ( app-doc/doxygen ) 
+EAPI=7
+IUSE=doc examples 
+KEYWORDS=amd64 hppa ppc ppc64 ~x86 ~amd64-linux ~x86-linux
+SLOT=0/0.16
+SRC_URI=https://dev.gentoo.org/~asturm/distfiles/libnova-0.16.0.tar.xz

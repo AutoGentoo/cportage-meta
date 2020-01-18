@@ -1,0 +1,9 @@
+e5190cbbbae5813db082592c523f06b5
+DEFINED_PHASES= configure install
+DEPEND=  net-misc/curl  ncurses? (   sys-libs/ncurses:=[unicode?]  )  >=dev-libs/jansson-2  dev-libs/libbase58  net-libs/libblkmaker  udev? (   virtual/udev  )  hashbuster? (   dev-libs/hidapi  )  libusb? (   virtual/libusb:1  )  lm-sensors? (   sys-apps/lm-sensors  )  nanofury? (   dev-libs/hidapi  )  proxy_getwork? (   net-libs/libmicrohttpd  )  proxy_stratum? (   dev-libs/libevent  )  screen? (   app-misc/screen   || (    >=sys-apps/coreutils-8.15    sys-freebsd/freebsd-bin    app-misc/realpath   )  )   virtual/pkgconfig  >=dev-libs/uthash-1.9.7  sys-apps/sed  cpumining? (   amd64? (    >=dev-lang/yasm-1.0.1   )   x86? (    >=dev-lang/yasm-1.0.1   )  )  
+RDEPEND=  net-misc/curl  ncurses? (   sys-libs/ncurses:=[unicode?]  )  >=dev-libs/jansson-2  dev-libs/libbase58  net-libs/libblkmaker  udev? (   virtual/udev  )  hashbuster? (   dev-libs/hidapi  )  libusb? (   virtual/libusb:1  )  lm-sensors? (   sys-apps/lm-sensors  )  nanofury? (   dev-libs/hidapi  )  proxy_getwork? (   net-libs/libmicrohttpd  )  proxy_stratum? (   dev-libs/libevent  )  screen? (   app-misc/screen   || (    >=sys-apps/coreutils-8.15    sys-freebsd/freebsd-bin    app-misc/realpath   )  )   opencl? (   || (    virtual/opencl    dev-util/nvidia-cuda-sdk[opencl]   )  )  
+EAPI=6
+IUSE=adl alchemist avalon avalonmm bitmain bfsb bfx bifury bigpic bitforce bitfury cointerra cpumining drillbit dualminer examples gridseed hardened hashbuster hashbuster2 hashfast icarus jingtian keccak klondike +libusb littlefury lm-sensors metabank minion modminer nanofury ncurses opencl proxy proxy_getwork proxy_stratum rockminer screen scrypt +sha256d twinfury +udev udev-broad-rules unicode x6500 zeusminer ztex 
+KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=http://luke.dashjr.org/programs/bitcoin/files/bfgminer/5.5.0/bfgminer-5.5.0.txz -> bfgminer-5.5.0.tar.xz

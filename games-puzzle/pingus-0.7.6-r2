@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= compile install postinst postrm prepare
+DEPEND=media-libs/libsdl[joystick,opengl?,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer  music? ( media-libs/sdl-mixer[mod] )  opengl? ( virtual/opengl )  media-libs/libpng:0=  dev-libs/boost:=  virtual/pkgconfig 
+RDEPEND=media-libs/libsdl[joystick,opengl?,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer  music? ( media-libs/sdl-mixer[mod] )  opengl? ( virtual/opengl )  media-libs/libpng:0=  dev-libs/boost:= 
+EAPI=6
+IUSE=opengl music 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://pingus.googlecode.com/files/pingus-0.7.6.tar.bz2

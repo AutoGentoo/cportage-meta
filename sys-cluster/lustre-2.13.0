@@ -1,0 +1,10 @@
+16c037af004471d073f9df4b651e7c41
+DEFINED_PHASES= compile configure install prepare pretend setup
+BDEPEND=virtual/pkgconfig 
+DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
+RDEPEND=  virtual/awk  dlc? ( dev-libs/libyaml )  readline? ( sys-libs/readline:0 )  server? (   >=sys-fs/zfs-kmod-0.8   >=sys-fs/zfs-0.8  )  
+EAPI=7
+IUSE=+client +utils +modules +dlc server readline tests 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~alexxy/distfiles/lustre-2.13.0.tar.gz

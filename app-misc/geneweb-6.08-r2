@@ -1,0 +1,10 @@
+d3c05747737c92eee24a72763f043582
+DEFINED_PHASES= compile install postinst
+DEPEND=dev-lang/ocaml[ocamlopt?]  dev-ml/camlp5[ocamlopt?]  acct-user/geneweb  acct-group/geneweb 
+RDEPEND=dev-lang/ocaml[ocamlopt?]  dev-ml/camlp5[ocamlopt?]  acct-user/geneweb  acct-group/geneweb 
+EAPI=7
+IUSE=+ocamlopt 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/geneweb/geneweb/archive/v6.08.tar.gz -> geneweb-6.08.tar.gz
+	https://dev.gentoo.org/~tupone/geneweb-6.08-ocaml-4.patch.gz

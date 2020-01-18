@@ -1,0 +1,9 @@
+57754efafb9e514b4ec4ea713f6ab6dd
+DEFINED_PHASES= prepare
+DEPEND=  !sys-fs/aufs2  !<sys-fs/aufs3-3_p20130318  ~sys-fs/aufs-headers-4.14_p20180709 
+RDEPEND=  !sys-fs/aufs2  !<sys-fs/aufs3-3_p20130318 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jlec/distfiles/aufs-util-4.14_p20180709.tar.xz

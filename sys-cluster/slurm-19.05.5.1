@@ -1,0 +1,10 @@
+6ee15f0bb1611d5868f64db8b9372d1f
+DEFINED_PHASES= compile configure install postinst preinst prepare unpack
+BDEPEND=virtual/pkgconfig 
+DEPEND=  !sys-cluster/torque  !net-analyzer/slurm  !net-analyzer/sinfo  || ( sys-cluster/pmix[-pmi] >=sys-cluster/openmpi-2.0.0 )  mysql? (   || ( dev-db/mariadb-connector-c dev-db/mysql-connector-c )   slurmdbd? ( || ( dev-db/mariadb dev-db/mysql ) )   )  munge? ( sys-auth/munge )  pam? ( sys-libs/pam )  lua? ( dev-lang/lua:0= )  !lua? ( !dev-lang/lua )  ipmi? ( sys-libs/freeipmi )  json? ( dev-libs/json-c:= )  amd64? ( netloc? ( sys-apps/netloc ) )  hdf5? ( sci-libs/hdf5:= )  numa? ( sys-process/numactl )  ofed? ( sys-fabric/ofed )  ucx? ( sys-cluster/ucx )  X? ( net-libs/libssh2 )  >=sys-apps/hwloc-1.1.1-r1  sys-libs/ncurses:0=  app-arch/lz4:0=  sys-libs/readline:0=  html? ( sys-apps/man2html ) 
+RDEPEND=  acct-user/slurm  acct-group/slurm  dev-libs/libcgroup 
+EAPI=7
+IUSE=debug hdf5 html ipmi json lua multiple-slurmd +munge mysql netloc numa ofed pam perl slurmdbd static-libs ucx torque X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/SchedMD/slurm/archive/slurm-19-05-5-1.tar.gz

@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= setup
+RDEPEND=>=xfce-base/xfwm4-4.10 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha amd64 arm hppa ~ia64 ppc ppc64 ~sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://archive.xfce.org/src/art/xfwm4-themes/4.10/xfwm4-themes-4.10.0.tar.bz2

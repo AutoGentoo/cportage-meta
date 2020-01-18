@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=  sys-libs/ncurses:0  x11-libs/gtk+:2  x11-libs/cairo[X]  nls? ( sys-devel/gettext )   virtual/pkgconfig 
+RDEPEND=  sys-libs/ncurses:0  x11-libs/gtk+:2  x11-libs/cairo[X]  nls? ( sys-devel/gettext ) 
+EAPI=4
+IUSE=nls 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://www.frantz.fi/software/gperiodic-2.0.10.tar.gz

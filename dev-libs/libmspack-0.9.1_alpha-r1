@@ -1,0 +1,8 @@
+6f772a71ebe5af5b24bb2ca912218c2a
+DEFINED_PHASES= prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+EAPI=7
+IUSE=debug doc static-libs 
+KEYWORDS=alpha amd64 arm arm64 hppa ia64 ppc ppc64 s390 sparc x86 ~x64-solaris
+SLOT=0
+SRC_URI=https://www.cabextract.org.uk/libmspack/libmspack-0.9.1alpha.tar.gz

@@ -1,0 +1,8 @@
+9b34cbcf4f08445130eb28e904f081cd
+DEFINED_PHASES= compile install test unpack
+RDEPEND=  app-crypt/gnupg  sys-fs/fuse   
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/keybase/kbfs/archive/v2.6.0.tar.gz -> kbfs-2.6.0.tar.gz

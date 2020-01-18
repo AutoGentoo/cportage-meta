@@ -1,0 +1,10 @@
+bb153d4b6cf08c97b777df9ed8e3b520
+DEFINED_PHASES= configure install postinst prepare
+BDEPEND=  virtual/pkgconfig  virtual/yacc  
+DEPEND=  dev-libs/libevent:0=  sys-libs/ncurses:0=  utempter? (   kernel_linux? ( sys-libs/libutempter )   kernel_FreeBSD? ( || ( >=sys-freebsd/freebsd-lib-9.0 sys-libs/libutempter ) )  ) 
+RDEPEND=    dev-libs/libevent:0=  sys-libs/ncurses:0=  utempter? (   kernel_linux? ( sys-libs/libutempter )   kernel_FreeBSD? ( || ( >=sys-freebsd/freebsd-lib-9.0 sys-libs/libutempter ) )  )  selinux? ( sec-policy/selinux-screen )  vim-syntax? ( app-vim/vim-tmux ) 
+EAPI=7
+IUSE=debug selinux utempter vim-syntax kernel_FreeBSD kernel_linux 
+KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
+SLOT=0
+SRC_URI=https://github.com/tmux/tmux/releases/download/3.0a/tmux-3.0a.tar.gz

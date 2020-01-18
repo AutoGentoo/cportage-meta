@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=test? ( virtual/perl-Time-HiRes ) 
+EAPI=5
+IUSE=test 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/I/IL/ILTZU/Time-Stopwatch-1.00.tar.gz

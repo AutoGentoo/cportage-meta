@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=dev-haskell/appar:=[profile?]  dev-haskell/byteorder:=[profile?]  dev-haskell/network:=[profile?]  >=dev-lang/ghc-6.10.4:=   >=dev-haskell/cabal-1.10  test? ( >=dev-haskell/doctest-0.9.3   dev-haskell/hspec   dev-haskell/quickcheck   dev-haskell/safe )  
+RDEPEND=dev-haskell/appar:=[profile?]  dev-haskell/byteorder:=[profile?]  dev-haskell/network:=[profile?]  >=dev-lang/ghc-6.10.4:=  
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/1.2.12
+SRC_URI=https://hackage.haskell.org/package/iproute-1.2.12/iproute-1.2.12.tar.gz

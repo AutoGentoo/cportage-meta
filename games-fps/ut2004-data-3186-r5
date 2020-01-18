@@ -1,0 +1,10 @@
+99403f4a43d0e8121343a9ec7488835c
+DEFINED_PHASES= install postinst postrm setup unpack
+BDEPEND=  games-util/uz2unpack  >=app-arch/unshield-0.5-r1  
+RDEPEND=!games-fps/ut2004-ded 
+PDEPEND=>=games-fps/ut2004-3369.3-r2 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=

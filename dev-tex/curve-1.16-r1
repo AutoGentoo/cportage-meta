@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+BDEPEND=virtual/latex-base  >=sys-apps/texinfo-4.2-r5 
+DEPEND=>=dev-texlive/texlive-latexextra-2010  app-arch/unzip 
+RDEPEND=>=dev-texlive/texlive-latexextra-2010 
+EAPI=7
+IUSE=doc examples 
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=http://mirrors.ctan.org/macros/latex/contrib/curve.zip -> curve-1.16.zip

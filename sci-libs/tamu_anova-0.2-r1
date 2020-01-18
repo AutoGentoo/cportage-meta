@@ -1,0 +1,10 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+BDEPEND=sys-apps/texinfo 
+DEPEND=sci-libs/gsl:0= 
+RDEPEND=sci-libs/gsl:0= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x86-linux
+SLOT=0
+SRC_URI=http://cdn-fastly.deb.debian.org/debian/pool/main/t/tamuanova/tamuanova_0.2.orig.tar.gz

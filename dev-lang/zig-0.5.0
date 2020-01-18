@@ -1,0 +1,10 @@
+9643b11cfcfae1f64c78b31b7a3c6975
+DEFINED_PHASES= configure prepare
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  sys-devel/llvm:9  !experimental? ( sys-devel/llvm:9[llvm_targets_AArch64,llvm_targets_AMDGPU,llvm_targets_ARM,llvm_targets_BPF,llvm_targets_Hexagon,llvm_targets_Lanai,llvm_targets_Mips,llvm_targets_MSP430,llvm_targets_NVPTX,llvm_targets_PowerPC,llvm_targets_Sparc,llvm_targets_SystemZ,llvm_targets_WebAssembly,llvm_targets_X86,llvm_targets_XCore] )  sys-devel/clang:9  
+RDEPEND=  sys-devel/llvm:9  !experimental? ( sys-devel/llvm:9[llvm_targets_AArch64,llvm_targets_AMDGPU,llvm_targets_ARM,llvm_targets_BPF,llvm_targets_Hexagon,llvm_targets_Lanai,llvm_targets_Mips,llvm_targets_MSP430,llvm_targets_NVPTX,llvm_targets_PowerPC,llvm_targets_Sparc,llvm_targets_SystemZ,llvm_targets_WebAssembly,llvm_targets_X86,llvm_targets_XCore] )  sys-devel/clang:9  
+EAPI=7
+IUSE=+experimental 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/ziglang/zig/archive/0.5.0.tar.gz -> zig-0.5.0.tar.gz

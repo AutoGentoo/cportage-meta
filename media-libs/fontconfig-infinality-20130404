@@ -1,0 +1,10 @@
+7295710a816f81648fbe5009e30e4435
+DEFINED_PHASES= compile configure install
+RDEPEND=app-eselect/eselect-fontconfig  app-eselect/eselect-infinality  app-eselect/eselect-lcdfilter 
+PDEPEND=media-libs/freetype:2[infinality]  >=x11-libs/libXft-2.3.0  nyx? ( media-fonts/croscorefonts ) 
+EAPI=5
+IUSE=+nyx 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://dev.gentoo.org/~jstein/dist/fontconfig-infinality-20130404.tar.xz
+	nyx? ( https://dev.gentoo.org/~jstein/dist/fontconfig-nyx-2.tar.xz )

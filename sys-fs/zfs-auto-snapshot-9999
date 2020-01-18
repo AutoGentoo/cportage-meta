@@ -1,0 +1,9 @@
+230415ea008ac4675734194ec04c504a
+DEFINED_PHASES= install postinst
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+RDEPEND=sys-fs/zfs  virtual/cron 
+EAPI=6
+IUSE=+default-exclude 
+KEYWORDS=
+SLOT=0
+SRC_URI=

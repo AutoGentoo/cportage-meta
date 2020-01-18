@@ -1,0 +1,9 @@
+8303a15c08045903dde14555b8a0c4fb
+DEFINED_PHASES= compile install postinst postrm prepare
+BDEPEND=emacs? ( >=app-editors/emacs-23.1:* )  sys-devel/flex  virtual/yacc 
+RDEPEND=emacs? ( >=app-editors/emacs-23.1:* ) 
+EAPI=7
+IUSE=emacs examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://www.catb.org/~esr/intercal/intercal-0.31.tar.gz

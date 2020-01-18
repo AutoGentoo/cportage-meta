@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+BDEPEND=outline-magic? ( app-emacs/outline-magic ) 
+RDEPEND=outline-magic? ( app-emacs/outline-magic ) 
+EAPI=7
+IUSE=outline-magic 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/wikipedia-mode-0.5.el.bz2

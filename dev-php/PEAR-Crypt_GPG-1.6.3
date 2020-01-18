@@ -1,0 +1,9 @@
+49e699473868329defb2c1591c1da118
+DEFINED_PHASES= install prepare test
+BDEPEND=test? ( app-crypt/gnupg  dev-lang/php:*[posix,unicode]  dev-php/PEAR-Console_CommandLine  dev-php/PEAR-Exception dev-php/phpunit ) 
+RDEPEND=app-crypt/gnupg  dev-lang/php:*[posix,unicode]  dev-php/PEAR-Console_CommandLine  dev-php/PEAR-Exception 
+EAPI=7
+IUSE=test 
+KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86
+SLOT=0
+SRC_URI=http://download.pear.php.net/package/Crypt_GPG-1.6.3.tgz

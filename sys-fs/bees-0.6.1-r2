@@ -1,0 +1,10 @@
+6dc9a2a245babfec2c7412e1909cd4cf
+DEFINED_PHASES= configure pretend
+BDEPEND=virtual/pkgconfig 
+DEPEND=  >=sys-apps/util-linux-2.30.2  >=sys-fs/btrfs-progs-4.20.2  
+RDEPEND=  >=sys-apps/util-linux-2.30.2  >=sys-fs/btrfs-progs-4.20.2  
+EAPI=7
+IUSE=tools 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/Zygo/bees/archive/v0.6.1.tar.gz -> bees-0.6.1.tar.gz

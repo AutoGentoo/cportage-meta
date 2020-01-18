@@ -1,0 +1,10 @@
+e1dfec930456823e15e0b6c94d6083ee
+DEFINED_PHASES= configure prepare setup
+BDEPEND=  virtual/pkgconfig  sys-devel/gettext  
+DEPEND=  dev-libs/libnl:3  sys-apps/pciutils  sys-libs/ncurses:=[unicode?]  
+RDEPEND=    dev-libs/libnl:3  sys-apps/pciutils  sys-libs/ncurses:=[unicode?]   X? ( x11-apps/xset )  virtual/libintl  
+EAPI=7
+IUSE=nls unicode X 
+KEYWORDS=amd64 arm ~arm64 ppc sparc x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://01.org/sites/default/files/downloads/powertop-v2.10.tar.gz

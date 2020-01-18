@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+DEPEND=  dev-perl/OpenGL  dev-perl/Alien-wxWidgets[opengl]  >=dev-perl/Wx-0.570.0   virtual/perl-Exporter  virtual/perl-ExtUtils-MakeMaker  
+RDEPEND=  dev-perl/OpenGL  dev-perl/Alien-wxWidgets[opengl]  >=dev-perl/Wx-0.570.0  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MB/MBARBON/Wx-GLCanvas-0.09.tar.gz

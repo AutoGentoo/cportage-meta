@@ -1,0 +1,7 @@
+1dc320c8dfd5a2200d401b1178b7a3b2
+DEFINED_PHASES= postinst prepare
+EAPI=6
+IUSE=debug 
+KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/dumb/dumb-0.9.3.tar.gz

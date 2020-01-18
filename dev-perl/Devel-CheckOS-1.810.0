@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  >=dev-perl/Data-Compare-1.210.0  >=dev-perl/File-Find-Rule-0.280.0   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-File-Temp-0.190.0   >=virtual/perl-Test-Simple-0.880.0  )  
+RDEPEND=  >=dev-perl/Data-Compare-1.210.0  >=dev-perl/File-Find-Rule-0.280.0  
+EAPI=6
+IUSE=test 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/D/DC/DCANTRELL/Devel-CheckOS-1.81.tar.gz

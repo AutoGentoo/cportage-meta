@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=media-libs/freeglut  virtual/opengl  app-arch/unzip 
+RDEPEND=media-libs/freeglut  virtual/opengl 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=amd64 ppc ppc64 x86
+SLOT=0
+SRC_URI=https://lib3ds.googlecode.com/files/lib3ds-1.3.0.zip

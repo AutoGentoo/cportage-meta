@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= test
+RDEPEND=>=dev-scheme/guile-1.8 
+EAPI=5
+IUSE=static-libs 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=http://download.gna.org/greg/greg-2.0.0.tar.gz

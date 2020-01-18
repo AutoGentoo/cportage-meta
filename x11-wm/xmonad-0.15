@@ -1,0 +1,9 @@
+5533a7eca66217baec3bdc441430476a
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=dev-haskell/data-default:=[profile?]  dev-haskell/extensible-exceptions:=[profile?]  dev-haskell/mtl:=[profile?]  dev-haskell/setlocale:=[profile?]  >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?]  >=dev-haskell/x11-1.8:=[profile?] <dev-haskell/x11-1.10:=[profile?]  >=dev-lang/ghc-8.0.1:=   >=dev-haskell/cabal-1.24.0.0  test? ( >=dev-haskell/quickcheck-2 )  
+RDEPEND=dev-haskell/data-default:=[profile?]  dev-haskell/extensible-exceptions:=[profile?]  dev-haskell/mtl:=[profile?]  dev-haskell/setlocale:=[profile?]  >=dev-haskell/utf8-string-0.3:=[profile?] <dev-haskell/utf8-string-1.1:=[profile?]  >=dev-haskell/x11-1.8:=[profile?] <dev-haskell/x11-1.10:=[profile?]  >=dev-lang/ghc-8.0.1:=  
+EAPI=6
+IUSE=no-autorepeat-keys 
+KEYWORDS=~amd64 ~x86
+SLOT=0/0.15
+SRC_URI=https://hackage.haskell.org/package/xmonad-0.15/xmonad-0.15.tar.gz

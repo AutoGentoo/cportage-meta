@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+DEPEND=x11-libs/libX11  x11-libs/libXScrnSaver  x11-libs/libXext  x11-libs/libXinerama  x11-base/xorg-proto  tk? ( dev-tcltk/expect ) 
+RDEPEND=x11-libs/libX11  x11-libs/libXScrnSaver  x11-libs/libXext  x11-libs/libXinerama 
+EAPI=7
+IUSE=tk 
+KEYWORDS=alpha amd64 ppc sparc x86
+SLOT=0
+SRC_URI=http://fredrik.hubbe.net/x2vnc/x2vnc-1.7.2.tar.gz

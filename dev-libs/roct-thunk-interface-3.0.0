@@ -1,0 +1,10 @@
+ca2daf9b8093fe1e6953b17539a063b3
+DEFINED_PHASES= compile configure install prepare
+BDEPEND=dev-util/ninja dev-util/cmake 
+DEPEND=sys-process/numactl  sys-apps/pciutils 
+RDEPEND=sys-process/numactl  sys-apps/pciutils 
+EAPI=7
+IUSE=kernel_linux 
+KEYWORDS=~amd64
+SLOT=0/3.0
+SRC_URI=https://github.com/RadeonOpenCompute/ROCT-Thunk-Interface/archive/roc-3.0.0.tar.gz -> roct-thunk-interface-3.0.0.tar.gz

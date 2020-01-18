@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= install
+RDEPEND=dev-lang/php:*  dev-php/PEAR-PEAR  dev-php/PEAR-Net_Socket  sasl? ( dev-php/PEAR-Auth_SASL ) 
+EAPI=6
+IUSE=sasl 
+KEYWORDS=~alpha amd64 arm hppa ia64 ppc ppc64 ~s390 ~sh sparc x86
+SLOT=0
+SRC_URI=https://github.com/roundcube/Net_Sieve/archive/1.5.2.tar.gz -> PEAR-Net_Sieve-1.5.2.tar.gz

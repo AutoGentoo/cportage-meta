@@ -1,0 +1,8 @@
+422e9706253e02dd3f5644090d389c84
+DEFINED_PHASES= install postinst prepare
+RDEPEND=app-shells/bash 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha amd64 ~hppa ia64 ~mips ppc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/nanoblogger/nanoblogger-3.5-rc1.tar.gz

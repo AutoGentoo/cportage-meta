@@ -1,0 +1,9 @@
+4b50100d06d7e524dcae469fc1ad3e0d
+DEFINED_PHASES= configure install prepare
+DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-text/docbook-xsl-stylesheets  dev-libs/libxslt  sys-cluster/cluster-glue  >=sys-cluster/libqb-0.14.0  sys-cluster/resource-agents  heartbeat? ( >=sys-cluster/heartbeat-3.0.0 )  !heartbeat? ( sys-cluster/corosync )  smtp? ( net-libs/libesmtp )  snmp? ( net-analyzer/net-snmp )  
+RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-text/docbook-xsl-stylesheets  dev-libs/libxslt  sys-cluster/cluster-glue  >=sys-cluster/libqb-0.14.0  sys-cluster/resource-agents  heartbeat? ( >=sys-cluster/heartbeat-3.0.0 )  !heartbeat? ( sys-cluster/corosync )  smtp? ( net-libs/libesmtp )  snmp? ( net-analyzer/net-snmp )  
+EAPI=6
+IUSE=acl heartbeat smtp snmp static-libs 
+KEYWORDS=amd64 hppa x86
+SLOT=0
+SRC_URI=https://github.com/ClusterLabs/pacemaker/archive/Pacemaker-1.1.16.tar.gz

@@ -1,0 +1,10 @@
+f81fa5ad99b60db86d3a53bbb91c0aac
+DEFINED_PHASES= configure install postinst postrm prepare unpack
+DEPEND=  >=sys-libs/ncurses-5.2:0=  emacs? ( >=app-editors/emacs-23.1:* )  xemacs? ( !emacs? ( app-editors/xemacs app-xemacs/fsf-compat ) )  
+RDEPEND=  >=sys-libs/ncurses-5.2:0=  emacs? ( >=app-editors/emacs-23.1:* )  xemacs? ( !emacs? ( app-editors/xemacs app-xemacs/fsf-compat ) )  
+EAPI=5
+IUSE=nls emacs xemacs 
+KEYWORDS=amd64 ppc x86 ~amd64-linux
+SLOT=0
+SRC_URI=mirror://gnu/gtypist/gtypist-2.9.5.tar.xz
+	http://colemak.com/pub/learn/colemak.typ

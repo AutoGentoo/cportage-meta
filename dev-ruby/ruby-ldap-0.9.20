@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES=-
+DEPEND=>=net-nds/openldap-2  dev-libs/cyrus-sasl  ssl? ( dev-libs/openssl:0 ) 
+RDEPEND=>=net-nds/openldap-2  dev-libs/cyrus-sasl  ssl? ( dev-libs/openssl:0 ) 
+EAPI=6
+IUSE=ssl 
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~x86-macos
+SLOT=0
+SRC_URI=https://rubygems.org/gems/ruby-ldap-0.9.20.gem

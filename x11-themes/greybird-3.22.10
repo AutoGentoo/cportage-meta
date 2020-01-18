@@ -1,0 +1,10 @@
+2648d239d3c544169ba9f928a4d5396c
+DEFINED_PHASES= install postinst prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=    >=x11-libs/gtk+-3.22:3  >=x11-themes/gtk-engines-murrine-0.90   dev-lang/sassc  dev-libs/glib:2  dev-ruby/sass:3.5  
+RDEPEND=  >=x11-libs/gtk+-3.22:3  >=x11-themes/gtk-engines-murrine-0.90  
+EAPI=7
+IUSE=ayatana gnome xfce 
+KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
+SLOT=0
+SRC_URI=https://github.com/shimmerproject/Greybird/archive/v3.22.10.tar.gz -> greybird-3.22.10.tar.gz

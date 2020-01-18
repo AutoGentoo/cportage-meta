@@ -1,0 +1,10 @@
+705dd38cfff32ea9468e32a45d952a62
+DEFINED_PHASES= configure setup
+BDEPEND=|| ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 )  dev-qt/linguist-tools:5  
+DEPEND=   >=kde-frameworks/kcoreaddons-5.60.0:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtnetwork-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5   >=dev-qt/qtxml-5.12.3:5  dev-libs/icu:=  mysql? ( dev-db/mysql-connector-c:= )  postgres? (    >=dev-qt/qtnetwork-5.12.3:5   dev-db/postgresql:*  )  sqlite? ( dev-db/sqlite:3 )  
+RDEPEND=   >=kde-frameworks/kcoreaddons-5.60.0:5   >=dev-qt/qtgui-5.12.3:5   >=dev-qt/qtnetwork-5.12.3:5   >=dev-qt/qtwidgets-5.12.3:5   >=dev-qt/qtxml-5.12.3:5  dev-libs/icu:=  mysql? ( dev-db/mysql-connector-c:= )  postgres? (    >=dev-qt/qtnetwork-5.12.3:5   dev-db/postgresql:*  )  sqlite? ( dev-db/sqlite:3 )  
+EAPI=7
+IUSE=debug mysql postgres sqlite 
+KEYWORDS=amd64 x86
+SLOT=5/4
+SRC_URI=mirror://kde/stable/kdb/src/kdb-3.2.0.tar.xz

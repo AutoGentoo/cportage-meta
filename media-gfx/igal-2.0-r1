@@ -1,0 +1,8 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+RDEPEND=  dev-lang/perl  virtual/imagemagick-tools  virtual/jpeg 
+EAPI=7
+IUSE=
+KEYWORDS=alpha amd64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://igal.trexler.at/igal2-2.0.tar.gz

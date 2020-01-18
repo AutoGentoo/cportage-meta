@@ -1,0 +1,9 @@
+2d0e70f460eee628889803af499c0409
+DEFINED_PHASES= config configure install postinst postrm prepare setup
+DEPEND=  sys-apps/groff  ssl? ( net-libs/gnutls:0= )  test? ( sys-apps/ucspi-tcp[ipv6] sys-process/daemontools ) 
+RDEPEND=  virtual/logger  virtual/shadow  ssl? ( net-libs/gnutls:0= )  !mail-mta/courier  !mail-mta/esmtp  !mail-mta/exim  !mail-mta/mini-qmail  !mail-mta/msmtp  !mail-mta/netqmail  !mail-mta/postfix  !mail-mta/qmail-ldap  !mail-mta/sendmail  !mail-mta/opensmtpd  !mail-mta/ssmtp 
+EAPI=6
+IUSE=ssl test 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=http://untroubled.org/nullmailer/archive/nullmailer-2.0.tar.gz

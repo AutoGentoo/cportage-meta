@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= pretend
+DEPEND=kernel_linux? ( >=dev-libs/libevdev-0.4 )  >=x11-base/xorg-server-1.14  >=x11-libs/libXi-1.2  >=x11-libs/libXtst-1.1.0  >=sys-kernel/linux-headers-2.6.37  x11-base/xorg-proto 
+RDEPEND=kernel_linux? ( >=dev-libs/libevdev-0.4 )  >=x11-base/xorg-server-1.14  >=x11-libs/libXi-1.2  >=x11-libs/libXtst-1.1.0 
+EAPI=5
+IUSE=kernel_linux 
+KEYWORDS=amd64 arm ~mips ppc ppc64 x86
+SLOT=0
+SRC_URI=https://www.x.org/releases/individual/driver/xf86-input-synaptics-1.9.0.tar.bz2

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= prepare
+DEPEND=dev-libs/glib:2  >=sci-libs/libqalculate-2.8.1:=  x11-libs/cairo  x11-libs/gdk-pixbuf  x11-libs/gtk+:3  x11-libs/pango  app-text/rarian  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
+RDEPEND=dev-libs/glib:2  >=sci-libs/libqalculate-2.8.1:=  x11-libs/cairo  x11-libs/gdk-pixbuf  x11-libs/gtk+:3  x11-libs/pango 
+EAPI=6
+IUSE=
+KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/Qalculate/qalculate-gtk/releases/download/v3.2.0/qalculate-gtk-3.2.0.tar.gz

@@ -1,0 +1,10 @@
+1f554b470dbaac693147495e0e4e4184
+DEFINED_PHASES= install postinst prepare
+BDEPEND=virtual/pkgconfig 
+DEPEND=acct-group/gamestat  >=sys-libs/ncurses-6.0:0= 
+RDEPEND=acct-group/gamestat  >=sys-libs/ncurses-6.0:0= 
+EAPI=7
+IUSE=
+KEYWORDS=~amd64 ~m68k ~x86
+SLOT=0
+SRC_URI=https://github.com/dungeons-of-moria/umoria/archive/v5.7.10.tar.gz -> moria-5.7.10.tar.gz

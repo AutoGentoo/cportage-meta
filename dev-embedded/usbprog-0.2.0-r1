@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure install prepare
+DEPEND=  X? ( x11-libs/wxGTK:3.0 )  >=dev-libs/libxml2-2.0.0  net-misc/curl  virtual/libusb:0  sys-libs/readline:0   virtual/pkgconfig  
+RDEPEND=  X? ( x11-libs/wxGTK:3.0 )  >=dev-libs/libxml2-2.0.0  net-misc/curl  virtual/libusb:0  sys-libs/readline:0  
+EAPI=5
+IUSE=static-libs X 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/usbprog-0.2.0.tar.bz2

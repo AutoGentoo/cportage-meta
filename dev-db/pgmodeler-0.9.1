@@ -1,0 +1,9 @@
+f5c33ebd6a858b16fd2a069ce7c8fd1c
+DEFINED_PHASES= configure install test
+DEPEND= postgres_targets_postgres10? ( dev-db/postgresql:10= ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6= ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5= ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4= )  dev-libs/icu:=  dev-libs/libxml2:=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  
+RDEPEND= postgres_targets_postgres10? ( dev-db/postgresql:10= ) postgres_targets_postgres9_6? ( dev-db/postgresql:9.6= ) postgres_targets_postgres9_5? ( dev-db/postgresql:9.5= ) postgres_targets_postgres9_4? ( dev-db/postgresql:9.4= )  dev-libs/icu:=  dev-libs/libxml2:=  dev-qt/qtcore:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  
+EAPI=6
+IUSE= postgres_targets_postgres10 postgres_targets_postgres9_6 postgres_targets_postgres9_5 postgres_targets_postgres9_4 
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/pgmodeler/pgmodeler/archive/v0.9.1.tar.gz -> pgmodeler-0.9.1.tar.gz

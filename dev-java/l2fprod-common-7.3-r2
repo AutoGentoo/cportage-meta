@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= compile install
+DEPEND=>=virtual/jdk-1.4  dev-java/jreleaseinfo:0  dev-java/nachocalendar:0  dev-java/jcalendar:1.2 
+RDEPEND=>=virtual/jre-1.4  dev-java/nachocalendar:0  dev-java/jcalendar:1.2 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://gentoo/l2fprod-common-7.3.tar.bz2

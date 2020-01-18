@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare
+DEPEND=    >=net-libs/libnet-1.1.1  net-libs/libpcap  ncurses? ( >=sys-libs/ncurses-5.4:= )   virtual/pkgconfig  
+RDEPEND=  >=net-libs/libnet-1.1.1  net-libs/libpcap  ncurses? ( >=sys-libs/ncurses-5.4:= )  
+EAPI=5
+IUSE=ncurses 
+KEYWORDS=~amd64 ~ppc ~ppc64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/nast.berlios/nast-0.2.0.tar.gz

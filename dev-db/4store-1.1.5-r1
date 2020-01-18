@@ -1,0 +1,9 @@
+5511ef205b8707ed546795ef1e3de486
+DEFINED_PHASES= install setup
+DEPEND=media-libs/raptor   >=dev-libs/rasqal-0.9.18   dev-libs/glib   dev-libs/libxml2   dev-libs/libpcre   sys-libs/readline   sys-libs/ncurses   dev-libs/expat   sys-libs/zlib 
+RDEPEND=media-libs/raptor   >=dev-libs/rasqal-0.9.18   dev-libs/glib   dev-libs/libxml2   dev-libs/libpcre   sys-libs/readline   sys-libs/ncurses   dev-libs/expat   sys-libs/zlib 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://4store.danielknoell.de/download/4store-v1.1.5.tar.gz

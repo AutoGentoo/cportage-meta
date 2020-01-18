@@ -1,0 +1,9 @@
+2861ee100072372fb5eadc6c0b5c7287
+DEFINED_PHASES= configure install prepare
+DEPEND=  sys-libs/zlib  virtual/jpeg:0  szip? ( virtual/szip )  test? ( virtual/szip ) 
+RDEPEND=  sys-libs/zlib  virtual/jpeg:0  szip? ( virtual/szip ) 
+EAPI=6
+IUSE=examples fortran szip static-libs test 
+KEYWORDS=~amd64 ~ia64 ~ppc -sparc ~x86 ~amd64-linux ~x86-linux
+SLOT=0
+SRC_URI=http://www.hdfgroup.org/ftp/HDF/HDF_Current/src/hdf-4.2.13.tar.bz2

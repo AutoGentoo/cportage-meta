@@ -1,0 +1,8 @@
+9814742e538303482c3057ce4847559b
+DEFINED_PHASES= compile install prepare setup
+DEPEND=>=dev-lang/go-1.12  dev-util/promu 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://github.com/prometheus/blackbox_exporter/archive/v0.16.0.tar.gz -> blackbox_exporter-0.16.0.tar.gz

@@ -1,0 +1,9 @@
+9b19f34301f6bd7fe09b7e69437baa06
+DEFINED_PHASES= configure install prepare setup
+DEPEND=>=dev-libs/libevent-2.0.10  dev-libs/openssl:0=  net-dialup/ppp:=  virtual/pkgconfig 
+RDEPEND=>=dev-libs/libevent-2.0.10  dev-libs/openssl:0=  net-dialup/ppp:= 
+EAPI=6
+IUSE=static 
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sstp-client/sstp-client-1.0.12.tar.gz

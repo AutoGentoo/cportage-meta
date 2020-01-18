@@ -1,0 +1,11 @@
+4f510bef97cdd8e93a148a0ab9658302
+DEFINED_PHASES= configure prepare
+BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
+DEPEND=  rsh? ( net-misc/netkit-rsh )  >=net-libs/neon-0.24.6[zlib?,ssl?,expat?]  <=net-libs/neon-0.30.9999[zlib?,ssl?,expat?]  xml? ( >=net-libs/neon-0.24.6[-expat] )  
+RDEPEND=  rsh? ( net-misc/netkit-rsh )  >=net-libs/neon-0.24.6[zlib?,ssl?,expat?]  <=net-libs/neon-0.30.9999[zlib?,ssl?,expat?]  xml? ( >=net-libs/neon-0.24.6[-expat] )  
+EAPI=7
+IUSE=expat nls rsh ssl webdav xml zlib 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://gentoo/sitecopy-0.16.6.tar.gz
+	https://dev.gentoo.org/~jstein/files/sitecopy-0.16.6-04-manpages-addition-fixes.patch

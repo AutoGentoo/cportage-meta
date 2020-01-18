@@ -1,0 +1,9 @@
+58252ce25fd3156eec83f50bb4229412
+DEFINED_PHASES= prepare
+DEPEND=>=dev-libs/json-c-0.10-r1  dev-libs/glib:2  dev-libs/libpcre  sys-apps/pciutils  sys-power/iasl  sys-power/pmtools  sys-apps/dmidecode  sys-devel/libtool 
+RDEPEND=>=dev-libs/json-c-0.10-r1  dev-libs/glib:2  dev-libs/libpcre  sys-apps/pciutils  sys-power/iasl  sys-power/pmtools  sys-apps/dmidecode 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/fwts_17.02.00.orig.tar.gz

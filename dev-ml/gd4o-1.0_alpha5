@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= compile install prepare test
+DEPEND=>=dev-lang/ocaml-3.10.2:=[ocamlopt?]  media-libs/gd[jpeg,png]  virtual/jpeg:0  sys-libs/zlib  media-libs/libpng:0=  media-libs/freetype:2 
+RDEPEND=>=dev-lang/ocaml-3.10.2:=[ocamlopt?]  media-libs/gd[jpeg,png]  virtual/jpeg:0  sys-libs/zlib  media-libs/libpng:0=  media-libs/freetype:2 
+EAPI=5
+IUSE=doc +ocamlopt 
+KEYWORDS=~amd64
+SLOT=0/1.0_alpha5
+SRC_URI=mirror://sourceforge/gd4o/gd4o-1.0a5.tar.gz

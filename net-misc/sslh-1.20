@@ -1,0 +1,9 @@
+30a3341cf5487d418be04c6609111579
+DEFINED_PHASES= compile install prepare
+DEPEND=caps? ( sys-libs/libcap )  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  >=dev-libs/libconfig-1.5  dev-lang/perl  pcre? ( dev-libs/libpcre:= ) 
+RDEPEND=caps? ( sys-libs/libcap )  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  >=dev-libs/libconfig-1.5 
+EAPI=6
+IUSE=caps pcre systemd tcpd 
+KEYWORDS=amd64 ~arm ~m68k ~mips ~s390 ~sh x86
+SLOT=0
+SRC_URI=https://www.rutschle.net/tech/sslh/sslh-v1.20.tar.gz

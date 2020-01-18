@@ -1,0 +1,8 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= install prepare
+RDEPEND=dev-lang/php:*[bzip2,cli?,tokenizer]  dev-php/PEAR-Archive_Tar  dev-php/PEAR-Log  dev-php/PEAR-PEAR  cli? ( dev-php/PEAR-Console_Getopt ) 
+EAPI=6
+IUSE=cli examples 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=http://download.pear.php.net/package/PHP_Beautifier-0.1.15.tgz

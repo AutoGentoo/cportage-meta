@@ -1,0 +1,9 @@
+0e503f523aea7fb0a8549f4242078d01
+DEFINED_PHASES= prepare
+DEPEND=  dev-python/wxpython:3.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  || (   >=dev-python/twisted-16.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   >=dev-python/twisted-core-10.0  )  
+RDEPEND=  dev-python/wxpython:3.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  || (   >=dev-python/twisted-16.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   >=dev-python/twisted-core-10.0  )   x11-libs/libXScrnSaver  libnotify? ( dev-python/notify-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  
+EAPI=5
+IUSE=libnotify 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/taskcoach/TaskCoach-1.4.3.tar.gz

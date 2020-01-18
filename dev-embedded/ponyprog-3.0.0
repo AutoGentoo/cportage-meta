@@ -1,0 +1,10 @@
+6dc2da61cee75df0a8f0a9358ff601ba
+DEFINED_PHASES= configure postinst
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=>=app-editors/qhexedit2-0.8.4_p20170719  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtprintsupport:5 
+RDEPEND=>=app-editors/qhexedit2-0.8.4_p20170719  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtprintsupport:5 
+EAPI=6
+IUSE=doc 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=https://github.com/lancos/ponyprog/archive/v3.0.0.tar.gz -> ponyprog-3.0.0.tar.gz

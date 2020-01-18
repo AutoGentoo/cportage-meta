@@ -1,0 +1,10 @@
+037ff6c9dc5dd605f4396954095d9920
+DEFINED_PHASES= compile configure install prepare setup
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
+DEPEND=  net-firewall/iptables:0=  snmp? ( net-analyzer/net-snmp )   virtual/linux-sources  virtual/pkgconfig  
+RDEPEND=  net-firewall/iptables:0=  snmp? ( net-analyzer/net-snmp )  
+EAPI=7
+IUSE=debug natevents snmp 
+KEYWORDS=
+SLOT=0
+SRC_URI=

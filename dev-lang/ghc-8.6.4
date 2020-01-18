@@ -1,0 +1,13 @@
+80afc74fc2299b840dfecb786c030f00
+DEFINED_PHASES= compile configure install postinst postrm preinst prepare prerm pretend setup test unpack
+DEPEND=  >=dev-lang/perl-5.6.1  dev-libs/gmp:0=  sys-libs/ncurses:0=[unicode]  !ghcmakebinary? ( virtual/libffi:= ) binary? (   !prefix? ( elibc_glibc? ( >=sys-libs/glibc-2.17 ) )   sys-libs/ncurses:0/6  )  doc? ( app-text/docbook-xml-dtd:4.2   app-text/docbook-xml-dtd:4.5   app-text/docbook-xsl-stylesheets   dev-python/sphinx   >=dev-libs/libxslt-1.1.2 )  !ghcbootstrap? (   !prefix? ( elibc_glibc? ( >=sys-libs/glibc-2.17 ) )  ) 
+RDEPEND=  >=dev-lang/perl-5.6.1  dev-libs/gmp:0=  sys-libs/ncurses:0=[unicode]  !ghcmakebinary? ( virtual/libffi:= ) binary? (   !prefix? ( elibc_glibc? ( >=sys-libs/glibc-2.17 ) )   sys-libs/ncurses:0/6  ) 
+PDEPEND=!ghcbootstrap? ( >=app-admin/haskell-updater-1.2 ) 
+EAPI=6
+IUSE=doc ghcbootstrap ghcmakebinary +gmp profile test binary 
+KEYWORDS=
+SLOT=0/8.6.4
+SRC_URI=!binary? (
+	https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-src.tar.xz
+	test? ( https://downloads.haskell.org/~ghc/8.6.4/ghc-8.6.4-testsuite.tar.xz )
+) !ghcbootstrap? (  amd64? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-8.6.4-x86_64-pc-linux-gnu.tbz2 ) x86? ( https://slyfox.uni.cx/~slyfox/distfiles/ghc-bin-8.6.4-i686-pc-linux-gnu.tbz2 ) )

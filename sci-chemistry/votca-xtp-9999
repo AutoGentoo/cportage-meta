@@ -1,0 +1,10 @@
+83b2a355143e3730f8e138ebea8f7b28
+DEFINED_PHASES= configure install postinst
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
+DEPEND=  ~sci-libs/votca-tools-9999[sqlite]  >=dev-cpp/eigen-3.3  ~sci-chemistry/votca-csg-9999  sci-libs/ceres-solver  sci-libs/libxc  >=app-text/txt2tags-2.5  virtual/pkgconfig 
+RDEPEND=  ~sci-libs/votca-tools-9999[sqlite]  >=dev-cpp/eigen-3.3  ~sci-chemistry/votca-csg-9999  sci-libs/ceres-solver  sci-libs/libxc 
+EAPI=6
+IUSE=doc 
+KEYWORDS=
+SLOT=0
+SRC_URI=

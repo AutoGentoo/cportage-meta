@@ -1,0 +1,9 @@
+5c20cb564da57469de7970576479a662
+DEFINED_PHASES= install prepare
+DEPEND=>=virtual/jdk-1.4  >=virtual/jre-1.4:*  =dev-java/commons-logging-1*:0 
+RDEPEND=>=virtual/jre-1.4:*  =dev-java/commons-logging-1*:0 
+EAPI=7
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=1
+SRC_URI=ftp://snipsnap.org/radeox/radeox-1.0-BETA-2-src.tgz

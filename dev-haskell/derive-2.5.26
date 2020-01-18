@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=>=dev-haskell/haskell-src-exts-1.17:=[profile?] <dev-haskell/haskell-src-exts-1.18:=[profile?]  dev-haskell/syb:=[profile?]  >=dev-haskell/transformers-0.2:=[profile?]  >=dev-haskell/uniplate-1.5:=[profile?] <dev-haskell/uniplate-1.7:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  
+RDEPEND=>=dev-haskell/haskell-src-exts-1.17:=[profile?] <dev-haskell/haskell-src-exts-1.18:=[profile?]  dev-haskell/syb:=[profile?]  >=dev-haskell/transformers-0.2:=[profile?]  >=dev-haskell/uniplate-1.5:=[profile?] <dev-haskell/uniplate-1.7:=[profile?]  >=dev-lang/ghc-7.4.1:=  
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86
+SLOT=0/2.5.26
+SRC_URI=https://hackage.haskell.org/package/derive-2.5.26/derive-2.5.26.tar.gz

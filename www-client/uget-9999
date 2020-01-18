@@ -1,0 +1,9 @@
+137028f06553292c2fbe34041601684b
+DEFINED_PHASES= configure postinst postrm prepare
+DEPEND=  >=net-misc/curl-7.19.1  dev-libs/libpcre  >=dev-libs/glib-2.32:2  >=x11-libs/gtk+-3.4:3  gnutls? (   net-libs/gnutls   dev-libs/libgcrypt:0  )  aria2? ( net-misc/aria2[xmlrpc] )  ayatana? ( dev-libs/libappindicator:3 )  gstreamer? ( media-libs/gstreamer:1.0 )  libnotify? ( x11-libs/libnotify )    dev-util/intltool  virtual/pkgconfig  sys-devel/gettext   
+RDEPEND=  >=net-misc/curl-7.19.1  dev-libs/libpcre  >=dev-libs/glib-2.32:2  >=x11-libs/gtk+-3.4:3  gnutls? (   net-libs/gnutls   dev-libs/libgcrypt:0  )  aria2? ( net-misc/aria2[xmlrpc] )  ayatana? ( dev-libs/libappindicator:3 )  gstreamer? ( media-libs/gstreamer:1.0 )  libnotify? ( x11-libs/libnotify )   
+EAPI=6
+IUSE=aria2 ayatana control-socket +gnutls gstreamer libnotify nls openssl rss 
+KEYWORDS=
+SLOT=0
+SRC_URI=

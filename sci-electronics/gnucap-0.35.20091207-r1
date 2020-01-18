@@ -1,0 +1,11 @@
+d0f501e8b58d6f31308c851e073a6ba4
+DEFINED_PHASES= compile install postinst prepare
+EAPI=7
+IUSE=examples 
+KEYWORDS=amd64 ppc x86
+SLOT=0
+SRC_URI=http://www.gnucap.org/devel/gnucap-2009-12-07.tar.gz
+	http://www.gnucap.org/devel/gnucap-2009-12-07-models-bsim.tar.gz
+	http://www.gnucap.org/devel/gnucap-2009-12-07-models-jspice3-2.5.tar.gz
+	http://www.gnucap.org/devel/gnucap-2009-12-07-models-ngspice17.tar.gz
+	http://www.gnucap.org/devel/gnucap-2009-12-07-models-spice3f5.tar.gz

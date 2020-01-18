@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES=-
+DEPEND=  virtual/perl-Digest-MD5  virtual/perl-Scalar-List-Utils  >=dev-perl/CGI-3.26   >=dev-perl/Module-Build-0.380.0  test? (   virtual/perl-Test-Simple   dev-perl/CGI-Simple  )  
+RDEPEND=  virtual/perl-Digest-MD5  virtual/perl-Scalar-List-Utils  >=dev-perl/CGI-3.26  
+EAPI=5
+IUSE=test 
+KEYWORDS=amd64 ~hppa ~ppc x86
+SLOT=0
+SRC_URI=mirror://cpan/authors/id/M/MA/MARKSTOS/CGI-Session-4.48.tar.gz

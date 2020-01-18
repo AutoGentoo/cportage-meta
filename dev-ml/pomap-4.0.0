@@ -1,0 +1,8 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= compile
+DEPEND= dev-ml/jbuilder 
+EAPI=5
+IUSE=
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0/4.0.0
+SRC_URI=https://github.com/mmottl/pomap/releases/download/4.0.0/pomap-4.0.0.tbz

@@ -1,0 +1,10 @@
+3457c6e832706215bff0c89abb6c9df6
+DEFINED_PHASES= configure install postinst postrm prepare
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=  dev-libs/ferrisloki  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtsql:5[mysql?,postgres?]  dev-qt/qtwidgets:5  >=x11-libs/qscintilla-2.10.1:=[qt5(+)]  oracle? ( || ( =dev-db/oracle-instantclient-basic-11* dev-db/oracle-instantclient ) )  postgres? ( dev-db/postgresql:* )   dev-qt/linguist:5  virtual/pkgconfig  doc? ( app-doc/doxygen )  
+RDEPEND=  dev-libs/ferrisloki  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtprintsupport:5  dev-qt/qtsql:5[mysql?,postgres?]  dev-qt/qtwidgets:5  >=x11-libs/qscintilla-2.10.1:=[qt5(+)]  oracle? ( || ( =dev-db/oracle-instantclient-basic-11* dev-db/oracle-instantclient ) )  postgres? ( dev-db/postgresql:* )  
+EAPI=6
+IUSE=doc mysql oracle pch +postgres 
+KEYWORDS=
+SLOT=0
+SRC_URI=

@@ -1,0 +1,9 @@
+f51f84e2783e97c04272fdc6f7c637db
+DEFINED_PHASES= install postinst prepare setup
+DEPEND=  >=dev-lang/tcl-8.3:0=[-threads]  >=dev-tcltk/tclx-8.3  dev-tcltk/tcllib  dev-tcltk/mysqltcl  ssl? ( >=dev-tcltk/tls-1.4.1 ) 
+RDEPEND=  >=dev-lang/tcl-8.3:0=[-threads]  >=dev-tcltk/tclx-8.3  dev-tcltk/tcllib  dev-tcltk/mysqltcl  ssl? ( >=dev-tcltk/tls-1.4.1 )  net-analyzer/p0f  net-analyzer/tcpflow  net-misc/openssh 
+EAPI=5
+IUSE=ssl 
+KEYWORDS=~amd64 ~x86
+SLOT=0
+SRC_URI=mirror://sourceforge/sguil/sguil-server-0.8.0.tar.gz

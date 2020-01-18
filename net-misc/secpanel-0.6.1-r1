@@ -1,0 +1,9 @@
+5287b3593078a17abd427a57110505ae
+DEFINED_PHASES= install prepare
+DEPEND=!gif? ( virtual/imagemagick-tools ) 
+RDEPEND=dev-lang/tk   virtual/ssh 
+EAPI=7
+IUSE=gif 
+KEYWORDS=alpha amd64 sparc x86
+SLOT=0
+SRC_URI=mirror://sourceforge/secpanel/secpanel-0.6.1.tgz

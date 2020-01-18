@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES= install
+DEPEND=sys-fs/fuse:0 
+RDEPEND=sys-fs/fuse:0 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~x86 ~x86-linux
+SLOT=0
+SRC_URI=https://github.com/rpodgorny/unionfs-fuse/archive/v2.0.tar.gz -> unionfs-fuse-2.0.tar.gz

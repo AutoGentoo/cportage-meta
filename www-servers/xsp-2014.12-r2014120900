@@ -1,0 +1,9 @@
+2d8c7903071105b701ff0e0026b66919
+DEFINED_PHASES= compile configure install preinst prepare
+DEPEND=dev-db/sqlite:3 
+RDEPEND=dev-db/sqlite:3 
+EAPI=5
+IUSE=doc test developer 
+KEYWORDS=~amd64 ~ppc ~x86
+SLOT=0
+SRC_URI=https://github.com/mono/xsp/archive/e272a2c006211b6b03be2ef5bbb9e3f8fefd0768.zip -> xsp-2014.12.zip

@@ -1,0 +1,9 @@
+01abfc750a0c942167651c40d088531d
+DEFINED_PHASES= configure
+DEPEND=app-arch/bzip2  >=sys-apps/file-5.04  sys-apps/util-linux  >=sys-fs/e2fsprogs-1.41.9  sys-libs/zlib 
+RDEPEND=app-arch/bzip2  >=sys-apps/file-5.04  sys-apps/util-linux  >=sys-fs/e2fsprogs-1.41.9  sys-libs/zlib 
+EAPI=6
+IUSE=debug +expert-mode file-attr 
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=mirror://sourceforge/ext4magic/ext4magic-0.3.2.tar.gz

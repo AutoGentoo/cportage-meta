@@ -1,0 +1,11 @@
+e70174732b6385b31f114831f600f7fc
+DEFINED_PHASES= configure setup test unpack
+BDEPEND=dev-util/ninja >=dev-util/cmake-3.7.0-r1 
+DEPEND=~sys-devel/llvm-7.1.0  test? ( || ( ( >=dev-lang/python-2.7.5-r2:2.7 ~dev-python/lit-7.1.0[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) ) 
+RDEPEND=~sys-devel/llvm-7.1.0 
+EAPI=6
+IUSE=test 
+KEYWORDS=amd64 arm64 ~ppc64 x86
+SLOT=0
+SRC_URI=https://releases.llvm.org/7.1.0/lld-7.1.0.src.tar.xz
+	test? ( https://releases.llvm.org/7.1.0/llvm-7.1.0.src.tar.xz )

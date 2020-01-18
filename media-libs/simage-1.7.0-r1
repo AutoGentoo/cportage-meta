@@ -1,0 +1,9 @@
+1847239fd9b77baf0dbd216c9569d7b6
+DEFINED_PHASES= configure install
+DEPEND=  gif? ( media-libs/giflib )  jpeg? ( virtual/jpeg:0= )  png? ( media-libs/libpng:0= )  sndfile? ( media-libs/libsndfile )  tiff? ( media-libs/tiff:0= )  vorbis? (   media-libs/libogg   media-libs/libvorbis  )  zlib? ( sys-libs/zlib )   virtual/pkgconfig  
+RDEPEND=  gif? ( media-libs/giflib )  jpeg? ( virtual/jpeg:0= )  png? ( media-libs/libpng:0= )  sndfile? ( media-libs/libsndfile )  tiff? ( media-libs/tiff:0= )  vorbis? (   media-libs/libogg   media-libs/libvorbis  )  zlib? ( sys-libs/zlib )  
+EAPI=6
+IUSE=debug gif jpeg png sndfile static-libs tiff vorbis zlib 
+KEYWORDS=amd64 ~arm ~hppa ~ia64 ppc ppc64 ~sparc x86
+SLOT=0
+SRC_URI=https://bitbucket.org/Coin3D/coin/downloads/simage-1.7.0.tar.gz

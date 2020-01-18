@@ -1,0 +1,9 @@
+2969dfedcbee7f0ecb6a7053fa4f2b02
+DEFINED_PHASES= compile install test
+DEPEND=  test? (   dev-java/commons-logging:0   dev-java/ant-junit:0   dev-java/mockito:0  )  >=virtual/jdk-1.6 
+RDEPEND=>=virtual/jre-1.6 
+EAPI=5
+IUSE=elibc_FreeBSD 
+KEYWORDS=amd64 x86
+SLOT=4.4
+SRC_URI=mirror://apache/httpcomponents/httpcore/source/httpcomponents-core-4.4.1-src.tar.gz

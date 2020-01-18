@@ -1,0 +1,9 @@
+0e39fefd3d249632274766d5c704032a
+DEFINED_PHASES= configure install postinst prepare
+DEPEND=net-firewall/iptables   sys-apps/ed   >=sys-apps/iproute2-3.3.0   >=sys-fs/vzquota-3.1   ploop? (    >=sys-cluster/ploop-1.13    sys-block/parted    sys-fs/quota    dev-libs/libxml2    )   >=dev-libs/libcgroup-0.38   vzmigrate? (   net-misc/openssh   net-misc/rsync[xattr,acl]   app-arch/tar[xattr,acl]   net-misc/bridge-utils   virtual/awk    )   virtual/udev   sys-apps/attr     virtual/pkgconfig   
+RDEPEND=net-firewall/iptables   sys-apps/ed   >=sys-apps/iproute2-3.3.0   >=sys-fs/vzquota-3.1   ploop? (    >=sys-cluster/ploop-1.13    sys-block/parted    sys-fs/quota    dev-libs/libxml2    )   >=dev-libs/libcgroup-0.38   vzmigrate? (   net-misc/openssh   net-misc/rsync[xattr,acl]   app-arch/tar[xattr,acl]   net-misc/bridge-utils   virtual/awk    )   virtual/udev   sys-apps/attr    
+EAPI=5
+IUSE=+ploop +vzmigrate 
+KEYWORDS=amd64 ~ppc64 x86
+SLOT=0
+SRC_URI=http://download.openvz.org/utils/vzctl/4.9.4/src/vzctl-4.9.4.tar.bz2

@@ -1,0 +1,10 @@
+b2ae5565209b0afa192e57afd59cda57
+DEFINED_PHASES= configure install postinst unpack
+BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
+DEPEND=virtual/libusb:1 
+RDEPEND=virtual/libusb:1 
+EAPI=6
+IUSE=
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+SLOT=0
+SRC_URI=https://github.com/steve-m/librtlsdr/archive/0.6.0.tar.gz -> rtl-sdr-0.6.0.tar.gz

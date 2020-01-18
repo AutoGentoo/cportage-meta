@@ -1,0 +1,9 @@
+6ef7b865a49233ead06f67479872070f
+DEFINED_PHASES= compile install prepare
+DEPEND=cracklib? ( sys-libs/cracklib ) 
+RDEPEND=cracklib? ( sys-libs/cracklib ) 
+EAPI=7
+IUSE=cracklib 
+KEYWORDS=~alpha amd64 hppa ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos
+SLOT=0
+SRC_URI=http://www.adel.nursat.kz/apg/download/apg-2.3.0b.tar.gz

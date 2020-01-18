@@ -1,0 +1,9 @@
+d41d8cd98f00b204e9800998ecf8427e
+DEFINED_PHASES=-
+DEPEND=>=app-editors/emacs-23.1:* 
+RDEPEND=>=app-editors/emacs-23.1:* 
+EAPI=5
+IUSE=
+KEYWORDS=amd64 ppc ~sparc x86
+SLOT=0
+SRC_URI=mirror://gentoo/h4x0r-0.13.tar.gz

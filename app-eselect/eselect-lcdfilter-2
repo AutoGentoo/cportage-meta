@@ -1,0 +1,9 @@
+0c2120ee62488cb2e256282e3a1a2970
+DEFINED_PHASES= install
+RDEPEND=app-admin/eselect 
+PDEPEND=media-libs/freetype[infinality] 
+EAPI=6
+IUSE=
+KEYWORDS=amd64 x86
+SLOT=0
+SRC_URI=https://github.com/yngwin/eselect-lcdfilter/tarball/v2 -> eselect-lcdfilter-2.tar.gz
