@@ -1,9 +1,0 @@
-585377702e17589d26f290084016d86c
-DEFINED_PHASES= configure
-DEPEND=  >=dev-libs/glib-2.44.0:2  >=x11-libs/gtk+-3.22.0:3[X]  >=x11-libs/pango-1.2.0[X]  >=x11-libs/libXcomposite-0.3  >=gnome-base/gsettings-desktop-schemas-3.3.0  x11-libs/libXfixes  x11-libs/libXrender  x11-libs/libXdamage  libcanberra? ( media-libs/libcanberra[gtk3] )  >=x11-libs/startup-notification-0.7  x11-libs/libXcursor  gnome-base/libgtop:2=  x11-libs/libX11  xinerama? ( x11-libs/libXinerama )  x11-libs/libXrandr  x11-libs/libXext  x11-libs/libICE  x11-libs/libSM  gnome-extra/zenity  vulkan? ( media-libs/vulkan-loader )   vulkan? ( dev-util/vulkan-headers )  dev-util/glib-utils  >=sys-devel/gettext-0.19.4  x11-base/xorg-proto  virtual/pkgconfig  
-RDEPEND=  >=dev-libs/glib-2.44.0:2  >=x11-libs/gtk+-3.22.0:3[X]  >=x11-libs/pango-1.2.0[X]  >=x11-libs/libXcomposite-0.3  >=gnome-base/gsettings-desktop-schemas-3.3.0  x11-libs/libXfixes  x11-libs/libXrender  x11-libs/libXdamage  libcanberra? ( media-libs/libcanberra[gtk3] )  >=x11-libs/startup-notification-0.7  x11-libs/libXcursor  gnome-base/libgtop:2=  x11-libs/libX11  xinerama? ( x11-libs/libXinerama )  x11-libs/libXrandr  x11-libs/libXext  x11-libs/libICE  x11-libs/libSM  gnome-extra/zenity  vulkan? ( media-libs/vulkan-loader )  
-EAPI=6
-IUSE=+libcanberra vulkan xinerama 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=mirror://gnome/sources/metacity/3.32/metacity-3.32.0.tar.xz

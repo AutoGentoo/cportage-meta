@@ -1,9 +1,0 @@
-230415ea008ac4675734194ec04c504a
-DEFINED_PHASES= compile install
-DEPEND=  >=virtual/jdk-1.8 
-RDEPEND=  >=virtual/jre-1.8 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=mirror://apache/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz -> spark-bin-2.3.1.tgz

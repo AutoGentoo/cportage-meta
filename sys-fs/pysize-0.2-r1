@@ -1,9 +1,0 @@
-574b8e5de7b6f353859e44074fa771a8
-DEFINED_PHASES=-
-DEPEND=  gtk? ( dev-python/pygtk:2 )  ncurses? ( sys-libs/ncurses:0= )  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=  gtk? ( dev-python/pygtk:2 )  ncurses? ( sys-libs/ncurses:0= ) 
-EAPI=5
-IUSE=gtk ncurses 
-KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://guichaz.free.fr/pysize/files/pysize-0.2.tar.bz2

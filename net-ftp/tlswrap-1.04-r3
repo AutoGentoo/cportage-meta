@@ -1,10 +1,14 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
-DEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= )  
-RDEPEND=  !libressl? ( dev-libs/openssl:0= )  libressl? ( dev-libs/libressl:= )  
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=install prepare
+DEPEND=!libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= )
+DESCRIPTION=FTP wrapper which supports TLS with every FTP client
 EAPI=7
-IUSE=libressl 
+HOMEPAGE=https://www.tlswrap.com/
+IUSE=libressl
 KEYWORDS=~amd64 ~x86
+LICENSE=BSD GPL-2
+RDEPEND=!libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:= )
 SLOT=0
 SRC_URI=https://www.tlswrap.com/tlswrap-1.04.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=6fb69026ebf51f02180fb43e335fa4de

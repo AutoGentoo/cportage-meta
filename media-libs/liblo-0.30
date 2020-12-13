@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-BDEPEND=doc? ( app-doc/doxygen ) 
-EAPI=7
-IUSE=doc ipv6 static-libs 
-KEYWORDS=amd64 ppc ppc64 x86 ~ppc-macos
-SLOT=0
-SRC_URI=mirror://sourceforge/liblo/liblo-0.30.tar.gz

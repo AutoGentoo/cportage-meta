@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=>=dev-libs/libyaml-0.1.4 
-RDEPEND=>=dev-libs/libyaml-0.1.4 
-EAPI=5
-IUSE=debug doc 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://twemproxy.googlecode.com/files/nutcracker-0.3.0.tar.gz

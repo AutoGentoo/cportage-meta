@@ -1,9 +1,0 @@
-53dcf01ca363423c093280ed14754365
-DEFINED_PHASES=-
-DEPEND=  dev-libs/nspr  dev-libs/nss   doc? (   dev-python/docutils[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/epydoc[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ) 
-RDEPEND=  dev-libs/nspr  dev-libs/nss  
-EAPI=5
-IUSE=doc examples 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=ftp://ftp.mozilla.org/pub/mozilla.org/security/python-nss/releases/PYNSS_RELEASE_0_16_0/src/python-nss-0.16.0.tar.bz2

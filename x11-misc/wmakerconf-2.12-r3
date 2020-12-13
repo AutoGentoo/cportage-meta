@@ -1,9 +1,0 @@
-f81fa5ad99b60db86d3a53bbb91c0aac
-DEFINED_PHASES= configure install postinst prepare
-DEPEND=x11-libs/gtk+:2  >=x11-wm/windowmaker-0.95.2  perl? ( dev-lang/perl   dev-perl/HTML-Parser   || ( dev-perl/libwww-perl   www-client/lynx   net-misc/wget ) )  nls? ( sys-devel/gettext )  virtual/pkgconfig 
-RDEPEND=x11-libs/gtk+:2  >=x11-wm/windowmaker-0.95.2  perl? ( dev-lang/perl   dev-perl/HTML-Parser   || ( dev-perl/libwww-perl   www-client/lynx   net-misc/wget ) ) 
-EAPI=6
-IUSE=nls perl 
-KEYWORDS=amd64 ~ppc ~ppc64 ~sparc x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://sourceforge/wmakerconf/wmakerconf_2.12.tar.gz

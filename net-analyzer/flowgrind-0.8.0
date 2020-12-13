@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install
-DEPEND=    sys-apps/util-linux  dev-libs/xmlrpc-c[abyss,curl]  gsl? ( sci-libs/gsl )  pcap? ( net-libs/libpcap )   doc? ( app-doc/doxygen )  
-RDEPEND=  sys-apps/util-linux  dev-libs/xmlrpc-c[abyss,curl]  gsl? ( sci-libs/gsl )  pcap? ( net-libs/libpcap )  
-EAPI=6
-IUSE=debug doc gsl pcap 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/flowgrind/flowgrind/releases/download/flowgrind-0.8.0/flowgrind-0.8.0.tar.bz2

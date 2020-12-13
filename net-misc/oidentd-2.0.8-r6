@@ -1,8 +1,0 @@
-afaeee951d477394000cea7dd857d8d3
-DEFINED_PHASES= configure install postinst setup
-RDEPEND=  selinux? ( sec-policy/selinux-oident ) 
-EAPI=6
-IUSE=debug ipv6 masquerade selinux 
-KEYWORDS=alpha amd64 arm hppa ia64 ~mips ppc ppc64 ~s390 ~sh ~sparc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/ojnk/oidentd-2.0.8.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND==dev-haskell/alsa-core-0.5*:=[profile?]   >=dev-lang/ghc-6.10.4:=   media-libs/alsa-lib   dev-haskell/c2hs   >=dev-haskell/cabal-1.6 
-RDEPEND==dev-haskell/alsa-core-0.5*:=[profile?]   >=dev-lang/ghc-6.10.4:=   media-libs/alsa-lib 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0/0.1.2
-SRC_URI=https://hackage.haskell.org/package/alsa-mixer-0.1.2/alsa-mixer-0.1.2.tar.gz

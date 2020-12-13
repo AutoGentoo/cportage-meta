@@ -1,9 +1,0 @@
-e246b3f8683bf1084d66202db46ebc97
-DEFINED_PHASES= compile install prepare
-DEPEND=  mpi? (   virtual/blas   virtual/lapack   virtual/mpi  )  sci-libs/voro++   
-RDEPEND=  mpi? (   virtual/blas   virtual/lapack   virtual/mpi  )  sci-libs/voro++   
-EAPI=5
-IUSE=doc examples gzip lammps-memalign mpi static-libs 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://lammps.sandia.gov/tars/lammps-10Feb15.tar.gz

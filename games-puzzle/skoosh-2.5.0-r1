@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  >=gnome-base/gconf-2:2  gnome-base/libgnome-keyring  >=gnome-base/libgnomeui-2  nls? ( virtual/libintl )   app-text/rarian  nls? ( sys-devel/gettext )  
-RDEPEND=  >=gnome-base/gconf-2:2  gnome-base/libgnome-keyring  >=gnome-base/libgnomeui-2  nls? ( virtual/libintl )  
-EAPI=5
-IUSE=nls 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://homepages.ihug.co.nz/~trmusson/stuff/skoosh-2.5.0.tar.gz

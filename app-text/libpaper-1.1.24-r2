@@ -1,8 +1,0 @@
-1c59d20c34b0a3c9b1b21b85ccda9dce
-DEFINED_PHASES= prepare
-DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
-EAPI=4
-IUSE=
-KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~x86-solaris
-SLOT=0
-SRC_URI=mirror://debian/pool/main/libp/libpaper/libpaper_1.1.24.tar.gz

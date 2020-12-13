@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-BDEPEND=  app-arch/unzip  virtual/pkgconfig  
-EAPI=7
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0/1
-SRC_URI=mirror://sourceforge/project/libxls/libxls-1.4.0.zip

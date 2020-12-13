@@ -1,8 +1,0 @@
-97285028335448afe83e7c6a96f275e6
-DEFINED_PHASES= install nofetch postinst postrm preinst pretend setup unpack
-RDEPEND=  app-accessibility/at-spi2-atk:2  app-arch/bzip2  app-misc/ca-certificates  dev-libs/atk  dev-libs/expat  dev-libs/glib:2  dev-libs/nspr  >=dev-libs/nss-3.26  media-libs/alsa-lib  media-libs/fontconfig  media-libs/freetype:2  net-print/cups  sys-apps/dbus  sys-libs/libcap  x11-libs/cairo  x11-libs/gdk-pixbuf:2  x11-libs/gtk+:3[X]  >=x11-libs/libX11-1.5.0  x11-libs/libXcomposite  x11-libs/libXcursor  x11-libs/libXdamage  x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXi  x11-libs/libXrandr  x11-libs/libXrender  x11-libs/libXScrnSaver  x11-libs/libXtst  x11-libs/libxcb  x11-libs/pango  x11-misc/xdg-utils  selinux? ( sec-policy/selinux-chromium )  
-EAPI=6
-IUSE=selinux 
-KEYWORDS=-* amd64
-SLOT=0
-SRC_URI=https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_79.0.3945.79-1_amd64.deb

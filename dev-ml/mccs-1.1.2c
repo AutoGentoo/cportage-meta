@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile
-DEPEND=  dev-ml/cudf:=  sci-mathematics/glpk:=   dev-ml/jbuilder 
-RDEPEND=  dev-ml/cudf:=  sci-mathematics/glpk:=  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/1.1.2c
-SRC_URI=https://github.com/AltGr/ocaml-mccs/archive/1.1+2c.tar.gz -> mccs-1.1.2c.tar.gz

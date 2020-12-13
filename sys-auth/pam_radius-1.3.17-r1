@@ -1,9 +1,0 @@
-705dd38cfff32ea9468e32a45d952a62
-DEFINED_PHASES= compile install postinst prepare
-DEPEND=sys-libs/pam 
-RDEPEND=sys-libs/pam 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=ftp://ftp.freeradius.org/pub/radius/pam_radius-1.3.17.tar.gz

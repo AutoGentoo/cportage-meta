@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=>=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
-RDEPEND=virtual/httpd-php  net-analyzer/rrdtool 
+DEFINED_PHASES=install postinst prerm setup
+DEPEND=|| ( virtual/httpd-cgi virtual/httpd-fastcgi ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=Web frontend to symon
 EAPI=5
-IUSE=vhosts 
+HOMEPAGE=http://www.xs4all.nl/~wpd/symon/
+IUSE=vhosts
 KEYWORDS=~amd64 ~sparc ~x86
+LICENSE=BSD-2
+RDEPEND=virtual/httpd-php net-analyzer/rrdtool >=app-admin/webapp-config-1.50.15
 SLOT=0
 SRC_URI=http://www.xs4all.nl/~wpd/symon/philes/syweb-0.65.tar.gz
+_eclasses_=webapp	16783e418aca3ffa461d68310bf7ab12
+_md5_=70ec7f21b4690ff98e09ee0bf419a38e

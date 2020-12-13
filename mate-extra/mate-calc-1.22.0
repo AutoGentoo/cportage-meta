@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-libs/atk  >=dev-libs/glib-2.50:2  dev-libs/libxml2:2  >=x11-libs/gtk+-3.22:3  x11-libs/pango  app-text/yelp-tools  >=dev-util/intltool-0.35.0  sys-devel/gettext:*  virtual/pkgconfig:* 
-RDEPEND=  dev-libs/atk  >=dev-libs/glib-2.50:2  dev-libs/libxml2:2  >=x11-libs/gtk+-3.22:3  x11-libs/pango 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm ~arm64 x86
-SLOT=0
-SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-calc-1.22.0.tar.xz

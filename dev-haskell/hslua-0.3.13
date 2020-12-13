@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=>=dev-haskell/mtl-2.1:=[profile?]  >=dev-lang/ghc-7.4.1:=  system-lua? ( dev-lang/lua )   >=dev-haskell/cabal-1.8  system-lua? ( virtual/pkgconfig )  
-RDEPEND=>=dev-haskell/mtl-2.1:=[profile?]  >=dev-lang/ghc-7.4.1:=  system-lua? ( dev-lang/lua )  
-EAPI=5
-IUSE=apicheck system-lua 
-KEYWORDS=~amd64 ~x86
-SLOT=0/0.3.13
-SRC_URI=https://hackage.haskell.org/package/hslua-0.3.13/hslua-0.3.13.tar.gz

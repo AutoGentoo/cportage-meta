@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=virtual/pkgconfig 
-RDEPEND=  app-admin/gkrellm:2[X]  net-wireless/bluez 
+DEFINED_PHASES=configure install prepare
+DEPEND=virtual/pkgconfig
+DESCRIPTION=GKrellm plugin for monitoring bluetooth (Linux BlueZ) adapters
 EAPI=6
-IUSE=
+HOMEPAGE=http://gkrellm-bluez.sourceforge.net
 KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=app-admin/gkrellm:2[X] net-wireless/bluez
 SLOT=0
 SRC_URI=mirror://sourceforge/gkrellm-bluez/gkrellm-bluez-0.2.tar.gz
+_eclasses_=gkrellm-plugin	c01023a3c28bc24f50c00ae019e8861e	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=9802a2278c93f10d2fcb58961843bee7

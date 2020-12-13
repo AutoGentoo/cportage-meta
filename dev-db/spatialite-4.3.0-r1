@@ -1,9 +1,0 @@
-8ee2f502ced3efa1937ee855ed61adef
-DEFINED_PHASES= configure install
-DEPEND=  >=dev-db/sqlite-3.7.5:3[extensions(+)]  sys-libs/zlib  geos? ( >=sci-libs/geos-3.4 )  proj? ( sci-libs/proj )  xls? ( dev-libs/freexl )  xml? ( dev-libs/libxml2 )  
-RDEPEND=  >=dev-db/sqlite-3.7.5:3[extensions(+)]  sys-libs/zlib  geos? ( >=sci-libs/geos-3.4 )  proj? ( sci-libs/proj )  xls? ( dev-libs/freexl )  xml? ( dev-libs/libxml2 )  
-EAPI=6
-IUSE=+geos iconv +proj test +xls +xml 
-KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86
-SLOT=0
-SRC_URI=https://www.gaia-gis.it/gaia-sins/libspatialite-sources/libspatialite-4.3.0.tar.gz

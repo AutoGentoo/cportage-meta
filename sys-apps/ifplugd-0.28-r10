@@ -1,9 +1,0 @@
-3269caa40c6399bee3d10f0771bd6a6d
-DEFINED_PHASES= configure install
-DEPEND=virtual/pkgconfig  doc? ( www-client/lynx )  >=dev-libs/libdaemon-0.5 
-RDEPEND=>=dev-libs/libdaemon-0.5  >=sys-apps/baselayout-1.12  selinux? ( sec-policy/selinux-ifplugd ) 
-EAPI=6
-IUSE=doc selinux 
-KEYWORDS=amd64 ~arm ~arm64 hppa ppc x86
-SLOT=0
-SRC_URI=http://0pointer.de/lennart/projects/ifplugd/ifplugd-0.28.tar.gz

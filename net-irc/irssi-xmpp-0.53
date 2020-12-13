@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=  >=net-irc/irssi-0.8.13  >=net-libs/loudmouth-1.4.0 
-RDEPEND=  >=net-irc/irssi-0.8.13  >=net-libs/loudmouth-1.4.0 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/cdidier/irssi-xmpp/archive/v0.53.tar.gz -> irssi-xmpp-0.53.tar.gz

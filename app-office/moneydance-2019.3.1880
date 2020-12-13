@@ -1,9 +1,0 @@
-585377702e17589d26f290084016d86c
-DEFINED_PHASES= compile install nofetch postinst postrm
-DEPEND=|| (   >=dev-java/openjdk-bin-11.0   >=dev-java/openjdk-11.0  )  
-RDEPEND=|| (   >=dev-java/openjdk-bin-11.0   >=dev-java/openjdk-11.0  )  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://infinitekind.com/stabledl/2019.3_1880/Moneydance_linux_amd64.tar.gz -> moneydance-2019.3.1880-amd64.tar.gz

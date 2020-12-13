@@ -1,9 +1,13 @@
-772ed44ff1cb491d451d67626c077419
-DEFINED_PHASES= configure install postinst postrm prepare
-DEPEND=sys-libs/zlib  !luajit? ( dev-lang/lua:0[deprecated] )  luajit? ( dev-lang/luajit:2 )  media-libs/freetype  media-libs/libmodplug  media-libs/libsdl2[joystick,opengl]  media-libs/libogg  media-libs/libtheora  media-libs/libvorbis  media-libs/openal  media-sound/mpg123  virtual/opengl 
-RDEPEND=sys-libs/zlib  !luajit? ( dev-lang/lua:0[deprecated] )  luajit? ( dev-lang/luajit:2 )  media-libs/freetype  media-libs/libmodplug  media-libs/libsdl2[joystick,opengl]  media-libs/libogg  media-libs/libtheora  media-libs/libvorbis  media-libs/openal  media-sound/mpg123  virtual/opengl 
-EAPI=6
-IUSE=+luajit 
-KEYWORDS=
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install postinst postrm prepare unpack
+DEPEND=sys-libs/zlib !luajit? ( dev-lang/lua:0 ) luajit? ( dev-lang/luajit:2 ) media-libs/freetype media-libs/libmodplug media-libs/libsdl2[joystick,opengl] media-libs/libogg media-libs/libtheora media-libs/libvorbis media-libs/openal media-sound/mpg123 virtual/opengl
+DESCRIPTION=A framework for 2D games in Lua
+EAPI=7
+HOMEPAGE=http://love2d.org/
+IUSE=+luajit
+LICENSE=ZLIB
+PROPERTIES=live
+RDEPEND=sys-libs/zlib !luajit? ( dev-lang/lua:0 ) luajit? ( dev-lang/luajit:2 ) media-libs/freetype media-libs/libmodplug media-libs/libsdl2[joystick,opengl] media-libs/libogg media-libs/libtheora media-libs/libvorbis media-libs/openal media-sound/mpg123 virtual/opengl
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=3cbcc554b4415ccab122d3e98f621746

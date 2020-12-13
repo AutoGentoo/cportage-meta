@@ -1,10 +1,14 @@
-6698bdbbdfaae9e2b9125881c520b952
-DEFINED_PHASES= configure postinst prepare
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
-DEPEND=    gtk? (   dev-libs/glib:2   x11-libs/gtk+:3  )  ncurses? ( sys-libs/ncurses:0= )   sys-devel/autoconf  virtual/pkgconfig  
-RDEPEND=  gtk? (   dev-libs/glib:2   x11-libs/gtk+:3  )  ncurses? ( sys-libs/ncurses:0= )  
+BDEPEND=virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 filecaps? ( sys-libs/libcap ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure postinst prepare unpack
+DEPEND=gtk? ( dev-libs/glib:2 x11-libs/gtk+:3 ) jansson? ( dev-libs/jansson ) ncurses? ( sys-libs/ncurses:0= )
+DESCRIPTION=My TraceRoute, an Excellent network diagnostic tool
 EAPI=7
-IUSE=gtk ipv6 ncurses 
-KEYWORDS=
+HOMEPAGE=https://www.bitwizard.nl/mtr/
+IUSE=gtk +ipinfo +ipv6 jansson ncurses +filecaps
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=gtk? ( dev-libs/glib:2 x11-libs/gtk+:3 ) jansson? ( dev-libs/jansson ) ncurses? ( sys-libs/ncurses:0= ) filecaps? ( sys-libs/libcap )
+RESTRICT=test
 SLOT=0
-SRC_URI=
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	bash-completion-r1	e5f9c3faab3ab3d1e7e007daa8c736ef	fcaps	da689a8e04bbbb3518888ff668fee45b	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=3079bd562bb26a8ad28e60f6fbe23174

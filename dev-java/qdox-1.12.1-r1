@@ -1,9 +1,0 @@
-0ff68a7055d50f09444b13ba196d81f1
-DEFINED_PHASES= compile install test
-DEPEND=>=virtual/jdk-1.4  app-arch/unzip:0  dev-java/byaccj:0  >=dev-java/jflex-1.6.1:0  dev-java/jmock:1.0  test? ( dev-java/junit:0 )  dev-java/ant-core:0 
-RDEPEND=>=virtual/jre-1.4  dev-java/ant-core:0 
-EAPI=5
-IUSE=elibc_FreeBSD 
-KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~ppc-macos ~x64-macos ~x86-macos
-SLOT=1.12
-SRC_URI=https://github.com/codehaus/qdox/archive/qdox-1.12.1.tar.gz

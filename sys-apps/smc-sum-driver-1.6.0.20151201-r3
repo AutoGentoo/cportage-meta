@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile nofetch prepare
-DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
-RDEPEND= kernel_linux? ( virtual/modutils )  
-EAPI=7
-IUSE=kernel_linux  
-KEYWORDS=-* ~amd64 ~x86
-SLOT=0
-SRC_URI=sum_driver_V1.6.0_20151201.tar.gz

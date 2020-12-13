@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=app-text/editorconfig-core-c:=  dev-util/geany 
-RDEPEND=app-text/editorconfig-core-c:= 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/editorconfig/editorconfig-geany/archive/9dce3bb476728a8f4124aefe12e0a4ffc8567dff.tar.gz -> editorconfig-geany-0.1_p20160725.tar.gz

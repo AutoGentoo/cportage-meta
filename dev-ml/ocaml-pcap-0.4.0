@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  test? ( dev-ml/ounit   >=dev-ml/lwt-2.4.0 )    dev-ml/ocaml-ipaddr:=  !dev-ml/mirage-net-socket  !<dev-ml/mirage-0.9.2  >=dev-ml/ocaml-cstruct-0.6.0:=[ppx(-)]   
-RDEPEND=  dev-ml/ocaml-ipaddr:=  !dev-ml/mirage-net-socket  !<dev-ml/mirage-0.9.2  >=dev-ml/ocaml-cstruct-0.6.0:=[ppx(-)]  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/0.4.0
-SRC_URI=https://github.com/mirage/ocaml-pcap/archive/v0.4.0.tar.gz -> ocaml-pcap-0.4.0.tar.gz

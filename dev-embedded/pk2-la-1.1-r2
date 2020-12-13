@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyusb:0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   
-EAPI=5
-IUSE=
-KEYWORDS=~ppc
-SLOT=0
-SRC_URI=mirror://sourceforge/pk2-la/pk2-la-1.1.tar.bz2

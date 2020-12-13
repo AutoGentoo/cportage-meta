@@ -1,9 +1,0 @@
-1c59d20c34b0a3c9b1b21b85ccda9dce
-DEFINED_PHASES=-
-DEPEND=>=dev-haskell/aeson-0.6.0.0:=[profile?]  >=dev-haskell/binary-0.5.1.0:=[profile?]  dev-haskell/erf:=[profile?]  >=dev-haskell/math-functions-0.1.5.2:=[profile?]  >=dev-haskell/monad-par-0.3.4:=[profile?]  >=dev-haskell/mwc-random-0.13.0.0:=[profile?]  >=dev-haskell/primitive-0.3:=[profile?]  >=dev-haskell/vector-0.10:=[profile?]  >=dev-haskell/vector-algorithms-0.4:=[profile?]  >=dev-haskell/vector-binary-instances-0.2.1:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  test? ( dev-haskell/hunit   >=dev-haskell/ieee754-0.7.3   >=dev-haskell/quickcheck-2.7.5   dev-haskell/test-framework   dev-haskell/test-framework-hunit   dev-haskell/test-framework-quickcheck2 )  
-RDEPEND=>=dev-haskell/aeson-0.6.0.0:=[profile?]  >=dev-haskell/binary-0.5.1.0:=[profile?]  dev-haskell/erf:=[profile?]  >=dev-haskell/math-functions-0.1.5.2:=[profile?]  >=dev-haskell/monad-par-0.3.4:=[profile?]  >=dev-haskell/mwc-random-0.13.0.0:=[profile?]  >=dev-haskell/primitive-0.3:=[profile?]  >=dev-haskell/vector-0.10:=[profile?]  >=dev-haskell/vector-algorithms-0.4:=[profile?]  >=dev-haskell/vector-binary-instances-0.2.1:=[profile?]  >=dev-lang/ghc-7.4.1:=  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0/0.13.3.0
-SRC_URI=https://hackage.haskell.org/package/statistics-0.13.3.0/statistics-0.13.3.0.tar.gz

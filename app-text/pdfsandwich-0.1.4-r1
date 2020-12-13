@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install postinst prepare
-DEPEND=sys-apps/gawk  >=dev-lang/ocaml-3.10[ocamlopt] 
-RDEPEND=>=app-text/tesseract-3.00  media-gfx/exact-image  app-text/unpaper  app-text/ghostscript-gpl  virtual/imagemagick-tools[png?] 
-EAPI=5
-IUSE=png 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/pdfsandwich/pdfsandwich-0.1.4.tar.bz2

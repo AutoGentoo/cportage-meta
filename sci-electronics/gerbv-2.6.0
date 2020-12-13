@@ -1,9 +1,0 @@
-a059d7a954c53849b393e83908713fa5
-DEFINED_PHASES= configure install postinst postrm
-DEPEND=  x11-libs/gtk+:2  x11-libs/cairo  virtual/pkgconfig 
-RDEPEND=  x11-libs/gtk+:2  x11-libs/cairo 
-EAPI=4
-IUSE=doc examples static-libs unit-mm 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/gerbv/gerbv-2.6.0.tar.gz

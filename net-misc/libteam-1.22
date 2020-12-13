@@ -1,9 +1,0 @@
-4710c3a35ac8b42b3488acd7263e517c
-DEFINED_PHASES= configure install
-DEPEND=>=dev-libs/jansson-2.4  dev-libs/libdaemon  >=dev-libs/libnl-3.2.19[utils]  dbus? ( sys-apps/dbus )  zmq? ( >=net-libs/zeromq-3.2.0 )   
-RDEPEND=>=dev-libs/jansson-2.4  dev-libs/libdaemon  >=dev-libs/libnl-3.2.19[utils]  dbus? ( sys-apps/dbus )  zmq? ( >=net-libs/zeromq-3.2.0 )    syslog? ( virtual/logger ) 
-EAPI=5
-IUSE=dbus debug examples static-libs +syslog zmq 
-KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86
-SLOT=0
-SRC_URI=http://libteam.org/files/libteam-1.22.tar.gz

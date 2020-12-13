@@ -1,9 +1,0 @@
-6529ce7a13a4d9d329bbf8573d05efd1
-DEFINED_PHASES= compile configure install postinst postrm prepare
-DEPEND=  >=app-text/djvu-3.5.22-r1  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtopengl:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  >=sys-devel/autoconf-2.67  virtual/pkgconfig  nsplugin? ( dev-libs/glib:2 ) 
-RDEPEND=  >=app-text/djvu-3.5.22-r1  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtopengl:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5 
-EAPI=6
-IUSE=debug nsplugin 
-KEYWORDS=amd64 ~hppa ppc ppc64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/djvu/djview-4.10.6.tar.gz

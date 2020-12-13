@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare test
-RDEPEND=  tk? ( dev-lang/tk dev-tcltk/tcllib )  
-EAPI=7
-IUSE=tk 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=https://dianne.skoll.ca/projects/remind/download/remind-03.01.16.tar.gz

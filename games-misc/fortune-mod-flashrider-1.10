@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=games-misc/fortune-mod 
-RDEPEND=games-misc/fortune-mod 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
-SLOT=0
-SRC_URI=http://downloads.nanolx.org/fortunes-flashrider/fortunes-flashrider_1.10.tar.bz2

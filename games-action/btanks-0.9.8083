@@ -1,9 +1,0 @@
-f81fa5ad99b60db86d3a53bbb91c0aac
-DEFINED_PHASES= compile install prepare
-DEPEND=>=dev-lang/lua-5.1:0  media-libs/libsdl[joystick,video]  media-libs/libvorbis  virtual/opengl  dev-libs/expat  media-libs/smpeg  media-libs/sdl-image[jpeg,png]  media-libs/sdl-gfx  virtual/pkgconfig 
-RDEPEND=>=dev-lang/lua-5.1:0  media-libs/libsdl[joystick,video]  media-libs/libvorbis  virtual/opengl  dev-libs/expat  media-libs/smpeg  media-libs/sdl-image[jpeg,png]  media-libs/sdl-gfx 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/btanks/btanks-0.9.8083.tar.bz2

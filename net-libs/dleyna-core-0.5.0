@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=  >=dev-libs/glib-2.28:2  >=net-libs/gupnp-0.20.5   virtual/pkgconfig  
-RDEPEND=  >=dev-libs/glib-2.28:2  >=net-libs/gupnp-0.20.5  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ~arm64 x86
-SLOT=1.0/4
-SRC_URI=https://01.org/sites/default/files/downloads/dleyna/dleyna-core-0.5.0.tar.gz

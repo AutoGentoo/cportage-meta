@@ -1,9 +1,0 @@
-ac072bd8a431484cf06186ba80d488f2
-DEFINED_PHASES= compile configure install prepare
-DEPEND=  virtual/jpeg:=  >=media-libs/tiff-3.9.1:0  sci-libs/proj:=  sys-libs/zlib  doc? ( app-doc/doxygen ) 
-RDEPEND=  virtual/jpeg:=  >=media-libs/tiff-3.9.1:0  sci-libs/proj:=  sys-libs/zlib 
-EAPI=6
-IUSE=debug doc static-libs 
-KEYWORDS=amd64 ~arm arm64 ~ia64 ppc ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
-SLOT=0
-SRC_URI=http://download.osgeo.org/geotiff/libgeotiff/libgeotiff-1.4.1.tar.gz

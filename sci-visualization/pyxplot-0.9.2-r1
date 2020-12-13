@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  app-text/gv  dev-libs/libxml2:2  media-libs/libpng:0=  sci-libs/cfitsio  sci-libs/fftw:3.0=  sci-libs/gsl  sci-libs/scipy[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  virtual/latex-base  virtual/imagemagick-tools  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   virtual/pkgconfig 
-RDEPEND=  app-text/gv  dev-libs/libxml2:2  media-libs/libpng:0=  sci-libs/cfitsio  sci-libs/fftw:3.0=  sci-libs/gsl  sci-libs/scipy[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  virtual/latex-base  virtual/imagemagick-tools  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://sourceforge/pyxplot/pyxplot_0.9.2.tar.gz

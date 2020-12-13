@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( test? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ) test? ( ruby_targets_ruby24? ( >=dev-ruby/rainbow-1.1.4:*[ruby_targets_ruby24] dev-ruby/logue[ruby_targets_ruby24] ) ) 
-RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby24? ( >=dev-ruby/rainbow-1.1.4:*[ruby_targets_ruby24] dev-ruby/logue[ruby_targets_ruby24] ) 
-EAPI=5
-IUSE= test 
-KEYWORDS=amd64 ~hppa ~ppc ~sparc x86
-SLOT=0
-SRC_URI=https://github.com/jpace/riel/archive/v1.2.0.tar.gz -> riel-git-1.2.0.tgz

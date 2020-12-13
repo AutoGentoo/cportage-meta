@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=>=dev-lang/ocaml-3.06-r1  >=dev-ml/findlib-0.8 
-EAPI=4
-IUSE=examples 
-KEYWORDS=~amd64 ~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=https://github.com/mmottl/ocaml-makefile/releases/download/6.39.0/ocaml-makefile-6.39.0.tbz

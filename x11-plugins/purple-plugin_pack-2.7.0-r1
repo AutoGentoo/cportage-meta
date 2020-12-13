@@ -1,9 +1,0 @@
-ef87881a796d80a0af9cbefd4fde8852
-DEFINED_PHASES= configure preinst prepare
-DEPEND=  dev-libs/json-glib  net-im/pidgin[gtk?,ncurses?]  talkfilters? ( app-text/talkfilters )  spell? ( app-text/gtkspell:2 )   || ( >=dev-lang/python-2.7.5-r2:2.7 )  
-RDEPEND=  dev-libs/json-glib  net-im/pidgin[gtk?,ncurses?]  talkfilters? ( app-text/talkfilters )  spell? ( app-text/gtkspell:2 )  
-EAPI=6
-IUSE=debug gtk ncurses spell talkfilters 
-KEYWORDS=amd64 hppa ppc x86
-SLOT=0
-SRC_URI=https://bitbucket.org/rekkanoryo/purple-plugin-pack/downloads/purple-plugin-pack-2.7.0.tar.bz2

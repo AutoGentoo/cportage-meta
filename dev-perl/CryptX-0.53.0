@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  >=virtual/perl-Exporter-5.590.0  !minimal? (   || ( dev-perl/Cpanel-JSON-XS dev-perl/JSON-XS virtual/perl-JSON-PP )  )   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.880.0   !minimal? (    >=virtual/perl-Math-BigInt-1.999.715    >=virtual/perl-Storable-2.0.0   )  )  
-RDEPEND=  >=virtual/perl-Exporter-5.590.0  !minimal? (   || ( dev-perl/Cpanel-JSON-XS dev-perl/JSON-XS virtual/perl-JSON-PP )  )  
-EAPI=6
-IUSE=test minimal 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MI/MIK/CryptX-0.053.tar.gz

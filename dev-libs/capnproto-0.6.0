@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=test? ( dev-cpp/gtest ) 
-EAPI=5
-IUSE=static-libs test 
-KEYWORDS=~amd64 ~arm ~arm64 ~x86
-SLOT=0/060
-SRC_URI=https://github.com/sandstorm-io/capnproto/archive/v0.6.0.tar.gz -> capnproto-0.6.0.tar.gz

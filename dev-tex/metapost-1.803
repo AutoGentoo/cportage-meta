@@ -1,9 +1,0 @@
-9fd3bf4bf909f1760a51ff8c126aa979
-DEFINED_PHASES= compile configure install postinst
-DEPEND=>=dev-libs/kpathsea-6.1.0_p20120701  >=app-eselect/eselect-mpost-0.3  >=x11-libs/cairo-1.12  >x11-libs/pixman-0.18  media-libs/libpng:0=  virtual/pkgconfig 
-RDEPEND=>=dev-libs/kpathsea-6.1.0_p20120701  >=app-eselect/eselect-mpost-0.3  >=x11-libs/cairo-1.12  >x11-libs/pixman-0.18  media-libs/libpng:0= 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://foundry.supelec.fr/frs/download.php/file/15750/metapost-1.803-src.tar.bz2

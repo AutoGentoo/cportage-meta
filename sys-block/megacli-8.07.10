@@ -1,9 +1,0 @@
-13f177506af37fbe6edc02426c74cf4c
-DEFINED_PHASES= install nofetch postinst unpack
-DEPEND=app-arch/unzip  app-admin/chrpath 
-RDEPEND=sys-libs/ncurses-compat:5 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=http://www.lsi.com/downloads/Public/RAID%20Controllers/RAID%20Controllers%20Common%20Files/8.07.10_MegaCLI_Linux.zip

@@ -1,9 +1,0 @@
-89609988d65ead1f93c0796e6f83316c
-DEFINED_PHASES= install postinst postrm preinst setup
-DEPEND=app-text/txt2tags 
-RDEPEND=app-cdr/dvd+rw-tools  dev-tcltk/tix  media-sound/normalize  >=media-sound/sox-14.3.2  media-video/dvdauthor  >=media-video/mjpegtools-2.0.0  || ( >=media-video/mplayer-1.0_rc4_p20110101[dvdnav] media-video/mpv[libmpv,dvdnav] )  sys-devel/bc  virtual/ffmpeg  virtual/imagemagick-tools[png] 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/tovid-suite/tovid/archive/v0.35.2.tar.gz -> tovid-0.35.2.tar.gz

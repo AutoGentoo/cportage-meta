@@ -1,9 +1,0 @@
-ca2daf9b8093fe1e6953b17539a063b3
-DEFINED_PHASES= compile install prepare test
-DEPEND=  >=dev-lang/ocaml-3.12:=[ocamlopt?]  dev-ml/extlib:=  dev-libs/glib:2  dev-ml/camlp4:=  dev-ml/cppo:=   test? ( dev-ml/ounit )  dev-ml/findlib  dev-ml/ocamlbuild  dev-lang/perl  
-RDEPEND=  >=dev-lang/ocaml-3.12:=[ocamlopt?]  dev-ml/extlib:=  dev-libs/glib:2  dev-ml/camlp4:=  dev-ml/cppo:=  
-EAPI=5
-IUSE=+ocamlopt test 
-KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
-SLOT=0/0.8
-SRC_URI=https://gforge.inria.fr/frs/download.php/file/34659/cudf-0.8.tar.gz

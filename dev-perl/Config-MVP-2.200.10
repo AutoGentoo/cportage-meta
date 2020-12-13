@@ -1,9 +1,0 @@
-705dd38cfff32ea9468e32a45d952a62
-DEFINED_PHASES=-
-DEPEND=    >=dev-perl/Class-Load-0.170.0  virtual/perl-File-Spec  dev-perl/Module-Pluggable  dev-perl/Module-Runtime  >=dev-perl/Moose-0.910.0  dev-perl/MooseX-OneArgNew  dev-perl/Params-Util  dev-perl/Role-HasMessage  dev-perl/Role-Identifiable  dev-perl/Throwable  dev-perl/Tie-IxHash  dev-perl/Try-Tiny   virtual/perl-ExtUtils-MakeMaker  test? (   !minimal? (    >=virtual/perl-CPAN-Meta-2.120.900   )   dev-perl/Test-Fatal   >=virtual/perl-Test-Simple-0.960.0  )  
-RDEPEND=  >=dev-perl/Class-Load-0.170.0  virtual/perl-File-Spec  dev-perl/Module-Pluggable  dev-perl/Module-Runtime  >=dev-perl/Moose-0.910.0  dev-perl/MooseX-OneArgNew  dev-perl/Params-Util  dev-perl/Role-HasMessage  dev-perl/Role-Identifiable  dev-perl/Throwable  dev-perl/Tie-IxHash  dev-perl/Try-Tiny  
-EAPI=6
-IUSE=test minimal 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/R/RJ/RJBS/Config-MVP-2.200010.tar.gz

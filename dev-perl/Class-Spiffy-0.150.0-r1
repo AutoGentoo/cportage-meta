@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= prepare
-DEPEND=dev-lang/perl:=[-build(-)] 
-RDEPEND=dev-lang/perl:=[-build(-)] 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 hppa ia64 ~ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/I/IN/INGY/Class-Spiffy-0.15.tar.gz

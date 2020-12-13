@@ -1,9 +1,0 @@
-d9875bf9270b1c02d1a7d71d96583746
-DEFINED_PHASES= prepare
-DEPEND=>=dev-haskell/stm-2.1.2.1:=[profile?] <dev-haskell/stm-2.5:=[profile?]  >=dev-haskell/unbounded-delays-0.1:=[profile?] <dev-haskell/unbounded-delays-0.2:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  test? ( >=dev-haskell/async-2.0   >=dev-haskell/hunit-1.2.2 <dev-haskell/hunit-1.4   >=dev-haskell/random-1.0 <dev-haskell/random-1.2   >=dev-haskell/test-framework-0.2.4 <dev-haskell/test-framework-0.9   >=dev-haskell/test-framework-hunit-0.2.4 <dev-haskell/test-framework-hunit-0.4 )  
-RDEPEND=>=dev-haskell/stm-2.1.2.1:=[profile?] <dev-haskell/stm-2.5:=[profile?]  >=dev-haskell/unbounded-delays-0.1:=[profile?] <dev-haskell/unbounded-delays-0.2:=[profile?]  >=dev-lang/ghc-7.4.1:=  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0/0.7.0.10
-SRC_URI=https://hackage.haskell.org/package/concurrent-extra-0.7.0.10/concurrent-extra-0.7.0.10.tar.gz

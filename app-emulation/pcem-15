@@ -1,9 +1,0 @@
-77fc0b7f2b3c91b6fbb851709d898318
-DEFINED_PHASES= configure install postinst prepare
-BDEPEND=virtual/pkgconfig 
-RDEPEND=  alsa? ( media-libs/alsa-lib )  media-libs/libsdl2  media-libs/openal  x11-libs/wxGTK:3.0[X]  
-EAPI=7
-IUSE=alsa networking 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://pcem-emulator.co.uk/files/PCemV15Linux.tar.gz

@@ -1,9 +1,0 @@
-9b19f34301f6bd7fe09b7e69437baa06
-DEFINED_PHASES= configure postinst prepare
-DEPEND=nls? ( sys-devel/gettext ) 
-RDEPEND=nls? ( virtual/libintl ) 
-EAPI=5
-IUSE=debug nls 
-KEYWORDS=amd64 hppa ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc64-solaris
-SLOT=0
-SRC_URI=http://alioth.debian.org/frs/download.php/3016/axel-2.4.tar.bz2

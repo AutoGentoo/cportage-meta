@@ -1,9 +1,0 @@
-1ee37a87f0ce62f94e0a05a74f58ac61
-DEFINED_PHASES= compile configure install
-DEPEND=sys-apps/pciutils  !<sys-apps/linux-misc-apps-3.6-r2  !sys-power/cpufrequtils  virtual/os-headers  nls? ( sys-devel/gettext ) 
-RDEPEND=sys-apps/pciutils  !<sys-apps/linux-misc-apps-3.6-r2  !sys-power/cpufrequtils 
-EAPI=6
-IUSE=nls 
-KEYWORDS=amd64 ~arm ~arm64 ~ppc ~ppc64 x86
-SLOT=0/0
-SRC_URI=https://dev.gentoo.org/~floppym/dist/cpupower-4.13.0.tar.xz

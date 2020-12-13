@@ -1,9 +1,0 @@
-cd673bdac5a33c784f73054ecd8189d6
-DEFINED_PHASES= postinst prepare
-DEPEND=  app-crypt/seahorse  dev-libs/glib:2  >=net-dns/avahi-0.6:=[dbus]  net-libs/libsoup:2.4  >=x11-libs/gtk+-3:3   >=app-crypt/gpgme-1  >=app-crypt/gnupg-1.4   >=dev-util/intltool-0.35  sys-devel/gettext  virtual/pkgconfig  
-RDEPEND=  app-crypt/seahorse  dev-libs/glib:2  >=net-dns/avahi-0.6:=[dbus]  net-libs/libsoup:2.4  >=x11-libs/gtk+-3:3   >=app-crypt/gpgme-1  >=app-crypt/gnupg-1.4   !<app-crypt/seahorse-3.2  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~eva/distfiles/seahorse-sharing/seahorse-sharing-3.8.0-19-g61de83c.tar.gz -> seahorse-sharing-3.8.0_p20151117.tar.gz

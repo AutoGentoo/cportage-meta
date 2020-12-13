@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  app-arch/unzip  
-RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  media-libs/libcanberra 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/psykoyiko/pycanberra/archive/88c53cd44a626ede3b07dab0b548f8bcfda42867.zip -> pycanberra-0_pre20130515.zip

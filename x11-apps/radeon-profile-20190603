@@ -1,9 +1,0 @@
-ac072bd8a431484cf06186ba80d488f2
-DEFINED_PHASES= configure install postinst prepare
-DEPEND=    dev-qt/qtcharts:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  x11-libs/libX11  x11-libs/libXrandr   dev-qt/qtconcurrent:5  media-libs/mesa[X(+)]  x11-libs/libdrm  
-RDEPEND=  dev-qt/qtcharts:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  x11-libs/libX11  x11-libs/libXrandr  
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/marazmista/radeon-profile/archive/20190603.tar.gz -> radeon-profile-20190603.tar.gz

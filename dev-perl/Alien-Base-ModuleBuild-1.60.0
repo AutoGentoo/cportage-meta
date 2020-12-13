@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND= >=dev-perl/Alien-Build-1.200.0 >=dev-perl/Capture-Tiny-0.170.0 >=dev-perl/File-chdir-0.100.500 >=dev-perl/Module-Build-0.400.400 >=dev-perl/Path-Tiny-0.77.0 >=virtual/perl-Archive-Tar-1.400.0 >=virtual/perl-HTTP-Tiny-0.44.0 >=virtual/perl-Scalar-List-Utils-1.450.0 >=virtual/perl-Text-ParseWords-3.260.0 dev-perl/Archive-Extract dev-perl/HTML-Parser dev-perl/Shell-Config-Generate dev-perl/Shell-Guess dev-perl/Sort-Versions dev-perl/URI virtual/perl-JSON-PP virtual/perl-parent   test? ( >=dev-perl/Test2-Suite-0.0.71 )  
-RDEPEND= >=dev-perl/Alien-Build-1.200.0 >=dev-perl/Capture-Tiny-0.170.0 >=dev-perl/File-chdir-0.100.500 >=dev-perl/Module-Build-0.400.400 >=dev-perl/Path-Tiny-0.77.0 >=virtual/perl-Archive-Tar-1.400.0 >=virtual/perl-HTTP-Tiny-0.44.0 >=virtual/perl-Scalar-List-Utils-1.450.0 >=virtual/perl-Text-ParseWords-3.260.0 dev-perl/Archive-Extract dev-perl/HTML-Parser dev-perl/Shell-Config-Generate dev-perl/Shell-Guess dev-perl/Sort-Versions dev-perl/URI virtual/perl-JSON-PP virtual/perl-parent  
-EAPI=6
-IUSE=test 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/P/PL/PLICEASE/Alien-Base-ModuleBuild-1.06.tar.gz

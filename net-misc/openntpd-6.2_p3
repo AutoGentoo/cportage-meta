@@ -1,9 +1,0 @@
-8fe6701fca00b8ca7ff7cd204fa85f33
-DEFINED_PHASES= configure install postinst prepare setup
-DEPEND=  !<=net-misc/ntp-4.2.0-r2  !net-misc/ntp[-openntpd]  libressl? ( dev-libs/libressl:0= ) 
-RDEPEND=    !<=net-misc/ntp-4.2.0-r2  !net-misc/ntp[-openntpd]  libressl? ( dev-libs/libressl:0= )  selinux? ( sec-policy/selinux-ntp ) 
-EAPI=6
-IUSE=libressl selinux 
-KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
-SLOT=0
-SRC_URI=mirror://openbsd/OpenNTPD/openntpd-6.2p3.tar.gz

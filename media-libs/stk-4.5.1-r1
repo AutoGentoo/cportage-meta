@@ -1,9 +1,0 @@
-8d09b29686408dceb1e5ffd670f43c4f
-DEFINED_PHASES= configure install prepare
-DEPEND=alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack )  virtual/pkgconfig  dev-lang/perl 
-RDEPEND=alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack ) 
-EAPI=6
-IUSE=alsa debug doc jack oss static-libs 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://ccrma.stanford.edu/software/stk/release/stk-4.5.1.tar.gz

@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-EAPI=7
-IUSE=debug 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=https://github.com/sflow/sflowtool/releases/download/v5.04/sflowtool-5.04.tar.gz

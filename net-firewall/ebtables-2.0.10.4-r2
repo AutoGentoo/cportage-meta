@@ -1,8 +1,0 @@
-4061a9ac27e9978675b6d3bd5a856d08
-DEFINED_PHASES= compile install prepare setup
-RDEPEND=perl? ( dev-lang/perl )  net-misc/ethertypes 
-EAPI=6
-IUSE=+perl static 
-KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/ebtables/ebtables-v2.0.10-4.tar.gz

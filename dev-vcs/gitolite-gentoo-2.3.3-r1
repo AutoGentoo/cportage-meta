@@ -1,9 +1,0 @@
-cedb4ab2c898d98c5695ed8a3bba877d
-DEFINED_PHASES= install postinst prepare setup
-DEPEND=dev-lang/perl  virtual/perl-File-Path  virtual/perl-File-Temp  >=dev-vcs/git-1.6.6 
-RDEPEND=dev-lang/perl  virtual/perl-File-Path  virtual/perl-File-Temp  >=dev-vcs/git-1.6.6  !dev-vcs/gitolite  dev-perl/Net-SSH-AuthorizedKeysFile  vim-syntax? ( app-vim/gitolite-syntax ) 
-EAPI=5
-IUSE=contrib vim-syntax 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://gentoo/gitolite-gentoo-2.3.3.tar.bz2

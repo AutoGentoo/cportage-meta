@@ -1,9 +1,0 @@
-6a59b766afc9809643ce798859f0df84
-DEFINED_PHASES= install postinst prepare
-DEPEND=>=dev-libs/elfutils-0.100[static-libs(+)]  selinux? ( sys-libs/libselinux[static-libs(+)] )  !dev-libs/libelf  >=sys-libs/glibc-2.8 
-RDEPEND=>=dev-libs/elfutils-0.100[static-libs(+)]  selinux? ( sys-libs/libselinux[static-libs(+)] )  !dev-libs/libelf  >=sys-libs/glibc-2.8  >=sys-devel/binutils-2.18 
-EAPI=4
-IUSE=selinux 
-KEYWORDS=amd64 -arm ppc ppc64 x86
-SLOT=0
-SRC_URI=mirror://gentoo/prelink-20130503.tar.bz2

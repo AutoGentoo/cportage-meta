@@ -1,9 +1,0 @@
-9213221c94f8526b35a4c78e57b35fc3
-DEFINED_PHASES= compile configure install postinst postrm prepare setup
-DEPEND=sys-libs/zlib  >=media-libs/libzen-0.4.37  ~media-libs/libmediainfo-19.09[curl=,mms=]  wxwidgets? ( x11-libs/wxGTK:3.0[X] )  virtual/pkgconfig 
-RDEPEND=sys-libs/zlib  >=media-libs/libzen-0.4.37  ~media-libs/libmediainfo-19.09[curl=,mms=]  wxwidgets? ( x11-libs/wxGTK:3.0[X] ) 
-EAPI=6
-IUSE=curl mms wxwidgets 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://mediaarea.net/download/source/mediainfo/19.09/mediainfo_19.09.tar.xz

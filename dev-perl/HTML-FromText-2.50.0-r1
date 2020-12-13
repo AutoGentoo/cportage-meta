@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-perl/HTML-Parser  virtual/perl-Test-Simple  dev-perl/Exporter-Lite  >=virtual/perl-Scalar-List-Utils-1.14  dev-perl/Email-Find 
-RDEPEND=dev-perl/HTML-Parser  virtual/perl-Test-Simple  dev-perl/Exporter-Lite  >=virtual/perl-Scalar-List-Utils-1.14  dev-perl/Email-Find 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 hppa ~mips ppc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/C/CW/CWEST/HTML-FromText-2.05.tar.gz

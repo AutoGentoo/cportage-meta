@@ -1,8 +1,0 @@
-aeef3b4ebeb84093f113893179f6c2fb
-DEFINED_PHASES= install postinst prepare
-RDEPEND=app-admin/sudo  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   >=dev-libs/expat-2  dev-libs/glib:2  dev-libs/nspr  dev-libs/nss  dev-python/psutil  gnome-base/gconf:2  media-libs/fontconfig  media-libs/freetype:2  sys-devel/gcc  sys-libs/glibc  sys-libs/pam  x11-apps/xdpyinfo  x11-apps/setxkbmap  x11-libs/cairo  x11-libs/gtk+:2  x11-libs/libX11  x11-libs/libXdamage  x11-libs/libXext  x11-libs/libXfixes  x11-libs/libXi  x11-libs/libXrandr  x11-libs/libXtst  x11-libs/pango  xrandr? ( x11-apps/xrandr )  x11-base/xorg-server[xvfb] 
-EAPI=6
-IUSE=xrandr 
-KEYWORDS=-* ~amd64
-SLOT=0
-SRC_URI=amd64? ( https://dl.google.com/linux/chrome-remote-desktop/deb/pool/main/c/chrome-remote-desktop/chrome-remote-desktop_77.0.3865.32_amd64.deb )

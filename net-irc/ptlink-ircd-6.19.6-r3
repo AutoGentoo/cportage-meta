@@ -1,8 +1,0 @@
-c0d41810d68c6263a69fd02cef70f7fd
-DEFINED_PHASES= compile configure install postinst prepare
-DEPEND=  sys-libs/zlib  ssl? ( dev-libs/openssl:0= ) 
-EAPI=6
-IUSE=ssl 
-KEYWORDS=~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=ftp://ftp.sunsite.dk/projects/ptlink/ircd/PTlink6.19.6.tar.gz

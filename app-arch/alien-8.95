@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  app-arch/rpm  app-arch/dpkg  dev-util/debhelper  >=app-arch/tar-1.14.91  bzip2? (   app-arch/bzip2  ) 
-RDEPEND=  app-arch/rpm  app-arch/dpkg  dev-util/debhelper  >=app-arch/tar-1.14.91  bzip2? (   app-arch/bzip2  ) 
-EAPI=5
-IUSE=+bzip2 
-KEYWORDS=alpha amd64 hppa ppc ppc64 x86
-SLOT=0
-SRC_URI=mirror://debian/pool/main/a/alien/alien_8.95.tar.xz -> alien-8.95.tar.xz

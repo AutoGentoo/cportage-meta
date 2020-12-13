@@ -1,9 +1,0 @@
-f5c33ebd6a858b16fd2a069ce7c8fd1c
-DEFINED_PHASES= configure
-DEPEND=  x11-libs/gtk+:2  >=gnome-base/libglade-2  media-libs/libsamplerate  ao? ( media-libs/libao )  audiofile? ( media-libs/audiofile )  flac? ( media-libs/flac )  jack? ( media-sound/jack-audio-connection-kit )  libav? ( media-video/libav:= )  !libav? ( >=media-video/ffmpeg-2.8:0= )  mad? ( media-libs/libmad )  modplug? ( media-libs/libmodplug )  opus? ( media-libs/opusfile )  vorbis? ( media-libs/libvorbis )   virtual/pkgconfig  
-RDEPEND=  x11-libs/gtk+:2  >=gnome-base/libglade-2  media-libs/libsamplerate  ao? ( media-libs/libao )  audiofile? ( media-libs/audiofile )  flac? ( media-libs/flac )  jack? ( media-sound/jack-audio-connection-kit )  libav? ( media-video/libav:= )  !libav? ( >=media-video/ffmpeg-2.8:0= )  mad? ( media-libs/libmad )  modplug? ( media-libs/libmodplug )  opus? ( media-libs/opusfile )  vorbis? ( media-libs/libvorbis )  
-EAPI=6
-IUSE=+ao audiofile flac jack libav mad modplug opus vorbis 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=http://offog.org/files/potamus-16.tar.gz

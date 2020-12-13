@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install test
-DEPEND=dev-libs/expat  >=dev-lang/ocaml-3.10.2:=[ocamlopt?]  test? ( dev-ml/ounit ) 
-RDEPEND=dev-libs/expat  >=dev-lang/ocaml-3.10.2:=[ocamlopt?] 
-EAPI=5
-IUSE=doc +ocamlopt test 
-KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
-SLOT=0/1.0.0
-SRC_URI=https://github.com/whitequark/ocaml-expat/archive/v1.0.0.tar.gz -> ocaml-expat-1.0.0.tar.gz

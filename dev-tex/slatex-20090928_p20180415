@@ -1,9 +1,0 @@
-afaeee951d477394000cea7dd857d8d3
-DEFINED_PHASES= compile install prepare
-DEPEND=dev-scheme/guile  dev-scheme/scmxlate 
-RDEPEND=dev-scheme/guile 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://www.ccs.neu.edu/home/dorai/slatex/slatex.tar.bz2 -> slatex-20090928_p20180415.tar.bz2

@@ -1,9 +1,0 @@
-523b07c8d72d60fd102276060e870727
-DEFINED_PHASES= compile install prepare
-DEPEND=    app-crypt/gpgme:=  app-emulation/runc  dev-libs/glib:=  dev-libs/libassuan:=  dev-libs/libgpg-error:=  net-firewall/conntrack-tools  net-firewall/iptables  net-misc/cni-plugins  net-misc/socat  sys-apps/iproute2  btrfs? ( sys-fs/btrfs-progs )  device-mapper? ( sys-fs/lvm2:= )  ostree? ( dev-util/ostree )  seccomp? ( sys-libs/libseccomp:= )  selinux? ( sys-libs/libselinux:= )  dev-go/go-md2man 
-RDEPEND=  app-crypt/gpgme:=  app-emulation/runc  dev-libs/glib:=  dev-libs/libassuan:=  dev-libs/libgpg-error:=  net-firewall/conntrack-tools  net-firewall/iptables  net-misc/cni-plugins  net-misc/socat  sys-apps/iproute2  btrfs? ( sys-fs/btrfs-progs )  device-mapper? ( sys-fs/lvm2:= )  ostree? ( dev-util/ostree )  seccomp? ( sys-libs/libseccomp:= )  selinux? ( sys-libs/libselinux:= ) 
-EAPI=6
-IUSE=btrfs +device-mapper ostree seccomp selinux 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/kubernetes-incubator/cri-o/archive/v1.10.6.tar.gz -> cri-o-1.10.6.tar.gz

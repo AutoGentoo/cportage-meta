@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile test
-DEPEND=  dev-ml/jbuilder  test? (   dev-ml/ounit  )    >=dev-lang/ocaml-4:=  dev-ml/dns-lwt:=  dev-ml/dns:=  dev-ml/cmdliner:=  dev-ml/mirage-profile:=  dev-ml/ocaml-ipaddr:=   
-RDEPEND=  >=dev-lang/ocaml-4:=  dev-ml/dns-lwt:=  dev-ml/dns:=  dev-ml/cmdliner:=  dev-ml/mirage-profile:=  dev-ml/ocaml-ipaddr:=  
-EAPI=5
-IUSE=test 
-KEYWORDS=~amd64
-SLOT=0/1.0.0
-SRC_URI=https://github.com/mirage/ocaml-dns/archive/v1.0.0.tar.gz -> ocaml-dns-1.0.0.tar.gz

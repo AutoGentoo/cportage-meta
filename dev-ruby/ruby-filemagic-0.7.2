@@ -1,9 +1,15 @@
-58252ce25fd3156eec83f50bb4229412
-DEFINED_PHASES=-
-DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26] ) ) sys-apps/file test? ( >=sys-apps/file-5.30 ) 
-RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26] ) sys-apps/file 
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=sys-apps/file test? ( >=sys-apps/file-5.30 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby27? ( dev-lang/ruby:2.7 ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] !!dev-ruby/psych[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] !!dev-ruby/psych[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] !!dev-ruby/psych[ruby_targets_ruby27(-)] ) test? ( ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] ) )
+DESCRIPTION=Ruby binding to libmagic
 EAPI=6
-IUSE=
+HOMEPAGE=https://github.com/blackwinter/ruby-filemagic
+IUSE=ruby_targets_ruby25 ruby_targets_ruby26 ruby_targets_ruby27 test
 KEYWORDS=~amd64 ~hppa ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~x86-solaris
+LICENSE=Ruby
+RDEPEND=sys-apps/file ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby27? ( dev-lang/ruby:2.7 ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] ) ruby_targets_ruby27? ( virtual/rubygems[ruby_targets_ruby27(-)] )
+REQUIRED_USE=|| ( ruby_targets_ruby25 ruby_targets_ruby26 ruby_targets_ruby27 )
+RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=https://rubygems.org/gems/ruby-filemagic-0.7.2.gem
+_eclasses_=estack	686eaab303305a908fd57b2fd7617800	multilib	d410501a125f99ffb560b0c523cd3d1e	ruby-fakegem	6ee14a23a169409059ed36d4dddc3197	ruby-ng	676004cfb6cdf3dedf1c778d56346624	ruby-utils	927b40774937983813d360c726615e54	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=bcbc9d844a03c3f33c693e03187ae986

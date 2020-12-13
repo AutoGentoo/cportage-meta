@@ -1,8 +1,0 @@
-0b8b7b9ccc992e1d3f8fa2703ec0fbe0
-DEFINED_PHASES= compile prepare test
-DEPEND=>=dev-go/go-sys-0_pre20180816:= 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~arm ~x86
-SLOT=0/0_pre20180816
-SRC_URI=https://github.com/golang/crypto/archive/aabede6cba87e37f413b3e60ebfc214f8eeca1b0.tar.gz -> go-crypto-0_pre20180816.tar.gz

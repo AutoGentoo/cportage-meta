@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-db/sqlite:3  dev-libs/openssl:0=  dev-libs/xapian:=  net-mail/notmuch:=   
-RDEPEND=dev-db/sqlite:3  dev-libs/openssl:0=  dev-libs/xapian:=  net-mail/notmuch:=    net-misc/openssh   
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=http://www.muchsync.org/src/muchsync-4.tar.gz

@@ -1,9 +1,0 @@
-240e15b757c52fde4773856d795d6559
-DEFINED_PHASES= configure prepare
-DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5[-gles2]  dev-qt/qtmultimedia:5  dev-qt/qtopengl:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  >=sci-libs/fftw-3.3.4:3.0=  virtual/opengl  alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack )  portaudio? ( media-libs/portaudio )   dev-qt/linguist-tools:5  
-RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5[-gles2]  dev-qt/qtmultimedia:5  dev-qt/qtopengl:5  dev-qt/qtsvg:5  dev-qt/qtwidgets:5  >=sci-libs/fftw-3.3.4:3.0=  virtual/opengl  alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack )  portaudio? ( media-libs/portaudio )  
-EAPI=7
-IUSE=alsa jack oss portaudio 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/gillesdegottex/fmit/archive/v1.0.15.tar.gz -> fmit-1.0.15.tar.gz

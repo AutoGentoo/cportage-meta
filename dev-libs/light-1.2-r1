@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
-DEPEND=udev? ( virtual/libudev:= )    
-EAPI=7
-IUSE=udev 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/haikarainen/light/archive/v1.2.tar.gz -> light-1.2.tar.gz

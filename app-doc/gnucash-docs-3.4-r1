@@ -1,8 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= compile install postinst prepare
-DEPEND=  app-text/docbook-xml-dtd  app-text/docbook-xsl-stylesheets  app-text/rarian  dev-libs/libxml2  dev-libs/libxslt  
-EAPI=6
-IUSE=l10n_de l10n_it l10n_ja l10n_pt l10n_ru 
-KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=https://github.com/Gnucash/gnucash-docs/archive/3.4.tar.gz -> gnucash-docs-3.4.tar.gz

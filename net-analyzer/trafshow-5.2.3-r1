@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DEPEND=net-libs/libpcap !slang? ( sys-libs/ncurses ) slang? ( >=sys-libs/slang-1.4 )
+DESCRIPTION=Full screen visualization of the network traffic
+EAPI=7
+HOMEPAGE=http://soft.risp.ru/trafshow/index_en.shtml
+IUSE=slang
+KEYWORDS=amd64 ~hppa ~ppc ppc64 sparc x86
+LICENSE=BSD
+SLOT=3
+SRC_URI=ftp://ftp.nsk.su/pub/RinetSoftware/trafshow-5.2.3.tgz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=f826b241de7f5267d6b92dab4715e7ef

@@ -1,7 +1,0 @@
-e564ae6842acfc4739ff5ced3076b11d
-DEFINED_PHASES= config install postinst setup
-EAPI=5
-IUSE=
-KEYWORDS=x86
-SLOT=0
-SRC_URI=https://savannah.nongnu.org/download/ip-sentinel/ip-sentinel-0.12.tar.bz2

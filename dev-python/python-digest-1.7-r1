@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-python/setuptools 
-EAPI=5
-IUSE=test 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://pypi/p/python-digest/python-digest-1.7.tar.gz

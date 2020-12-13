@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-EAPI=7
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.160-1/virtio-win-0.1.160.iso

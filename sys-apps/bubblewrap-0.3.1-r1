@@ -1,9 +1,0 @@
-f76334b70ebea035105ff791178860a9
-DEFINED_PHASES= configure setup
-DEPEND=  sys-libs/libseccomp  sys-libs/libcap  selinux? ( >=sys-libs/libselinux-2.1.9 )   app-text/docbook-xml-dtd:4.3  app-text/docbook-xsl-stylesheets  dev-libs/libxslt  virtual/pkgconfig  
-RDEPEND=  sys-libs/libseccomp  sys-libs/libcap  selinux? ( >=sys-libs/libselinux-2.1.9 )  
-EAPI=7
-IUSE=selinux +suid 
-KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86
-SLOT=0
-SRC_URI=https://github.com/projectatomic/bubblewrap/releases/download/v0.3.1/bubblewrap-0.3.1.tar.xz

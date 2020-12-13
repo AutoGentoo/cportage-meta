@@ -1,9 +1,0 @@
-b2ae5565209b0afa192e57afd59cda57
-DEFINED_PHASES= compile configure install postinst postrm preinst
-DEPEND=>=dev-libs/dbus-glib-0.100  dev-libs/glib:2  x11-libs/gtk+:3  x11-libs/libICE  x11-libs/libSM  x11-libs/vte:2.91  !x11-terms/roxterm:0  || ( dev-lang/python:3.6 )  dev-libs/libxslt  dev-python/lockfile  virtual/pkgconfig  virtual/imagemagick-tools  nls? ( app-text/po4a sys-devel/gettext ) 
-RDEPEND=>=dev-libs/dbus-glib-0.100  dev-libs/glib:2  x11-libs/gtk+:3  x11-libs/libICE  x11-libs/libSM  x11-libs/vte:2.91  !x11-terms/roxterm:0 
-EAPI=5
-IUSE=nls 
-KEYWORDS=amd64 x86
-SLOT=1
-SRC_URI=mirror://sourceforge/roxterm/roxterm-3.1.5.tar.xz

@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=|| ( >=dev-lang/python-2.7.5-r2:2.7 ) 
-EAPI=5
-IUSE=static-libs 
-KEYWORDS=amd64 arm arm64 hppa ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=https://github.com/steve-o/openpgm/archive/release-5-2-122.tar.gz -> openpgm-5.2.122.tar.gz

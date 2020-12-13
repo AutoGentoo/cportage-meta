@@ -1,8 +1,0 @@
-1d11f669708d53b358f0357709940152
-DEFINED_PHASES= compile configure install test
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=http://void.crufty.net/ftp/pub/sjg/bmake-20170510.tar.gz
-		http://void.crufty.net/ftp/pub/sjg/mk-20170505.tar.gz

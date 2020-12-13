@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare setup
-DEPEND=  app-text/asciidoc  virtual/pkgconfig    sys-libs/ncurses:0=[unicode]   
-RDEPEND=  sys-libs/ncurses:0=[unicode]  
-EAPI=6
-IUSE=debug static 
-KEYWORDS=
-SLOT=0
-SRC_URI=

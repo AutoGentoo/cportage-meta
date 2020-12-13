@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=  dev-lang/tk:0  dev-tcltk/tcllib 
-RDEPEND=  dev-lang/tk:0  dev-tcltk/tcllib 
+DEFINED_PHASES=compile install
+DEPEND=dev-lang/tk:0 dev-tcltk/tcllib
+DESCRIPTION=Collection of utility modules for Tk, and a companion to Tcllib
 EAPI=6
-IUSE=doc 
+HOMEPAGE=http://www.tcl.tk/software/tklib
+IUSE=doc
 KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-lang/tk:0 dev-tcltk/tcllib
 SLOT=0
 SRC_URI=http://core.tcl.tk/tklib/raw/tklib-0.6.tar.bz2?name=6a397dec6188148cf6a6fe290cf2bd92a9190c42 -> tklib-0.6.tar.bz2
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=84c8e9d00da42339be29d8b04cfd2801

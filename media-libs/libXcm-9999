@@ -1,10 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
-DEPEND=  X? (   x11-libs/libX11   x11-libs/libXfixes   x11-libs/libXmu  )   x11-base/xorg-proto 
-RDEPEND=  X? (   x11-libs/libX11   x11-libs/libXfixes   x11-libs/libXmu  )  
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=X? ( x11-libs/libX11 x11-libs/libXfixes x11-libs/libXmu ) x11-base/xorg-proto
+DESCRIPTION=Reference implementation of the X Color Management specification
 EAPI=7
-IUSE=static-libs X 
-KEYWORDS=
+HOMEPAGE=https://www.oyranos.org/libxcm/
+IUSE=static-libs X
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=X? ( x11-libs/libX11 x11-libs/libXfixes x11-libs/libXmu )
 SLOT=0
-SRC_URI=
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=c488169be38a0c9ff6f1cb0e270ef247

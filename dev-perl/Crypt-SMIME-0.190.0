@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  !libressl? ( >=dev-libs/openssl-0.9.9:0 )  libressl? ( dev-libs/libressl )  virtual/perl-XSLoader   virtual/perl-ExtUtils-MakeMaker  dev-perl/ExtUtils-PkgConfig  dev-perl/ExtUtils-CChecker  >=virtual/perl-ExtUtils-Constant-0.230.0  test? (   dev-perl/Test-Exception   virtual/perl-Test-Simple   !minimal? (    >=dev-perl/Test-Taint-1.60.0    >=dev-perl/Taint-Util-0.80.0   )  )  
-RDEPEND=  !libressl? ( >=dev-libs/openssl-0.9.9:0 )  libressl? ( dev-libs/libressl )  virtual/perl-XSLoader  
-EAPI=6
-IUSE=libressl test minimal 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MI/MIKAGE/Crypt-SMIME-0.19.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=>=dev-python/httplib2-0.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/oauth2client-1.5.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/six-1.9.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/google-apputils-0.4.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/python-gflags-3.0.6[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/setuptools-18.5[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=>=dev-python/httplib2-0.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/oauth2client-1.5.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/six-1.9.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/google-apputils-0.4.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/python-gflags-3.0.6[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~arm ~x86
-SLOT=0
-SRC_URI=https://github.com/google/apitools/archive/v0.5.16.tar.gz -> google-apitools-0.5.16.tar.gz

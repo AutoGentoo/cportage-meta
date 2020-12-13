@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  >=dev-perl/Moo-1.6.0  >=dev-perl/Type-Tiny-1.0.1   >=virtual/perl-ExtUtils-MakeMaker-6.170.0  test? (   >=dev-perl/Test-Fatal-0.10.0   >=virtual/perl-Test-Simple-0.960.0   >=dev-perl/Test-Requires-0.60.0  )  
-RDEPEND=  >=dev-perl/Moo-1.6.0  >=dev-perl/Type-Tiny-1.0.1  
-EAPI=5
-IUSE=test 
-KEYWORDS=amd64 hppa ppc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/T/TO/TOBYINK/MooX-late-0.015.tar.gz

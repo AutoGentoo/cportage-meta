@@ -1,9 +1,0 @@
-3964ad9f64f9095627c8a9a3bac3db45
-DEFINED_PHASES= compile install postinst prepare setup
-DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[xml]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   x11-libs/libX11  x11-libs/libXrandr 
-RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7[xml]    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   x11-libs/libX11  x11-libs/libXrandr  dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  dev-python/py-notify[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  x11-apps/xinput 
-EAPI=5
-IUSE=+python_targets_python2_7 +python_single_target_python2_7 
-KEYWORDS=-* ~amd64 ~x86
-SLOT=0
-SRC_URI=https://launchpad.net/magick-rotation/trunk/1.6/+download/magick-rotation-1.6.2.tar.bz2

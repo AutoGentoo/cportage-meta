@@ -1,9 +1,0 @@
-d4935075886d5f34e51c348744ffc478
-DEFINED_PHASES= configure install prepare
-DEPEND=  app-text/hunspell  sys-libs/zlib  x11-libs/libX11  x11-libs/libXext  app-text/poppler[qt5]  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtlockedfile  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtwebkit:5[printsupport]  dev-qt/qtwidgets:5  dev-qt/qtxml:5   virtual/pkgconfig 
-RDEPEND=  app-text/hunspell  sys-libs/zlib  x11-libs/libX11  x11-libs/libXext  app-text/poppler[qt5]  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtlockedfile  dev-qt/qtnetwork:5  dev-qt/qtscript:5  dev-qt/qtsingleapplication[X,qt5(+)]  dev-qt/qtwebkit:5[printsupport]  dev-qt/qtwidgets:5  dev-qt/qtxml:5   app-text/ghostscript-gpl  app-text/psutils  media-libs/netpbm  virtual/latex-base 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~ppc64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://www.xm1math.net/texmaker/texmaker-5.0.tar.bz2

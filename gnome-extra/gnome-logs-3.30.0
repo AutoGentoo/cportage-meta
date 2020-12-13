@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure postinst postrm test
-DEPEND=  gnome-base/gsettings-desktop-schemas  >=dev-libs/glib-2.43.90:2  >=x11-libs/gtk+-3.22:3  sys-apps/systemd:=   dev-util/glib-utils  >=sys-devel/gettext-0.19.8  ~app-text/docbook-xml-dtd-4.3  dev-libs/libxml2:2  dev-libs/libxslt  dev-util/itstool  virtual/pkgconfig  
-RDEPEND=  gnome-base/gsettings-desktop-schemas  >=dev-libs/glib-2.43.90:2  >=x11-libs/gtk+-3.22:3  sys-apps/systemd:=  
-EAPI=6
-IUSE=test 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://gnome/sources/gnome-logs/3.30/gnome-logs-3.30.0.tar.xz

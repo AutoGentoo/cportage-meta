@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~sparc ~x86
-SLOT=0
-SRC_URI=https://github.com/samhocevar/zzuf/releases/download/v0.15/zzuf-0.15.tar.bz2

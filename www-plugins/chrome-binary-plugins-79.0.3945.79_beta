@@ -1,8 +1,0 @@
-425e0a7c9f6b70f8ae99c3c00cd29bbc
-DEFINED_PHASES= install nofetch
-RDEPEND=  dev-libs/glib:2  dev-libs/nspr  dev-libs/nss  !<www-client/chromium-57[widevine(-)]  !www-plugins/chrome-binary-plugins:0 !www-plugins/chrome-binary-plugins:stable !www-plugins/chrome-binary-plugins:unstable 
-EAPI=6
-IUSE=
-KEYWORDS=-* ~amd64
-SLOT=beta
-SRC_URI=https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-beta/google-chrome-beta_79.0.3945.79-1_amd64.deb

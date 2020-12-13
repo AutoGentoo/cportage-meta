@@ -1,9 +1,0 @@
-1287a93b416f22d81ea8d0f71267fdc6
-DEFINED_PHASES= compile configure install preinst
-DEPEND=dev-lang/lua   curl? ( net-misc/curl )   openssl? ( dev-libs/openssl ) 
-RDEPEND=dev-lang/lua   curl? ( net-misc/curl )   openssl? ( dev-libs/openssl )   app-arch/unzip 
-EAPI=4
-IUSE=curl openssl 
-KEYWORDS=amd64 ~ppc x86
-SLOT=0
-SRC_URI=http://luarocks.org/releases/luarocks-2.2.0.tar.gz

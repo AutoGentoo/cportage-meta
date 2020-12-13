@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-RDEPEND=szip? ( !sci-libs/szip ) 
-EAPI=6
-IUSE=static-libs +szip 
-KEYWORDS=~amd64 ~arm64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0/2
-SRC_URI=https://gitlab.dkrz.de/k202009/libaec/uploads/631e85bcf877c2dcaca9b2e6d6526339/libaec-1.0.0.tar.gz

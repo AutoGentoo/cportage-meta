@@ -1,9 +1,0 @@
-41edcb61010ab31e6fee1613ba4f2983
-DEFINED_PHASES= install postinst prepare setup
-DEPEND=app-arch/tar   app-arch/gzip 
-RDEPEND=>=virtual/jdk-1.5  >=dev-java/ant-core-1.6.5  dev-java/swt:3.7[cairo]  sys-libs/zlib[abi_x86_32(-)]  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://dl.google.com/android/android-sdk_r23-linux.tgz

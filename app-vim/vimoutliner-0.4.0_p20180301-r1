@@ -1,9 +1,0 @@
-62c36ec054ae532c1699b4cb28124727
-DEFINED_PHASES= compile prepare
-DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-python/autopep8[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] 
-RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   dev-python/autopep8[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] 
-EAPI=6
-IUSE=+python_targets_python2_7 +python_single_target_python2_7 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/vimoutliner/vimoutliner/archive/4f12628247940d98eedd594961695dc504261058.tar.gz -> vimoutliner-0.4.0_p20180301.tar.gz

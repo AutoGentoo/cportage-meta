@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-BDEPEND=  >=dev-qt/qtcore-5.12.3:5  >=kde-frameworks/extra-cmake-modules-5.64:5  test? ( app-misc/fdupes )  
-DEPEND=test? ( dev-qt/qttest:5 ) 
-EAPI=7
-IUSE=test 
-KEYWORDS=amd64 ~arm arm64 ~ppc ~ppc64 x86
-SLOT=5/5.64
-SRC_URI=mirror://kde/stable/frameworks/5.64/oxygen-icons5-5.64.0.tar.xz

@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
-RDEPEND=dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  compressed? ( || ( app-arch/unrar app-arch/rar ) ) 
-EAPI=6
-IUSE=+compressed 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://pypi/r/rarfile/rarfile-3.0.tar.gz

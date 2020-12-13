@@ -1,9 +1,0 @@
-af8f5561ab70f2081759c946074b73e2
-DEFINED_PHASES= configure install postinst prepare
-DEPEND=media-gfx/imagemagick  media-libs/libmpeg2:=  ffmpeg? ( virtual/ffmpeg )  !media-plugins/vdr-markad  virtual/pkgconfig 
-RDEPEND=media-gfx/imagemagick  media-libs/libmpeg2:=  ffmpeg? ( virtual/ffmpeg )  !media-plugins/vdr-markad 
-EAPI=6
-IUSE=ffmpeg 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=http://noad.heliohost.org/noad-0.7.3.tar.bz2

@@ -1,9 +1,0 @@
-e34fe443b7cb128490c622f20f058b34
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=  sys-libs/readline:0=  x11-libs/motif:0=  x11-libs/libX11:=  x11-libs/libXt:= 
-RDEPEND=  sys-libs/readline:0=  x11-libs/motif:0=  x11-libs/libX11:=  x11-libs/libXt:= 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0/8
-SRC_URI=ftp://ftp.eso.org/pub/midaspub/17FEB/sources/17FEBpl1.2.tar.gz -> esomidas-17.02.tar.gz

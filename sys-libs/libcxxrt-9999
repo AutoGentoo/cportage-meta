@@ -1,9 +1,0 @@
-e9336fb76f92b9e073d31b794880f9bf
-DEFINED_PHASES= prepare pretend setup
-DEPEND=libunwind? ( || ( >=sys-libs/libunwind-1.0.1-r1[static-libs?,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   sys-libs/llvm-libunwind[static-libs?,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) )  >=dev-vcs/git-1.8.2.1[curl] 
-RDEPEND=libunwind? ( || ( >=sys-libs/libunwind-1.0.1-r1[static-libs?,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   sys-libs/llvm-libunwind[static-libs?,abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) ) 
-EAPI=5
-IUSE=+libunwind +static-libs test 
-KEYWORDS=
-SLOT=0
-SRC_URI=

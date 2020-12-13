@@ -1,7 +1,0 @@
-57754efafb9e514b4ec4ea713f6ab6dd
-DEFINED_PHASES=-
-EAPI=5
-IUSE=
-KEYWORDS=alpha amd64 arm hppa ia64 ~m68k ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos
-SLOT=0
-SRC_URI=https://www.mems-exchange.org/software/files/sancho/Sancho-2.4.tar.gz

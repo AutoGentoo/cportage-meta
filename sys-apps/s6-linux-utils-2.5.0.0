@@ -1,9 +1,12 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= configure prepare
-DEPEND=static? ( >=dev-libs/skalibs-2.7.0.0[static-libs] )  !static? ( >=dev-libs/skalibs-2.7.0.0 )  
-RDEPEND=!static? ( >=dev-libs/skalibs-2.7.0.0:= ) 
+DEFINED_PHASES=configure prepare
+DEPEND=static? ( >=dev-libs/skalibs-2.7.0.0[static-libs] ) !static? ( >=dev-libs/skalibs-2.7.0.0 )
+DESCRIPTION=set of tiny linux utilities
 EAPI=7
-IUSE=static 
+HOMEPAGE=https://www.skarnet.org/software/s6-linux-utils/
+IUSE=static
 KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RDEPEND=!static? ( >=dev-libs/skalibs-2.7.0.0:= )
 SLOT=0
 SRC_URI=https://www.skarnet.org/software/s6-linux-utils/s6-linux-utils-2.5.0.0.tar.gz
+_md5_=ce43c151e7fbe07bb89ac38523cbf6c3

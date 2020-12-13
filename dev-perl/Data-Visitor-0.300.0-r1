@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  >=dev-perl/Class-Load-0.60.0  >=dev-perl/Moose-0.890.0  >=dev-perl/namespace-clean-0.190.0  >=dev-perl/Tie-ToObject-0.01   test? (   dev-perl/Test-Requires  )  
-RDEPEND=  >=dev-perl/Class-Load-0.60.0  >=dev-perl/Moose-0.890.0  >=dev-perl/namespace-clean-0.190.0  >=dev-perl/Tie-ToObject-0.01  
-EAPI=5
-IUSE=test 
-KEYWORDS=~amd64 ~x86 ~x64-macos
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/D/DO/DOY/Data-Visitor-0.30.tar.gz

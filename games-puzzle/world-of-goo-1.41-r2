@@ -1,8 +1,0 @@
-6ef7b865a49233ead06f67479872070f
-DEFINED_PHASES= install nofetch
-RDEPEND=media-libs/libsdl[alsa,sound,opengl,video]  media-libs/sdl-mixer[vorbis]  sys-libs/glibc  virtual/opengl  virtual/glu  >=sys-devel/gcc-3.4 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=WorldOfGooSetup.1.41.tar.gz

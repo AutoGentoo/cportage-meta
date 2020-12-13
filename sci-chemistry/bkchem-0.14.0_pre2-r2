@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=cairo? ( dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-RDEPEND=cairo? ( dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-EAPI=5
-IUSE=cairo 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://bkchem.zirael.org/download/bkchem-0.14.0-pre2.tar.gz

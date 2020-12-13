@@ -1,9 +1,0 @@
-dd129c1f897838449438decee47086fd
-DEFINED_PHASES= compile configure install prepare
-DEPEND=  X? ( x11-libs/libX11   x11-libs/libXext   xv? ( x11-libs/libXv ) )  png? ( >=media-libs/libpng-1.2:0= )  >=app-text/texi2html-5 
-RDEPEND=  X? ( x11-libs/libX11   x11-libs/libXext   xv? ( x11-libs/libXv ) )  png? ( >=media-libs/libpng-1.2:0= ) 
-EAPI=5
-IUSE=X png unicode xv 
-KEYWORDS=amd64 arm ~ppc x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~ulm/distfiles/qemacs-0.4.1_pre20150916.tar.xz

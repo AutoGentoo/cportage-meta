@@ -1,7 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= install unpack
-EAPI=7
-IUSE=-deprecated 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=http://repo.radeon.com/rocm/apt/debian/pool/main/h/hsa-ext-rocr-dev/hsa-ext-rocr-dev_1.1.9-122-ge5c4efb_amd64.deb

@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=  >=media-libs/libsdl-1.2.4  >=media-libs/sdl-mixer-1.2  >=media-libs/sdl-image-1.2  media-libs/sdl-ttf  
-RDEPEND=  >=media-libs/libsdl-1.2.4  >=media-libs/sdl-mixer-1.2  >=media-libs/sdl-image-1.2  media-libs/sdl-ttf  
+DEFINED_PHASES=install prepare
+DEPEND=>=media-libs/libsdl-1.2.4 >=media-libs/sdl-mixer-1.2 >=media-libs/sdl-image-1.2 media-libs/sdl-ttf
+DESCRIPTION=Match rising tiles before reaching the top to score as many points as possible
 EAPI=6
-IUSE=
+HOMEPAGE=http://www.shiftygames.com/torrent/torrent.html
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libsdl-1.2.4 >=media-libs/sdl-mixer-1.2 >=media-libs/sdl-image-1.2 media-libs/sdl-ttf
 SLOT=0
 SRC_URI=http://www.shiftygames.com/torrent/torrent-0.8.2.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8
+_md5_=8bc56a032dda80c80d0ce25aa780ba7f

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=net-wireless/kismet 
-RDEPEND=net-wireless/kismet 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~arm ~arm64 ~ppc ~x86
-SLOT=0
-SRC_URI=https://github.com/elkentaro/KismetMobileDashboard/archive/V1.5-beta.1.tar.gz -> kismetmobiledashboard-1.5_beta1.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=    dev-db/unixODBC  mssql? ( dev-db/freetds[odbc] )  dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] 
-RDEPEND=  dev-db/unixODBC  mssql? ( dev-db/freetds[odbc] ) 
-EAPI=6
-IUSE=mssql 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://pypi/p/pyodbc/pyodbc-4.0.23.tar.gz

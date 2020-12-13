@@ -1,9 +1,0 @@
-77fc0b7f2b3c91b6fbb851709d898318
-DEFINED_PHASES= compile configure install postinst postrm
-DEPEND=>=dev-haskell/cpphs-1.11:=[profile?]  >=dev-haskell/haskell-src-exts-1.14:=[profile?] <dev-haskell/haskell-src-exts-1.15:=[profile?]  >=dev-haskell/hscolour-1.17:=[profile?]  >=dev-haskell/transformers-0.0:=[profile?]  >=dev-haskell/uniplate-1.5:=[profile?]  >=dev-lang/ghc-6.10.4:=  emacs? ( >=app-editors/emacs-23.1:* )   >=dev-haskell/cabal-1.6.0.3  
-RDEPEND=>=dev-haskell/cpphs-1.11:=[profile?]  >=dev-haskell/haskell-src-exts-1.14:=[profile?] <dev-haskell/haskell-src-exts-1.15:=[profile?]  >=dev-haskell/hscolour-1.17:=[profile?]  >=dev-haskell/transformers-0.0:=[profile?]  >=dev-haskell/uniplate-1.5:=[profile?]  >=dev-lang/ghc-6.10.4:=  emacs? ( >=app-editors/emacs-23.1:* )  
-EAPI=5
-IUSE=emacs 
-KEYWORDS=~amd64 ~x86
-SLOT=0/1.8.57
-SRC_URI=https://hackage.haskell.org/package/hlint-1.8.57/hlint-1.8.57.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Test-Simple  )  
-RDEPEND=  xs? ( >=dev-perl/Text-CSV_XS-1.20.0 )  virtual/perl-IO  
-EAPI=6
-IUSE=test +xs 
-KEYWORDS=alpha amd64 arm ia64 ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/I/IS/ISHIGAKI/Text-CSV-1.94.tar.gz

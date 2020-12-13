@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install postinst postrm preinst
-DEPEND=media-libs/libsdl[sound]  media-libs/sdl-mixer[midi,vorbis]  media-libs/sdl-sound[mp3]  dev-qt/qtcore:5  dev-qt/qtgui:5 
-RDEPEND=media-libs/libsdl[sound]  media-libs/sdl-mixer[midi,vorbis]  media-libs/sdl-sound[mp3]  dev-qt/qtcore:5  dev-qt/qtgui:5 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/qtads/qtads-2.1.7.tar.bz2

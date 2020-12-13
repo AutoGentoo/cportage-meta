@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=>=dev-libs/libowfat-0.28-r1  diet? ( dev-libs/dietlibc ) 
-EAPI=7
-IUSE=diet 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://dl.fefe.de/ncp-1.2.4.tar.bz2

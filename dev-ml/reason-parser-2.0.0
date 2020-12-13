@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile
-DEPEND=  >=dev-ml/menhir-20170418:=  dev-ml/merlin-extend:=  dev-ml/result:=  dev-ml/topkg:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/ppx_tools_versioned:=   dev-ml/ocamlbuild  
-RDEPEND=  >=dev-ml/menhir-20170418:=  dev-ml/merlin-extend:=  dev-ml/result:=  dev-ml/topkg:=  dev-ml/ocaml-migrate-parsetree:=  dev-ml/ppx_tools_versioned:=  
-EAPI=6
-IUSE=+ocamlopt 
-KEYWORDS=~amd64
-SLOT=0/2.0.0
-SRC_URI=https://github.com/facebook/reason/releases/download/2.0.0/reason-parser-2.0.0.tar.gz

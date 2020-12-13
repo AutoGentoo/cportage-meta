@@ -1,9 +1,11 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=  sys-devel/flex  
-RDEPEND=  virtual/logger  
+DEFINED_PHASES=install
+DEPEND=sys-devel/flex
+DESCRIPTION=protects hosts from brute force attacks against ssh
 EAPI=7
-IUSE=
+HOMEPAGE=https://www.sshguard.net/
 KEYWORDS=amd64 ~arm x86
+LICENSE=BSD
+RDEPEND=virtual/logger
 SLOT=0
 SRC_URI=mirror://sourceforge/sshguard/sshguard-2.4.0.tar.gz
+_md5_=9812a525c65687569b5132220031eb0f

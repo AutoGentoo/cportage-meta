@@ -1,8 +1,0 @@
-6011f8a8e2e9808b1d3719f1ed257b9a
-DEFINED_PHASES= install postinst prepare
-RDEPEND=dev-lang/perl  drawing? ( dev-perl/Goo-Canvas )  dev-perl/libxml-perl  dev-perl/gnome2-canvas  dev-perl/gnome2-perl  dev-perl/gnome2-wnck  dev-perl/Gtk2-Unique  dev-perl/Gtk2-ImageView  dev-perl/File-DesktopEntry  dev-perl/File-HomeDir  dev-perl/File-Which  dev-perl/JSON  dev-perl/File-Copy-Recursive  dev-perl/File-MimeInfo  dev-perl/Locale-gettext  dev-perl/Net-DBus  dev-perl/Proc-Simple  dev-perl/Proc-ProcessTable  dev-perl/Sort-Naturally  dev-perl/WWW-Mechanize  dev-perl/X11-Protocol  dev-perl/XML-Simple  dev-perl/libwww-perl  virtual/imagemagick-tools[perl] 
-EAPI=6
-IUSE=drawing 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://shutter-project.org/wp-content/uploads/releases/tars/shutter-0.93.1.tar.gz

@@ -1,9 +1,0 @@
-221af2b20e60a4505a06cc930e5c9145
-DEFINED_PHASES=-
-DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ) test? ( ruby_targets_ruby24? ( >=dev-ruby/childprocess-0.5.0[ruby_targets_ruby24] dev-ruby/rubyzip:1[ruby_targets_ruby24] ) ruby_targets_ruby25? ( >=dev-ruby/childprocess-0.5.0[ruby_targets_ruby25] dev-ruby/rubyzip:1[ruby_targets_ruby25] ) ) 
-RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby24? ( >=dev-ruby/childprocess-0.5.0[ruby_targets_ruby24] dev-ruby/rubyzip:1[ruby_targets_ruby24] ) ruby_targets_ruby25? ( >=dev-ruby/childprocess-0.5.0[ruby_targets_ruby25] dev-ruby/rubyzip:1[ruby_targets_ruby25] ) 
-EAPI=5
-IUSE= test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://rubygems.org/gems/selenium-webdriver-2.53.4.gem

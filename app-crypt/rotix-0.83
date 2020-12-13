@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=sys-devel/gettext 
-RDEPEND=sys-devel/gettext 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ia64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris ~x86-solaris
-SLOT=0
-SRC_URI=http://elektron.its.tudelft.nl/~hemmin98/rotix_releases/rotix-0.83/rotix-0.83.tar.bz2

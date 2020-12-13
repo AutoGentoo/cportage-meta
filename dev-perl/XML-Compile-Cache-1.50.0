@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  >=dev-perl/Log-Report-0.190.0  >=dev-perl/XML-Compile-1.480.0  >=dev-perl/XML-LibXML-Simple-0.950.0   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.540.0   >=dev-perl/XML-Compile-Tester-0.20.0  )  
-RDEPEND=  >=dev-perl/Log-Report-0.190.0  >=dev-perl/XML-Compile-1.480.0  >=dev-perl/XML-LibXML-Simple-0.950.0  
-EAPI=6
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MA/MARKOV/XML-Compile-Cache-1.05.tar.gz

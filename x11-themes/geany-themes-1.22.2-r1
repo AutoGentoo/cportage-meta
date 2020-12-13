@@ -1,8 +1,10 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= install
-RDEPEND=>=dev-util/geany-1.22 
+DEFINED_PHASES=install
+DESCRIPTION=A collection of colour schemes for Geany
 EAPI=6
-IUSE=
+HOMEPAGE=https://github.com/codebrainz/geany-themes
 KEYWORDS=amd64 x86
+LICENSE=GPL-3 LGPL-2.1 BSD-2 MIT
+RDEPEND=>=dev-util/geany-1.22
 SLOT=0
 SRC_URI=https://github.com/downloads/codebrainz/geany-themes/geany-themes-1.22.2.tar.bz2
+_md5_=923fd399ce639cc024dc477e3124592d

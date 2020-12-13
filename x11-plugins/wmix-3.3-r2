@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=media-libs/alsa-lib  x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-libs/libXrandr  x11-base/xorg-proto 
-RDEPEND=media-libs/alsa-lib  x11-libs/libX11  x11-libs/libXext  x11-libs/libXpm  x11-libs/libXrandr 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=https://www.dockapps.net/download/wmix-3.3.tar.gz

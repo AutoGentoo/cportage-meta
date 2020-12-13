@@ -1,9 +1,0 @@
-3ef3bc713b687acf842184f07d55a58e
-DEFINED_PHASES= setup
-DEPEND=dev-vcs/mercurial  doc? (   app-text/docbook-xsl-stylesheets   dev-libs/libxslt  ) 
-RDEPEND=dev-vcs/mercurial 
-EAPI=6
-IUSE=doc 
-KEYWORDS=
-SLOT=0
-SRC_URI=

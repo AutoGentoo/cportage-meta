@@ -1,8 +1,10 @@
-1796fc204be7b3caea151b43f4349b32
-DEFINED_PHASES= compile install test
-DEPEND=virtual/tex-base 
+DEFINED_PHASES=compile install test
+DEPEND=virtual/tex-base
+DESCRIPTION=Stanford GraphBase
 EAPI=7
-IUSE=
+HOMEPAGE=http://ftp.cs.stanford.edu/pub/sgb/
 KEYWORDS=~amd64 ~ppc x86
+LICENSE=BSD
 SLOT=0
-SRC_URI=ftp://labrea.stanford.edu/pub/sgb/sgb-2003-06-23.tar.gz
+SRC_URI=http://ftp.cs.stanford.edu/pub/sgb/sgb-2003-06-23.tar.gz
+_md5_=c0832c3022dc83b77dd4c494427c9acc

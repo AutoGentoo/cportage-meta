@@ -1,9 +1,0 @@
-033e7eee641af6aa2530422367960970
-DEFINED_PHASES= configure install prepare
-DEPEND=skey? ( >=sys-auth/skey-1.1.5-r1 )  tcpd? ( sys-apps/tcp-wrappers )  sys-libs/pam 
-RDEPEND=skey? ( >=sys-auth/skey-1.1.5-r1 )  tcpd? ( sys-apps/tcp-wrappers )  sys-libs/pam 
-EAPI=4
-IUSE=debug finger maxsess tcpd skey static-libs 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=ftp://ftp.shrubbery.net/pub/tac_plus/tacacs+-F4.0.4.19.tar.gz

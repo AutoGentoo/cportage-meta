@@ -1,8 +1,0 @@
-8d09b29686408dceb1e5ffd670f43c4f
-DEFINED_PHASES= install
-DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
-EAPI=6
-IUSE=otf +ttf 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/IBM/plex/archive/v3.0.0.tar.gz -> ibm-plex-3.0.0.tar.gz

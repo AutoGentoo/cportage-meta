@@ -1,9 +1,0 @@
-2e3a7dcd61fb47292ef094df76aa3e8c
-DEFINED_PHASES= compile configure install postinst postrm prepare test
-DEPEND=    dev-db/sqlite:3  dev-libs/boost:=  dev-libs/openssl:0=  net-libs/libnatpmp  net-libs/miniupnpc:=  sys-libs/zlib:=  client? (   dev-qt/qtcore:5   dev-qt/qtdbus:5   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtnetwork:5   dev-qt/qtsvg:5   dev-qt/qtwidgets:5   dev-qt/qtwebkit:5   dev-qt/qtx11extras:5   net-dns/avahi  )  expat? ( dev-libs/expat )  !expat? ( dev-libs/libxml2:2 )  gconf? ( gnome-base/gconf:2 )  icu? ( dev-libs/icu:= )  idn? ( net-dns/libidn:= )  lua? ( dev-lang/lua:= )  spell? ( app-text/hunspell:= )   >=dev-util/scons-3.0.1-r3  client? ( dev-qt/linguist-tools:5 )  test? ( net-dns/avahi )  
-RDEPEND=  dev-db/sqlite:3  dev-libs/boost:=  dev-libs/openssl:0=  net-libs/libnatpmp  net-libs/miniupnpc:=  sys-libs/zlib:=  client? (   dev-qt/qtcore:5   dev-qt/qtdbus:5   dev-qt/qtgui:5   dev-qt/qtmultimedia:5   dev-qt/qtnetwork:5   dev-qt/qtsvg:5   dev-qt/qtwidgets:5   dev-qt/qtwebkit:5   dev-qt/qtx11extras:5   net-dns/avahi  )  expat? ( dev-libs/expat )  !expat? ( dev-libs/libxml2:2 )  gconf? ( gnome-base/gconf:2 )  icu? ( dev-libs/icu:= )  idn? ( net-dns/libidn:= )  lua? ( dev-lang/lua:= )  spell? ( app-text/hunspell:= )  
-EAPI=6
-IUSE=client expat gconf +icu +idn lua spell test zeroconf 
-KEYWORDS=amd64
-SLOT=4/0
-SRC_URI=https://swift.im/downloads/releases/swift-4.0.2/swift-4.0.2.tar.gz

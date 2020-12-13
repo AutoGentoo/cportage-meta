@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare test
-DEPEND=  >=dev-scheme/guile-2.0.11:=  dev-scheme/bytestructures  dev-libs/libgit2:=  
-RDEPEND=  >=dev-scheme/guile-2.0.11:=  dev-scheme/bytestructures  dev-libs/libgit2:=  
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://gitlab.com/guile-git/guile-git/uploads/160f6a36c1be8d4fc1990a193081a04d/guile-git-0.2.0.tar.gz

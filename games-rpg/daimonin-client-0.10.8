@@ -1,10 +1,14 @@
-f81fa5ad99b60db86d3a53bbb91c0aac
-DEFINED_PHASES= configure install prepare unpack
-DEPEND=  dev-games/physfs  media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  net-misc/curl  sys-libs/zlib:=  app-arch/unzip 
-RDEPEND=  dev-games/physfs  media-libs/libsdl[sound,video]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  net-misc/curl  sys-libs/zlib:= 
-EAPI=6
-IUSE=debug music 
+BDEPEND=app-arch/unzip >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=dev-games/physfs media-libs/libsdl[sound,video] media-libs/sdl-image[png] media-libs/sdl-mixer[vorbis] net-misc/curl sys-libs/zlib:=
+DESCRIPTION=A graphical 2D tile-based MMORPG
+EAPI=7
+HOMEPAGE=http://daimonin.sourceforge.net/
+IUSE=debug music
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-games/physfs media-libs/libsdl[sound,video] media-libs/sdl-image[png] media-libs/sdl-mixer[vorbis] net-misc/curl sys-libs/zlib:=
 SLOT=0
-SRC_URI=https://dev.gentoo.org/~soap/distfiles/daimonin-client-0.10.8.zip
-	music? ( mirror://sourceforge/daimonin/daimoninMusicLQ20100827.zip )
+SRC_URI=https://dev.gentoo.org/~soap/distfiles/daimonin-client-0.10.8.zip music? ( mirror://sourceforge/daimonin/daimoninMusicLQ20100827.zip )
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	desktop	7fd20552ce4cc97e8acb132a499a7dd8	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=eff1917f256ab3dc0427637defab2a04

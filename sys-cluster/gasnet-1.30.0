@@ -1,9 +1,14 @@
-f98533f242e664feb8dfa5257b679172
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=mpi? ( virtual/mpi ) 
-RDEPEND=mpi? ( virtual/mpi ) 
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=mpi? ( virtual/mpi ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Networking middleware for partitioned global address space (PGAS) language
 EAPI=6
-IUSE=mpi test threads 
+HOMEPAGE=https://gasnet.lbl.gov/
+IUSE=mpi test threads
 KEYWORDS=~amd64 ~arm
+LICENSE=BSD
+RDEPEND=mpi? ( virtual/mpi )
+RESTRICT=!test? ( test )
 SLOT=0/1.30.0
 SRC_URI=https://gasnet.lbl.gov/download/GASNet-1.30.0.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=dcac93893c99081d2cdca600bec3bdcd

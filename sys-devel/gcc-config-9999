@@ -1,9 +1,12 @@
-ca2daf9b8093fe1e6953b17539a063b3
-DEFINED_PHASES= compile install postinst
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
-RDEPEND=>=sys-apps/gentoo-functions-0.10 
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst unpack
+DESCRIPTION=Utility to manage compilers
 EAPI=7
-IUSE=
-KEYWORDS=
+HOMEPAGE=https://gitweb.gentoo.org/proj/gcc-config.git/
+IUSE=+cc-wrappers +native-symlinks
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=>=sys-apps/gentoo-functions-0.10
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=9282dffcdcf33bb45186aad488afbeae

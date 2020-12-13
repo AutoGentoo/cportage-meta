@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=net-print/cups  test? ( dev-util/cppunit ) 
-RDEPEND=net-print/cups 
-EAPI=5
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://download.dymo.com/Download%20Drivers/Linux/Download/dymo-cups-drivers-1.4.0.tar.gz

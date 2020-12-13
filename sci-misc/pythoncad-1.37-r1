@@ -1,8 +1,0 @@
-ca2daf9b8093fe1e6953b17539a063b3
-DEFINED_PHASES= install
-RDEPEND=dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=python_targets_python2_7 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/pythoncad/PythonCAD-DS1-R37.tar.gz

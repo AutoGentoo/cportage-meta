@@ -1,9 +1,0 @@
-1c59d20c34b0a3c9b1b21b85ccda9dce
-DEFINED_PHASES= install prepare test
-DEPEND=    >=dev-perl/glib-perl-1.220.0  >=dev-perl/Cairo-1.0.0  >=x11-libs/pango-1.0.0   virtual/perl-ExtUtils-MakeMaker  >=dev-perl/ExtUtils-Depends-0.300.0  >=dev-perl/ExtUtils-PkgConfig-1.30.0  test? (   virtual/perl-Test-Simple   !minimal? (    >=dev-perl/Gtk2-1.220.0      !prefix? ( x11-base/xorg-server[xvfb] )  x11-apps/xhost    )  )  
-RDEPEND=  >=dev-perl/glib-perl-1.220.0  >=dev-perl/Cairo-1.0.0  >=x11-libs/pango-1.0.0  
-EAPI=6
-IUSE=examples test minimal 
-KEYWORDS=alpha amd64 ~arm hppa ia64 ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/X/XA/XAOC/Pango-1.227.tar.gz

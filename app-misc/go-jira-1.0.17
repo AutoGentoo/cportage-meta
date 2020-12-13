@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=>=dev-lang/go-1.10 
-EAPI=6
-IUSE=
-KEYWORDS=amd64
-SLOT=0
-SRC_URI=https://github.com/Netflix-Skunkworks/go-jira/archive/v1.0.17.tar.gz -> go-jira-1.0.17.tar.gz
-	

@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=>=virtual/jdk-1.6 
-RDEPEND=>=virtual/jre-1.6 
-EAPI=4
-IUSE=source 
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.6 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=JNLP API classes, repackaged from the icedtea-web fork of netx
+EAPI=7
+HOMEPAGE=http://jcp.org/en/jsr/detail?id=56
+IUSE=source elibc_FreeBSD source elibc_FreeBSD
 KEYWORDS=amd64 x86
+LICENSE=GPL-2 GPL-2-with-linking-exception LGPL-2
+RDEPEND=>=virtual/jre-1.6 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
 SLOT=0
 SRC_URI=https://dev.gentoo.org/~caster/distfiles/jnlp-api-6.0.18.tar.bz2
+_eclasses_=java-pkg-2	c4e6af2574fd1dc79b43a6e27af4b5fb	java-pkg-simple	a814c0c1adac3d7902bc7023902a2e1a	java-utils-2	ec7a89849c84f93e9c6db27812923888
+_md5_=5f3427bd6e210ef73f0f398e6af08f6b

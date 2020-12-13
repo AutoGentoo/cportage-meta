@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=  sys-libs/ncurses:0=  nls? ( virtual/libintl )   nls? ( sys-devel/gettext )  
-RDEPEND=  sys-libs/ncurses:0=  nls? ( virtual/libintl )  
-EAPI=6
-IUSE=nls 
-KEYWORDS=~alpha ~amd64 ~ppc64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/typespeed/typespeed-0.6.5.tar.gz

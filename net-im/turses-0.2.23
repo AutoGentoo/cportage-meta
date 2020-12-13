@@ -1,9 +1,0 @@
-c5a2da1f32fb6817539f8fcc1a79ab24
-DEFINED_PHASES=-
-DEPEND=  dev-python/httplib2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/oauth2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/urwid[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >dev-python/tweepy-2.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  <dev-python/tweepy-3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  test? (   dev-python/mock[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/pytest[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/coverage[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  )  
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=doc test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/alejandrogomez/turses/archive/v0.2.23.tar.gz -> turses-0.2.23.tar.gz

@@ -1,9 +1,0 @@
-dab54bc9c3eb92be9155f23b6277ed91
-DEFINED_PHASES= configure install postinst prepare setup
-DEPEND=  lzma? ( app-arch/xz-utils )  zlib? ( sys-libs/zlib ) 
-RDEPEND=  lzma? ( app-arch/xz-utils )  zlib? ( sys-libs/zlib ) 
-EAPI=6
-IUSE=booke lzma xen zlib 
-KEYWORDS=amd64 ~arm64 ~ppc64 x86
-SLOT=0
-SRC_URI=https://www.kernel.org/pub/linux/utils/kernel/kexec/kexec-tools-2.0.19.tar.xz

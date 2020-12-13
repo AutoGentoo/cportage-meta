@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-DEPEND=  ssl? ( dev-libs/openssl:= )  slp? ( net-libs/openslp ) 
-RDEPEND=  ssl? ( dev-libs/openssl:= )  slp? ( net-libs/openslp ) 
-EAPI=6
-IUSE=debug slp ssl static 
-KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=https://github.com/open-iscsi/open-isns/archive/v0.97.tar.gz -> open-isns-0.97.tar.gz

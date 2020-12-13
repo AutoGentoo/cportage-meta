@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install postinst prepare
-RDEPEND=x11-wm/enlightenment 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~arm ~x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~juippis/distfiles/e-flat-theme-0_pre20191230.edj

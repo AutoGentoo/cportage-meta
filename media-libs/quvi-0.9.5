@@ -1,10 +1,14 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-BDEPEND=  app-arch/xz-utils  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
-DEPEND=  dev-libs/glib:2  net-misc/curl:=  media-libs/libquvi:=  json? ( dev-libs/json-glib:= )  nls? ( virtual/libintl )  xml? ( dev-libs/libxml2:2= ) 
-RDEPEND=  dev-libs/glib:2  net-misc/curl:=  media-libs/libquvi:=  json? ( dev-libs/json-glib:= )  nls? ( virtual/libintl )  xml? ( dev-libs/libxml2:2= ) 
+BDEPEND=app-arch/xz-utils virtual/pkgconfig nls? ( sys-devel/gettext ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DEPEND=dev-libs/glib:2 net-misc/curl:= media-libs/libquvi:= json? ( dev-libs/json-glib:= ) nls? ( virtual/libintl ) xml? ( dev-libs/libxml2:2= )
+DESCRIPTION=A command line tool for parsing video download links
 EAPI=7
-IUSE=json nls xml 
+HOMEPAGE=http://quvi.sourceforge.net/
+IUSE=json nls xml
 KEYWORDS=amd64 ~hppa ppc ppc64 x86
+LICENSE=AGPL-3
+RDEPEND=dev-libs/glib:2 net-misc/curl:= media-libs/libquvi:= json? ( dev-libs/json-glib:= ) nls? ( virtual/libintl ) xml? ( dev-libs/libxml2:2= )
 SLOT=0
 SRC_URI=mirror://sourceforge/quvi/0.9/quvi-0.9.5.tar.xz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=a6e0c18cc6580e327bfbe345146d2583

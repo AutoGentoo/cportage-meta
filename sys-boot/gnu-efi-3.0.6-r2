@@ -1,8 +1,0 @@
-088e47b3169f9472caf208c6840bae03
-DEFINED_PHASES= compile install prepare
-DEPEND=sys-apps/pciutils 
-EAPI=6
-IUSE=abi_x86_32 abi_x86_64 -custom-cflags 
-KEYWORDS=-* ~amd64 ~arm ~arm64 ia64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/gnu-efi/gnu-efi-3.0.6.tar.bz2

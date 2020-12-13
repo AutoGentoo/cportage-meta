@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-perl/Class-MakeMethods 
-RDEPEND=dev-perl/Class-MakeMethods 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ~ia64 ~ppc sparc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/A/AL/ALLENDAY/Video-Info-0.993.tar.gz

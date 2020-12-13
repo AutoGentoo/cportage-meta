@@ -1,8 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= install nofetch prepare
-DEPEND=app-arch/unzip 
-EAPI=7
-IUSE=
-KEYWORDS=amd64 ~arm ~arm64 ~ppc64 x86 ~amd64-linux ~x86-linux
-SLOT=1.8
-SRC_URI=jdk-8u202-docs-all.zip

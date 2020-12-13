@@ -1,9 +1,0 @@
-afaeee951d477394000cea7dd857d8d3
-DEFINED_PHASES= configure prepare
-DEPEND=icu? ( dev-libs/icu:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  icu? ( virtual/pkgconfig ) 
-RDEPEND=icu? ( dev-libs/icu:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] ) 
-EAPI=6
-IUSE=icu 
-KEYWORDS=~amd64 ~arm ~arm64 ~x86
-SLOT=0/gentoo-2017-03-01
-SRC_URI=https://github.com/google/re2/archive/2018-04-01.tar.gz -> re2-2018-04-01.tar.gz

@@ -1,9 +1,0 @@
-705dd38cfff32ea9468e32a45d952a62
-DEFINED_PHASES= compile install prepare
-DEPEND=btrfs? ( sys-fs/btrfs-progs )  seccomp? ( sys-libs/libseccomp ) 
-RDEPEND=>=app-emulation/runc-1.0.0_rc8  seccomp? ( sys-libs/libseccomp ) 
-EAPI=6
-IUSE=apparmor +btrfs +cri hardened +seccomp 
-KEYWORDS=~amd64 ~arm ~arm64 ~ppc64
-SLOT=0
-SRC_URI=https://github.com/containerd/containerd/archive/v1.2.7.tar.gz -> containerd-1.2.7.tar.gz

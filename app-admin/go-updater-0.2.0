@@ -1,8 +1,10 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= compile install
-RDEPEND=dev-go/goversion 
+DEFINED_PHASES=compile install
+DESCRIPTION=Checks if Gentoo go packages are compiled with the system's golang version
 EAPI=6
-IUSE=
+HOMEPAGE=https://github.com/mrueg/go-updater
 KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-go/goversion
 SLOT=0
 SRC_URI=https://github.com/mrueg/go-updater/archive/0.2.0.tar.gz -> go-updater-0.2.0.tar.gz
+_md5_=e083ea3b63174d33f086a15ad529a601

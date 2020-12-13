@@ -1,9 +1,0 @@
-6ef7b865a49233ead06f67479872070f
-DEFINED_PHASES= compile install prepare
-DEPEND=>=dev-lang/ocaml-3.10:=[ocamlopt?]  doc? ( virtual/latex-base   dev-texlive/texlive-latexextra   dev-tex/hevea ) 
-RDEPEND=virtual/latex-base 
-EAPI=5
-IUSE=doc +ocamlopt 
-KEYWORDS=amd64 ppc ~ppc64 x86
-SLOT=0
-SRC_URI=https://www.lri.fr/~filliatr/ftp/bibtex2html/bibtex2html-1.98.tar.gz

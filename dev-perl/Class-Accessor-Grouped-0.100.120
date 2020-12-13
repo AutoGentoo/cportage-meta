@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  virtual/perl-Carp  >=dev-perl/Module-Runtime-0.12.0  >=dev-perl/Class-XSAccessor-1.190.0  >=dev-perl/Sub-Name-0.50.0   >=virtual/perl-ExtUtils-MakeMaker-6.590.0  >=virtual/perl-ExtUtils-CBuilder-0.270.0  test? (   >=dev-perl/Test-Exception-0.310.0   >=virtual/perl-Test-Simple-0.880.0  )  
-RDEPEND=  virtual/perl-Carp  >=dev-perl/Module-Runtime-0.12.0  >=dev-perl/Class-XSAccessor-1.190.0  >=dev-perl/Sub-Name-0.50.0  
-EAPI=5
-IUSE=test 
-KEYWORDS=amd64 ppc x86 ~ppc-aix ~ppc-macos ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/R/RI/RIBASUSHI/Class-Accessor-Grouped-0.10012.tar.gz

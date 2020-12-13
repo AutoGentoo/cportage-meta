@@ -1,7 +1,10 @@
-d41d8cd98f00b204e9800998ecf8427e
 DEFINED_PHASES=-
+DESCRIPTION=Information about the Debian distributions' releases (data files)
 EAPI=6
-IUSE=
+HOMEPAGE=https://debian.org/
 KEYWORDS=~amd64 ~x86
+LICENSE=ISC
+RESTRICT=test
 SLOT=0
 SRC_URI=mirror://debian/pool/main/d/distro-info-data/distro-info-data_0.32.tar.xz
+_md5_=99f2cc7c524f3b117d0645051f1f9c66

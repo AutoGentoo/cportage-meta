@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=>=media-libs/libmpeg2-0.4.0  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtopengl:5  dev-qt/qtwidgets:5  virtual/glu  virtual/opengl 
-RDEPEND=>=media-libs/libmpeg2-0.4.0  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtopengl:5  dev-qt/qtwidgets:5  virtual/glu  virtual/opengl  media-video/mplayer  >=media-video/ffmpeg-1.0.8[encode] 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~billie/distfiles/ttcut-0.19.6_p1.tar.gz

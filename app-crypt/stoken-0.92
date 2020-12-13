@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  dev-libs/nettle  gtk? ( >=x11-libs/gtk+-3.12:3 ) 
-RDEPEND=  dev-libs/nettle  gtk? ( >=x11-libs/gtk+-3.12:3 ) 
-EAPI=6
-IUSE=gtk 
-KEYWORDS=amd64 arm arm64 ppc64 x86
-SLOT=0
-SRC_URI=https://github.com/cernekee/stoken/archive/v0.92.tar.gz -> stoken-0.92.tar.gz

@@ -1,9 +1,0 @@
-1c9b8cc2ce711c19b1b14af30fcaf9da
-DEFINED_PHASES= configure install postinst postrm prepare test
-DEPEND=  dev-libs/gmime:2.6  dev-libs/xapian  dev-libs/glib:2  emacs? ( >=app-editors/emacs-23.1:* )  !net-mail/mailutils 
-RDEPEND=  dev-libs/gmime:2.6  dev-libs/xapian  dev-libs/glib:2  emacs? ( >=app-editors/emacs-23.1:* )  !net-mail/mailutils 
-EAPI=6
-IUSE=emacs 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/djcb/mu/archive/0.9.18.tar.gz -> mu-0.9.18.tar.gz

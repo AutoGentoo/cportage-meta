@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=>=dev-haskell/mtl-2.1:=[profile?] <dev-haskell/mtl-2.3:=[profile?]  >=dev-haskell/parsec-3.1:=[profile?] <dev-haskell/parsec-3.2:=[profile?]  >=dev-lang/ghc-7.4.1:=  >=dev-libs/gmp-5:=  virtual/libffi:=   >=dev-haskell/cabal-1.8  test? ( >=dev-haskell/hunit-1.2 )  
-RDEPEND=>=dev-haskell/mtl-2.1:=[profile?] <dev-haskell/mtl-2.3:=[profile?]  >=dev-haskell/parsec-3.1:=[profile?] <dev-haskell/parsec-3.2:=[profile?]  >=dev-lang/ghc-7.4.1:=  >=dev-libs/gmp-5:=  virtual/libffi:=  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0/0.3.0
-SRC_URI=https://hackage.haskell.org/package/goatee-0.3.0/goatee-0.3.0.tar.gz

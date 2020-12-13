@@ -1,9 +1,0 @@
-4710c3a35ac8b42b3488acd7263e517c
-DEFINED_PHASES= configure install prepare
-DEPEND=>=dev-libs/boost-1.32:=  sys-libs/zlib  x11-libs/wxGTK:3.0  flac? ( media-libs/flac )  iconv? ( virtual/libiconv media-libs/freetype:2 )  mad? ( media-libs/libmad )  png? ( media-libs/libpng:0 )  vorbis? ( media-libs/libvorbis )  app-arch/xz-utils  virtual/pkgconfig 
-RDEPEND=>=dev-libs/boost-1.32:=  sys-libs/zlib  x11-libs/wxGTK:3.0  flac? ( media-libs/flac )  iconv? ( virtual/libiconv media-libs/freetype:2 )  mad? ( media-libs/libmad )  png? ( media-libs/libpng:0 )  vorbis? ( media-libs/libvorbis ) 
-EAPI=6
-IUSE=flac iconv mad png vorbis 
-KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=http://scummvm.org/frs/scummvm-tools/2.0.0/scummvm-tools-2.0.0.tar.xz

@@ -1,9 +1,0 @@
-db3f27a3b7bfbd7a332774caacb16c8c
-DEFINED_PHASES= compile configure install prepare setup test
-DEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  designer? ( dev-qt/designer:5 )  opengl? (   dev-qt/qtopengl:5   virtual/opengl  )  svg? ( dev-qt/qtsvg:5 )  
-RDEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtprintsupport:5  dev-qt/qtwidgets:5  designer? ( dev-qt/designer:5 )  opengl? (   dev-qt/qtopengl:5   virtual/opengl  )  svg? ( dev-qt/qtsvg:5 )   !<x11-libs/qwt-5.2.3  !x11-libs/qwt:5[doc]  doc? ( !<media-libs/coin-3.1.3[doc] )  
-EAPI=6
-IUSE=designer doc examples mathml opengl static-libs svg 
-KEYWORDS=amd64 ~arm ppc ppc64 ~sparc x86 ~amd64-linux ~x86-linux ~x86-macos
-SLOT=6/1.3
-SRC_URI=mirror://sourceforge/project/qwt/qwt/6.1.3/qwt-6.1.3.tar.bz2

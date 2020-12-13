@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-DEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-libs/musicbrainz:5=  media-libs/taglib  
-RDEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qtwidgets:5  media-libs/musicbrainz:5=  media-libs/taglib  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/sjuvonen/coquillo/archive/v2.0.0.tar.gz -> coquillo-2.0.0.tar.gz

@@ -1,9 +1,0 @@
-033e7eee641af6aa2530422367960970
-DEFINED_PHASES= configure install prepare
-DEPEND=    python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  virtual/libusb:0   doc? ( app-doc/doxygen )  python? ( dev-lang/swig )  
-RDEPEND=  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  virtual/libusb:0  
-EAPI=5
-IUSE=doc python static-libs 
-KEYWORDS=amd64 ppc ppc64 x86
-SLOT=0
-SRC_URI=https://alioth-archive.debian.org/releases/libhid/libhid/0.2.16/libhid-0.2.16.tar.gz

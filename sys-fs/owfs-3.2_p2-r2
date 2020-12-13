@@ -1,9 +1,0 @@
-27078fff5e90eb160c285601376e61a3
-DEFINED_PHASES= compile configure install postinst prepare setup test
-DEPEND=  ftdi? ( dev-embedded/libftdi:0 )  fuse? ( sys-fs/fuse:0= )  perl? ( dev-lang/perl:= )  parport? ( sys-kernel/linux-headers )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  tcl? ( dev-lang/tcl:0= )  usb? ( virtual/libusb:0 )  zeroconf? ( net-dns/avahi[mdnsresponder-compat] )   perl? ( dev-lang/swig )  python? ( dev-lang/swig )  
-RDEPEND=  ftdi? ( dev-embedded/libftdi:0 )  fuse? ( sys-fs/fuse:0= )  perl? ( dev-lang/perl:= )  parport? ( sys-kernel/linux-headers )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  tcl? ( dev-lang/tcl:0= )  usb? ( virtual/libusb:0 )  zeroconf? ( net-dns/avahi[mdnsresponder-compat] )  
-EAPI=6
-IUSE=debug ftdi ftpd fuse httpd parport perl python tcl usb zeroconf 
-KEYWORDS=amd64 arm x86
-SLOT=0/3.2_p2
-SRC_URI=mirror://sourceforge/owfs/owfs-3.2p2.tar.gz

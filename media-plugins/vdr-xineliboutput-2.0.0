@@ -1,9 +1,0 @@
-cae6b3ae4de5d744e175f595946ca87e
-DEFINED_PHASES= configure install setup
-DEPEND=  vdr? (   >=media-video/vdr-1.6.0   libextractor? ( >=media-libs/libextractor-0.5.20 )   caps? ( sys-libs/libcap )  )   xine? (   ( >=media-libs/xine-lib-1.2    virtual/ffmpeg )   fbcon? ( jpeg? ( virtual/jpeg:* ) )   X? (    x11-libs/libX11    x11-libs/libXext    x11-libs/libXrender    xinerama? ( x11-libs/libXinerama )    dbus? ( dev-libs/dbus-glib dev-libs/glib:2 )    vdpau? ( x11-libs/libvdpau >=media-libs/xine-lib-1.2 )    jpeg? ( virtual/jpeg:* )    bluray? ( media-libs/libbluray )    opengl? ( virtual/opengl )   )  )  virtual/pkgconfig  sys-kernel/linux-headers  nls? ( sys-devel/gettext )  xine? (   X? (    x11-base/xorg-proto    x11-libs/libXxf86vm   )  ) 
-RDEPEND=  vdr? (   >=media-video/vdr-1.6.0   libextractor? ( >=media-libs/libextractor-0.5.20 )   caps? ( sys-libs/libcap )  )   xine? (   ( >=media-libs/xine-lib-1.2    virtual/ffmpeg )   fbcon? ( jpeg? ( virtual/jpeg:* ) )   X? (    x11-libs/libX11    x11-libs/libXext    x11-libs/libXrender    xinerama? ( x11-libs/libXinerama )    dbus? ( dev-libs/dbus-glib dev-libs/glib:2 )    vdpau? ( x11-libs/libvdpau >=media-libs/xine-lib-1.2 )    jpeg? ( virtual/jpeg:* )    bluray? ( media-libs/libbluray )    opengl? ( virtual/opengl )   )  ) 
-EAPI=5
-IUSE=bluray caps dbus fbcon jpeg libextractor nls opengl +vdr vdpau +X +xine xinerama 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/xineliboutput/vdr-xineliboutput-2.0.0.tgz

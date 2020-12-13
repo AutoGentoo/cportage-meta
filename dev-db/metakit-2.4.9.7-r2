@@ -1,9 +1,0 @@
-148cdb5ae14b06fd797f5f8b9e8ad6b5
-DEFINED_PHASES= compile configure install prepare setup
-DEPEND=  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  tcl? ( >=dev-lang/tcl-8.6:0= ) 
-RDEPEND=  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  tcl? ( >=dev-lang/tcl-8.6:0= ) 
-EAPI=5
-IUSE=python static tcl 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=http://www.equi4.com/pub/mk/metakit-2.4.9.7.tar.gz

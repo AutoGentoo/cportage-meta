@@ -1,9 +1,0 @@
-585377702e17589d26f290084016d86c
-DEFINED_PHASES= install postinst prepare
-DEPEND=dev-libs/openssl:0= net-analyzer/net-snmp:= 
-RDEPEND=dev-libs/openssl:0= net-analyzer/net-snmp:= 
-EAPI=6
-IUSE=debug 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://www.vanheusden.com/time/omnisync/omnisync-1.0.tgz

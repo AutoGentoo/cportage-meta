@@ -1,8 +1,0 @@
-8b76fd5497d3080ba811b4484799de5a
-DEFINED_PHASES= compile install postinst
-DEPEND=dev-libs/libxslt  media-gfx/imagemagick[truetype,svg,png] 
-EAPI=6
-IUSE=
-KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x64-macos
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~hwoarang/distfiles/devmanual-0_pre20141116.tar.gz

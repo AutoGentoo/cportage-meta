@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=app-eselect/eselect-lib-bin-symlink 
-EAPI=5
-IUSE=
-KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ~m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-linux ~x86-linux ~x64-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
-SLOT=0
-SRC_URI=

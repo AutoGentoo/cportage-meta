@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-perl/File-pushd   >=dev-perl/Module-Build-Tiny-0.34.0  test? (   dev-perl/Test-NoWarnings   dev-perl/Test-Requires   virtual/perl-Test-Simple  )  
-RDEPEND=  dev-perl/File-pushd  
-EAPI=6
-IUSE=test 
-KEYWORDS=alpha amd64 ia64 ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/CGI-Compile-0.22.tar.gz

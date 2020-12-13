@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  !minimal? (   >=dev-perl/EV-4.0.0  )  >=virtual/perl-IO-Socket-IP-0.370.0  >=virtual/perl-JSON-PP-2.271.30  >=virtual/perl-Pod-Simple-3.90.0  >=virtual/perl-Time-Local-1.200.0   virtual/perl-ExtUtils-MakeMaker  test? (   virtual/perl-Test-Simple  )  
-RDEPEND=  !minimal? (   >=dev-perl/EV-4.0.0  )  >=virtual/perl-IO-Socket-IP-0.370.0  >=virtual/perl-JSON-PP-2.271.30  >=virtual/perl-Pod-Simple-3.90.0  >=virtual/perl-Time-Local-1.200.0  
-EAPI=6
-IUSE=test minimal 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/S/SR/SRI/Mojolicious-7.29.tar.gz

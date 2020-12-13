@@ -1,8 +1,10 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= install
-RDEPEND=x11-themes/fvwm-themes 
+DEFINED_PHASES=install
+DESCRIPTION=Extra themes for fvwm-themes
 EAPI=7
-IUSE=
+HOMEPAGE=http://fvwm-themes.sourceforge.net/
 KEYWORDS=amd64 ~ppc ~ppc64 ~sparc x86
+LICENSE=GPL-2
+RDEPEND=x11-themes/fvwm-themes
 SLOT=0
 SRC_URI=mirror://sourceforge/fvwm-themes/fvwm-themes-extra-0.7.0.tar.bz2
+_md5_=f703af1d24162170d30c29e87c6ee15e

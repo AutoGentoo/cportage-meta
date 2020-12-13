@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=dev-lang/go:=  opencl? ( virtual/opencl )  
-RDEPEND=dev-lang/go:=  opencl? ( virtual/opencl )  
-EAPI=6
-IUSE=devtools opencl 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.8.15.tar.gz -> go-ethereum-1.8.15.tar.gz

@@ -1,9 +1,0 @@
-c629c1ac1dedce1f407e8e83ebf2311c
-DEFINED_PHASES= configure install prepare test
-DEPEND=>=dev-libs/glib-2.32.0  >=dev-libs/libzip-0.8:=  ftdi? ( >=dev-embedded/libftdi-0.16:= )  serial? ( >=dev-libs/libserialport-0.1.0 )  usb? ( virtual/libusb:1 )  test? ( >=dev-libs/check-0.9.4 )  virtual/pkgconfig 
-RDEPEND=!static-libs? ( >=dev-libs/glib-2.32.0  >=dev-libs/libzip-0.8:=  ftdi? ( >=dev-embedded/libftdi-0.16:= )  serial? ( >=dev-libs/libserialport-0.1.0 )  usb? ( virtual/libusb:1 ) )  static-libs? ( >=dev-libs/glib-2.32.0[static-libs(+)]  >=dev-libs/libzip-0.8:=[static-libs(+)]  ftdi? ( >=dev-embedded/libftdi-0.16:=[static-libs(+)] )  serial? ( >=dev-libs/libserialport-0.1.0[static-libs(+)] )  usb? ( virtual/libusb:1[static-libs(+)] ) ) 
-EAPI=5
-IUSE=ftdi serial static-libs test usb 
-KEYWORDS=amd64 x86
-SLOT=0/2
-SRC_URI=https://sigrok.org/download/source/libsigrok/libsigrok-0.3.0.tar.gz

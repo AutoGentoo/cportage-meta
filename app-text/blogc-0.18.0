@@ -1,9 +1,0 @@
-585377702e17589d26f290084016d86c
-DEFINED_PHASES= configure prepare
-DEPEND=  virtual/pkgconfig  test? (   git? ( dev-vcs/git )   dev-util/cmocka ) 
-RDEPEND=  git? (   dev-vcs/git )  !dev-vcs/blogc-git-receiver  !www-servers/blogc-runserver 
-EAPI=6
-IUSE=git httpd make test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/blogc/blogc/releases/download/v0.18.0/blogc-0.18.0.tar.xz

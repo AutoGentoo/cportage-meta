@@ -1,8 +1,0 @@
-5ec9af4970611cf85f4328195a354be0
-DEFINED_PHASES= install postinst prepare setup
-RDEPEND=>=net-libs/nodejs-6.17.0 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://artifacts.elastic.co/downloads/kibana/kibana-5.6.16-linux-x86_64.tar.gz

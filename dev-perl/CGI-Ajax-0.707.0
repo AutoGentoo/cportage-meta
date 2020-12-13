@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=  dev-perl/CGI  dev-perl/Class-Accessor   test? ( virtual/perl-Test-Simple )  
-RDEPEND=  dev-perl/CGI  dev-perl/Class-Accessor  
-EAPI=5
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/B/BP/BPEDERSE/CGI-Ajax-0.707.tar.gz

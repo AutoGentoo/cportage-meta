@@ -1,9 +1,14 @@
-487c7b7acd86f56cfde29ced54b41505
-DEFINED_PHASES= install test
-DEPEND=>=virtual/jdk-1.8  app-arch/unzip  test? ( dev-java/junit:4 ) 
-RDEPEND=>=virtual/jre-1.8 
+DEFINED_PHASES=compile install preinst prepare setup test
+DEPEND=>=virtual/jdk-1.8 app-arch/unzip test? ( dev-java/junit:4 ) >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+DESCRIPTION=An open source Java library for working with XMP metadata
 EAPI=7
-IUSE=test 
+HOMEPAGE=https://pdfbox.apache.org/
+IUSE=test elibc_FreeBSD doc source elibc_FreeBSD
 KEYWORDS=amd64 arm64 ppc64 x86
+LICENSE=Apache-2.0
+RDEPEND=>=virtual/jre-1.8 >=dev-java/java-config-2.2.0-r3 source? ( app-arch/zip )
+RESTRICT=!test? ( test )
 SLOT=1.8
 SRC_URI=mirror://apache/pdfbox/1.8.11/pdfbox-1.8.11-src.zip
+_eclasses_=java-pkg-2	c4e6af2574fd1dc79b43a6e27af4b5fb	java-pkg-simple	a814c0c1adac3d7902bc7023902a2e1a	java-utils-2	ec7a89849c84f93e9c6db27812923888
+_md5_=e48560b478071151f9c3f81fbea0adc0

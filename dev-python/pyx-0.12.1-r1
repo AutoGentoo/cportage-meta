@@ -1,9 +1,0 @@
-f76334b70ebea035105ff791178860a9
-DEFINED_PHASES= prepare
-DEPEND=virtual/tex-base   dev-texlive/texlive-basic  doc? ( virtual/latex-base   dev-python/sphinx[latex,python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-RDEPEND=virtual/tex-base   dev-texlive/texlive-basic 
-EAPI=5
-IUSE=doc 
-KEYWORDS=amd64 ~ia64 ~ppc ~ppc64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://sourceforge/pyx/PyX-0.12.1.tar.gz

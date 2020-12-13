@@ -1,9 +1,0 @@
-035f3e51ab54aaa53716d5f228cebe71
-DEFINED_PHASES= postinst prepare setup unpack
-DEPEND=  >=sys-devel/gcc-6.5.0  >=sys-devel/patch-2.7.6 
-EAPI=6
-IUSE=experimental ip27 ip28 ip30 
-KEYWORDS=-* ~mips
-SLOT=4.20.17
-SRC_URI=https://www.kernel.org/pub/linux/kernel/v4.x/patch-4.20.17.xz https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.20.tar.xz
-	 mirror://gentoo/mips-sources-4.20.0-patches-v1.tar.xz

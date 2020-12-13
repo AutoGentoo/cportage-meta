@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=  net-libs/libpcap  selinux? ( sys-libs/libselinux )  
-RDEPEND=  net-libs/libpcap  selinux? ( sys-libs/libselinux )  
-EAPI=5
-IUSE=doc selinux 
-KEYWORDS=~amd64 ~arm ~ppc ~sh ~x86
+DEFINED_PHASES=compile configure
+DEPEND=net-libs/libpcap selinux? ( sys-libs/libselinux )
+DESCRIPTION=Tunnel TCP over ICMP
+EAPI=7
+HOMEPAGE=https://www.cs.uit.no/~daniels/PingTunnel
+IUSE=selinux
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+LICENSE=BSD
+RDEPEND=net-libs/libpcap selinux? ( sys-libs/libselinux )
 SLOT=0
 SRC_URI=https://www.cs.uit.no/~daniels/PingTunnel/PingTunnel-0.72.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=718d3ac369f14307b44fe2ade13f73e4

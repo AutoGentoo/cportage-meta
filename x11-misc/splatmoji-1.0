@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=  app-shells/bash  x11-misc/rofi  x11-misc/xdotool  x11-misc/xsel 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/cspeterson/splatmoji/archive/v1.0.tar.gz -> splatmoji-1.0.tar.gz

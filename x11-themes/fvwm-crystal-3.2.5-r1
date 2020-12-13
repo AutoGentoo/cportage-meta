@@ -1,8 +1,0 @@
-a01353d637b5d8478df69d905eeeb242
-DEFINED_PHASES= install postinst
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=x11-wm/fvwm-2.6.5[png]  virtual/imagemagick-tools  || ( >=x11-misc/stalonetray-0.6.2-r2 x11-misc/trayer )  || ( x11-misc/hsetroot media-gfx/feh )  sys-apps/sed  sys-devel/bc  virtual/awk  x11-apps/xwd 
-EAPI=5
-IUSE=python_targets_python2_7 
-KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/fvwm-crystal/fvwm-crystal-3.2.5.tar.gz

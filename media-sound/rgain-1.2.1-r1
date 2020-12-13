@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=>=dev-python/docutils-0.9 
-RDEPEND=media-libs/mutagen  dev-python/pygobject:3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-libs/gstreamer:1.0[introspection]  media-plugins/gst-plugins-meta:1.0[flac?,mp3?,vorbis?,wavpack?]  
-EAPI=5
-IUSE=flac mp3 vorbis wavpack 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://pypi/r/rgain/rgain-1.2.1.tar.gz

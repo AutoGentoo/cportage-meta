@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-BDEPEND=  >=net-misc/networkmanager-1.2[ppp]  dev-libs/dbus-glib  net-dialup/ppp[eap-tls]  net-dialup/xl2tpd  >=dev-libs/glib-2.32  net-vpn/libreswan  gnome? (   x11-libs/gtk+:3   gnome-base/libgnome-keyring  )  sys-devel/gettext  dev-util/intltool  virtual/pkgconfig 
-RDEPEND=  >=net-misc/networkmanager-1.2[ppp]  dev-libs/dbus-glib  net-dialup/ppp[eap-tls]  net-dialup/xl2tpd  >=dev-libs/glib-2.32  net-vpn/libreswan  gnome? (   x11-libs/gtk+:3   gnome-base/libgnome-keyring  ) 
-EAPI=7
-IUSE=gnome static-libs 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/nm-l2tp/NetworkManager-l2tp/releases/download/1.2.12/NetworkManager-l2tp-1.2.12.tar.xz

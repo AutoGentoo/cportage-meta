@@ -1,9 +1,0 @@
-b4ba2e897aeec434ad9443ab21868dd6
-DEFINED_PHASES= configure install
-DEPEND=>=dev-libs/dbus-glib-0.74  net-misc/sstp-client  >=net-misc/networkmanager-1.2.0  net-dialup/ppp:=  gtk? (   x11-libs/gtk+:3   gnome-base/gnome-keyring   gnome-base/libgnome-keyring  )   virtual/pkgconfig  sys-devel/gettext  dev-util/intltool  
-RDEPEND=>=dev-libs/dbus-glib-0.74  net-misc/sstp-client  >=net-misc/networkmanager-1.2.0  net-dialup/ppp:=  gtk? (   x11-libs/gtk+:3   gnome-base/gnome-keyring   gnome-base/libgnome-keyring  )  
-EAPI=6
-IUSE=gtk 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/project/sstp-client/network-manager-sstp/1.2.0/NetworkManager-sstp-1.2.0.tar.bz2

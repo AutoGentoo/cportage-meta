@@ -1,9 +1,0 @@
-ac072bd8a431484cf06186ba80d488f2
-DEFINED_PHASES=-
-BDEPEND=  dev-python/setuptools[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  doc? ( dev-python/sphinx[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  test? (     >=dev-python/flask-0.6[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  dev-python/six[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]    dev-python/nose[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  )  
-RDEPEND=  >=dev-python/flask-0.6[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  dev-python/six[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  
-EAPI=7
-IUSE=doc test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/maxcountryman/flask-themes/archive/9eac2dcc9b81c3af29c2386ce1afba9b446562bf.tar.gz -> flask-themes-0.1.3_p20180112.tar.gz

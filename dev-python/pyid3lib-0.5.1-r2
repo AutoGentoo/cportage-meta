@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=media-libs/id3lib 
-RDEPEND=media-libs/id3lib 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ia64 ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/pyid3lib/pyid3lib-0.5.1.tar.bz2

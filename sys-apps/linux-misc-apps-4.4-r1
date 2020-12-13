@@ -1,9 +1,0 @@
-9ffcc157f37a1d338fe129bedbac0b95
-DEFINED_PHASES= compile configure install postinst prepare unpack
-DEPEND=sys-apps/hwids   >=dev-libs/glib-2.6   >=sys-kernel/linux-headers-4.4   usbip? (    !net-misc/usbip    tcpd? ( sys-apps/tcp-wrappers )    virtual/libudev   )   !sys-power/pmtools   virtual/pkgconfig 
-RDEPEND=sys-apps/hwids   >=dev-libs/glib-2.6   >=sys-kernel/linux-headers-4.4   usbip? (    !net-misc/usbip    tcpd? ( sys-apps/tcp-wrappers )    virtual/libudev   )   !sys-power/pmtools 
-EAPI=5
-IUSE=static-libs tcpd usbip 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI= https://www.kernel.org/pub/linux/kernel/v3.x/linux-4.4.tar.xz

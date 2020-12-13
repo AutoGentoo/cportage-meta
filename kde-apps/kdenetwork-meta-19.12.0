@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-RDEPEND=  >=kde-apps/kdenetwork-filesharing-19.12.0:5  >=kde-apps/kget-19.12.0:5  >=kde-apps/krdc-19.12.0:5  >=kde-apps/kopete-19.12.0:5  >=kde-apps/krfb-19.12.0:5  >=kde-apps/zeroconf-ioslave-19.12.0:5  dropbox? ( >=kde-apps/dolphin-plugins-dropbox-19.12.0:5 )  telepathy? ( >=kde-apps/plasma-telepathy-meta-19.12.0:5 )  
-EAPI=7
-IUSE=dropbox +telepathy 
-KEYWORDS=~amd64 ~arm64 ~x86
-SLOT=5
-SRC_URI=

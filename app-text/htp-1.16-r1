@@ -1,7 +1,0 @@
-1796fc204be7b3caea151b43f4349b32
-DEFINED_PHASES= compile install prepare test
-EAPI=5
-IUSE=
-KEYWORDS=~alpha ~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/htp/htp-1.16.tar.gz

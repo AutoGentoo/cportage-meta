@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=app-arch/unzip 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~arm
-SLOT=0
-SRC_URI=http://visp-doc.inria.fr/download/dataset/visp-images-3.1.0.zip

@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=app-arch/unzip 
-EAPI=5
-IUSE=doc 
-KEYWORDS=amd64 arm ppc x86
-SLOT=0
-SRC_URI=http://users.teilar.gr/~g1951d/Symbola.zip -> symbola-9.17.zip

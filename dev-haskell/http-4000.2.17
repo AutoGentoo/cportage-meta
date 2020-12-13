@@ -1,9 +1,0 @@
-1c04d9f99eabff58d19356128f333132
-DEFINED_PHASES= configure
-DEPEND=>=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.3:=[profile?]  >=dev-haskell/network-2.2.0.1:=[profile?] <dev-haskell/network-2.6:=[profile?]  >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  dev-lang/ghc  
-RDEPEND=>=dev-haskell/mtl-2.0:=[profile?] <dev-haskell/mtl-2.3:=[profile?]  >=dev-haskell/network-2.2.0.1:=[profile?] <dev-haskell/network-2.6:=[profile?]  >=dev-haskell/parsec-2.0:=[profile?] <dev-haskell/parsec-3.2:=[profile?]  >=dev-lang/ghc-7.4.1:=  
-EAPI=5
-IUSE=
-KEYWORDS=~alpha ~amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~ppc-macos ~x86-macos
-SLOT=0/4000.2.17
-SRC_URI=https://hackage.haskell.org/package/HTTP-4000.2.17/HTTP-4000.2.17.tar.gz

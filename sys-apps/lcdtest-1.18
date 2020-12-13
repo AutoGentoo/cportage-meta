@@ -1,9 +1,0 @@
-afd5ace9654c2fdd8fe0f71c9ff67e02
-DEFINED_PHASES= compile configure install postinst postrm preinst prepare
-DEPEND=  >=media-libs/libsdl-1.2.7-r2[X,video]  >=media-libs/sdl-image-1.2.3-r1  >=media-libs/sdl-ttf-2.0.9  
-RDEPEND=  >=media-libs/libsdl-1.2.7-r2[X,video]  >=media-libs/sdl-image-1.2.3-r1  >=media-libs/sdl-ttf-2.0.9   media-fonts/liberation-fonts  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://www.brouhaha.com/~eric/software/lcdtest/download/lcdtest-1.18.tar.gz

@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=app-arch/snappy:= 
-RDEPEND=app-arch/snappy:= 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/0.1.0
-SRC_URI=https://github.com/ygrek/ocaml-snappy/releases/download/v0.1.0/ocaml-snappy-0.1.0.tar.gz

@@ -1,9 +1,0 @@
-204057341497fddc5baff17cb9aa13cb
-DEFINED_PHASES= configure prepare
-DEPEND=dev-db/mysql-connector-c:= 
-RDEPEND=dev-db/mysql-connector-c:= 
-EAPI=6
-IUSE=
-KEYWORDS=~alpha ~amd64 ~hppa ~mips ~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=http://www.tangentsoft.net/mysqlpp/releases/mysql++-2.3.2.tar.gz

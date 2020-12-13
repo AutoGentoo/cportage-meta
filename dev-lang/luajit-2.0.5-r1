@@ -1,8 +1,0 @@
-3269caa40c6399bee3d10f0771bd6a6d
-DEFINED_PHASES= compile install prepare
-EAPI=6
-IUSE=lua52compat static-libs 
-KEYWORDS=amd64 arm ppc x86 ~amd64-linux ~x86-linux
-SLOT=2
-SRC_URI=http://luajit.org/download/LuaJIT-2.0.5.tar.gz
-	

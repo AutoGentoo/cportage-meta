@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-perl/Class-Accessor  dev-perl/Module-Build 
-RDEPEND=dev-perl/Class-Accessor 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86 ~ppc-aix ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz

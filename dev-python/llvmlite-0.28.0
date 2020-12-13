@@ -1,9 +1,0 @@
-088e47b3169f9472caf208c6840bae03
-DEFINED_PHASES=-
-DEPEND=  dev-python/six[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  sys-devel/llvm:7  sys-libs/zlib:0=  virtual/python-enum34[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]   dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  
-RDEPEND=  dev-python/six[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  sys-devel/llvm:7  sys-libs/zlib:0=  virtual/python-enum34[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  
-EAPI=6
-IUSE=examples 
-KEYWORDS=amd64 arm64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://github.com/numba/llvmlite/archive/v0.28.0.tar.gz -> llvmlite-0.28.0.gh.tar.gz

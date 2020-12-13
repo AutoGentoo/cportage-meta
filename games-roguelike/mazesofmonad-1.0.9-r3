@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=>=dev-libs/gmp-5:0=  virtual/libffi:=  >=dev-lang/ghc-7.4.1  >=dev-haskell/cabal-1.6  dev-haskell/hunit  dev-haskell/mtl  dev-haskell/random  dev-haskell/regex-posix  dev-haskell/time-locale-compat  
-RDEPEND=>=dev-libs/gmp-5:0=  virtual/libffi:= 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://hackage.haskell.org/package/MazesOfMonad-1.0.9/MazesOfMonad-1.0.9.tar.gz

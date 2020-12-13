@@ -1,9 +1,0 @@
-b83c68865420a3c8a8c080ad422ad3d5
-DEFINED_PHASES= compile configure install postinst prepare unpack
-DEPEND=sys-apps/hwids   >=sys-fs/sysfsutils-2   >=dev-libs/glib-2.6   tcpd? ( sys-apps/tcp-wrappers )   !sys-power/pmtools   !net-misc/usbip   virtual/pkgconfig 
-RDEPEND=sys-apps/hwids   >=sys-fs/sysfsutils-2   >=dev-libs/glib-2.6   tcpd? ( sys-apps/tcp-wrappers )   !sys-power/pmtools   !net-misc/usbip 
-EAPI=5
-IUSE=static-libs tcpd 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI= https://www.kernel.org/pub/linux/kernel/v3.6/linux-3.6.tar.bz2

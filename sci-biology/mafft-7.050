@@ -1,7 +1,0 @@
-22dd20aa58a005f11ea0887d2cc874ae
-DEFINED_PHASES= compile install prepare test
-EAPI=5
-IUSE=threads 
-KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
-SLOT=0
-SRC_URI=https://mafft.cbrc.jp/alignment/software/mafft-7.050-without-extensions-src.tgz

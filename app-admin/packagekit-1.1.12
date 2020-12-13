@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=gtk? ( ~app-admin/packagekit-gtk-1.1.12 )  qt5? ( >=app-admin/packagekit-qt-0.9.6 ) 
-RDEPEND=gtk? ( ~app-admin/packagekit-gtk-1.1.12 )  qt5? ( >=app-admin/packagekit-qt-0.9.6 ) 
-EAPI=6
-IUSE=gtk qt5 
-KEYWORDS=~amd64 ~arm ~x86
-SLOT=0
-SRC_URI=

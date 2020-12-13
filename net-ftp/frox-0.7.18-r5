@@ -1,9 +1,0 @@
-1e690fe25b4ca4bd3a0d2aec4d3d3058
-DEFINED_PHASES= configure install prepare setup
-DEPEND=clamav? ( >=app-antivirus/clamav-0.80 )  ssl? ( dev-libs/openssl )  kernel_linux? ( >=sys-kernel/linux-headers-2.6 ) 
-RDEPEND=clamav? ( >=app-antivirus/clamav-0.80 )  ssl? ( dev-libs/openssl )  kernel_linux? ( >=sys-kernel/linux-headers-2.6 ) 
-EAPI=5
-IUSE=clamav ssl transparent 
-KEYWORDS=amd64 ~ppc x86
-SLOT=0
-SRC_URI=http://frox.sourceforge.net/download/frox-0.7.18.tar.bz2

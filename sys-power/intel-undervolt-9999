@@ -1,10 +1,13 @@
-14c4bdca2946eb6f908f01aa98394bcd
-DEFINED_PHASES= compile configure postinst
-BDEPEND=virtual/pkgconfig 
-DEPEND=elogind? ( sys-auth/elogind ) 
-RDEPEND=elogind? ( sys-auth/elogind ) 
+BDEPEND=virtual/pkgconfig virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure postinst setup unpack
+DEPEND=elogind? ( sys-auth/elogind )
+DESCRIPTION=Intel CPU undervolting and throttling configuration tool
 EAPI=7
-IUSE=elogind 
-KEYWORDS=
+HOMEPAGE=https://github.com/kitsunyan/intel-undervolt
+IUSE=elogind kernel_linux
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=elogind? ( sys-auth/elogind )
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	69be00334d73f9f50261554b94be0879	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=01b51b5f7814703aca3c4ad6625057cc

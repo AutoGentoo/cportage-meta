@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=dev-lang/ocaml:=  dev-ml/pgocaml:=  dev-ml/macaque:=  dev-ml/ocaml-safepass:=  >=dev-ml/eliom-6.2:=  dev-ml/ocsigen-toolkit:=  dev-ml/ppx_deriving:=  dev-ml/yojson:=  dev-ml/OCaml-ImageMagick:=  
-RDEPEND=dev-lang/ocaml:=  dev-ml/pgocaml:=  dev-ml/macaque:=  dev-ml/ocaml-safepass:=  >=dev-ml/eliom-6.2:=  dev-ml/ocsigen-toolkit:=  dev-ml/ppx_deriving:=  dev-ml/yojson:=  dev-ml/OCaml-ImageMagick:=  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/1.0.0
-SRC_URI=https://github.com/ocsigen/ocsigen-start/archive/1.0.0.tar.gz -> ocsigen-start-1.0.0.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  dev-lang/tk[threads?]  x11-libs/libXScrnSaver  x11-libs/libX11  x11-libs/libXext  x11-base/xorg-proto 
-RDEPEND=  dev-lang/tk[threads?]  x11-libs/libXScrnSaver  x11-libs/libX11  x11-libs/libXext 
-EAPI=4
-IUSE=debug static-libs threads 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=http://beepcore-tcl.sourceforge.net/tkXwin-1.0.tgz

@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=>=dev-perl/Params-Validate-0.24-r1  >=virtual/perl-Scalar-List-Utils-1.08  >=dev-perl/Module-Build-0.28 
-RDEPEND=>=dev-perl/Params-Validate-0.24-r1  >=virtual/perl-Scalar-List-Utils-1.08 
-EAPI=6
-IUSE=
-KEYWORDS=alpha amd64 ia64 ppc sparc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/K/KW/KWILLIAMS/Class-Container-0.12.tar.gz

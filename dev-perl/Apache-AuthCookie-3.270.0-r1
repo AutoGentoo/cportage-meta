@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  >=www-apache/mod_perl-2  virtual/perl-Carp  >=dev-perl/Class-Load-0.30.0  virtual/perl-Encode  dev-perl/HTTP-Body  dev-perl/Hash-MultiValue  dev-perl/WWW-Form-UrlEncoded   virtual/perl-ExtUtils-MakeMaker  test? (   >=dev-perl/Apache-Test-1.390.0   >=dev-perl/URI-1.310.0   >=virtual/perl-Test-Simple-0.940.0   !www-apache/mpm_itk  )  
-RDEPEND=  >=www-apache/mod_perl-2  virtual/perl-Carp  >=dev-perl/Class-Load-0.30.0  virtual/perl-Encode  dev-perl/HTTP-Body  dev-perl/Hash-MultiValue  dev-perl/WWW-Form-UrlEncoded  
-EAPI=6
-IUSE=test 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MS/MSCHOUT/Apache-AuthCookie-3.27.tar.gz

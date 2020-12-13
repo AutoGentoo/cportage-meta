@@ -1,9 +1,0 @@
-8e00710654343498489b5519b4e4af9e
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=dev-libs/gmp:=  >=dev-libs/gf2x-0.9  dev-lang/perl 
-RDEPEND=dev-libs/gmp:=  >=dev-libs/gf2x-0.9 
-EAPI=5
-IUSE=doc static-libs test 
-KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
-SLOT=0
-SRC_URI=http://www.shoup.net/ntl/ntl-9.3.0.tar.gz

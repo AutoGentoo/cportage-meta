@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=dev-lang/php:* 
+DEFINED_PHASES=install
+DESCRIPTION=Pure-PHP arbitrary precision integer arithmetic library
 EAPI=6
-IUSE=
-KEYWORDS=~alpha amd64 hppa ia64 ppc ppc64 sparc x86
+HOMEPAGE=https://pear.php.net/package/Math_BigInteger http://phpseclib.sourceforge.net/documentation/math.html
+KEYWORDS=~alpha amd64 hppa ~ia64 ppc ppc64 sparc x86
+LICENSE=MIT
+RDEPEND=dev-lang/php:*
 SLOT=0
 SRC_URI=http://download.pear.php.net/package/Math_BigInteger-1.0.3.tgz
+_md5_=391009f1024ce9ed8c6d609fd615cd3a

@@ -1,9 +1,0 @@
-ab1f6195c104d86d6474c224a859e792
-DEFINED_PHASES=-
-DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   test? ( dev-python/nose[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )   python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=>=dev-python/twisted-core-13.2.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   >=dev-python/pyopenssl-0.13[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=test 
-KEYWORDS=amd64 ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=mirror://pypi/E/Epsilon/Epsilon-0.7.0.tar.gz

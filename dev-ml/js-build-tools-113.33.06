@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install
-DEPEND=dev-ml/ocamlbuild:= dev-ml/opam 
-RDEPEND=dev-ml/ocamlbuild:= 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/113.33.06
-SRC_URI=http://ocaml.janestreet.com/ocaml-core/113.33/files/js-build-tools-113.33.06.tar.gz

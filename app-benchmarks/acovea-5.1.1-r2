@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=  >=dev-libs/libcoyotl-3.1.0:=  >=dev-libs/libevocosm-3.3.0:=  dev-libs/expat:= 
-RDEPEND=  >=dev-libs/libcoyotl-3.1.0:=  >=dev-libs/libevocosm-3.3.0:=  dev-libs/expat:= 
+DEFINED_PHASES=configure install prepare
+DEPEND=>=dev-libs/libcoyotl-3.1.0:= >=dev-libs/libevocosm-3.3.0:= dev-libs/expat:= >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Analysis of Compiler Options via Evolutionary Algorithm
 EAPI=6
-IUSE=static-libs 
+HOMEPAGE=http://www.coyotegulch.com/products/acovea/
+IUSE=static-libs
 KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=>=dev-libs/libcoyotl-3.1.0:= >=dev-libs/libevocosm-3.3.0:= dev-libs/expat:=
 SLOT=0
 SRC_URI=http://www.coyotegulch.com/distfiles/libacovea-5.1.1.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=ed694ec24045975e04c15e9629f44296

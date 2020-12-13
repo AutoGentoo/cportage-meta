@@ -1,9 +1,0 @@
-06ef8b428397714a11fc439d374a06ef
-DEFINED_PHASES= compile install prepare
-DEPEND=  media-libs/libsdl[X,sound,joystick,video]  sys-libs/zlib  
-RDEPEND=  media-libs/libsdl[X,sound,joystick,video]  sys-libs/zlib  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~hasufell/distfiles/gambatte-0.5.0_p20131102.tar.xz

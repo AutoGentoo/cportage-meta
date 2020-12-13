@@ -1,9 +1,0 @@
-52187c9a1ef71b147505b081b150e888
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=  media-libs/libpng  x11-libs/libX11  x11-libs/libXt  motif? ( >=x11-libs/motif-2.3:0 )  tk? ( dev-lang/tk )  doc? ( virtual/latex-base ) 
-RDEPEND=  media-libs/libpng  x11-libs/libX11  x11-libs/libXt  motif? ( >=x11-libs/motif-2.3:0 )  tk? ( dev-lang/tk ) 
-EAPI=4
-IUSE=doc motif static-libs tk 
-KEYWORDS=amd64 ~arm ~ia64 ~ppc x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=ftp://ftp.astro.caltech.edu/pub/pgplot/pgplot522.tar.gz

@@ -1,9 +1,0 @@
-cc314b2ae285e7c9834d79db17657983
-DEFINED_PHASES= install prepare
-DEPEND=dev-python/configobj  dev-python/setproctitle  mongo? ( dev-python/pymongo )  mysql? ( dev-python/mysql-python )  snmp? ( dev-python/pysnmp )  redis? ( dev-python/redis-py )  !kernel_linux? ( >=dev-python/psutil-3 )  test? (   dev-python/mock   dev-python/pysnmp  ) 
-RDEPEND=dev-python/configobj  dev-python/setproctitle  mongo? ( dev-python/pymongo )  mysql? ( dev-python/mysql-python )  snmp? ( dev-python/pysnmp )  redis? ( dev-python/redis-py )  !kernel_linux? ( >=dev-python/psutil-3 ) 
-EAPI=6
-IUSE=test mongo mysql snmp redis 
-KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
-SLOT=0
-SRC_URI=https://github.com/python-diamond/Diamond/archive/73207d04e0739a4ce92bc201b36681c42d9fa7e7.tar.gz -> python-diamond-4.0.515.20170311.tar.gz

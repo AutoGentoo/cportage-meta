@@ -1,9 +1,0 @@
-7a686168739fda4822b77fafced2a876
-DEFINED_PHASES= compile configure install postinst postrm prepare
-DEPEND=>=sys-libs/db-4.2.52_p5:=  >=sys-libs/ncurses-5.6-r2:=  perl? ( dev-lang/perl )  tcl? ( >=dev-lang/tcl-8.5:0= )  virtual/pkgconfig 
-RDEPEND=>=sys-libs/db-4.2.52_p5:=  >=sys-libs/ncurses-5.6-r2:=  perl? ( dev-lang/perl )  tcl? ( >=dev-lang/tcl-8.5:0= )  app-eselect/eselect-vi 
-EAPI=6
-IUSE=perl tcl unicode 
-KEYWORDS=alpha amd64 ~arm hppa ~mips ppc ppc64 sparc x86 ~x64-macos
-SLOT=0
-SRC_URI=http://garage.linux.student.kuleuven.be/~skimo/nvi/devel/nvi-1.81.6.tar.bz2

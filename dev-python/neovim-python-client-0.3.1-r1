@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-python/msgpack[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  virtual/python-greenlet[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  python_targets_python2_7? ( dev-python/trollius[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-RDEPEND=    dev-python/msgpack[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  virtual/python-greenlet[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  python_targets_python2_7? ( dev-python/trollius[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  >=app-editors/neovim-0.2.1 
-EAPI=6
-IUSE=python_targets_python2_7 python_targets_python3_6 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/neovim/pynvim/archive/0.3.1.tar.gz -> neovim-python-client-0.3.1.tar.gz

@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=app-admin/augeas 
-RDEPEND=app-admin/augeas 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm64 x86
-SLOT=0
-SRC_URI=mirror://pypi/p/python-augeas/python-augeas-0.5.0.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=>=dev-lang/ghc-6.8.2   dev-haskell/cabal 
-RDEPEND=>=dev-lang/ghc-6.8.2 
-EAPI=4
-IUSE=
-KEYWORDS=amd64 sparc x86
-SLOT=0
-SRC_URI=https://hackage.haskell.org/package/ObjectName-1.0.0.0/ObjectName-1.0.0.0.tar.gz

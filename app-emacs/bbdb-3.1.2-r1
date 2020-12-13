@@ -1,9 +1,0 @@
-ca2daf9b8093fe1e6953b17539a063b3
-DEFINED_PHASES= compile configure install postinst postrm prepare
-BDEPEND=vm? ( app-emacs/vm ) 
-RDEPEND=vm? ( app-emacs/vm )  tex? ( virtual/tex-base ) 
-EAPI=7
-IUSE=tex vm 
-KEYWORDS=~alpha amd64 ~ia64 ppc ~ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~sparc-solaris
-SLOT=0
-SRC_URI=http://download.savannah.gnu.org/releases/bbdb/bbdb-3.1.2.tar.gz

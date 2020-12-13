@@ -1,9 +1,0 @@
-8d09b29686408dceb1e5ffd670f43c4f
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygobject:3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=gnome-base/gnome-menus-3.5.3:3[introspection]   >=dev-util/intltool-0.40.0  sys-devel/gettext  virtual/pkgconfig  
-RDEPEND=  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[xml] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygobject:3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=gnome-base/gnome-menus-3.5.3:3[introspection]   x11-libs/gdk-pixbuf:2[introspection]  x11-libs/gtk+:3[introspection]  
-EAPI=5
-IUSE=
-KEYWORDS=~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86
-SLOT=0
-SRC_URI=mirror://gnome/sources/alacarte/3.11/alacarte-3.11.91.tar.xz

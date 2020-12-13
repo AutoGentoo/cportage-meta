@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=  !<net-firewall/ebtables-2.0.10.4-r2  !<net-firewall/iptables-1.6.2-r2[nftables(-)]  
+DEFINED_PHASES=install
+DESCRIPTION=Maps ethernet frame ids to symbolic names
 EAPI=6
-IUSE=
-KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~riscv ~s390 ~sh ~sparc ~x86
+HOMEPAGE=https://netfilter.org/
+KEYWORDS=~alpha amd64 arm arm64 hppa ~ia64 ~m68k ~mips ppc ppc64 ~riscv s390 sparc x86
+LICENSE=GPL-2
+RDEPEND=!<net-firewall/ebtables-2.0.10.4-r2 !<net-firewall/iptables-1.6.2-r2[nftables(-)]
 SLOT=0
 SRC_URI=https://dev.gentoo.org/~floppym/dist/ethertypes-0.gz
+_md5_=904b474311de1e330a18a6e401d4afc0

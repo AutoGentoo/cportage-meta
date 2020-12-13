@@ -1,10 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure postinst
-BDEPEND=  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
-DEPEND=x11-libs/gtk+:2 
-RDEPEND=x11-libs/gtk+:2 
+BDEPEND=virtual/pkgconfig nls? ( sys-devel/gettext )
+DEFINED_PHASES=configure postinst
+DEPEND=x11-libs/gtk+:2
+DESCRIPTION=Systemtray volume mixer applet from PuppyLinux
 EAPI=7
-IUSE=nls 
+HOMEPAGE=http://puppylinux.org/wikka/Retrovol
+IUSE=nls
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3 LGPL-3 public-domain
+RDEPEND=x11-libs/gtk+:2
 SLOT=0
 SRC_URI=http://www.browserloadofcoolness.com/software/puppy/PETget/retrovol-0.13.tar.gz
+_md5_=4f3afb943d9728134d190d8f3da17946

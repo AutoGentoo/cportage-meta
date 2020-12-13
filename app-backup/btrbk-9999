@@ -1,10 +1,13 @@
-66a3289b5895e242696daf959d5ab2a6
-DEFINED_PHASES= compile install postinst preinst
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
-DEPEND=doc? ( >=dev-ruby/asciidoctor-1.5.7 ) 
-RDEPEND=dev-lang/perl  net-misc/openssh  mbuffer? ( >=sys-block/mbuffer-20180505 )  >=sys-fs/btrfs-progs-4.12 
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst preinst unpack
+DEPEND=doc? ( >=dev-ruby/asciidoctor-1.5.7 )
+DESCRIPTION=Tool for creating snapshots and remote backups of btrfs subvolumes
 EAPI=7
-IUSE=+mbuffer +doc 
-KEYWORDS=
+HOMEPAGE=https://digint.ch/btrbk/
+IUSE=+mbuffer +doc +lsbtr
+LICENSE=GPL-3+
+PROPERTIES=live
+RDEPEND=dev-lang/perl net-misc/openssh mbuffer? ( >=sys-block/mbuffer-20180505 ) >=sys-fs/btrfs-progs-4.12
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	69be00334d73f9f50261554b94be0879	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=703b6817de96dc52053a36e2d5b968b6

@@ -1,9 +1,0 @@
-4710c3a35ac8b42b3488acd7263e517c
-DEFINED_PHASES= compile install prepare
-DEPEND=x11-libs/libXtst  x11-libs/libX11  x11-libs/libXinerama  x11-libs/libxkbcommon 
-RDEPEND=x11-libs/libXtst  x11-libs/libX11  x11-libs/libXinerama  x11-libs/libxkbcommon 
-EAPI=6
-IUSE=examples 
-KEYWORDS=amd64 arm ppc x86
-SLOT=0
-SRC_URI=https://github.com/jordansissel/xdotool/releases/download/v3.20150503.1/xdotool-3.20150503.1.tar.gz

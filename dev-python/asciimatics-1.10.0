@@ -1,9 +1,0 @@
-0fb6d55a3c0ed2dd6216986fd895a15c
-DEFINED_PHASES= prepare
-DEPEND=  dev-python/pillow[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/future[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/wcwidth[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyfiglet[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/setuptools_scm[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  doc? ( dev-python/sphinx[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] ) 
-RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] 
-EAPI=6
-IUSE=doc examples 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/peterbrittain/asciimatics/archive/1.10.0.tar.gz -> asciimatics-1.10.0.tar.gz

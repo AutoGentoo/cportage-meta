@@ -1,9 +1,0 @@
-7518d36d8ef48146b998afa2c8b69166
-DEFINED_PHASES= compile install postinst pretend
-DEPEND=sys-apps/pciutils 
-RDEPEND=sys-apps/pciutils  net-wireless/wireless-tools  
-EAPI=7
-IUSE=debug usb 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/ndiswrapper/stable/ndiswrapper-1.61.tar.gz

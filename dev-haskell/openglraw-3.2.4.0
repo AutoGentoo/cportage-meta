@@ -1,9 +1,0 @@
-e7c02fd8bd9b486759000e6f8542cb09
-DEFINED_PHASES= configure
-DEPEND=>=dev-haskell/fixed-0.2:=[profile?] <dev-haskell/fixed-0.3:=[profile?]  >=dev-haskell/half-0.2.2.1:=[profile?] <dev-haskell/half-0.3:=[profile?]  >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-1.3:=[profile?]  >=dev-lang/ghc-7.8.2:=  virtual/opengl   >=dev-haskell/cabal-1.18.1.3  
-RDEPEND=>=dev-haskell/fixed-0.2:=[profile?] <dev-haskell/fixed-0.3:=[profile?]  >=dev-haskell/half-0.2.2.1:=[profile?] <dev-haskell/half-0.3:=[profile?]  >=dev-haskell/text-0.1:=[profile?] <dev-haskell/text-1.3:=[profile?]  >=dev-lang/ghc-7.8.2:=  virtual/opengl  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0/3.2.4.0
-SRC_URI=https://hackage.haskell.org/package/OpenGLRaw-3.2.4.0/OpenGLRaw-3.2.4.0.tar.gz

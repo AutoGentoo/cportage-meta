@@ -1,8 +1,9 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= install
-DEPEND=  !sys-libs/glibc  !sys-libs/uclibc 
+DEFINED_PHASES=install
+DEPEND=!sys-libs/glibc !sys-libs/uclibc
+DESCRIPTION=Install <sys/queue.h> from glibc.
 EAPI=7
-IUSE=
-KEYWORDS=amd64 arm arm64 ~hppa ~mips ppc x86
+HOMEPAGE=https://www.gnu.org/software/libc/libc.html
+KEYWORDS=amd64 arm arm64 ~hppa ~mips ppc ppc64 x86
+LICENSE=BSD
 SLOT=0
-SRC_URI=
+_md5_=94ebcc460231475b930c921300210443

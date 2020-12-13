@@ -1,9 +1,0 @@
-6698bdbbdfaae9e2b9125881c520b952
-DEFINED_PHASES= configure install prepare
-DEPEND=  virtual/opengl  >=media-libs/libsdl-1.2[joystick,video]  x11-libs/gtk+:2   >=dev-lang/nasm-0.98  
-RDEPEND=  virtual/opengl  >=media-libs/libsdl-1.2[joystick,video]  x11-libs/gtk+:2  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/gens/gens-2.15.5.tar.gz

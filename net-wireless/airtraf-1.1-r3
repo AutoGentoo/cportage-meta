@@ -1,9 +1,0 @@
-afaeee951d477394000cea7dd857d8d3
-DEFINED_PHASES= compile install prepare
-DEPEND=    net-libs/libpcap  sys-libs/ncurses:=   virtual/pkgconfig  
-RDEPEND=  net-libs/libpcap  sys-libs/ncurses:=  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=http://www.elixar.com/airtraf-1.1.tar.gz

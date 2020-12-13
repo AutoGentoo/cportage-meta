@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  >=dev-libs/glib-2.29.15:2  introspection? ( >=dev-libs/gobject-introspection-0.9.5:= )   dev-libs/gobject-introspection-common  >=dev-util/intltool-0.40  gnome-base/gnome-common  sys-devel/gettext  virtual/pkgconfig  
-RDEPEND=  >=dev-libs/glib-2.29.15:2  introspection? ( >=dev-libs/gobject-introspection-0.9.5:= )  
-EAPI=6
-IUSE=debug +introspection 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/linuxmint/cinnamon-menus/archive/4.0.0.tar.gz -> cinnamon-menus-4.0.0.tar.gz

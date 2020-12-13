@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-DEPEND=net-print/cups 
-RDEPEND=net-print/cups 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~ppc64
-SLOT=0
-SRC_URI=https://download3.ebz.epson.net/dsc/f/03/00/08/70/14/e33b7a89e843b3ac97dcab773f03fbac7769f147/epson-inkjet-printer-escpr-1.6.33-1lsb3.2.tar.gz

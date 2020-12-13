@@ -1,8 +1,0 @@
-e08cadb2aaafe492265bf15e1cf690b2
-DEFINED_PHASES= preinst setup
-RDEPEND=dev-util/confix-wrapper  sys-devel/autoconf-archive  sys-devel/automake  sys-devel/libtool 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86 ~ppc-aix ~x64-cygwin ~amd64-linux ~x86-linux ~sparc-solaris ~x86-solaris
-SLOT=2
-SRC_URI=mirror://sourceforge/confix/Confix-2.3.5.tar.bz2

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  virtual/perl-Digest-MD5  virtual/perl-File-Temp  virtual/perl-IO  virtual/perl-Storable   dev-perl/Module-Build  test? (   >=dev-perl/Test-Deep-0.82.0   >=dev-perl/Test-Exception-0.150.0   >=virtual/perl-Test-Simple-0.470.0  )  
-RDEPEND=  virtual/perl-Digest-MD5  virtual/perl-File-Temp  virtual/perl-IO  virtual/perl-Storable  
-EAPI=5
-IUSE=test 
-KEYWORDS=alpha amd64 ppc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/C/CH/CHORNY/Apache-Session-1.93.tar.gz

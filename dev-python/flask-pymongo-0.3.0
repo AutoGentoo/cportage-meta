@@ -1,9 +1,0 @@
-1f554b470dbaac693147495e0e4e4184
-DEFINED_PHASES=-
-DEPEND=>=dev-python/flask-0.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pymongo-2.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  doc? ( dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-RDEPEND=>=dev-python/flask-0.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pymongo-2.4[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=doc examples 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/dcrosta/flask-pymongo/archive/0.3.0.tar.gz -> flask-pymongo-0.3.0.tar.gz

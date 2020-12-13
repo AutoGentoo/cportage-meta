@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=x11-libs/libXft  dev-python/python-xlib[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-libs/imlib2[X] 
-RDEPEND=x11-libs/libXft  dev-python/python-xlib[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-libs/imlib2[X] 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ppc ~ppc64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/pypanel/PyPanel-2.4.tar.gz

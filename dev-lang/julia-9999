@@ -1,9 +1,0 @@
-43fec338979db82f07006682e87931db
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=  >=sys-devel/llvm-6.0.0:=  >=sys-devel/clang-6.0.0:=  dev-libs/double-conversion:0=  dev-libs/gmp:0=  dev-libs/libgit2:0=  >=dev-libs/libpcre2-10.23:0=[jit]  dev-libs/mpfr:0=  dev-libs/openspecfun  sci-libs/amd:0=  sci-libs/arpack:0=  sci-libs/camd:0=  sci-libs/ccolamd:0=  sci-libs/cholmod:0=  sci-libs/colamd:0=  sci-libs/fftw:3.0=[threads]  sci-libs/openlibm:0=  sci-libs/spqr:0=  sci-libs/umfpack:0=  sci-mathematics/glpk:0=  >=sys-libs/libunwind-1.1:7=  sys-libs/readline:0=  sys-libs/zlib:0=  >=virtual/blas-3.6  virtual/lapack  dev-util/patchelf  virtual/pkgconfig 
-RDEPEND=  >=sys-devel/llvm-6.0.0:=  >=sys-devel/clang-6.0.0:=  dev-libs/double-conversion:0=  dev-libs/gmp:0=  dev-libs/libgit2:0=  >=dev-libs/libpcre2-10.23:0=[jit]  dev-libs/mpfr:0=  dev-libs/openspecfun  sci-libs/amd:0=  sci-libs/arpack:0=  sci-libs/camd:0=  sci-libs/ccolamd:0=  sci-libs/cholmod:0=  sci-libs/colamd:0=  sci-libs/fftw:3.0=[threads]  sci-libs/openlibm:0=  sci-libs/spqr:0=  sci-libs/umfpack:0=  sci-mathematics/glpk:0=  >=sys-libs/libunwind-1.1:7=  sys-libs/readline:0=  sys-libs/zlib:0=  >=virtual/blas-3.6  virtual/lapack 
-EAPI=6
-IUSE=
-KEYWORDS=
-SLOT=0
-SRC_URI=

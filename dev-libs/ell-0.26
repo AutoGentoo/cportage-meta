@@ -1,9 +1,0 @@
-585377702e17589d26f290084016d86c
-DEFINED_PHASES= prepare
-DEPEND=  glib? ( dev-libs/glib:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  
-RDEPEND=  glib? ( dev-libs/glib:2[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?] )  
-EAPI=7
-IUSE=glib pie 
-KEYWORDS=~alpha amd64 arm arm64 ~ia64 ~mips ppc ppc64 ~sparc x86
-SLOT=0
-SRC_URI=https://mirrors.edge.kernel.org/pub/linux/libs/ell/ell-0.26.tar.xz

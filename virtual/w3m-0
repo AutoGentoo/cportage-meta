@@ -1,8 +1,7 @@
-d41d8cd98f00b204e9800998ecf8427e
 DEFINED_PHASES=-
-RDEPEND=|| (   www-client/w3m   www-client/w3mmee  ) 
+DESCRIPTION=Virtual for the w3m web browser
 EAPI=6
-IUSE=
-KEYWORDS=alpha amd64 ~arm ~arm64 ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+KEYWORDS=~alpha amd64 ~arm ~arm64 ~ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
+RDEPEND=|| ( www-client/w3m www-client/w3mmee )
 SLOT=0
-SRC_URI=
+_md5_=da1245b6041ea381238fcb4c639bcb65

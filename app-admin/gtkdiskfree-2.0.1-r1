@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=x11-libs/gtk+:3  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
-RDEPEND=x11-libs/gtk+:3 
-EAPI=5
-IUSE=nls 
-KEYWORDS=amd64 ~ia64 ~ppc ~ppc64 ~sparc x86
-SLOT=0
-SRC_URI=mirror://gentoo/gtkdiskfree-2.0.1.tar.gz

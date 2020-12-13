@@ -1,9 +1,0 @@
-164032aef83092a327d55627598831a2
-DEFINED_PHASES= configure install postinst
-DEPEND=  iconv? ( virtual/libiconv )  ident? ( net-libs/libident )  pam? ( sys-libs/pam )  ssl? (   !gnutls? (    !libressl? ( dev-libs/openssl:0 )   )   gnutls? ( net-libs/gnutls )   libressl? ( dev-libs/libressl )  )  tcpd? ( sys-apps/tcp-wrappers )  zlib? ( sys-libs/zlib )   >=sys-apps/sed-4  
-RDEPEND=  iconv? ( virtual/libiconv )  ident? ( net-libs/libident )  pam? ( sys-libs/pam )  ssl? (   !gnutls? (    !libressl? ( dev-libs/openssl:0 )   )   gnutls? ( net-libs/gnutls )   libressl? ( dev-libs/libressl )  )  tcpd? ( sys-apps/tcp-wrappers )  zlib? ( sys-libs/zlib )  
-EAPI=5
-IUSE=debug gnutls iconv ident ipv6 libressl pam ssl tcpd zlib 
-KEYWORDS=amd64 x86 ~x64-macos
-SLOT=0
-SRC_URI=http://ngircd.barton.de/pub/ngircd/ngircd-23.tar.gz

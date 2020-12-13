@@ -1,9 +1,0 @@
-d423a4280b7ccb0dd16399da7e5c20dd
-DEFINED_PHASES= compile install prepare
-DEPEND=sys-libs/zlib  mpi? ( virtual/mpi ) 
-RDEPEND=sys-libs/zlib  mpi? ( virtual/mpi ) 
-EAPI=4
-IUSE=doc examples int64 mpi static-libs tools 
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://dev.gentooexperimental.org/~patrick/scotch_5.1.12b_esmumps.tar.gz

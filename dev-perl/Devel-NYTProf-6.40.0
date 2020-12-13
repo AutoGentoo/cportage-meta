@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  >=dev-perl/File-Which-1.90.0  virtual/perl-Getopt-Long  dev-perl/JSON-MaybeXS  virtual/perl-Scalar-List-Utils  virtual/perl-XSLoader  sys-libs/zlib   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.840.0   >=dev-perl/Test-Differences-0.60.0  )  
-RDEPEND=  >=dev-perl/File-Which-1.90.0  virtual/perl-Getopt-Long  dev-perl/JSON-MaybeXS  virtual/perl-Scalar-List-Utils  virtual/perl-XSLoader  sys-libs/zlib  
-EAPI=6
-IUSE=test 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/T/TI/TIMB/Devel-NYTProf-6.04.tar.gz

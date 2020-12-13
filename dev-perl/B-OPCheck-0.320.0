@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  >=dev-perl/B-Utils-0.80.0  virtual/perl-Carp  virtual/perl-Scalar-List-Utils  dev-perl/Scope-Guard  virtual/perl-XSLoader   virtual/perl-ExtUtils-MakeMaker  >=dev-perl/ExtUtils-Depends-0.302.0  test? (   virtual/perl-File-Spec   virtual/perl-Module-Metadata   virtual/perl-Test-Simple  )  
-RDEPEND=  >=dev-perl/B-Utils-0.80.0  virtual/perl-Carp  virtual/perl-Scalar-List-Utils  dev-perl/Scope-Guard  virtual/perl-XSLoader  
-EAPI=6
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/E/ET/ETHER/B-OPCheck-0.32.tar.gz

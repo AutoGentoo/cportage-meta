@@ -1,9 +1,0 @@
-3b1be9140e62fbdb7daf6f2fe890ca08
-DEFINED_PHASES= configure install prepare test
-DEPEND=  dev-lang/spidermonkey:52  >=dev-libs/glib-2.37.3:2  >=dev-libs/gobject-introspection-1.38:=  sys-libs/readline:0  virtual/libffi  cairo? ( x11-libs/cairo[X,glib] )  gtk? ( x11-libs/gtk+:3 )   gnome-base/gnome-common  sys-devel/gettext  virtual/pkgconfig  test? ( sys-apps/dbus )  sys-devel/autoconf-archive  
-RDEPEND=  dev-lang/spidermonkey:52  >=dev-libs/glib-2.37.3:2  >=dev-libs/gobject-introspection-1.38:=  sys-libs/readline:0  virtual/libffi  cairo? ( x11-libs/cairo[X,glib] )  gtk? ( x11-libs/gtk+:3 )   !<gnome-extra/cinnamon-2.4  
-EAPI=6
-IUSE=+cairo examples gtk test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/linuxmint/cjs/archive/3.8.0.tar.gz -> cjs-3.8.0.tar.gz

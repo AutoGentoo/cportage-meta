@@ -1,9 +1,0 @@
-1796fc204be7b3caea151b43f4349b32
-DEFINED_PHASES= configure install prepare setup
-DEPEND=virtual/libusb:1=  virtual/libudev:=  app-arch/xz-utils  virtual/pkgconfig 
-RDEPEND=virtual/libusb:1=  virtual/libudev:=  sys-apps/hwids  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  ) 
-EAPI=6
-IUSE=python 
-KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-009.tar.xz

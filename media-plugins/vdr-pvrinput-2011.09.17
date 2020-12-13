@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=>=media-video/vdr-1.6.0 
-RDEPEND=>=media-video/vdr-1.6.0 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://gentoo/vdr-pvrinput-2011.09.17.tgz

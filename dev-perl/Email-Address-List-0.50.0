@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  dev-perl/Email-Address  test? (   virtual/perl-Test-Simple   dev-perl/JSON  )  
-EAPI=5
-IUSE=test 
-KEYWORDS=amd64
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/A/AL/ALEXMV/Email-Address-List-0.05.tar.gz

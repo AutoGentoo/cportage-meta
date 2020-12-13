@@ -1,9 +1,0 @@
-33b73342d7835a8fd03575685ce4b153
-DEFINED_PHASES= compile configure install postinst postrm prepare
-DEPEND=dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/pango  sys-libs/zlib  judy? ( dev-libs/judy )  tcl? ( dev-lang/tcl:0 dev-lang/tk:0 )  lzma? ( app-arch/xz-utils )  virtual/pkgconfig  dev-util/gperf 
-RDEPEND=dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/pango  sys-libs/zlib  judy? ( dev-libs/judy )  tcl? ( dev-lang/tcl:0 dev-lang/tk:0 )  lzma? ( app-arch/xz-utils ) 
-EAPI=6
-IUSE=doc examples fasttree fatlines judy lzma packed tcl 
-KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://sourceforge/gtkwave/gtkwave-3.3.87.tar.gz

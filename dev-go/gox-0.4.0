@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=>=dev-lang/go-1.10 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/0.4.0
-SRC_URI=https://github.com/mitchellh/gox/archive/v0.4.0.tar.gz -> gox-0.4.0.tar.gz
-	 https://github.com/mitchellh/iochan/archive/87b45ffd0e9581375c491fef3d32130bb15c5bd7.tar.gz -> github.com-mitchellh-iochan-87b45ffd0e9581375c491fef3d32130bb15c5bd7.tar.gz

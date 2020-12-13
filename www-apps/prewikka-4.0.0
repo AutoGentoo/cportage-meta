@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=dev-python/lesscpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  sys-devel/gettext 
-RDEPEND=~dev-libs/libprelude-4.0.0[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ~dev-libs/libpreludedb-4.0.0[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/Babel[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/mako[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/python-dateutil[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pytz[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyyaml[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/werkzeug[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  media-fonts/font-xfree86-type1  adns? ( dev-python/twisted[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-EAPI=6
-IUSE=adns 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://www.prelude-siem.org/pkg/src/4.0.0/prewikka-4.0.0.tar.gz

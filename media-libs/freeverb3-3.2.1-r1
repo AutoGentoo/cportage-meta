@@ -1,9 +1,0 @@
-14c4bdca2946eb6f908f01aa98394bcd
-DEFINED_PHASES= configure install
-DEPEND=  sci-libs/fftw:3.0=  audacious? (   >=dev-libs/glib-2.4.7:2  x11-libs/cairo  x11-libs/gtk+:3  x11-libs/pango    =media-sound/audacious-3.9*[gtk3(+)]   media-libs/libsndfile  )  jack? (   >=dev-libs/glib-2.4.7:2  x11-libs/cairo  x11-libs/gtk+:3  x11-libs/pango    virtual/jack   media-libs/libsndfile  )  
-RDEPEND=  sci-libs/fftw:3.0=  audacious? (   >=dev-libs/glib-2.4.7:2  x11-libs/cairo  x11-libs/gtk+:3  x11-libs/pango    =media-sound/audacious-3.9*[gtk3(+)]   media-libs/libsndfile  )  jack? (   >=dev-libs/glib-2.4.7:2  x11-libs/cairo  x11-libs/gtk+:3  x11-libs/pango    virtual/jack   media-libs/libsndfile  )  
-EAPI=7
-IUSE=audacious forcefpu jack openmp plugdouble threads 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://nongnu/freeverb3/freeverb3-3.2.1.tar.xz

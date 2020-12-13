@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=~net-libs/libnatpmp-20140401 
-RDEPEND=~net-libs/libnatpmp-20140401 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://miniupnp.free.fr/files/download.php?file=libnatpmp-20140401.tar.gz -> libnatpmp-20140401.tar.gz

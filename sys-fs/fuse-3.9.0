@@ -1,9 +1,0 @@
-b5afc39fe67f1ccaf04b90f081f20c08
-DEFINED_PHASES= prepare setup
-BDEPEND=virtual/pkgconfig  test? (   || ( dev-lang/python:3.8 dev-lang/python:3.7 dev-lang/python:3.6 )   || ( ( dev-lang/python:3.8 dev-python/pytest[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.7 dev-python/pytest[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-python/pytest[python_targets_python3_6(-),python_single_target_python3_6(+)] ) )  ) 
-RDEPEND=>=sys-fs/fuse-common-3.3.0-r1 
-EAPI=7
-IUSE=+suid test 
-KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
-SLOT=3
-SRC_URI=https://github.com/libfuse/libfuse/releases/download/fuse-3.9.0/fuse-3.9.0.tar.xz

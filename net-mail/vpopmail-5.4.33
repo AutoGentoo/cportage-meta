@@ -1,9 +1,0 @@
-37c22b8c6290eaf95735b44185b59dc7
-DEFINED_PHASES= configure install postinst postrm prepare setup
-DEPEND=  acct-group/vpopmail  acct-user/vpopmail  virtual/qmail  maildrop? ( mail-filter/maildrop )  mysql? ( virtual/mysql )  spamassassin? ( mail-filter/spamassassin ) 
-RDEPEND=  acct-group/vpopmail  acct-user/vpopmail  virtual/qmail  maildrop? ( mail-filter/maildrop )  mysql? ( virtual/mysql )  spamassassin? ( mail-filter/spamassassin ) 
-EAPI=4
-IUSE=clearpasswd ipalias maildrop mysql spamassassin 
-KEYWORDS=amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/vpopmail/vpopmail-5.4.33.tar.gz

@@ -1,9 +1,0 @@
-5c20cb564da57469de7970576479a662
-DEFINED_PHASES= compile configure install prepare
-DEPEND=>=net-libs/gnutls-3.3.0:=  test? ( app-crypt/monkeysphere ) =www-servers/apache-2.4* 
-RDEPEND=>=net-libs/gnutls-3.3.0:= =www-servers/apache-2.4* 
-EAPI=5
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://mod.gnutls.org/downloads/mod_gnutls-0.9.0.tar.bz2

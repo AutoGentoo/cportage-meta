@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=>=virtual/perl-Scalar-List-Utils-1.18 
-RDEPEND=>=virtual/perl-Scalar-List-Utils-1.18 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 hppa ~mips ppc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/Class-Autouse-2.01.tar.gz

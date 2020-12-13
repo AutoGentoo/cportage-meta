@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-lang/lua:* net-nds/openldap  net-nds/openldap  virtual/pkgconfig 
-RDEPEND=dev-lang/lua:* net-nds/openldap 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://git.zx2c4.com/lualdap/snapshot/lualdap-1.2.0.tar.xz

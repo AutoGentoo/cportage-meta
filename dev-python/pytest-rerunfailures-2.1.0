@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=dev-python/pytest 
-RDEPEND=dev-python/pytest 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://pypi/p/pytest-rerunfailures/pytest-rerunfailures-2.1.0.tar.gz

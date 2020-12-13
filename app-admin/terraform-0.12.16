@@ -1,8 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= compile install postinst prepare
-BDEPEND=>=dev-lang/go-1.12 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/hashicorp/terraform/archive/v0.12.16.tar.gz -> terraform-0.12.16.tar.gz

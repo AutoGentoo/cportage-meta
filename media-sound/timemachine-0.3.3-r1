@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=>=media-sound/jack-audio-connection-kit-0.80  x11-libs/gtk+:2  >=media-libs/libsndfile-1.0.5  media-libs/liblo  lash? ( >=media-sound/lash-0.5 )  virtual/pkgconfig 
-RDEPEND=>=media-sound/jack-audio-connection-kit-0.80  x11-libs/gtk+:2  >=media-libs/libsndfile-1.0.5  media-libs/liblo  lash? ( >=media-sound/lash-0.5 ) 
-EAPI=6
-IUSE=lash 
-KEYWORDS=amd64 ~ppc x86
-SLOT=0
-SRC_URI=http://plugin.org.uk/timemachine/timemachine-0.3.3.tar.gz

@@ -1,9 +1,0 @@
-b4ba2e897aeec434ad9443ab21868dd6
-DEFINED_PHASES= prepare setup
-DEPEND=  fontforge? (   || ( >=dev-lang/python-2.7.5-r2:2.7 )   media-gfx/fontforge   || ( ( >=dev-lang/python-2.7.5-r2:2.7 <dev-python/fonttools-4.0[python_targets_python2_7(-),python_single_target_python2_7(+)] ) )  ) 
-EAPI=6
-IUSE=fontforge X 
-KEYWORDS=alpha amd64 arm arm64 ia64 ppc ppc64 x86 ~x64-cygwin ~amd64-linux ~x86-linux ~x64-solaris
-SLOT=0
-SRC_URI=!fontforge? ( https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-2.00.1.tar.gz )
-fontforge? ( https://releases.pagure.org/liberation-fonts/liberation-fonts-2.00.1.tar.gz )

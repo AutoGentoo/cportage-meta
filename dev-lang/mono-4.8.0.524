@@ -1,9 +1,0 @@
-eb06941c21953b06e2c3b005e6181d48
-DEFINED_PHASES= prepare pretend setup
-DEPEND=  !minimal? ( >=dev-dotnet/libgdiplus-2.10 )  ia64? ( sys-libs/libunwind )  nls? ( sys-devel/gettext )   sys-devel/bc  virtual/yacc  pax_kernel? ( sys-apps/elfix )  dev-util/cmake  
-RDEPEND=  !minimal? ( >=dev-dotnet/libgdiplus-2.10 )  ia64? ( sys-libs/libunwind )  nls? ( sys-devel/gettext )   || ( www-client/links www-client/lynx )  
-EAPI=6
-IUSE=nls minimal pax_kernel xen doc 
-KEYWORDS=amd64 ~arm arm64 ppc ~ppc64 x86 ~amd64-linux
-SLOT=0
-SRC_URI=https://download.mono-project.com/sources/mono/mono-4.8.0.524.tar.bz2

@@ -1,9 +1,0 @@
-d30e53dce541d1efc860364c77adb898
-DEFINED_PHASES= compile configure install postinst postrm prepare
-DEPEND=  >=sci-libs/xylib-1  >=dev-lang/lua-5.1:0  nlopt? ( sci-libs/nlopt )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  readline? ( sys-libs/readline:* )  wxwidgets? ( x11-libs/wxGTK:3.0 )  dev-libs/boost  dev-lang/swig 
-RDEPEND=  >=sci-libs/xylib-1  >=dev-lang/lua-5.1:0  nlopt? ( sci-libs/nlopt )  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  readline? ( sys-libs/readline:* )  wxwidgets? ( x11-libs/wxGTK:3.0 )  gnuplot? ( sci-visualization/gnuplot ) 
-EAPI=5
-IUSE=gnuplot nlopt readline python static-libs wxwidgets 
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://github.com/wojdyr/fityk/releases/download/v1.2.9/fityk-1.2.9.tar.bz2

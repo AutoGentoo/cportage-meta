@@ -1,9 +1,0 @@
-0361cace0ad4e6e29fb683dc506f83c0
-DEFINED_PHASES= configure install postinst postrm preinst prepare test
-DEPEND=app-accessibility/at-spi2-core  dev-libs/glib:2  dev-libs/libcroco  virtual/libintl  x11-libs/gtk+:3  x11-libs/libX11  x11-libs/libxklavier  x11-libs/pango  introspection? ( dev-libs/gobject-introspection )  libcanberra? ( media-libs/libcanberra[gtk3(+)] )  vala? ( || ( dev-lang/vala:0.46[vapigen(+)] dev-lang/vala:0.44[vapigen(+)] dev-lang/vala:0.42[vapigen(+)] dev-lang/vala:0.40[vapigen(+)] dev-lang/vala:0.36[vapigen(+)] ) )  xtest? ( x11-libs/libXtst )  || ( >=dev-lang/python-2.7.5-r2:2.7 )  dev-util/glib-utils  dev-util/gtk-doc  dev-util/gtk-doc-am  dev-util/intltool  sys-devel/gettext  virtual/pkgconfig 
-RDEPEND=app-accessibility/at-spi2-core  dev-libs/glib:2  dev-libs/libcroco  virtual/libintl  x11-libs/gtk+:3  x11-libs/libX11  x11-libs/libxklavier  x11-libs/pango  introspection? ( dev-libs/gobject-introspection )  libcanberra? ( media-libs/libcanberra[gtk3(+)] )  vala? ( || ( dev-lang/vala:0.46[vapigen(+)] dev-lang/vala:0.44[vapigen(+)] dev-lang/vala:0.42[vapigen(+)] dev-lang/vala:0.40[vapigen(+)] dev-lang/vala:0.36[vapigen(+)] ) )  xtest? ( x11-libs/libXtst ) 
-EAPI=6
-IUSE=doc +introspection libcanberra static-libs +vala +xtest 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/ueno/eekboard/archive/e212262f29e022bdf7047861263ceea0c373e916.tar.gz -> eekboard-1.0.8_p20121001.tar.gz

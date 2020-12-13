@@ -1,7 +1,0 @@
-ca2daf9b8093fe1e6953b17539a063b3
-DEFINED_PHASES= prepare
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ~arm ~mips x86
-SLOT=0
-SRC_URI=ftp://ftp.and.org/pub/james/ustr/1.0.4/ustr-1.0.4.tar.bz2

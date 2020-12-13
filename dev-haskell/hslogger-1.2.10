@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=dev-haskell/mtl:=[profile?]  dev-haskell/network:=[profile?]  dev-haskell/old-locale:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  
-RDEPEND=dev-haskell/mtl:=[profile?]  dev-haskell/network:=[profile?]  dev-haskell/old-locale:=[profile?]  >=dev-lang/ghc-7.4.1:=  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~sparc ~x86 ~amd64-linux
-SLOT=0/1.2.10
-SRC_URI=https://hackage.haskell.org/package/hslogger-1.2.10/hslogger-1.2.10.tar.gz

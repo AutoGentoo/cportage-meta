@@ -1,9 +1,0 @@
-f76334b70ebea035105ff791178860a9
-DEFINED_PHASES= compile configure install postinst test
-DEPEND=>=virtual/jdk-1.8  test? ( dev-java/ant-junit:0 ) 
-RDEPEND=dev-libs/apr:1=  dev-libs/openssl:0=  >=virtual/jre-1.8 
-EAPI=6
-IUSE=static-libs test 
-KEYWORDS=amd64 ~x86
-SLOT=0
-SRC_URI=mirror://apache/tomcat/tomcat-connectors/native/1.2.21/source/tomcat-native-1.2.21-src.tar.gz

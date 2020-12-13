@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
-RDEPEND=  !media-plugins/mediastreamer-bcg729  
-EAPI=7
-IUSE=static-libs 
-KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~ppc64 ~x86
-SLOT=0
-SRC_URI=https://github.com/BelledonneCommunications/bcg729/archive/4.3.0-alpha.tar.gz 		-> bcg729-4.3.0_alpha.tar.gz

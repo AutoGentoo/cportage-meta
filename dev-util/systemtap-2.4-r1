@@ -1,9 +1,0 @@
-486390c624cad3662d73a92890d48eb3
-DEFINED_PHASES= configure prepare setup
-DEPEND=>=dev-libs/elfutils-0.142  sys-libs/libcap  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   sqlite? ( dev-db/sqlite:3 )  >=sys-devel/gettext-0.18.2 
-RDEPEND=>=dev-libs/elfutils-0.142  sys-libs/libcap  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   sqlite? ( dev-db/sqlite:3 ) 
-EAPI=5
-IUSE=sqlite 
-KEYWORDS=alpha amd64 arm ia64 ~mips ppc ppc64 ~s390 sparc x86
-SLOT=0
-SRC_URI=https://www.sourceware.org/systemtap/ftp/releases/systemtap-2.4.tar.gz

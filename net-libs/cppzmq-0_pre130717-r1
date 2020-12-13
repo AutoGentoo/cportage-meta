@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install test
-RDEPEND=>=net-libs/zeromq-3 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~arm ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~jlec/distfiles/cppzmq-0_pre130717.tar.xz

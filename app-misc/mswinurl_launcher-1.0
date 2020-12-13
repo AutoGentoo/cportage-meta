@@ -1,9 +1,0 @@
-b5c24f569336e58837d9cedc26d4691c
-DEFINED_PHASES= install postinst postrm
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-util/desktop-file-utils 
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://gist.github.com/endolith/77635/archive/a46707715aa2e112d2ea5ec26771030ff5e7eb64.tar.gz -> mswinurl_launcher-1.0.tar.gz

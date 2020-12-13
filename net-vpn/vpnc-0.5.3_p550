@@ -1,9 +1,0 @@
-55cb1c48417daafd3e068e0b6ddcb340
-DEFINED_PHASES= install postinst prepare
-DEPEND=  dev-lang/perl  dev-libs/libgcrypt:0=  >=sys-apps/iproute2-2.6.19.20061214[-minimal]  gnutls? ( net-libs/gnutls )  !gnutls? ( dev-libs/openssl:0= ) 
-RDEPEND=  dev-lang/perl  dev-libs/libgcrypt:0=  >=sys-apps/iproute2-2.6.19.20061214[-minimal]  gnutls? ( net-libs/gnutls )  !gnutls? ( dev-libs/openssl:0= )  resolvconf? ( virtual/resolvconf )  selinux? ( sec-policy/selinux-vpn )  
-EAPI=5
-IUSE=resolvconf +gnutls selinux 
-KEYWORDS=amd64 arm arm64 ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~jlec/distfiles/vpnc-0.5.3_p550.tar.xz

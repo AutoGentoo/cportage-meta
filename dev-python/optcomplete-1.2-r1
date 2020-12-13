@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-EAPI=5
-IUSE=doc examples 
-KEYWORDS=amd64 ppc x86 ~x86-linux
-SLOT=0
-SRC_URI=http://furius.ca/downloads/optcomplete/releases/optcomplete-1.2.tar.bz2

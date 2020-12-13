@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-DEPEND=  dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/libX11  virtual/pkgconfig 
-RDEPEND=  dev-libs/glib:2  x11-libs/gtk+:2  x11-libs/libX11 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~hppa ~x86
-SLOT=0
-SRC_URI=http://ironphoenix.org/tril/gtklife/gtklife-5.1.tar.gz

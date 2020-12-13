@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  gnome-base/gconf:2  gnome-base/libgnomecanvas  gnome-base/libgnomeui  x11-libs/gtk+:2  nls? ( virtual/libintl )  nls? ( sys-devel/gettext ) 
-RDEPEND=  gnome-base/gconf:2  gnome-base/libgnomecanvas  gnome-base/libgnomeui  x11-libs/gtk+:2  nls? ( virtual/libintl ) 
-EAPI=6
-IUSE=nls 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://sirius.bitvis.nu/files/sirius-0.8.0.tar.gz

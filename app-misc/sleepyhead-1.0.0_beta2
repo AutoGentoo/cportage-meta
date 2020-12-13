@@ -1,9 +1,0 @@
-f66a72abd3b837a3ea1d7a43662e522e
-DEFINED_PHASES= install prepare unpack
-DEPEND=virtual/opengl   x11-libs/libX11   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtopengl:5   dev-qt/qtwebkit:5   dev-qt/qtserialport:5   virtual/glu 
-RDEPEND=virtual/opengl   x11-libs/libX11   dev-qt/qtcore:5   dev-qt/qtgui:5   dev-qt/qtopengl:5   dev-qt/qtwebkit:5   dev-qt/qtserialport:5   virtual/glu 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://gitlab.com/sleepyhead/sleepyhead-code/repository/archive.tar.bz2?ref=1.0.0-beta-2 -> sleepyhead-1.0.0_beta2.tar.bz2

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=virtual/pkgconfig >=dev-libs/nss-3.11.4  >=dev-libs/nspr-4.6.4  >=dev-libs/svrcore-4.0.3  >=dev-libs/cyrus-sasl-2.1.19  >=dev-libs/icu-3.4:=  net-nds/openldap 
-RDEPEND=>=dev-libs/nss-3.11.4  >=dev-libs/nspr-4.6.4  >=dev-libs/svrcore-4.0.3  >=dev-libs/cyrus-sasl-2.1.19  >=dev-libs/icu-3.4:=  net-nds/openldap 
-EAPI=5
-IUSE=debug 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://port389.org/sources/389-adminutil-1.1.15.tar.bz2

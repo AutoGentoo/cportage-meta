@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=  >=dev-perl/Regexp-RegGrp-1.1.1_rc   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-File-Contents   virtual/perl-Test-Simple  )  
-RDEPEND=  >=dev-perl/Regexp-RegGrp-1.1.1_rc  
-EAPI=6
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/L/LE/LEEJO/CSS-Packer-2.05.tar.gz

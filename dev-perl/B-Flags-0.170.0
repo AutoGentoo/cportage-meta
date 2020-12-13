@@ -1,8 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=  virtual/perl-ExtUtils-MakeMaker  
-EAPI=6
-IUSE=test 
-KEYWORDS=~amd64 ~arm64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/R/RU/RURBAN/B-Flags-0.17.tar.gz

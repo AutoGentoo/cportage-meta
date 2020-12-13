@@ -1,8 +1,0 @@
-fe15fa1465de610bc1d23f8599bbe040
-DEFINED_PHASES= install unpack
-RDEPEND=  ~net-print/hplip-3.18.12  virtual/udev  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://developers.hp.com/sites/default/files/hplip-3.18.12-plugin.run

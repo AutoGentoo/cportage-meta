@@ -1,9 +1,0 @@
-d166a562d0c9535663c2f6e336edb873
-DEFINED_PHASES= install postinst setup
-DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/twisted-core[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  test? ( dev-python/mock[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-RDEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/twisted-core[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=test 
-KEYWORDS=~alpha amd64 arm hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc x86 ~amd64-linux
-SLOT=0
-SRC_URI=mirror://pypi/b/buildbot-slave/buildbot-slave-0.8.12.tar.gz

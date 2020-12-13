@@ -1,9 +1,0 @@
-a789224b94a210501c8afb29d86064cb
-DEFINED_PHASES= compile configure install prepare setup
-DEPEND=    >=net-libs/libmnl-1.0.3  >=net-libs/libnetfilter_conntrack-1.0.6  >=net-libs/libnetfilter_cthelper-1.0.0  >=net-libs/libnetfilter_cttimeout-1.0.0  >=net-libs/libnetfilter_queue-1.0.2  >=net-libs/libnfnetlink-1.0.1  !libtirpc? ( sys-libs/glibc[rpc(-)] )  libtirpc? ( net-libs/libtirpc )   doc? (   app-text/docbook-xml-dtd:4.1.2   app-text/xmlto  )  virtual/pkgconfig  sys-devel/bison  sys-devel/flex  
-RDEPEND=  >=net-libs/libmnl-1.0.3  >=net-libs/libnetfilter_conntrack-1.0.6  >=net-libs/libnetfilter_cthelper-1.0.0  >=net-libs/libnetfilter_cttimeout-1.0.0  >=net-libs/libnetfilter_queue-1.0.2  >=net-libs/libnfnetlink-1.0.1  !libtirpc? ( sys-libs/glibc[rpc(-)] )  libtirpc? ( net-libs/libtirpc )  
-EAPI=6
-IUSE=doc +libtirpc 
-KEYWORDS=alpha amd64 ~arm64 hppa x86
-SLOT=0
-SRC_URI=http://www.netfilter.org/projects/conntrack-tools/files/conntrack-tools-1.4.4.tar.bz2

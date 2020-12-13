@@ -1,7 +1,9 @@
-d41d8cd98f00b204e9800998ecf8427e
 DEFINED_PHASES=-
+DESCRIPTION=Terminal Emulator State Machine
 EAPI=6
-IUSE=
+HOMEPAGE=https://cgit.freedesktop.org/~dvdhrm/libtsm
 KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1 MIT
 SLOT=0
 SRC_URI=https://www.freedesktop.org/software/kmscon/releases/libtsm-3.tar.xz
+_md5_=7638a144916c4a410f7bd6c817f08fe9

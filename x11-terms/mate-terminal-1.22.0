@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=dev-libs/atk  >=dev-libs/glib-2.50:2  >=gnome-base/dconf-0.13.4  x11-libs/gdk-pixbuf:2  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/pango  >=x11-libs/gtk+-3.22:3[X]  >=x11-libs/vte-0.46:2.91  app-text/rarian  >=app-text/scrollkeeper-dtd-1:1.0  app-text/yelp-tools  dev-util/glib-utils  >=dev-util/intltool-0.50.1  sys-devel/gettext  virtual/pkgconfig 
-RDEPEND=dev-libs/atk  >=dev-libs/glib-2.50:2  >=gnome-base/dconf-0.13.4  x11-libs/gdk-pixbuf:2  x11-libs/libICE  x11-libs/libSM  x11-libs/libX11  x11-libs/pango  >=x11-libs/gtk+-3.22:3[X]  >=x11-libs/vte-0.46:2.91  >=mate-base/mate-desktop-1.6 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm ~arm64 x86
-SLOT=0
-SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-terminal-1.22.0.tar.xz

@@ -1,9 +1,0 @@
-e8b071e206dd6cecf16523e5ca660616
-DEFINED_PHASES= compile configure install prepare
-DEPEND=  berkdb? ( sys-libs/db:= )  lzo? ( dev-libs/lzo:2= )  odbc? ( dev-db/unixODBC:= )  
-RDEPEND=  berkdb? ( sys-libs/db:= )  lzo? ( dev-libs/lzo:2= )  odbc? ( dev-db/unixODBC:= )  
-EAPI=7
-IUSE=berkdb +bootrom +lzo odbc static-libs 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/netboot/netboot-0.10.2.tar.gz

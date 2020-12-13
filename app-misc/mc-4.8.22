@@ -1,9 +1,0 @@
-5114080869b44e987013c67d689711fb
-DEFINED_PHASES= configure install postinst pretend test
-DEPEND=>=dev-libs/glib-2.26.0:2  gpm? ( sys-libs/gpm )  kernel_linux? ( sys-fs/e2fsprogs )  samba? ( net-fs/samba )  sftp? ( net-libs/libssh2 )  slang? ( >=sys-libs/slang-2 )  !slang? ( sys-libs/ncurses:0=[unicode?] )  spell? ( app-text/aspell )  X? ( x11-libs/libX11   x11-libs/libICE   x11-libs/libXau   x11-libs/libXdmcp   x11-libs/libSM )  app-arch/xz-utils  virtual/pkgconfig  nls? ( sys-devel/gettext )  test? ( dev-libs/check )   
-RDEPEND=>=dev-libs/glib-2.26.0:2  gpm? ( sys-libs/gpm )  kernel_linux? ( sys-fs/e2fsprogs )  samba? ( net-fs/samba )  sftp? ( net-libs/libssh2 )  slang? ( >=sys-libs/slang-2 )  !slang? ( sys-libs/ncurses:0=[unicode?] )  spell? ( app-text/aspell )  X? ( x11-libs/libX11   x11-libs/libICE   x11-libs/libXau   x11-libs/libXdmcp   x11-libs/libSM ) 
-EAPI=7
-IUSE=+edit gpm nls samba sftp +slang spell test unicode X +xdg 
-KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 ~s390 ~sh sparc x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x86-solaris
-SLOT=0
-SRC_URI=http://ftp.midnight-commander.org/mc-4.8.22.tar.xz

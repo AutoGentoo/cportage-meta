@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=~x11-libs/fox-1.7.67  x11-libs/libICE  x11-libs/libSM 
-RDEPEND=~x11-libs/fox-1.7.67  x11-libs/libICE  x11-libs/libSM 
-EAPI=6
-IUSE=
-KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=ftp://ftp.fox-toolkit.org/pub/fox-1.7.67.tar.gz

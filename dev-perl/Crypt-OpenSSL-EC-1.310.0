@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=  >=dev-perl/Crypt-OpenSSL-Bignum-0.40.0  !libressl? ( dev-libs/openssl:0 )  libressl? ( dev-libs/libressl )   virtual/perl-ExtUtils-MakeMaker  
-RDEPEND=  >=dev-perl/Crypt-OpenSSL-Bignum-0.40.0  !libressl? ( dev-libs/openssl:0 )  libressl? ( dev-libs/libressl )  
-EAPI=6
-IUSE=test libressl 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MI/MIKEM/Crypt-OpenSSL-EC-1.31.tar.gz

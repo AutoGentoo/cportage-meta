@@ -1,10 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-BDEPEND=virtual/pkgconfig 
-DEPEND=sys-libs/ncurses:0= 
-RDEPEND=sys-libs/ncurses:0= 
+BDEPEND=virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=install prepare
+DEPEND=sys-libs/ncurses:0=
+DESCRIPTION=A program to solve chess proof games
 EAPI=7
-IUSE=
+HOMEPAGE=http://natch.free.fr/Natch.html
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/ncurses:0=
 SLOT=0
 SRC_URI=http://natch.free.fr/Natch/Natch-2.4.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=0248fe1d06d1d704ee3c033762942fa3

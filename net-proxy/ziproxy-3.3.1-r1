@@ -1,9 +1,0 @@
-f83a281be0f4211f9a8cbc9dcf732791
-DEFINED_PHASES= configure install prepare setup
-DEPEND=  media-libs/giflib:0=  media-libs/libpng:0=  virtual/jpeg:0  sys-libs/zlib  sasl? ( dev-libs/cyrus-sasl )  xinetd? ( virtual/inetd )  
-RDEPEND=  media-libs/giflib:0=  media-libs/libpng:0=  virtual/jpeg:0  sys-libs/zlib  sasl? ( dev-libs/cyrus-sasl )  xinetd? ( virtual/inetd )  
-EAPI=6
-IUSE=sasl xinetd 
-KEYWORDS=~amd64 ~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/ziproxy/ziproxy-3.3.1.tar.xz

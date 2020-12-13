@@ -1,9 +1,0 @@
-5e0b376194362021980b941c53730dbd
-DEFINED_PHASES= compile configure install postinst prepare
-DEPEND=  >=dev-libs/boost-1.48:=[threads]  dev-libs/icu:=  sys-libs/zlib  media-libs/freetype  media-libs/harfbuzz  dev-libs/libxml2  media-libs/libpng:0=  media-libs/tiff:0=  virtual/jpeg:0=  media-libs/libwebp:=  sci-libs/proj  media-fonts/dejavu  x11-libs/agg[truetype]  cairo? (   x11-libs/cairo   dev-cpp/cairomm  )  osmfonts? (   media-fonts/dejavu   media-fonts/noto   media-fonts/noto-cjk   media-fonts/unifont  )  postgres? ( >=dev-db/postgresql-8.3:* )  gdal? ( sci-libs/gdal )  sqlite? ( dev-db/sqlite:3 ) 
-RDEPEND=  >=dev-libs/boost-1.48:=[threads]  dev-libs/icu:=  sys-libs/zlib  media-libs/freetype  media-libs/harfbuzz  dev-libs/libxml2  media-libs/libpng:0=  media-libs/tiff:0=  virtual/jpeg:0=  media-libs/libwebp:=  sci-libs/proj  media-fonts/dejavu  x11-libs/agg[truetype]  cairo? (   x11-libs/cairo   dev-cpp/cairomm  )  osmfonts? (   media-fonts/dejavu   media-fonts/noto   media-fonts/noto-cjk   media-fonts/unifont  )  postgres? ( >=dev-db/postgresql-8.3:* )  gdal? ( sci-libs/gdal )  sqlite? ( dev-db/sqlite:3 ) 
-EAPI=6
-IUSE=cairo debug doc gdal osmfonts postgres sqlite 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/mapnik/mapnik/releases/download/v3.0.18/mapnik-v3.0.18.tar.bz2 -> mapnik-3.0.18.tar.bz2

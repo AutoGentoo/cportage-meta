@@ -1,9 +1,0 @@
-c1a911f93436096916ecf862beaa785f
-DEFINED_PHASES= install postinst
-DEPEND=>=app-admin/webapp-config-1.50.15   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
-RDEPEND=>=dev-lang/php-7.0.0[fileinfo,iconv,json,mysql?,postgres?,session,ssl,unicode,xml,xmlreader]  imagemagick? ( virtual/imagemagick-tools )  !imagemagick? ( dev-lang/php[gd] )  mysql? (   || ( >=dev-db/mariadb-5.5.8 >=dev-db/mysql-5.5.8 )   )  sqlite? (   >=dev-db/sqlite-3.3.7[fts3(+)]   >=dev-lang/php-7.0.0[pdo]   || ( dev-lang/php[sqlite] dev-lang/php[sqlite3] )  )  virtual/httpd-php 
-EAPI=7
-IUSE=imagemagick mysql postgres sqlite 
-KEYWORDS=~alpha ~amd64 ~arm ~arm64 ~ppc ~x86
-SLOT=1.33.2
-SRC_URI=http://releases.wikimedia.org/mediawiki/1.33/mediawiki-1.33.2.tar.gz

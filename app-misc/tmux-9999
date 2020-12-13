@@ -1,10 +1,14 @@
-593ec6297641128df0006f94d346abc6
-DEFINED_PHASES= configure install postinst prepare
-BDEPEND=  virtual/pkgconfig  virtual/yacc  
-DEPEND=  dev-libs/libevent:0=  sys-libs/ncurses:0=  utempter? (   kernel_linux? ( sys-libs/libutempter )   kernel_FreeBSD? ( || ( >=sys-freebsd/freebsd-lib-9.0 sys-libs/libutempter ) )  ) 
-RDEPEND=    dev-libs/libevent:0=  sys-libs/ncurses:0=  utempter? (   kernel_linux? ( sys-libs/libutempter )   kernel_FreeBSD? ( || ( >=sys-freebsd/freebsd-lib-9.0 sys-libs/libutempter ) )  )  selinux? ( sec-policy/selinux-screen )  vim-syntax? ( app-vim/vim-tmux ) 
+BDEPEND=virtual/pkgconfig virtual/yacc >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=dev-libs/libevent:0= sys-libs/ncurses:0= utempter? ( sys-libs/libutempter )
+DESCRIPTION=Terminal multiplexer
 EAPI=7
-IUSE=debug selinux utempter vim-syntax kernel_FreeBSD kernel_linux 
-KEYWORDS=
+HOMEPAGE=https://tmux.github.io/
+IUSE=debug selinux utempter vim-syntax kernel_FreeBSD kernel_linux
+LICENSE=ISC
+PROPERTIES=live
+RDEPEND=dev-libs/libevent:0= sys-libs/ncurses:0= utempter? ( sys-libs/libutempter ) selinux? ( sec-policy/selinux-screen ) vim-syntax? ( app-vim/vim-tmux )
 SLOT=0
 SRC_URI=https://raw.githubusercontent.com/przepompownia/tmux-bash-completion/678a27616b70c649c6701cae9cd8c92b58cc051b/completions/tmux -> tmux-bash-completion-678a27616b70c649c6701cae9cd8c92b58cc051b
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	git-r3	3e7ec3d6619213460c85e2aa48398441	l10n	8cdd85e169b835d518bc2fd59f780d8e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=9699681a39212720464ac55ff66d3161

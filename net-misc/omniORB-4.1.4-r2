@@ -1,9 +1,0 @@
-dc111cfbab58f90aac30ca24330f2dc4
-DEFINED_PHASES= compile configure install postinst prepare
-DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   ssl? ( >=dev-libs/openssl-0.9.6b:0= ) 
-RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   ssl? ( >=dev-libs/openssl-0.9.6b:0= ) 
-EAPI=5
-IUSE=doc ssl static-libs 
-KEYWORDS=amd64 ppc ppc64 ~sparc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/omniorb/omniORB-4.1.4.tar.gz

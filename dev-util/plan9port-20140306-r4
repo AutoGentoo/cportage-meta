@@ -1,9 +1,0 @@
-abc5766312170d8dc305f00cd202d106
-DEFINED_PHASES= compile configure install postinst prepare
-DEPEND=X? ( x11-apps/xauth )  truetype? ( media-libs/freetype              media-libs/fontconfig ) 
-RDEPEND=X? ( x11-apps/xauth )  truetype? ( media-libs/freetype              media-libs/fontconfig ) 
-EAPI=5
-IUSE=X aqua truetype 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/9fans/plan9port/archive/e78ed7a67bbaa37dc57dfb37219f505c48755e14.tar.gz -> plan9port-e78ed7a67bbaa37dc57dfb37219f505c48755e14.tar.gz

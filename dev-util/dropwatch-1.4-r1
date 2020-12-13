@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install postinst prepare
-DEPEND=dev-libs/libnl:3  sys-libs/binutils-libs  sys-libs/readline:=  virtual/pkgconfig 
-RDEPEND=dev-libs/libnl:3  sys-libs/binutils-libs  sys-libs/readline:= 
-EAPI=5
-IUSE=kernel_linux 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://fedorahosted.org/releases/d/r/dropwatch/dropwatch-1.4.tbz2

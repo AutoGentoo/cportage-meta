@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=sys-devel/gcc:*  sys-devel/clang:= 
-RDEPEND=sys-devel/gcc:*  sys-devel/clang:= 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=http://lcamtuf.coredump.cx/afl/releases/afl-2.52b.tgz

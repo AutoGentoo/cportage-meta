@@ -1,8 +1,0 @@
-f81fa5ad99b60db86d3a53bbb91c0aac
-DEFINED_PHASES= install postinst postrm
-RDEPEND=  >=dev-qt/qtcore-5.9.8:5  >=dev-qt/qtgui-5.9.8:5  >=dev-qt/qtnetwork-5.9.8:5  >=dev-qt/qtprintsupport-5.9.8:5  >=dev-qt/qtsvg-5.9.8:5  >=media-gfx/sane-backends-1.0  
-EAPI=7
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://code-industry.net/public/master-pdf-editor-5.4.38-qt5-all.amd64.tar.gz

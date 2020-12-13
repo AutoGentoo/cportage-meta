@@ -1,9 +1,0 @@
-77fc0b7f2b3c91b6fbb851709d898318
-DEFINED_PHASES= configure install postinst prepare
-DEPEND=>=dev-libs/glib-2.10  media-libs/tiff:0=  x11-libs/libX11  x11-libs/c++-gtk-utils:0[gtk]  x11-libs/gtk+:3  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
-RDEPEND=>=dev-libs/glib-2.10  media-libs/tiff:0=  x11-libs/libX11  x11-libs/c++-gtk-utils:0[gtk]  x11-libs/gtk+:3 
-EAPI=5
-IUSE=nls 
-KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/efax-gtk/efax-gtk-3.2.13.src.tgz

@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare unpack
-DEPEND=>=dev-java/java-config-2.2.0-r3 
-RDEPEND=  >=virtual/jre-1.7  !dev-java/sbt 
+DEFINED_PHASES=compile install preinst prepare setup unpack
+DEPEND=>=dev-java/java-config-2.2.0-r3
+DESCRIPTION=sbt, a build tool for Scala
 EAPI=7
-IUSE=
-KEYWORDS=~amd64
+HOMEPAGE=https://scala-sbt.org
+IUSE=elibc_FreeBSD
+KEYWORDS=amd64
+LICENSE=BSD
+RDEPEND=>=virtual/jre-1.7 !dev-java/sbt >=dev-java/java-config-2.2.0-r3
 SLOT=0
 SRC_URI=https://github.com/sbt/sbt/releases/download/v1.3.2/sbt-1.3.2.tgz
+_eclasses_=java-pkg-2	c4e6af2574fd1dc79b43a6e27af4b5fb	java-utils-2	ec7a89849c84f93e9c6db27812923888
+_md5_=9e74c2dc0e226b9dacf531839775e184

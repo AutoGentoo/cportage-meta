@@ -1,9 +1,0 @@
-82f458448d3b1e02b0ace682bf794b63
-DEFINED_PHASES= configure install postinst prepare
-DEPEND=  dev-libs/glib:2=  media-libs/libsdl:0=[joystick]  sys-libs/zlib:0=  x11-libs/gtk+:3=  x11-libs/libX11:0=  x11-libs/libXext:0=  x11-libs/libXtst:0=  x11-libs/libXv:0=  alsa? ( media-libs/alsa-lib:0= )  cdio? ( dev-libs/libcdio:0= )  ffmpeg? (   !libav? ( >=media-video/ffmpeg-3:0= )   libav? ( media-video/libav:0= ) )  nls? ( virtual/libintl:0= )  openal? ( media-libs/openal:0= )  opengl? ( virtual/opengl:0=   x11-libs/libXxf86vm:0= )  pulseaudio? ( media-sound/pulseaudio:0= )  sdl? ( media-libs/libsdl:0=[sound] )   app-arch/unzip  dev-util/intltool  x11-base/xorg-proto  nls? ( sys-devel/gettext:0 )  x86? ( dev-lang/nasm )  
-RDEPEND=  dev-libs/glib:2=  media-libs/libsdl:0=[joystick]  sys-libs/zlib:0=  x11-libs/gtk+:3=  x11-libs/libX11:0=  x11-libs/libXext:0=  x11-libs/libXtst:0=  x11-libs/libXv:0=  alsa? ( media-libs/alsa-lib:0= )  cdio? ( dev-libs/libcdio:0= )  ffmpeg? (   !libav? ( >=media-video/ffmpeg-3:0= )   libav? ( media-video/libav:0= ) )  nls? ( virtual/libintl:0= )  openal? ( media-libs/openal:0= )  opengl? ( virtual/opengl:0=   x11-libs/libXxf86vm:0= )  pulseaudio? ( media-sound/pulseaudio:0= )  sdl? ( media-libs/libsdl:0=[sound] )  
-EAPI=6
-IUSE=alsa cdio ffmpeg libav nls openal opengl oss pulseaudio +sdl 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~mgorny/dist/pcsxr-1.9.94.zip

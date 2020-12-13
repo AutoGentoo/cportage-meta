@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-perl/DateTime  >=dev-perl/DateTime-Event-ICal-0.03  >=dev-perl/DateTime-Set-0.1  >=dev-perl/DateTime-TimeZone-0.22  >=dev-perl/Params-Validate-0.59  dev-perl/Module-Build 
-RDEPEND=dev-perl/DateTime  >=dev-perl/DateTime-Event-ICal-0.03  >=dev-perl/DateTime-Set-0.1  >=dev-perl/DateTime-TimeZone-0.22  >=dev-perl/Params-Validate-0.59 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/D/DR/DROLSKY/DateTime-Format-ICal-0.09.tar.gz

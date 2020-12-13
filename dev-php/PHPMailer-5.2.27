@@ -1,9 +1,0 @@
-835f4fb15b09aaa83f6984aefc977359
-DEFINED_PHASES= compile install postinst
-DEPEND=  ssl? (   idn?  ( dev-lang/php:*[ctype,filter,intl,ssl,unicode] )   !idn? ( dev-lang/php:*[ctype,filter,ssl] )  )  !ssl? (   idn?  ( dev-lang/php:*[ctype,filter,intl,unicode] )   !idn? ( dev-lang/php:*[ctype,filter] )  )  doc? ( dev-php/phpDocumentor ) 
-RDEPEND=  ssl? (   idn?  ( dev-lang/php:*[ctype,filter,intl,ssl,unicode] )   !idn? ( dev-lang/php:*[ctype,filter,ssl] )  )  !ssl? (   idn?  ( dev-lang/php:*[ctype,filter,intl,unicode] )   !idn? ( dev-lang/php:*[ctype,filter] )  ) 
-EAPI=7
-IUSE=doc examples idn ssl 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/PHPMailer/PHPMailer/archive/v5.2.27.tar.gz -> PHPMailer-5.2.27.tar.gz

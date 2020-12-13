@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=dev-python/python-dateutil[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pycryptodome[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/psycopg-2.5.3[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=6
-IUSE=python_targets_python2_7 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/fish-face/quasselgrep/tarball/502c88bdc7613abb68e868eb520e39ec8a5cf6dd -> quasselgrep-0_p20170411.tar.gz

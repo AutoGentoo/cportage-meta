@@ -1,9 +1,0 @@
-173f19089e092bcbb32916f38e78bc23
-DEFINED_PHASES= compile configure install prepare
-DEPEND=  media-libs/libsdl[sound,video,abi_x86_32(-)]  >=sys-libs/zlib-1.2.3-r1[abi_x86_32(-)]  ao? ( media-libs/libao[abi_x86_32(-)] )  debug? ( sys-libs/ncurses:0=[abi_x86_32(-)] )  opengl? ( virtual/opengl[abi_x86_32(-)] )  png? ( media-libs/libpng:0=[abi_x86_32(-)] )   dev-lang/nasm  debug? ( virtual/pkgconfig )  
-RDEPEND=  media-libs/libsdl[sound,video,abi_x86_32(-)]  >=sys-libs/zlib-1.2.3-r1[abi_x86_32(-)]  ao? ( media-libs/libao[abi_x86_32(-)] )  debug? ( sys-libs/ncurses:0=[abi_x86_32(-)] )  opengl? ( virtual/opengl[abi_x86_32(-)] )  png? ( media-libs/libpng:0=[abi_x86_32(-)] )  
-EAPI=6
-IUSE=ao custom-cflags +debug opengl png 
-KEYWORDS=-* ~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://sourceforge/zsnes/zsnes151src.tar.bz2

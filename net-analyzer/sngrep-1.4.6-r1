@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  net-libs/libpcap  sys-libs/ncurses:0=[unicode?]  openssl? ( dev-libs/openssl:0= )  gnutls? ( net-libs/gnutls )  
-RDEPEND=  net-libs/libpcap  sys-libs/ncurses:0=[unicode?]  openssl? ( dev-libs/openssl:0= )  gnutls? ( net-libs/gnutls )  
-EAPI=6
-IUSE=eep gnutls ipv6 openssl pcre unicode 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/irontec/sngrep/releases/download/v1.4.6/sngrep-1.4.6.tar.gz

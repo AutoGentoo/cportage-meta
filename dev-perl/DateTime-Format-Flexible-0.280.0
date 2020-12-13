@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  dev-perl/DateTime  >=dev-perl/DateTime-Format-Builder-0.740.0  dev-perl/DateTime-TimeZone  dev-perl/List-MoreUtils  dev-perl/Module-Pluggable   virtual/perl-ExtUtils-MakeMaker  test? (   dev-perl/Test-MockTime   >=virtual/perl-Test-Simple-0.440.0  )  
-RDEPEND=  dev-perl/DateTime  >=dev-perl/DateTime-Format-Builder-0.740.0  dev-perl/DateTime-TimeZone  dev-perl/List-MoreUtils  dev-perl/Module-Pluggable  
-EAPI=6
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/T/TH/THINC/DateTime-Format-Flexible-0.28.tar.gz

@@ -1,9 +1,0 @@
-6876efe6a3be1f4787b678a273047836
-DEFINED_PHASES= configure install postinst setup
-DEPEND=!vhosts? ( daemon? ( acl? ( sys-apps/acl ) ) )   || ( virtual/httpd-cgi virtual/httpd-fastcgi ) 
-RDEPEND=daemon? ( acl? ( sys-apps/acl ) )  daemon? ( dev-lang/php:*[mysqli?,postgres?,curl,cli,pcntl,pdo] )  !daemon? ( dev-lang/php:*[mysqli?,postgres?,curl,pdo] )  virtual/httpd-php:* 
-EAPI=6
-IUSE=+acl daemon +mysqli postgres 
-KEYWORDS=~amd64 ~arm ~mips ~x86
-SLOT=20180105
-SRC_URI=https://git.tt-rss.org/git/tt-rss/archive/c30f5e18119d1935e8fe6d422053b127e8f4f1b3.tar.gz -> tt-rss-20180105.tar.gz

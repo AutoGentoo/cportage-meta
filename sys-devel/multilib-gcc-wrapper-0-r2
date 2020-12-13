@@ -1,8 +1,10 @@
-49d371b475243a5866100b93bd229b68
-DEFINED_PHASES= install postinst postrm
-RDEPEND=sys-devel/gcc:= 
+DEFINED_PHASES=install postinst postrm
+DESCRIPTION=Wrappers for gcc tools to be used on non-native CHOSTs
 EAPI=7
-IUSE=
-KEYWORDS=~amd64
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
+KEYWORDS=amd64
+LICENSE=public-domain
+RDEPEND=sys-devel/gcc:=
 SLOT=0
-SRC_URI=
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=58b56d652775ac622833f6687bd25d95

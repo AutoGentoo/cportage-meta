@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=dev-lang/ocaml:=[ocamlopt?] 
-RDEPEND=dev-lang/ocaml:=[ocamlopt?] 
-EAPI=6
-IUSE=+ocamlopt 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/ocaml/opam-file-format/archive/2.0.0-beta3.tar.gz -> opam-file-format-2.0.0_beta3.tar.gz

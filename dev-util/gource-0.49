@@ -1,9 +1,0 @@
-b4ba2e897aeec434ad9443ab21868dd6
-DEFINED_PHASES= configure
-DEPEND=  >=dev-libs/boost-1.46:=[threads(+)]  >=media-libs/glew-1.5:0=  >=media-libs/libpng-1.2:0=  media-libs/libsdl2[video,opengl,X]  media-libs/sdl2-image[jpeg,png]  dev-libs/libpcre:3  dev-libs/tinyxml  media-libs/freetype:2  media-libs/mesa[X(+)]  virtual/glu:0   virtual/pkgconfig  >=media-libs/glm-0.9.3  
-RDEPEND=  >=dev-libs/boost-1.46:=[threads(+)]  >=media-libs/glew-1.5:0=  >=media-libs/libpng-1.2:0=  media-libs/libsdl2[video,opengl,X]  media-libs/sdl2-image[jpeg,png]  dev-libs/libpcre:3  dev-libs/tinyxml  media-libs/freetype:2  media-libs/mesa[X(+)]  virtual/glu:0   media-fonts/freefont  
-EAPI=6
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/acaudwell/Gource/releases/download/gource-0.49/gource-0.49.tar.gz

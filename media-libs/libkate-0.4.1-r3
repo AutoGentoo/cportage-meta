@@ -1,9 +1,0 @@
-429e325cbf2a211442248cdbb08554cb
-DEFINED_PHASES= setup
-DEPEND=  media-libs/libogg:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  media-libs/libpng:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   virtual/pkgconfig[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  sys-devel/flex[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  sys-devel/bison  doc? ( app-doc/doxygen )  
-RDEPEND=  media-libs/libogg:=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]  media-libs/libpng:0=[abi_x86_32(-)?,abi_x86_64(-)?,abi_x86_x32(-)?,abi_mips_n32(-)?,abi_mips_n64(-)?,abi_mips_o32(-)?,abi_riscv_lp64d(-)?,abi_riscv_lp64(-)?,abi_s390_32(-)?,abi_s390_64(-)?]   wxwidgets? (   python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )    dev-python/wxpython:3.0[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]   media-libs/liboggz )  
-EAPI=6
-IUSE=debug doc wxwidgets 
-KEYWORDS=alpha amd64 arm arm64 ~hppa ia64 ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=https://libkate.googlecode.com/files/libkate-0.4.1.tar.gz

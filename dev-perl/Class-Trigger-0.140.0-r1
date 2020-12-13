@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=dev-perl/IO-stringy 
-RDEPEND=dev-perl/IO-stringy 
-EAPI=5
-IUSE=
-KEYWORDS=alpha amd64 ~arm ~mips ppc ppc64 x86 ~ppc-aix ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MI/MIYAGAWA/Class-Trigger-0.14.tar.gz

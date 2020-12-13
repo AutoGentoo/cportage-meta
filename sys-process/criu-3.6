@@ -1,9 +1,0 @@
-b35c1dae65cecb201a32da10fc8c3579
-DEFINED_PHASES= compile install prepare test
-DEPEND=  dev-libs/protobuf-c  dev-libs/libnl:3  net-libs/libnet:1.1  sys-libs/libcap  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  selinux? ( sys-libs/libselinux )  setproctitle? ( dev-libs/libbsd )  app-text/asciidoc  app-text/xmlto 
-RDEPEND=  dev-libs/protobuf-c  dev-libs/libnl:3  net-libs/libnet:1.1  sys-libs/libcap  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  selinux? ( sys-libs/libselinux )  setproctitle? ( dev-libs/libbsd )  python? (   dev-python/protobuf-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/ipaddr[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ) 
-EAPI=6
-IUSE=python selinux setproctitle static-libs 
-KEYWORDS=amd64 ~arm ~arm64
-SLOT=0
-SRC_URI=http://download.openvz.org/criu/criu-3.6.tar.bz2

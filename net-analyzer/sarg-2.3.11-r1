@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  gd? ( media-libs/gd[png,truetype] )  ldap? ( net-nds/openldap )  pcre? ( dev-libs/libpcre )  
-RDEPEND=    gd? ( media-libs/gd[png,truetype] )  ldap? ( net-nds/openldap )  pcre? ( dev-libs/libpcre )   
-EAPI=6
-IUSE=+gd ldap pcre 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/sarg/sarg-2.3.11.tar.gz

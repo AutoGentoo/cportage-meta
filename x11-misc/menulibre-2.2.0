@@ -1,9 +1,0 @@
-c0f1d110d6fe255bf3962f5c1b5a3fa4
-DEFINED_PHASES= postinst postrm preinst
-DEPEND=  dev-python/python-distutils-extra[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  
-RDEPEND=  dev-libs/gobject-introspection  dev-python/psutil[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pygobject:3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pyxdg[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  gnome-base/gnome-menus[introspection]  x11-libs/gdk-pixbuf[X,introspection]  x11-libs/gtk+:3[X,introspection]  x11-libs/gtksourceview:3.0[introspection]  x11-themes/hicolor-icon-theme  
-EAPI=5
-IUSE=python_targets_python3_6 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://launchpad.net/menulibre/2.2/2.2.0/+download/menulibre-2.2.0.tar.gz

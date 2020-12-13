@@ -1,9 +1,14 @@
-0c432c46540ff0b7b8b3f7b8697090d5
-DEFINED_PHASES= configure prepare
-DEPEND=    dev-libs/maloc  virtual/glu  x11-libs/libXaw  x11-libs/motif  || (   ( media-libs/mesa[X(+)] x11-libs/libGLw )   media-libs/opengl-apple   )  doc? (   media-gfx/graphviz   app-doc/doxygen   ) 
-RDEPEND=  dev-libs/maloc  virtual/glu  x11-libs/libXaw  x11-libs/motif  || (   ( media-libs/mesa[X(+)] x11-libs/libGLw )   media-libs/opengl-apple   ) 
-EAPI=5
-IUSE=doc static-libs 
+BDEPEND=doc? ( app-doc/doxygen media-gfx/graphviz ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install prepare
+DEPEND=dev-libs/maloc media-libs/mesa[X(+)] virtual/glu x11-libs/libGLw x11-libs/libXaw x11-libs/motif
+DESCRIPTION=Socket Graphics tool for displaying polygons
+EAPI=7
+HOMEPAGE=http://fetk.org/codes/sg/index.html
+IUSE=doc
 KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=GPL-2
+RDEPEND=dev-libs/maloc media-libs/mesa[X(+)] virtual/glu x11-libs/libGLw x11-libs/libXaw x11-libs/motif
 SLOT=0
 SRC_URI=http://www.fetk.org/codes/download/sg-1.5.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=f0a34892f7de98b8caf4fbaef7164a3d

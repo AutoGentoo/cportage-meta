@@ -1,12 +1,15 @@
-924f2237608a3f318c5f80ed1928e55f
-DEFINED_PHASES= install test unpack
-BDEPEND=  test? (   dev-python/bashate   dev-util/checkbashisms   dev-util/shellcheck  )  
-RDEPEND=  app-arch/cabextract  app-arch/p7zip  app-arch/unzip  net-misc/wget  virtual/wine  x11-misc/xdg-utils  gtk? ( gnome-extra/zenity )  kde? ( kde-apps/kdialog )  rar? ( app-arch/unrar )  
+BDEPEND=test? ( dev-python/bashate dev-util/checkbashisms || ( dev-util/shellcheck-bin dev-util/shellcheck ) ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst postrm preinst prepare test unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Easy way to install DLLs needed to work around problems in Wine
 EAPI=7
-IUSE=gtk kde rar test 
-KEYWORDS=
+HOMEPAGE=https://github.com/Winetricks/winetricks https://wiki.winehq.org/Winetricks
+IUSE=gtk kde rar test
+LICENSE=LGPL-2.1+
+PROPERTIES=live
+RDEPEND=app-arch/cabextract app-arch/p7zip app-arch/unzip net-misc/wget virtual/wine x11-misc/xdg-utils gtk? ( gnome-extra/zenity ) kde? ( kde-apps/kdialog ) rar? ( app-arch/unrar )
+RESTRICT=!test? ( test ) x86? ( test )
 SLOT=0
-SRC_URI=
-	gtk? ( https://dev.gentoo.org/~chiitoo/distfiles/winetricks-gentoo-2012.11.24.tar.bz2 )
-	kde? ( https://dev.gentoo.org/~chiitoo/distfiles/winetricks-gentoo-2012.11.24.tar.bz2 )
-
+SRC_URI=gtk? ( https://dev.gentoo.org/~chiitoo/distfiles/winetricks-gentoo-2012.11.24.tar.bz2 ) kde? ( https://dev.gentoo.org/~chiitoo/distfiles/winetricks-gentoo-2012.11.24.tar.bz2 )
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	git-r3	3e7ec3d6619213460c85e2aa48398441	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=06b9f5c3f3c1d476a6fffd0dbea69eb1

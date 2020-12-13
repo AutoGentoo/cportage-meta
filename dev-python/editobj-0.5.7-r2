@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-EAPI=5
-IUSE=+examples 
-KEYWORDS=amd64 ia64 ppc x86
-SLOT=0
-SRC_URI=http://download.gna.org/songwrite/EditObj-0.5.7.tar.gz

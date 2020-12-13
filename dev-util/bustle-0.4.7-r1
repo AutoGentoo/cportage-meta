@@ -1,9 +1,0 @@
-5511ef205b8707ed546795ef1e3de486
-DEFINED_PHASES= compile install prepare
-DEPEND=dev-libs/glib:2  net-libs/libpcap  sys-apps/dbus  x11-libs/cairo  x11-libs/pango  gnome-base/libglade:2.0  >=dev-haskell/cabal-1.8.0.2  dev-haskell/cairo  >=dev-haskell/dbus-0.10  dev-haskell/glib  >=dev-haskell/gtk-0.13  >=dev-haskell/hgettext-0.1.5  dev-haskell/mtl  >=dev-haskell/pango-0.13  dev-haskell/parsec  dev-haskell/pcap  dev-haskell/setlocale  dev-haskell/text  >=dev-lang/ghc-6.12.1  virtual/pkgconfig  test? ( dev-haskell/hunit   dev-haskell/quickcheck   dev-haskell/test-framework   dev-haskell/test-framework-hunit )  
-RDEPEND=dev-libs/glib:2  net-libs/libpcap  sys-apps/dbus  x11-libs/cairo  x11-libs/pango  gnome-base/libglade:2.0 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://hackage.haskell.org/package/bustle-0.4.7/bustle-0.4.7.tar.gz

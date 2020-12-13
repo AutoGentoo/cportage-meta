@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-RDEPEND==mate-base/mate-applets-1.22*  appindicator? ( =mate-extra/mate-indicator-applet-1.22* )  sensors? ( =mate-extra/mate-sensors-applet-1.22* )  
-EAPI=6
-IUSE=appindicator sensors 
-KEYWORDS=amd64 ~arm ~arm64 x86
-SLOT=0
-SRC_URI=

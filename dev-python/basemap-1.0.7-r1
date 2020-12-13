@@ -1,9 +1,0 @@
-92894078163b42ec6d2bf542e8cb15d2
-DEFINED_PHASES= prepare
-DEPEND=sci-libs/shapelib  >=dev-python/matplotlib-0.98[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=sci-libs/geos-3.3.1[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=sci-libs/shapelib  >=dev-python/matplotlib-0.98[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=sci-libs/geos-3.3.1[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/pupynere-1.0.8[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/httplib2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/dap[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=examples test 
-KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://sourceforge/matplotlib/basemap-1.0.7.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile
-DEPEND=  dev-libs/libaio  dev-libs/libbsd  dev-libs/libgcrypt:0=  net-misc/lksctp-tools  sys-apps/attr  sys-apps/keyutils:=  sys-libs/libapparmor  sys-libs/libcap  sys-libs/zlib  
-RDEPEND=  dev-libs/libaio  dev-libs/libbsd  dev-libs/libgcrypt:0=  net-misc/lksctp-tools  sys-apps/attr  sys-apps/keyutils:=  sys-libs/libapparmor  sys-libs/libcap  sys-libs/zlib  
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~arm ~x86
-SLOT=0
-SRC_URI=https://kernel.ubuntu.com/~cking/tarballs/stress-ng/stress-ng-0.10.14.tar.xz

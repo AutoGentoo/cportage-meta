@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/rakyll/hey/archive/01803349acd49d756dafa2cb6ac5b5bfc141fc3b.tar.gz -> hey-0.1.1_p20181017.tar.gz

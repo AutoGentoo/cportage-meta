@@ -1,8 +1,0 @@
-e77268e1f320aa670e76e5abbda18dde
-DEFINED_PHASES= install pretend
-RDEPEND=bluetooth? ( sys-firmware/iwl3160-7260-bt-ucode )  !sys-kernel/linux-firmware[-savedconfig] 
-EAPI=5
-IUSE=bluetooth 
-KEYWORDS=~amd64 ~x86
-SLOT=8
-SRC_URI=https://wireless.kernel.org/en/users/Drivers/iwlwifi?action=AttachFile&do=get&target=iwlwifi-3160-ucode-22.24.8.0.tgz -> iwl3160-ucode-0.8.24.22.tgz

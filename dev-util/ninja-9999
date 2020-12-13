@@ -1,9 +1,13 @@
-679204b023cadc7968812a7c20558233
-DEFINED_PHASES= compile install postinst postrm test
-BDEPEND=  || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 )  dev-util/re2c  doc? (   app-text/asciidoc   app-doc/doxygen   dev-libs/libxslt  )  test? ( dev-cpp/gtest )  
-RDEPEND=  emacs? ( >=app-editors/emacs-23.1:* )  vim-syntax? (   || (    app-editors/vim    app-editors/gvim   )  )  
+BDEPEND=|| ( dev-lang/python:3.9 dev-lang/python:3.8 dev-lang/python:3.7 dev-lang/python:3.6 ) dev-util/re2c doc? ( app-text/asciidoc app-doc/doxygen dev-libs/libxslt ) test? ( dev-cpp/gtest ) >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst postrm setup test unpack
+DESCRIPTION=A small build system similar to make
 EAPI=7
-IUSE=doc emacs test vim-syntax 
-KEYWORDS=
+HOMEPAGE=https://ninja-build.org/
+IUSE=doc emacs test vim-syntax
+LICENSE=Apache-2.0
+PROPERTIES=live
+RDEPEND=emacs? ( >=app-editors/emacs-23.1:* ) vim-syntax? ( || ( app-editors/vim app-editors/gvim ) )
+RESTRICT=!test? ( test )
 SLOT=0
-SRC_URI=
+_eclasses_=bash-completion-r1	e5f9c3faab3ab3d1e7e007daa8c736ef	elisp-common	34cc2b6f6d8914019a353fe39cff43ce	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=965f4147f7a66c61b1c82620bcdbd018

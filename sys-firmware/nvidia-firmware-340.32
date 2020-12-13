@@ -1,9 +1,0 @@
-429e325cbf2a211442248cdbb08554cb
-DEFINED_PHASES= compile install unpack
-DEPEND=|| ( >=dev-lang/python-2.7.5-r2:2.7 ) 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ~arm64 x86
-SLOT=0
-SRC_URI=http://us.download.nvidia.com/XFree86/Linux-x86/340.32/NVIDIA-Linux-x86-340.32.run
-	https://raw.github.com/imirkin/re-vp2/96641bfebb2547402b2145fcf0e3116410f0da87/extract_firmware.py -> nvidia_extract_firmware-340.32.py

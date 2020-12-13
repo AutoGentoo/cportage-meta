@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=>=dev-lang/ghc-6.8.2:=   test? ( >=dev-haskell/quickcheck-2.4:2    <dev-haskell/quickcheck-2.8:2    dev-haskell/random    dev-haskell/test-framework    dev-haskell/test-framework-quickcheck2   )   >=dev-haskell/cabal-1.8 
-RDEPEND=>=dev-lang/ghc-6.8.2:= 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86 ~amd64-linux
-SLOT=0
-SRC_URI=https://hackage.haskell.org/package/bloomfilter-1.2.6.10/bloomfilter-1.2.6.10.tar.gz

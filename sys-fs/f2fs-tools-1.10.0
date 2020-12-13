@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-DEPEND=  sys-apps/util-linux  selinux? ( sys-libs/libselinux )  elibc_musl? ( sys-libs/queue-standalone ) 
-RDEPEND=  sys-apps/util-linux  selinux? ( sys-libs/libselinux )  elibc_musl? ( sys-libs/queue-standalone ) 
-EAPI=6
-IUSE=selinux 
-KEYWORDS=amd64 arm ~arm64 ~mips ppc ppc64 x86
-SLOT=0/4
-SRC_URI=https://dev.gentoo.org/~blueness/f2fs-tools/f2fs-tools-1.10.0.tar.xz

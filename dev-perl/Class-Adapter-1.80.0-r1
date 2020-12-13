@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  >=virtual/perl-Scalar-List-Utils-1.10  test? ( virtual/perl-Test-Simple ) 
-RDEPEND=  >=virtual/perl-Scalar-List-Utils-1.10 
-EAPI=5
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/Class-Adapter-1.08.tar.gz

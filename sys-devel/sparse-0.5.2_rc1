@@ -1,9 +1,0 @@
-c5a2da1f32fb6817539f8fcc1a79ab24
-DEFINED_PHASES= compile prepare
-DEPEND=gtk? ( x11-libs/gtk+:2 )  llvm? ( >=sys-devel/llvm-3.0 )  xml? ( dev-libs/libxml2 )  gtk? ( virtual/pkgconfig )  xml? ( virtual/pkgconfig ) 
-RDEPEND=gtk? ( x11-libs/gtk+:2 )  llvm? ( >=sys-devel/llvm-3.0 )  xml? ( dev-libs/libxml2 ) 
-EAPI=6
-IUSE=gtk llvm test xml 
-KEYWORDS=~amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86
-SLOT=0
-SRC_URI=https://git.kernel.org/pub/scm/devel/sparse/sparse.git/snapshot/sparse-d1c2f8d3d4205ca1ae7cf0ec2cbd89a7fce73e5c.tar.gz -> sparse-0.5.2-rc1.tar.gz

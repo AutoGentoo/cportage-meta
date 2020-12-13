@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=  x11-libs/fox:1.7  x11-libs/libICE  x11-libs/libSM  jpeg? ( virtual/jpeg )  png? ( media-libs/libpng:0 )  tiff? ( media-libs/tiff:0 ) 
-RDEPEND=  x11-libs/fox:1.7  x11-libs/libICE  x11-libs/libSM  jpeg? ( virtual/jpeg )  png? ( media-libs/libpng:0 )  tiff? ( media-libs/tiff:0 ) 
-EAPI=5
-IUSE=+jpeg +png +tiff 
-KEYWORDS=~alpha ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=ftp://ftp.fox-toolkit.org/pub/fox-1.7.67.tar.gz

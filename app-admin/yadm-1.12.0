@@ -1,9 +1,0 @@
-5511ef205b8707ed546795ef1e3de486
-DEFINED_PHASES= compile install test
-DEPEND=  test? (   dev-tcltk/expect   dev-util/bats   dev-vcs/git  ) 
-RDEPEND=  dev-vcs/git  app-crypt/gnupg  zsh-completion? ( app-shells/gentoo-zsh-completions ) 
-EAPI=6
-IUSE=zsh-completion test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/TheLocehiliosan/yadm/archive/1.12.0.tar.gz -> yadm-1.12.0.tar.gz

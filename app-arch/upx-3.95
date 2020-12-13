@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=>=dev-libs/ucl-1.03  sys-libs/zlib  !app-arch/upx-bin  dev-lang/perl 
-RDEPEND=>=dev-libs/ucl-1.03  sys-libs/zlib  !app-arch/upx-bin 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=https://github.com/upx/upx/releases/download/v3.95/upx-3.95-src.tar.xz

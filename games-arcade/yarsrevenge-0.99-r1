@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=media-libs/libsdl[sound,joystick,video] 
-RDEPEND=media-libs/libsdl[sound,joystick,video] 
+DEFINED_PHASES=install
+DEPEND=media-libs/libsdl[sound,joystick,video]
+DESCRIPTION=Remake of the Atari 2600 classic Yar's Revenge
 EAPI=6
-IUSE=
+HOMEPAGE=http://freshmeat.net/projects/yarsrevenge/
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsdl[sound,joystick,video]
 SLOT=0
 SRC_URI=http://www.autismuk.freeserve.co.uk/yar-0.99.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8
+_md5_=9e98646a75ad0472b539595a410c4600

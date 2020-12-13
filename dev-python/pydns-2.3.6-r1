@@ -1,8 +1,0 @@
-0fb6d55a3c0ed2dd6216986fd895a15c
-DEFINED_PHASES=-
-DEPEND=!dev-python/pydns:0  virtual/libiconv 
-EAPI=5
-IUSE=examples 
-KEYWORDS=amd64 hppa ~ia64 ~ppc ~sparc x86
-SLOT=2
-SRC_URI=http://downloads.sourceforge.net/project/pydns/pydns/pydns-2.3.6/pydns-2.3.6.tar.gz

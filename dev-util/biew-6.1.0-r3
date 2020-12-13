@@ -1,9 +1,14 @@
-ce063fa36f410a123332916dec59a433
-DEFINED_PHASES= compile configure install postinst prepare setup
-DEPEND=gpm? ( sys-libs/gpm ) 
-RDEPEND=gpm? ( sys-libs/gpm ) 
-EAPI=4
-IUSE=gpm cpu_flags_x86_mmx cpu_flags_x86_sse 
+DEFINED_PHASES=compile configure install postinst prepare
+DEPEND=gpm? ( sys-libs/gpm )
+DESCRIPTION=A portable viewer of binary files, hexadecimal and disassembler modes
+EAPI=7
+HOMEPAGE=http://beye.sourceforge.net/
+IUSE=gpm cpu_flags_x86_mmx cpu_flags_x86_sse
 KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=gpm? ( sys-libs/gpm )
+REQUIRED_USE=cpu_flags_x86_mmx cpu_flags_x86_sse
 SLOT=0
 SRC_URI=mirror://sourceforge/beye/6.1.0/biew-610-src.tar.bz2
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=6a3a5a9066e30cdbc2ea1fad97de85d4

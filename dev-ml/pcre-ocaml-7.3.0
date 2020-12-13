@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install test
-DEPEND=>=dev-libs/libpcre-4.5  dev-ml/jbuilder  dev-ml/base  dev-ml/stdio  dev-ml/configurator  
-RDEPEND=>=dev-libs/libpcre-4.5 
-EAPI=5
-IUSE=examples 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0/7.3.0
-SRC_URI=https://github.com/mmottl/pcre-ocaml/releases/download/7.3.0/pcre-7.3.0.tbz -> pcre-ocaml-7.3.0.tbz

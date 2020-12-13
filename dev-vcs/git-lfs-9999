@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=doc? ( app-text/ronn ) 
-RDEPEND=dev-vcs/git 
-EAPI=6
-IUSE=+doc 
-KEYWORDS=
+BDEPEND=doc? ( app-text/ronn ) >=dev-lang/go-1.12 app-arch/unzip >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst test unpack
+DESCRIPTION=Command line extension and specification for managing large files with git
+EAPI=7
+HOMEPAGE=https://git-lfs.github.com/
+IUSE=doc test
+LICENSE=Apache-2.0 BSD BSD-2 BSD-4 ISC MIT
+PROPERTIES=live
+RDEPEND=dev-vcs/git
+RESTRICT=strip !test? ( test )
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	go-module	92660621959e7fab813173772987588b
+_md5_=f6c34eea9acd02b060fa22ef99de760c

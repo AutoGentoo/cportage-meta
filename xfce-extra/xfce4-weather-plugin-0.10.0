@@ -1,9 +1,0 @@
-1287a93b416f22d81ea8d0f71267fdc6
-DEFINED_PHASES= configure install postinst postrm
-DEPEND=>=dev-libs/glib-2.42  dev-libs/libxml2  >=net-libs/libsoup-2.42[ssl]  >=x11-libs/gtk+-3.22:3  >=xfce-base/libxfce4ui-4.14:=  >=xfce-base/libxfce4util-4.14:=  >=xfce-base/xfce4-panel-4.14:=  upower? ( >=sys-power/upower-0.9.23 )  dev-util/intltool  virtual/pkgconfig 
-RDEPEND=>=dev-libs/glib-2.42  dev-libs/libxml2  >=net-libs/libsoup-2.42[ssl]  >=x11-libs/gtk+-3.22:3  >=xfce-base/libxfce4ui-4.14:=  >=xfce-base/libxfce4util-4.14:=  >=xfce-base/xfce4-panel-4.14:=  upower? ( >=sys-power/upower-0.9.23 ) 
-EAPI=7
-IUSE=upower 
-KEYWORDS=amd64 ~arm ~ppc ~ppc64 x86
-SLOT=0
-SRC_URI=https://archive.xfce.org/src/panel-plugins/xfce4-weather-plugin/0.10/xfce4-weather-plugin-0.10.0.tar.bz2

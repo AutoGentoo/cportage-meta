@@ -1,9 +1,0 @@
-137028f06553292c2fbe34041601684b
-DEFINED_PHASES= compile install prepare setup
-DEPEND= kernel_linux? ( virtual/modutils )        sys-apps/sed  kernel_linux? ( virtual/linux-sources virtual/libelf )   
-RDEPEND= kernel_linux? ( virtual/modutils )  
-EAPI=6
-IUSE=examples 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/umlaeute/v4l2loopback/tarball/v0.12.0 -> v4l2loopback-0.12.0.tar.gz

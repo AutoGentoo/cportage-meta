@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=>=dev-libs/glib-2.50:2  x11-libs/cairo  >=x11-libs/gdk-pixbuf-2.24:2  x11-libs/libX11  >=x11-libs/libxklavier-5.2:0[introspection?]  x11-libs/pango  virtual/libintl  >=x11-libs/gtk+-3.22:3[introspection?]  introspection? ( >=dev-libs/gobject-introspection-0.6.7:= )  dev-util/glib-utils  >=dev-util/intltool-0.50.1  sys-devel/gettext  virtual/pkgconfig 
-RDEPEND=>=dev-libs/glib-2.50:2  x11-libs/cairo  >=x11-libs/gdk-pixbuf-2.24:2  x11-libs/libX11  >=x11-libs/libxklavier-5.2:0[introspection?]  x11-libs/pango  virtual/libintl  >=x11-libs/gtk+-3.22:3[introspection?]  introspection? ( >=dev-libs/gobject-introspection-0.6.7:= ) 
-EAPI=6
-IUSE=X +introspection test 
-KEYWORDS=amd64 ~arm ~arm64 x86
-SLOT=0
-SRC_URI=https://pub.mate-desktop.org/releases/1.22/libmatekbd-1.22.0.tar.xz

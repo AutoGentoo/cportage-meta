@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install postinst
-DEPEND=virtual/mta 
+DEFINED_PHASES=configure install postinst
+DEPEND=virtual/mta
+DESCRIPTION=Mailing list managing made joyful
 EAPI=6
-IUSE=
+HOMEPAGE=http://mlmmj.org/
 KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=MIT
 SLOT=0
 SRC_URI=http://mlmmj.org/releases/mlmmj-1.2.19.0.tar.bz2
+_md5_=faca0ba1f2533f56282cf6e165811155

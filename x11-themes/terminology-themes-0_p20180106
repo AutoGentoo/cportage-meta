@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile prepare
-DEPEND=dev-libs/efl 
-RDEPEND=x11-terms/terminology 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/sylveon/terminology-themes/archive/ba7b71ffd290cbce4bf87d47276fa516c6563345.tar.gz -> terminology-themes-0_p20180106.tgz

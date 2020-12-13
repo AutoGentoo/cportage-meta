@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install test
-DEPEND=  app-misc/rlwrap  =sys-apps/gawk-4*  curl? ( net-misc/curl[ssl] )  bidi? ( dev-libs/fribidi )  tts? ( || (   media-sound/mpg123   app-accessibility/espeak   media-video/mpv   media-video/mplayer   )  )  test? ( >=app-editors/emacs-23.1:* )   
-RDEPEND=  app-misc/rlwrap  =sys-apps/gawk-4*  curl? ( net-misc/curl[ssl] )  bidi? ( dev-libs/fribidi )  tts? ( || (   media-sound/mpg123   app-accessibility/espeak   media-video/mpv   media-video/mplayer   )  ) 
-EAPI=7
-IUSE=+bidi +curl test tts 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/soimort/translate-shell/archive/v0.9.6.10.tar.gz -> translate-shell-0.9.6.10.tar.gz

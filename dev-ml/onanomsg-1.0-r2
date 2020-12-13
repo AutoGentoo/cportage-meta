@@ -1,9 +1,0 @@
-585377702e17589d26f290084016d86c
-DEFINED_PHASES= compile install prepare
-DEPEND=  dev-libs/nanomsg:=  dev-lang/ocaml:=[ocamlopt?]  dev-ml/ocaml-ctypes:=  dev-ml/ocaml-ipaddr:=[ocamlopt?]   dev-ml/sexplib:=  dev-ml/ppx_deriving:=[ocamlopt?]  dev-ml/ocaml-containers:=[ocamlopt?]  dev-ml/ocaml-bigstring:=  lwt? ( dev-ml/lwt:=[ocamlopt(+)?] )   test? ( dev-ml/ounit )  
-RDEPEND=  dev-libs/nanomsg:=  dev-lang/ocaml:=[ocamlopt?]  dev-ml/ocaml-ctypes:=  dev-ml/ocaml-ipaddr:=[ocamlopt?]   dev-ml/sexplib:=  dev-ml/ppx_deriving:=[ocamlopt?]  dev-ml/ocaml-containers:=[ocamlopt?]  dev-ml/ocaml-bigstring:=  lwt? ( dev-ml/lwt:=[ocamlopt(+)?] )  
-EAPI=5
-IUSE=+lwt +ocamlopt test 
-KEYWORDS=~amd64
-SLOT=0/1.0-bigstring
-SRC_URI=https://github.com/rgrinberg/onanomsg/archive/1.0.tar.gz -> onanomsg-1.0.tar.gz

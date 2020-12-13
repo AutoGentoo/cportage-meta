@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtopengl:5  dev-qt/qtprintsupport:5  dev-qt/qtsql:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib 
-RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtopengl:5  dev-qt/qtprintsupport:5  dev-qt/qtsql:5  dev-qt/qtwidgets:5  dev-qt/qtxml:5  sys-libs/zlib 
-EAPI=6
-IUSE=
-KEYWORDS=
-SLOT=0
-SRC_URI=

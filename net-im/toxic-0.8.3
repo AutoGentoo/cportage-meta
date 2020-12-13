@@ -1,9 +1,0 @@
-ddba7c7f5bed9ccc3d760360b6bd892c
-DEFINED_PHASES= configure install prepare setup
-DEPEND=  virtual/pkgconfig    dev-libs/libconfig  >=net-libs/tox-0.2.8:*  net-misc/curl  sys-libs/ncurses:*  notification? ( x11-libs/libnotify )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )  )  qrcode? ( media-gfx/qrencode )  sound? (   media-libs/freealut   media-libs/openal   net-libs/tox[av]  )  video? (   media-libs/libvpx   net-libs/tox[av]   x11-libs/libX11 ) 
-RDEPEND=  dev-libs/libconfig  >=net-libs/tox-0.2.8:*  net-misc/curl  sys-libs/ncurses:*  notification? ( x11-libs/libnotify )  python? ( python_single_target_python3_6? (    dev-lang/python:3.6    >=dev-lang/python-exec-2:=[python_targets_python3_6]   )  )  qrcode? ( media-gfx/qrencode )  sound? (   media-libs/freealut   media-libs/openal   net-libs/tox[av]  )  video? (   media-libs/libvpx   net-libs/tox[av]   x11-libs/libX11 ) 
-EAPI=6
-IUSE=notification python qrcode +sound +video +X 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/JFreegman/toxic/archive/v0.8.3.tar.gz -> toxic-0.8.3.tar.gz

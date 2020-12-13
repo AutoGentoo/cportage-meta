@@ -1,8 +1,0 @@
-429e325cbf2a211442248cdbb08554cb
-DEFINED_PHASES= compile install unpack
-DEPEND=>=dev-lang/go-1.4 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/coreos/go-etcd/archive/25e2c63be8e8ab405014a78879e0992ae5ff55e8.tar.gz -> go-etcd-0_p20141013.tar.gz

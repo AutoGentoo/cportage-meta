@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=>=dev-lang/perl-5.8.5-r2:0 
-RDEPEND=>=dev-lang/perl-5.8.5-r2:0  dev-perl/File-Tempdir  dev-perl/Socket6 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=https://www.staff.science.uu.nl/~penni101/mirmon/mirmon-2.10.tar.gz

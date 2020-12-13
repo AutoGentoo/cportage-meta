@@ -1,9 +1,0 @@
-8b5f2500ab1a6f6439b84a19285dac61
-DEFINED_PHASES= compile configure install postinst prepare
-DEPEND=>=virtual/jdk-1.4  app-arch/unzip  dev-java/ant-core  lfd? ( sys-apps/xinetd )  source? ( app-arch/zip ) 
-RDEPEND=>=virtual/jre-1.4 
-EAPI=4
-IUSE=doc source lfd 
-KEYWORDS=amd64 x86
-SLOT=2
-SRC_URI=ftp://ftp.qbang.org/pub/rxtx/rxtx-2.2pre2.zip

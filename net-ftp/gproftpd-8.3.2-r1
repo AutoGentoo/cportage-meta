@@ -1,9 +1,0 @@
-ca2daf9b8093fe1e6953b17539a063b3
-DEFINED_PHASES= configure install postinst
-DEPEND=x11-libs/gtk+:2  dev-libs/glib:2  >=x11-libs/pango-1.0  >=dev-libs/atk-1.0  >=media-libs/freetype-2.0  ssl? ( >=dev-libs/openssl-0.9.6f )  >=net-ftp/proftpd-1.2.9  virtual/pkgconfig 
-RDEPEND=x11-libs/gtk+:2  dev-libs/glib:2  >=x11-libs/pango-1.0  >=dev-libs/atk-1.0  >=media-libs/freetype-2.0  ssl? ( >=dev-libs/openssl-0.9.6f )  >=net-ftp/proftpd-1.2.9 
-EAPI=5
-IUSE=gnome ssl 
-KEYWORDS=amd64 ~ppc sparc x86
-SLOT=0
-SRC_URI=http://mange.dynup.net/linux/gproftpd/gproftpd-8.3.2.tar.gz

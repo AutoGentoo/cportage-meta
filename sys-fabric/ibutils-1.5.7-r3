@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=sys-fabric/libibverbs:3.12   >=dev-lang/tk-8.4 
-RDEPEND=sys-fabric/libibverbs:3.12   >=dev-lang/tk-8.4   !sys-fabric/openib-userspace !sys-fabric/ibutils:0 !sys-fabric/ibutils:3.5 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86 ~amd64-linux
-SLOT=3.12
-SRC_URI=https://www.openfabrics.org/downloads/OFED/ofed-3.12/OFED-3.12-rc1.tgz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-BDEPEND=>=app-editors/xemacs-21.4.20-r5  app-xemacs/sh-script 
-RDEPEND=>=app-editors/xemacs-21.4.20-r5  app-xemacs/sh-script 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~hppa ~x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~ulm/emacs/ebuild-mode-1.49.tar.xz

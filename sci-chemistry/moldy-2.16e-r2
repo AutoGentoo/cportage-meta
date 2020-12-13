@@ -1,8 +1,12 @@
-5cb38aaacfdf7fdd6151d1b4254e18a4
-DEFINED_PHASES= compile configure install prepare
-DEPEND=doc? ( virtual/latex-base ) 
-EAPI=4
-IUSE=doc examples 
+BDEPEND=doc? ( virtual/latex-base )
+DEFINED_PHASES=compile configure install prepare
+DESCRIPTION=Molecular dynamics simulations platform
+EAPI=7
+HOMEPAGE=http://www.ccp5.ac.uk/moldy/moldy.html
+IUSE=doc
 KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~ppc-macos
+LICENSE=GPL-2
 SLOT=0
 SRC_URI=ftp://ftp.earth.ox.ac.uk/pub/keith/moldy-2.16e.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=f50dfe7ac4461c3972cef37ca176f922

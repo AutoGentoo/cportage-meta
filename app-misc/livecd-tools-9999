@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install setup
-DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
-RDEPEND=dev-util/dialog  net-dialup/mingetty  >=sys-apps/baselayout-2  >=sys-apps/openrc-0.8.2-r1  sys-apps/pciutils  sys-apps/gawk  sys-apps/sed  
-EAPI=6
-IUSE=
-KEYWORDS=
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install setup unpack
+DESCRIPTION=Gentoo LiveCD tools for autoconfiguration of hardware
+EAPI=7
+HOMEPAGE=https://gitweb.gentoo.org/proj/livecd-tools.git/
+IUSE=kernel_linux
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=dev-util/dialog media-sound/alsa-utils net-dialup/mingetty sys-apps/openrc sys-apps/pciutils
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=7dfd1ccce5325045cdc29d080b207288

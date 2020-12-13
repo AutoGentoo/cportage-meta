@@ -1,9 +1,0 @@
-6a62ee3967fc5be4911447c74641acf2
-DEFINED_PHASES= compile configure install setup
-DEPEND=>=net-firewall/iptables-1.4.7  net-libs/libmnl 
-RDEPEND=>=net-firewall/iptables-1.4.7  net-libs/libmnl 
-EAPI=6
-IUSE=kernel_linux modules 
-KEYWORDS=~amd64 ~arm64 ~ppc ~x86
-SLOT=0
-SRC_URI=http://ipset.netfilter.org/ipset-6.30.tar.bz2

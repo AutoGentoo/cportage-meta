@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=>=dev-libs/gmp-4.2.2:0= 
-RDEPEND=>=dev-libs/gmp-4.2.2:0= 
-EAPI=5
-IUSE=doc static-libs 
-KEYWORDS=amd64 ~arm ppc x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=ftp://ftp.ifor.math.ethz.ch/pub/fukuda/cdd/cddlib-094g.tar.gz

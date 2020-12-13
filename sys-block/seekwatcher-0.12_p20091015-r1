@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=dev-python/pyrex 
-RDEPEND=  dev-python/matplotlib[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=sys-block/blktrace-0.0.20070730162628  
-EAPI=6
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~slyfox/seekwatcher-0.12_p20091015.tar.gz

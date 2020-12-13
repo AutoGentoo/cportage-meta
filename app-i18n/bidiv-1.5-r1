@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=  virtual/pkgconfig 
-RDEPEND=>=dev-libs/fribidi-0.19.2-r2 
-EAPI=4
-IUSE=
-KEYWORDS=~alpha amd64 ~ppc ~sparc x86
-SLOT=0
-SRC_URI=http://ftp.ivrix.org.il/pub/ivrix/src/cmdline/bidiv-1.5.tgz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install
-DEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-util/android-tools  app-pda/usbmuxd 
-RDEPEND=  dev-qt/qtcore:5  dev-qt/qtgui:5  dev-util/android-tools  app-pda/usbmuxd 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/alopatindev/qdevicemonitor/archive/1.0.1.tar.gz -> qdevicemonitor-1.0.1.tar.gz

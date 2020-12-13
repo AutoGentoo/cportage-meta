@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=dev-haskell/transformers:=[profile?]  >=dev-lang/ghc-7.6.1:=   >=dev-haskell/cabal-1.16.0  test? ( >=dev-haskell/hspec-2 <dev-haskell/hspec-3 )  
-RDEPEND=dev-haskell/transformers:=[profile?]  >=dev-lang/ghc-7.6.1:=  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0/0.0.0
-SRC_URI=https://hackage.haskell.org/package/logging-facade-0.0.0/logging-facade-0.0.0.tar.gz

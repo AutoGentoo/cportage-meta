@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( test? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ) test? ( ruby_targets_ruby24? ( >dev-ruby/activemodel-4.0.0:*[ruby_targets_ruby24] dev-ruby/locale[ruby_targets_ruby24] dev-ruby/ruby-gettext[ruby_targets_ruby24] dev-ruby/gettext_i18n_rails[ruby_targets_ruby24] || ( >=dev-ruby/ruby-ldap-0.8.2[ruby_targets_ruby24] dev-ruby/ruby-net-ldap[ruby_targets_ruby24] ) ) ) 
-RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby24? ( >dev-ruby/activemodel-4.0.0:*[ruby_targets_ruby24] dev-ruby/locale[ruby_targets_ruby24] dev-ruby/ruby-gettext[ruby_targets_ruby24] dev-ruby/gettext_i18n_rails[ruby_targets_ruby24] || ( >=dev-ruby/ruby-ldap-0.8.2[ruby_targets_ruby24] dev-ruby/ruby-net-ldap[ruby_targets_ruby24] ) ) 
-EAPI=5
-IUSE= test 
-KEYWORDS=~amd64
-SLOT=4
-SRC_URI=https://rubygems.org/gems/activeldap-4.0.6.gem

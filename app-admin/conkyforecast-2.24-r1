@@ -1,9 +1,0 @@
-de66c1bccb4990bbdf1454783a028c2e
-DEFINED_PHASES= postinst
-DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] 
-RDEPEND=app-admin/conky 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://launchpad.net/~conky-companions/+archive/ppa/+files/conkyforecast_2.24.tar.gz

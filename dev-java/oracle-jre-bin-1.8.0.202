@@ -1,9 +1,0 @@
-06d077bd4d2a48a7e486bec422f8a47a
-DEFINED_PHASES= install nofetch postinst postrm preinst prepare
-DEPEND=app-arch/zip 
-RDEPEND=!x64-macos? (   !headless-awt? (    x11-libs/libX11    x11-libs/libXext    x11-libs/libXi    x11-libs/libXrender    x11-libs/libXtst   )   javafx? (    dev-libs/glib:2    dev-libs/libxml2:2    dev-libs/libxslt    media-libs/freetype:2    x11-libs/cairo    x11-libs/gtk+:2    x11-libs/libX11    x11-libs/libXtst    x11-libs/libXxf86vm    x11-libs/pango    virtual/opengl   )  )  alsa? ( media-libs/alsa-lib )  cups? ( net-print/cups )  fontconfig? ( media-libs/fontconfig:1.0 )  !prefix? ( sys-libs/glibc:* )  selinux? ( sec-policy/selinux-java ) 
-EAPI=6
-IUSE=alsa commercial cups +fontconfig headless-awt javafx jce nsplugin selinux 
-KEYWORDS=-* amd64 x86
-SLOT=1.8
-SRC_URI= amd64? ( jre-8u202-linux-x64.tar.gz ) x86? ( jre-8u202-linux-i586.tar.gz )

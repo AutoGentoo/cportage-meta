@@ -1,9 +1,0 @@
-6c6b79eae617635644c32777b38ed853
-DEFINED_PHASES= compile install prepare
-DEPEND=  x11-libs/libX11  x11-libs/libXext  x11-libs/libXrandr  fftw? ( >=sci-libs/fftw-3:3.0= )  imagemagick? ( media-gfx/imagemagick:0= )  jpeg? ( virtual/jpeg:0 )  lapack? ( virtual/lapack )  png? ( >=media-libs/libpng-1.4:0= )  tiff? ( media-libs/tiff:0 )   app-arch/unzip  fftw? ( virtual/pkgconfig )  lapack? ( virtual/pkgconfig )  png? ( virtual/pkgconfig )  
-RDEPEND=  x11-libs/libX11  x11-libs/libXext  x11-libs/libXrandr  fftw? ( >=sci-libs/fftw-3:3.0= )  imagemagick? ( media-gfx/imagemagick:0= )  jpeg? ( virtual/jpeg:0 )  lapack? ( virtual/lapack )  png? ( >=media-libs/libpng-1.4:0= )  tiff? ( media-libs/tiff:0 )  
-EAPI=6
-IUSE=fftw imagemagick jpeg lapack png tiff 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/cimg/GREYCstoration-2.9.zip

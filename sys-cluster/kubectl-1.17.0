@@ -1,8 +1,0 @@
-8d2d160e8c7f449e5b4dd43d87c8873f
-DEFINED_PHASES= compile install prepare
-DEPEND=>=dev-lang/go-1.13  dev-go/go-bindata 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/kubernetes/kubernetes/archive/v1.17.0.tar.gz -> kubernetes-1.17.0.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  >=dev-libs/glib-2.32:2  >=gnome-base/librsvg-2.32:2  >=x11-libs/gtk+-3.20:3   app-text/yelp-tools  dev-libs/appstream-glib  >=dev-util/intltool-0.50  sys-devel/gettext  virtual/pkgconfig  
-RDEPEND=  >=dev-libs/glib-2.32:2  >=gnome-base/librsvg-2.32:2  >=x11-libs/gtk+-3.20:3   !<x11-themes/gnome-themes-standard-3.14  
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm x86
-SLOT=0
-SRC_URI=mirror://gnome/sources/five-or-more/3.28/five-or-more-3.28.0.tar.xz

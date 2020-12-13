@@ -1,9 +1,0 @@
-b99de0532c1c2761ae0a345b9c1c4612
-DEFINED_PHASES= configure install postinst postrm preinst prepare
-DEPEND=dev-libs/libxml2:2  x11-libs/goocanvas:2.0  x11-libs/gtk+:3  x11-libs/gtksourceview:3.0  app-text/rarian  virtual/pkgconfig 
-RDEPEND=dev-libs/libxml2:2  x11-libs/goocanvas:2.0  x11-libs/gtk+:3  x11-libs/gtksourceview:3.0  app-text/rarian  || ( gnome-base/dconf gnome-base/gconf )  sci-electronics/electronics-menu 
-EAPI=4
-IUSE=
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=https://github.com/marc-lorber/oregano/tarball/v0.82 -> oregano-0.82.tar.gz

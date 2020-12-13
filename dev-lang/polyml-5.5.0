@@ -1,9 +1,0 @@
-487c7b7acd86f56cfde29ced54b41505
-DEFINED_PHASES= configure prepare test
-DEPEND=X? ( x11-libs/motif:0 )   gmp? ( >=dev-libs/gmp-5 )   elibc_glibc? ( threads? ( >=sys-libs/glibc-2.13 ) )   virtual/libffi 
-RDEPEND=X? ( x11-libs/motif:0 )   gmp? ( >=dev-libs/gmp-5 )   elibc_glibc? ( threads? ( >=sys-libs/glibc-2.13 ) )   virtual/libffi 
-EAPI=5
-IUSE=X elibc_glibc +gmp portable test +threads 
-KEYWORDS=~amd64 ~x86
-SLOT=0/5.5.0
-SRC_URI=mirror://sourceforge/polyml/polyml.5.5.tar.gz

@@ -1,9 +1,0 @@
-ae6e30b696443071c2b12199a13fa2af
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=dev-lang/perl:=  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  python? ( dev-python/setuptools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  test? (   dev-util/shunit2   dev-python/pylint[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)]  ) 
-RDEPEND=dev-lang/perl:=  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_6(-)?,-python_single_target_python2_7(-),-python_single_target_python3_6(-)] )  dev-util/distro-info-data 
-EAPI=6
-IUSE=python test 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://debian/pool/main/d/distro-info/distro-info_0.14.tar.xz

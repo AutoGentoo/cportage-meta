@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=sys-libs/ncurses:0=  sys-libs/readline:0= 
-RDEPEND=sys-libs/ncurses:0=  sys-libs/readline:0= 
+DEFINED_PHASES=compile install prepare
+DEPEND=sys-libs/ncurses:0= sys-libs/readline:0=
+DESCRIPTION=ID3 tag editor for mp3 files
 EAPI=7
-IUSE=
+HOMEPAGE=http://code.fluffytapeworm.com/projects/id3ed
 KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2+
+RDEPEND=sys-libs/ncurses:0= sys-libs/readline:0=
 SLOT=0
 SRC_URI=http://code.fluffytapeworm.com/projects/id3ed/id3ed-1.10.4.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=ef3e669bb4f29d90b4b61570622020d6

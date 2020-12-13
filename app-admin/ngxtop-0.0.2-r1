@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-python/docopt[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyparsing[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/tabulate[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
-RDEPEND=  dev-python/docopt[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyparsing[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/tabulate[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://github.com/lebinh/ngxtop/archive/0.0.2.tar.gz -> ngxtop-0.0.2.tar.gz

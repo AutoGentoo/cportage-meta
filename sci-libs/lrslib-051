@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=gmp? ( dev-libs/gmp:0= ) 
-RDEPEND=gmp? ( dev-libs/gmp:0= ) 
-EAPI=5
-IUSE=gmp 
-KEYWORDS=~amd64 ~arm ~x86
-SLOT=0
-SRC_URI=http://cgm.cs.mcgill.ca/~avis/C/lrslib/lrslib-051.tar.gz

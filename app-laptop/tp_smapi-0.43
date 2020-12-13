@@ -1,9 +1,0 @@
-d8aafa8989449aaf7ed2c6122f34a4d7
-DEFINED_PHASES= compile install pretend setup
-DEPEND=sys-apps/dmidecode 
-RDEPEND=sys-apps/dmidecode 
-EAPI=6
-IUSE=hdaps 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/evgeni/tp_smapi/releases/download/tp-smapi/0.43/tp_smapi-0.43.tgz

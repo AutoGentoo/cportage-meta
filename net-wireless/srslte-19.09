@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=  dev-libs/boost  dev-libs/libconfig  net-misc/lksctp-tools  net-libs/mbedtls  sci-libs/fftw:*  bladerf? ( net-wireless/bladerf:= )  simcard? ( sys-apps/pcsc-lite )  soapysdr? ( net-wireless/soapysdr:= )  uhd? ( net-wireless/uhd:= )  zeromq? ( net-libs/zeromq )   
-RDEPEND=  dev-libs/boost  dev-libs/libconfig  net-misc/lksctp-tools  net-libs/mbedtls  sci-libs/fftw:*  bladerf? ( net-wireless/bladerf:= )  simcard? ( sys-apps/pcsc-lite )  soapysdr? ( net-wireless/soapysdr:= )  uhd? ( net-wireless/uhd:= )  zeromq? ( net-libs/zeromq )   
-EAPI=7
-IUSE=bladerf simcard soapysdr uhd zeromq 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/srsLTE/srsLTE/archive/release_19_09.tar.gz -> srslte-19.09.tar.gz

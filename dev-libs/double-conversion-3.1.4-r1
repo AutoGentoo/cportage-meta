@@ -1,8 +1,0 @@
-1c59d20c34b0a3c9b1b21b85ccda9dce
-DEFINED_PHASES= compile configure install setup test
-BDEPEND=dev-util/ninja >=dev-util/cmake-3.9.6 
-EAPI=7
-IUSE=static-libs test 
-KEYWORDS=amd64 arm arm64 hppa ~mips ppc ppc64 sparc x86 ~amd64-linux ~x86-linux
-SLOT=0/3
-SRC_URI=https://github.com/google/double-conversion/archive/v3.1.4.tar.gz -> double-conversion-3.1.4.tar.gz

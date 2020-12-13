@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install test unpack
-RDEPEND=!sys-devel/llvm:0 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 arm arm64 ~ppc64 x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos
-SLOT=0
-SRC_URI=https://releases.llvm.org/7.1.0/llvm-7.1.0.src.tar.xz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=x11-libs/gtk+:2  virtual/libintl:0  crypt? ( >=app-crypt/mhash-0.8:0 )  virtual/pkgconfig:* 
-RDEPEND=x11-libs/gtk+:2  virtual/libintl:0  crypt? ( >=app-crypt/mhash-0.8:0 ) 
-EAPI=5
-IUSE=crypt 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/gtk-splitter/gtk-splitter-2.2.1.tar.gz

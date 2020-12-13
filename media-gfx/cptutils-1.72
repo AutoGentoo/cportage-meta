@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare test
-DEPEND=dev-libs/libxml2:2  media-libs/libpng:0=  test? (   app-text/xml2   app-text/xmlstarlet   >=dev-util/cunit-2.1_p3  ) 
-RDEPEND=dev-libs/libxml2:2  media-libs/libpng:0=  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
-EAPI=7
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://soliton.vm.bytemark.co.uk/pub/jjg/src/cptutils-1.72.tar.gz

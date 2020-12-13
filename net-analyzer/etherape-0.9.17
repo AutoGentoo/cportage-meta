@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=    >=gnome-base/libglade-2.0  dev-libs/popt  gnome-base/libgnomecanvas[glade]  net-libs/libpcap   >=sys-devel/gettext-0.11.5  app-text/docbook-xml-dtd:4.1.2  app-text/gnome-doc-utils  virtual/pkgconfig  
-RDEPEND=  >=gnome-base/libglade-2.0  dev-libs/popt  gnome-base/libgnomecanvas[glade]  net-libs/libpcap  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/etherape/etherape-0.9.17.tar.gz

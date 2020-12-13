@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( doc? ( dev-ruby/rdoc[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( test? ( dev-ruby/rake[ruby_targets_ruby24] ) ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) test? ( ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ) test? ( ruby_targets_ruby24? ( dev-ruby/activesupport:4.2[ruby_targets_ruby24] >=dev-ruby/nokogiri-1.6.0[ruby_targets_ruby24] =dev-ruby/nokogiri-1*[ruby_targets_ruby24] >=dev-ruby/rails-deprecated_sanitizer-1.0.1[ruby_targets_ruby24] ) ) 
-RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby24? ( dev-ruby/activesupport:4.2[ruby_targets_ruby24] >=dev-ruby/nokogiri-1.6.0[ruby_targets_ruby24] =dev-ruby/nokogiri-1*[ruby_targets_ruby24] >=dev-ruby/rails-deprecated_sanitizer-1.0.1[ruby_targets_ruby24] ) 
-EAPI=5
-IUSE= test 
-KEYWORDS=~amd64 ~arm ~arm64 ~hppa ~ppc ~ppc64 ~x86 ~amd64-linux
-SLOT=1
-SRC_URI=https://rubygems.org/gems/rails-dom-testing-1.0.8.gem

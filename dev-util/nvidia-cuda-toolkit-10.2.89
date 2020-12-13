@@ -1,8 +1,0 @@
-caff5b54da447765a6e3224c807d3f04
-DEFINED_PHASES= install postinst prepare setup
-RDEPEND=  <sys-devel/gcc-9[cxx]  >=x11-drivers/nvidia-drivers-440.33.01[X,uvm]  debugger? (   dev-libs/openssl-compat:1.0.0   sys-libs/libtermcap-compat   sys-libs/ncurses-compat:5[tinfo]  )  eclipse? (   dev-libs/openssl-compat:1.0.0   >=virtual/jre-1.6  )  profiler? (   dev-libs/openssl-compat:1.0.0   >=virtual/jre-1.6  ) 
-EAPI=7
-IUSE=debugger doc eclipse profiler 
-KEYWORDS=-* ~amd64 ~amd64-linux
-SLOT=0/10.2.89
-SRC_URI=https://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run

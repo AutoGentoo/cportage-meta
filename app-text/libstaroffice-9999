@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=  dev-libs/librevenge  zlib? ( sys-libs/zlib )   doc? ( app-doc/doxygen )  
-RDEPEND=  dev-libs/librevenge  zlib? ( sys-libs/zlib )  
-EAPI=6
-IUSE=debug doc tools +zlib 
-KEYWORDS=
+BDEPEND=doc? ( app-doc/doxygen ) >=dev-vcs/git-1.8.2.1[curl] >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=dev-libs/librevenge zlib? ( sys-libs/zlib )
+DESCRIPTION=Import filter for old StarOffice documents
+EAPI=7
+HOMEPAGE=https://github.com/fosnola/libstaroffice
+IUSE=debug doc tools +zlib
+LICENSE=|| ( LGPL-2.1+ MPL-2.0 )
+PROPERTIES=live
+RDEPEND=dev-libs/librevenge zlib? ( sys-libs/zlib )
 SLOT=0
-SRC_URI=
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=7a37f37a180e1e07aaf12b0fcb910a7f

@@ -1,9 +1,0 @@
-9b19f34301f6bd7fe09b7e69437baa06
-DEFINED_PHASES= configure install prepare
-DEPEND=>=sys-libs/zlib-1.2.5.1-r1  !libressl? ( <dev-libs/openssl-1.1.0:= )  libressl? ( dev-libs/libressl )   
-RDEPEND=>=sys-libs/zlib-1.2.5.1-r1  !libressl? ( <dev-libs/openssl-1.1.0:= )  libressl? ( dev-libs/libressl )   
-EAPI=5
-IUSE=libressl static-libs 
-KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://mirror.httrack.com/historical/httrack-3.48.21.tar.gz

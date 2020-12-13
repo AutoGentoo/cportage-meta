@@ -1,9 +1,0 @@
-dad91fe29e1382b0a66ee3b8b21754f7
-DEFINED_PHASES= compile install postinst prepare setup
-DEPEND=  doc? ( dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )   
-RDEPEND=  >=dev-python/configobj-4.6.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygpgme[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/python-magic[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/twisted-core-10.2.0  >=dev-python/urwid-1.1.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/urwidtrees-1.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  net-mail/mailbase  >=net-mail/notmuch-0.13[crypt,python]   
-EAPI=5
-IUSE=doc 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/pazz/alot/tarball/0.3.7 -> alot-0.3.7.tar.gz

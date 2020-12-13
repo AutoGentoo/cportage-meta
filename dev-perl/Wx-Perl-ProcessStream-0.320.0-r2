@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= prepare
-DEPEND=  x11-libs/wxGTK:3.0  >=dev-perl/Wx-0.97.01 
-RDEPEND=  x11-libs/wxGTK:3.0  >=dev-perl/Wx-0.97.01 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MD/MDOOTSON/Wx-Perl-ProcessStream-0.32.tar.gz

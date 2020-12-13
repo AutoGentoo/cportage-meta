@@ -1,9 +1,0 @@
-a059d7a954c53849b393e83908713fa5
-DEFINED_PHASES= prepare
-DEPEND=>=dev-haskell/glib-0.12.5.0:0=[profile?]  >=dev-haskell/gtk-0.12.5.0:2=[profile?]  >=dev-lang/ghc-6.10.4:=  gnome-base/libglade:2.0   >=dev-haskell/gtk2hs-buildtools-0.12.5.1-r1:0=  >=dev-haskell/cabal-1.24  virtual/pkgconfig  
-RDEPEND=>=dev-haskell/glib-0.12.5.0:0=[profile?]  >=dev-haskell/gtk-0.12.5.0:2=[profile?]  >=dev-lang/ghc-6.10.4:=  gnome-base/libglade:2.0  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ~ppc ~ppc64 ~sparc x86
-SLOT=2/0.12.5.0
-SRC_URI=https://hackage.haskell.org/package/glade-0.12.5.0/glade-0.12.5.0.tar.gz

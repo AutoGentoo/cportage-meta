@@ -1,9 +1,0 @@
-88b3661343ed89cd81619c94e2262fba
-DEFINED_PHASES= configure install prepare test
-DEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  opus? ( media-libs/opus )  speex? ( media-libs/speex )  theora? ( media-libs/libtheora )  vpx? ( media-libs/libvpx:= )   test? ( dev-qt/qttest:5 )  
-RDEPEND=  dev-qt/qtcore:5  dev-qt/qtnetwork:5[ssl]  dev-qt/qtxml:5  opus? ( media-libs/opus )  speex? ( media-libs/speex )  theora? ( media-libs/libtheora )  vpx? ( media-libs/libvpx:= )  
-EAPI=6
-IUSE=debug doc opus +speex test theora vpx 
-KEYWORDS=amd64 x86 ~amd64-linux
-SLOT=0
-SRC_URI=https://github.com/qxmpp-project/qxmpp/archive/v0.9.3.tar.gz -> qxmpp-0.9.3.tar.gz

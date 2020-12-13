@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install setup
-DEPEND=  sys-libs/libcap-ng  
-RDEPEND=  sys-libs/libcap-ng  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~arm ~hppa ~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=ftp://ftp.suse.com/pub/projects/icecream/icecc-1.0.0.tar.bz2

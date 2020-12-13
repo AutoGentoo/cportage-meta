@@ -1,8 +1,9 @@
-d41d8cd98f00b204e9800998ecf8427e
 DEFINED_PHASES=-
-RDEPEND=x11-themes/zuki-themes[gnome-shell] 
+DESCRIPTION=Transition package to zuki-themes
 EAPI=6
-IUSE=
+HOMEPAGE=https://www.gnome-look.org/content/show.php/Zukitwo?content=140562
 KEYWORDS=amd64 x86
+LICENSE=metapackage
+RDEPEND=x11-themes/zuki-themes[gnome-shell]
 SLOT=0
-SRC_URI=
+_md5_=b25cfe3e2a11c3406822eddc6e123090

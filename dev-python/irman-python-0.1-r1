@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=media-libs/libirman 
-RDEPEND=media-libs/libirman 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=http://bluweb.com/chouser/proj/irman-python/irman-python-0.1.tar.gz

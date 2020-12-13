@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-ml/lwt_react:=  >=dev-ml/lwt-2.4.0:=  >=dev-ml/zed-1.2:=  >=dev-ml/react-1.2:=   dev-ml/jbuilder  
-RDEPEND=  dev-ml/lwt_react:=  >=dev-ml/lwt-2.4.0:=  >=dev-ml/zed-1.2:=  >=dev-ml/react-1.2:=  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/1.11
-SRC_URI=https://github.com/diml/lambda-term/archive/1.11.tar.gz -> lambda-term-1.11.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=>=gnome-base/librsvg-2.13.93:2  dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  !<dev-python/gnome-python-desktop-2.22.0-r10 
-RDEPEND=>=gnome-base/librsvg-2.13.93:2  dev-python/pycairo[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  !<dev-python/gnome-python-desktop-2.22.0-r10 
-EAPI=5
-IUSE=examples 
-KEYWORDS=alpha amd64 arm ~hppa ia64 ppc ppc64 ~sh sparc x86
-SLOT=0
-SRC_URI=mirror://gnome/sources/gnome-python-desktop/2.32/gnome-python-desktop-2.32.0.tar.bz2

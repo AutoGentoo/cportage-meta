@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  sys-libs/ncurses:0=  sys-libs/readline:0=  fam? ( virtual/fam )  pcre? ( dev-libs/libpcre )  virtual/pkgconfig 
-RDEPEND=  sys-libs/ncurses:0=  sys-libs/readline:0=  fam? ( virtual/fam )  pcre? ( dev-libs/libpcre ) 
-EAPI=6
-IUSE=fam pcre 
-KEYWORDS=amd64 hppa ~mips ppc sparc x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~jstein/dist/apachetop-0.12.6.tar.gz

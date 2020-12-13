@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=>=dev-lang/go-1.10 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm ~arm64 ~ppc64
-SLOT=0
-SRC_URI=https://github.com/docker/libnetwork/archive/e7933d41e7b206756115aa9df5e0599fc5169742.tar.gz -> docker-proxy-0.8.0_p20190513.tar.gz

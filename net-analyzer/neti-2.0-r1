@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install
-DEPEND=  java? ( || ( >=virtual/jdk-1.2 >=virtual/jre-1.2 ) )  net-libs/libpcap  
-RDEPEND=  java? ( || ( >=virtual/jdk-1.2 >=virtual/jre-1.2 ) )  net-libs/libpcap  
+DEFINED_PHASES=compile configure install
+DEPEND=java? ( || ( >=virtual/jdk-1.2 >=virtual/jre-1.2 ) ) net-libs/libpcap
+DESCRIPTION=NETI@Home research project from GATech
 EAPI=5
-IUSE=zlib java 
+HOMEPAGE=http://www.neti.gatech.edu
+IUSE=zlib java
 KEYWORDS=~ppc x86
+LICENSE=GPL-2
+RDEPEND=java? ( || ( >=virtual/jdk-1.2 >=virtual/jre-1.2 ) ) net-libs/libpcap
+RESTRICT=test
 SLOT=0
 SRC_URI=mirror://sourceforge/neti/neti-2.0.tar.gz
+_md5_=e35eb671d5fbcd4c1317d1e8e974addd

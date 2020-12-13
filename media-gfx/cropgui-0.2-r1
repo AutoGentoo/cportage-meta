@@ -1,9 +1,0 @@
-b5c24f569336e58837d9cedc26d4691c
-DEFINED_PHASES= install prepare
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pillow[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pygtk:2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
-EAPI=6
-IUSE=python_targets_python2_7 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/jepler/cropgui/archive/v0.2.tar.gz -> cropgui-0.2.tar.gz

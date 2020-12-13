@@ -1,9 +1,0 @@
-a7b9b568a5656ea6ea45d0d5ff9eb5ab
-DEFINED_PHASES= compile configure install prepare setup test
-DEPEND=sys-devel/bison  sys-devel/flex 
-EAPI=7
-IUSE=test 
-KEYWORDS=~amd64 ~arm64 ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=http://www.acpica.org/sites/acpica/files/acpica-unix-20190215.tar.gz
-	test? ( http://www.acpica.org/sites/acpica/files/acpitests-unix-20190215.tar.gz )

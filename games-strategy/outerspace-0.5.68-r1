@@ -1,9 +1,0 @@
-55a8f81c11ed260112d09cb8168b0849
-DEFINED_PHASES= install postinst postrm preinst prepare unpack
-RDEPEND=>=dev-python/pygame-1.7 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/ospace/Client/0.5.68/Outer%20Space-0.5.68.tar.gz -> outerspace-0.5.68.tar.gz
-	mirror://sourceforge/ospace/Client/0.5.68/outerspace_0.5.68-0ubuntu1_all.deb

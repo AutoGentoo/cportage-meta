@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=dev-lang/perl:=[-build(-)] 
-RDEPEND=dev-lang/perl:=[-build(-)] 
-EAPI=5
-IUSE=examples 
-KEYWORDS=amd64 ~mips ~ppc x86
-SLOT=0
-SRC_URI=https://www.mhonarc.org/release/MHonArc/tar/MHonArc-2.6.18.tar.bz2

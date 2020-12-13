@@ -1,9 +1,0 @@
-e7c02fd8bd9b486759000e6f8542cb09
-DEFINED_PHASES= configure
-DEPEND=dev-haskell/extensible-exceptions:=[profile?]  >=dev-haskell/mtl-1:=[profile?] <dev-haskell/mtl-3:=[profile?]  dev-haskell/old-locale:=[profile?]  dev-haskell/old-time:=[profile?]  dev-haskell/random:=[profile?]  dev-haskell/semigroups:=[profile?]  dev-haskell/utf8-string:=[profile?]  >=dev-haskell/x11-1.6.1:=[profile?] <dev-haskell/x11-1.10:=[profile?]  >=dev-lang/ghc-7.6.1:=  >=x11-wm/xmonad-0.15:=[profile?] <x11-wm/xmonad-0.16:=[profile?]  xft? ( >=dev-haskell/x11-xft-0.2:=[profile?] )   >=dev-haskell/cabal-1.16.0  
-RDEPEND=dev-haskell/extensible-exceptions:=[profile?]  >=dev-haskell/mtl-1:=[profile?] <dev-haskell/mtl-3:=[profile?]  dev-haskell/old-locale:=[profile?]  dev-haskell/old-time:=[profile?]  dev-haskell/random:=[profile?]  dev-haskell/semigroups:=[profile?]  dev-haskell/utf8-string:=[profile?]  >=dev-haskell/x11-1.6.1:=[profile?] <dev-haskell/x11-1.10:=[profile?]  >=dev-lang/ghc-7.6.1:=  >=x11-wm/xmonad-0.15:=[profile?] <x11-wm/xmonad-0.16:=[profile?]  xft? ( >=dev-haskell/x11-xft-0.2:=[profile?] )  
-EAPI=6
-IUSE=+xft 
-KEYWORDS=~amd64 ~x86
-SLOT=0/0.15
-SRC_URI=https://hackage.haskell.org/package/xmonad-contrib-0.15/xmonad-contrib-0.15.tar.gz

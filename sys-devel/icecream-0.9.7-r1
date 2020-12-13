@@ -1,8 +1,0 @@
-3671b46855aa4f3d36e9c3757cb6ac61
-DEFINED_PHASES= install postinst prepare setup
-DEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
-EAPI=4
-IUSE=
-KEYWORDS=~amd64 ~arm ~hppa ~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=ftp://ftp.suse.com/pub/projects/icecream/icecc-0.9.7.tar.bz2

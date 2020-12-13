@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=media-libs/ladspa-sdk 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=http://quitte.de/dsp/caps_0.9.24.tar.bz2

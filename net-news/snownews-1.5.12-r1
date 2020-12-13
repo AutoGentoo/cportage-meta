@@ -1,9 +1,0 @@
-57754efafb9e514b4ec4ea713f6ab6dd
-DEFINED_PHASES= compile configure install prepare
-DEPEND=    >=dev-libs/libxml2-2.5.6  >=sys-libs/ncurses-5.3[unicode?]  dev-libs/openssl   virtual/pkgconfig  
-RDEPEND=    >=dev-libs/libxml2-2.5.6  >=sys-libs/ncurses-5.3[unicode?]  dev-libs/openssl   dev-perl/XML-LibXML  dev-perl/libwww-perl  
-EAPI=5
-IUSE=unicode 
-KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux ~x86-macos
-SLOT=0
-SRC_URI=https://kiza.eu/media/software/snownews/snownews-1.5.12.tar.gz

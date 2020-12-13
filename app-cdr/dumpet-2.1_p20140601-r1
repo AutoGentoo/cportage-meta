@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile prepare setup
-DEPEND=dev-libs/libxml2  dev-libs/popt  virtual/pkgconfig  test? ( dev-util/valgrind ) 
-RDEPEND=dev-libs/libxml2  dev-libs/popt 
-EAPI=6
-IUSE=test 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://github.com/rhboot/dumpet/archive/8f47670dd582c96ad1b6dd3c9b9da0acebded5d8.tar.gz -> dumpet-2.1_p20140601.tar.gz

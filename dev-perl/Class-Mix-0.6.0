@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  virtual/perl-Carp  dev-perl/Params-Classify  virtual/perl-Exporter  virtual/perl-if  virtual/perl-parent   dev-perl/Module-Build  test? (   virtual/perl-Test-Simple  )  
-RDEPEND=  virtual/perl-Carp  dev-perl/Params-Classify  virtual/perl-Exporter  virtual/perl-if  virtual/perl-parent  
-EAPI=6
-IUSE=test 
-KEYWORDS=amd64
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/Z/ZE/ZEFRAM/Class-Mix-0.006.tar.gz

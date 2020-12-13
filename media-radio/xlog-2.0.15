@@ -1,9 +1,0 @@
-57c0a768180ad8cf83558bfb8f7fee4e
-DEFINED_PHASES= compile configure install postinst postrm prepare
-DEPEND=media-libs/hamlib  dev-libs/glib:2  x11-libs/gtk+:2  media-libs/libpng:0  sys-devel/gettext  virtual/pkgconfig 
-RDEPEND=media-libs/hamlib  dev-libs/glib:2  x11-libs/gtk+:2 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://download.savannah.gnu.org/releases/xlog/xlog-2.0.15.tar.gz

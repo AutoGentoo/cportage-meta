@@ -1,9 +1,0 @@
-09770cd6a4f0299674f25c0a4c7948c0
-DEFINED_PHASES= compile configure install prepare
-DEPEND=net-dialup/ppp:=  tcpd? ( sys-apps/tcp-wrappers ) 
-RDEPEND=net-dialup/ppp:=  tcpd? ( sys-apps/tcp-wrappers ) 
-EAPI=6
-IUSE=gre-extreme-debug tcpd 
-KEYWORDS=amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~sparc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/poptop/pptpd-1.4.0.tar.gz

@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-BDEPEND=>=app-editors/emacs-23.1:* 
-RDEPEND=>=app-editors/emacs-23.1:* 
+BDEPEND=>=app-editors/emacs-23.1:*
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DESCRIPTION=Use templates, decorate comments, auto-update buffers
 EAPI=7
-IUSE=
+HOMEPAGE=http://emacs-template.sourceforge.net/
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+ Texinfo-manual
+RDEPEND=>=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=mirror://sourceforge/emacs-template/template-3.3b.tar.gz
+_eclasses_=elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	34cc2b6f6d8914019a353fe39cff43ce
+_md5_=23d681966816d0b3bdde17eb4956326a

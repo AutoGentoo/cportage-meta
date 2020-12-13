@@ -1,8 +1,0 @@
-c5a2da1f32fb6817539f8fcc1a79ab24
-DEFINED_PHASES= configure
-BDEPEND=  >=app-text/asciidoc-8.6.9  >=app-text/dblatex-0.3.10  >=app-text/po4a-0.45  >=sys-devel/gettext-0.18  dev-perl/Unicode-LineBreak  dev-util/source-highlight  l10n_ca? ( dev-texlive/texlive-langspanish )  l10n_de? ( dev-texlive/texlive-langgerman )  l10n_en? ( dev-texlive/texlive-langenglish )  l10n_es? ( dev-texlive/texlive-langspanish )  l10n_fr? ( dev-texlive/texlive-langfrench )  l10n_it? ( dev-texlive/texlive-langitalian )  l10n_ja? ( dev-texlive/texlive-langjapanese media-fonts/vlgothic )  l10n_pl? ( dev-texlive/texlive-langpolish )  l10n_ru? ( dev-texlive/texlive-langcyrillic )  l10n_zh? ( dev-texlive/texlive-langchinese ) 
-EAPI=7
-IUSE=html +pdf l10n_ca l10n_de l10n_en l10n_es l10n_fr l10n_id l10n_it l10n_ja l10n_pl l10n_ru l10n_zh 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/KiCad/kicad-doc/archive/5.1.0.tar.gz -> kicad-doc-5.1.0.tar.gz

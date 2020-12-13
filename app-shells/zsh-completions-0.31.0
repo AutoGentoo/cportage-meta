@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install postinst
-RDEPEND=app-shells/zsh 
+DEFINED_PHASES=install postinst
+DESCRIPTION=Additional completion definitions for Zsh
 EAPI=6
-IUSE=
+HOMEPAGE=https://github.com/zsh-users/zsh-completions
 KEYWORDS=amd64 ~arm ~arm64 ~sparc ~x86
+LICENSE=BSD
+RDEPEND=app-shells/zsh
 SLOT=0
 SRC_URI=https://github.com/zsh-users/zsh-completions/archive/0.31.0.tar.gz -> zsh-completions-0.31.0.tar.gz
+_md5_=a4d74eb0d39ea2506dc4766b43f2cc1a

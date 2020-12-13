@@ -1,9 +1,0 @@
-6bc5d8e5e737c4dd07872b2bcf3ae2dd
-DEFINED_PHASES= prepare
-DEPEND=  dev-perl/File-Find-Rule  virtual/perl-Data-Dumper  virtual/perl-File-Spec  virtual/perl-File-Temp  dev-perl/Module-Locate  dev-perl/Path-Tiny  virtual/perl-parent  !minimal? (   dev-perl/PPI  )   >=virtual/perl-ExtUtils-MakeMaker-6.360.0  test? (   dev-perl/Capture-Tiny   dev-perl/Test-Exception   dev-perl/Test-LongString   >=virtual/perl-Test-Simple-0.420.0   !minimal? (    app-editors/vim[perl]   )  )  
-RDEPEND=  dev-perl/File-Find-Rule  virtual/perl-Data-Dumper  virtual/perl-File-Spec  virtual/perl-File-Temp  dev-perl/Module-Locate  dev-perl/Path-Tiny  virtual/perl-parent  !minimal? (   dev-perl/PPI  )  
-EAPI=6
-IUSE=test minimal 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/O/OS/OSFAMERON/Perl-Tags-0.32.tar.gz

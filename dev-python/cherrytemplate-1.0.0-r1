@@ -1,7 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ia64 ppc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/cherrypy/CherryTemplate-1.0.0.tar.gz

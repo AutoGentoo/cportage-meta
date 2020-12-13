@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=>=x11-wm/windowmaker-0.95.2  x11-libs/libXft  x11-libs/libXpm  x11-libs/libX11  x11-base/xorg-proto  nls? ( sys-devel/gettext ) 
-RDEPEND=>=x11-wm/windowmaker-0.95.2  x11-libs/libXft  x11-libs/libXpm  x11-libs/libX11 
-EAPI=6
-IUSE=nls 
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=http://wie-im-flug.net/linux/fsviewer/fsviewer-app-0.2.6.tar.bz2

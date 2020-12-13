@@ -1,9 +1,0 @@
-6ef7b865a49233ead06f67479872070f
-DEFINED_PHASES= compile install test
-DEPEND=virtual/libusb   virtual/udev  dev-libs/go-fuse  dev-libs/go-usb  dev-lang/go  media-libs/libmtp 
-RDEPEND=virtual/libusb   virtual/udev 
-EAPI=5
-IUSE=
-KEYWORDS=
-SLOT=0
-SRC_URI=

@@ -1,9 +1,0 @@
-3f99e29d4054427c9f32fc702607d83c
-DEFINED_PHASES= prepare
-DEPEND=app-text/openjade  dev-libs/libxslt  dev-perl/Locale-gettext  dev-perl/SGMLSpm  dev-perl/TermReadKey  dev-perl/Text-WrapI18N  sys-devel/gettext  app-text/docbook-xml-dtd:4.1.2  app-text/docbook-xsl-stylesheets  dev-perl/Module-Build  test? (   app-text/docbook-sgml-dtd:4.1   virtual/tex-base  ) 
-RDEPEND=app-text/openjade  dev-libs/libxslt  dev-perl/Locale-gettext  dev-perl/SGMLSpm  dev-perl/TermReadKey  dev-perl/Text-WrapI18N  sys-devel/gettext 
-EAPI=6
-IUSE=test 
-KEYWORDS=alpha amd64 arm arm64 hppa ia64 m68k ~mips ppc ppc64 s390 sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x64-solaris ~x86-solaris
-SLOT=0
-SRC_URI=mirror://debian/pool/main/p/po4a/po4a_0.47.orig.tar.gz

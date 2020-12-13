@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-EAPI=7
-IUSE=examples 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~conikost/files/edid-decode-e719d04077d098eb51d9494f41060eba2419d4bc.tar.gz -> edid-decode-0_pre20191209.tar.gz

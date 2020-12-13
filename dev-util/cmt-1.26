@@ -1,9 +1,0 @@
-9a6f679b686ef1d2c65eba2c4279c3f5
-DEFINED_PHASES= compile configure install postinst postrm
-DEPEND=emacs? ( >=app-editors/emacs-23.1:* ) 
-RDEPEND=emacs? ( >=app-editors/emacs-23.1:* )  java? ( virtual/jdk ) 
-EAPI=5
-IUSE=emacs java doc 
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://www.cmtsite.net/v1r26/CMTv1r26.tar.gz

@@ -1,9 +1,0 @@
-f81fa5ad99b60db86d3a53bbb91c0aac
-DEFINED_PHASES= compile configure install prepare
-DEPEND=  dev-libs/boost  dev-qt/qtcore:5  dev-qt/qtgui:5   app-arch/unzip  dev-cpp/tree  doc? ( app-doc/doxygen )  
-RDEPEND=  dev-libs/boost  dev-qt/qtcore:5  dev-qt/qtgui:5  
-EAPI=6
-IUSE=doc 
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=2
-SRC_URI=https://dev.gentoo.org/~dilfridge/distfiles/liborigin2-20110829.zip

@@ -1,9 +1,0 @@
-1287a93b416f22d81ea8d0f71267fdc6
-DEFINED_PHASES=-
-DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  test? (   dev-python/twisted-core[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/twisted-web[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/service_identity[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ssl? ( dev-python/pyopenssl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )   ) 
-RDEPEND=  dev-python/twisted-core[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/twisted-web[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/service_identity[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ssl? ( dev-python/pyopenssl[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )   
-EAPI=5
-IUSE=doc +ssl test 
-KEYWORDS=~amd64 ~ppc ~ppc64 ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos
-SLOT=0
-SRC_URI=http://foolscap.lothar.com/releases/foolscap-0.11.0.tar.gz

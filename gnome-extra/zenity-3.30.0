@@ -1,9 +1,0 @@
-756a698647d86b364ec837452633961c
-DEFINED_PHASES= configure install
-DEPEND=  >=dev-libs/glib-2.8:2  x11-libs/gdk-pixbuf:2  >=x11-libs/gtk+-3:3[X]  x11-libs/libX11  x11-libs/pango  libnotify? ( >=x11-libs/libnotify-0.6.1:= )  webkit? ( >=net-libs/webkit-gtk-2.8.1:4 )   dev-util/itstool  gnome-base/gnome-common  >=sys-devel/gettext-0.19.4  virtual/pkgconfig  
-RDEPEND=  >=dev-libs/glib-2.8:2  x11-libs/gdk-pixbuf:2  >=x11-libs/gtk+-3:3[X]  x11-libs/libX11  x11-libs/pango  libnotify? ( >=x11-libs/libnotify-0.6.1:= )  webkit? ( >=net-libs/webkit-gtk-2.8.1:4 )  
-EAPI=6
-IUSE=debug libnotify webkit 
-KEYWORDS=~alpha amd64 ~arm ~arm64 ~ia64 ~ppc ~ppc64 ~sh ~sparc x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=mirror://gnome/sources/zenity/3.30/zenity-3.30.0.tar.xz

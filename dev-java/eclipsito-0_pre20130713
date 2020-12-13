@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=>=virtual/jdk-1.5 
-RDEPEND=>=virtual/jre-1.5 
-EAPI=5
-IUSE=elibc_FreeBSD 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~tomwij/files/dist/eclipsito-0_pre20130713.tar.xz

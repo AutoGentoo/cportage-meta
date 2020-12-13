@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= postinst
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ~ppc ~sparc x86
-SLOT=0
-SRC_URI=http://collector.skumleren.net/releases/collector-0.7.3.tar.bz2

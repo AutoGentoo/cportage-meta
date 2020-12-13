@@ -1,10 +1,14 @@
-6b62ed8a9a679d2809027c5d95dfb68e
-DEFINED_PHASES= compile install prepare
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] 
-DEPEND=caps? ( sys-libs/libcap )  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  >=dev-libs/libconfig-1.5  dev-util/conf2struct  dev-lang/perl  pcre? ( dev-libs/libpcre:= ) 
-RDEPEND=caps? ( sys-libs/libcap )  systemd? ( sys-apps/systemd:= )  tcpd? ( sys-apps/tcp-wrappers )  >=dev-libs/libconfig-1.5 
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=caps? ( sys-libs/libcap ) systemd? ( sys-apps/systemd:= ) tcpd? ( sys-apps/tcp-wrappers ) >=dev-libs/libconfig-1.5 dev-util/conf2struct dev-lang/perl pcre? ( dev-libs/libpcre:= )
+DESCRIPTION=Port multiplexer - accept both HTTPS and SSH connections on the same port
 EAPI=7
-IUSE=caps pcre systemd tcpd 
-KEYWORDS=
+HOMEPAGE=https://www.rutschle.net/tech/sslh/README.html
+IUSE=caps pcre systemd tcpd
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=caps? ( sys-libs/libcap ) systemd? ( sys-apps/systemd:= ) tcpd? ( sys-apps/tcp-wrappers ) >=dev-libs/libconfig-1.5
+RESTRICT=test
 SLOT=0
-SRC_URI=
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	git-r3	3e7ec3d6619213460c85e2aa48398441	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	69be00334d73f9f50261554b94be0879	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974
+_md5_=2b28fef021ca208ad752cee359cbd836

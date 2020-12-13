@@ -1,9 +1,0 @@
-425e0a7c9f6b70f8ae99c3c00cd29bbc
-DEFINED_PHASES= configure install postinst
-DEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5=  dev-qt/qtwidgets:5  dbus? (   dev-qt/qtdbus:5   dev-qt/qtgui:5[dbus]  )   dev-qt/linguist-tools:5  
-RDEPEND=  dev-qt/qtconcurrent:5  dev-qt/qtcore:5  dev-qt/qtgui:5=  dev-qt/qtwidgets:5  dbus? (   dev-qt/qtdbus:5   dev-qt/qtgui:5[dbus]  )  
-EAPI=7
-IUSE=+dbus 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/qt5ct/qt5ct-0.41.tar.bz2

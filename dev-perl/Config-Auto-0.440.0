@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-perl/Config-IniFiles  dev-perl/IO-String  virtual/perl-Text-ParseWords  virtual/perl-File-Spec  >=dev-perl/YAML-0.670.0   virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test-Simple )  
-RDEPEND=  dev-perl/Config-IniFiles  dev-perl/IO-String  virtual/perl-Text-ParseWords  virtual/perl-File-Spec  >=dev-perl/YAML-0.670.0  
-EAPI=5
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/B/BI/BINGOS/Config-Auto-0.44.tar.gz

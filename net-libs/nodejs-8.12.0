@@ -1,9 +1,0 @@
-d3e9c62b9de5d99127fbdc38f08ebc21
-DEFINED_PHASES= compile configure install postinst prepare pretend test
-DEPEND=  >=dev-libs/libuv-1.19.2:=  >=net-libs/http-parser-2.8.0:=  >=net-libs/nghttp2-1.32.0  sys-libs/zlib  icu? ( >=dev-libs/icu-60.1:= )  ssl? ( >=dev-libs/openssl-1.0.2n:0=[-bindist] )   || ( >=dev-lang/python-2.7.5-r2:2.7[threads] )  systemtap? ( dev-util/systemtap )  test? ( net-misc/curl ) 
-RDEPEND=  >=dev-libs/libuv-1.19.2:=  >=net-libs/http-parser-2.8.0:=  >=net-libs/nghttp2-1.32.0  sys-libs/zlib  icu? ( >=dev-libs/icu-60.1:= )  ssl? ( >=dev-libs/openssl-1.0.2n:0=[-bindist] )  
-EAPI=6
-IUSE=cpu_flags_x86_sse2 debug doc icu inspector +npm +snapshot +ssl systemtap test 
-KEYWORDS=amd64 arm arm64 ppc ppc64 x86 ~amd64-linux ~x64-macos
-SLOT=0
-SRC_URI=https://nodejs.org/dist/v8.12.0/node-v8.12.0.tar.xz

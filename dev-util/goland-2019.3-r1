@@ -1,8 +1,0 @@
-f4946d9a1cfe97559905ecfaa6ace892
-DEFINED_PHASES= install postinst
-RDEPEND=  virtual/jdk  dev-lang/go  
-EAPI=7
-IUSE=
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://download.jetbrains.com/go/goland-2019.3.tar.gz

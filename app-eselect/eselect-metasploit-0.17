@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install postinst
-DEPEND=app-admin/eselect  !<net-analyzer/metasploit-4.6 
-RDEPEND=app-admin/eselect  !<net-analyzer/metasploit-4.6 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~arm ~x86
-SLOT=0
-SRC_URI=

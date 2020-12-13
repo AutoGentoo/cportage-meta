@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile prepare test
-EAPI=7
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/fatsort/fatsort-1.5.0.456.tar.xz

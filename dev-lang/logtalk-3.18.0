@@ -1,8 +1,0 @@
-096954b2501d0a7e5fbd0943259bb187
-DEFINED_PHASES= install postinst postrm prepare
-RDEPEND=  xslt? ( dev-libs/libxslt )  fop? ( dev-java/fop ) 
-EAPI=6
-IUSE=fop xslt 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=http://logtalk.org/files/logtalk-3.18.0.tar.bz2

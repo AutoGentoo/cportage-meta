@@ -1,9 +1,0 @@
-58252ce25fd3156eec83f50bb4229412
-DEFINED_PHASES=-
-DEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=https://launchpad.net/python-distutils-extra/trunk/2.38/+download/python-distutils-extra-2.38.tar.gz

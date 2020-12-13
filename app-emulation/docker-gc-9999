@@ -1,9 +1,11 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= install
-DEPEND=>=dev-vcs/git-1.8.2.1[curl] 
-RDEPEND=app-emulation/docker 
+DEFINED_PHASES=install unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Docker garbage collection of containers and images
 EAPI=6
-IUSE=
-KEYWORDS=
+HOMEPAGE=https://github.com/spotify/docker-gc/
+LICENSE=Apache-2.0
+PROPERTIES=live
+RDEPEND=app-emulation/docker
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=3aaa7631028dd313dc9583e1532d751f

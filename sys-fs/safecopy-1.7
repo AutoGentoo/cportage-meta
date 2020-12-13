@@ -1,7 +1,11 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure prepare test
-EAPI=4
-IUSE=test 
+DEFINED_PHASES=compile configure test
+DESCRIPTION=Tool for fault-tolerant data recovery from damaged (io-errors) devices or files
+EAPI=7
+HOMEPAGE=http://safecopy.sourceforge.net
+IUSE=test
 KEYWORDS=amd64 x86
+LICENSE=GPL-2+
+RESTRICT=!test? ( test )
 SLOT=0
 SRC_URI=mirror://sourceforge/safecopy/safecopy-1.7.tar.gz
+_md5_=f3cec1e826f32762dd635e9c5eb9ecac

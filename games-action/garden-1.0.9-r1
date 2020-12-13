@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install postinst postrm prepare
-DEPEND=<media-libs/allegro-5 
-RDEPEND=<media-libs/allegro-5 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/garden/garden-1.0.9.tar.gz

@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=  dev-perl/Config-IniFiles  dev-perl/DBD-mysql  dev-perl/TimeDate  >=sys-fs/lvm2-2.02.06  virtual/mysql 
+DEFINED_PHASES=install
+DESCRIPTION=Tool for creating backups of MySQL server's data files using LVM snapshots
 EAPI=6
-IUSE=
+HOMEPAGE=http://lenzg.net/mylvmbackup/
 KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=GPL-2
+RDEPEND=dev-perl/Config-IniFiles dev-perl/DBD-mysql dev-perl/TimeDate >=sys-fs/lvm2-2.02.06 virtual/mysql
 SLOT=0
 SRC_URI=http://lenzg.net/mylvmbackup/mylvmbackup-0.14.tar.gz
+_md5_=75dba05a6947cda2f5f5990486df5acb

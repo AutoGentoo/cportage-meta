@@ -1,8 +1,0 @@
-d084fd771b844aa6e1850698c75eacc2
-DEFINED_PHASES= install nofetch postinst postrm preinst unpack
-RDEPEND=  virtual/opengl  media-libs/freealut  media-libs/openal  media-libs/sdl-gfx  media-libs/sdl-image  media-libs/sdl-mixer  media-libs/sdl-net  media-libs/sdl-ttf  media-libs/smpeg  x11-libs/libX11  x11-libs/libXft 
-EAPI=5
-IUSE=
-KEYWORDS=-* ~amd64 ~x86
-SLOT=0
-SRC_URI=Bastion-HIB-2012-06-20.sh

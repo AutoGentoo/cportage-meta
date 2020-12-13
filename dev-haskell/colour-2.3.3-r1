@@ -1,9 +1,0 @@
-e6c64c8d7e38ad688f02343a5e8bc762
-DEFINED_PHASES= prepare
-DEPEND=>=dev-lang/ghc-6.10.4:=   >=dev-haskell/cabal-1.6 
-RDEPEND=>=dev-lang/ghc-6.10.4:= 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
-SLOT=0/2.3.3
-SRC_URI=https://hackage.haskell.org/package/colour-2.3.3/colour-2.3.3.tar.gz

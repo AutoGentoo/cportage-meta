@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=dev-libs/json-c:0=  >=sys-apps/dbus-1.4  sys-libs/ncurses:0= 
-RDEPEND=dev-libs/json-c:0=  >=sys-apps/dbus-1.4  sys-libs/ncurses:0= 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/l4rzy/ncman/archive/21a55145ddbc5d085e91352586875abe92cff73b.tar.gz -> ncman-0.0.1_p20190327.tar.gz

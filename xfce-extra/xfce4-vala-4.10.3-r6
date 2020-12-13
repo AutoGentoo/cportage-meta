@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=|| ( dev-lang/vala:0.42[vapigen(+)] )  >=xfce-base/exo-0.10:=  >=xfce-base/garcon-0.2:=  >=xfce-base/libxfce4ui-4.10:=  >=xfce-base/libxfce4util-4.10:=  >=xfce-base/xfce4-panel-4.10:=  >=xfce-base/xfconf-4.10:=  virtual/pkgconfig 
-RDEPEND=|| ( dev-lang/vala:0.42[vapigen(+)] )  >=xfce-base/exo-0.10:=  >=xfce-base/garcon-0.2:=  >=xfce-base/libxfce4ui-4.10:=  >=xfce-base/libxfce4util-4.10:=  >=xfce-base/xfce4-panel-4.10:=  >=xfce-base/xfconf-4.10:= 
-EAPI=7
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://archive.xfce.org/src/bindings/xfce4-vala/4.10/xfce4-vala-4.10.3.tar.bz2

@@ -1,9 +1,12 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= install prepare unpack
-BDEPEND=|| ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15  )  >=sys-devel/autoconf-2.69  >=sys-devel/libtool-2.4 
-DEPEND=app-arch/unzip 
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=install prepare unpack
+DEPEND=app-arch/unzip
+DESCRIPTION=Kryoflux SPS Decoder Library
 EAPI=7
-IUSE=
+HOMEPAGE=https://www.kryoflux.com/
 KEYWORDS=amd64 x86
+LICENSE=Kryoflux-MAME
 SLOT=0
 SRC_URI=https://www.kryoflux.com/download/spsdeclib_5.1_source.zip
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=8a4bee90b17f452e8d9535efd9c368ee

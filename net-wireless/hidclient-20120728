@@ -1,9 +1,11 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=net-wireless/bluez 
-RDEPEND=net-wireless/bluez  x11-apps/xinput 
-EAPI=4
-IUSE=
+DEFINED_PHASES=compile install prepare
+DEPEND=net-wireless/bluez
+DESCRIPTION=Use your machine as a bluetooh keyboard/mouse
+EAPI=7
+HOMEPAGE=http://anselm.hoffmeister.be/computer/hidclient/
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=net-wireless/bluez x11-apps/xinput
 SLOT=0
 SRC_URI=http://anselm.hoffmeister.be/computer/hidclient/hidclient-20120728.tar.bz2
+_md5_=c01525bb080554c3b122c1a48c3636fb

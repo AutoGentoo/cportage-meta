@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=dev-perl/Module-Build   >=app-editors/emacs-23.1:* 
-RDEPEND=>=app-editors/emacs-23.1:* 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/Y/YE/YEWENBIN/Emacs-PDE-0.2.16.tar.gz

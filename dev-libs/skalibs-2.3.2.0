@@ -1,8 +1,12 @@
-62c36ec054ae532c1699b4cb28124727
-DEFINED_PHASES= configure install prepare
-DEPEND=>=sys-devel/make-3.81 
+DEFINED_PHASES=configure install prepare
+DEPEND=>=sys-devel/make-3.81
+DESCRIPTION=development files used for building software at skarnet.org: essentially general-purpose libraries
 EAPI=5
-IUSE=doc ipv6 static-libs 
+HOMEPAGE=http://www.skarnet.org/software/skalibs/index.html
+IUSE=doc ipv6 static-libs
 KEYWORDS=amd64 x86
+LICENSE=ISC
 SLOT=0
 SRC_URI=http://www.skarnet.org/software/skalibs/skalibs-2.3.2.0.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=88183255ae2e27f6a3228a4869491cc6

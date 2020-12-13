@@ -1,9 +1,0 @@
-133dc87fa4db61d512a737bc29c79723
-DEFINED_PHASES= compile configure install prepare
-DEPEND=!nss? ( dev-libs/libgcrypt:0 )  nss? ( dev-libs/nss )  acl? ( virtual/acl )  caps? ( sys-libs/libcap )  gconf? ( gnome-base/gconf )  ldap? ( net-nds/openldap )  pcre? ( dev-libs/libpcre )  rpm? ( >=app-arch/rpm-4.9 )  sql? ( dev-db/opendbx )  xattr? ( sys-apps/attr )  dev-libs/libpcre  dev-libs/libxml2  dev-libs/libxslt  net-misc/curl  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   doc? ( app-doc/doxygen )  perl? ( dev-lang/swig )  python? ( dev-lang/swig )  test? (   app-arch/unzip   dev-perl/XML-XPath   net-misc/ipcalc   sys-apps/grep ) 
-RDEPEND=!nss? ( dev-libs/libgcrypt:0 )  nss? ( dev-libs/nss )  acl? ( virtual/acl )  caps? ( sys-libs/libcap )  gconf? ( gnome-base/gconf )  ldap? ( net-nds/openldap )  pcre? ( dev-libs/libpcre )  rpm? ( >=app-arch/rpm-4.9 )  sql? ( dev-db/opendbx )  xattr? ( sys-apps/attr )  dev-libs/libpcre  dev-libs/libxml2  dev-libs/libxslt  net-misc/curl  python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  
-EAPI=5
-IUSE=acl caps debug doc gconf ldap nss pcre perl python rpm selinux sce sql test xattr 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/OpenSCAP/openscap/releases/download/1.2.14/openscap-1.2.14.tar.gz

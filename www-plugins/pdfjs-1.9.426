@@ -1,8 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= install
-DEPEND=app-arch/unzip 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/mozilla/pdf.js/releases/download/v1.9.426/pdfjs-1.9.426-dist.zip -> pdfjs-1.9.426.zip

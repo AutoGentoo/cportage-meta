@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=dev-lang/php  dev-php/PEAR-PEAR  dev-php/PEAR-XML_Serializer 
+DEFINED_PHASES=install
+DESCRIPTION=A package for syntax highlighting
 EAPI=6
-IUSE=
+HOMEPAGE=https://pear.php.net/package/Text_Highlighter
 KEYWORDS=~amd64 ~x86
+LICENSE=PHP-3.01
+RDEPEND=dev-lang/php dev-php/PEAR-PEAR dev-php/PEAR-XML_Serializer
 SLOT=0
 SRC_URI=http://download.pear.php.net/package/Text_Highlighter-0.7.3.tgz
+_md5_=a263c358e52fdd014d736b070a7b392f

@@ -1,10 +1,12 @@
-d41d8cd98f00b204e9800998ecf8427e
+BDEPEND=sys-devel/gettext virtual/pkgconfig
 DEFINED_PHASES=-
-BDEPEND=  sys-devel/gettext  virtual/pkgconfig 
-DEPEND=  dev-libs/glib:2  media-libs/libgphoto2:=  sys-fs/fuse:0= 
-RDEPEND=  dev-libs/glib:2  media-libs/libgphoto2:=  sys-fs/fuse:0= 
+DEPEND=dev-libs/glib:2 media-libs/libgphoto2:= sys-fs/fuse:0=
+DESCRIPTION=FUSE file system for interfacing with digital cameras using gphoto2
 EAPI=7
-IUSE=
+HOMEPAGE=http://www.gphoto.org/
 KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=dev-libs/glib:2 media-libs/libgphoto2:= sys-fs/fuse:0=
 SLOT=0
 SRC_URI=mirror://sourceforge/gphoto/gphotofs-0.5.tar.bz2
+_md5_=114e7a655eb9b2143a8237187e0216d1

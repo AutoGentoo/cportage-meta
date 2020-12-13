@@ -1,9 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES=-
-DEPEND=  >=dev-python/pbr-3.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/pytest-runner[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/setuptools[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   
-RDEPEND=  dev-python/defusedxml[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/requests[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/requests-toolbelt[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  dev-python/six[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  magic? ( dev-python/filemagic[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  jirashell? (   dev-python/ipython[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   dev-python/requests-oauthlib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )  kerberos? ( dev-python/requests-kerberos[python_targets_python3_6(-)?,-python_single_target_python3_6(-)] )  oauth? (   || (    dev-python/pycryptodome[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]    dev-python/pycrypto[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   )   dev-python/requests-oauthlib[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  )   
-EAPI=6
-IUSE=magic jirashell kerberos oauth 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=mirror://pypi/j/jira/jira-1.0.14.tar.gz

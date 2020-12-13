@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=dev-lang/perl 
-RDEPEND=dev-lang/perl  dev-perl/Algorithm-Diff  dev-perl/Parallel-ForkManager  dev-perl/Regexp-Common  virtual/perl-Digest-MD5  virtual/perl-File-Spec  virtual/perl-File-Temp  virtual/perl-Getopt-Long 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~ppc x86
-SLOT=0
-SRC_URI=https://github.com/AlDanial/cloc/releases/download/v1.76/cloc-1.76.tar.gz

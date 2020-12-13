@@ -1,8 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=X? (    >=x11-apps/mkfontscale-1.2.0    media-fonts/encodings  ) 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86 ~ppc-macos ~x86-macos
-SLOT=0
-SRC_URI=mirror://sourceforge/mdk-ut/umeplus-fonts-20130511.tar.lzma

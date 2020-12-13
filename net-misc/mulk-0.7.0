@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=net-misc/curl  app-text/htmltidy  dev-libs/uriparser  metalink? (   media-libs/libmetalink   checksum? ( dev-libs/openssl )  ) 
-RDEPEND=net-misc/curl  app-text/htmltidy  dev-libs/uriparser  metalink? (   media-libs/libmetalink   checksum? ( dev-libs/openssl )  ) 
-EAPI=4
-IUSE=checksum debug metalink 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/mulk/mulk-0.7.0.tar.gz

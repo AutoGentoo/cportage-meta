@@ -1,9 +1,0 @@
-2ab3ba72581871d6ff511f6423c0b680
-DEFINED_PHASES= configure install postinst prepare
-DEPEND=dev-libs/glib:2  dev-libs/libzia  media-libs/libsndfile  >=media-libs/libsdl-1.2  alsa? ( media-libs/alsa-lib )  fftw? ( sci-libs/fftw:3.0 )  gpm? ( sys-libs/gpm )  hamlib? ( media-libs/hamlib )  virtual/pkgconfig 
-RDEPEND=dev-libs/glib:2  dev-libs/libzia  media-libs/libsndfile  >=media-libs/libsdl-1.2  alsa? ( media-libs/alsa-lib )  fftw? ( sci-libs/fftw:3.0 )  gpm? ( sys-libs/gpm )  hamlib? ( media-libs/hamlib ) 
-EAPI=6
-IUSE=alsa fftw gpm hamlib suid 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://tucnak.nagano.cz/tucnak-4.17.tar.gz

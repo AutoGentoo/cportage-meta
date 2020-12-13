@@ -1,9 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= compile install prepare
-DEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-i18n/ibus[python(+),python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  ~app-i18n/sunpinyin-3.0.0_rc1:=  nls? ( virtual/libintl )  virtual/pkgconfig  nls? ( sys-devel/gettext ) 
-RDEPEND=python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )   app-i18n/ibus[python(+),python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  ~app-i18n/sunpinyin-3.0.0_rc1:=  nls? ( virtual/libintl ) 
-EAPI=6
-IUSE=+nls 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/sunpinyin/sunpinyin/archive/v3.0.0-rc1.tar.gz -> sunpinyin-3.0.0_rc1.tar.gz

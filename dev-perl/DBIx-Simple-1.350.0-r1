@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= test
-DEPEND=  >=dev-perl/DBI-1.210.0   virtual/perl-ExtUtils-MakeMaker  test? ( !minimal? (   >=dev-perl/DBD-SQLite-1.0.0  ) )  
-RDEPEND=  >=dev-perl/DBI-1.210.0  
-EAPI=6
-IUSE=test minimal 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/J/JU/JUERD/DBIx-Simple-1.35.tar.gz

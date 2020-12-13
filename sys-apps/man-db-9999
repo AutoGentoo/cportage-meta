@@ -1,11 +1,14 @@
-280c0d578503a4375688b58ff326c94b
-DEFINED_PHASES= configure install postinst preinst prepare setup unpack
-BDEPEND=  app-arch/xz-utils  virtual/pkgconfig  nls? (   >=app-text/po4a-0.45   sys-devel/gettext  )  
-DEPEND=  !sys-apps/man  >=dev-libs/libpipeline-1.5.0  sys-apps/groff  gdbm? ( sys-libs/gdbm:= )  !gdbm? ( berkdb? ( sys-libs/db:= ) )  !berkdb? ( !gdbm? ( sys-libs/gdbm:= ) )  seccomp? ( sys-libs/libseccomp )  zlib? ( sys-libs/zlib )  
-RDEPEND=    !sys-apps/man  >=dev-libs/libpipeline-1.5.0  sys-apps/groff  gdbm? ( sys-libs/gdbm:= )  !gdbm? ( berkdb? ( sys-libs/db:= ) )  !berkdb? ( !gdbm? ( sys-libs/gdbm:= ) )  seccomp? ( sys-libs/libseccomp )  zlib? ( sys-libs/zlib )   acct-group/man  acct-user/man  selinux? ( sec-policy/selinux-mandb )  
-PDEPEND=manpager? ( app-text/manpager ) 
+BDEPEND=app-arch/xz-utils virtual/pkgconfig nls? ( >=app-text/po4a-0.45 sys-devel/gettext ) virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install postinst preinst prepare setup unpack
+DEPEND=!sys-apps/man >=dev-libs/libpipeline-1.5.0 sys-apps/groff gdbm? ( sys-libs/gdbm:= ) !gdbm? ( berkdb? ( sys-libs/db:= ) ) !berkdb? ( !gdbm? ( sys-libs/gdbm:= ) ) seccomp? ( sys-libs/libseccomp ) zlib? ( sys-libs/zlib )
+DESCRIPTION=a man replacement that utilizes berkdb instead of flat files
 EAPI=7
-IUSE=berkdb +gdbm +manpager nls +seccomp selinux static-libs zlib 
-KEYWORDS=
+HOMEPAGE=http://www.nongnu.org/man-db/
+IUSE=berkdb +gdbm +manpager nls +seccomp selinux static-libs zlib
+LICENSE=GPL-3
+PDEPEND=manpager? ( app-text/manpager )
+PROPERTIES=live
+RDEPEND=!sys-apps/man >=dev-libs/libpipeline-1.5.0 sys-apps/groff gdbm? ( sys-libs/gdbm:= ) !gdbm? ( berkdb? ( sys-libs/db:= ) ) !berkdb? ( !gdbm? ( sys-libs/gdbm:= ) ) seccomp? ( sys-libs/libseccomp ) zlib? ( sys-libs/zlib ) acct-group/man acct-user/man selinux? ( sec-policy/selinux-mandb )
 SLOT=0
-SRC_URI=
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	69be00334d73f9f50261554b94be0879	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=17e4710041ff36978a617377744a45cc

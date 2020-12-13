@@ -1,9 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= configure install prepare
-DEPEND=alsa? ( media-libs/alsa-lib )  opengl? ( virtual/glu virtual/opengl )  debug? ( sys-libs/ncurses:0 )  media-libs/libpng:0  media-libs/libsdl[joystick,video,X]  media-libs/sdl-net  media-libs/sdl-sound  app-arch/unzip 
-RDEPEND=alsa? ( media-libs/alsa-lib )  opengl? ( virtual/glu virtual/opengl )  debug? ( sys-libs/ncurses:0 )  media-libs/libpng:0  media-libs/libsdl[joystick,video,X]  media-libs/sdl-net  media-libs/sdl-sound 
-EAPI=6
-IUSE=alsa debug hardened opengl 
-KEYWORDS=amd64 ~arm ppc64 x86
-SLOT=0
-SRC_URI=mirror://gentoo/dosbox-code-0-3989-dosbox-trunk.zip

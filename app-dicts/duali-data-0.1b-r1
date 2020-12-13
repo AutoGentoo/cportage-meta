@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=>=app-text/duali-0.2.0-r1 
-EAPI=6
-IUSE=
-KEYWORDS=alpha amd64 ~hppa ~ia64 ~mips ~ppc ~sparc x86
-SLOT=0
-SRC_URI=mirror://sourceforge/arabeyes/duali-data-0.1b.tar.gz

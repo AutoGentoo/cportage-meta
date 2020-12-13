@@ -1,8 +1,0 @@
-08b458584c2817a13a39012fdb8bebac
-DEFINED_PHASES= install
-RDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/appdirs-1.4.3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/pyparsing-2.2.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/packaging-16.8[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/pyopenssl-17.5.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/pydns-3.1.0:3[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/cryptography-2.1.4[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=dev-python/asn1crypto-0.24.0[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]  >=app-crypt/acme-0.25.1[python_targets_python3_6(-)?,-python_single_target_python3_6(-)]   
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/plinss/acmebot/archive/v2.3.0.tar.gz -> acmebot-2.3.0.tar.gz

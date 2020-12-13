@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=app-text/aspell 
-RDEPEND=app-text/aspell 
-EAPI=5
-IUSE=
-KEYWORDS=alpha amd64 hppa ia64 ~mips ppc sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/H/HA/HANK/Text-Aspell-0.09.tar.gz

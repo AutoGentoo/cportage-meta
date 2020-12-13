@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=  gnome-base/gnome-mime-data  x11-misc/shared-mime-info  dev-util/intltool  dev-util/desktop-file-utils  dev-libs/libxslt  || (   gnome-base/librsvg   media-gfx/imagemagick[xml,png,svg]  )  media-gfx/imagemagick[png]  virtual/pkgconfig 
-RDEPEND=  gnome-base/gnome-mime-data  x11-misc/shared-mime-info 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 arm arm64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/chemical-mime/chemical-mime-data-0.1.94.tar.bz2

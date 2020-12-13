@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=dev-libs/popt  dev-libs/libxml2  >=net-libs/libnet-1.0.2  net-libs/libpcap 
-EAPI=4
-IUSE=
-KEYWORDS=~ppc ~sparc ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/selfdhcp/selfdhcp-0.2a.tar.bz2

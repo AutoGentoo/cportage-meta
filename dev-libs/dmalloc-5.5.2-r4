@@ -1,8 +1,0 @@
-e881bf6303c77cc4729d2a48eb200f67
-DEFINED_PHASES= compile configure install prepare test
-DEPEND=sys-apps/texinfo 
-EAPI=4
-IUSE=static-libs threads 
-KEYWORDS=alpha amd64 arm hppa ia64 ppc ppc64 s390 sh sparc x86
-SLOT=0
-SRC_URI=http://dmalloc.com/releases/dmalloc-5.5.2.tgz

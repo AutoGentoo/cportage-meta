@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-BDEPEND=  dev-python/setuptools[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  test? ( dev-python/pytest[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] )  
-RDEPEND=dev-python/flask[python_targets_pypy3(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
-EAPI=7
-IUSE=test 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/lixxu/flask-paginate/archive/510ad833106134711868653fb597bf75ea8ac34f.tar.gz -> flask-paginate-0.5.3.tar.gz

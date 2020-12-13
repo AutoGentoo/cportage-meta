@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  gprs? ( net-wireless/openggsn )  net-libs/libosmocore  net-libs/libosmo-abis  net-libs/libosmo-netif  dev-db/libdbi 
-RDEPEND=  gprs? ( net-wireless/openggsn )  net-libs/libosmocore  net-libs/libosmo-abis  net-libs/libosmo-netif  dev-db/libdbi  dev-db/libdbi-drivers[sqlite]  dev-db/sqlite:3 
-EAPI=5
-IUSE=+gprs 
-KEYWORDS=
-SLOT=0
-SRC_URI=

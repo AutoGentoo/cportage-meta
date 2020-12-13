@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=>=x11-libs/gtk+-2.4:2  sys-devel/gettext  virtual/pkgconfig 
-RDEPEND=>=x11-libs/gtk+-2.4:2 
-EAPI=5
-IUSE=
+BDEPEND=sys-devel/gettext virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=prepare
+DEPEND=>=x11-libs/gtk+-2.4:2
+DESCRIPTION=An FM radio tuner app from the people who brought you GQmpeg
+EAPI=7
+HOMEPAGE=http://gqmpeg.sourceforge.net/radio.html
 KEYWORDS=~amd64 ~ppc ~sparc ~x86
+LICENSE=GPL-2
+RDEPEND=>=x11-libs/gtk+-2.4:2
 SLOT=0
 SRC_URI=mirror://sourceforge/gqmpeg/gqradio-1.9.2.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=9365b352a3c2b9ddcfebcbac083c52e6

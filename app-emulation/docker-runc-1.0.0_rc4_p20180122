@@ -1,9 +1,0 @@
-e7c02fd8bd9b486759000e6f8542cb09
-DEFINED_PHASES= compile install prepare
-DEPEND=>=dev-lang/go-1.10 
-RDEPEND=  apparmor? ( sys-libs/libapparmor )  seccomp? ( sys-libs/libseccomp )  !app-emulation/runc  
-EAPI=6
-IUSE=+ambient apparmor hardened +seccomp 
-KEYWORDS=amd64 ~arm ~ppc64
-SLOT=0
-SRC_URI=https://github.com/opencontainers/runc/archive/9f9c96235cc97674e935002fc3d78361b696a69e.tar.gz -> docker-runc-1.0.0_rc4_p20180122.tar.gz

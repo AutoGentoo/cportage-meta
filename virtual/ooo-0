@@ -1,8 +1,8 @@
-d41d8cd98f00b204e9800998ecf8427e
 DEFINED_PHASES=-
-RDEPEND=  || (   app-office/libreoffice[java?]   app-office/libreoffice-bin[java?]   app-office/openoffice-bin[java?]  )  
+DESCRIPTION=Virtual for OpenOffice.org/LibreOffice
 EAPI=6
-IUSE=java 
+IUSE=java
 KEYWORDS=amd64 x86
+RDEPEND=|| ( app-office/libreoffice[java?] app-office/libreoffice-bin[java?] app-office/openoffice-bin[java?] )
 SLOT=0
-SRC_URI=
+_md5_=1be5a7327302209a4571e830a8267d09

@@ -1,9 +1,0 @@
-af205382f69544ae406afd97f7bee1a3
-DEFINED_PHASES= compile configure install
-DEPEND=  tcl? ( dev-lang/tcl:0= )  tk? ( dev-lang/tk:0= ) 
-RDEPEND=  tcl? ( dev-lang/tcl:0= )  tk? ( dev-lang/tk:0= ) 
-EAPI=7
-IUSE=tcl tk 
-KEYWORDS=amd64 ~arm ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=ftp://ftp.mars.org/pub/hfs/hfsutils-3.2.6.tar.gz

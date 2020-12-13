@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install
-DEPEND=dev-libs/atk  >=dev-libs/dbus-glib-0.78  >=dev-libs/glib-2.50:2  >=sys-apps/dbus-1  x11-libs/cairo  >=x11-libs/gdk-pixbuf-2.22:2  >=x11-libs/libnotify-0.7  x11-libs/libX11  virtual/libintl  >=x11-libs/gtk+-3.22:3  >=x11-libs/libwnck-3:3  >=media-libs/libcanberra-0.4:0[gtk3]  !x11-misc/notify-osd  !x11-misc/qtnotifydaemon  !x11-misc/notification-daemon  app-arch/xz-utils  >=dev-util/intltool-0.50.1  sys-devel/gettext:*  >=sys-devel/libtool-2.2.6:2  virtual/pkgconfig:* 
-RDEPEND=dev-libs/atk  >=dev-libs/dbus-glib-0.78  >=dev-libs/glib-2.50:2  >=sys-apps/dbus-1  x11-libs/cairo  >=x11-libs/gdk-pixbuf-2.22:2  >=x11-libs/libnotify-0.7  x11-libs/libX11  virtual/libintl  >=x11-libs/gtk+-3.22:3  >=x11-libs/libwnck-3:3  >=media-libs/libcanberra-0.4:0[gtk3]  !x11-misc/notify-osd  !x11-misc/qtnotifydaemon  !x11-misc/notification-daemon 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm ~arm64 x86
-SLOT=0
-SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-notification-daemon-1.22.0.tar.xz

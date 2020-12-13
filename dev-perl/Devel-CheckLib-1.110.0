@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  >=virtual/perl-File-Temp-0.160.0  virtual/perl-Exporter  virtual/perl-File-Spec   virtual/perl-ExtUtils-MakeMaker  test? (   >=virtual/perl-Test-Simple-0.620.0   >=dev-perl/IO-CaptureOutput-1.80.100   >=dev-perl/Mock-Config-0.20.0  )  
-RDEPEND=  >=virtual/perl-File-Temp-0.160.0  virtual/perl-Exporter  virtual/perl-File-Spec  
-EAPI=6
-IUSE=test 
-KEYWORDS=alpha amd64 arm ~arm64 hppa ia64 ~mips ppc ~ppc64 sparc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MA/MATTN/Devel-CheckLib-1.11.tar.gz

@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=x11-misc/notify-osd 
+DEFINED_PHASES=install
+DESCRIPTION=Icons for on-screen-display notification agent
 EAPI=7
-IUSE=
+HOMEPAGE=https://launchpad.net/notify-osd
 KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-SA-3.0
+RDEPEND=x11-misc/notify-osd
 SLOT=0
 SRC_URI=mirror://ubuntu/pool/main/n/notify-osd-icons/notify-osd-icons_0.7.tar.gz
+_md5_=166cdfc2d46d255d1a2894232ca45141

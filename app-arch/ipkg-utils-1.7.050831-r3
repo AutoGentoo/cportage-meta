@@ -1,9 +1,0 @@
-b4ba2e897aeec434ad9443ab21868dd6
-DEFINED_PHASES= compile install postinst prepare
-DEPEND=  !minimal? (   app-crypt/gnupg   net-misc/curl  ) 
-RDEPEND=  !minimal? (   app-crypt/gnupg   net-misc/curl  ) 
-EAPI=6
-IUSE=minimal 
-KEYWORDS=~amd64 ~arm ~hppa ~mips ~ppc ~x86
-SLOT=0
-SRC_URI=http://handhelds.org/download/packages/ipkg-utils/ipkg-utils-050831.tar.gz

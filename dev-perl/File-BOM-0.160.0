@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  >=virtual/perl-Encode-1.990.0  >=dev-perl/Readonly-0.60.0   >=dev-perl/Module-Build-0.420.0  test? (   >=dev-perl/Test-Exception-0.200.0   virtual/perl-Test-Simple  )  
-RDEPEND=  >=virtual/perl-Encode-1.990.0  >=dev-perl/Readonly-0.60.0  
-EAPI=6
-IUSE=test 
-KEYWORDS=~amd64 ~x86 ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/MA/MATTLAW/File-BOM-0.16.tar.gz

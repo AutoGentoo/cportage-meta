@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=dev-libs/glib:2  dev-libs/libxml2  dev-games/libmaitretarot  dev-games/libmt_client  gnome-base/libgnomeui  x11-libs/gtk+:2 
-RDEPEND=dev-libs/glib:2  dev-libs/libxml2  dev-games/libmaitretarot  dev-games/libmt_client  gnome-base/libgnomeui  x11-libs/gtk+:2  dev-games/cardpics 
-EAPI=6
-IUSE=gnome 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://savannah.nongnu.org/download/maitretarot/mt_gtk_client.pkg/0.1.98/mt_gtk_client-0.1.98.tar.bz2

@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-perl/String-CRC32 
-RDEPEND=dev-perl/String-CRC32 
-EAPI=5
-IUSE=
-KEYWORDS=alpha amd64 arm arm64 hppa ia64 ~mips ppc ppc64 s390 ~sh sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/D/DO/DORMANDO/Cache-Memcached-1.30.tar.gz

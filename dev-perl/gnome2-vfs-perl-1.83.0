@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=>=gnome-base/gnome-vfs-2  >=dev-perl/glib-perl-1.120  >=dev-perl/ExtUtils-Depends-0.200.0  >=dev-perl/ExtUtils-PkgConfig-1.03  virtual/pkgconfig 
-RDEPEND=>=gnome-base/gnome-vfs-2  >=dev-perl/glib-perl-1.120 
-EAPI=6
-IUSE=
-KEYWORDS=alpha amd64 x86 ~amd64-linux ~x86-linux ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/X/XA/XAOC/Gnome2-VFS-1.083.tar.gz

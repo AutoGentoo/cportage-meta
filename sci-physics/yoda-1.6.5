@@ -1,9 +1,0 @@
-595bb365fbb2deda8f44b08ad383bcb8
-DEFINED_PHASES= configure install setup
-DEPEND=  dev-libs/boost:=  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  root? ( sci-physics/root:=[python=,python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] )  python? ( dev-python/cython[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] ) 
-RDEPEND=  dev-libs/boost:=  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  root? ( sci-physics/root:=[python=,python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] ) 
-EAPI=6
-IUSE=python root static-libs 
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://www.hepforge.org/archive/yoda/YODA-1.6.5.tar.bz2

@@ -1,8 +1,0 @@
-b4ab7385ed09d486a7f68ab22eb2f0d3
-DEFINED_PHASES= preinst setup
-RDEPEND=dev-util/confix-wrapper  sys-devel/autoconf-archive  sys-devel/automake  sys-devel/libtool 
-EAPI=5
-IUSE=
-KEYWORDS=
-SLOT=2
-SRC_URI=

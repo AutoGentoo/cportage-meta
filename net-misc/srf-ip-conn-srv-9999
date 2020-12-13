@@ -1,9 +1,0 @@
-b9d03fc75206ea64f8797c40d0cb28c3
-DEFINED_PHASES= install prepare unpack
-BDEPEND=sys-devel/make >=dev-util/cmake-3.9.6 
-EAPI=6
-IUSE=
-KEYWORDS=
-SLOT=0
-SRC_URI=https://github.com/sharkrf/srf-ip-conn/archive/140c9b8a86193b8f345c9e113691113310859ff8.tar.gz -> srf-ip-conn-140c9b8a8619.tar.gz
-		https://github.com/zserge/jsmn/archive/35086597a72d94d8393e6a90b96e553d714085bd.tar.gz -> jsmn-35086597a72d.tar.gz

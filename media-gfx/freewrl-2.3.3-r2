@@ -1,9 +1,0 @@
-a1548c33323701621aae92f4c8713f9d
-DEFINED_PHASES= configure install postinst prepare
-DEPEND=x11-libs/libXau  x11-libs/libXdmcp  x11-libs/libXext  x11-libs/libX11  motif? ( x11-libs/motif:0= )  !motif? ( x11-libs/libXaw )  media-libs/mesa  virtual/opengl  media-libs/libpng:0=  virtual/jpeg:0=  media-libs/imlib2  >=media-libs/freetype-2  media-libs/fontconfig  curl? ( net-misc/curl )  osc? ( media-libs/liblo )  opencl? ( virtual/opencl )  dev-lang/spidermonkey:0=  virtual/pkgconfig  java? ( >=virtual/jdk-1.4 )  nsplugin? ( net-misc/npapi-sdk ) 
-RDEPEND=x11-libs/libXau  x11-libs/libXdmcp  x11-libs/libXext  x11-libs/libX11  motif? ( x11-libs/motif:0= )  !motif? ( x11-libs/libXaw )  media-libs/mesa  virtual/opengl  media-libs/libpng:0=  virtual/jpeg:0=  media-libs/imlib2  >=media-libs/freetype-2  media-libs/fontconfig  curl? ( net-misc/curl )  osc? ( media-libs/liblo )  opencl? ( virtual/opencl )  dev-lang/spidermonkey:0=  media-fonts/dejavu  app-arch/unzip  virtual/imagemagick-tools  java? ( >=virtual/jre-1.4 )  sox? ( media-sound/sox ) 
-EAPI=5
-IUSE=curl debug java libeai motif +nsplugin opencl osc +sox static-libs 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/freewrl/freewrl-2.3.3.1.tar.gz

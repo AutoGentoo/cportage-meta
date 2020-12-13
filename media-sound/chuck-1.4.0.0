@@ -1,9 +1,0 @@
-164032aef83092a327d55627598831a2
-DEFINED_PHASES= compile install postinst
-DEPEND=app-eselect/eselect-chuck  media-libs/libsndfile  alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack )  sys-devel/bison  sys-devel/flex 
-RDEPEND=app-eselect/eselect-chuck  media-libs/libsndfile  alsa? ( media-libs/alsa-lib )  jack? ( virtual/jack ) 
-EAPI=7
-IUSE=+alsa jack examples 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://chuck.cs.princeton.edu/release/files/chuck-1.4.0.0.tgz

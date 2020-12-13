@@ -1,10 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-BDEPEND=virtual/pkgconfig 
-DEPEND=app-text/libspectre  >=app-text/zathura-0.3.9  dev-libs/girara  dev-libs/glib:2  x11-libs/cairo 
-RDEPEND=app-text/libspectre  >=app-text/zathura-0.3.9  dev-libs/girara  dev-libs/glib:2  x11-libs/cairo 
+BDEPEND=virtual/pkgconfig >=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install postinst postrm test unpack
+DEPEND=app-text/libspectre >=app-text/zathura-0.3.9 dev-libs/girara dev-libs/glib:2 x11-libs/cairo
+DESCRIPTION=PostScript plug-in for zathura
 EAPI=7
-IUSE=
-KEYWORDS=
+HOMEPAGE=https://pwmt.org/projects/zathura-ps/download/
+LICENSE=ZLIB
+PROPERTIES=live
+RDEPEND=app-text/libspectre >=app-text/zathura-0.3.9 dev-libs/girara dev-libs/glib:2 x11-libs/cairo
 SLOT=0
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	meson	71d293a701d6362387e1214da368c848	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=e68f181c0f400fd743eff4a753d54dba

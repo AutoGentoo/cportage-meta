@@ -1,8 +1,9 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
+DEFINED_PHASES=compile install
+DESCRIPTION=Small tool for altering forwarded network data in real time
 EAPI=7
-IUSE=
+HOMEPAGE=http://freshmeat.net/projects/netsed
 KEYWORDS=amd64 ~x86
+LICENSE=LGPL-2
 SLOT=0
-SRC_URI=mirror://gentoo/netsed-0.01b.tgz
-	mirror://gentoo/netsed_0.01c-2.diff.gz
+SRC_URI=mirror://gentoo/netsed-0.01b.tgz mirror://gentoo/netsed_0.01c-2.diff.gz
+_md5_=9aecb08c7440882be58ffb4efd4685ec

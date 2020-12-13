@@ -1,9 +1,0 @@
-ac072bd8a431484cf06186ba80d488f2
-DEFINED_PHASES= configure install prepare unpack
-DEPEND=  dev-libs/libg15  truetype? ( media-libs/freetype )  
-RDEPEND=  dev-libs/libg15  truetype? ( media-libs/freetype )  
-EAPI=4
-IUSE=truetype 
-KEYWORDS=
-SLOT=0
-SRC_URI=

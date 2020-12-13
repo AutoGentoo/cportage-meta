@@ -1,9 +1,0 @@
-3342d9a5d9ced87bf02d471a7017b833
-DEFINED_PHASES= configure prepare setup
-DEPEND=>=dev-libs/glib-2.14:2  dev-libs/libgcrypt:0=  dev-libs/libunique:1  dev-libs/libxml2:2  media-libs/libmpdclient  net-misc/curl  net-libs/gnutls  >=x11-libs/gtk+-2.16:2  dbus? ( dev-libs/dbus-glib )  libnotify? ( x11-libs/libnotify )  python? ( dev-python/pygtk:2   dev-python/pygobject:2 )  scrobbler? ( net-libs/libsoup:2.4 )  taglib? ( media-libs/taglib )  zeroconf? ( net-dns/avahi )  || ( >=dev-lang/python-2.7.5-r2:2.7 )  dev-util/intltool  virtual/pkgconfig  sys-devel/gettext 
-RDEPEND=>=dev-libs/glib-2.14:2  dev-libs/libgcrypt:0=  dev-libs/libunique:1  dev-libs/libxml2:2  media-libs/libmpdclient  net-misc/curl  net-libs/gnutls  >=x11-libs/gtk+-2.16:2  dbus? ( dev-libs/dbus-glib )  libnotify? ( x11-libs/libnotify )  python? ( dev-python/pygtk:2   dev-python/pygobject:2 )  scrobbler? ( net-libs/libsoup:2.4 )  taglib? ( media-libs/taglib )  zeroconf? ( net-dns/avahi ) 
-EAPI=5
-IUSE=dbus debug +idle libnotify nls python scrobbler taglib zeroconf 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/ario-player/ario-1.5.1.tar.gz

@@ -1,9 +1,0 @@
-0c251a748f0764ad088c6c8e035a95d7
-DEFINED_PHASES= postinst
-BDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7[sqlite?] ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] dev-python/setuptools[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=  dev-python/dnspython[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/pyxdg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  >=dev-python/requests-2.2[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  
-EAPI=7
-IUSE=sqlite 
-KEYWORDS=amd64 x86 ~ppc-macos ~x64-solaris
-SLOT=0
-SRC_URI=https://github.com/linkcheck/linkchecker/archive/v9.4.0.tar.gz -> linkchecker-9.4.0.tar.gz

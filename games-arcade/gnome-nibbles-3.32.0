@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=  >=dev-libs/glib-2.40.0:2  dev-libs/libgee:0.8=  dev-libs/libgnome-games-support:1=  >=media-libs/clutter-1.22.0:1.0  >=media-libs/clutter-gtk-1.4.0:1.0  >=media-libs/libcanberra-0.26[gtk3]  >=x11-libs/gtk+-3.18.0:3   dev-libs/appstream-glib  >=dev-util/intltool-0.50.2  dev-util/itstool  sys-devel/gettext  virtual/pkgconfig  
-RDEPEND=  >=dev-libs/glib-2.40.0:2  dev-libs/libgee:0.8=  dev-libs/libgnome-games-support:1=  >=media-libs/clutter-1.22.0:1.0  >=media-libs/clutter-gtk-1.4.0:1.0  >=media-libs/libcanberra-0.26[gtk3]  >=x11-libs/gtk+-3.18.0:3  
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm64 x86
-SLOT=0
-SRC_URI=mirror://gnome/sources/gnome-nibbles/3.32/gnome-nibbles-3.32.0.tar.xz

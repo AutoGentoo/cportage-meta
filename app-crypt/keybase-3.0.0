@@ -1,9 +1,0 @@
-e7c02fd8bd9b486759000e6f8542cb09
-DEFINED_PHASES= compile install postinst test unpack
-DEPEND=  ~app-crypt/kbfs-2.11.0 
-RDEPEND=  app-crypt/gnupg 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/keybase/client/archive/v3.0.0.tar.gz -> keybase-3.0.0.tar.gz

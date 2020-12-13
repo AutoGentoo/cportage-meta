@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=dev-lang/perl  dev-perl/Date-Calc 
+DEFINED_PHASES=install
+DESCRIPTION=Pflogsumm is a log analyzer for Postfix logs
 EAPI=7
-IUSE=
+HOMEPAGE=https://jimsun.linxnet.com/postfix_contrib.html
 KEYWORDS=~amd64 ~arm ~sparc ~x86
+LICENSE=GPL-2+
+RDEPEND=dev-lang/perl dev-perl/Date-Calc
 SLOT=0
 SRC_URI=https://jimsun.linxnet.com/downloads/pflogsumm-1.1.5.tar.gz
+_md5_=e5b568a7c81f72e2e5646a80a981cb66

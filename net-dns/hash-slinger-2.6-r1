@@ -1,8 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= install
-RDEPEND=  python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/dnspython[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/ipaddr[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/m2crypto[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  net-dns/unbound[python,python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ipsec? ( net-vpn/libreswan[dnssec] )  openpgp? ( dev-python/python-gnupg[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  ssh? ( net-misc/openssh )  
-EAPI=5
-IUSE=ipsec +openpgp +ssh 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://people.redhat.com/pwouters/hash-slinger/hash-slinger-2.6.tar.gz

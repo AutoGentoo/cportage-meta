@@ -1,8 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install prepare
-DEPEND=app-arch/unzip 
-EAPI=5
-IUSE=
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=configure install prepare
+DESCRIPTION=QC compiler
+EAPI=7
+HOMEPAGE=http://fteqw.sourceforge.net/
 KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RESTRICT=test
 SLOT=0
 SRC_URI=mirror://sourceforge/fteqw/qclibsrc2501.zip
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=f66843623a05c7fd29098bdde2f1e927

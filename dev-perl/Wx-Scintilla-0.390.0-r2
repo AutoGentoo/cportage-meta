@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=  dev-perl/Alien-wxWidgets  dev-perl/Wx  x11-libs/wxGTK:3.0   >=dev-perl/ExtUtils-XSpp-0.160.200  >=dev-perl/Module-Build-0.360.0  
-RDEPEND=  dev-perl/Alien-wxWidgets  dev-perl/Wx  x11-libs/wxGTK:3.0  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/A/AZ/AZAWAWI/Wx-Scintilla-0.39.tar.gz

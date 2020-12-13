@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=doc? ( dev-python/sphinx[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] ) 
-RDEPEND=dev-util/dialog 
-EAPI=6
-IUSE=doc examples 
-KEYWORDS=~alpha ~amd64 ~arm ~ia64 ~ppc ~sparc ~x86
-SLOT=python-2
-SRC_URI=mirror://pypi/p/python2-pythondialog/python2-pythondialog-3.4.0.tar.gz

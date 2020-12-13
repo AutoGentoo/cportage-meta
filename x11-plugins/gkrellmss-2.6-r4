@@ -1,9 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile
-DEPEND=  app-admin/gkrellm:2[X]  media-libs/alsa-lib  sci-libs/fftw:3.0= 
-RDEPEND=  app-admin/gkrellm:2[X]  media-libs/alsa-lib  sci-libs/fftw:3.0= 
+DEFINED_PHASES=compile install
+DEPEND=app-admin/gkrellm:2[X] media-libs/alsa-lib sci-libs/fftw:3.0= virtual/pkgconfig
+DESCRIPTION=A plugin for GKrellM2 that has a VU meter and a sound chart
 EAPI=6
-IUSE=nls 
+HOMEPAGE=http://members.dslextreme.com/users/billw/gkrellmss/gkrellmss.html
+IUSE=nls
 KEYWORDS=~alpha amd64 ~ppc ~sparc x86
+LICENSE=GPL-2
+RDEPEND=app-admin/gkrellm:2[X] media-libs/alsa-lib sci-libs/fftw:3.0=
 SLOT=0
 SRC_URI=http://web.wt.net/~billw/gkrellmss/gkrellmss-2.6.tar.gz
+_eclasses_=gkrellm-plugin	c01023a3c28bc24f50c00ae019e8861e	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=01d0bdacb367019b8f5a86d2d3473f4b

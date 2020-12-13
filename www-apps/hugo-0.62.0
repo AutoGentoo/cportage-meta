@@ -1,8 +1,0 @@
-de66c1bccb4990bbdf1454783a028c2e
-DEFINED_PHASES= compile install
-BDEPEND=>=dev-lang/go-1.12 
-EAPI=7
-IUSE=+bash-completion doc +sass 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/g4s8/hugo/archive/v0.62.0.tar.gz -> hugo-0.62.0.tar.gz

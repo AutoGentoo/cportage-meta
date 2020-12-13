@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=!sys-devel/llvm:0 
-EAPI=7
-IUSE=
-KEYWORDS=~amd64 ~arm ~arm64 ~ppc64 ~x86 ~amd64-linux ~ppc-macos ~x64-macos ~x86-macos
-SLOT=0
-SRC_URI=
-					https://releases.llvm.org/9.0.0/llvm-9.0.0.src.tar.xz

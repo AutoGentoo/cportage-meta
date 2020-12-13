@@ -1,9 +1,0 @@
-221af2b20e60a4505a06cc930e5c9145
-DEFINED_PHASES= compile install
-DEPEND=net-wireless/rtl-sdr   virtual/libusb:1 
-RDEPEND=net-wireless/rtl-sdr   virtual/libusb:1 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/mutability/dump1090/archive/fb5942dba6505a21cbafc7905a5a7c513b214dc9.tar.gz -> dump1090-1.15_pre20180509.tar.gz

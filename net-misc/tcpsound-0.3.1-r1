@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile prepare
-DEPEND=  dev-libs/libmba  media-libs/libsdl  net-analyzer/tcpdump  
-RDEPEND=  dev-libs/libmba  media-libs/libsdl  net-analyzer/tcpdump  
-EAPI=5
-IUSE=
+DEFINED_PHASES=compile install
+DEPEND=dev-libs/libmba media-libs/libsdl net-analyzer/tcpdump
+DESCRIPTION=Play sounds in response to network traffic
+EAPI=7
+HOMEPAGE=http://www.ioplex.com/~miallen/tcpsound/
 KEYWORDS=amd64 x86
+LICENSE=BSD
+RDEPEND=dev-libs/libmba media-libs/libsdl net-analyzer/tcpdump
 SLOT=0
 SRC_URI=http://www.ioplex.com/~miallen/tcpsound/dl/tcpsound-0.3.1.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=9367a6fe231e65c0b402781bf7ff38b6

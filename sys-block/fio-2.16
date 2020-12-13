@@ -1,9 +1,0 @@
-81a1f7d517bc6f8cdba829ca595e7ed3
-DEFINED_PHASES= compile configure install prepare
-DEPEND=!static? ( aio? ( dev-libs/libaio )  glusterfs? ( sys-cluster/glusterfs )  gtk? ( dev-libs/glib:2 )  numa? ( sys-process/numactl )  rbd? ( sys-cluster/ceph )  rdma? (   sys-fabric/libibverbs   sys-fabric/librdmacm  )  zlib? ( sys-libs/zlib ) )  gtk? ( x11-libs/gtk+:2 )  static? ( aio? ( dev-libs/libaio[static-libs(+)] )  glusterfs? ( sys-cluster/glusterfs[static-libs(+)] )  gtk? ( dev-libs/glib:2[static-libs(+)] )  numa? ( sys-process/numactl[static-libs(+)] )  rbd? ( sys-cluster/ceph[static-libs(+)] )  rdma? (   sys-fabric/libibverbs[static-libs(+)]   sys-fabric/librdmacm[static-libs(+)]  )  zlib? ( sys-libs/zlib[static-libs(+)] ) ) 
-RDEPEND=!static? ( aio? ( dev-libs/libaio )  glusterfs? ( sys-cluster/glusterfs )  gtk? ( dev-libs/glib:2 )  numa? ( sys-process/numactl )  rbd? ( sys-cluster/ceph )  rdma? (   sys-fabric/libibverbs   sys-fabric/librdmacm  )  zlib? ( sys-libs/zlib ) )  gtk? ( x11-libs/gtk+:2 )  gnuplot? (   sci-visualization/gnuplot   python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  ) 
-EAPI=6
-IUSE=aio glusterfs gnuplot gtk numa rbd rdma static zlib 
-KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=http://brick.kernel.dk/snaps/fio-2.16.tar.bz2

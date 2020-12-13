@@ -1,9 +1,0 @@
-ca2daf9b8093fe1e6953b17539a063b3
-DEFINED_PHASES= configure install prepare setup
-DEPEND=  app-arch/bzip2  sys-libs/zlib  gcrypt? ( dev-libs/libgcrypt:0 )  !gcrypt? ( dev-libs/openssl:0= ) 
-RDEPEND=  app-arch/bzip2  sys-libs/zlib  gcrypt? ( dev-libs/libgcrypt:0 )  !gcrypt? ( dev-libs/openssl:0= ) 
-EAPI=6
-IUSE=debug gcrypt static-libs 
-KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=https://github.com/dun/munge/releases/download/munge-0.5.13/munge-0.5.13.tar.xz

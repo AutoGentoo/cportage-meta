@@ -1,9 +1,0 @@
-b8d84a211c8ac120211f1afdb6832ca2
-DEFINED_PHASES= configure install postinst setup
-DEPEND=|| (   ~app-mobilephone/kannel-1.5.0[mysql]   ~app-mobilephone/kannel-1.5.0[sqlite]   ~app-mobilephone/kannel-1.5.0[postgres]  )  net-libs/libnsl:0=  ssl? ( dev-libs/openssl:0 )  doc? ( media-gfx/transfig   app-text/jadetex   app-text/docbook-dsssl-stylesheets   app-text/docbook-sgml-dtd:3.1 ) 
-RDEPEND=|| (   ~app-mobilephone/kannel-1.5.0[mysql]   ~app-mobilephone/kannel-1.5.0[sqlite]   ~app-mobilephone/kannel-1.5.0[postgres]  )  net-libs/libnsl:0=  ssl? ( dev-libs/openssl:0 ) 
-EAPI=5
-IUSE=ssl doc 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://www.kannel.org/download/1.5.0/gateway-1.5.0.tar.gz

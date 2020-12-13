@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  >=virtual/perl-ExtUtils-MakeMaker-6.420.0  test? (   >=virtual/perl-File-Spec-0.800.0   >=virtual/perl-Test-Simple-0.470.0  )  
-EAPI=6
-IUSE=test 
-KEYWORDS=~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/A/AD/ADAMK/asa-1.03.tar.gz

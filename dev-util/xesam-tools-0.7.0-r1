@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install setup
-RDEPEND=dev-python/dbus-python[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  dev-python/pygobject:2[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?]  dev-python/pygtk[python_targets_python2_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_6(-),-python_single_target_python3_7(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?] 
-EAPI=5
-IUSE=examples 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=http://xesam.org/people/kamstrup/xesam-tools/xesam-tools-0.7.0.tar.gz

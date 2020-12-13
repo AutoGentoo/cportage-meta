@@ -1,9 +1,0 @@
-5c20cb564da57469de7970576479a662
-DEFINED_PHASES= postinst postrm
-BDEPEND=python_targets_python3_6? ( dev-lang/python:3.6 ) python_targets_python3_7? ( dev-lang/python:3.7 ) >=dev-lang/python-exec-2:=[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] dev-python/setuptools[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)] 
-RDEPEND=  dev-python/PyQt5[gui,opengl,widgets,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  dev-python/PySDL2[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]  media-libs/libsdl2[joystick,video]  >=games-emulation/mupen64plus-core-2.5:0/2-sdl2  7z? (   || (    dev-python/pylzma[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]    app-arch/p7zip   )  )  rar? (   || (    dev-python/rarfile[python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_python3_6(-),-python_single_target_python3_7(-)]    app-arch/unrar    app-arch/rar   )  ) 
-EAPI=7
-IUSE=7z rar 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/m64py/m64py-0.2.4.tar.gz

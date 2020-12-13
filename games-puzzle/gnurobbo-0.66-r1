@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=  media-libs/libsdl[sound,video,joystick]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  
-RDEPEND=  media-libs/libsdl[sound,video,joystick]  media-libs/sdl-image[png]  media-libs/sdl-mixer[vorbis]  media-libs/sdl-ttf  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/gnurobbo/gnurobbo-0.66-source.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?]  >=dev-haskell/syb-0.3:=[profile?] <dev-haskell/syb-0.5:=[profile?]  dev-haskell/transformers:=[profile?]  >=dev-lang/ghc-7.4.1:=   >=dev-haskell/cabal-1.8  test? ( >=dev-haskell/base-compat-0.4.2   >=dev-haskell/hspec-1.5.1   dev-haskell/hunit   >=dev-haskell/quickcheck-2.5   dev-haskell/setenv   >=dev-haskell/silently-1.2.4   >=dev-haskell/stringbuilder-0.4 )  
-RDEPEND=>=dev-haskell/ghc-paths-0.1.0.9:=[profile?]  >=dev-haskell/syb-0.3:=[profile?] <dev-haskell/syb-0.5:=[profile?]  dev-haskell/transformers:=[profile?]  >=dev-lang/ghc-7.4.1:=  
-EAPI=5
-IUSE=
-KEYWORDS=amd64 x86
-SLOT=0/0.9.12
-SRC_URI=https://hackage.haskell.org/package/doctest-0.9.12/doctest-0.9.12.tar.gz

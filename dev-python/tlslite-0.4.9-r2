@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= postinst
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ppc x86
-SLOT=0
-SRC_URI=mirror://pypi/t/tlslite/tlslite-0.4.9.tar.gz

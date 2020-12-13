@@ -1,9 +1,0 @@
-6edd14c503a5ae8d59ccdd06a62bf069
-DEFINED_PHASES= test
-DEPEND=  >=dev-perl/AnyEvent-4.0.0  >=dev-perl/Compress-LZF-3.110.0  >=dev-perl/JSON-XS-2.10.0  dev-perl/common-sense   virtual/perl-ExtUtils-MakeMaker  
-RDEPEND=  >=dev-perl/AnyEvent-4.0.0  >=dev-perl/Compress-LZF-3.110.0  >=dev-perl/JSON-XS-2.10.0  dev-perl/common-sense  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/M/ML/MLEHMANN/Deliantra-1.30.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install prepare
-DEPEND=dev-libs/json-c:0=  >=sys-apps/dbus-1.4  sys-libs/ncurses:0 
-RDEPEND=dev-libs/json-c:0=  >=sys-apps/dbus-1.4  sys-libs/ncurses:0 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://github.com/eurogiciel-oss/connman-json-client/archive/3c34b2ee62d2e188090d20e7ed2fd94bab9c47f2.tar.gz -> connman-json-client-1.0_p20150721.tar.gz

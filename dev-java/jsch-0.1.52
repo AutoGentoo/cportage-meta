@@ -1,9 +1,0 @@
-ac072bd8a431484cf06186ba80d488f2
-DEFINED_PHASES= compile install
-DEPEND=    app-arch/unzip  >=virtual/jdk-1.6 
-RDEPEND=    >=virtual/jre-1.6  zlib? ( dev-java/jzlib:0 ) 
-EAPI=5
-IUSE=zlib 
-KEYWORDS=amd64 ppc64 x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-macos ~x86-macos ~sparc-solaris ~sparc64-solaris ~x64-solaris ~x86-solaris
-SLOT=0
-SRC_URI=mirror://sourceforge/jsch/jsch-0.1.52.zip

@@ -1,8 +1,0 @@
-4710c3a35ac8b42b3488acd7263e517c
-DEFINED_PHASES=-
-DEPEND=  asm? (   abi_x86_32? ( >=dev-lang/nasm-2.13 )   abi_x86_64? ( >=dev-lang/nasm-2.13 )  ) 
-EAPI=6
-IUSE=+8bit +10bit +asm 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://code.videolan.org/videolan/dav1d/-/archive/0.1.0/dav1d-0.1.0.tar.bz2

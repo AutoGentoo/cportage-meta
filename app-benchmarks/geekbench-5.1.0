@@ -1,7 +1,0 @@
-f76334b70ebea035105ff791178860a9
-DEFINED_PHASES= install nofetch postinst
-EAPI=7
-IUSE=
-KEYWORDS=-* ~amd64
-SLOT=5
-SRC_URI=https://cdn.geekbench.com/Geekbench-5.1.0-Linux.tar.gz

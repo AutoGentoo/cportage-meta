@@ -1,7 +1,0 @@
-0ab37175006b4e313663591cb1a18edf
-DEFINED_PHASES= install postinst
-EAPI=7
-IUSE=
-KEYWORDS=-* ~amd64 ~x86
-SLOT=0
-SRC_URI=https://download.cloud.lastpass.com/linux/lplinux.tar.bz2 -> lastpass-binary-component-4.19.0.tar.bz2

@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-lang/lua:0= 
-RDEPEND=dev-lang/lua:0= 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://github.com/luaposix/luaposix/archive/release-v33.4.0.tar.gz -> luaposix-33.4.0.tar.gz

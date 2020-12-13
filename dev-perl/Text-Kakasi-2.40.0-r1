@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=>=app-i18n/kakasi-2.3.4 
-RDEPEND=>=app-i18n/kakasi-2.3.4 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ia64 ppc ppc64 sparc x86 ~amd64-linux ~x86-linux ~ppc-macos ~x86-macos ~sparc-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/D/DA/DANKOGAI/Text-Kakasi-2.04.tar.gz

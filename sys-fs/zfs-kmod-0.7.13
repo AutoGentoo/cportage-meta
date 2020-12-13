@@ -1,9 +1,0 @@
-912ca3c95e6f94bf2420fd3e5489f281
-DEFINED_PHASES= configure install postinst prepare setup
-DEPEND=  =sys-kernel/spl-0.7.13*  dev-lang/perl  virtual/awk  
-RDEPEND=  =sys-kernel/spl-0.7.13*  dev-lang/perl  virtual/awk   !sys-fs/zfs-fuse  
-EAPI=5
-IUSE=custom-cflags debug +rootfs 
-KEYWORDS=amd64
-SLOT=0
-SRC_URI=https://github.com/zfsonlinux/zfs/releases/download/zfs-0.7.13/zfs-0.7.13.tar.gz

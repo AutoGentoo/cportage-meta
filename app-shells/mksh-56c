@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install postinst test
-DEPEND=static? ( dev-libs/klibc ) 
-EAPI=5
-IUSE=static 
-KEYWORDS=amd64 ppc x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-R56c.tgz

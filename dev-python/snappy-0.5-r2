@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=>=app-arch/snappy-1.0.2 
-RDEPEND=>=app-arch/snappy-1.0.2 
-EAPI=5
-IUSE=python_targets_python2_7 python_targets_python3_6 
-KEYWORDS=amd64 arm ~arm64 x86
-SLOT=0
-SRC_URI=mirror://pypi/p/python-snappy/python-snappy-0.5.tar.gz

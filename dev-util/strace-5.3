@@ -1,9 +1,0 @@
-f2f470d6402447d8a92812acf9e78a64
-DEFINED_PHASES= configure install prepare test
-DEPEND=  static? (   unwind? ( sys-libs/libunwind[static-libs(+)] )  elfutils? ( dev-libs/elfutils[static-libs(+)] )  )  aio? ( >=dev-libs/libaio-0.3.106 )  sys-kernel/linux-headers  
-RDEPEND=  !static? (   unwind? ( sys-libs/libunwind )  elfutils? ( dev-libs/elfutils )  )  perl? ( dev-lang/perl )  
-EAPI=7
-IUSE=aio perl static unwind elfutils 
-KEYWORDS=~alpha amd64 arm arm64 hppa ia64 ~m68k ~mips ppc ppc64 ~riscv s390 ~sh sparc x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://github.com/strace/strace/releases/download/v5.3/strace-5.3.tar.xz

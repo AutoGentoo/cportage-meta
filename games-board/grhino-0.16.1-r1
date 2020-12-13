@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-DEPEND=gnome? ( =gnome-base/libgnomeui-2* )  nls? ( virtual/libintl )  nls? ( sys-devel/gettext ) 
-RDEPEND=gnome? ( =gnome-base/libgnomeui-2* )  nls? ( virtual/libintl ) 
-EAPI=6
-IUSE=gnome gtp nls 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/rhino/grhino-0.16.1.tar.gz

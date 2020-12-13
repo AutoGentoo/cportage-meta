@@ -1,10 +1,13 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure install prepare
-BDEPEND=sys-apps/texinfo 
-DEPEND=sci-libs/gsl:0= 
-RDEPEND=sci-libs/gsl:0= 
+BDEPEND=sys-apps/texinfo >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure install prepare
+DEPEND=sci-libs/gsl:0=
+DESCRIPTION=ANOVA Extensions to the GNU Scientific Library
 EAPI=7
-IUSE=
+HOMEPAGE=https://tracker.debian.org/pkg/tamuanova
 KEYWORDS=~amd64 ~x86 ~x86-linux
+LICENSE=GPL-2
+RDEPEND=sci-libs/gsl:0=
 SLOT=0
 SRC_URI=http://cdn-fastly.deb.debian.org/debian/pool/main/t/tamuanova/tamuanova_0.2.orig.tar.gz
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=d92b366c9573f3bb16d42fd3f63a0b83

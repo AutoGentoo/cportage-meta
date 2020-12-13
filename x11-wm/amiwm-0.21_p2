@@ -1,9 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= install prepare setup
-DEPEND=x11-libs/libX11  x11-libs/libXmu  x11-libs/libXext  x11-base/xorg-proto 
-RDEPEND=x11-libs/libX11  x11-libs/libXmu  x11-libs/libXext  media-gfx/xloadimage  x11-apps/xrdb  x11-apps/xsetroot  x11-terms/xterm 
-EAPI=6
-IUSE=
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=ftp://ftp.lysator.liu.se/pub/X11/wm/amiwm/amiwm0.21pl2.tar.gz

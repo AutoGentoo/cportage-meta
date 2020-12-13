@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-DEPEND=>=dev-lang/ocaml-3.12:=  dev-ml/camlp4:= 
-RDEPEND=>=dev-lang/ocaml-3.12:=  dev-ml/camlp4:= 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ppc x86
-SLOT=0
-SRC_URI=ftp://quatramaran.ens.fr/pub/ara/ocamldsort/ocamldsort-0.16.0.tar.gz

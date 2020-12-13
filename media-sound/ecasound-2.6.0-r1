@@ -1,9 +1,0 @@
-9bbe300f8695f9a63a91af1af62fb577
-DEFINED_PHASES= configure install setup
-DEPEND=python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  jack? ( media-sound/jack-audio-connection-kit )  media-libs/ladspa-sdk  audiofile? ( media-libs/audiofile )  alsa? ( media-libs/alsa-lib )  vorbis? ( media-libs/libvorbis )  libsamplerate? ( media-libs/libsamplerate )  mikmod? ( media-libs/libmikmod:0 )  ruby? ( dev-lang/ruby )  python? ( dev-lang/python )  ncurses? ( sys-libs/ncurses )  sndfile? ( media-libs/libsndfile )  sys-libs/readline 
-RDEPEND=python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  jack? ( media-sound/jack-audio-connection-kit )  media-libs/ladspa-sdk  audiofile? ( media-libs/audiofile )  alsa? ( media-libs/alsa-lib )  vorbis? ( media-libs/libvorbis )  libsamplerate? ( media-libs/libsamplerate )  mikmod? ( media-libs/libmikmod:0 )  ruby? ( dev-lang/ruby )  python? ( dev-lang/python )  ncurses? ( sys-libs/ncurses )  sndfile? ( media-libs/libsndfile )  sys-libs/readline 
-EAPI=6
-IUSE=alsa audiofile debug doc jack libsamplerate mikmod ncurses vorbis oss python ruby sndfile 
-KEYWORDS=amd64 ~ppc x86
-SLOT=1
-SRC_URI=https://ecasound.seul.org/download/ecasound-2.6.0.tar.gz

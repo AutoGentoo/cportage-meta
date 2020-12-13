@@ -1,10 +1,13 @@
-b4ba2e897aeec434ad9443ab21868dd6
-DEFINED_PHASES= prepare
-BDEPEND=>=sys-devel/m4-1.4.16  >=dev-lang/perl-5.6 >=sys-apps/texinfo-4.3 
-RDEPEND=>=sys-devel/m4-1.4.16  >=dev-lang/perl-5.6  !~sys-devel/autoconf-9999:2.5  >=sys-devel/autoconf-wrapper-13 
-PDEPEND=emacs? ( app-emacs/autoconf-mode ) 
+BDEPEND=>=sys-devel/m4-1.4.16 >=dev-lang/perl-5.6 >=sys-apps/texinfo-4.3 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DESCRIPTION=Used to create autoconfiguration files
 EAPI=7
-IUSE=emacs 
-KEYWORDS=
+HOMEPAGE=https://www.gnu.org/software/autoconf/autoconf.html
+IUSE=emacs
+LICENSE=GPL-3
+PDEPEND=emacs? ( app-emacs/autoconf-mode )
+PROPERTIES=live
+RDEPEND=>=sys-devel/m4-1.4.16 >=dev-lang/perl-5.6 >=sys-devel/autoconf-wrapper-14 sys-devel/gnuconfig !~sys-devel/autoconf-9999:2.5
 SLOT=9999
-SRC_URI=
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	toolchain-autoconf	739c1e0219b6c6464c5ce3c13a2186d8
+_md5_=9eaf63765ec50add253302d3bf761b9c

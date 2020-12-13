@@ -1,9 +1,0 @@
-52611b52a1884d11482c6e712a4763f6
-DEFINED_PHASES= configure install postinst setup
-DEPEND=>=sys-apps/keyutils-1.0:=  >=dev-libs/libgcrypt-1.2.0:0  dev-libs/nss  gpg? ( app-crypt/gpgme )  gtk? ( x11-libs/gtk+:2 )  openssl? ( >=dev-libs/openssl-0.9.7:= )  pam? ( sys-libs/pam )  pkcs11? (   >=dev-libs/openssl-0.9.7:=   >=dev-libs/pkcs11-helper-1.04  )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  tpm? ( app-crypt/trousers )  virtual/pkgconfig  sys-devel/gettext  >=dev-util/intltool-0.41.0  python? ( dev-lang/swig ) 
-RDEPEND=>=sys-apps/keyutils-1.0:=  >=dev-libs/libgcrypt-1.2.0:0  dev-libs/nss  gpg? ( app-crypt/gpgme )  gtk? ( x11-libs/gtk+:2 )  openssl? ( >=dev-libs/openssl-0.9.7:= )  pam? ( sys-libs/pam )  pkcs11? (   >=dev-libs/openssl-0.9.7:=   >=dev-libs/pkcs11-helper-1.04  )  python? ( python_single_target_python2_7? (    >=dev-lang/python-2.7.5-r2:2.7    >=dev-lang/python-exec-2:=[python_targets_python2_7]   )  )  tpm? ( app-crypt/trousers ) 
-EAPI=6
-IUSE=doc gpg gtk nls openssl pam pkcs11 python suid tpm 
-KEYWORDS=~amd64 ~arm ~ppc ~ppc64 ~x86
-SLOT=0
-SRC_URI=https://launchpad.net/ecryptfs/trunk/108/+download/ecryptfs-utils_108.orig.tar.gz

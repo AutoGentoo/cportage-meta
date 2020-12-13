@@ -1,9 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=dev-lang/perl:=[-build(-)] 
-RDEPEND=dev-lang/perl:=[-build(-)] 
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86 ~x86-solaris
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/R/RH/RHANDOM/Data-URIEncode-0.11.tar.gz

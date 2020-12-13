@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=sci-libs/suitesparseconfig  virtual/pkgconfig 
-RDEPEND=sci-libs/suitesparseconfig 
-EAPI=5
-IUSE=static-libs 
-KEYWORDS= ~amd64 ~hppa ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x86-macos
-SLOT=0
-SRC_URI=https://dev.gentoo.org/~bicatali/distfiles/btf-1.2.0.tar.bz2

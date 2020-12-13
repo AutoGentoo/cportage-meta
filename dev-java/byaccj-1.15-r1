@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile install
-EAPI=4
-IUSE=
-KEYWORDS=amd64 ~arm arm64 ppc64 x86 ~ppc-macos ~x64-macos ~x86-macos
-SLOT=0
-SRC_URI=mirror://sourceforge/byaccj/byaccj1.15_src.tar.gz

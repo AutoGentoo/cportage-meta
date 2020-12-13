@@ -1,8 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-RDEPEND=  app-arch/gzip  app-arch/unrar  app-arch/unzip  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://api.opensuse.org/public/source/openSUSE:Tools/obs-service-rearchive/rearchive -> rearchive-20130802 https://api.opensuse.org/public/source/openSUSE:Tools/obs-service-rearchive/rearchive.service -> rearchive-20130802.service

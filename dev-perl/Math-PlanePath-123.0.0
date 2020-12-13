@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=gmp? ( dev-perl/Math-BigInt-GMP )  dev-perl/Math-Libm  dev-perl/Math-NumSeq  >=dev-perl/constant-defer-5.0.0  virtual/perl-Scalar-List-Utils  virtual/perl-Math-BigInt  virtual/perl-ExtUtils-MakeMaker  test? ( virtual/perl-Test   dev-perl/Math-BigInt-Lite   dev-perl/Number-Fraction ) 
-RDEPEND=gmp? ( dev-perl/Math-BigInt-GMP )  dev-perl/Math-Libm  dev-perl/Math-NumSeq  >=dev-perl/constant-defer-5.0.0  virtual/perl-Scalar-List-Utils  virtual/perl-Math-BigInt 
-EAPI=6
-IUSE=gmp test examples 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/K/KR/KRYDE/Math-PlanePath-123.tar.gz

@@ -1,9 +1,14 @@
-5511ef205b8707ed546795ef1e3de486
-DEFINED_PHASES= configure install postinst postrm
-DEPEND=  dev-libs/openssl:0=  dev-libs/protobuf:0=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qtquickcontrols:5  dev-qt/qtwidgets:5  net-vpn/tor  dev-qt/linguist-tools:5  virtual/pkgconfig 
-RDEPEND=  dev-libs/openssl:0=  dev-libs/protobuf:0=  dev-qt/qtcore:5  dev-qt/qtdeclarative:5  dev-qt/qtgui:5  dev-qt/qtmultimedia:5  dev-qt/qtnetwork:5  dev-qt/qtquickcontrols:5  dev-qt/qtwidgets:5  net-vpn/tor 
-EAPI=6
-IUSE=debug hardened 
+BDEPEND=dev-qt/linguist-tools:5 virtual/pkgconfig
+DEFINED_PHASES=configure install postinst postrm
+DEPEND=dev-libs/openssl:0= dev-libs/protobuf:0= dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtnetwork:5 dev-qt/qtquickcontrols:5 dev-qt/qtwidgets:5 net-vpn/tor
+DESCRIPTION=Privacy-focused instant messaging through Tor hidden services
+EAPI=7
+HOMEPAGE=https://ricochet.im
+IUSE=debug hardened
 KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=dev-libs/openssl:0= dev-libs/protobuf:0= dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtnetwork:5 dev-qt/qtquickcontrols:5 dev-qt/qtwidgets:5 net-vpn/tor
 SLOT=0
 SRC_URI=https://github.com/ricochet-im/ricochet/archive/v1.1.4.tar.gz -> ricochet-1.1.4.tar.gz
+_eclasses_=estack	686eaab303305a908fd57b2fd7617800	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	4eb5e05ef7ee630c003e3f0edc094135	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=07d9b8e4f160b67f124004690214a246

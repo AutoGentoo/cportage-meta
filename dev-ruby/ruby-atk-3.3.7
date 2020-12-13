@@ -1,9 +1,15 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=virtual/pkgconfig ruby_targets_ruby24? ( dev-ruby/pkg-config[ruby_targets_ruby24] ) ruby_targets_ruby25? ( dev-ruby/pkg-config[ruby_targets_ruby25] ) ruby_targets_ruby26? ( dev-ruby/pkg-config[ruby_targets_ruby26] ) dev-libs/atk test? ( ruby_targets_ruby24? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby24] ) ruby_targets_ruby25? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby25] ) ruby_targets_ruby26? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby26] ) ) 
-RDEPEND= ruby_targets_ruby24? ( dev-lang/ruby:2.4 ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby24? ( virtual/rubygems[ruby_targets_ruby24] ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26] ) dev-libs/atk ruby_targets_ruby24? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby24] ) ruby_targets_ruby25? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby25] ) ruby_targets_ruby26? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby26] ) 
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=dev-libs/atk test? ( ruby_targets_ruby25? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby26(-)] ) ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] !!dev-ruby/psych[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] !!dev-ruby/psych[ruby_targets_ruby26(-)] ) test? ( ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] ) ) virtual/pkgconfig ruby_targets_ruby25? ( dev-ruby/pkg-config[ruby_targets_ruby25(-)] test? ( >=dev-ruby/test-unit-2[ruby_targets_ruby25(-)] ) ) ruby_targets_ruby26? ( dev-ruby/pkg-config[ruby_targets_ruby26(-)] test? ( >=dev-ruby/test-unit-2[ruby_targets_ruby26(-)] ) )
+DESCRIPTION=Ruby Atk bindings
 EAPI=6
-IUSE= test 
+HOMEPAGE=https://ruby-gnome2.osdn.jp/
+IUSE=test ruby_targets_ruby25 ruby_targets_ruby26 test test
 KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LGPL-2.1+
+RDEPEND=dev-libs/atk ruby_targets_ruby25? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( ~dev-ruby/ruby-glib2-3.3.7[ruby_targets_ruby26(-)] ) ruby_targets_ruby25? ( dev-lang/ruby:2.5 ) ruby_targets_ruby26? ( dev-lang/ruby:2.6 ) ruby_targets_ruby25? ( virtual/rubygems[ruby_targets_ruby25(-)] ) ruby_targets_ruby26? ( virtual/rubygems[ruby_targets_ruby26(-)] )
+REQUIRED_USE=|| ( ruby_targets_ruby25 ruby_targets_ruby26 )
+RESTRICT=!test? ( test ) !test? ( test ) !test? ( test )
 SLOT=0
 SRC_URI=mirror://sourceforge/ruby-gnome2/ruby-gnome2-all-3.3.7.tar.gz
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	estack	686eaab303305a908fd57b2fd7617800	multilib	d410501a125f99ffb560b0c523cd3d1e	ruby-fakegem	6ee14a23a169409059ed36d4dddc3197	ruby-ng	676004cfb6cdf3dedf1c778d56346624	ruby-ng-gnome2	bef3074f11f156e9bf5d1b45ff7fbbed	ruby-utils	927b40774937983813d360c726615e54	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=9e2d33ca12ffe7932ac9111c868b53e2

@@ -1,8 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-RDEPEND=  dev-python/pypy3-exe-bin:7.3.0  ~dev-python/pypy3-7.3.0[gdbm?,libressl?,sqlite?,tk?] 
-EAPI=7
-IUSE=gdbm libressl sqlite tk 
-KEYWORDS=~amd64 ~x86
-SLOT=0/pypy36-pp73
-SRC_URI=

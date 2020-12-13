@@ -1,9 +1,9 @@
-d41d8cd98f00b204e9800998ecf8427e
 DEFINED_PHASES=-
-DEPEND=  dev-ros/mavros_msgs  dev-ros/libmavconn  dev-ros/mavros  dev-ros/mavros_extras  
-RDEPEND=  dev-ros/mavros_msgs  dev-ros/libmavconn  dev-ros/mavros  dev-ros/mavros_extras  
-EAPI=5
-IUSE=
-KEYWORDS=
+DEPEND=dev-ros/mavros_msgs dev-ros/libmavconn dev-ros/mavros dev-ros/mavros_extras
+DESCRIPTION=Metapackage for mavros packages
+EAPI=7
+HOMEPAGE=https://wiki.ros.org/mavros
+LICENSE=metapackage
+RDEPEND=dev-ros/mavros_msgs dev-ros/libmavconn dev-ros/mavros dev-ros/mavros_extras
 SLOT=0
-SRC_URI=
+_md5_=ba14cc4e468836f16afd1bc65340dde3

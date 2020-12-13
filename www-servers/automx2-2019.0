@@ -1,9 +1,0 @@
-c5a2da1f32fb6817539f8fcc1a79ab24
-DEFINED_PHASES=-
-BDEPEND=acct-user/automx2   
-RDEPEND=acct-user/automx2   
-EAPI=7
-IUSE=doc 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://gitlab.com/automx/automx2/-/archive/2019.0/automx2-2019.0.tar.bz2

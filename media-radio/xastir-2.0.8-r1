@@ -1,9 +1,0 @@
-11ffed0e69b302480f44d57bfc302e0f
-DEFINED_PHASES= compile configure install postinst prepare
-DEPEND=>=x11-libs/motif-2.3:0  x11-libs/libXt  x11-libs/libX11  x11-libs/libXpm  x11-apps/xfontsel  dev-libs/libpcre  net-misc/curl  sys-libs/db:4.8  sci-libs/shapelib  !graphicsmagick? ( <media-gfx/imagemagick-7:0=[-hdri,-q32] )  graphicsmagick? ( media-gfx/graphicsmagick:=[-q32] )  geotiff? ( sci-libs/proj   sci-libs/libgeotiff   media-libs/tiff:0 )  gdal? ( sci-libs/gdal ) 
-RDEPEND=>=x11-libs/motif-2.3:0  x11-libs/libXt  x11-libs/libX11  x11-libs/libXpm  x11-apps/xfontsel  dev-libs/libpcre  net-misc/curl  sys-libs/db:4.8  sci-libs/shapelib  !graphicsmagick? ( <media-gfx/imagemagick-7:0=[-hdri,-q32] )  graphicsmagick? ( media-gfx/graphicsmagick:=[-q32] )  geotiff? ( sci-libs/proj   sci-libs/libgeotiff   media-libs/tiff:0 )  gdal? ( sci-libs/gdal ) 
-EAPI=5
-IUSE=gdal geotiff +graphicsmagick 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/xastir/xastir-2.0.8.tar.gz

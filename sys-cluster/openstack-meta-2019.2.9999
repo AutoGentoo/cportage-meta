@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-RDEPEND=  keystone? ( ~sys-auth/keystone-2019.2.9999 )  swift? ( ~sys-cluster/swift-2019.2.9999 )  neutron? ( ~sys-cluster/neutron-2019.2.9999 )  glance? ( ~app-admin/glance-2019.2.9999 )  cinder? ( ~sys-cluster/cinder-2019.2.9999 )  nova? ( ~sys-cluster/nova-2019.2.9999 )  heat? ( ~sys-cluster/heat-2019.2.9999 )  placement? ( ~sys-cluster/placement-2019.2.9999 )  
-EAPI=7
-IUSE=cinder glance heat keystone neutron nova placement swift 
-KEYWORDS=
-SLOT=0
-SRC_URI=

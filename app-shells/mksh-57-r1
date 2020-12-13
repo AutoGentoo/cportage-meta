@@ -1,9 +1,0 @@
-f66a72abd3b837a3ea1d7a43662e522e
-DEFINED_PHASES= compile install test
-DEPEND=  static? ( dev-libs/klibc )  test? (   dev-lang/perl   sys-apps/ed  )  
-RDEPEND=static? ( dev-libs/klibc ) 
-EAPI=7
-IUSE=static test 
-KEYWORDS=~amd64 ~ppc ~x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=http://www.mirbsd.org/MirOS/dist/mir/mksh/mksh-R57.tgz

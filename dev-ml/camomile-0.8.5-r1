@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install prepare
-DEPEND=  >=dev-lang/ocaml-3.10.2:=[ocamlopt?]  dev-ml/camlp4:=  
-RDEPEND=  >=dev-lang/ocaml-3.10.2:=[ocamlopt?]  dev-ml/camlp4:=  
-EAPI=5
-IUSE=debug +ocamlopt 
-KEYWORDS=amd64 ppc x86
-SLOT=0/0.8.5
-SRC_URI=https://github.com/yoriyuki/Camomile/releases/download/rel-0.8.5/camomile-0.8.5.tar.bz2

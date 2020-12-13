@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=  dev-ml/calendar:=  dev-ml/ocaml-cohttp:=[ocamlopt?]  dev-ml/ocaml-dispatch:=[ocamlopt(+)?]  dev-ml/ocaml-re:=[ocamlopt?]  dev-ml/ocaml-uri:=[ocamlopt(+)?]   test? ( dev-ml/ounit[ocamlopt?] )  
-RDEPEND=  dev-ml/calendar:=  dev-ml/ocaml-cohttp:=[ocamlopt?]  dev-ml/ocaml-dispatch:=[ocamlopt(+)?]  dev-ml/ocaml-re:=[ocamlopt?]  dev-ml/ocaml-uri:=[ocamlopt(+)?]  
-EAPI=5
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/0.4.0
-SRC_URI=https://github.com/inhabitedtype/ocaml-webmachine/archive/0.4.0.tar.gz -> ocaml-webmachine-0.4.0.tar.gz

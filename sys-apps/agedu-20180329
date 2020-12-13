@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure prepare
-DEPEND=doc? ( app-doc/halibut ) 
-EAPI=6
-IUSE=doc ipv6 
-KEYWORDS=~amd64 ~x86
-SLOT=0
-SRC_URI=https://www.chiark.greenend.org.uk/~sgtatham/agedu/agedu-20180329.af641e6.tar.gz -> agedu-20180329.af641e6.tar.gz

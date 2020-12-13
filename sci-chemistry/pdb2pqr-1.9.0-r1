@@ -1,9 +1,0 @@
-cc6579e8f5035108e7a50caaca692739
-DEFINED_PHASES= compile configure install prepare setup test
-DEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  sci-chemistry/openbabel-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  opal? ( dev-python/zsi[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  pdb2pka? ( sci-chemistry/apbs[python_targets_python2_7(-)?,-python_single_target_python2_7(-),-mpi] )  dev-lang/swig:0 
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  dev-python/numpy[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  sci-chemistry/openbabel-python[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  opal? ( dev-python/zsi[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )  pdb2pka? ( sci-chemistry/apbs[python_targets_python2_7(-)?,-python_single_target_python2_7(-),-mpi] ) 
-EAPI=5
-IUSE=doc examples opal +pdb2pka 
-KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
-SLOT=0
-SRC_URI=https://github.com/Electrostatics/apbs-pdb2pqr/releases/download/pdb2pqr-1.9.0/pdb2pqr-src-1.9.0.tar.gz

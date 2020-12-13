@@ -1,7 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= compile configure install prepare
-EAPI=6
-IUSE=static native-cflags 
-KEYWORDS=~amd64 ~ppc64 ~x64-macos ~sparc-solaris ~x64-solaris
-SLOT=0
-SRC_URI=https://github.com/BLAKE2/libb2/archive/0d7015f6a640a63bc6c68562328e112445ea9d5c.tar.gz -> libb2-0.98.tar.gz

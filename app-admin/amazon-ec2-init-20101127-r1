@@ -1,8 +1,9 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install postinst
-RDEPEND=net-misc/wget 
+DEFINED_PHASES=install postinst
+DESCRIPTION=Init script to setup Amazon EC2 instance parameters
 EAPI=6
-IUSE=
+HOMEPAGE=https://wiki.gentoo.org/wiki/No_homepage
 KEYWORDS=-* ~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=net-misc/wget
 SLOT=0
-SRC_URI=
+_md5_=9b651162b4f0fc9a943f4aea322bac78

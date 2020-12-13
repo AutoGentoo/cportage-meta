@@ -1,9 +1,0 @@
-9cd5b5ae2b8bd1ac3ff4e242b3564932
-DEFINED_PHASES= postinst preinst unpack
-BDEPEND=virtual/pkgconfig 
-RDEPEND=  virtual/logger  virtual/mta  selinux? ( sec-policy/selinux-fail2ban )  systemd? ( python_single_target_python2_7? (     || (   dev-python/python-systemd[python_targets_python2_7(-)?,python_single_target_python2_7(+)?,python_targets_python3_6(-)?,python_single_target_python3_6(+)?]   sys-apps/systemd[python(-),python_targets_python2_7(-)?,python_single_target_python2_7(+)?,python_targets_python3_6(-)?,python_single_target_python3_6(+)?]  ) ) python_single_target_python3_6? (     || (   dev-python/python-systemd[python_targets_python2_7(-)?,python_single_target_python2_7(+)?,python_targets_python3_6(-)?,python_single_target_python3_6(+)?]   sys-apps/systemd[python(-),python_targets_python2_7(-)?,python_single_target_python2_7(+)?,python_targets_python3_6(-)?,python_single_target_python3_6(+)?]  ) ) )  
-EAPI=7
-IUSE=selinux systemd 
-KEYWORDS=~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~sparc ~x86
-SLOT=0
-SRC_URI=https://github.com/fail2ban/fail2ban/tarball/0.10.4 -> fail2ban-0.10.4.tar.gz

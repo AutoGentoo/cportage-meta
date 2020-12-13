@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= prepare
-DEPEND=  =net-libs/zeromq-3*  dev-perl/ZMQ-Constants  virtual/perl-XSLoader    dev-perl/Task-Weaken  virtual/perl-ExtUtils-MakeMaker  virtual/pkgconfig  test? (   dev-perl/Test-Requires   dev-perl/Test-Fatal   dev-perl/Test-TCP   virtual/perl-Test-Simple  )  
-RDEPEND=  =net-libs/zeromq-3*  dev-perl/ZMQ-Constants  virtual/perl-XSLoader  
-EAPI=6
-IUSE=test 
-KEYWORDS=amd64 hppa ppc ppc64 sparc x86
-SLOT=0
-SRC_URI=mirror://cpan/authors/id/D/DM/DMAKI/ZMQ-LibZMQ3-1.19.tar.gz

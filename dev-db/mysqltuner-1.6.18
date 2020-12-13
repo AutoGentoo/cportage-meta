@@ -1,8 +1,10 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=dev-lang/perl  virtual/perl-Getopt-Long  virtual/mysql 
+DEFINED_PHASES=install
+DESCRIPTION=MySQLTuner is a high-performance MySQL tuning script
 EAPI=6
-IUSE=
+HOMEPAGE=http://www.mysqltuner.com/
 KEYWORDS=amd64 x86
+LICENSE=GPL-3
+RDEPEND=dev-lang/perl virtual/perl-Getopt-Long virtual/mysql
 SLOT=0
 SRC_URI=https://github.com/major/MySQLTuner-perl/archive/1.6.18.tar.gz -> mysqltuner-1.6.18.tar.gz
+_md5_=87cad36c7eb889154efc4188a97d2a84

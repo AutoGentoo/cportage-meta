@@ -1,9 +1,0 @@
-0fb6d55a3c0ed2dd6216986fd895a15c
-DEFINED_PHASES= compile configure install
-DEPEND=dev-perl/TimeDate  dev-perl/XML-Parser  >=dev-perl/MP3-Info-1.01  dev-perl/Unicode-String  dev-perl/Digest-SHA1  dev-perl/libwww-perl  ffmpeg? ( virtual/ffmpeg )  flac? ( dev-perl/Audio-FLAC-Header      media-libs/flac      aac?  ( >=media-libs/faac-1.24 )      mp3?  ( media-sound/lame )      !aac? ( media-sound/lame ) )  ogg? ( dev-perl/Ogg-Vorbis-Header-PurePerl      media-sound/vorbis-tools      aac?  ( >=media-libs/faac-1.24 )      mp3?  ( media-sound/lame )      !aac? ( media-sound/lame ) ) 
-RDEPEND=dev-perl/TimeDate  dev-perl/XML-Parser  >=dev-perl/MP3-Info-1.01  dev-perl/Unicode-String  dev-perl/Digest-SHA1  dev-perl/libwww-perl  ffmpeg? ( virtual/ffmpeg )  flac? ( dev-perl/Audio-FLAC-Header      media-libs/flac      aac?  ( >=media-libs/faac-1.24 )      mp3?  ( media-sound/lame )      !aac? ( media-sound/lame ) )  ogg? ( dev-perl/Ogg-Vorbis-Header-PurePerl      media-sound/vorbis-tools      aac?  ( >=media-libs/faac-1.24 )      mp3?  ( media-sound/lame )      !aac? ( media-sound/lame ) ) 
-EAPI=5
-IUSE=aac ffmpeg flac mp3 ogg 
-KEYWORDS=amd64 ppc ppc64 x86
-SLOT=0
-SRC_URI=http://blinkenlights.ch/gnupod-dist/stable/gnupod-0.99.8.tgz

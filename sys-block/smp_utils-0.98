@@ -1,8 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES=-
-DEPEND=>=app-portage/elt-patches-20170815 
-EAPI=4
-IUSE=static-libs 
-KEYWORDS=~amd64 ~ppc ~x86
-SLOT=0
-SRC_URI=http://sg.danny.cz/sg/p/smp_utils-0.98.tgz

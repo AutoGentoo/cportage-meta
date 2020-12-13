@@ -1,9 +1,0 @@
-49ca48bbd0ee131f12cb18c2135529be
-DEFINED_PHASES= compile install postinst prepare setup
-DEPEND=acct-group/gamestat  sys-libs/ncurses:0=  X? (   x11-libs/libXaw   x11-libs/libXpm   x11-libs/libXt  )  virtual/pkgconfig  X? (   x11-base/xorg-proto   x11-apps/bdftopcf   >=x11-apps/mkfontscale-1.2.0  ) 
-RDEPEND=acct-group/gamestat  sys-libs/ncurses:0=  X? (   x11-libs/libXaw   x11-libs/libXpm   x11-libs/libXt  ) 
-EAPI=6
-IUSE=experimental X 
-KEYWORDS=~amd64 ~arm ~hppa ~x86
-SLOT=0
-SRC_URI=mirror://sourceforge/nethack/nethack-360-src.tgz

@@ -1,9 +1,0 @@
-552dacb15f2019c8f3f74c55befa242c
-DEFINED_PHASES= install
-DEPEND=>=dev-games/ode-0.7  >=dev-python/pyrex-0.9.4.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-RDEPEND=>=dev-games/ode-0.7  >=dev-python/pyrex-0.9.4.1[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] 
-EAPI=5
-IUSE=examples 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=mirror://sourceforge/pyode/PyODE-snapshot-2010-03-22.tar.bz2

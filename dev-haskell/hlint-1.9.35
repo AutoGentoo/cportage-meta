@@ -1,9 +1,0 @@
-a8f742763354b04e097e88e262e29254
-DEFINED_PHASES= compile configure install postinst postrm
-DEPEND=>=dev-haskell/ansi-terminal-0.6.2:=[profile?]  >=dev-haskell/cmdargs-0.10:=[profile?]  >=dev-haskell/cpphs-1.20.1:=[profile?]  >=dev-haskell/extra-1.4.9:2=[profile?]  >=dev-haskell/haskell-src-exts-1.17:=[profile?] <dev-haskell/haskell-src-exts-1.18:=[profile?]  >=dev-haskell/refact-0.3:=[profile?]  dev-haskell/transformers:=[profile?]  >=dev-haskell/uniplate-1.5:=[profile?]  >=dev-lang/ghc-7.4.1:=  emacs? ( >=app-editors/emacs-23.1:* )  gpl? ( >=dev-haskell/hscolour-1.21:=[profile?] )   >=dev-haskell/cabal-1.8  
-RDEPEND=>=dev-haskell/ansi-terminal-0.6.2:=[profile?]  >=dev-haskell/cmdargs-0.10:=[profile?]  >=dev-haskell/cpphs-1.20.1:=[profile?]  >=dev-haskell/extra-1.4.9:2=[profile?]  >=dev-haskell/haskell-src-exts-1.17:=[profile?] <dev-haskell/haskell-src-exts-1.18:=[profile?]  >=dev-haskell/refact-0.3:=[profile?]  dev-haskell/transformers:=[profile?]  >=dev-haskell/uniplate-1.5:=[profile?]  >=dev-lang/ghc-7.4.1:=  emacs? ( >=app-editors/emacs-23.1:* )  gpl? ( >=dev-haskell/hscolour-1.21:=[profile?] )  
-EAPI=5
-IUSE=emacs +gpl 
-KEYWORDS=~amd64 ~x86
-SLOT=0/1.9.35
-SRC_URI=https://hackage.haskell.org/package/hlint-1.9.35/hlint-1.9.35.tar.gz

@@ -1,9 +1,0 @@
-a85047b7c98fc5fb7f288fe1cd53f249
-DEFINED_PHASES= compile install prepare
-DEPEND=  mpi? (   virtual/blas   virtual/lapack   virtual/mpi  )  gzip? ( app-arch/gzip )  sci-libs/voro++  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )   
-RDEPEND=  mpi? (   virtual/blas   virtual/lapack   virtual/mpi  )  gzip? ( app-arch/gzip )  sci-libs/voro++  python? ( python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)] )   
-EAPI=5
-IUSE=doc examples gzip lammps-memalign mpi python static-libs 
-KEYWORDS=amd64 x86
-SLOT=0
-SRC_URI=https://lammps.sandia.gov/tars/lammps-15May15.tar.gz

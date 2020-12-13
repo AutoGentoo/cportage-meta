@@ -1,8 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-RDEPEND=>=dev-lang/perl-5.8.0 
-EAPI=5
-IUSE=
-KEYWORDS=amd64 ~ppc x86 ~amd64-linux
-SLOT=0
-SRC_URI=mirror://sourceforge/simple-evcorr/sec-2.7.6.tar.gz

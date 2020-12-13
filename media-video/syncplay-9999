@@ -1,8 +1,0 @@
-6bc5d8e5e737c4dd07872b2bcf3ae2dd
-DEFINED_PHASES= compile install postinst prepare
-RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  || (   >=dev-python/twisted-16.0.0[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]   dev-python/twisted-core[python_targets_python2_7(-)?,-python_single_target_python2_7(-)]  )  vlc? ( media-video/vlc[lua] ) 
-EAPI=6
-IUSE=+client +server vlc 
-KEYWORDS=
-SLOT=0
-SRC_URI=

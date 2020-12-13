@@ -1,9 +1,12 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES=-
-DEPEND=app-emacs/hexrgb  sys-apps/texinfo 
-RDEPEND=app-emacs/hexrgb 
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=app-emacs/hexrgb sys-apps/texinfo >=app-editors/emacs-23.1:*
+DESCRIPTION=A Jabber client for Emacs
 EAPI=5
-IUSE=
+HOMEPAGE=http://emacs-jabber.sourceforge.net/ https://www.emacswiki.org/emacs/JabberEl
 KEYWORDS=amd64 ppc sparc x86
+LICENSE=GPL-2+
+RDEPEND=app-emacs/hexrgb >=app-editors/emacs-23.1:*
 SLOT=0
 SRC_URI=mirror://sourceforge/emacs-jabber/emacs-jabber-0.8.92.tar.xz
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	34cc2b6f6d8914019a353fe39cff43ce	epatch	e8f1ec13660dc2f44b32775765d85e42	estack	686eaab303305a908fd57b2fd7617800
+_md5_=245c6dc4f9563e577abbe8fa01a8d4e9

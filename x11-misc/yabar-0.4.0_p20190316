@@ -1,9 +1,0 @@
-705dd38cfff32ea9468e32a45d952a62
-DEFINED_PHASES= compile install postinst prepare
-DEPEND=  app-text/asciidoc  dev-libs/libconfig:=  media-libs/alsa-lib  net-wireless/wireless-tools  x11-libs/cairo[xcb]  x11-libs/gdk-pixbuf:2  x11-libs/libxkbcommon[X]  x11-libs/pango  x11-libs/xcb-util-wm  playerctl? ( media-sound/playerctl )  
-RDEPEND=  app-text/asciidoc  dev-libs/libconfig:=  media-libs/alsa-lib  net-wireless/wireless-tools  x11-libs/cairo[xcb]  x11-libs/gdk-pixbuf:2  x11-libs/libxkbcommon[X]  x11-libs/pango  x11-libs/xcb-util-wm  playerctl? ( media-sound/playerctl )  
-EAPI=7
-IUSE=playerctl 
-KEYWORDS=~amd64
-SLOT=0
-SRC_URI=https://github.com/geommer/yabar/archive/a0d3fdfed992149b741eb8fcf53f02b5d1a6142e.tar.gz -> yabar-0.4.0_p20190316.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= install
-DEPEND=  dev-lang/ocaml:=  dev-ml/core_kernel:=  dev-ml/ppx_driver:=  dev-ml/ppx_jane:=  dev-ml/ocaml-migrate-parsetree:=  <dev-ml/ppx_jane-100  <dev-ml/ppx_driver-100  dev-ml/opam dev-ml/jbuilder 
-RDEPEND=  dev-lang/ocaml:=  dev-ml/core_kernel:=  dev-ml/ppx_driver:=  dev-ml/ppx_jane:=  dev-ml/ocaml-migrate-parsetree:=  <dev-ml/ppx_jane-100  <dev-ml/ppx_driver-100  
-EAPI=6
-IUSE=
-KEYWORDS=~amd64
-SLOT=0/0.9.0
-SRC_URI=https://github.com/janestreet/incremental_kernel/archive/v0.9.0.tar.gz -> incremental_kernel-0.9.0.tar.gz

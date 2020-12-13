@@ -1,7 +1,10 @@
-d41d8cd98f00b204e9800998ecf8427e
-DEFINED_PHASES= install
+DEFINED_PHASES=install
+DESCRIPTION=Clashscore-db for clashlist
 EAPI=5
-IUSE=
+HOMEPAGE=http://kinemage.biochem.duke.edu/
 KEYWORDS=amd64 x86 ~amd64-linux ~x86-linux
+LICENSE=richardson
+RESTRICT=binchecks strip
 SLOT=0
 SRC_URI=mirror://gentoo/molprobity-3.17.tgz
+_md5_=8e50cf9b659f262273d93489c3a0baed

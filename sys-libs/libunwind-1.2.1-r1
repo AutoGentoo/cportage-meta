@@ -1,9 +1,0 @@
-4911ea87efeb2fb7c815e3a618888436
-DEFINED_PHASES= prepare
-DEPEND=lzma? ( app-arch/xz-utils )  libatomic? ( dev-libs/libatomic_ops ) 
-RDEPEND=lzma? ( app-arch/xz-utils ) 
-EAPI=6
-IUSE=debug debug-frame doc libatomic lzma +static-libs 
-KEYWORDS=amd64 arm arm64 hppa ia64 ~mips ppc ppc64 -sparc x86 ~amd64-linux ~x86-linux
-SLOT=7
-SRC_URI=mirror://nongnu/libunwind/libunwind-1.2.1.tar.gz

@@ -1,9 +1,0 @@
-01abfc750a0c942167651c40d088531d
-DEFINED_PHASES= configure
-DEPEND=>=x11-themes/hicolor-icon-theme-0.10  >=dev-util/intltool-0.40  >=x11-misc/icon-naming-utils-0.8.7:0  sys-devel/gettext:*  virtual/pkgconfig:* 
-RDEPEND=>=x11-themes/hicolor-icon-theme-0.10 
-EAPI=6
-IUSE=
-KEYWORDS=amd64 ~arm ~arm64 x86
-SLOT=0
-SRC_URI=https://pub.mate-desktop.org/releases/1.22/mate-icon-theme-1.22.0.tar.xz
